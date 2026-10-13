@@ -1,0 +1,157 @@
+
+===== PAGE 1 =====
+1 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP DEPARTEMENT OF STATISTICS AND ACTUARIAL SCIENCE  STATISTIEK EN DATAWETENSKAP 188 STATISTICS AND DATA SCIENCE 188  TUTORIAAL 6 / TUTORIAL 6 Probleem	1	/	Problem	1	 a) P(𝑍<1.57)=0.9418  b) P(𝑍<1.84)=0.9671  c) P(𝑍>1.84)=1−P(𝑍<1.84)=1−0.9671=0.0329  d)    e)    Probleem	2	/	Problem	2	 a) P(𝑍>1.08)=1−P(𝑍<1.08)=1−0.8599=0.1401  b) P(𝑍<−0.21)=0.4168  c)    d)     Probleem	3	/	Problem	3	𝑋~𝑁(𝜇=50;	𝜎!=4!)										⟹										𝑍=𝑋−504  a)     b)     
+P(1.57<𝑍<1.84)=P(𝑍<1.84)−P(𝑍<1.57)	=0.9671−0.9418=0.0253 P(𝑍<1.57	𝑜𝑟	𝑍>1.84)=P(𝑍<1.57)+P(𝑍>1.84)−P(𝑍<1.57	𝑎𝑛𝑑	𝑍>1.84)	=0.9418+0.0329+0=0.9747 
+P(−1.96<𝑍<−0.21)=P(𝑍<−0.21)−P(𝑍<−1.96)	=0.4168−0.0250=0.3918 1−P(𝑍<𝑧")=0.1587	P(𝑍<𝑧")=1−0.1587=0.8413	⟹𝑧"=1.00 
+P(𝑋>43)=PC𝑍>43−504D=P(𝑍>−1.75)	=1−P(𝑍<−1.75)=1−0.0401=0.9599 P(𝑋<42)=PC𝑍<42−504D=P(𝑍<−2.00)=0.0228 
+===== PAGE 2 =====
+2 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+c)      d)                   Probleem	4	/	Problem	4	𝑋	~	𝑁(𝜇=73,		𝜎!=8!)  a)    b)     c)           d)       
+P(65<𝑋<89)=PC65−738<𝑍<89−738D=P(−1<𝑍<2)	=P(𝑍<2)−P(𝑍<−1)=0.9772−0.1587=0.8185 P(𝑍>𝑧#)=0.05	1−P(𝑍<𝑧#)=0.05	P(𝑍<𝑧#)=1−0.05=0.95 	
+											𝑧#=1.64+1.652=1.645			
+					1.645=𝑥#−738			
+𝑥#=8×1.645+73=86.160 P(𝑍>𝑧")=0.10					⟹					1−P(𝑍<𝑧")=0.10	P(𝑍<𝑧")=1−0.10=0.90					⟹					𝑧"=1.28 
+P(𝑍<𝑧")=0.05							⇒								𝑧"=−1.64+(−1.65)2=−1.645	⇒−1.645=𝑋−504								⇒								𝑋=4×(−1.645)+50=43.42 
+Inleidende Statistiek / Introductory Statistics: 
+P(𝑧"<𝑍<0)+P(0<𝑍<𝑧!)=0.60			
+P(𝑧"<𝑍<0)=0.602=0.30										𝑎𝑛𝑑									P(0<𝑍<𝑧!)=0.602=0.30 Geval 1 / Case 1:  P(𝑧"<𝑍<0)=0.30 	
+P(𝑍<0)−P(𝑍<𝑧")=0.30 	
+0.50−P(𝑍<𝑧")=0.30			
+P(𝑍<𝑧")=0.50−0.30=0.20			
+∴𝑧"=−0.84 Dus, / Therefore,  
+−0.84=𝑥"−504 	⟹𝑥"=4×(−0.84)+50=46.64 
+Geval 2 / Case 2:  P(0<𝑍<𝑧!)=0.30 	
+P(𝑍<𝑧!)−P(𝑍<0)=0.30 	
+P(𝑍<𝑧!)−0.50=0.30			
+P(𝑍<𝑧!)=0.50+0.30=0.80			
+∴𝑧!=0.84 Dus, / Therefore,  
+0.84=𝑥!−504 	⟹𝑥!=4×0.84+50=53.36 ∴46.64<𝑋<53.36 
+P(𝑋<91)=PC𝑍<91−738D=P(𝑍<2.25)=0.9878 
+81−738=1<1.28 Ander Kursus / Other Course: 68−623=2>1.28 
+===== PAGE 3 =====
+3 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+Met ’n punt van 68% in die ander kursus verdien ’n student ’n onderskeiding, terwyl ’n punt van 81% nie ’n onderskeiding in die inleidende statistiek-kursus behaal nie. Daarom is ’n student beter af met ’n 68% punt in die ander kursus. / A mark of 68% in the other course will earn a student a distinction while a mark of 81% will not earn a distinction in the introductory statistics course. Therefore, a student is better off with a 68% score in the other course.  Probleem	5	/	Problem	5	   a)      b)          c)              Probleem	6	/	Problem	6	 Die totale oppervlakte onder die normale digtheidskurwe = 1. Dit wil sê,  P(−∞<𝑍<∞)=1. Om ses eweredig verdeelde waardes te kry, moet die totale digtheid dus in sewe (= 6 + 1) gelyke dele verdeel word. Sodat,/ The total area under the normal density curve =1. That is, P(−∞<𝑍<∞)=1. Therefore, to get six evenly distributed values requires dividing the total density into seven (=6+1) equal slices. So that,   
+𝑋	~	𝑁(𝜇=22.002,		𝜎!=0.005!)										⟹										𝑍=𝑋−22.0020.005 P(21.99<𝑋<22.01)=PC21.990−22.0020.005<𝑍<22.010−22.0020.005D			 =P(−2.4<𝑍<1.6)=P(𝑍<1.6)−P(𝑍<−2.4)			 =0.9452−0.0082=0.9370 P(𝑍>𝑧#)=0.02	1−P(𝑍<𝑧#)=0.02	P(𝑍<𝑧#)=1−0.02=0.98	𝑧#=2.05  
+2.05=𝑥#−22.0020.005			𝑥#=2.05×0.005+22.002=22.0123𝑚𝑚 𝑋	~	𝑁(𝜇=22.002,		𝜎!=0.004!)										⟹										𝑍=𝑋−22.0020.004 P(21.99<𝑋<22.01)=PC21.990−22.0020.004<𝑍<22.010−22.0020.004D			 =P(−3<𝑍<2)=P(𝑍<2)−P(𝑍<−3)			 =0.97720−0.00135≈0.9759 																					2.05=𝑥#−22.0020.004			𝑥#=2.05×0.004+22.002=22.0102𝑚𝑚 
+===== PAGE 4 =====
+4 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+          Probleem	7	/	Problem	7	                    Probleem	8	/	Problem	8	    a)     b)       c)      d)  
+Die totale oppervlakte onder die normale digtheidskurwe = 1. Dit wil sê, P(−∞<𝑍<∞)=1. Om 39 waardes te vind wat eweredig versprei is, moet jy die totale digtheid in veertig (= 39 + 1) gelyke dele verdeel. Sodat die twee ekstreme waardes (𝑧" en 𝑧$%) sodanig sal wees dat/ The total area under the normal density curve =1. That is, P(−∞<𝑍<∞)=1. Therefore, for there to be 39 evenly spread values, one needs to divide the total density into forty (=39+1) equal slices. So that the two extreme values (𝑧" and 𝑧$%) will be such that,  
+P(𝑍<𝑧")=140N				∎			P(𝑍<𝑧$%)=3940N			P(𝑍<𝑧")=0.025			∎			P(𝑍<𝑧$%)=0.975			 	𝑧"=−1.96		∎																				𝑧$%=+1.96 
+P(𝑍<𝑧")=17N=0.1429			⟹			𝑧"=−1.07  	
+P(𝑍<𝑧!)=27N=0.2857			⟹			𝑧!=−0.57  	
+P(𝑍<𝑧$)=37N=0.4286			⟹			𝑧$=−0.18  	
+P(𝑍<𝑧&)=47N=0.5714			⟹			𝑧&=+0.18  	
+P(𝑍<𝑧')=57N=0.7143			⟹			𝑧'=+0.57  	
+P(𝑍<𝑧()=67N=0.8571			⟹			𝑧(=+1.07 
+𝑋	~	𝑈𝑛𝑖𝑓𝑜𝑟𝑚(𝑎=0,			𝑏=10)			⟹			P(𝑋<𝑡)=𝑡−𝑎𝑏−𝑎=𝑡−010−0;				0≤𝑡≤10	  
+𝜇=𝑎+𝑏2=0+102=5 
+𝜎=V(𝑏−𝑎)!12=V(10−0)!12≈2.8868 
+P(5<𝑋<7)=P(𝑋<7)−P(𝑋<5)	=7−010−0−5−010−0=210=0.20 P(2<𝑋<3)=P(𝑋<3)−P(𝑋<2)	=3−010−0−2−010−0=110=0.10 
+===== PAGE 5 =====
+5 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+Probleem	9	/	Problem	9	   a)   b)     c)     d)       Probleem	10	/	Problem	10	  a)   b)   c)     d)     Probleem	11	/	Problem	11	  a)   b)   c)       
+𝑋	~	𝑈𝑛𝑖𝑓𝑜𝑟𝑚(𝑎=3.5,𝑏=5.5)			⟹			P(𝑋<𝑡)=𝑡−𝑎𝑏−𝑎=𝑡−3.55.5−3.5;					3.5≤𝑡≤5.5 P(𝑋<4.5)=4.5−3.55.5−3.5=12=0.50 P(𝑋>4.0)=1−P(𝑋<4.0)			
+=1−4.0−3.55.5−3.5=1−0.25=0.75 P(4.0<𝑋<4.5)=P(𝑋<4.5)−P(𝑋<4.0)			 =0.50−0.25=0.25 𝜇=𝑎+𝑏2=3.5+5.52=4.50	mins 
+𝜎=V(𝑏−𝑎)!12=V(5.5−3.5)!12≈0.5774	mins=34.64	secs 
+𝑋	~	𝐸𝑥𝑝(𝜆=10)			⟹			P(𝑋<𝑡)=1−𝑒!"#=1−𝑒!$%#;					𝑡≥0 
+P(𝑋>0.10)=1−P(𝑋<0.10)≈1−0.6321=0.3679 P(0.10<𝑋<0.20)=P(𝑋<0.20)−P(𝑋<0.10)			 =1−𝑒!$%×%.(%−P(𝑋<0.10)			 ≈0.8647−0.6321=0.2326 P(𝑋<0.10	𝑜𝑟	𝑋>0.20)=P(𝑋<0.10)+P(𝑋>0.20)−P(𝑋<0.10	𝑎𝑛𝑑	𝑋>0.20)			 =P(𝑋<0.10)+P(𝑋>0.20)−0=P(𝑋<0.10)+1−P(𝑋<0.20)			 ≈0.6321+1−0.8647=0.7674 
+P(𝑋<0.10)=1−𝑒!$%×%.$%≈0.6321 
+P(𝑋<0.30)=1−𝑒!)×%.*%≈0.7769 𝑋	~	𝐸𝑥𝑝(𝜆=5)			⟹			P(𝑋<𝑡)=1−𝑒!"#=1−𝑒!)#;					𝑡≥0 
+P(𝑋>0.30)=1−P(𝑋<0.30)≈1−0.7769=0.2231 P(𝑋>0.30	&	𝑋<0.50)=P(0.30<𝑋<0.50)			 =P(𝑋<0.50)−P(𝑋<0.30)			 =1−𝑒!)×%.)%−P(𝑋<0.30)			 ≈0.9179−0.7769=0.1410 
+===== PAGE 6 =====
+6 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+d)      Probleem	12	/	Problem	12	  a)   b)   c)      Waarskynlikhede verhoog / Probabilities increase.  d)      Waarskynlikhede verminder / Probabilities decrease.  Probleem	13	/	Problem	13	   a)   b)   c)    Probleem	14	/	Problem	14	 Laat 𝑋)=𝑋 benaderd / Let 𝑋)=𝑋 approximate.        
+P(𝑋≤0.05)=1−𝑒!)%(%.%))≈0.9179 
+P(𝑋<0.30	𝑜𝑟	𝑋>0.50)=P(𝑋<0.30)+P(𝑋>0.50)−P(𝑋<0.30	𝑎𝑛𝑑	𝑋>0.50)			 =P(𝑋<0.30)+P(𝑋>0.50)−0=P(𝑋<0.30)+1−P(𝑋<0.50)			 ≈0.7769+1−0.9179=0.8590 
+𝑋	~	𝐸𝑥𝑝(𝜆=50/𝑚𝑖𝑛)			⟹			P(𝑋<𝑡)=1−𝑒!"#=1−𝑒!)%#;					𝑡≥0 
+PO𝑋≤160P=1−𝑒!)%($-%⁄)≈0.5654 𝑋	~	𝐸𝑥𝑝(𝜆=60)   P(𝑋≤0.05)=1−𝑒*(#(#.#')≈0.9502  	
+PC𝑋≤160D=1−𝑒*(#."(#/≈0.6321 
+𝑋	~	𝐸𝑥𝑝(𝜆=30)   P(𝑋≤0.05)=1−𝑒*$#(#.#')≈0.7769  	
+PC𝑋≤160D=1−𝑒*$#."(#/≈0.3935 
+𝑋	~	𝐸𝑥𝑝O𝜆=1260=0.20/𝑚𝑖𝑛P			⟹			P(𝑋<𝑡)=1−𝑒!"#=1−𝑒!%.(%#;					𝑡≥0 P(𝑋<1)=1−𝑒!%.(%($)≈0.1813 P(𝑋<3)=1−𝑒!%.(%(*)≈0.4512 P(𝑋>6)=1−P(𝑋<6)=1−Q1−𝑒!%.(%(-)R≈0.3012 
+𝑋~𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(𝑛,𝜋)=𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(100,0.20)  
+𝑋)	~	𝑁(𝑛𝜋;𝑛𝜋[1−𝜋])=𝑁(100×0.20;		100×0.20×0.80)  
+𝑋)	~	𝑁(20;		4!)					⟹					𝑍=𝑋)−204 
+===== PAGE 7 =====
+7 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+a)       b)   c)   d)   Probleem	15	/	Problem	15	 Laat 𝑋)=𝑋 benaderd / Let 𝑋)=𝑋 approximate.       a)      b)   c)   d)   Probleem	16	/	Problem	16	 Laat 𝑋= gebeurtenis “head” word waargeneem. / Let 𝑋= event head is observed. Laat 𝑋)=𝑋 benaderd / Let 𝑋)=𝑋 approximate.  Eksakte Binomiaal Benadering / Exact Binomial Estimation:      a)     
+P(𝑋=25)≈P(24.5<𝑋/<25.5)=P(𝑋/<25.5)−P(𝑋/<24.5)			
+=PO𝑍<25.5−204P−PO𝑍<24.5−204P			
+=P(𝑍<1.38)−P(𝑍<1.13)=0.9162−0.8708=0.0454 
+P(𝑋≤25)≈P(𝑋)<25.5)=P(𝑍<1.38)=0.9162 P(𝑋<25)=P(𝑋≤24)≈P(𝑋)<24.5)=0.8708 
+P(𝑋>25)=1−P(𝑋≤25)≈1−P(𝑋)<25.5)≈1−0.9162=0.0838 
+𝑋~𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(𝑛,𝜋)=𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(100,0.40)  
+𝑋)	~	𝑁(𝑛𝜋;𝑛𝜋[1−𝜋])=𝑁(100×0.40;		100×0.40×0.60)   
+𝑋)	~	𝑁(40;24)					⟹					𝑍=𝑋)−40√24 
+P(𝑋<40)=P(𝑋≤39)≈P(𝑋)<39.5)=P(𝑍<−0.10)=0.4602 P(𝑋≤40)≈P(𝑋)<40.5)=P(𝑍<0.10)=0.5398 P(𝑋>40)=1−P(𝑋≤40)≈1−P(𝑋)<40.5)≈1−0.5398=0.4602 
+P(𝑋=40)≈P(39.5<𝑋/<40.5)=P(𝑋/<40.5)−P(𝑋/<39.5)			
+=PO𝑍<40.5−40√24P−PO𝑍<39.5−40√24P			
+=P(𝑍<0.10)−P(𝑍<−0.10)=0.5398−0.4602=0.0796 
+𝑋	~	𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(𝑛,𝜋)=𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(12,0.50) P(𝑋=𝑘)=C12𝑘D0.500(1−0.50)"!*0 
+P(𝑋=4)=C124D0.50&(1−0.50)"!*&≈0.1208 
+===== PAGE 8 =====
+8 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+b)      c)      Normaal Benadering/ Normal Approximation:      a)      b)   c)      Probleem	17	/	Problem	17	 Laat 𝑋= gebeurtenis passasiers sal pretzels vir nagereg kies. / Let 𝑋= event passenger chooses pretzels for dessert.  Laat 𝑋)=𝑋 benader / Let 𝑋)=𝑋 approximate.         a)     
+P(𝑋≥4)=1−P(𝑋≤3)=1−[P(𝑋=0)+P(𝑋=1)+P(𝑋=2)+P(𝑋=3)]			
+=1−C120D0.50"!−C121D0.50"!−C122D0.50"!−C123D0.50"!			
+≈1−0.0002−0.0029−0.0161−0.0537=0.9271 P(5≤𝑋≤7)=P(𝑋=5)+P(𝑋=6)+P(𝑋=7)			
+=C125D0.50'×0.50"!*'+C126D0.50(×0.50"!*(+C127D0.501×0.50"!*1			
+≈0.1934+0.2256+0.1934=0.6124  
+𝑋)	~	𝑁(𝑛𝜋;𝑛𝜋[1−𝜋])=𝑁(12×0.50;		12×0.50×0.50)   
+𝑋)	~	𝑁(6;3)					⟹					𝑍=𝑋)−6√3 P(𝑋=4)≈P(3.5<𝑋/<4.5)=P(𝑋/<4.5)−P(𝑋/<3.5)			
+=PO𝑍<4.5−6√3P−PO𝑍<3.5−6√3P			
+≈P(𝑍<−0.87)−P(𝑍<−1.44)=0.1922−0.0749=0.1173 P(𝑋≥4)=1−P(𝑋≤3)≈1−P(𝑋)<3.5)≈1−0.0749=0.9251 P(5≤𝑋≤7)≈P(4.5<𝑋)<7.5)=P(𝑋)<7.5)−P(𝑋)<4.5)	=PC𝑍<7.5−6√3D−PC𝑍<4.5−6√3D	≈P(𝑍<0.87)−P(𝑍<−0.87)=0.8078−0.1922=0.6156 
+𝑋~𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(𝑛,𝜋)=𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙C150,13D  
+𝑋)	~	𝑁(𝑛𝜋;𝑛𝜋[1−𝜋])=𝑁C150×13;		150×13×23D   
+𝑋)	~	𝑁C50;1003D					⟹					𝑍=𝑋)−50i1003⁄ P(𝑋=60)≈P(59.5<𝑋/<60.5)			
+=P(𝑋/<60.5)−P(𝑋/<59.5)			
+=PU𝑍<60.5−50V1003⁄X−PU𝑍<59.5−50V1003⁄X			
+≈P(𝑍<1.82)−P(𝑍<1.65)=0.9656−0.9505=0.0151 
+===== PAGE 9 =====
+9 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+b)   c)   d)       Probleem	18	/	Problem	18	
+-0,006-0,004-0,00200,0020,0040,0060,008
+050100150200250300350400450500
+051015202530354045
+-0,005-0,003-0,0010,0010,0030,0050,007
+Theoretical Frequency
+Empirical Frequency
+Error (in)EmpiricalTheoretical
+-0,004-0,0020,0000,0020,0040,006
+-3-2-10123
+Error
+Z Value
+Normal Probability Plot
+P(𝑋≥60)=1−P(𝑋≤59)≈1−P(𝑋)<59.5)≈1−0.9505=0.0495 P(𝑋<60)=P(𝑋≤59)≈P(𝑋)<59.5)≈P(𝑍<1.65)=0.9505 P(𝑋>70)=1−P(𝑋≤70)≈1−P(𝑋)<70.5)	=1−Pk𝑍<70.5−50i1003⁄l≈1−P(𝑍<3.55)			
+=1−0.99981=0.00019 
+===== PAGE 10 =====
+10 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+ Characteristic Observation Implication Mean & Median Approximately equal to zero Approximately symmetric Data proportion within 𝝁±𝝈 Empirical 61% (Theoretical 68%) Approximately symmetric Data proportion within 𝝁±𝟐𝝈 Empirical 98% (Theoretical 95%) Approximately symmetric Data proportion within 𝝁±𝟑𝝈 Empirical 99% (Theoretical 99.7%) Approximately symmetric Skewness Empirical 0.35 (Theoretical 0.00) Slight rightward skewness Kurtosis Empirical -0.20 (Theoretical 0.00) Slightly platykurtic Max – Q2 & Q2 – Min  Approximately equal Approximately symmetric  Q3 – Q2 & Q2 – Q1 Approximately equal Approximately symmetric Max – Q3 & Q1 – Min  Approximately equal Approximately symmetric  Conclusion: Staalmetingsfout is ongeveer normaal verdeel. Hierdie afleiding word ondersteun deur die lineêre patroon wat blyk uit die normaal waarskynlikheidsgrafiek sowel as die benaderde ooreenkoms tussen die empiriese en die teoretiese digthede op die histogram./ Steel measurement error is approximately normally distributed. This inference is supported by the linear pattern evident from the normal probability plot as well as the approximate agreement between the empirical and the theoretical densities on the normal histogram plot.   Probleem	19	/	Problem	19	
+
+===== PAGE 11 =====
+11 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+   Note: For the purpose for this course:   a) neem aan dat veranderlikes met skeefheid en kurtose waardes binne die interval (-0.5; 0.5) ongeveer normaal verdeel is. /  assume that variable with skewness and kurtosis values within the interval (-0.5; 0.5) are approximately normally distributed.  Conclusion: Waterkoste data is ongeveer normaal verdeel. Hierdie afleiding word ondersteun deur die lineêre patroon wat blyk uit die normaal waarskynlikheidsgrafiek sowel as die benaderde ooreenkoms tussen die empiriese en die teoretiese digthede op die histogram./ Water cost data is approximately normally distributed. This inference is supported by the linear pattern evident from the normal probability plot as well as the approximate agreement between the empirical and the theoretical densities on the normal histogram plot.  
+Characteristic Observation Implication Mean & Median Approximately equal Approximately symmetric Data proportion within 𝝁±𝝈 Empirical 66% (Theoretical 68%) Approximately symmetric Data proportion within 𝝁±𝟐𝝈 Empirical 96% (Theoretical 95%) Approximately symmetric Data proportion within 𝝁±𝟑𝝈 Empirical 100% (Theoretical 99.7%) Approximately symmetric Skewness Empirical 0.02 (Theoretical 0.00) Approximately symmetric Kurtosis Empirical -0.54 (Theoretical 0.00) Slightly platykurtic Max – Q2 & Q2 – Min  Approximately equal Approximately symmetric  Q3 – Q2 & Q2 – Q1 Approximately equal Approximately symmetric Max – Q3 & Q1 – Min  Equal Symmetric 
+050100150200250300
+02468101214
+7090110130150170190210230
+Theoretical Frequency
+Empirical FrequencyWater Cost (R)EmpiricalTheoretical
+50100150200250
+-2,5-1,5-0,50,51,52,5
+Water Cost (R)Z Value
+Normal Probability Plot
+===== PAGE 12 =====
+12 Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using Microsoft Excel. 9th edition, Pearson. Kopiereg voorbehou / Copyright reserved 
+	Probleem	20	/	Problem	20	
+ a) Wagtyd lyk soos ’n eksponensiaal verdeling omdat dit skeef na regs is. / Waiting time resembles an exponential distribution because it is skewed to the right.  b) Sit tyd lyk soos ’n normale verdeling omdat dit ongeveer simmetries is. / Seating time resembles a normal distribution because it is approximately symmetric. 
+253545556575
+-3-11 3
+Seating Time (mins)Z Value
+Normal Probability Plot
+01020304050
+-3-113
+Waiting Time (mins)Z Value
+Normal Probability Plot

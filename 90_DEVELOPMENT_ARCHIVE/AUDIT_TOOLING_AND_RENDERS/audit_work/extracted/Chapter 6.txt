@@ -1,0 +1,439 @@
+
+===== PAGE 1 =====
+CHAPTER 6 - The normal distribution and other continuous
+distributions
+SDS188 - Group 3
+2026
+1 Normal distributions
+Type of variable: Continuous
+X ∼ N (µ, σ2)
+−∞ < x < ∞
+1.1 Properties of the normal distribution
+1.1.1 Parameters
+• µ: the average of the X values
+• σ2: the variance of the X values
+1.1.2 Density function
+f (X) = e− 1
+2 ( X−µ
+σ )2
+√
+2πσ
+*π refers to the mathematical constant 3.14159...
+1
+===== PAGE 2 =====
+1.1.3 The effect of the parameters on the shape of the distribution
+Change in µ with σ constant- shifts the curve and keeps the shape
+−50 0 50 100
+Distributions µ = 0 and σ2 = 835.8 µ = 20 and σ2 = 835.8 µ = 60 and σ2 = 835.8
+Change in σ with µ constant - changes the shape of the curve and stays on the same place
+−50 −25 0 25 50
+Distributions µ = 0 and σ2 = 835.8 µ = 0 and σ2 = 225 µ = 0 and σ2 = 2025
+1.2 The standard distribution
+If X ∼ N (µ, σ2)
+− →Z ∼ N (µ = 0, σ2 = 1)
+f (Z) = e− 1
+2 (Z)2
+√
+2π
+2
+===== PAGE 3 =====
+1.3 Calculate probabilities for the normal distribution
+P (X > c )
+c
+−50 −25 0 25 50
+P (X > c ) = 1 − P (X ≤ c)
+P (X < d )
+d
+−50 −25 0 25 50
+P (X < d )
+P (c < X < d )
+c d
+−50 −25 0 25 50
+c
+−50 −25 0 25 50
+d
+−50 −25 0 25 50
+3
+===== PAGE 4 =====
+P (c < X < d ) = P (X < d − P (X < c )
+1.3.1 Steps
+1. Draw problem in curve in terms of X
+2. Transform X to Z − →Z = X−µ
+σ
+P (X ≤ d) − →P (Z ≤ d − µ
+σ )
+3. Methods:
+• Z-table: Find z in rows and columns of table with cumulative standard normal probabilities
+en read probability
+• HP calculator: z
+• Excel: =NORM.S.DIST( z,TRUE) of =NORM.DIST( x,µ,σ,TRUE)
+The table with cumulative Z probabilities is on the next two pages:
+4
+===== PAGE 5 =====
+5
+===== PAGE 6 =====
+6
+===== PAGE 7 =====
+1.3.2 Calculate x given a probability
+Let x0 be a unknown value of X.
+P (X < x 0):
+P (X < x 0) = P (Z < z 0)
+Determine the value of z0 by using the following methods:
+• Z-table:
+Find the closest probability in the table and read off the corresponding value of Z.
+• HP-calculator:
+P (Z < z 0)
+• Excel:
+=NORM.S.INV(P (Z < z 0)) of =NORM.INV( P (X < x 0), µ, σ)
+P (X > x 0):
+P (X > x 0) = P (Z > z 0) = 1 − P (Z < z 0)
+Determine the value of z0 by using the following methods:
+• Z-table:
+Find the closest probability in the table and read off the corresponding value of Z.
+• HP-calculator:
+P (Z < z 0)
+• Excel:
+=NORM.S.INV(P (Z < z 0)) of =NORM.INV( P (X < x 0), µ, σ)
+Transform Z back to X where x0 = µ + (z0 × σ)
+7
+===== PAGE 8 =====
+1.4 Evaluation of data for normality
+We can evaluate if any observed continuous variable is theoretically normally distributed
+X ∼ N (µ, σ2)
+Compare observed data with theoretical properties of the normal distribution
+I. Step 1. Theoretical property: Symmetry by means of measures
+A. Calculate mean, median, mode (if possible) and variance of data.
+According to the normal distribution, the mean, median and mode are equal
+If ¯x = Q2 = modus or ¯x ≈ Q2 ≈ modus, the data is symmetrically distributed and possibly
+normally distributed or approximately normally distributed
+If ¯x ̸= Q2 ̸= modus, the data is not symmetrically distributed and is either skew to the right
+of skew to the left.
+• ¯x < Q 2 - skew to the left
+• ¯x > Q 2 - skew to the right
+8
+===== PAGE 9 =====
+B. Use (¯x) and standard deviation (s) to apply empirical rule
+What proportion of data lies between ( ¯x − s) and ( ¯x + s)? According to the empirical rule,
+the proportion mut be 68%.
+What proportion of data lies between ( ¯x − 2s) and ( ¯x + 2s)? According to the empirical rule,
+the proportion mut be 95%.
+What proportion of data lies between ( ¯x − 3s) and ( ¯x + 3s)? According to the empirical rule,
+the proportion mut be 99.7%.
+µ − 3σ µ − 2σ µ − σ µ µ + σ µ + 2σ µ + 3σ
+68%
+95%
+99.7%
+9
+===== PAGE 10 =====
+II. Step 2. Theoretical property: Symmetry and bell shape by means of graphs
+A. For small datasets:
+i. Stem and leaf diagram
+Skew to the left
+3 0
+4 5
+5
+6 2
+7 17
+8 2445
+9 012235569
+10 000
+Symmetric
+3 7
+4 36
+5 017
+6 0112
+7 356789
+8 0158
+9 34
+10 0
+Skew to the right
+3 58
+4 013345569
+5 2446
+6 17
+7
+8 2
+9 5
+10 0
+ii. Boxplot (can also use 5-point summary)
+ Skeef na links Simmetries Skeef na regs
+10
+===== PAGE 11 =====
+Symmetric − →X ∼ N (µ, σ2)
+B. For large datasets:
+i. Relative frequency polygon :
+Skew to the left
+ Symmetric
+ Skew to the right
+11
+===== PAGE 12 =====
+ii. Histogram:
+Skew to the left
+ Symmetric
+ Skew to the right
+III. Step 3. Theoretical property: linear relationship between Z and X values
+A. Normal probability plot
+1. Sort data in ascending order
+2. Create index j
+3. Calculate αj, αj = j
+n+1
+4. Calculate corresponding Z values for each αj
+αj are probabilities P (Z < z 0), find z0
+5. Draw scatterplot with X values on y axis and Z values on x axis
+6. Evaluate normality by looking at the shape of the plot/distribution of points
+Determine conclusion following the steps
+12
+===== PAGE 13 =====
+IV. In summary:
+Calculate:
+• Mean
+• Median
+• Mode
+• 1st and 3rd quartiles
+• Minimum and maximum
+• Variance and standard deviation
+• Proportions for empirical rule B.
+• Frequency distribution B.
+• Probabilities αj A.
+T est for:
+• Symmetry
+– Mean = median A.
+– Five-point summary II.(A.)ii
+– Empirical rule B.
+– Graphs II.(A.)i, II.(A.)ii, II.(B.)i, II.(B.)ii
+• Bell shape
+– Histogram II.(B.)ii
+– Relative frequency polygon II.(B.)i
+– Stem and leaf diagram II.(A.)i
+• Linear relationship between X and Z
+– Normal probability plot A.
+13
+===== PAGE 14 =====
+1.5 Normal approximation to binomial distribution
+X ∼ binomiaal(n, π)
+P (X = x|n, π) =
+( n
+x
+)
+πx(1 − π)n−x
+As n increases, the calculations for P (X = x|n, π) become more difficult.
+For example:
+x = 5, π = 0.2
+For small n (n = 12):
+P (X = 5|n = 12, π = 0.2) =
+( 12
+5
+)
+(0.2)5(0.8)7
+= 0.0531
+For large n (n = 500):
+P (X = 5|n = 500, π = 0.2) =
+( 500
+5
+)
+(0.2)5(0.8)495
+= 255244687600 × 0.00032 × 0.000000000...
+= 0.000000000....
+≈ 0
+Solution! Normal probabilities can be used to calculate binomial probabilities. This approximation can
+only be used if:
+• nπ > 5
+• n(1 − π) > 5
+If nπ > 5 and n(1 − π) > 5:
+X ∼ binomial(n, π) − →Xa ∼ N (µ, σ2)
+14
+===== PAGE 15 =====
+where Xa is the approximation for X
+µ = nπ
+σ2 = nπ(1 − π)
+BUT
+Continuty correction:
+P (X = x) ≈ P (x − 0.5 < X a < x + 0.5)
+P (X ≤ x) ≈ P (Xa < x + 0.5)
+P (X ≥ x) ≈ P (Xa > x − 0.5)
+P (X = x) =⇒ P (...Xa...) =⇒ P (...Z...)
+15
+===== PAGE 16 =====
+P (X = x) ≈ P (x − 0.5 < X a < x + 0.5)
+nπx
+P (X ≤ x) ≈ P (Xa < x + 0.5)
+nπx
+P (X ≥ x) ≈ P (Xa > x − 0.5)
+nπx
+16
+===== PAGE 17 =====
+2 Uniform distribution
+Type of variable: Continuous
+X ∼ unif orm(a, b)
+a ≤ x ≤ b
+2.1 Properties of uniform distribution
+2.1.1 Parameters
+a is the minimum value of X
+b is the maximum value of X
+2.1.2 Density function
+f (x) =
+
+
+
+1
+b−a if a ≤ X ≤ b
+0 otherwise
+2.1.3 Measures
+µ = a + b
+2
+σ =
+√
+(b − a)2
+12
+17
+===== PAGE 18 =====
+2.1.4 Probabilities
+Method A:
+P (X < c ) = (c − a) × f (x)
+a b
+f(x)
+c
+P (X > d ) = (b − d) × f (x)
+a b
+f(x)
+d
+18
+===== PAGE 19 =====
+P (c < X < d ) = (d − c) × f (x)
+a b
+f(x)
+c d
+Method B:
+P (X < c ) = c−a
+b−a
+a b
+f(x)
+c
+19
+===== PAGE 20 =====
+P (X > d ) = 1 − P (X < d ) = 1 − d−a
+b−a
+a b
+f(x)
+d
+P (c < X < d ) = P (X < d ) − P (X < c ) = d−a
+b−a − c−a
+b−a
+a b
+f(x)
+d
+a b
+f(x)
+c
+20
+===== PAGE 21 =====
+2.1.5 The effect of the parameters on the shape of the distribution
+0.1
+0.08
+0.07
+2 5 15 20
+Distributions a = 5,b = 15 a = 2,b = 15 a = 5, b = 20
+3 Exponential distribution
+Type of variable: Continuous
+X ∼ exp(λ)
+0 ≤ x < ∞
+x ≥ 0
+21
+===== PAGE 22 =====
+λ
+3.1 Properties of the exponential distribution
+3.1.1 Parameters
+λ refers to the average rate per unit of time/area of opportunity.
+This can be the same λ as that of the Poisson distribution.
+3.1.2 Density function
+f (x) =
+
+
+
+λe−λx as X ≥ 0
+0 otherwise
+22
+===== PAGE 23 =====
+3.1.3 The effect of the parameters on the shape of the distribution
+Regardless of the value of λ, the curve will always be skew to the right. The decrease in λ will shift
+the curve the right.
+1
+0.25
+2
+Verdelings λ = 1 λ = 0.25 λ = 2
+3.1.4 Measures
+E(X) = 1
+λ
+V ar(X) = 1
+λ2
+3.1.5 Probabilities
+P (X ≤ x) = 1 − e−λx for x > 0
+P (X ≥ x) = 1 − (1 − e−λx) = 1 − 1 + e−λx = e−λx
+23
+===== PAGE 24 =====
+4 Questions
+4.1 Question 1
+A study of the time spent shopping in a supermarket for 20 specific items showed an approximately
+uniform distribution between 10 minutes and 20 minutes.
+1. What is the probability that the shopping time will be between 12 and 18 minutes?
+2. What is the probability that the shopping time will be less than 17 minutes?
+3. What is the mean and standard deviation of the shopping time?
+4.2 Question 2
+Given an exponential distribution with λ = 3. Calculate the following:
+1. P (X > 0.45)
+2. P (0.2 < X < 0.5)
+3. x0 if P (X > x 0) = 0 .65
+4.3 Question 3
+A trucking company determined that the distance travelled per truck per year is normally distributed,
+with a mean of 30 thousand miles and a standard deviation of 10 thousand miles.
+1. What percentage of trucks can be expected to travel between and 18 thousand and 30 thousand
+miles in a year?
+2. What percentage of trucks can be expected to travel either less than 20 thousand or more than
+50 thousand miles in year?
+3. How many miles will be travelled by at least 60% of the trucks?
+24
+===== PAGE 25 =====
+4.4 Question 4
+The mean number of automobiles entering a mountain tunnel per hour is 30. An excessive number
+of cars entering the tunnel during a brief period of time produces a hazardous situation. If a car has
+just entered the mountain tunnel, what is the probability that the next car enters the mountain tunnel
+after 20 minutes?
+4.5 Question 5
+One year consumers spent an average of $24 on a meal at a restaurant. Assume that the amount
+spent on a restaurant meal is normally distributed and the standard deviation is $6.
+1. What is the probability that a randomly selected person spent more than $25?
+2. What is the probability that a randomly selected person spent between $8 and $20?
+3. Between what two values, symmetrically distributed around the mean, will be the middle 72%
+of the amounts of cash spent fall?
+4.6 Question 6
+Suppose that Y has a binomial distribution with n = 100 and π = 0 .1. Use the normal distribution to
+calculate P (Y > 65).
+4.7 Question 7
+According to a recent study, 88% of retail brands use two or more social media channels for business.
+Consider a sample of 10 businesses is selected. Use the normal distribution to approximate the
+following probabilities.
+1. What is the probability that 7 businesses use two or more social media channels?
+2. What is the average and standard deviation of the number of businesses that use two or more
+social media channels?
+3. What is the probability that at least 8 businesses use two or more social media channels?
+25
+===== PAGE 26 =====
+4.8 Question 8
+Suppose you sample one value from a uniform distribution with a = 0 and b = 20.
+1. What is the probability that the value will be betweeb 12 and 19?
+2. What is the probability that the value will be between 2 and 8?
+3. What is the mean?
+4. What is the standard deviation?
+4.9 Question 9
+Customers arrive at a checkout counter in a department store according to a Poisson distribution at
+an average of seven per hour. During a given hour, what is the probability that a client
+1. Arrives after 5 minutes?
+2. Arrives between 12 and 20 minutes?
+3. Arrives within half an hour?
+4. If the probability that a client arrives within a specific time is 87%, what is the specific time?
+4.10 Question 10
+Given a normal distribution and given information, determine the following:
+1. If µ = 25, σ = 2.9, find P (X < 31)?
+2. If µ = 9, σ = 7.05, find P (X < 3)?
+3. If µ = 13, σ = 0.9, P (X > x ) = 0 .4, find x?
+26

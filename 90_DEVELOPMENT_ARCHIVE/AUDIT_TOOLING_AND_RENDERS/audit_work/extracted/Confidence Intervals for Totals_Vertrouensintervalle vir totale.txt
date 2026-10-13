@@ -1,0 +1,575 @@
+
+===== PAGE 1 =====
+ 8.6 Applications of Confidence Inter val Estimation in Auditing  1
+8.6  Applications of Confidence Inter val 
+Estimation in Auditing
+Auditing is one of the areas in business that makes widespread use of probability sampling 
+methods in order to construct confidence interval estimates.
+AUDITING
+Auditing is the collection and evaluation of evidence about information related to an eco-
+nomic entity, such as a sole business proprietor, a partnership, a corporation, or a govern-
+ment agency, in order to determine and report on how well the information corresponds to 
+established criteria.
+Auditors rarely examine a complete population of information. Instead, they rely on esti-
+mation techniques based on the probability sampling methods you have studied in this text. The 
+following list contains some of the reasons sampling is used in auditing:
+•
+ Sampling is less time-consuming.
+• Sampling is less costly
+.
+• Sampling pro
+vides an objective way of estimating the sample size in advance.
+• Sampling pro
+vides results that are objective and defensible. Because the sample size is 
+based on demonstrable statistical principles, the audit is defensible before one’s superiors 
+and in a court of law.
+•
+ Sampling pro
+vides an estimate of the sampling error and therefore allows auditors to 
+generalize their findings to the population with a known sampling error.
+• Sampling is often more accurate than other methods for dra
+wing conclusions about large 
+populations. Examining every item in large populations is time-consuming and therefore 
+often subject to more nonsampling error than is statistical sampling.
+•
+ Sampling allo
+ws auditors to combine, and then evaluate collectively, samples from dif-
+ferent individuals.
+Estimating the Population Total Amount
+In auditing applications, you are often more interested in developing estimates of the population 
+total amount than in the population mean. Equation (8.6) shows how to estimate a population 
+total amount.
+ESTIMATING THE POPULATION TOTAL
+The point estimate for the population total is equal to the population size, N, times the 
+sample mean.
+ Total = NX (8.6)
+CONFIDENCE INTERVAL ESTIMATE FOR THE TOTAL
+ NX { N(ta/2) S
+2n A
+N - n
+N - 1 (8.7)
+where ta/2 is the critical value corresponding to an upper-tail probability of a/2 from the  
+t distribution with n - 1 degrees of freedom (i.e., a cumulative area of 1 - a/2).
+Equation (8.7) defines the confidence interval estimate for the population total.
+Section 8.6.indd   1 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 2 =====
+2 CHAPTER 8 | Confidence Inter val Estimation
+To demonstrate the application of the confidence interval estimate for the population total 
+amount, return to the Ricknel Home Centers scenario on page 253. In addition to estimating the 
+mean dollar amount in Section 8.2, one of the auditing tasks is to estimate the total dollar amount 
+of all sales invoices for the month. If there are 5,000 invoices for that month and 
+X = $110.27, 
+then using Equation (8.6),
+NX = (5,000)($110.27) = $551,350
+Since n = 100 and S = $28.95, then using Equation (8.7) with ta/2 = 1.9842 for 95% confi-
+dence and 99 degrees of freedom,
+ NX { N(ta/2) S
+2n A
+N - n
+N - 1 = 551,350 { (5,000)(1.9842) 28.95
+2100 A
+5,000 - 100
+5,000 - 1
+ = 551,350 { 28,721.295(0.99005)
+ = 551,350 { 28,435.72
+ $522,914.28 … Population total … $579,785.72
+Therefore, with 95% confidence, you estimate that the total amount of sales invoices is between 
+$522,914.28 and $579,785.72. Figure 8.15 shows a worksheet solution for constructing this 
+confidence interval estimate.
+Example 8.7 further illustrates the population total.
+FIGURE 8.15
+Excel worksheet for 
+the confidence interval 
+estimate of the total 
+amount of all invoices for 
+Ricknel Home Centers
+An auditor is faced with a population of 1,000 vouchers and wants to estimate the total value 
+of the population of vouchers. A sample of 50 vouchers is selected, with the following results:
+ Mean voucher amount (X) = $1,076.39
+ Standard deviation (S) = $273.62
+Construct a 95% confidence interval estimate of the total amount for the population of  
+vouchers.
+SOLUTION Using Equation (8.6), the point estimate of the population total is
+NX = (1,000)(1,076.39) = $1,076,390
+EXAMPLE 8.7
+Developing a 
+Confidence Interval 
+Estimate for the 
+Population Total ▲(continued)
+Section 8.6.indd   2 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 3 =====
+ 8.6 Applications of Confidence Inter val Estimation in Auditing  3
+MEAN DIFFERENCE
+ D =
+a
+n
+i = 1
+Di
+n  (8.8)
+where Di = audited value - original value
+From Equation (8.7), a 95% confidence interval estimate of the population total amount is
+ (1,000)(1,076.39) { (1,000)(2.0096)273.62
+250 A
+1,000 - 50
+1,000 - 1
+ = 1,076,390 { 77,762.878 (0.97517)
+ = 1,076,390 { 75,832
+ $1,000,558 … Population total … $1,152,222
+Therefore, with 95% confidence, you estimate that the total amount of the vouchers is between 
+$1,000,558 and $1,152,222.
+Difference Estimation
+Auditors use difference estimation when they believe that errors exist in a set of items and he 
+or she wants to estimate the magnitude of the errors based only on a sample. To use difference 
+estimation, follow these steps:
+1.
+ Determine the sample size required.
+2. Calculate the di
+fferences between the values reached during the audit and the original 
+values recorded. The difference in value i, denoted Di, is equal to 0 if the auditor finds 
+that the original value is correct, is a positive value when the audited value is larger than 
+the original value, and is negative when the audited value is smaller than the original 
+value.
+3.
+ Calculate the mean di
+fference in the sample, D, that Equation (8.8) defines, by dividing 
+the total difference by the sample size.
+4. Calculate 
+the standard deviation of the differences, SD, that Equation (8.9) defines. 
+Remember that any item that is not in error has a difference value of 0.
+STANDARD DEVIATION OF THE DIFFERENCE
+ SD = H
+a
+n
+i = 1
+(Di - D)2
+n - 1  (8.9)
+5. Use Equation 
+(8.10) to construct a confidence interval estimate of the total difference 
+in the population.
+Section 8.6.indd   3 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 4 =====
+4 CHAPTER 8 | Confidence Inter val Estimation
+The auditing procedures for Ricknel Home Centers require a 95% confidence interval esti-
+mate of the difference between the audited dollar amounts on the sales invoices and the amounts 
+originally entered into the integrated inventory and sales information system. The data are 
+collected by taking a sample of 100 sales invoices. The results of the sample are organized and 
+stored in the 
+ Plumbing Invoices  workbook. There are 12 invoices in which the audited dollar 
+amount on the sales invoice and the amount originally entered into the integrated inventory 
+management and sales information system are different. These 12 differences are
+$9.03 $7.47 $17.32 $8.30 $5.21 $10.80 $6.22 $5.63 $4.97 $7.43 $2.99 $4.63
+The other 88 invoices are not in error. Each of their differences is 0. Thus, to analyze the 
+data, one calculates
+D =
+a
+n
+i = 1
+Di
+n = 90
+100 = 0.90
+and
+CONFIDENCE INTERVAL ESTIMATE FOR THE TOTAL DIFFERENCE
+ ND { N(ta/2) SD
+2n A
+N - n
+N - 1 (8.10)
+where ta/2 is the critical value corresponding to an upper-tail probability of a/2 from the  
+t distribution with n - 1 degrees of freedom (i.e., a cumulative area of 1 - a/2).
+ SD = H
+a
+n
+i = 1
+(Di - D)2
+n - 1
+ =
+B
+(9.03 - 0.9)2 + (7.47 - 0.9)2 + g + (0 - 0.9)2
+100 - 1
+ SD = 2.752
+Using Equation ( 8.10), you construct the 95% confidence interval estimate for the total 
+difference in the population of 5,000 sales invoices, as follows:
+  (5,000)(0.90) { (5,000)(1.9842) 2.752
+2100 A
+5,000 - 100
+5,000 - 1
+= 4,500 { 2,702.91
+ $1,797.09 … Total difference … $7,202.91
+Thus, the auditor estimates with 95% confidence that the total difference between the sales 
+invoices, as determined during the audit, and the amount originally entered into the accounting 
+system is between $1,797.09 and $7,202.91. Figure 8.16 shows the worksheet results for these 
+data.
+In the numerator, there 
+are 100 differences. Each 
+of the last 88 is equal to 
+(0 - 0.9)2.
+Section 8.6.indd   4 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 5 =====
+ 8.6 Applications of Confidence Inter val Estimation in Auditing  5
+FIGURE 8.16
+Excel worksheet for the 
+total difference between 
+the invoice amounts 
+found during audit and 
+the amounts entered into 
+the accounting system for 
+Ricknel Home Centers
+Returning to Example 8.7, suppose that 14 vouchers in the sample of 50 vouchers contain errors. 
+The values of the 14 errors are listed below and stored in  Difference Test . Two of the differences 
+are negative.
+$75.41 $38.97 $108.54
+$127.74 $55.42 $39.03   - $37.18 $62.75 $118.32 - $88.84
+$29.41 $47.99 $28.73 $84.05
+Construct a 95% confidence interval estimate for the total difference in the population of 
+1,000 vouchers.
+SOLUTION For these data,
+D =
+a
+n
+i = 1
+Di
+n = 690.34
+50 = 13.8068
+and
+ SD = H
+a
+n
+i = 1
+(Di - D)2
+n - 1
+ =
+B
+(75.41 - 13.8068)2 + (38.97 - 13.8068)2 + g + (0 - 13.8068)2
+50 - 1
+ = 37.427
+EXAMPLE 8.8
+Difference 
+Estimation
+In the previous example, all 12 differences are positive because the audited amount on the 
+sales invoice is more than the amount originally entered into the accounting system. In some 
+circumstances, one could have negative errors. Example 8.8 illustrates such a situation.
+▲
+(continued)
+Section 8.6.indd   5 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 6 =====
+6 CHAPTER 8 | Confidence Inter val Estimation
+Using Equation (8.10), construct the confidence interval estimate for the total difference in the 
+population, as follows:
+ (1,000)(13.8068) { (1,000)(2.0096)37.427
+250 A
+1,000 - 50
+1,000 - 1
+ = 13,806.8 { 10,372.4
+ $3,434.40 … Total difference … $24,179.20
+Therefore, with 95% confidence, you estimate that the total difference in the population of 
+vouchers is between $3,434.40 and $24,179.20.
+ONE-SIDED CONFIDENCE INTERVAL FOR A PROPORTION
+ Upper bound = p + Za A
+p(1 - p)
+n A
+N - n
+N - 1 (8.11)
+where Za = the value corresponding to a cumulative area of (1 - a) from the standard-
+ized normal distribution (i.e., a right-tail probability of a).
+One-Sided Confidence Interval Estimation of the Rate 
+of Noncompliance with Internal Controls
+Organizations use internal control mechanisms to ensure that individuals act in accordance with 
+company guidelines. For example, Ricknel Home Centers requires that an authorized warehouse- 
+removal slip be completed before goods are removed from the warehouse. During the monthly 
+audit of the company, the auditing team is charged with the task of estimating the proportion of 
+times goods were removed without proper authorization. This is referred to as the rate of noncom-
+pliance with the internal control.
+To estimate the rate of noncompliance, auditors take a random sample of sales invoices 
+and determine how often merchandise was shipped without an authorized warehouse-removal 
+slip. The auditors then compare their results with a previously established tolerable exception  
+rate, which is the maximum allowable proportion of items in the population not in compli-
+ance. When estimating the rate of noncompliance, it is commonplace to use a one-sided 
+ confidence 
+interval. That is, the auditors estimate an upper bound on the rate of noncompliance.  
+Equation (8.11) defines a one-sided confidence interval for a proportion.
+If the tolerable exception rate is higher than the upper bound, the auditor concludes that 
+the company is in compliance with the internal control. If the upper bound is higher than the 
+tolerable exception rate, the auditor has failed to prove that the company is in compliance. The 
+auditor may then request a larger sample.
+Consider the example of 400 sales invoices that were selected from a population of 10,000 
+invoices, in which 20 were found to be in violation of an internal control. If the tolerable excep-
+tion rate for this internal control is 6%, what should one conclude?
+Using a 95% level of confidence, 
+p = 20>400 = 0.05 and Za = 1.645, then by using  
+Equation (8.11),
+ Upper bound = p + Za A
+p(1 - p)
+n A
+N - n
+N - 1 = 0.05 + 1.645 A
+0.05(1 - 0.05)
+400  A
+10,000 - 400
+10,000 - 1
+ = 0.05 + 1.645(0.0109)(0.98) = 0.05 + 0.0176 = 0.0676
+Section 8.6.indd   6 19/03/20   12:45 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 7 =====
+ 8.6 Applications of Confidence Inter val Estimation in Auditing  7
+Therefore, with 95% confidence, the rate of noncompliance is less than 6.76%. Because the 
+tolerable exception rate is 6%, the rate of noncompliance may be too high for this internal con-
+trol. The noncompliance rate for the population may be higher than the rate deemed tolerable. 
+Therefore, one should request a larger sample.
+In many cases, the auditor is able to conclude that the rate of noncompliance with the com-
+pany’s internal controls is acceptable. Example 8.9 illustrates such an occurrence.
+A large electronics firm writes 1 million checks a year. An internal control policy for the com-
+pany is that the authorization to sign each check is granted only after an invoice has been ini-
+tialed by an accounts payable supervisor. The company’s tolerable exception rate for this control 
+is 4%. If control deviations are found in 8 of the 400 invoices sampled, what should the auditor 
+do? To solve this, use a 95% level of confidence.
+SOLUTION The auditor constructs a 95% one-sided confidence interval for the propor -
+tion of invoices in noncompliance and compares this to the tolerable exception rate. Using  
+Equation (8.11), p = 8/400 = 0.02, and Za = 1.645 for 95% confidence,
+ Upper bound = p + Za A
+p(1 - p)
+n  A
+N - n
+N - 1 = 0.02 + 1.645 A
+0.02(1- 0.02)
+400  A
+1,000,000 - 400
+1,000,000 - 1
+ = 0.02 + 1.645(0.007)(0.9998) = 0.02 + 0.0115 = 0.0315
+The auditor concludes with 95% confidence that the rate of noncompliance is less than 3.15%. 
+Because this is less than the tolerable exception rate, the auditor concludes that the internal 
+control compliance is adequate. In other words, the auditor is more than 95% confident that the 
+rate of noncompliance is less than 4%.
+EXAMPLE 8.9
+Estimating the Rate 
+of Noncompliance
+PROBLEMS FOR SECTION  8.6 
+LEARNING THE BASICS
+8.70 A sample of 25 is selected from a population of 500 items. The 
+sample mean is 25.7, and the sample standard deviation is 7.8. Con-
+struct a 99% confidence interval estimate for the population total.
+8.71 Suppose that a sample of 200 (stored in  Item Sample ) is 
+selected from a population of 10,000 items. Of these, 10 items are 
+found to have the following errors:
+13.76 42.87 34.65 11.09 14.54
+22.87 25.52 9.81 10.03 15.49
+Construct a 95% confidence interval estimate for the total difference 
+in the population.
+8.72
+ If p = 0.04, n = 300, and N = 5,000, calculate the upper 
+bound for a one-sided confidence interval estimate for the popula-
+tion proportion, p, using the following levels of confidence:
+a. 90%
+b. 95%
+c. 99%
+APPL YING THE CONCEPTS
+8.73 A stationery store wants to estimate the total retail v alue of the 
+1,000 greeting cards it has in its inventory. Construct a 95% confidence 
+interval estimate for the population total value of all greeting cards that 
+are in inventory if a random sample of 100 greeting cards indicates a 
+mean value of $2.55 and a standard deviation of $0.44.
+8.74 The personnel department of a lar ge corporation employing 
+3,000 workers wants to estimate the family dental expenses of its 
+employees to determine the feasibility of providing a dental insur-
+ance plan. A random sample of 10 employees (stored in the file  
+ Dental ) reveals the following family dental expenses (in dollars) 
+for the preceding year:
+110 362 246 85 510 208 173 425 316 179
+Construct a 90% confidence interval estimate for the total family 
+dental expenses for all employees in the preceding year.
+8.75
+ A branch of a chain of lar
+ge electronics stores is conducting 
+an end-of-month inventory of the merchandise in stock. There were 
+1,546 items in inventory at that time. A sample of 50 items was 
+randomly selected and an audit was conducted with the following 
+results:
+Value of Merchandise
+X = $252.28 S = $93.67
+Construct a 95% confidence interval estimate for the total value of 
+the merchandise in inventory at the end of the month.
+8.76
+ A customer in the wholesale garment trade is often entitled 
+to a d
+iscount for a cash payment for goods. The amount of discount 
+varies by vendor. A sample of 150 items selected from a population 
+of 4,000 invoices at the end of a period of time (stored in  Discount )  
+revealed that in 13 cases, the customer failed to take the discount 
+Section 8.6.indd   7 19/03/20   12:46 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 8 =====
+8 CHAPTER 8 | Confidence Inter val Estimation
+to which he or she was entitled. The amounts (in dollars) of the  
+13 discounts that were not taken were as follows:
+6.45 15.32 97.36 230.63 104.18 84.92 132.76
+66.12 26.55 129.43 88.32 47.81 89.01
+Construct a 99% confidence interval estimate for the population 
+total amount of discounts not taken.
+8.77 Econe Dresses is a small company that manuf
+actures wom-
+en’s dresses for sale to specialty stores. It has 1,200 inventory items, 
+and the historical cost is recorded on a first-in, first-out (FIFO) 
+basis. In the past, approximately 15% of the inventory items were 
+incorrectly priced. However, any misstatements were usually not 
+significant. A sample of 120 items was selected, and the historical 
+cost of each item was compared with the audited value. The results 
+indicated that 15 items differed in their historical costs and audited 
+values. The data for the 15 items appear in the following table and 
+are stored in 
+ FIFO .
+8.78 Tom and Brent’
+s Alpine Outfitters conducts an annual audit 
+of its financial records. An internal control policy for the company 
+is that a check can be issued only after the accounts payable man-
+ager initials the invoice. The tolerable exception rate for this inter-
+nal control is 0.04. During an audit, a sample of 300 invoices is 
+examined from a population of 10,000 invoices, and 11 invoices 
+are found to violate the internal control.
+a.
+ Calculate the upper bound for a 95% one-sided conf
+idence in-
+terval estimate for the rate of noncompliance.
+b. Based on (a), what should the auditor conclude?
+8.79 An internal control polic
+y for Rhonda’s Online Fashion 
+Accessories requires a quality assurance check before a shipment 
+is made. The tolerable exception rate for this internal control is 0.05. 
+During an audit, 500 shipping records were sampled from a popu-
+lation of 5,000 shipping records, and 12 were found that violated 
+the internal control.
+a.
+ Calculate the upper bound for a 95% one-sided conf idence in-
+terval estimate for the rate of noncompliance.
+b. Based on (a), what should the auditor conclude?
+Item  
+Number
+Historical  
+Cost ($)
+Audited  
+Value ($)
+ 5 261
+240
+ 9  87 105
+17
+201 276
+18 121 110
+28 315 298
+35 411 356
+43 249 211
+51 216 305
+Item  
+Number
+Historical  
+Cost ($)
+Audited  
+Value ($)
+ 60  21 210
+ 73 140
+152
+ 86 129
+112
+ 95 340
+216
+ 96 341
+402
+107 135  97
+119
+228 220
+Construct a 95% confidence interval estimate for the total popula-
+tion difference in the historical cost and audited value.
+Section 8.6.indd   8 19/03/20   12:46 PM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 9 =====
+ 8.6 Applications of Confidence Inter val Estimation in Auditing  9
+EG8.6  APPLICATIONS of CONFIDENCE 
+INTERV
+AL ESTIMATION in 
+AUDITING
+Estimating the Population Total Amount
+Example Compute the Figure 18.15 confidence interval 
+estimate of the total of all sales invoices.
+PHStat Use Estimate for the Population Total
+For the example, select PHStat  ➔ Confidence Intervals ➔  
+Estimate for the Population Total. In the procedure’s dialog 
+box:
+1. Enter 5000 as the 
+Population Size.
+2. Enter 95 as the 
+Confidence Level percentage.
+3. Click Sample Statistics Kno
+wn and enter 100 as the 
+Sample Size, 110.27 as the Sample Mean, and 28.95  
+as the Sample Standard Deviation.
+4. Enter a T
+itle and click OK.
+Workbook Use the COMPUTE worksheet of the CIE 
+Total workbook, shown in Figure 8.15, as a template for 
+computing confidence interval estimates for the population 
+total. The worksheet contains the data for the example. In 
+cell B15, the worksheet uses T.INV .2T(1–confidence level, 
+degrees of freedom) to determine the t  value. To compute 
+confidence interval estimates for other problems, change 
+the Population Size, Sample Mean, Sample Size, Sample 
+Standard Deviation, and Confidence Level values in cells 
+B4 through B8.
+If you use an Excel version older than Excel 2010, use 
+the COMPUTE_OLDER worksheet that uses the equivalent 
+older function TINV.
+Difference Estimation
+Example Compute the Figure 18.16 confidence interval 
+estimate of the total difference for the Ricknel Home Centers 
+auditing example.
+PHStat Use Estimate for the Total Difference
+For the example, open to the DATA worksheet  of the 
+PlumbInv workbook. Select PHStat  ➔  Confidence 
+Intervals ➔ Estimate for the Total Difference. In the pro-
+cedure’s dialog box:
+1. Enter 100 as the 
+Sample Size.
+2. Enter 5000 as the 
+Population Size.
+3. Enter 95 as the 
+Confidence Level percentage.
+4. Enter A1:A13 as the 
+Differences Cell Range and check 
+First cell contains label.
+5. Enter a T
+itle and click OK.
+This procedure creates a worksheet containing the results 
+and a second worksheet that contains computations that help 
+to calculate the standard deviation of the differences. (The 
+Workbook section that follows discusses contents of the sec-
+ond worksheet.)
+Workbook  Use the COMPUTE worksheet of the  
+CIE Total Difference workbook, shown in Figure 8.16, as 
+a template for computing confidence interval estimates for 
+the total difference. The worksheet contains the data for the 
+example, including the difference data from 
+ Plumblnv .
+In the worksheet, the Sum of Differences in cell B9 and 
+the Standard Deviation of Differences in cell B12 rely on 
+computations found in the DIFFERENCES worksheet. To 
+examine the formulas used in that worksheet, open to the 
+DIFFERENCES_FORMULAS worksheet in the same 
+workbook.
+Computing the total difference confidence interval 
+estimate for other problems requires changes to both the 
+COMPUTE and DIFFERENCES worksheets. First, in the 
+COMPUTE worksheet, change the population size, sample 
+size, and confidence level in cells B4 through B6, respec-
+tively. Then, in the DIFFERENCES worksheet, enter the 
+differences in column A and adjust the column B formu-
+las so that there is a column B formula for each difference 
+listed. If there are more than 12 differences, select cell B13 
+and copy down through all the rows. If there are fewer than  
+12 differences, delete formulas in column B from the bottom 
+up, starting with cell B13, until there are as many formulas 
+as there are difference values.
+If you use an Excel version older than Excel 2010, use 
+the COMPUTE_OLDER worksheet that uses the equivalent 
+older function TINV.
+Section 8.6.indd   9 19/03/20   12:46 PM
+Copyright © 2021 Pearson Education, Inc.

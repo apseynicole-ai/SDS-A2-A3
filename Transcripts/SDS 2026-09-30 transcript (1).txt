@@ -1,0 +1,257 @@
+[0:00]
+Okay. Good morning, everybody. It's good to see you all again. So I hope the week has been treating you well so far. We are...
+
+[1:06]
+Is today Wednesday? We are almost we're almost to the end. So we have to discuss inference for the slope today, and I started talking about this. I think I just introduced the concept. So we've heard about statistical inference.
+
+[1:29]
+It's... Semester one was all about descriptive statistics, and semester two is about inferential statistics. So descriptive statistics is when you are concerned with what does my sample look like? What are the characteristics of my sample? So there, I'm just calculating the sample mean.
+
+[1:47]
+I'm calculating the sample standard deviation. I'm looking at what's the shape of the distribution for this sample. But then when we come over to inferential statistics, that is when we start tying in the probability theory that we've also learned in this module. And then we start saying, how can I take this thing that I know about my sample and use it to make some sort of statement or claim about my population? Because we're not really interested in the sample as the final end product, but we're actually interested in being able to make a general statement about the population, and the sample is the tool that we use to get there.
+
+[2:27]
+So in this case, the slope is kind of very important in our linear, regression equation, specifically the existence of the slope. Because if the regression line yields a slope of zero, then there is no linear relationship between x and y. So b one is our sample estimate of the slope. Remember that, let me actually write that out. So in our estimated regression equation, we have an intercept b zero, and we have a slope b one which multiplies with x, and that gives us our regression equation.
+
+[3:14]
+And this is the slope b one is an estimate of beta one. Can those at the back hear me? I feel like I'm... Okay. So b one is an estimate of beta one.
+
+[3:52]
+So what do we know about estimates? What have we learned this whole semester about estimates? First of all, an estimate is based on a sample, and samples are based on random selection. So if on a different day you took a different sample, you would end up with a slightly different value for b one. So this has sampling variability.
+
+[4:26]
+So anything that has sampling variability will have its own sampling distribution. And thanks to some useful assumptions made by the regression model that we also checked in the previous lecture, this will be a normal distribution. Okay. But inference is the task of of using the sample estimate to say something about the population parameter. And the thing that we...
+
+[5:59]
+Well, on the one hand, we might want to get a confidence interval just so that we have a good picture of how much the line will actually vary given... If if we possibly take a different sample. So we wanna be honest and transparent about the variability in this estimate. And the other thing is we really need to make sure that this is not zero. So the two tools for inference grounded in the sampling distribution, you have done...
+
+[6:34]
+You've used these tools many times by now, confidence intervals and hypothesis tests. Those are the main inference tools that you have learned to use. So we can obtain confidence intervals, and we can perform hypothesis tests. Confidence intervals might tell us a range of possible values for the true slope, beta one. And hypothesis tests, we are interested in a very specific hypothesis, and that is the hypothesis Null states that beta one is equal to zero, and alternative states that beta one is not equal to zero.
+
+[7:56]
+So if beta... If you just think about that for a second, if the true slope is zero, what does that imply for the relationship between x and y? Yes. Say... Just...
+
+[8:24]
+So if the true slope is zero... Oh, okay. There... If it's zero, there's no relationship. Right?
+
+[8:38]
+So if you don't have a slope, you don't have x producing any effect on y. So we have to check that. So if your sample estimate, b one, is positive or negative, basically, if it's any other value... Any value other than zero, you might say, but it is nonzero. What's the problem?
+
+[9:02]
+Is it possible for b one to be nonzero but beta one to be zero? Who thinks it's possible? So is it not possible? Okay. Remember, our sample estimate b one is variable.
+
+[9:26]
+So the one day, it might be 0.001. So we say, okay. Cool. That's a positive slope. But if you took a different sample on a different day and you recalculated it, it might actually be zero.
+
+[9:39]
+So that suggests to us that maybe the true thing is actually zero. Your sample estimate can vary a little bit from your population parameter. So just because our sample estimate is nonzero, doesn't mean that the population parameter is nonzero. So we have to lean back on some of our statistical tests that take into account sampling variability and checks for this. So it basically widens the lens with which we look at it to take into account random variation.
+
+[10:11]
+So this means there is no relationship, no linear relationship, the null hypothesis, and the alternative hypothesis means there is a linear relationship. So the key thing I want you to understand is you can obtain non zero b one but still potentially have zero beta one because of sampling variability. Sometimes we see significant statistical effects in smaller datasets, but they do not speak for the total population. One way to avoid this conundrum is to just take the larger samples because the larger sample you take, the more your sample starts to closely approximate your population, and then you have more certainty in your estimates. But if you cannot do that, you should do these statistical tests.
+
+[11:59]
+So the first, there's there's two kinds of inference tests for the slope. You have the t test for the slope, and you have the f test. Both will test the same hypothesis, but we need to learn how to do both. Okay. So to start with the t test.
+
+[12:52]
+So this is based on the assumption. That your sample estimate of the slope b one follows the t distribution with expected value beta one and standard error s b one. I'm just going to give it like that for now. So, just keep in mind, I just want to emphasize a t distribution is based on the normal distribution with an adjustment for sigma unknown, so basically when we have to replace sigma with the sample estimate s. So we're assuming that b one is normal.
+
+[14:28]
+We're just using the t distribution here, so it's a t test because we have to calculate the standard error from the sample. So your test statistic. If I give you a a hypothesis test, the first thing I usually give you is your test statistic, so your t stat. And if I were to ask you, I would hope that you... If I tell you something is normally distributed and I ask you to give me the basic structure of a test statistic, you should be able to say we take that thing, the estimate, we minus the population parameter that is hypothesized, and we divide by the standard error.
+
+[15:10]
+That is the same across the board. Here, the sample estimate that we have is b one. The population parameter that we are making a hypothesis about is beta one, and we divide by its standard error, which is given with the notation s subscript b one. I haven't yet given you the formula for s b one, but I'm just giving you the format of the test statistic. And what you will sub in here is zero because the hypothesis...
+
+[15:44]
+The null hypothesis claims that beta one is equal to zero. So you always apply the assumption of the null hypothesis because we assume it to be true until proven false. Okay. Then s... The the standard error, s b one, has the following form.
+
+[16:13]
+It is the standard error of the estimate. We learned about this. I did cover that with you guys. Right? The standard error of the estimate.
+
+[16:25]
+I did r squared and standard error of the estimate. Sometimes I get confused between the two classes because I'm I'm slightly off with one of the classes. I'm slightly behind with one of the classes, but that is the standard error of the estimate divided by the sum of square... The square root of the sum of squares of x. And the square root of the sum of squares of x, they do go into detail about what that looks like, but it's basically take the summation of each x I minus its mean squared.
+
+[17:15]
+So it's almost like a variance that has just not been divided by n-one. So the other thing we need to note is because this is a t test, it... You... If I tell you you have a t test, you you need to remember that it involves degrees of freedom, and there are specific degrees of freedom at play here. The degrees of freedom are n minus two.
+
+[17:59]
+K. So we need to keep track of all our degrees of freedom because in chapter nine, we had degrees of freedom n minus one. In chapter 10, we introduced the two sample degrees of freedom, which is n one plus n two minus two. And here we have the regression degrees of freedom, which is n minus two. I'll elaborate on that in a bit.
+
+[18:23]
+Okay. The good news is that I'm gonna make a star here, and I'm going to make a star here. The star means it is available on the Excel output. This one is unfortunately not available on the Excel output. It would have to be calculated by hand, but I have rarely seen that you need to calculate it by hand.
+
+[18:57]
+Usually, you probably will be given this value here. It is very... It is quite straightforward to calculate this by hand, but, like I said, I've not seen that happen often. So if we look at our house price example, we remember that the slope was calculated to be 0.1098. So that is a positive slope.
+
+[19:25]
+So so far in the sample, it seems like there is a linear relationship between x and y, our x being the square footage and our y being the house price. Now we have to perform our due diligence to make sure that we can reasonably claim the same thing about the population slope. So our sample slope indicates a linear relationship, but can we say that our population slope indicates a linear relationship? So the question is phrased to us, is there a relationship between the square footage of the house and its sales price? And this is not asking for this sample.
+
+[20:06]
+It's asking for the population. So we have to go to our Excel output, and I actually I actually would like to show you what it looks like in the full output, but for now, we'll work with this slide here. So at the very beginning of starting to look at what the Excel output is and where to find everything, I started you off here, and I said that's where you build your regression equation. That's where you get your intercept and your square feet. And then I said there's stuff to the right of it, but we're going to ignore it for now.
+
+[20:46]
+Now we come back to it. So first of all, there's our b one. That is our slope coefficient. Our standard error is the s b one, so that is calculated by the Excel output. That's why I say...
+
+[21:03]
+That's why I put a little star here to show you that it will usually be provided. It's not... Like I said, they they could leave that out, and then you're required to work it out with this formula, but I haven't seen that happen often. What's most likely going to happen is they might be the t stat. But the t stat is quite easy to obtain by the formula.
+
+[21:28]
+You just use your slope. You sub in zero for the population parameter, and you sub in your standard error that you got from the Excel output. So at most, they'd probably ask. They'd probably leave out the t stat, and then you just use the nice t stat formula, everything that you need to get from the Excel output. Then there's the p value, and that's what's nice as well as it it kind of...
+
+[22:02]
+In the output, it has already done the hypothesis test. It's just up to you to interpret the p value. So they've taken that test statistic, and they have, converted that to the p value. Here, the p value is 0.01039. So if alpha was, for example, 0.05, which most of the time, it is going to be in these kinds of tests and, because that's a kind of a reasonable, conventional, value for alpha.
+
+[22:37]
+If we look at this here, this is less than alpha. So what is the conclusion if the p value is less than alpha? Are you guys shy, or do you actually not know? Okay. So always...
+
+[23:03]
+I I like the p value approach because you don't have to draw out the critical values in the distribution. You can just look at the p value in alpha. If the p value is less than alpha, you reject the null hypothesis. If the p value is greater than alpha, you fail to reject the null hypothesis. I like the p value approach because that rule doesn't change whether it's a two tailed test, an upper tailed test, or a lower tailed test.
+
+[23:28]
+So I prefer it. And it's also nice for a researcher because they can immediately zone zoom in on that p value, and they immediately know if their regression is significant or not. So here, I reject the null hypothesis. So I reject the hypothesis that the true slope is zero. That means I can conclude a linear relationship between x and y.
+
+[24:02]
+Are you guys going to remember that rule? If the p value is low... K. Pay attention. This is going to help you.
+
+[24:19]
+If the p value is low, as in less than alpha, then the null hypothesis has to go. That's the rhyme that you can learn. If the p value is low, the null hypothesis has to go, and the inverse is true. So you reject the null hypothesis if the p value is lower than alpha. Okay.
+
+[25:00]
+And it's a nice one because, like I said, it applies no matter which context you're using. If you wanted to, you could go about it the critical value approach. But if your p value is provided, you do not need to go the critical value approach. You just interpret that p value. It's good to know, though.
+
+[25:21]
+So how would they work out those critical values? They would use degrees of freedom, n minus two, and the provided alpha. In this case, alpha is 0.05. But because it's a two tailed test, they divide it by two, and they go and calculate their critical values. In this case, the critical value was minus 2.306 o and plus 2.306 o.
+
+[25:44]
+Our calculated test statistic will land up to the right of your positive critical value, which is solidly in the rejection region. So both cases, p value or critical value approach, we can reject the null hypothesis. The interpretation is there is sufficient evidence that square footage x x variable affects house price y variable. They've just, made it specific to this context. Right.
+
+[26:14]
+Then we get to the, here, they just talk about the p value. We get to the f test for the slope. So it tests the same exact null hypothesis. So no linear relationship. Linear relationship.
+
+[27:17]
+Okay. So the test statistic for this distribution is... This now follows a... An f distribution, and we learned about the f distribution. It is the distribution when you have ratio of variances.
+
+[27:51]
+So your FSAT is equal to the MSR divided by the MSE. We have not actually introduced the MSR and the MSE. So MSR is equal to the SSR. We have talked about the SSR, that's the explained variation, divided by the degrees of freedom of the SSR, which is equal to the SSR divided by one. The degrees of freedom for this component of the variation is always one because you estimate...
+
+[29:12]
+It's concerned with the slope which affects the... How much variation you explain. And in simple linear regression, you always just estimate one slope. Then the MSE is equal to the SSE divided by the degrees of freedom of the SSE, and the degrees of freedom of the SSE are equal to n minus two. The degrees of freedom of n minus two is because you estimate two quantities, the intercept and the slope, and in doing so, you lose two degrees of freedom, by doing that.
+
+[29:54]
+So that's just a background on why the degrees of freedom are the way that they are, but, for you, it doesn't, really make a difference. So remember that the SSE is the unexplained variation. So we take the explained variation. The... This MSR stands for mean squared regression.
+
+[30:18]
+MSE stands for mean squared error or residual, but error makes more sense in this context. It has to be divided by its degrees of freedom and then put into the ratio for... To the... Dividing it by its degrees of freedom makes it a, quote, unquote, true, variance measure, and then putting it into the ratio means that your test statistic then follows the f distribution. So the numerator degrees of freedom would be equal to one, and the denominator degrees of freedom would be equal to n minus two.
+
+[30:57]
+And remember the... We have to pay attention to those degrees of freedom because for the f test, you need to use those degrees of freedom to look up the critical value. But I would say if you can avoid even going to the f table, you should try and do so. The nice thing is that the regression output actually gives you the significance level or the p value. So this over here, this significance f is actually the p value, and it follows the exact same rule that we've just looked at.
+
+[31:37]
+So that is a probability. And if that probability is low in... Lower than alpha, then you can reject the null hypothesis. So, basically, you're just looking to see, does that exceed 0.05, or is it lower than 0.05? The other components of the output here, this is your f stat.
+
+[32:00]
+So this is the ratio of the MSR to the MSE. The actual MSR is over here, so that is the MSR, and this over here is the MSE. So what would you do if we left out the s statistic? So if we left out this thing over here, all you need to do is take the MSR divided by the MSE, and you obtain your s statistics. So that's something we like to do is we leave out the MSR and the MSE, and then you calculate your f statistic.
+
+[32:35]
+But what if we left out... What if we also left out this? You're... You can still calculate what you need to calculate. You take your SSR, which is over there.
+
+[32:49]
+You divide it by its degrees of freedom. You take your SSE, and you divide it by its degrees of freedom. So you... Each one is listed with its degrees of freedom. So you can still work towards the MSR and the MSE even if you don't have that or the f statistic.
+
+[33:05]
+Okay. So it's really... This this Excel output is like a little puzzle piece, and we leave out certain puzzle pieces, and you have to know how they belong together, and you can work backwards to find them. But we are going to do an example in the tutorial. And then I think in previous years, I found that example to be insufficient, so I also have additional examples which, if we have time, we will definitely work through.
+
+[33:31]
+If we run out of time, I will upload that along with the memo for you to, use. I have a lot of extra resources, extra questions. I'll make sure to upload all of that as you start studying for your a two. Okay. Are there any questions so far?
+
+[33:54]
+We're not finished. I'm just checking in with you guys. How does this feel so far? Does it feel manageable? K.
+
+[34:06]
+I think it will also... This chapter introduces a lot of new concepts, but when we start actually doing the questions, you'll see that the questions have a very predictable flow and format, and it kind of starts clicking into place once we work through the examples. Okay. So same situation here. We would reject the null hypothesis at 0.05 significance level.
+
+[34:36]
+And, again, the same conclusion. If you reject the null hypothesis, there is sufficient evidence that house size, the x, affects house price, the y. And then you also get a confidence interval estimate for the slope. So if you have to work this out by hand, you take your b one, which you get over there. You take your...
+
+[35:03]
+This is not available on the actual output because that's the t critical value. But this t crit, you just work out on your HP calculator using alpha over two and degrees of freedom equal to n minus two. We know how to put in the probability and the degrees of freedom using the t distribution to get back a t critical value. So that part, you have to use the HP calculator for. It's not available on the output.
+
+[35:33]
+And then the final thing is the standard error of beta one, which you get over here. Also, please make sure when it's for the slope that you're working in this... No. I should highlight it green. In this second row, the first row is for the intercept.
+
+[35:53]
+Generally, we're not interested in inference for the intercept. There's situations where that matters, but I think the approach of this module is to kind of blanket statement, assume that most of the time, the slope is not going to have a practical interpretation. In some cases, it will, and then you might want to do inference for the slope, but we kind of turn a blind eye to that. So looking at our confidence interval estimate, which, by the way, we find over there. So our confidence interval estimate, the lower 95, that's the lower bound, and the upper 95%, that's the upper bound.
+
+[36:32]
+It's it's assumed an alpha 0.05. One of the things we can look for is is zero contained in that interval? Zero is not contained in that interval. The slope starts at positive, and it ends at positive. So that is another way of checking, is my slope significant?
+
+[36:51]
+Basically, another way of doing the hypothesis test. And then the other thing we can look at is just asking ourselves how much does it vary. How much... How far away is the lower bound from the upper bound? So I'd say be...
+
+[37:02]
+This is quite a big variation. It starts from about three... 0.03, and it goes to about 0.18. That's like... If you converted that to percentage, that's 3% to 18%.
+
+[37:14]
+Not that it should be percentage, but just to give you a picture, that's quite a big variation. So that's saying our our line amongst different samples is going to look quite different for each sample. I think that's just a consequence of the small sample. So you should see it kind of steadying out if it was a bigger sample. But remember the original house price data was based on 10 observations, and I've many times expressed my doubts slash dislike of using tens observations.
+
+[37:49]
+But I recognize that this is just an example in the slide, so we don't have to be... Make it as real world as it needs to be. But there's your confidence interval estimate. Same structure as any kind of confidence interval. It takes the sample estimate plus minus a critical value multiplied by standard error.
+
+[38:11]
+Okay. If, I should also mention this. It is also customary to interpret the confidence interval in the units of y. Now remember the units of y was in thousands, specifically dollars. Remember that I said the slope is interpreted in the units of y because it is the change in y as a result of a one unit change in x.
+
+[38:37]
+So take note of the way that they interpret this confidence interval. We are 95% confident that the average impact on sales price is between 33.74 and $185.80 per square foot of house size. So if you want to add that additional... Or I would recommend adding that additional layer of interpretation just to ground it again in something real. Okay.
+
+[39:07]
+And then we have a third test, and this one is kind of separate from... I didn't write down these three tests when I spoke about inference for the slope because this one doesn't actually belong in the category of testing for a linear relationship, or I should correct myself. It doesn't... It can't test whether x affects y. Our t test for the slope and our f test for the slope test that, but this is just a test for correlation, which is included in the test that you might have to do.
+
+[39:41]
+So remember that correlation does not necessarily equal causation. Have you ever heard that? So just because two things are linearly associated... So just because we see a scatter plot that kind of seems to show that trend does not mean that x is actually causing y. Often in that case, there's a a variable that you did not observe that is actually producing the change in y, and that variable is maybe closely related to your x variable, but x isn't actually directly influencing y.
+
+[40:19]
+So that can happen. Our hypothesis changes. So it's still a t test for a correlation coefficient or it's still a t test. So what this can do is it can confirm association but not causation. Okay.
+
+[41:08]
+And the null hypothesis here is that this is not p. It's actually a Greek symbol for the population correlation coefficient. So the null hypothesis is that p is equal to zero, so that suggests no correlation between x and y. I think I just called it p even though I said it wasn't p. It's actually pronounced rho, like r h o, and the alternative is that it is not equal to zero, so there is actually a correlation.
+
+[41:42]
+So this is no correlation, and this is correlation. So this is the population correlation coefficient. We spoke about correlation all the way back in first semester, and r is the sample correlation coefficient. On your Excel output, you are not going to be able to get your correlation coefficient directly. This is your...
+
+[42:40]
+This is what your Excel output looks like. What you're going to use is r square. It's not the correlation node. So the correlation r is equal to the square root of your r squared. So you go read off your r squared, and then you take the square root of that as your correlation.
+
+[43:02]
+The problem is that the original squaring of r removed the sign, and the sign in correlation is important because positive indicates positive correlation and negative indicates negative correlation. So very important, we have to add the sign back after doing the square rooting. And what we do is we look at the sign of the slope, which is b one. So if b one is negative, then r is negative. And if b one is positive, then your r is going to be positive.
+
+[44:05]
+K. That's how you get your correlation, but then you have to get the actual test statistic. And this is another t stat because it follows the t distribution. So the t stat in this case is equal to the sample estimate minus the population parameter. What gets subbed in here is zero because the null hypothesis says that it is zero.
+
+[44:41]
+And we have a functional or we have a formula for the actual standard error, and that is given to us as square root of one minus r squared divided by n minus two. And this test's degrees of freedom is equal to n minus two. And then you can follow the same, this. You have to go more old school with it. The correlation coefficient doesn't have an official hypothesis test output on the Excel, so you have to then go calculate the t crit using alpha and degrees of freedom.
+
+[45:22]
+And you then compare your t stat to your two critical values, and you decide whether or not to reject, the null hypothesis. I still have, like, three minutes left, and I'm planning to use those three minutes. So have a look at this t test for correlation coefficient. We will do it as well in class in the TUT, either in TUT or in revision. Okay.
+
+[46:00]
+So that brings us to the end of all the very important calculation based things that you need to know for this chapter. Like I said, it will start clicking when we do more practice. The next few slides involve some pitfalls in regression analysis and some steps for avoiding these potential pitfalls. So I would say read through these. I would not, if I were you, try and parrot learn these verbatim.
+
+[46:35]
+I think this is more a guideline for doing regression in practice. So have a look at that. For example, lacking an awareness of the assumptions of least squares regression. That's one of the basic things that you want to check when doing regression. Guys, I'm gonna get this thought out.
+
+[47:10]
+I... I'm going to get this thought out. Just be patient with me here. So I just wanna share a story because I think... Let me tell my story, then you guys can go.
+
+[47:26]
+So lacking an awareness of the assumptions of least squares regression. That's why we have the l I n e acronym. We cannot just go and apply this model to a dataset without checking that the assumptions hold. And the reason I emphasize this is because I experienced secondhand embarrassment on behalf of a classmate of mine who, in our honors year... I told this story to my other group as well.
+
+[47:59]
+They were not very impressed with it, but if they are listening to the recording, they have to listen to it again. The whole year, we had spent learning about these powerful methods, regression analysis being one of them, and we thought we had the power at our fingertips to predict any kind of data that we wanted to predict. And it was our final year presentation. So there was a these... A mini thesis that we had worked on the entire year.
+
+[48:25]
+And at the end of the year, we got to present our thesis to the stats department, which included many distinguished professors. And this classmate of mine spent a lot of time talking about the methods that he had followed and the data that he had used and the predictions that he had made and the accuracy that his model had achieved because we evaluate whether our models are accurate or not. And one of the distinguished professors in the department put up his hand, and he said, you are using time series data. Time series data has errors that are dependent on one another, so this regression model that you have used violates the assumption that the errors are supposed to be independent. And, obviously, it was one of those, like, awkward moments because the student realized that his entire project was basically invalid because he had failed to check a very, very basic assumption of simple linear regression that I am teaching my first years now.
+
+[49:30]
+So silly story, but it just goes to show we should not take any of these little things, these little assumptions for granted, especially in statistics. Like, whenever I introduce a new method to you, one of the first things I do is let us assume that this is following this distribution or that this behaves in this way. But we can kind of go into the real world and just kind of take those assumptions for granted. So we always have to check, does the messy real world data actually follow the distribution or do the thing that I assume it is doing? Okay.
+
+[50:07]
+Thank you for listening to my story. You guys can go now.

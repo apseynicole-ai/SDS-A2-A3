@@ -1,0 +1,173 @@
+P1: Pratice test for sds a1s2
+P3: lease read the rules and instructions below before starting with the assessment. 
+P4: •You have unlimited attempts to complete this assessment. Do not close the assessment or refresh the page before completing the assessment.
+P5: •You have unlimited time to complete the assessment.
+P6: •The dataset used in this assessment is available as A1PTData under the A1S2 Assessment 2026 heading.
+P7: •For each question, you must type your answer in the space provided or select the correct option from the options given on EMSLearn.
+P8: •Round all numerical answers to four decimals, use a full stop to separate integers and decimals, and do not include currency symbols or units of measurement in numerical answers, e.g., R12,3425 must be entered as 12.3425 and -10.000 degrees Celsius must be entered as -10.000
+P9: •Since this is a practice test, we have no control whether you use your notes or study resources during the attempts. It is however encouraged to test yourself without any additional notes.
+P10:  /
+P12: Use the Bootstrap worksheet of the provided dataset A1PTData.xlsx. / Gebruik die "Bootstrap"-werkblad van die verskafde datastel A1PTData.xlsx.
+P14: The original sample (drawn without replacement) is shown in green. An index of two hundred and fifty resamples (drawn from the original sample with replacement) is shown in yellow. Answer the following questions.
+P15: /
+P16: Die oorspronklike streekproef (sonder terugplasing) word in groen getoon. 'n Indeks van twee honderd en vyftig her-seleksies (geneem vanuit die oorspronklike steekproef-waardes, maar met terugplasing) word in geel getoon. Beantwoord die volgende vrae.
+P18: Bootstrapping is useful method to estimate confidence intervals for population parameters when:
+P19: /
+P20: Skoenlusberaming (bootstrapping) is 'n nuttige metode om vertrouensintervalle vir populasieparameters te skat wanneer:
+P22: Answer 1 Question 1
+P23:  We have a small sample with no idea of the population distribution. /  Ons 'n klein steekproef het met geen idee van die populasieverdeling nie.When we have a small sample from a normal  distribution. / Wanneer ons 'n klein steekproef uit 'n normale verdeling het.When the population standard deviation is unknown. / Wanneer die populasiestandaardafwyking onbekend is.
+P25: The bootstrap lower boundary of a 95% confidence interval for the population mean is:
+P26: /
+P27: Die skoenlus (bootstrap) ondergrens van 'n 95% vertrouensinterval vir die populasie gemiddelde is:
+P28: Answer 2 Question 1
+P30: The bootstrap upper boundary of a 95% confidence interval for the population mean is:
+P31: /
+P32: Die skoenlus (bootstrap) bogrens van 'n 95% vertrouensinterval vir die populasie gemiddelde is:
+P33: Answer 3 Question 1
+P35: A1S2 Practice test
+P36: Question 2
+P37: Not yet answered
+P38: Marked out of 4.00
+P39: Flag question
+P40: Question text
+P41: A company recently conducted a quality control study. In this study they called 500 customers and asked if they were satisfied with their service delivery. Only 300 respondents were satisfied with their service. You are asked to construct a 95% confidence interval for the proportion of customers who are satisfied with their service delivery.
+P42: /
+P43: 'n Maatskappy het onlangs 'n kwaliteitsbeheer studie gedoen. In hierdie studie het hulle 500 kliënte gebel en gevra of hulle tevrede was met die maatskappy se dienslewering. Slegs 300 respondente was tevrede met hulle diens. Jy word gevra om 'n 95% vertrouensinterval vir die proporsie van kliënte wat tevrede is met hulle dienslewering, te konstrueer.
+P46: a) Determine the sample proportion.
+P47: /
+P48: a) Bepaal die steekproefproporsie.
+P50: Answer 1 Question 2
+P52: b) Determine the standard error of the proportion for the test statistic.
+P53: /
+P54: b) Bepaal die standaardfout van die proporsie vir die toets-statistiek.
+P56: Answer 2 Question 2
+P57:  Assume that the sample proportion is 0.65 and the standard error is equal to 0.05. 
+P58: /
+P59: Neem aan dat die steekproefproporsie 0.65 is en die standaardfout gelyk is aan 0.05. 
+P60: c) The upper confidence level is.
+P61: /
+P62: c) Die boonste vertrouensinterval is.
+P63: Answer 3 Question 2
+P65: Question 3
+P66: Not yet answered
+P67: Marked out of 4.00
+P68: Flag question
+P69: Question text
+P70: A nutritionist claims that the average sugar content of a certain brand of energy bar could be greater than 8.5 grams. To test this, a sample of  bars is taken, and the sample has a mean sugar content of  grams and a standard deviation of  grams. At the 5% significance level, consider the following hypothesis: 
+P71: /
+P72: 'n Voedingskundige beweer dat die gemiddelde suikerinhoud van 'n sekere handelsmerk energiestafie meer as 8.5 gram is. Om dit te toets, word 'n steekproef van  stafies geneem, en die steekproef het 'n gemiddelde suikerinhoud van  gram en 'n standaardafwyking van  gram. Teen 'n 5% betekenispeil, oorweeg die volgende hipotese: 
+P74: Calculate the critical value for this test: / Bereken die kritieke waarde vir hierdie toets: 
+P75: Answer / Antwoord = 
+P76: Answer 1 Question 3
+P77: Given that the test statistic is equal to 2, what would the decision be? / Gegee dat die toetsstatistiek gelyk is aan 2, wat sal die besluit wees?
+P78: Answer 2 Question 3
+P79:  Reject the null hypothesis since the test statistic is greater than the critical value. / Verwerp die nulhipotese aangesien die toets statistiek groter is as die kritieke waarde.Reject the null hypothesis since the test statistic is less than the critical value. / Verwerp die nulhipotese aangesien die toets statistiek kleiner is as die kritieke waarde.Do not reject the null hypothesis since the test statistic is less than the critical value. / Verwerp nie die nulhipotese aangesien die toets statistiek kleiner is as die kritieke waarde.Do not reject the null hypothesis since the test statistic is greater than the critical value. / Verwerp nie die nulhipotese aangesien die toets statistiek groter is as die kritieke waarde. 
+P80: Jump to...
+P81:                      Jump to...                     Announcements / Afkondigings                     Forum for General Use / Forum vir Algemene Gebruik                     Linear Programming                     Module Framework / Moduleraamwerk                     Group 1 - Dr MMC Lamont (Semester 1)                     Group 1 Semester 2 - Christiaan Hildebrand                     Group 2 - Mr H Sadiq                     Group 3 - Ms Z Adams                     Group 4 & 6 - Ms K Stapelberg                     HP10bII+ calculator manual / HP10bII+ sakrekenaar handleiding                     Additional Resources / Addisionele Bronne                     Assessment Concessions                     Chapter 1 Slides                     Hoofstuk 1 Skyfies                     Tutorial 1 / Tutoriaal 1                     Tutorial 1 solutions / Tutoriaal 1 oplossings                     DirtyData                     Assessment Further (AF) Chapter 1 / Verdereassessering (VAS) Hoofstuk 1                     Chapter 2 Slides                     Hoofstuk 2 Skyfies                     Tutorial 2 / Tutoriaal 2                     Tutorial 2 Solutions / Tutoriaal 2 Oplossings                     Assessment Further (AF) Chapter 2 / Verdereassessering (VAS) Hoofstuk 2                     Chapter 3 Slides                     Hoofstuk 3 Skyfies                     Tutorial 3 Files / Tutoriaal 3 Lêers                     Tutorial 3 / Tutoriaal 3                     Tutorial 3 Solutions / Tutoriaal 3 Oplossings                     Tutorial 3 Excel Solutions / Tutoriaal 3 Excel Oplossings                     Assessment Further (AF) Chapter 3 / Verdereassessering (VAS) Hoofstuk 3                     Chapter 4 Slides                     Hoofstuk 4 Skyfies                     Tutorial 4 / Tutoriaal 4                     Tutorial 4 Solutions / Tutoriaal 4 Oplossings                     Assessment Further (AF) Chapter 4 / Verdereassessering (VAS) Hoofstuk 4                     Chapter 5 Slides                     Hoofstuk 5 Skyfies                     Tutorial 5 / Tutoriaal 5                     Tutorial 5 Solutions / Tutoriaal 5 Oplossings                     Assessment Further (AF) Chapter 5/ Verdereassessering (VAS) Hoofstuk 5                     Tutorial 5 Typo Note                     Chapter 6 Slides                     Hoofstuk 6 Skyfies                     Tutoriaal 6 / Tutorial 6                     Tutoriaal 6 data / Tutorial 6 data                     Tutorial 6 Solutions / Tutoriaal 6 Oplossings                     Assessment Further (AF) Chapter 6/ Verdereassessering (VAS) Hoofstuk 6                     Chapter 7 Slides                     Hoofstuk 7 Skyfies                     Tutorial 7 / Tutoriaal 7                     Tutorial 7 Solutions / Tutoriaal 7 Oplossings                     Assessment Further (AF) Chapter 7 / Verdereassessering (VAS) Hoofstuk 7                     Study Resources / Studiehulpbronne                     Linear Programming slides of videos / Lineêre Programmering skyfies van videos                     Lecture 1 / Lesing 1                     Lecture 2 / Lesing 2                     Lecture 3 / Lesing 3                     Lecture 4 / Lesing 4                     Lecture 5 / Lesing 5                      Lecture 6 / Lesing 6                     How to load the Solver Add-in / Hoe om die "Solver Add-in" te laai                     Example 1 in Excel / Voorbeeld 1 in Excel                     Excel: How to solve a Linear Programming problem / Hoe om 'n Lineêre Programmering probleem op te los                     Excel: Shadow Prices and Sensitivity Analysis / Skadupryse en Sensitiwiteitsanalise                     AF: Linear Programming / VAS: Lineêre Programmering                     Chapter 8 Slides                     Hoofstuk 8 Skyfies                     Tutoriaal 8 / Tutorial 8                     T-distribution table / T-verdeling tabel                     Online Topics for Chapter 8                     Chapter 9 slides                     Hoofstuk 9 Skyfies                     Tutoriaal 9 / Tutorial 9                     A1S1 Assessment 2026 / A1S1 Assessering 2026                     Formula Sheet A2S1 2026                     Viewing of A2S1                     Admin                     Practice test                     Quiz                     Module Framework 2026                     Moduleraamwerk 2026                     Seeing Theory: A visual introduction to probability and statistics                     SUNLearn/ IT help                     Named ranges in Excel / Benoemde reekse in Excel                     Upload concession letters here                     Select type of concession                     Venue allocations for A1S2                     A1PTData                     A1S2 2026 Formula sheet         
+P83: Question 4
+P84: Not yet answered
+P85: Marked out of 6.00
+P86: Flag question
+P87: Question text
+P88: A financial call center prides themselves in their advertised claim that it takes only 10 seconds for a call to be answered. The data in the "calls" worksheet of your datafile is the time it took, in seconds, for a random sample of incoming calls to be answered. The manager has started to think that it takes longer than the advertised amount of time. Use a significance level of 0.01 and assume population standard deviation of 5 seconds to answer the following questions.
+P89: /
+P90: ’n Finansiële oproepsentrum is trots op hul geadverteerde bewering dat dit net 10 sekondes neem vir ’n oproep om beantwoord te word. Die data in die "calls" werkblad in u datalêer is die tyd wat dit, in sekondes, geneem het vir 'n ewekansige steekproef van inkomende oproepe om in die oproepsentrum beantwoord te word. Die bestuurder het begin dink dat dit langer as die geadverteerde tyd neem. Gebruik 'n betekenispeil van 0.01 en aanvaar 'n populasie standaardafwyking van 5 sekondes om die volgende vrae te beantwoord.
+P92: a) The appropriate critical value in terms of seconds is.
+P93: /
+P94: a) Die toepaslike kritieke waarde in terme van sekondes is.
+P95: Answer 1 Question 4
+P97: b)  Calculate the power of the test  if the actual time it takes for a call to be answered is 13 seconds.
+P98: /
+P99: b) Bereken die onderskeidingsvermoë van die toets  indien die werklike tyd wat dit neem vir 'n oproep om beantwoord te word 13 sekondes is.
+P100: Answer 2 Question 4
+P102: c)  What would happen to the probability of making a Type II error if the confidence level were to be changed to 95%.
+P103: /
+P104: c)  Wat sal gebeur met die waarskynlikheid om 'n Tipe II-fout te maak as die vertrouensvlak na  95% verander word?
+P106: Multiple choice 1 Question 4
+P107: Increase / Toeneem
+P108: Decrease / Afneem
+P109: Remain Constant / Bly konstant
+P110: A1S2 Practice test
+P111: Question 5
+P112: Not yet answered
+P113: Marked out of 2.00
+P114: Flag question
+P115: Question text
+P116: You wish to compute a 95% confidence interval of the population proportion. No prior estimate of the population proportion is available. If you are willing to accept an estimation error of ±0.06, the minimum required sample size is / U wil die 95% vertrouensinterval vir die populasieproporsie bereken. Geen vorige beraming vir die populasieproporsie is beskikbaar nie. Indien u bereid is om ’n beramingsfout van ±0.06 te aanvaar, is die minimum steekproefgrootte wat vereis word
+P117: Question 5
+P118: Select one:
+P119: a.
+P120: 18
+P121: b.
+P122: 267
+P123: c.
+P124: 19
+P125: d.
+P126: Kan nie bereken word nie. / Cannot be calculated.
+P127: A1S2 Practice test
+P128: Question 6
+P129: Not yet answered
+P130: Marked out of 2.00
+P131: Flag question
+P132: Question text
+P133: A business has  employees. You want to estimate the proportion who use the vending machines with a margin of error  with 99% confidence. From a pilot sample a sample proportion of  has been calculated. Considering the sample will be taken without replacement from a finite population. What sample size is required? 
+P134: Question 6
+P135: Select one:
+P136: a.
+P137: 1770
+P138: b.
+P139: 1308
+P140: c.
+P141: 1121
+P142: d.
+P143: 851
+P144: e.
+P145: 1024
+P146: A1S2 Practice test
+P147: Question 7
+P148: Not yet answered
+P149: Marked out of 2.00
+P150: Flag question
+P151: Question text
+P152: A magazine reported that at the top 50 business schools in a region, students studied an average of 17.6 hours. We are interested in finding evidence that the average amount of hours is different from 17.6 hours. Which of the following is an example of a type II error?
+P153: /
+P154: n Tydskrif het beweer dat by die top 50 sake skole in ‘n streek, die studente ‘n gemiddeld van 17.6 ure studeer. Ons stel belang om bewyse te vind dat die gemiddelde hoeveelheid ure verskil van 17.6 ure. Watter van die volgende is ‘n voorbeeld van ‘n tipe II fout?
+P156: Question 7
+P157: Answer
+P158: a.
+P159: There is not sufficient evidence that the average amount of hours is different from 17.6 hours, given that the average amount really is different from 17.6 hours. (Do not reject the null hypothesis given that the null hypothesis is false)
+P160: /
+P161: Daar is nie genoegsame getuienis dat die gemiddelde hoeveelheid ure verskil van 17.6 ure nie, gegee dat die gemiddelde hoeveelheid werklik verskil van 17.6 ure. (Verwerp nie die nulhipotese gegee dat die nulhipotese vals is)/ 
+P162: b.
+P163: There is sufficient evidence that the average amount of hours is different from 17.6 hours, given that the average amount really is equal to 17.6 hours. (Reject the null hypothesis given that the null hypothesis is true)
+P164: /
+P165: Daar is genoegsame getuienis dat die gemiddelde hoeveelheid ure verskil van 17.6 ure gegee, dat die gemiddelde hoeveelheid werklik 17.6 ure is. (Verwerp die nulhipotese gegee dat die nulhipotese waar is)/
+P166: c.
+P167: There is sufficient evidence that the average amount of hours is different from 17.6 hours, given that the average amount really is different from 17.6 hours. (Reject the null hypothesis given that the null hypothesis is false)
+P168: /
+P169: Daar is genoegsame getuienis dat die gemiddelde hoeveelheid ure verskil van 17.6 ure gegee, dat die gemiddelde hoeveelheid werklik verskil van 17.6 ure. (Verwerp die nulhipotese gegee dat die nulhipotese vals is)
+P170: d.
+P171: There is not sufficient evidence that the average amount of hours is different from 17.6 hours, given that the average amount really is equal to 17.6 hours. (Do not reject the null hypothesis given that the null hypothesis is true)
+P172: /
+P173: Daar is nie genoegsame getuienis dat die gemiddelde hoeveelheid ure verskil van 17.6 ure nie, gegee dat die gemiddelde hoeveelheid werklik 17.6 ure is. (Verwerp nie die nulhipotese gegee dat die nulhipotese waar is)
+P174: Jump to...
+P176: A1S2 Practice test
+P177: Question 8
+P178: Not yet answered
+P179: Marked out of 2.00
+P180: Flag question
+P181: Question text
+P182: We are interested in the number of apps students use on their smartphones per month. Assume that the number of apps used per month by smartphone owners is normally distributed but that the population standard deviation is unknown. The mean of the sample means is calculated to be 19 apps per month. What is the probability that sample mean is between 18.5 and 19.5 if the sample standard deviation (of a sample of size 25) is 4?
+P183:  /
+P184:  Ons stel belang in die aantal toepassings wat studente per maand op hul slimfone gebruik. Aanvaar dat die aantal toepassings wat per maand deur slimfooneienaars gebruik word, normal verdeel is, maar dat die populasie standaardafwyking onbekend is. Die gemiddelde van die steekproef gemiddeldes word bereken as 19 toepassings per maand. Wat is die waarskynlikheid dat die steekproef gemiddeld tussen 18.5 en 19.5 is as die steekproef standaardafwyking (van 'n steekproef van grootte 25) 4 is?
+P185: Question 8
+P186: Answer
+P187: a.
+P188: 0.0984
+P189: b.
+P190: 0.0995
+P191: c.
+P192: 0.4680
+P193: d.
+P194: 0.4621 
+P195: Jump to...

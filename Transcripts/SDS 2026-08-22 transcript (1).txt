@@ -1,0 +1,230 @@
+[0:00]
+Okay. Good morning, everybody. Good to see you all again. So, we are carrying on with the topic of simple linear regression. And just kind of a recap of where we're at.
+
+[1:18]
+So we start off with usually a scatter plot and can indicate that the relationship between x, x being our independent variable, and y, y being our dependent variable, is linear. So that's usually the starting point for linear regression. And then we use the estimated regression formula, which looks like this. Y hat I is equal to b zero plus b one times x I to approximate or estimate the population regression formula, or we can call it model, actually, population regression model, which looks like this. K.
+
+[3:33]
+So just note the differences between the two. First of all, the estimated one is a y hat I because this is now providing an estimate of y. Notice the difference in how we name the intercept and the slope. It's lowercase b. And with the population, it's the symbol beta.
+
+[3:53]
+And then the population contains the error term epsilon I. But for the estimated regression formula, we don't estimate the error term. The error term will be there just by the fact that we're estimating a line. The fact that the points will diverge from the line is our error term. So we...
+
+[4:19]
+Another point we spoke about was the model errors slash residuals. E I is equal to the estimated or the actual minus the estimated. So y I minus y hat I, where y is actual and y hat I is estimated. Okay. So the other thing we also spoke about last time was we talked about estimating the regression formula.
+
+[5:05]
+So the things we really need to estimate are b zero and b one. Y hat I is just a function of b zero, b one, and x. X, we get from the data. So what we need is b zero and b one. And we spoke about how best to estimate b zero and b one.
+
+[5:25]
+So b zero and b one are obtained by the least squares method. And the least squares method, what it does is it finds b zero and b one such that the SSE, which is equal to the sum from I equals one up to n of each y I minus y hat I squared is minimized. So we find the parameters to minimize the error function. That is a... An optimization problem, and it's the the how of it.
+
+[6:29]
+You... Remember we said, you don't have to really focus on the background methodology, which is deriving it and setting it equal to zero and solving for b zero and b one. You'll have... Either you'll be given these things in Excel, and your job will be to interpret them. The other option is you'll get a small dataset, and then I'll show you how to get it on your HP calculator.
+
+[6:58]
+And then if you don't want... If if neither of those... If you don't wanna get it using your HP calculator, you can. There are formulas to calculate it by hand, but I would discourage you from using those formulas because I think the HP calculator in this case is better and more accurate, but I will point out the formula methods to you as well. Okay.
+
+[7:22]
+And then the interpretation in the slope... The interpretation of the slope and intercept, that is worth one or two marks, just giving that interpretation verbatim. So whenever we do an example, whenever you have to give or find b zero or b one, together with that, you need to know how to interpret it. So then we did briefly speak about the example. I'm gonna also talk about it again because I feel like I rushed it a little bit because I was trying to fit a lot into loss...
+
+[8:04]
+The loss classes time. But, basically, we have now a workable example where we have... The dependent variable is house price, and the independent variable is square feet. So we are going to use square feet to try and predict house price. Something you can just notice, which I'll come back to, is that the house price is in units of thousands of dollars.
+
+[8:37]
+So if you look at your data here, obviously, this then just means that this house price is $245,000, but we'll work with it more simply as just $2.45, and we have the various square feet. So you always have to have a y column and an x column in order to do this linear regression. This is our data, and we think of these as pairs. So this is pair one over here. So you've got your y and your x.
+
+[9:12]
+This is pair two. This is your y and your x. So for that square, for that specific size measurement, that is the price that comes with it. So we have our pairs, and then we... First thing we would wanna do is plot it on a scatter plot, and this tells us that, okay, we should...
+
+[9:31]
+We see a linear trend here, so a regression model here is suitable. It's very rare that you will do regression with just 10 data points, but for simplicity, we've just got 10 data points on the slides here. So something we can also notice is just the boundaries of the data. So you can see that square feet kind of stays between a 2,500, and then price stays around, I would say, 200 to 400,000. We could just note that for now.
+
+[10:14]
+It's... It comes in more with our interpretation. And then you would use Excel to obtain this regression output. So Excel will take the data, and it will calculate the... It will basically do this optimization problem finding b zero and b one as the best fit for this data.
+
+[10:38]
+And then the first thing we spoke about was obtaining your actual formula from the Excel output. So you will most likely get a printout for a specific dataset. And a question that we love to ask is just give the regression model. So you are wanting to give the equation that looks like this. Okay.
+
+[11:10]
+So the hat is very important. You can lose a mark for leaving out the hat because the hat tells us it's an estimate. It's the predicted house price. Then the intercept is conveniently named intercept, so that's our 98.24833. And then our slope is the variable that is related to the x variable, and in this case, the x variable is named square feet.
+
+[11:44]
+So you look for your x variable, and that will... The slope is usually below the intercept, and that is 0.10977. And then x I. So if I'm marking, this is usually a three mark question. I look for, did you construct the formula correctly?
+
+[12:08]
+So, I look for the hat. I look for you being able to clearly identify the intercept which is alone and the slope which is with the x variable, and then I give a mark for correctly identifying the intercept and the slope. Okay. So that can be three marks. And it seems simple, but every year, I mark many people wrong for this question because either they switch the intercept or the slope, they leave out the hat, or they do something really strange.
+
+[12:40]
+Sometimes, if it's a small dataset and you have to calculate these by hand, the formula might be correct, but then the values are incorrect. You might get one mark then, so we kind of try and be lenient there. And then something you can do is also use actually the variable name house price. So here it's house price hat equals intercept plus slope times the name of the x variable. So that's also fine.
+
+[13:11]
+Okay. Then I'm just plotting the scatter plot and the prediction line. So this is now the line that you estimated over there, and you can see it's a pretty nice fit through the data. The intercept is if it theoretically were to extend to the y axis, it's where it cuts the y axis. Can you tell me why this intercept is kind of not practically useful for us in this instance?
+
+[13:45]
+I didn't mention it yesterday. Anybody want to tell me? Yes. Houses only really start at a thousand square feet. Telling me what the price would be at zero square feet is not useful to me.
+
+[14:07]
+So just note that sometimes the intercept will have a a useful application, and sometimes, x will have a value of zero, in the dataset, but sometimes it doesn't. So, another set of marks that you can get is just... It it will say give and interpret the intercept. So in this example, we say the intercept b zero is the estimated mean value of y when the value of x is zero, if x is zero is in the range of observed x values. So that's pretty much the interpretation that you can use.
+
+[14:53]
+Estimated mean value of y, and I wanna see mean value of y because regression is looking at averages when the value of x is zero. And then here, just an an additional note, because a house cannot have a square footage of zero, it has no practical application. Okay. And then we would also have to interpret the slope. So here, b one estimates the change in the mean value of y as a result of a one unit increase in x.
+
+[15:28]
+So they've just... That's the sort of general one, but they make it very specific to the application. So here, the mean value of a house increases by 0.10977. That's my slope. That's my b one.
+
+[15:42]
+And then they just multiply it by the thousands. So because it's a... This slope is in the units of y, so we can multiply it by the units of y. So that would just be $1.00 $9.77 on average for each additional one square foot of size. It's just basically translating the general interpretation into the specific cons...
+
+[16:07]
+Context. So you can also do that in the assessment. Whatever context we've given you, you can apply that to the specific interpretation, and then I can see that you really understand how to apply this interpretation. Okay. Then we look at...
+
+[16:29]
+So this is one of the things that we have to do. We have to predict the price for a house with 2,000 square feet. So now you've been given a new data point, 2,000 square feet, that is indeed within the range because square feet goes up to 2,500, just about. And now it says, here's a here's a new x value. Predict the value of y for that x value.
+
+[16:57]
+So we're basically just going to use this formula that we have here. So now the predicted value y hat I is equal to 98.24833 plus 0.10977. And then in here, for the x, we sub in... Now we have an actual realized value of x. So we sub in the 2,000 as my realized value of x, and then you will get three one seven point eight five.
+
+[17:30]
+So that is at x equals 2,000. My model predicts y will be three one seven point eight five. So now I have something that I can use to predict new data points if they come up. So you can also... If you want to, obviously, change the units.
+
+[17:54]
+So it's three one seven point eight five. If you multiply that by the units of y, it's just three one seven eight hundred and fifty thousand, which is also good because then you can see it actually is grounded in reality. Then just the warning that I spoke about, we have to be careful to only predict within the relevant range for the data. So it would be So it would be a bad idea to say... Don't...
+
+[18:36]
+So I would say don't make a prediction for x equal to, I don't know, 500 square feet. Right? Or x equal to 3,000 square feet. If our data does not go beyond that range, then it's not a good idea for us to make predictions along that range. Because the reason is, the reason why we try not to do that is because we don't know what the what the function looks like beyond our range.
+
+[19:19]
+So at the moment, it looks linear. But what if beyond a certain square foot or square footage, the function actually goes exponential? I'm not saying it does, but what if? Or what if beyond a certain square footage, the price kind of plateaus? I'm not going to draw the one where it goes down because I don't think that happens, but we don't know what the what form the function takes beyond our range.
+
+[19:49]
+So we don't wanna be assuming that it just goes in the same linear, shape beyond the range of the data. Okay? Then, here are our formulas for calculating it by hand. I'm not a fan of these because, like I said, anytime when I've marked and I see a student use the hand formulas, they usually get the wrong answer. So, here, I'm going to say, rather just use the calculator.
+
+[20:20]
+I'm I'm going to show you how to use the calculator, but it is here if you want to. So, you have to first calculate b one if you're using this formula, and this is essentially the closed form solution to that optimization problem that we found. So this is the exact solution that optimizes our error function. So it's this quantity s s x y, and here they explain exactly what s s x y is. And then this here is just the optional computational formula.
+
+[20:57]
+Remember, we spoke a lot about this in first semester. There's usually the definition formula, and then the computational formula is just... Has just been slightly made slightly more efficient, and it's usually faster to compute. And then it's divided by SSX, which is the sum of squares of x, which is essentially almost like the variance of x in a sense. But here is our definition for SSX, and then this is just our computational formula for SSX.
+
+[21:28]
+Here, they use the quantity y bar to indicate that it's the mean of y, and the quantity x bar is the mean of x. And then once you have b one, you can then go and calculate your b zero, which is the mean of y minus b one times the mean of x. So that's why you need to first calculate b one, and then you can calculate b zero. Okay. If there is time at a later stage, I'll go through the example of how to do it by hand for those of you that really want to do it by hand.
+
+[22:03]
+It is in the slides so long, so they they take you through how to do it. But for the sake of covering the things that are important to cover, I'm not going to do this right now. But you're welcome to have a look. The next thing we need to talk about is the composition of the variance for regression. Okay.
+
+[22:34]
+So Assuming we have some sort of dataset with x and y pairs, the first thing I want you to see here is that y has its own variation. So if we ignore the extra dimension added by x for a second and we just kind of imagine compressing this, y along its axis. So if we pretend that this x isn't there and then these all come to the same line, you can see that this is kind of just a distribution, and y will kind of vary about some mean. So imagine the mean of y is here, then y will kind of spread out above its mean and below its mean. Right?
+
+[23:42]
+Ignoring for a second the extra dimension added by x. So that is kind of the total variation of y. But then when you bring in the regression setting, there is... That total variation of y decomposes into basically an explained part and an unexplained part. Now the explained part is what the regression model takes care of.
+
+[24:08]
+The unexplained part would be anything that your regression model still can't explain after that point. So if you have a regression model here, I'm just gonna draw a straight line, then there is this part here for a given point that the model takes care of. So that deviation of y from its mean is explained by x. So this would be thought of as the explained variation. And then you've kind of got the unexplained variation, which is any leftover variation that is not accounted for by the model.
+
+[24:57]
+So for example, we can think of maybe this point here. The difference from it to the regression line is the unexplained variation. And together, if you put explained and unexplained together, it makes up for the total variation. So this decomposition is important to us because it can tell us how well our model is doing. Now, ideally, you want the explained variation to account for the majority of the total variation, and the unexplained variation, you don't want that to be too high because then your model might not be doing as good of a job as you think it is doing.
+
+[25:45]
+So the main decomposition is SST, which is the... You can think of that as the total variation. Is equal to the SSR. Now it's called... It stands for regression sum of squares or sum of squares regression, but you can think of it as the explained variation.
+
+[26:13]
+So what is accounted for by the model plus the SSE, which is the unexplained variation. So the total variation is the total variation of y about its mean. Then the explained variation is the portion of variation explained by the model. And then the unexplained variation is the portion that cannot be accounted for by the model. Okay.
+
+[27:45]
+So coming to the formulas then, your SST is equal to the summation of each y I minus its mean, and then you square it. The squaring takes care of negatives canceling out positives. Then the SSR, the sum of squares regression, like I said, if you think about it, it's the difference from the mean to the predicted line. So it's the summation of each y hat I minus the mean. And then the SSE finally is the difference between each actual value of y and predicted value of y.
+
+[28:57]
+So y I minus y hat I squared. So this is kind of the very basic, graph. I'm going to give it to you in a little bit more detail now. It is also on the slides over here, but you can make it with me. And I think in making it with me, you'll maybe understand it a little bit better.
+
+[29:37]
+So we've got this point here on an x and a y axis. We'll put the mean of y as a straight line there. And the reason it's a straight line is because the mean doesn't really change. The mean is fixed once you calculate it. And then we've got our regression line.
+
+[30:07]
+So that is my predicted regression line. So it's the y hat line. This is the y bar line. And then we'll look at a specific point. So this is a given point.
+
+[30:24]
+So if you trace this point to the y axis like that, and you could trace it down to the x axis like that. Now we're concerned with the vertical area. So y is its own point over here, but if you trace it down to the x axis, we've also got the predicted value. And if you trace it down here, you've also got the mean. So in general, remember the total variation of y from its mean would be the distance from this point y to the actual y bar line.
+
+[31:11]
+So that is your SST. Then you can see how it nicely decomposes into the two parts. So your SSR is the portion of that variation that's explained by the regression model. So that would be the gap between the regression model and the average. So that would be this point here.
+
+[31:35]
+That's your SSR. And then the remaining gap, which is not accounted for by the model, would be the gap from the model to the point. So that is my SSE. If you wanna also see it along the y axis, this is the point y hat. This is the point y...
+
+[32:07]
+Sorry. Y bar. This is the point y hat I, and this is the point y I. Okay. Following so far?
+
+[32:27]
+Okay. This illustration, it's not perfect because this illustration is showing it to you for a specific point, but keep in mind that this is an aggregation over many points. So it's supposed to sum all the points. So it's not actually... It doesn't actually make sense to say this exists for a single point, but it's just trying to show you the relationship between these three quantities.
+
+[32:56]
+So try not to take this graph as a literal because, remember, it is the total aggregation, but I find that this graph is useful just for understanding how these things interact with each other. Okay. And then remember the... I showed you that you'll get this output. So you can actually find the SSR, the SSE, and the total sum of squares from this output here.
+
+[33:32]
+So in the Excel output, these are found. In the ANOVA section. ANOVA stands for analysis of variance. So your ANOVA section is this entire section. So you'll also need to know what is going on here.
+
+[34:13]
+The sum of squares regression is your SSR. Now it might get confusing, but the sum of squares residual is actually your SSE. So it says r, but it's... Residual is, remember, another word for error. So in in the in the context of linear models.
+
+[34:35]
+So that's your SSE, and then this is your SST. And the relationship, of course, is that SST is equal to the sum of these two. They each have their own degrees of freedom, which you can note. Sum of squares regression will always have degrees of freedom one. Sum of squares residual will have degrees of freedom n minus one...
+
+[35:01]
+Sorry, n minus two, actually. And then sum of squares total will have degrees of freedom n minus one. So our observations are 10, which means that total sum of squares will have n minus one, which is 10 minus one. Residual will have n minus two, which is 10 minus two, and regression... If it's simple linear regression, it always has one degree of freedom.
+
+[35:24]
+So your actual quantities then are these. And something we love to do is what if we leave out total? So imagine total is not in the output, and we ask you what is total. You take regression plus residual equals total. So you have to understand how the quantities fit together.
+
+[35:49]
+Or, for example, we leave out sum of squares regression, and then you have to take total minus residual is equal to regression. So just understanding how the quantities fit together and where they're located on the graph will help you a lot. So I just wanted to show it to you on the big output so that you can see where it's located. But in the slides, they just use kind of a zoomed in cutout. And here, you can see the breakdown exactly.
+
+[36:25]
+SST is equal to SSR plus SSE. These things, we're ignoring them for now because we haven't learned about this yet, but keep that in the back of your mind. It will will speak about that as well. And then the next quantity we need to talk about is the coefficient of determination, r squared. So by the way, I jumped into these measures of variation, but maybe I should add it to the recap now, just to give you the big picture.
+
+[37:20]
+So we've obtained our regression model. And now the next step, if you were to do this, is to... After fitting the model... Fitting just means I have found b zero and b one to fit the data best. The next step is to evaluate how well the model is suited to the data.
+
+[38:09]
+So this is sometimes referred to as goodness of fit diagnostics. And these goodness of fit diagnostics, that is why we then look at the variance... The decomposition of the variance. We look at SST equal to SSR plus SSE. The reason is, remember, if your explained variation is a lot and your unexplained variation is less compared to that, then your model is doing a good job of explaining the relationship between x and y.
+
+[38:56]
+If your unexplained variation accounts for the majority, then your model is perhaps not doing a good job at explaining the variation, and perhaps a different model would have been better chosen. So this is now... That is the bridge. So that's why we're looking at these variance measures. But you also have more goodness of fit diagnostics, which we'll cover.
+
+[39:19]
+So one is the... Looking at the breakdown of the variance. Another is the quantity called r squared. That is a measure of goodness of fit. And the third one is your s s or the standard error of estimation, s x y.
+
+[39:41]
+Okay. So now we've looked at the breakdown of the variance, and then, actually, these two measures are derived from the breakdown of the variance. So the next one is the coefficient of determination or your r squared. So, basically, what it does is it takes your SSR and it divides it by the SST. So that tells us what portion of SST is made up of SSR.
+
+[40:36]
+So, basically, it says, in other words, what portion of the total variance or variation rather. I shouldn't say variance because variance is a specific quantity. Variation is rather general. What portion of the total variation is made up of explained variation. So this tells...
+
+[41:19]
+If this is high, remember this will now be between zero and one because it's a portion... A proportion. So closer to one... So r squared will be between zero and one, and closer to one means model is explaining well. So we ideally want our r squared to be high.
+
+[42:01]
+And then we just see some examples of different r squares. So in your ideal your ideal r squared of one would mean that there's literally a perfect linear relationship between x and y, which says that sometimes we like to change the one into a percentage, so 100% of the variation in y is explained by the variation in x. More often than not, you'll get a r squared that is weaker. So a weaker r squared will say some, but not all of the variation in y is explained by the variation in x. And then something like that would be your r squared of zero, which would mean no...
+
+[42:52]
+There's no linear relationship between x and y, so your r squared would be zero in this case. So important for us is to know where to locate r squared on the Excel output, and it's quite easy because it is literally named r squared. So if they give you the Excel output and they ask you to give the r squared, you just go look for r squared. And here it is 0.58082. The question will say...
+
+[43:22]
+Usually, it says... It will say give and interpret r square. So in the interpretation, it's common to convert it to a percentage. So here, it's 0.5808, But then in the interpretation, we say 58 o 8% of the variation in house prices is explained by the variation in square feet. So that's your guideline for the interpretation.
+
+[43:47]
+Again, we care about how you phrase things because that tells us if you understand the nuances. So, interpretation. First of all, you can convert r squared to percentage. So if it's zero four... So for example, if it's 0.58082, it becomes 58.08%.
+
+[44:23]
+And then you say, of the variation in y... In this case, it is house prices, but I want you to see that it's always y, is explained by the variation in x. In this case, it's square feet. And here's what the slides, don't say, but I would like you to add, when you give an interpretation in the assessment. So 58% of the variation in y is explained by the variation in x, comma, through the estimated linear model.
+
+[45:10]
+Then I'm... I will be really happy because we're just acknowledging that this r squared only exists in the current model that we have estimated. It's not a... It doesn't just exist by itself. Sorry.
+
+[45:25]
+Linear model. So that's your road map or guideline for giving interpretation in the exam. What do you do if r squared is not given to you? Because sometimes we'll leave it out. Remember that you still have SST and SSR, and r squared is just SSR over SST.
+
+[45:58]
+So if we leave out r squared, you go over here, you take your SST or SSR, you calculate r squared yourself. It's not difficult to calculate. You just need to know what you need in order to calculate it. Okay. So are you kind of seeing how we'll ask things?
+
+[46:15]
+Well, say, give things and interpret things, and then sometimes we'll leave things out, but you'll have enough information to compensate for what we've left out. So getting used to this Excel output is going to help you tremendously. Okay. And that is then my time. We'll pick this up on Friday.

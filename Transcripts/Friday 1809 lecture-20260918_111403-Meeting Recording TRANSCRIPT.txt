@@ -1,0 +1,260 @@
+[0:00]
+Okay. Hello, everybody. Good to see you all again. So we are wrapping up chapter 10 today. We've got thirteen and fourteen.
+
+[1:56]
+That's our next two chapters. And so that's two chapters left to do, but only one tutorial left to do. So you only have tutorial 11. It kind of combines chapter thirteen and fourteen questions. And chapter thirteen and fourteen are kind of...
+
+[2:19]
+They group together, so it'll be kind of a big departure from the hypothesis testing we've been doing into something entirely different. But the good thing is if you know 13 well, it should translate to chapter 14 as well. But we'll chat about that more next week. So we have to look at the test for two variances. So the purpose of this, the thing that we wish to do We wish to compare the variances of two groups.
+
+[3:17]
+So sigma one squared is the variance of group one, and we wanna say something about sigma two squared, the variance of group two. So that is the comparison which we wanna make. K. So I'll give you some examples practically why we care about this. So situations where this might be of interest to us, which factory, if we're comparing two factories, produces more consistent product.
+
+[4:24]
+So in manufacturing, you've obviously got, sometimes small manufacturing errors that creep in or just deviations from what it's supposed to be. So we associate consistency with quality. So we want... Might want to see which one tends to be more variable, and which one tends to be less variable. The less variable one will be the one that is better at producing to the same standard each time.
+
+[4:59]
+Another example is which teaching method produces more consistent grades. So in both of these, we're actually asking... Let me put that in brackets. Which one has smaller variance? Here, we're also asking which one has smaller variance.
+
+[5:50]
+And then last one, to round out the examples, you might ask which investment is less risky. Remember, in investments, risk equals variability. So we wanna know which one is less variable because that will tell us which one is safer, so has less up, down, roller coaster tendencies. So when we had... When we looked at comparing two means, the natural thing to do was to take the difference in the means.
+
+[6:59]
+Here, the natural thing to do is to take the ratio of the two variances. So we set up a ratio. So we wish to compare the variances of two groups. We set up a ratio. So the ratio of interest to us is sigma one squared over sigma two squared.
+
+[7:43]
+So large ratio here implies large sigma one squared. So another way you can think about it is large ratio implies large difference between sigma one squared and sigma two squared. Bless you. So this thing is... This ratio is a quantity.
+
+[8:41]
+We've defined a new statistic, a ratio of two variances. So at the back of my... At the back of our minds, we're thinking, hopefully, okay. We've defined a statistic. We need to figure out, or we've defined a quantity.
+
+[9:01]
+And if we're gonna take a a sample statistic of this quantity, we wanna know what its distribution is going to be because that is going to determine how we're going to set up this hypothesis test. So this is a population quantity. This is... Consists of two population quantities, and together, they make a population quantity that we wish to make inference about. In case you have forgotten, inference is using a sample quantity, something you can calculate in the sample, to make a conclusion about a population quantity.
+
+[10:24]
+So just to also tie it again to the original setup. So all I've done is I wanted to do sigma one versus sigma two. So I've decided a better way to quantify this comparison I'm trying to make is just to define my parameter of interest as the ratio. That's all we're doing. We're still comparing the variances of the two groups.
+
+[11:03]
+So if I've... If you're following the logical stream of things in this whole time that we've been doing this, as soon as I tell you this is the population quantity that we are interested interested in saying something about, the next question is, okay. What is the sample quantity that we are going to use to say something about this population quantity? And that brings us to these... The test statistic.
+
+[11:41]
+So It's known as an f stat. So when we talk about a t stat, it's because it comes from the t distribution. When we talk about a zed stat, it's because it comes from the zed distribution. F stat comes from the f distribution. I'll explain more about that now, but all it is is s one squared over s two squared.
+
+[12:17]
+So it's the exact sample counterpart of the population parameter that we are trying to say something about. So what's a little bit different about this is usually, for example, we have mu, the population parameter. We estimate it with x bar, but then to define the test statistic, we take that x bar minus mu divided by standard deviation or standard error. We're not going to do that here. So we...
+
+[12:53]
+There is no need for us to take this and minus its expected value and divide by its standard error. Basically, the reason is that this doesn't follow your typical normal distribution. So, it does not have to obey the rules of standardizing that the normal distribution has to. So, this statistic follows the f distribution, and, therefore, it's perfectly valid to use as as a test statistic as is. There's no need to make it conform to some kind of distribution.
+
+[13:27]
+It already conforms to the f distribution. So the f here implies that it comes from the f distribution. And among other things, you really only care about, in this case, the fact that it covers the ratio of two variances. But among other things, it's a distribution that describes two variances taken as a ratio. It describes the behavior of the ratio of two variances.
+
+[13:58]
+So it's shaped kind of like this. So it's very much skewed to the right. It will start at zero, which is an interesting thing about it. And if you think about it, if it's the ratio of two squared quantities, it can never be less than zero. It can never be negative because it is the ratio of two squared quantities, which is why it starts at zero.
+
+[14:36]
+And then it kinda peaks near low values, so it's possible for the ratio to be less than one. We... The way we do the test, we're gonna make it impossible for it to be less than one, but the distribution technically does allow for values less than one. And then over here, it kind of evens out on the right hand side. So that means we typically see most of the values on this distribution being kind of zero to one and then very few on the right hand side.
+
+[15:14]
+So very few large values of the ratio. We have to follow a specific rule, and it's a it's a rule that simplifies the test. So our rule is, for this ratio, always put the larger one on top, the larger variance. So this will ensure... So, therefore, in other words, we must make it so that our s one squared is greater than our s two squared.
+
+[15:59]
+And this ensures that the f stat that we calculate is always greater than or equal to one. So it simplifies the focus of the test to the upper tail. So the other thing that's important here is s one squared has degrees of freedom of its own equal to n one minus one. So n one being the size of the sample that you took to calculate s one squared. And s two squared has degrees of freedom two, which is equal to n two minus one.
+
+[17:32]
+So we can never get away from degrees of freedom when it comes to estimating the sample variance slash standard deviation. Whenever we have to estimate sample standard deviation, we lose a degree of freedom. We pay the price of a degree of freedom, and that is because we have to estimate the mean first in order to estimate the standard deviation because the mean is a quantity in the formula for the standard deviation. So we still have to take that into account. The f distribution itself is dependent on degrees of freedom.
+
+[18:11]
+Then, the other quirk of this test... So we've talked about, the test statistic. Let's talk about the form that the test takes. So we only consider two tail and upper tail tests. Because we have ensured that f stat is always greater than or equal to one.
+
+[19:00]
+So it is not... There is no point in considering a lower tail test because of the way you force your ratio to be greater than one. You'll never have a rejection in the lower tail. You're only ever going to have a rejection in the upper tail. So your two tail test will look like this.
+
+[19:28]
+Your null will say sigma one squared is equal to sigma two squared. Your alternative will say sigma one squared is not equal to sigma two squared. So the two tell... The the null is saying no difference between the two, and the alternative is saying a difference. And then your upper tail test, Null says sigma one squared equal to sigma two squared.
+
+[20:11]
+Alternative says sigma one squared is greater than sigma two squared. So the null is saying no difference. The alternative is literally saying the one is greater than the other. So you think of it as positive difference, but it's kind of self explanatory, that one, saying the one is larger than the other. Okay.
+
+[20:35]
+So you can draw out the two rejection regions. I think it does help. So the quirk here What's the rule with the two tailed test? We always divide alpha by two. So the size of this rejection region on the right hand side is alpha over two.
+
+[21:11]
+When it's a one tailed test like this, it's just alpha. K. So what I did... So notice I didn't go and put... Technically, there should be an alpha over two here.
+
+[21:29]
+Notice it's not symmetrical anymore. So, technically, there should be alpha over two there because it's a two tailed test, but you're never gonna look at that side. So you can ignore the lower tail because f stat will never be to the left of one. So you'll never face a rejection on that side because of the way you structure the test. Okay.
+
+[22:10]
+And then we've also got our rejection rule here. So you will reject for both of these. Reject if f stat is to the right of f crit. F crit will obviously be the point that marks the start of the rejection region. K.
+
+[23:03]
+I haven't spoken about how to get your f crit, but I'm going to do the example, and then you'll see how to get your f crit. It is not found using the calculator. We use calculator for t and zed values. We unfortunately don't have a, a programmed into our HP calculators. What you will get instead is a printout table.
+
+[23:27]
+I'll show it to you in a moment. This will be found... If you have this kind of question where you need to use, look up a critical value, you will... In your assessment page to the back of your assessment, and it will be found there, like, where you normally find your formula sheet. Other than assessments, it is found under the topic for chapter 10 on SunLearn as a PDF that you can download.
+
+[23:53]
+So it would be good to get familiar with using that. I'll show you how to get the critical value. So... Yes. Yes.
+
+[24:07]
+Okay. So your f distribution starts at zero, and then, presumably, you've got one, two, three, and so on and so on. Basically, we have the rule to always put the larger variance on top. So if you have a large quantity over a small quantity, it's not a fraction. It's a ratio.
+
+[24:46]
+That cannot be less than one. It can only be less than one if the smaller quantity is on the top. So what what you do in a hypothesis test is you calculate the f statistic, which is this, and then you go and ask yourself where on my distribution does it land so that you can make a decision to reject or not reject. If I have forced this to be a ratio, it is never going to land up on this side. So for my purposes, even though I'm still dividing alpha by two, so I'm still acknowledging that it's a two tailed test, but I just don't even need to look at this side because it is never even going to land up on that side.
+
+[25:27]
+All I need to see... It's gonna be somewhere here. My job is to see, is it to the right of this line or to the left of this line? Does that make sense? Okay.
+
+[25:44]
+So... Okay. Let's do the example. So it says, test the hypothesis at a 5% significance level that the variability in number of sales at two different stores is similar given the following sample information. So the first thing we can do is define our hypothesis.
+
+[26:09]
+So the null and the alternative, we need to test that the variability of sales at two different stores is similar. So they're kind of phrasing it in terms of the null. So are they similar? Meaning, sigma one squared equal to sigma two squared. That's the question.
+
+[26:32]
+Are they similar? But you have to have your opposing statement so the alternative says sigma one squared is not equal to sigma two squared. It didn't specify a direction that it wanted the test to take, so it didn't say test if the one is larger than the other. It just said find if they're similar. So this is a two tailed test.
+
+[26:53]
+Alpha is 0.05. Step one that you're going to do, I'm just outlining some broad steps that you can follow, is you have to choose which one is gonna be s one squared. S one squared has to always be the larger one. So I've got... If you look at that table, store a has a sample size of 10, and store a has a sample standard deviation of 32.5271.
+
+[27:32]
+Store b has a sample size of 10 and a sample standard deviation of 42.542 o. So store b is gonna be my s one squared. That has to be number one because that has to go on the top. So since the standard deviation of store b is greater than the standard deviation of store a, we are going to say s one is equal to 42.542 o and n one is equal to 10. S two is equal to 32.5271, and n two is equal to 10.
+
+[28:19]
+So this means... I'm I'm already thinking ahead to the degrees of freedom, so d f one is equal to nine and d f two is equal to nine as well. Then we can calculate our f stat. So that would be sort of step two. F stat is equal to s one squared over s two squared.
+
+[28:47]
+Now I've made sure that s one squared is the larger one, so it is going to be 42.542 o squared divided by 32.5271 squared. I mustn't forget about the squared. So remember, if the standard deviation is given, you must square it. So you must pay attention to what the question is giving you. Sometimes they'll give variance, and then you can just use variance.
+
+[29:27]
+Sometimes they'll give standard deviation, and then you must remember to square it because this is a... The formula requires the squared quantity. Then working that out, it will give you approximately, because we're rounding, 1.7106. That is my test statistic value. Step three is where we use the table.
+
+[29:53]
+So this is where we have to find f crit, and this is done using the table, the printout that you would get. So it's an f value, and it's dependent on two things. First of all, your probability alpha over two, and then your degrees of freedom one and degrees of freedom two. So that's going to be f corresponding to alpha of 0.025, degrees of freedom one of nine, degrees of freedom two of nine. And then we...
+
+[30:38]
+Those are our lookup parameters that will help us. So if you come to the f table... K. So under chapter 10, it's right at the top there. You open it up, it looks like this.
+
+[30:56]
+There are three pages. The difference in the pages is the alpha. So page one has alpha 0.05, page two is for alpha of 0.025, and page three is for alpha of 0.01. So we want to be on the page of alpha 0.025 because our alpha of 0.05 needs to get divided by two, so it's 0.025. That's our effective probability here.
+
+[31:28]
+Then, your... Let me see if I can zoom in. Your column, numbers refer to the numerator degrees of freedom. So you're going to look up the column where it corresponds to your numerator's degrees of freedom. So that's nine.
+
+[31:48]
+And then the rows refer to the denominator degrees of freedom. So whatever quantity is in your denominator, its degrees of freedom, in this case, happens to also be nine. So if we go and find the intersection of nine and nine and we're make... We make sure we're on the right page there, we have got four point o three as our critical value. So this one over here is equal to four point o three.
+
+[32:22]
+Now we can set up our actual test here or our decision. So our distribution looks like this, remembering that we've got zero. And we now have this rejection region where anything greater than our critical value of four point o three would result in me rejecting this null hypothesis, this area being 0.025. Our f stat was 1.7106. So So what's my decision there?
+
+[33:40]
+So anything from here on outwards would be reject, but anything to the left of that would be a do not reject. So I still want the reasoning. So since f stat is less than f crit, do not reject the null hypothesis at alpha of 0.05. Remember, that's our... That's still our alpha.
+
+[34:15]
+Our effective alpha became 0.025 because we had to divide it because it was a two tailed test, but that's just because we didn't actually write out the one to the left. And the conclusion... The further statement in terms of the alternative hypothesis is that there is... If we fail to reject, we find insufficient evidence that there is a difference in variances. Does that make sense?
+
+[35:22]
+I feel manageable. Okay. So the only thing you would have done different if this was an upper tail test, you would have not divided your alpha by two. So you would have been up here where alpha is 0.05, and then you would have used the same degrees of freedom, nine and nine, and you would have found 3.18. In that case, it would have still led to the same decision we would have failed to reject because our f stat is still less.
+
+[35:57]
+But you just need to be careful. I think the thing that catches people out is failing to distinguish between the two tailed test and the upper tailed test. Another thing that could potentially catch you out, it's not necessary for the two degrees of freedom to be the same, so they can be different. However, you're not taking the larger degrees of freedom as the numerator degrees of freedom. You're always...
+
+[36:26]
+What... Your numerator degrees of freedom is the degrees of freedom associated with the larger variance. So you look what is the larger variance, and then you look what is... The larger variance is your numerator variance, and then you look what are the degrees of freedom for that. Okay.
+
+[36:45]
+Then we've got... There'll be some... Just a demonstration of how to do it in Excel. Not the main focus anymore. Then we have this quick effect size topic.
+
+[37:04]
+There is this motivational example. I'm not going to do the whole motivational example with you because I don't think we need to do the example to understand the point that it's making. So you're welcome to do it, but I'm just going to give you the gist of it. So... And, essentially, what you need to know about this for the exam.
+
+[37:31]
+So we'll just call it the summary of the motivational example or the key points. So it was a test for difference in means. You know this. Nothing we haven't done before. So mu one minus mu two.
+
+[38:13]
+It's that kind of test. They did it twice. So test one, the first time they did it, n one and n two, the sample size, both equaled 10. And then test two, n one and n two increased to 20. So the only thing that changed...
+
+[38:49]
+Everything else stayed the same. The only thing that changed was the sample size. So what happened when we changed the sample size? If you do that, in this particular case, in test one, the outcome was do not reject with the smaller sample size. And for test two, once we increase the sample size, the outcome was reject the null hypothesis with the larger sample size.
+
+[40:01]
+So it's trying to it's trying to highlight something for you, a feature of hypothesis tests. So the key takeaway that that you're supposed to get from this is that statistically significant effects are more easily found in larger sample sizes. So, obviously, this test was looking for an effect, specifically the difference in means. It failed to find it with the smaller sample size. It found it with the larger sample size.
+
+[41:05]
+Sometimes a small sample size obscures an effect, but once we have more information, we are able to more concretely find a statistically significant effect. That's why they have to have certain sample sizes when they do something like clinical trials. If you can't just have one person in a clinical trial, that's not gonna work. We have to see how it affects a large group of people. However, there is a downside to this, and this is how we're...
+
+[41:38]
+Where we're getting to effect size. So statistically significant does not always mean practically significant. So, for example, you set out to determine if you have this drug that is meant to lower blood pressure, and you set out your clinical trial very well, you've got a large sample size, you find a statistically significant result. That that means that you set up your test, null hypothesis was that it had no effect, your alternative hypothesis was that it had an effect, and your tests at a very strict alpha said, yes. This drug has an effect.
+
+[43:06]
+That's the statistical significance. However, the practical significance would be: does it reduce blood pressure enough to make a difference to a patient with high blood pressure? That's not always guaranteed by the test. The test says it has an effect, but practical significance is this effect is meaningful in real life. Another example could be marketing team goes to their CEO and they say, we've done this study on this new marketing campaign, and we have found that this...
+
+[43:40]
+Since this marketing campaign, we have increased sales. So that's the statistical significance. There has been an effect detected. The practical significance comes into play where it might be that that increase in sales is not enough to make a dent in the profits. So it is of no practical significance.
+
+[44:03]
+We always have to look at, yes, there is an effect, but in real life, what is the actual nature of this effect? So there is a a thing called effect size which we calculate alongside hypothesis tests. Your job in this module is not to calculate effect size, but it will be to interpret effect size. So effect size helps tell us that our results are practically significant. You must know how to interpret.
+
+[44:55]
+So the guidance for how to interpret is found on slide 47 of chapter 10. So at the bottom there, it says, standardized effect size around 0.2, small, around 0.5, medium, greater than 0.8, large effect size. So that's kind of your guidelines, whether to say it's small, medium, or large. Okay. And that's then chapter 10 done.
+
+[45:32]
+So all from me today. Hope you guys have a good weekend, and see you next week. Did you? Well, I sent you an email. I'm not sure if you saw it, but did you onboard the Tuesday or Wednesday?
+
+[46:36]
+Yeah. I did. Okay. I have uploaded it this Okay. Perfect.
+
+[46:40]
+Thank you so tracking. Okay. Thank you very much. Thank you. Bye.
+
+[47:19]
+Okay. So so it comes back to the hypothesis test Yeah. Makes an assumption. The assumption in that specific question, the hypothesis test or the null hypothesis is that pi one minus pi two is equal to zero. What does that mean?
+
+[47:48]
+They're the same. There's no difference. The null of the alternative hypothesis is that pi one minus pi two is not equal to zero. There is a difference. We must take the assumption of the hyp...
+
+[48:02]
+Null hypothesis to be true until proven false. And this is a rare occasion where this actually affects our standard error because if this is true... And this is why I drew out... So normally, your standard error of the difference in sample proportions is equal to the square root of pi one times one minus pi one over n one plus pi two times one minus pi two over n two. Now if you didn't know pi one and pi two, you just use p one and p two.
+
+[48:43]
+Right? So that's that's what's used in the comprehensive. Makes sense. However, now if we're assuming that there's no difference between them, then it becomes this. So applying the assumption makes it...
+
+[48:57]
+I'm taking it out in front, and I'm no longer calling it pie one and pie two. I'm just calling it pie because it's now the same thing. Now it looks like this. Now that gets estimated with pooled proportion, which is just lump both sample information together. So the confidence interval does not make any assumptions by itself.
+
+[49:31]
+It's just find physical values for the un... For the unknown Yeah. Difference. So it can't say anything about it. Hypothesis test makes a claim and checks that claim.
+
+[49:42]
+So because of that, in this one instance, it doesn't happen anywhere else in the module. You have to make your hypothesis test look different from your con... Or your standard error for the hypothesis test look different, from your one for the confidence interval. So does that make sense? I know.
+
+[50:05]
+Yeah. So then what would be what would be, like, the keyword? You know, like, when would we know whether or not to... I'm saying when you do hypothesis test, you use pooled. When you do confidence intervals, you don't use pooled.
+
+[50:21]
+Like, that's... Yeah. That makes sense. Yeah. Yeah.
+
+[50:23]
+And then you could ask your... Well, something that you might ask is why don't we do the same thing for the difference in means? Because do you remember that that one also uses a pooled variance? So why do we... Why is it different?
+
+[50:38]
+Because if you look at the difference in means, we use pooled variance in the hypothesis test and in the confidence interval. So why is it okay to do it there? The reason is this is an assumption made by the hypothesis test. We have to obey it. The...
+
+[50:55]
+When we assume that the... With the means when we assume that the two variances are equal, that's our choice to make that assumption. So we do that as a simplifying assumption. It's not a it's not a characteristic of a hypothesis test. So that's the reason.
+
+[51:11]
+Okay. Great. Yeah. I mean, just like the assignments and the work that we did today is, like,. No.
+
+[51:16]
+It's it's fine. If the standard deviation is, though, I think it's... We wouldn't know the standard deviation. So, like, never think... They give it that.
+
+[51:32]
+I mean, it's like the ratio variance that we did now. Mhmm. Why do we use ASMR? Because we're Taking it from the public. We we just have a sample for the information.
+
+[51:45]
+We make a claim about the unknown ratio of variances, and we set out to test it using our Okay. Software. Yeah. Yeah. The link.
+
+[51:54]
+Yeah. Okay. Great. Thank you so much. No worries.

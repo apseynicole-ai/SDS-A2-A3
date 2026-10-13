@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "userState": {
+    "activeView": "now",
+    "scratch": "import QA marker",
+    "currentQuestionId": null
+  },
+  "mastery": {},
+  "attempts": [],
+  "repairs": [],
+  "retrievalSchedule": [],
+  "simulations": [],
+  "settings": {
+    "closedBook": false,
+    "timerMinutes": 90
+  },
+  "sourceAcknowledgements": {},
+  "legacyReadHistory": false
+}

@@ -1,0 +1,198 @@
+
+===== PAGE 1 =====
+1 
+Kopiereg voorbehou / Copyright reserved 
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP 
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE 
+ 
+STATISTIEK EN DATAWETENSKAP 188 
+STATISTICS AND DATA SCIENCE 188 
+ 
+TUTORIAAL 7 / TUTORIAL 7 
+ 
+Die meeste probleme is aangepas uit BASIC Business Statistics – Berenson, Levine & Krebiel, 10 th ed, 
+Prentice Hall. / Most problems are adapted from BASIC Business Statistics – Berenson, Levine & Krebiel, 
+10th ed, Prentice Hall. 
+ 
+1. Gegee ’n normaalverdeling met µ = 100 en σ = 10. Indien ’n steekproef van n = 25 selekteer word, 
+wat is die waarskynlikheid dat 
+X : / Given a normal distribution with µ = 100 and σ = 10 and, if you 
+select a sample of n = 25, what is the probability that 
+X  is: 
+(a) Kleiner as 95 is? / Less than 95? 
+(b) Tussen 95 en 97.5 is? / Between 95 and 97.5? 
+(c) Bo 102.2 is? / Above 102.2? 
+(d) Daar is ’n 65% kans dat 
+X  bo watter waarde is? / There is 65% chance that 
+X  is above which 
+value? 
+ 
+2. Die punte behaal in ’n statistiek toets is norm aal verdeel met ’n gemiddeld e van 78 en ’n variansie 
+van 36. / The marks obtained in a statistics test are normally distributed with a mean of 78 and a 
+variance of 36. 
+(a) Watter proporsie van die klas het ’n punt van minder as 75 behaal? / What proportion of the class 
+obtained a mark below 75? 
+(b) Wat is die waarskynlikheid dat ’n klas van 50 studente ’n gemiddelde toetspunt van minder as 75 
+sal behaal? / What is the probability that a class of 50 students will obtain an average test mark 
+below 75? 
+ 
+3. Veronderstel ʼn sentrale ontvang oproepe tussen 10:00 en 11:00 teen ’n gemiddelde van 400 oproepe 
+per uur. Aanvaar die tye tussen oproepe is eksponensiaal verdeel. / A switchboard receives calls 
+between 10:00 and 11:00 at an average rate of 400 calls per hour. Assume the times between calls 
+to follow an exponential distribution. 
+(a) Wat is die waarskynlikheid dat die tyd tussen die volgende twee oproepe meer as 12 sekondes sal 
+wees? / What is the probability that the time between the next two calls will exceed 12 seconds? 
+(b) Gestel ons neem die volgende 30 tye tu ssen opeenvolgende oproepe waar. Wat is die 
+waarskynlikheid dat die gemiddeld van hierdie 30 tye meer as 12 sekondes sal wees? / Suppose 
+we observe the next 30 times between consecutive calls. What is the probability that the mean of 
+these 30 times will exceed 12 seconds? 
+  
+===== PAGE 2 =====
+2 
+Kopiereg voorbehou / Copyright reserved 
+4. Die volgende data verteenwoordig die aantal dae per jaar wat ’n populasie van ses werknemers in ’n 
+klein maatskappy afwesig is: / The following data represent the number of days absent per year in a 
+population of six employees of a small company:  
+ 
+1,   3,   6,   7,   9,   10. 
+ 
+(a) Neem aan dat u ’n steekproef sonder terugplasing trek, selekteer alle moontlike steekproewe van 
+n = 2 en konstrueer die steekproefverdeling van die gemiddelde. Bereken die gemiddelde van al 
+die steekproefgemiddeldes en bereken ook die populasiegemiddelde. Is hulle gelyk? Wat word 
+hierdie eienskap genoe m? / Assuming that you sample without replacement, sel ect all possible 
+samples of n = 2 and construct the sampling distribution of the mean. Compute the mean of all 
+the sample means and also compute the population mean. Are they equal? What is this property 
+called? 
+(b) Herhaal (a) vir alle moontlike steekproewe van n = 3. / Repeat (a) for all possible samples of     n 
+= 3. 
+(c) Vergelyk die vorm s van die steekproefverdeling s van die gemiddelde in (a) en (b). Watter 
+steekproefverdeling het minder variasie? Waarom? / Compare the shape of the sampling 
+distribution of the mean in (a) and (b). Which sampling distribution has less variability? Why? 
+ 
+Indien u bostaande eksperimente met steekproefneming met terugplasi ng sou herhaal, sou u 
+soortgelyke resultate kry. / If you perform the above experiments with sampling with replacement 
+you would have obtained similar results.  
+ 
+5. Let op dat 𝜎𝑝 afhanklik is van die populasieproporsie  𝜋. / Note  that 𝜎𝑝  is dependent on the 
+population proportion, 𝜋. 
+ 
+In ’n ewekansige steekproef van 64 persone word 48 as “suksesvol” geklassifieer. Indien die 
+populasieproporsie 0.70 is, / In a random sample of 64 people, 48 are classified as “successful”. If 
+the population proportion is 0.70, 
+ 
+(a) bepaal die steekproefproporsie 𝑝 van “suksesvolle” persone. / determine the sample proportion  
+𝑝  of “successful” people. 
+(b) bepaal die standaardfout van die proporsie. / determine the standard error of the proportion. 
+ 
+6. Die volgende data verteenwoordig die antwoorde  (Y vir ja en N vir nee) van ’n  steekproef van 40 
+kollege studente op die vraag:  “Besit u tans enige aandele?” / The following data represent the 
+responses (Y for yes and N for no) from a sample of 40 college students to the question, “ Do you 
+currently own shares in any stock?” 
+ 
+N N Y N N Y N Y N Y N N Y N Y Y N N N Y 
+N Y N N N N Y N N Y Y N N N Y N N Y N N 
+ 
+(a) Bepaal die steekproefproporsie  𝑝 van kollege studente wat aandele besit. / Determine the sample 
+proportion 𝑝 of college students who own shares. 
+(b) Beraam die standaardfout van die steekproefproporsie. / Estimate the standard error of the sample 
+proportion. 
+===== PAGE 3 =====
+3 
+Kopiereg voorbehou / Copyright reserved 
+ 
+7. ’n Politieke verkiesingsopnemer doen ’n analise van steekproef resultate o m voorspellings te maak 
+oor ’n verkiesing. Veronderstel daar is twee kandidate. Indien ’n spesifieke kandidaat ten minste 55% 
+van die stemme in die steekproef kry, word voorspel dat die kandidaat sal wen. As ’n steekproef van 
+100 stemgeregtigdes gekies wor d, wat is die waarskynlikheid dat ’n kandidaat as wenner voorspel 
+sal word indien / A political analyst is conducting a  poll in order to make predictions on election 
+night. Assuming a two-candidate election, if a specific candidate receives at least 55% of the vote in 
+the sample, then that candidate will be forecast as the winner of the election. If you select a sample 
+of 100 voters, what is the probability that a candidate will be forecast as the winner when 
+(a) die werklike persentasie wat vir haar stem 50.1% is? / the true percentage of her vote is 50.1%? 
+(b) die werklike persentasie wat vir haar stem 60% is? / the true percentage of her vote is 60%? 
+(c) die werklike persentasie wat vir haar stem 49% is (en sy eintlik die verkiesing verloor)? / the true 
+percentage of her vote is 49% (and she will actually lose the election)? 
+(d) As die steekproefgrootte vermeerder word na 400, wat is u antwoorde op (a)? Bespreek u 
+antwoord. / If the sample size is increased to 400, what are your answers to (a)? Discuss  your 
+answer. 
+ 
+8. Volgens die Nasionale Restaurant Vereniging het 20% van fynproewer restaurante ’n beleid ingestel 
+wat die gebruik van selfone beperk (“Business Bulletin”, The Wall Street Journal, June 1, 2000, A1). 
+Indien ’n ewekansige steekproef van 100 fynproewer restaurante geselekteer word, / According to 
+the National Restaurant Association, 20% of fine -dining restaurants have instituted  a policy  
+restricting the use of cell phones (“Business Bulletin”, The Wall Street Journal, June 1, 2000, A1). 
+If you select a random sample of 100 fine-dining restaurants, 
+(a) wat is die waarskynlikheid dat in die steekproef tussen 15% en 25% van die restaurante ’n 
+gevestigde beleid het wat selfoongebruik beperk? / what is the probability that the sample has 
+between 15% and 25% of the restaurants that have established a policy restricting cell phone 
+use? 
+(b) is die waarskynlikheid 90% dat die steekproefpersentasie binne watter simmetriese grense vanaf 
+die populasiepersentasie lê? / the probability is 90% that the sample percentage will be contained 
+within what symmetrical limits of the population percentage? 
+(c) is die waarskynlikheid 95% dat die steekproef persentasie tussen watter simmetriese grense bevat 
+sal word. / the probability is 95% that the sample perce ntage will be  contained within what 
+symmetrical limits of the population percentage? 
+ 
+9. DiGiorno’s bevrore pizza het van die mees kreatiewe  advertensies op televisie. ’n Koerant se 
+advertensiekolom beweer dat 20% van alle kykers “baie” van die advertensies hou. Veronderstel dat 
+die advertensies vir ’n steekproef van 400 televisiekykers gewys word. Wat is die waarskynlikheid 
+dat die steekproef tussen: / DiGiorno’s frozen pizza has some of the most creative advertisements on 
+television. A paper’s advertisement column claims that 20% of viewers like the ads “a lot”. Suppose 
+that a sample of 400 television viewers is shown the advertisements. What is the probability that the 
+sample will have between: 
+(a) 18% en 22% persone wat “baie” van die advertensies hou bevat? / 18% and 22% who like the ads 
+“a lot”? 
+(b) 16% en 24% persone wat “baie” van die advertensies hou bevat? / 16% and 24% who like the ads 
+“a lot”?  
+(c) 14% en 26% wat “baie” van die advertensies hou bevat? / 14% and 26% who like the ads “a lot”? 
+===== PAGE 4 =====
+4 
+Kopiereg voorbehou / Copyright reserved 
+(d) 12% en 28% wat “baie” van die advertensies hou bevat? / 12% and 28% who like the ads “a lot”? 
+ 
+ 
+10. Waarom is die steekproefgemiddelde ’n onsydige beramer van die populasiegemiddelde? / Why is 
+the sample mean an unbiased estimator of the population mean? 
+ 
+11. Waarom daal die standaardfout van die gemiddelde indien die steekproefgrootte 
+n  styg? / Why does 
+the standard error of the mean decrease as the sample size n increases? 
+ 
+12. Onafhanklike ewekansige steekproewe van tien waarnemings elk word geneem uit twee normaal 
+populasies. Die parameters vir hierdie populasies is:  / Independent random samples of ten 
+observations each are drawn from normal populations. The parameters of these populations are: 
+ 
+Populasie 1 / Population 1: 
+  = 280, 
+  = 25. 
+Populasie 2 / Population 2: 
+  = 270, 
+  = 30. 
+ 
+(a) Bereken die waarskynlikheid dat die gemiddelde van steekproef 1 meer is as die gemiddelde van 
+steekproef 2 met 25.  / Calculate the probability that the mean of sample 1 is greater than the 
+mean of sample 2 by more than 25. 
+(b) Herhaal (a) met ’n steekproefgrootte van 50. / Repeat (a) for a sample size of 50. 
+(c) Herhaal (a) met ’n steekproefgrootte van 100. / Repeat (a) for a sample size of 100. 
+ 
+13. ’n Statistiek dosent weet dat die punte vir sy kursus normaal verde el is. Hy bereken dat sy 
+oggendklasse ’n gemiddelde van 53% met ʼn standaardafwyking van 10% vir hulle final e eksamen 
+behaal het. Sy middagklasse het ’n gemiddelde van 58% met ʼn standaardafwyking van 8% vir hulle 
+finale eksamen behaal. Wat is die waarskynlikheid dat die gemiddelde punt van nege ewekansig 
+geselekteerde studente uit die oggend klasse hoër is as die gemiddelde punt van nege ewekansig 
+geselekteerde studente uit die middagklasse? / A statistics lecturer knows that the marks in his course 
+are normally distributed. He has calculated that his morning classes average 53% with a standard 
+deviation of 10% on their final exams. His afternoon classes average 58% with a standard deviation 
+of 8%. What is the probability that the mean mark of nine randomly selected students from a morning 
+class is greater than the average mark of nine randomly selected students from an afternoon class? 
+ 
+14. Die deursnee van Ping -Pong-balle wat in ’n groot fabriek vervaardig word, is ongeveer normaal 
+verdeel, met ’n gemiddelde van 1.30 duim en ’n standaardafwyking van 0.04 duim. As ’n ewekansige 
+steekproef van 16 Ping-Pong balle gekies word uit ’n populasie van 200 sonder terugplasing, wat is 
+die waarskynlikheid dat die steekproef gemiddelde tussen 1.31 en 1 .33 duim is?  / The diameter of 
+Ping-Pong balls manufactured at a large factory is approximately normally distributed, with a mean 
+of 1.30 inches and a standard deviation of 0.04 inches. If a random sample of 16 Ping-Pong balls is 
+selected from a population of 200 Ping-Pong balls without replacement, what is the probability that 
+the sample mean is between 1.31 and 1.33 inches? 
+ 
+ 

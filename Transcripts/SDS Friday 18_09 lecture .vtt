@@ -1,0 +1,2648 @@
+WEBVTT
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/16-0
+00:01:43.472 --> 00:01:46.872
+<v Krotoa 1012>Okay, hello everybody.
+Good to see you all again.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/18-0
+00:01:49.432 --> 00:01:56.752
+<v Krotoa 1012>So we are wrapping up chapter 10 today.
+We've got 13 and 14.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/18-1
+00:01:56.752 --> 00:02:00.712
+<v Krotoa 1012>That's our next two chapters. And</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/19-0
+00:02:03.432 --> 00:02:09.478
+<v Krotoa 1012>So that's two chapters left to do,
+but only one tutorial left to do.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/19-1
+00:02:09.478 --> 00:02:15.436
+<v Krotoa 1012>So you only have tutorial 11.
+It kind of combines chapter 13 and 14</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/19-2
+00:02:15.436 --> 00:02:16.312
+<v Krotoa 1012>questions.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/20-0
+00:02:17.512 --> 00:02:21.661
+<v Krotoa 1012>And chapter 13 and 14 are kind of,
+they group together.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/20-1
+00:02:21.661 --> 00:02:27.662
+<v Krotoa 1012>So it'll be kind of a big departure from
+the hypothesis testing we've been doing</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/20-2
+00:02:27.662 --> 00:02:33.441
+<v Krotoa 1012>into something entirely different.
+But the good thing is if you know 13 well,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/20-3
+00:02:33.441 --> 00:02:36.552
+<v Krotoa 1012>it should translate to chapter 14 as well.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/21-0
+00:02:39.672 --> 00:02:42.872
+<v Krotoa 1012>But we'll chat about that more next week,
+so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/22-0
+00:02:44.232 --> 00:02:46.312
+<v Krotoa 1012>We have to look at the.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/23-0
+00:02:47.992 --> 00:02:49.992
+<v Krotoa 1012>Test for two variances, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/24-0
+00:02:51.192 --> 00:02:53.352
+<v Krotoa 1012>The purpose of this, the...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/25-0
+00:02:54.712 --> 00:02:56.312
+<v Krotoa 1012>Thing that we wish to do.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/28-0
+00:03:10.392 --> 00:03:13.352
+<v Krotoa 1012>We wish to compare the variances of two
+groups.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/29-0
+00:03:18.072 --> 00:03:18.632
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/30-0
+00:03:20.312 --> 00:03:23.192
+<v Krotoa 1012>Sigma 1 ^2 is the variance of group one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/31-0
+00:03:24.552 --> 00:03:30.077
+<v Krotoa 1012>And we want to say something about sigma
+2 squared, the variance of group 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/31-1
+00:03:30.077 --> 00:03:33.592
+<v Krotoa 1012>So that is the comparison which we want
+to make.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/32-0
+00:03:39.312 --> 00:03:42.152
+<v Krotoa 1012>Okay, so I'll give you some examples.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/33-0
+00:03:43.912 --> 00:03:46.312
+<v Krotoa 1012>Practically why we care about this, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/34-0
+00:03:50.632 --> 00:03:53.432
+<v Krotoa 1012>Situations where this might be of
+interest to us.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/35-0
+00:04:01.312 --> 00:04:05.512
+<v Krotoa 1012>Which factory,
+if we're comparing 2 factories?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/36-0
+00:04:06.552 --> 00:04:07.032
+<v Krotoa 1012>Um...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/37-0
+00:04:08.712 --> 00:04:09.912
+<v Krotoa 1012>Produces.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/38-0
+00:04:15.112 --> 00:04:15.912
+<v Krotoa 1012>More.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/39-0
+00:04:18.152 --> 00:04:19.272
+<v Krotoa 1012>Consistent.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/40-0
+00:04:23.112 --> 00:04:23.832
+<v Krotoa 1012>Product.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/41-0
+00:04:25.752 --> 00:04:26.472
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/42-0
+00:04:30.912 --> 00:04:35.992
+<v Krotoa 1012>In manufacturing,
+you've obviously got sometimes small...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/43-0
+00:04:37.272 --> 00:04:41.432
+<v Krotoa 1012>manufacturing errors that creep in or
+just deviations from what it's supposed</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/43-1
+00:04:41.432 --> 00:04:41.752
+<v Krotoa 1012>to be.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/44-0
+00:04:43.592 --> 00:04:49.438
+<v Krotoa 1012>So we associate consistency with quality.
+So we might want to see which one tends</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/44-1
+00:04:49.438 --> 00:04:53.787
+<v Krotoa 1012>to be more variable and which one tends
+to be less variable.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/44-2
+00:04:53.787 --> 00:04:59.348
+<v Krotoa 1012>The less variable one will be the one
+that is better at producing to the same</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/44-3
+00:04:59.348 --> 00:05:01.272
+<v Krotoa 1012>standard each time. Another</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/45-0
+00:05:03.112 --> 00:05:04.472
+<v Krotoa 1012>Example is.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/46-0
+00:05:05.872 --> 00:05:06.792
+<v Krotoa 1012>Which?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/47-0
+00:05:08.872 --> 00:05:09.832
+<v Krotoa 1012>Teaching method.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/48-0
+00:05:17.112 --> 00:05:18.872
+<v Krotoa 1012>Produces more.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/49-0
+00:05:20.552 --> 00:05:22.072
+<v Krotoa 1012>Consistent grades.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/50-0
+00:05:27.192 --> 00:05:30.150
+<v Krotoa 1012>So, in both of these,
+we're actually asking,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/50-1
+00:05:30.150 --> 00:05:32.712
+<v Krotoa 1012>let me put that in brackets, which one?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/51-0
+00:05:34.472 --> 00:05:36.632
+<v Krotoa 1012>Has smaller variants.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/52-0
+00:05:41.112 --> 00:05:43.521
+<v Krotoa 1012>Here,
+we're also asking which one has smaller</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/52-1
+00:05:43.521 --> 00:05:43.992
+<v Krotoa 1012>variants.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/53-0
+00:05:50.752 --> 00:05:52.392
+<v Krotoa 1012>And then last one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/54-0
+00:05:54.392 --> 00:05:56.152
+<v Krotoa 1012>to round out the examples.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/55-0
+00:05:58.072 --> 00:05:59.992
+<v Krotoa 1012>You might ask, which investment?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/56-0
+00:06:05.032 --> 00:06:06.152
+<v Krotoa 1012>Is less risky.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/57-0
+00:06:11.272 --> 00:06:13.992
+<v Krotoa 1012>Remember, in investments, risk.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/58-0
+00:06:14.952 --> 00:06:19.098
+<v Krotoa 1012>Equals variability,
+so we want to know which one is less</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/58-1
+00:06:19.098 --> 00:06:19.752
+<v Krotoa 1012>variable.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/59-0
+00:06:21.592 --> 00:06:22.952
+<v Krotoa 1012>Because that will tell us.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/60-0
+00:06:26.272 --> 00:06:27.912
+<v Krotoa 1012>Which one is safer?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/61-0
+00:06:31.032 --> 00:06:33.912
+<v Krotoa 1012>So, has less up-down roller coaster.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/62-0
+00:06:35.272 --> 00:06:36.232
+<v Krotoa 1012>tendencies.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/63-0
+00:06:37.432 --> 00:06:37.512
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/64-0
+00:06:40.472 --> 00:06:41.112
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/65-0
+00:06:47.792 --> 00:06:51.775
+<v Krotoa 1012>When we had,
+when we looked at comparing 2 means,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/65-1
+00:06:51.775 --> 00:06:56.952
+<v Krotoa 1012>the natural thing to do was to take the
+difference in the means.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/66-0
+00:07:00.792 --> 00:07:04.669
+<v Krotoa 1012>Here,
+the natural thing to do is to take the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/66-1
+00:07:04.669 --> 00:07:07.512
+<v Krotoa 1012>ratio of the two variances, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/67-0
+00:07:10.472 --> 00:07:14.238
+<v Krotoa 1012>We set up a ratio,
+so we wish to compare the variances of</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/67-1
+00:07:14.238 --> 00:07:14.952
+<v Krotoa 1012>two groups.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/68-0
+00:07:16.112 --> 00:07:22.712
+<v Krotoa 1012>We set up a ratio,
+so the ratio of interest to us.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/69-0
+00:07:25.512 --> 00:07:29.432
+<v Krotoa 1012>It's sigma 1 squared over sigma 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/72-0
+00:07:44.472 --> 00:07:45.112
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/73-0
+00:07:48.152 --> 00:07:49.592
+<v Krotoa 1012>Large ratio here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/74-0
+00:07:51.432 --> 00:07:52.552
+<v Krotoa 1012>Implies.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/75-0
+00:07:56.792 --> 00:07:59.272
+<v Krotoa 1012>Large sigma 1 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/76-0
+00:08:03.192 --> 00:08:06.117
+<v Krotoa 1012>So,
+another way you can think about it is</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/76-1
+00:08:06.117 --> 00:08:06.952
+<v Krotoa 1012>large ratio.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/77-0
+00:08:09.592 --> 00:08:10.552
+<v Krotoa 1012>Implies.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/78-0
+00:08:11.752 --> 00:08:12.952
+<v Krotoa 1012>Large difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/79-0
+00:08:16.632 --> 00:08:17.432
+<v Krotoa 1012>Between.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/80-0
+00:08:19.192 --> 00:08:23.192
+<v Krotoa 1012>Sigma 1 squared and sigma 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/81-0
+00:08:27.552 --> 00:08:28.072
+<v Krotoa 1012>Bless you.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/82-0
+00:08:31.832 --> 00:08:32.392
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/83-0
+00:08:33.672 --> 00:08:35.032
+<v Krotoa 1012>So, this thing...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/84-0
+00:08:36.632 --> 00:08:39.112
+<v Krotoa 1012>Is this ratio is a quantity?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/85-0
+00:08:42.232 --> 00:08:50.552
+<v Krotoa 1012>We've defined a new statistic,
+a ratio of two variances, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/86-0
+00:08:51.792 --> 00:08:55.712
+<v Krotoa 1012>At the back of our minds, we're thinking,
+hopefully, okay,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/86-1
+00:08:55.712 --> 00:08:59.034
+<v Krotoa 1012>we've defined a statistic,
+we need to figure out,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/86-2
+00:08:59.034 --> 00:09:03.353
+<v Krotoa 1012>or we've defined a quantity,
+and if we're going to take a sample</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/86-3
+00:09:03.353 --> 00:09:07.937
+<v Krotoa 1012>statistic of this quantity,
+we want to know what its distribution is</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/86-4
+00:09:07.937 --> 00:09:11.192
+<v Krotoa 1012>going to be,
+because that is going to determine.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/87-0
+00:09:11.432 --> 00:09:17.954
+<v Krotoa 1012>how we're going to set up this hypothesis
+test. So this is a population quantity.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/87-1
+00:09:17.954 --> 00:09:21.454
+<v Krotoa 1012>This consists of two population
+quantities,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/87-2
+00:09:21.454 --> 00:09:25.112
+<v Krotoa 1012>and together they make a population
+quantity.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/88-0
+00:09:27.512 --> 00:09:28.232
+<v Krotoa 1012>That.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/89-0
+00:09:29.352 --> 00:09:30.232
+<v Krotoa 1012>We wish.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/90-0
+00:09:32.072 --> 00:09:33.592
+<v Krotoa 1012>to make inference about.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/91-0
+00:09:38.152 --> 00:09:41.752
+<v Krotoa 1012>In case you have forgotten, inference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/92-0
+00:09:44.552 --> 00:09:45.192
+<v Krotoa 1012>Is.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/93-0
+00:09:46.272 --> 00:09:46.952
+<v Krotoa 1012>Using.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/94-0
+00:09:48.432 --> 00:09:49.272
+<v Krotoa 1012>A sample.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/95-0
+00:09:50.872 --> 00:09:54.312
+<v Krotoa 1012>Quantity,
+something you can calculate in the sample.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/96-0
+00:09:55.432 --> 00:09:56.392
+<v Krotoa 1012>To make.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/97-0
+00:09:58.672 --> 00:09:59.752
+<v Krotoa 1012>A conclusion.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/98-0
+00:10:02.872 --> 00:10:03.752
+<v Krotoa 1012>About.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/99-0
+00:10:07.512 --> 00:10:08.872
+<v Krotoa 1012>A population quantity.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/101-0
+00:10:25.752 --> 00:10:28.232
+<v Krotoa 1012>So, just to also tie it again into...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/102-0
+00:10:34.632 --> 00:10:35.192
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/104-0
+00:10:40.552 --> 00:10:45.249
+<v Krotoa 1012>The original setup,
+so all I've done is I wanted to do sigma</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/104-1
+00:10:45.249 --> 00:10:46.712
+<v Krotoa 1012>one versus sigma 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/105-0
+00:10:47.592 --> 00:10:50.952
+<v Krotoa 1012>So,
+I've decided a better way to quantify</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/105-1
+00:10:50.952 --> 00:10:54.872
+<v Krotoa 1012>this comparison I'm trying to make is
+just to...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/106-0
+00:10:56.032 --> 00:11:00.873
+<v Krotoa 1012>Define my parameter of interest as the
+ratio - that's all we're doing;</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/106-1
+00:11:00.873 --> 00:11:05.032
+<v Krotoa 1012>we're still comparing the variances of
+the two groups, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/107-0
+00:11:07.192 --> 00:11:07.792
+<v Krotoa 1012>If I've...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/108-0
+00:11:08.872 --> 00:11:13.912
+<v Krotoa 1012>If you're following the logical stream of
+things.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/109-0
+00:11:15.592 --> 00:11:19.352
+<v Krotoa 1012>In this whole time that we've been doing
+this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/110-0
+00:11:20.312 --> 00:11:25.030
+<v Krotoa 1012>As soon as I tell you this is the
+population quantity that we are</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/110-1
+00:11:25.030 --> 00:11:29.748
+<v Krotoa 1012>interested in saying something about,
+the next question is, okay,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/110-2
+00:11:29.748 --> 00:11:35.538
+<v Krotoa 1012>what is the sample quantity that we are
+going to use to say something about this</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/110-3
+00:11:35.538 --> 00:11:39.112
+<v Krotoa 1012>population quantity?
+And that brings us to the...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/111-0
+00:11:39.272 --> 00:11:40.792
+<v Krotoa 1012>The test statistic.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/112-0
+00:11:42.232 --> 00:11:42.872
+<v Krotoa 1012>So.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/113-0
+00:11:52.792 --> 00:11:54.552
+<v Krotoa 1012>It's known as an F-stat.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/114-0
+00:11:56.392 --> 00:12:01.242
+<v Krotoa 1012>So when we talk about a T stat,
+it's because it comes from the T</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/114-1
+00:12:01.242 --> 00:12:06.912
+<v Krotoa 1012>distribution. When we talk about a Z stat,
+it's because it comes from the Z</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/114-2
+00:12:06.912 --> 00:12:10.792
+<v Krotoa 1012>distribution.
+F stat comes from the F distribution.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/114-3
+00:12:10.792 --> 00:12:16.312
+<v Krotoa 1012>I'll explain more about that now.
+But all it is, is S 1 squared over S 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/115-0
+00:12:16.392 --> 00:12:16.952
+<v Krotoa 1012>Squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/116-0
+00:12:18.712 --> 00:12:21.352
+<v Krotoa 1012>So, it's the exact sample.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/117-0
+00:12:23.192 --> 00:12:27.352
+<v Krotoa 1012>Counterpart of the population.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/118-0
+00:12:28.232 --> 00:12:30.392
+<v Krotoa 1012>parameter that we are trying to say
+something about.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/119-0
+00:12:31.512 --> 00:12:31.992
+<v Krotoa 1012>Um...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/120-0
+00:12:33.672 --> 00:12:39.394
+<v Krotoa 1012>So what's a little bit different about
+this is usually, for example, we have mu,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/120-1
+00:12:39.394 --> 00:12:43.137
+<v Krotoa 1012>the population parameter,
+we estimate it with X bar,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/120-2
+00:12:43.137 --> 00:12:48.646
+<v Krotoa 1012>but then to define the test statistic,
+we take that X bar minus mu divided by</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/120-3
+00:12:48.646 --> 00:12:52.672
+<v Krotoa 1012>standard deviation or standard error.
+We're not going to</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/121-0
+00:12:52.752 --> 00:12:56.534
+<v Krotoa 1012>Do that here,
+so there is no need for us to take this</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/121-1
+00:12:56.534 --> 00:13:01.717
+<v Krotoa 1012>and minus its expected value and divide
+by its standard error. Basically,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/121-2
+00:13:01.717 --> 00:13:06.829
+<v Krotoa 1012>the reason is that this doesn't follow
+your typical normal distribution,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/121-3
+00:13:06.829 --> 00:13:11.802
+<v Krotoa 1012>so it does not have to obey the rules of
+standardizing that the normal</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/121-4
+00:13:11.802 --> 00:13:12.712
+<v Krotoa 1012>distribution.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/122-0
+00:13:13.032 --> 00:13:16.191
+<v Krotoa 1012>has to.
+So this statistic follows the F</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/122-1
+00:13:16.191 --> 00:13:22.667
+<v Krotoa 1012>distribution and therefore it's perfectly
+valid to use as a test statistic as is.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/122-2
+00:13:22.667 --> 00:13:27.800
+<v Krotoa 1012>There's no need to make it conform to
+some kind of distribution.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/122-3
+00:13:27.800 --> 00:13:31.432
+<v Krotoa 1012>It already conforms to the F distribution.
+So</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/123-0
+00:13:32.472 --> 00:13:35.032
+<v Krotoa 1012>The F here implies that it comes from...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/124-0
+00:13:36.472 --> 00:13:44.007
+<v Krotoa 1012>F-distribution, and among other things,
+you really only care about, in this case,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/124-1
+00:13:44.007 --> 00:13:45.752
+<v Krotoa 1012>the fact that it...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/125-0
+00:13:46.952 --> 00:13:51.408
+<v Krotoa 1012>covers the ratio of two variances,
+but among other things,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/125-1
+00:13:51.408 --> 00:13:56.316
+<v Krotoa 1012>it's a distribution that describes 2
+variances taken as a ratio.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/125-2
+00:13:56.316 --> 00:14:00.620
+<v Krotoa 1012>It describes the behavior of the ratio of
+two variances.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/125-3
+00:14:00.620 --> 00:14:03.112
+<v Krotoa 1012>So it's shaped kind of like this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/126-0
+00:14:05.752 --> 00:14:08.712
+<v Krotoa 1012>So, it's very much skewed to the right.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/127-0
+00:14:15.432 --> 00:14:18.632
+<v Krotoa 1012>It will start at ZOë.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/128-0
+00:14:20.072 --> 00:14:24.712
+<v Krotoa 1012>Which is an interesting thing about it,
+and if you think about it...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/129-0
+00:14:25.832 --> 00:14:30.617
+<v Krotoa 1012>If it's the ratio of two squared
+quantities, it can never be less than 0.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/129-1
+00:14:30.617 --> 00:14:34.820
+<v Krotoa 1012>It can never be negative,
+because it is the ratio of two squared</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/129-2
+00:14:34.820 --> 00:14:40.251
+<v Krotoa 1012>quantities, which is why it starts at 0.
+And then it kind of peaks near low values.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/129-3
+00:14:40.251 --> 00:14:45.165
+<v Krotoa 1012>So it's possible for the ratio to be less
+than one. The way we do the test,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/129-4
+00:14:45.165 --> 00:14:49.432
+<v Krotoa 1012>we're going to make it impossible for it
+to be less than one. But</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/130-0
+00:14:50.072 --> 00:14:55.042
+<v Krotoa 1012>The distribution technically does allow
+for values less than one,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/130-1
+00:14:55.042 --> 00:14:56.472
+<v Krotoa 1012>and then over here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/131-0
+00:14:58.712 --> 00:14:59.352
+<v Krotoa 1012>A kind of...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/132-0
+00:15:01.032 --> 00:15:04.712
+<v Krotoa 1012>Evens out on the right-hand side,
+so that means we typically see...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/133-0
+00:15:07.432 --> 00:15:12.705
+<v Krotoa 1012>most of the values on this distribution
+being kind of 0 to 1,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/133-1
+00:15:12.705 --> 00:15:19.594
+<v Krotoa 1012>and then very few on the right-hand side.
+So very few large values of the ratio.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/133-2
+00:15:19.594 --> 00:15:26.142
+<v Krotoa 1012>We have to follow a specific rule,
+and it's a rule that simplifies the test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/133-3
+00:15:26.142 --> 00:15:26.312
+<v Krotoa 1012>So</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/134-0
+00:15:26.472 --> 00:15:28.792
+<v Krotoa 1012>Our rule is for this ratio.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/135-0
+00:15:30.952 --> 00:15:31.832
+<v Krotoa 1012>Always.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/136-0
+00:15:33.832 --> 00:15:34.392
+<v Krotoa 1012>Good.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/137-0
+00:15:35.912 --> 00:15:36.392
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/138-0
+00:15:37.552 --> 00:15:38.872
+<v Krotoa 1012>A larger one on top.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/139-0
+00:15:40.712 --> 00:15:41.992
+<v Krotoa 1012>The larger variants.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/140-0
+00:15:49.512 --> 00:15:53.033
+<v Krotoa 1012>So this will ensure, so therefore,
+in other words,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/140-1
+00:15:53.033 --> 00:15:58.072
+<v Krotoa 1012>we must make it so that our S 1 squared
+is greater than our S 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/141-0
+00:15:59.992 --> 00:16:01.432
+<v Krotoa 1012>And this ensures...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/142-0
+00:16:04.152 --> 00:16:09.992
+<v Krotoa 1012>That the F-stat that we calculate is
+always greater than or equal to 1.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/143-0
+00:16:13.912 --> 00:16:16.463
+<v Krotoa 1012>So,
+it simplifies the focus of the test to</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/143-1
+00:16:16.463 --> 00:16:17.352
+<v Krotoa 1012>the upper tail.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/149-0
+00:16:57.912 --> 00:17:01.202
+<v Krotoa 1012>So,
+the other thing that's important here is..</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/149-1
+00:17:01.202 --> 00:17:01.272
+<v Krotoa 1012>.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/150-0
+00:17:03.672 --> 00:17:05.592
+<v Krotoa 1012>S 1 squared has.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/151-0
+00:17:08.232 --> 00:17:13.604
+<v Krotoa 1012>degrees of freedom of its own equal to N
+1 minus 1.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/151-1
+00:17:13.604 --> 00:17:21.352
+<v Krotoa 1012>So N1 being the size of the sample that
+you took to calculate S 1 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/152-0
+00:17:22.552 --> 00:17:24.392
+<v Krotoa 1012>and is 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/153-0
+00:17:25.512 --> 00:17:31.912
+<v Krotoa 1012>Has degrees of freedom 2,
+which is equal to N 2 - 1.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/154-0
+00:17:33.752 --> 00:17:39.893
+<v Krotoa 1012>So we can never get away from degrees of
+freedom when it comes to estimating the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/154-1
+00:17:39.893 --> 00:17:45.806
+<v Krotoa 1012>sample variance slash standard deviation.
+Whenever we have to estimate sample</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/154-2
+00:17:45.806 --> 00:17:49.520
+<v Krotoa 1012>standard deviation,
+we lose a degree of freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/154-3
+00:17:49.520 --> 00:17:52.552
+<v Krotoa 1012>We pay the price of a degree of freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/155-0
+00:17:52.792 --> 00:17:57.364
+<v Krotoa 1012>And that is because we have to estimate
+the mean first in order to estimate the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/155-1
+00:17:57.364 --> 00:18:00.678
+<v Krotoa 1012>standard deviation,
+because the mean is a quantity in the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/155-2
+00:18:00.678 --> 00:18:04.735
+<v Krotoa 1012>formula for the standard deviation.
+So we still have to take that into</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/155-3
+00:18:04.735 --> 00:18:05.192
+<v Krotoa 1012>account.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/156-0
+00:18:07.112 --> 00:18:13.152
+<v Krotoa 1012>the F distribution itself is dependent on
+degrees of freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/156-1
+00:18:13.152 --> 00:18:20.654
+<v Krotoa 1012>Then the other quirk of this test,
+so we've talked about the test statistic.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/156-2
+00:18:20.654 --> 00:18:25.232
+<v Krotoa 1012>Let's talk about the form that the test
+takes.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/157-0
+00:18:25.352 --> 00:18:29.352
+<v Krotoa 1012>So, we only consider...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/158-0
+00:18:35.112 --> 00:18:35.992
+<v Krotoa 1012>Two tail.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/159-0
+00:18:38.152 --> 00:18:40.392
+<v Krotoa 1012>and upper tail tests.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/160-0
+00:18:48.152 --> 00:18:49.032
+<v Krotoa 1012>Because.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/161-0
+00:18:52.232 --> 00:18:53.592
+<v Krotoa 1012>We have insured.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/162-0
+00:18:57.592 --> 00:19:02.962
+<v Krotoa 1012>That F-stat is always greater than or
+equal to 1, so it is not,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/162-1
+00:19:02.962 --> 00:19:04.472
+<v Krotoa 1012>there is no point.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/163-0
+00:19:05.592 --> 00:19:09.264
+<v Krotoa 1012>In considering a lower tail test,
+because of the way you force your ratio</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/163-1
+00:19:09.264 --> 00:19:12.291
+<v Krotoa 1012>to be greater than one,
+you'll never have a rejection in the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/163-2
+00:19:12.291 --> 00:19:14.523
+<v Krotoa 1012>lower tail.
+You're only ever going to have a</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/163-3
+00:19:14.523 --> 00:19:15.912
+<v Krotoa 1012>rejection in the upper tail.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/164-0
+00:19:16.952 --> 00:19:19.272
+<v Krotoa 1012>So,
+your two-tail test will look like this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/165-0
+00:19:29.912 --> 00:19:31.112
+<v Krotoa 1012>Your null will say...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/166-0
+00:19:32.712 --> 00:19:36.283
+<v Krotoa 1012>Sigma 1 squared is equal to Sigma 2
+squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/166-1
+00:19:36.283 --> 00:19:42.552
+<v Krotoa 1012>Your alternative will say Sigma 1 squared
+is not equal to Sigma 2 squared, so.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/167-0
+00:19:44.872 --> 00:19:48.952
+<v Krotoa 1012>The 2 tells the null is saying no
+difference between the two.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/168-0
+00:19:50.472 --> 00:19:52.152
+<v Krotoa 1012>And the alternative is saying...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/169-0
+00:19:54.032 --> 00:19:54.872
+<v Krotoa 1012>A difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/170-0
+00:19:57.072 --> 00:19:59.032
+<v Krotoa 1012>And then your upper tail test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/171-0
+00:20:07.672 --> 00:20:10.952
+<v Krotoa 1012>Null says sigma 1 squared equal to sigma
+2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/173-0
+00:20:12.232 --> 00:20:17.202
+<v Krotoa 1012>Alternative says sigma 1 squared is
+greater than sigma 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/173-1
+00:20:17.202 --> 00:20:19.912
+<v Krotoa 1012>So the null is saying no difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/175-0
+00:20:22.472 --> 00:20:26.712
+<v Krotoa 1012>The alternative is literally saying the
+one is greater than the other, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/176-0
+00:20:28.392 --> 00:20:32.336
+<v Krotoa 1012>You think of it as positive difference,
+but it's kind of self-explanatory that</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/176-1
+00:20:32.336 --> 00:20:34.632
+<v Krotoa 1012>one,
+saying the one is larger than the other.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/177-0
+00:20:35.592 --> 00:20:39.592
+<v Krotoa 1012>Okay, so you can draw out.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/178-0
+00:20:41.112 --> 00:20:44.632
+<v Krotoa 1012>The 2 rejection regions,
+I think it does help, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/179-0
+00:20:46.552 --> 00:20:47.832
+<v Krotoa 1012>The quirk here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/181-0
+00:21:00.072 --> 00:21:02.312
+<v Krotoa 1012>What's the rule with a two-tailed test?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/182-0
+00:21:04.712 --> 00:21:06.472
+<v Krotoa 1012>We always divide alpha by two.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/183-0
+00:21:07.352 --> 00:21:10.206
+<v Krotoa 1012>So,
+the size of this rejection region on the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/183-1
+00:21:10.206 --> 00:21:14.898
+<v Krotoa 1012>right-hand side is alpha over two;
+when it's a one-tailed test like this,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/183-2
+00:21:14.898 --> 00:21:15.912
+<v Krotoa 1012>it's just alpha.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/184-0
+00:21:21.512 --> 00:21:26.312
+<v Krotoa 1012>Okay, so what I did,
+so notice I didn't go and put...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/185-0
+00:21:27.472 --> 00:21:29.832
+<v Krotoa 1012>Technically,
+there should be an alpha over 2 here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/186-0
+00:21:30.992 --> 00:21:32.792
+<v Krotoa 1012>Notice it's not symmetrical anymore.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/187-0
+00:21:33.952 --> 00:21:37.051
+<v Krotoa 1012>So technically,
+there should be alpha over 2 there,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/187-1
+00:21:37.051 --> 00:21:41.282
+<v Krotoa 1012>because it's a two-tailed test.
+But you're never going to look at that</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/187-2
+00:21:41.282 --> 00:21:42.712
+<v Krotoa 1012>side. So you can ignore.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/188-0
+00:21:43.832 --> 00:21:44.712
+<v Krotoa 1012>The lower tail.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/189-0
+00:21:47.952 --> 00:21:48.872
+<v Krotoa 1012>Because.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/190-0
+00:21:50.712 --> 00:21:56.152
+<v Krotoa 1012>F-stat will never be to the left of 1.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/191-0
+00:21:57.592 --> 00:21:59.870
+<v Krotoa 1012>So,
+you'll never face a rejection on that</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/191-1
+00:21:59.870 --> 00:22:02.472
+<v Krotoa 1012>side because of the way you structure the
+test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/192-0
+00:22:11.552 --> 00:22:14.414
+<v Krotoa 1012>OK,
+and then we've also got our rejection</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/192-1
+00:22:14.414 --> 00:22:17.752
+<v Krotoa 1012>rule here,
+so you will reject for both of these.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/193-0
+00:22:22.712 --> 00:22:24.552
+<v Krotoa 1012>Reject F.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/194-0
+00:22:25.592 --> 00:22:26.552
+<v Krotoa 1012>F start.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/195-0
+00:22:27.832 --> 00:22:29.752
+<v Krotoa 1012>Is to the right of F. Crit.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/196-0
+00:22:31.352 --> 00:22:36.472
+<v Krotoa 1012>If crit will obviously be the point that
+marks the start of the rejection region.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/201-0
+00:23:04.392 --> 00:23:07.822
+<v Krotoa 1012>I haven't spoken about how to get your F
+crit,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/201-1
+00:23:07.822 --> 00:23:13.367
+<v Krotoa 1012>but I'm going to do the example and then
+you'll see how to get your F crit.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/201-2
+00:23:13.367 --> 00:23:18.911
+<v Krotoa 1012>It is not found using the calculator.
+We use calculator for T and Z values.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/201-3
+00:23:18.911 --> 00:23:22.632
+<v Krotoa 1012>We unfortunately don't have it programmed
+into our</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-0
+00:23:22.712 --> 00:23:26.136
+<v Krotoa 1012>HP calculators.
+What you will get instead is a print out</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-1
+00:23:26.136 --> 00:23:31.001
+<v Krotoa 1012>table. I'll show it to you in a moment.
+This will be found if you have this kind</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-2
+00:23:31.001 --> 00:23:34.664
+<v Krotoa 1012>of question where you need to use,
+look up a critical value,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-3
+00:23:34.664 --> 00:23:39.409
+<v Krotoa 1012>you will in your assessment page to the
+back of your assessment and it will be</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-4
+00:23:39.409 --> 00:23:42.712
+<v Krotoa 1012>found there,
+like where you normally find your formula</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/202-5
+00:23:42.712 --> 00:23:43.072
+<v Krotoa 1012>sheet.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/203-0
+00:23:43.672 --> 00:23:44.232
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/204-0
+00:23:45.392 --> 00:23:49.659
+<v Krotoa 1012>Other than assessments,
+it is found under the topic for Chapter</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/204-1
+00:23:49.659 --> 00:23:52.792
+<v Krotoa 1012>10 on Sunlearn as a PDF that you can
+download.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/205-0
+00:23:54.712 --> 00:23:57.455
+<v Krotoa 1012>So,
+it would be good to get familiar with</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/205-1
+00:23:57.455 --> 00:24:00.721
+<v Krotoa 1012>using that.
+I'll show you how to get the critical</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/205-2
+00:24:00.721 --> 00:24:01.112
+<v Krotoa 1012>value.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/206-0
+00:24:02.072 --> 00:24:02.792
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/207-0
+00:24:04.552 --> 00:24:05.112
+<v Krotoa 1012>Yes.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/208-0
+00:24:07.592 --> 00:24:08.312
+<v Krotoa 1012>Yes.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/209-0
+00:24:16.552 --> 00:24:17.352
+<v Krotoa 1012>Okay, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/210-0
+00:24:18.552 --> 00:24:23.832
+<v Krotoa 1012>Your F distribution starts at 0,
+and then presumably...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/211-0
+00:24:25.032 --> 00:24:31.192
+<v Krotoa 1012>You've got one, two, three,
+and so on and so on, basically.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/212-0
+00:24:33.992 --> 00:24:37.752
+<v Krotoa 1012>We have the rule to always put the larger
+variance on top.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/213-0
+00:24:38.552 --> 00:24:41.192
+<v Krotoa 1012>So if you have a large quantity...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/214-0
+00:24:42.392 --> 00:24:46.152
+<v Krotoa 1012>Over a small quantity,
+it's not a fraction, it's a ratio.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/215-0
+00:24:47.352 --> 00:24:51.870
+<v Krotoa 1012>That cannot be less than one;
+it can only be less than one if the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/215-1
+00:24:51.870 --> 00:24:53.992
+<v Krotoa 1012>smaller quantity is on the top.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/216-0
+00:24:54.992 --> 00:24:59.878
+<v Krotoa 1012>So what you do in a hypothesis test is
+you calculate the F statistic,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/216-1
+00:24:59.878 --> 00:25:03.298
+<v Krotoa 1012>which is this,
+and then you go and ask yourself,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/216-2
+00:25:03.298 --> 00:25:08.952
+<v Krotoa 1012>where on my distribution does it land?
+So that you can make a decision to reject</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/216-3
+00:25:08.952 --> 00:25:12.581
+<v Krotoa 1012>or not reject.
+If I have forced this to be a ratio,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/216-4
+00:25:12.581 --> 00:25:15.512
+<v Krotoa 1012>it is never going to land up on this side.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-0
+00:25:16.312 --> 00:25:19.765
+<v Krotoa 1012>So for my purposes,
+even though I'm still dividing alpha by</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-1
+00:25:19.765 --> 00:25:22.297
+<v Krotoa 1012>two,
+so I'm still acknowledging that it's a</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-2
+00:25:22.297 --> 00:25:25.692
+<v Krotoa 1012>two-tailed test,
+but I just don't even need to look at the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-3
+00:25:25.692 --> 00:25:30.296
+<v Krotoa 1012>side because it is never even going to
+land up on that side. All I need to see,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-4
+00:25:30.296 --> 00:25:33.231
+<v Krotoa 1012>it's going to be somewhere here.
+My job is to see,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/217-5
+00:25:33.231 --> 00:25:35.072
+<v Krotoa 1012>is it to the right of this line?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/218-0
+00:25:35.272 --> 00:25:36.712
+<v Krotoa 1012>Or, to the left of this line.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/219-0
+00:25:37.792 --> 00:25:40.312
+<v Krotoa 1012>Does that make sense? Okay.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/220-0
+00:25:45.752 --> 00:25:46.552
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/221-0
+00:25:48.872 --> 00:25:55.036
+<v Krotoa 1012>Okay, let's do the example. So it says,
+test the hypothesis at a 5% significance</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/221-1
+00:25:55.036 --> 00:26:01.200
+<v Krotoa 1012>level that the variability in number of
+sales at two different stores is similar</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/221-2
+00:26:01.200 --> 00:26:04.472
+<v Krotoa 1012>given the following sample information.
+So</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/222-0
+00:26:06.552 --> 00:26:09.432
+<v Krotoa 1012>The first thing we can do is define our
+hypothesis.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/223-0
+00:26:10.952 --> 00:26:13.592
+<v Krotoa 1012>So, the null and the alternative.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/224-0
+00:26:15.112 --> 00:26:18.472
+<v Krotoa 1012>We need to test that the variability at.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/225-0
+00:26:20.872 --> 00:26:23.319
+<v Krotoa 1012>of sales at two different stores is
+similar.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/225-1
+00:26:23.319 --> 00:26:27.832
+<v Krotoa 1012>So they're kind of phrasing it in terms
+of the null. So are they similar, meaning?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/226-0
+00:26:29.432 --> 00:26:34.755
+<v Krotoa 1012>sigma 1 squared equal to sigma 2 squared.
+That's the question, are they similar?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/226-1
+00:26:34.755 --> 00:26:37.778
+<v Krotoa 1012>But you have to have your opposing
+statement.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/226-2
+00:26:37.778 --> 00:26:42.575
+<v Krotoa 1012>So the alternative says sigma 1 squared
+is not equal to sigma 2 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/226-3
+00:26:42.575 --> 00:26:47.832
+<v Krotoa 1012>It didn't specify a direction that it
+wanted the test to take, so it didn't say</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/227-0
+00:26:47.992 --> 00:26:53.579
+<v Krotoa 1012>Test if the one is larger than the other.
+It just said, find if they are similar.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/227-1
+00:26:53.579 --> 00:26:56.712
+<v Krotoa 1012>So this is a two-tailed test. Alpha is 0.
+05.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/228-0
+00:27:00.472 --> 00:27:02.712
+<v Krotoa 1012>Step one that you're going to do.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/229-0
+00:27:03.992 --> 00:27:08.952
+<v Krotoa 1012>I'm just outlining some broad steps that
+you can follow: you have to choose.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/230-0
+00:27:10.592 --> 00:27:15.120
+<v Krotoa 1012>Which one is going to be S 1 squared?
+S 1 squared has to always be the larger</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/230-1
+00:27:15.120 --> 00:27:15.352
+<v Krotoa 1012>one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/231-0
+00:27:20.552 --> 00:27:27.162
+<v Krotoa 1012>So, I've got, if you look at that table,
+store A has a sample size of 10,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/231-1
+00:27:27.162 --> 00:27:32.164
+<v Krotoa 1012>and store A has a sample standard
+deviation of 32.5271.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/231-2
+00:27:32.164 --> 00:27:38.952
+<v Krotoa 1012>Store B has a sample size of 10 and a
+sample standard deviation of 42.5420.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/232-0
+00:27:39.672 --> 00:27:41.592
+<v Krotoa 1012>So, Store B.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/233-0
+00:27:42.552 --> 00:27:47.065
+<v Krotoa 1012>is going to be my S 1 squared.
+That has to be number one because that</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/233-1
+00:27:47.065 --> 00:27:49.192
+<v Krotoa 1012>has to go on the top. So since...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/234-0
+00:27:50.392 --> 00:27:58.052
+<v Krotoa 1012>the standard deviation of store B is
+greater than the standard deviation of</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/234-1
+00:27:58.052 --> 00:28:02.990
+<v Krotoa 1012>store A,
+we are going to say S 1 is equal to 42.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/234-2
+00:28:02.990 --> 00:28:05.912
+<v Krotoa 1012>5420, and N 1 is equal to 10.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/235-0
+00:28:07.272 --> 00:28:14.392
+<v Krotoa 1012>S 2 is equal to 32.5271.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/236-0
+00:28:16.792 --> 00:28:19.512
+<v Krotoa 1012>And N2 is equal to 10.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/237-0
+00:28:20.712 --> 00:28:21.992
+<v Krotoa 1012>So, this means...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/238-0
+00:28:23.352 --> 00:28:29.777
+<v Krotoa 1012>I'm already thinking ahead to the degrees
+of freedom, so DF1 is equal to 9,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/238-1
+00:28:29.777 --> 00:28:32.312
+<v Krotoa 1012>and DF2 is equal to 9 as well.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/239-0
+00:28:36.792 --> 00:28:42.535
+<v Krotoa 1012>Then we can calculate our F-stat,
+so that would be sort of step two: F-stat</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/239-1
+00:28:42.535 --> 00:28:43.592
+<v Krotoa 1012>is equal to...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/240-0
+00:28:45.032 --> 00:28:52.471
+<v Krotoa 1012>S1 squared over S2 squared.
+Now I've made sure that S1 squared is the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/240-1
+00:28:52.471 --> 00:28:59.272
+<v Krotoa 1012>larger one. So it is going to be 42.
+5420 squared divided by...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/241-0
+00:29:01.552 --> 00:29:05.912
+<v Krotoa 1012>32.5271 squared.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/242-0
+00:29:07.112 --> 00:29:11.352
+<v Krotoa 1012>I mustn't forget about this squared,
+so remember.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/243-0
+00:29:15.832 --> 00:29:17.992
+<v Krotoa 1012>If the standard deviation is given.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/244-0
+00:29:19.672 --> 00:29:22.567
+<v Krotoa 1012>You must square it,
+so you must pay attention to what the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/244-1
+00:29:22.567 --> 00:29:25.413
+<v Krotoa 1012>question is giving you.
+Sometimes they'll give variance,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/244-2
+00:29:25.413 --> 00:29:29.356
+<v Krotoa 1012>and then you can just use variance.
+Sometimes they'll give standard deviation,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/244-3
+00:29:29.356 --> 00:29:31.352
+<v Krotoa 1012>and then you must remember to square it.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/245-0
+00:29:32.952 --> 00:29:38.430
+<v Krotoa 1012>Because this is a,
+the formula requires the squared quantity.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/245-1
+00:29:38.430 --> 00:29:43.290
+<v Krotoa 1012>Then working that out,
+it will give you approximately,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/245-2
+00:29:43.290 --> 00:29:49.032
+<v Krotoa 1012>because we're rounding, 1.7106.
+That is my test statistic value.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/246-0
+00:29:52.352 --> 00:29:57.352
+<v Krotoa 1012>Step 3 is where we use the table,
+so this is where we have to find if crit.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/247-0
+00:29:58.712 --> 00:30:00.072
+<v Krotoa 1012>And this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/248-0
+00:30:05.912 --> 00:30:08.232
+<v Krotoa 1012>Is done using.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/249-0
+00:30:09.112 --> 00:30:11.592
+<v Krotoa 1012>the table,
+the printout that you would get.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/250-0
+00:30:14.392 --> 00:30:15.112
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/251-0
+00:30:16.712 --> 00:30:20.902
+<v Krotoa 1012>It's an F value,
+and it's dependent on two things.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/251-1
+00:30:20.902 --> 00:30:24.600
+<v Krotoa 1012>First of all,
+your probability alpha over 2,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/251-2
+00:30:24.600 --> 00:30:29.611
+<v Krotoa 1012>and then your degrees of freedom 1 and
+degrees of freedom 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/251-3
+00:30:29.611 --> 00:30:36.512
+<v Krotoa 1012>So that's going to be F corresponding to
+alpha of 0.025, degrees of freedom 1 of 9,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/253-0
+00:30:36.872 --> 00:30:42.236
+<v Krotoa 1012>Degrees of freedom, two of nine,
+and then we those are our lookup</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/253-1
+00:30:42.236 --> 00:30:47.192
+<v Krotoa 1012>parameters that will help us,
+so if you come to the F table.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/254-0
+00:30:51.032 --> 00:30:51.752
+<v Krotoa 1012>Okay, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/255-0
+00:30:52.712 --> 00:30:56.480
+<v Krotoa 1012>Under chapter 10,
+it's right at the top there.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/255-1
+00:30:56.480 --> 00:31:01.210
+<v Krotoa 1012>You open it up, it looks like this.
+There are three pages.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/255-2
+00:31:01.210 --> 00:31:06.821
+<v Krotoa 1012>The difference in the pages is the alpha.
+So page one has alpha 0.05.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/255-3
+00:31:06.821 --> 00:31:12.192
+<v Krotoa 1012>Page 2 is for alpha of 0.025.
+And page three is for alpha of 0.01.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/256-0
+00:31:12.872 --> 00:31:19.872
+<v Krotoa 1012>So we want to be on the page of alpha 0.
+025, because our alpha of 0.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/256-1
+00:31:19.872 --> 00:31:24.672
+<v Krotoa 1012>05 needs to get divided by two, so it's 0.
+025.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/256-2
+00:31:24.672 --> 00:31:28.472
+<v Krotoa 1012>That's our effective probability here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/257-0
+00:31:29.672 --> 00:31:36.192
+<v Krotoa 1012>Then your, let me see if I can zoom in,
+your column numbers refer to the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/257-1
+00:31:36.192 --> 00:31:42.264
+<v Krotoa 1012>numerator degrees of freedom.
+So you're going to look up the column</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/257-2
+00:31:42.264 --> 00:31:48.872
+<v Krotoa 1012>where it corresponds to your numerator's
+degrees of freedom. So that's 9.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/258-0
+00:31:49.192 --> 00:31:54.092
+<v Krotoa 1012>And then the rows refer to the
+denominator degrees of freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/258-1
+00:31:54.092 --> 00:31:57.592
+<v Krotoa 1012>So whatever quantity is in your
+denominator,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/258-2
+00:31:57.592 --> 00:32:02.104
+<v Krotoa 1012>its degrees of freedom in this case
+happens to also be 9.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/258-3
+00:32:02.104 --> 00:32:05.992
+<v Krotoa 1012>So if we go and find the intersection of
+9 and 9,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/258-4
+00:32:05.992 --> 00:32:11.592
+<v Krotoa 1012>and we make sure we're on the right page
+there, we have got 4.03 as our</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/259-0
+00:32:11.912 --> 00:32:12.872
+<v Krotoa 1012>Critical value.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/260-0
+00:32:17.672 --> 00:32:21.432
+<v Krotoa 1012>So, this one over here is equal to 4.03.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/261-0
+00:32:23.272 --> 00:32:25.672
+<v Krotoa 1012>Now, we can set up our actual.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/262-0
+00:32:27.192 --> 00:32:30.472
+<v Krotoa 1012>Test here, or our decision, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/263-0
+00:32:33.192 --> 00:32:35.992
+<v Krotoa 1012>Our distribution looks like this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/264-0
+00:32:37.672 --> 00:32:39.432
+<v Krotoa 1012>Remembering that we've got zero.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/265-0
+00:32:40.712 --> 00:32:46.396
+<v Krotoa 1012>And we now have this rejection region
+where anything greater than our critical</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/265-1
+00:32:46.396 --> 00:32:49.992
+<v Krotoa 1012>value of 4.
+03 would result in me rejecting this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/266-0
+00:32:51.432 --> 00:32:52.632
+<v Krotoa 1012>Null hypothesis.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/267-0
+00:32:55.672 --> 00:32:58.952
+<v Krotoa 1012>This area being 0.025.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/268-0
+00:33:01.752 --> 00:33:04.552
+<v Krotoa 1012>Our if stat was.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/270-0
+00:33:09.432 --> 00:33:10.152
+<v Krotoa 1012>So...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/272-0
+00:33:26.712 --> 00:33:28.152
+<v Krotoa 1012>So, what's my decision there?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/274-0
+00:33:41.192 --> 00:33:42.312
+<v Krotoa 1012>So, anything...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/275-0
+00:33:43.272 --> 00:33:44.792
+<v Krotoa 1012>from here on outwards.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/276-0
+00:33:45.872 --> 00:33:50.097
+<v Krotoa 1012>Would be reject,
+but anything to the left of that would be</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/276-1
+00:33:50.097 --> 00:33:54.392
+<v Krotoa 1012>a do not reject,
+so I still want the reasoning, so since...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/277-0
+00:33:55.592 --> 00:33:58.872
+<v Krotoa 1012>If start is less than F crit.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/278-0
+00:34:00.232 --> 00:34:01.352
+<v Krotoa 1012>Do not reject.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/279-0
+00:34:08.072 --> 00:34:12.712
+<v Krotoa 1012>The null hypothesis at alpha of 0.05.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/280-0
+00:34:14.392 --> 00:34:18.207
+<v Krotoa 1012>Remember, that's still our alpha.
+Our effective alpha became 0.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/280-1
+00:34:18.207 --> 00:34:22.141
+<v Krotoa 1012>025 because we had to divide it because
+it was a two-tailed test,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/280-2
+00:34:22.141 --> 00:34:26.552
+<v Krotoa 1012>but that's just because we didn't
+actually write out the one to the left.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/281-0
+00:34:28.472 --> 00:34:31.860
+<v Krotoa 1012>And the conclusion,
+the further statement in terms of the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/281-1
+00:34:31.860 --> 00:34:34.312
+<v Krotoa 1012>alternative hypothesis is that there is...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/282-0
+00:34:35.272 --> 00:34:40.552
+<v Krotoa 1012>If we fail to reject,
+we find insufficient evidence.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/283-0
+00:34:45.032 --> 00:34:45.832
+<v Krotoa 1012>That.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/284-0
+00:34:48.312 --> 00:34:50.312
+<v Krotoa 1012>There is a difference in variances.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/291-0
+00:35:18.232 --> 00:35:20.472
+<v Krotoa 1012>Does that make sense?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/292-0
+00:35:23.112 --> 00:35:24.312
+<v Krotoa 1012>Does that feel manageable?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/293-0
+00:35:25.432 --> 00:35:27.664
+<v Krotoa 1012>So,
+the only thing you would have done</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/293-1
+00:35:27.664 --> 00:35:32.413
+<v Krotoa 1012>different if this was an upper tail test,
+you would have not divided your alpha by</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/293-2
+00:35:32.413 --> 00:35:34.472
+<v Krotoa 1012>two, so you would have been up here.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/294-0
+00:35:36.112 --> 00:35:39.652
+<v Krotoa 1012>Where alpha is 0.05,
+and then you would have used the same</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/294-1
+00:35:39.652 --> 00:35:40.792
+<v Krotoa 1012>degrees of freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/295-0
+00:35:41.912 --> 00:35:42.312
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/296-0
+00:35:44.632 --> 00:35:48.694
+<v Krotoa 1012>9 and 9, and you would have found 3.18.
+In that case,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/296-1
+00:35:48.694 --> 00:35:52.153
+<v Krotoa 1012>it would have still led to the same
+decision.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/296-2
+00:35:52.153 --> 00:35:57.042
+<v Krotoa 1012>We would have failed to reject because
+our F-stat is still less.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/296-3
+00:35:57.042 --> 00:36:02.682
+<v Krotoa 1012>But you just need to be careful.
+I think the thing that catches people out</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/296-4
+00:36:02.682 --> 00:36:02.832
+<v Krotoa 1012>is</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/297-0
+00:36:05.392 --> 00:36:10.179
+<v Krotoa 1012>failing to distinguish between the
+two-tailed test and the upper-tailed test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/297-1
+00:36:10.179 --> 00:36:13.369
+<v Krotoa 1012>Another thing that could potentially
+catch you out,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/297-2
+00:36:13.369 --> 00:36:17.419
+<v Krotoa 1012>it's not necessary for the two degrees of
+freedom to be the same,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/297-3
+00:36:17.419 --> 00:36:22.022
+<v Krotoa 1012>so they can be different. However,
+you're not taking the larger degrees of</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/297-4
+00:36:22.022 --> 00:36:22.512
+<v Krotoa 1012>freedom.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/298-0
+00:36:23.952 --> 00:36:26.995
+<v Krotoa 1012>as the numerator degrees of freedom.
+You're always,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/298-1
+00:36:26.995 --> 00:36:31.677
+<v Krotoa 1012>your numerator degrees of freedom is the
+degrees of freedom associated with the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/298-2
+00:36:31.677 --> 00:36:35.071
+<v Krotoa 1012>larger variance.
+So you look what is the larger variance,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/298-3
+00:36:35.071 --> 00:36:39.401
+<v Krotoa 1012>and then you look what is the larger
+variance is your numerator variance,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/298-4
+00:36:39.401 --> 00:36:42.912
+<v Krotoa 1012>and then you look what are the degrees of
+freedom for that.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/299-0
+00:36:43.272 --> 00:36:43.712
+<v Krotoa 1012>Okay.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/300-0
+00:36:46.072 --> 00:36:46.672
+<v Krotoa 1012>Then.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/301-0
+00:36:47.872 --> 00:36:48.912
+<v Krotoa 1012>We've got...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/303-0
+00:36:50.112 --> 00:36:56.400
+<v Krotoa 1012>There will be some just a demonstration
+of how to do it in Excel,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/303-1
+00:36:56.400 --> 00:37:02.592
+<v Krotoa 1012>not the main focus anymore.
+Then we have this quick effect size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/304-0
+00:37:03.792 --> 00:37:04.352
+<v Krotoa 1012>Topic.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/305-0
+00:37:05.712 --> 00:37:08.112
+<v Krotoa 1012>There is this motivational example.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/306-0
+00:37:10.352 --> 00:37:14.155
+<v Krotoa 1012>I'm not going to do the whole
+motivational example with you,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/306-1
+00:37:14.155 --> 00:37:19.267
+<v Krotoa 1012>because I don't think we need to do the
+example to understand the point that it's</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/306-2
+00:37:19.267 --> 00:37:24.004
+<v Krotoa 1012>making, so you're welcome to do it,
+but I'm just going to give you the gist</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/306-3
+00:37:24.004 --> 00:37:24.752
+<v Krotoa 1012>of it, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/307-0
+00:37:27.152 --> 00:37:28.752
+<v Krotoa 1012>And, essentially, what you need.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/308-0
+00:37:30.352 --> 00:37:32.992
+<v Krotoa 1012>To know about this for the exam, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/309-0
+00:37:39.232 --> 00:37:42.672
+<v Krotoa 1012>We'll just call it the summary of the
+motivational example.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/310-0
+00:37:43.792 --> 00:37:44.832
+<v Krotoa 1012>The key points.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/311-0
+00:37:53.792 --> 00:37:58.112
+<v Krotoa 1012>So, it was a test for difference in means,
+you know this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/312-0
+00:37:59.312 --> 00:37:59.632
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/313-0
+00:38:06.352 --> 00:38:09.712
+<v Krotoa 1012>Nothing we haven't done before, so mu one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/314-0
+00:38:13.952 --> 00:38:16.112
+<v Krotoa 1012>Minus mu two, it's that kind of test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/315-0
+00:38:17.872 --> 00:38:19.072
+<v Krotoa 1012>They did it twice.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/316-0
+00:38:22.672 --> 00:38:25.392
+<v Krotoa 1012>So, test one, the first time they did it.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/317-0
+00:38:30.752 --> 00:38:33.632
+<v Krotoa 1012>N1 and N2, the sample size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/318-0
+00:38:34.792 --> 00:38:38.112
+<v Krotoa 1012>both equaled 10, and then test 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/319-0
+00:38:40.832 --> 00:38:43.072
+<v Krotoa 1012>In one and in two.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/320-0
+00:38:45.072 --> 00:38:46.352
+<v Krotoa 1012>Increase to 20.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/321-0
+00:38:47.792 --> 00:38:51.350
+<v Krotoa 1012>So, the only thing that changed,
+everything all stayed the same,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/321-1
+00:38:51.350 --> 00:38:54.032
+<v Krotoa 1012>the only thing that changed was the
+sample size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/324-0
+00:39:10.272 --> 00:39:12.648
+<v Krotoa 1012>So,
+what happened when we changed the sample</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/324-1
+00:39:12.648 --> 00:39:12.912
+<v Krotoa 1012>size?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/325-0
+00:39:20.912 --> 00:39:24.752
+<v Krotoa 1012>If you do that in this particular case in
+test one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/326-0
+00:39:26.032 --> 00:39:27.312
+<v Krotoa 1012>The outcome was...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/327-0
+00:39:28.432 --> 00:39:31.472
+<v Krotoa 1012>Do not reject with the smaller sample
+size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/328-0
+00:39:37.032 --> 00:39:38.192
+<v Krotoa 1012>And for Test Two.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/329-0
+00:39:39.272 --> 00:39:44.101
+<v Krotoa 1012>Once we increased the sample size,
+the outcome was reject the null</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/329-1
+00:39:44.101 --> 00:39:46.912
+<v Krotoa 1012>hypothesis with the larger sample size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/332-0
+00:40:02.192 --> 00:40:05.360
+<v Krotoa 1012>So,
+it's trying to highlight something for</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/332-1
+00:40:05.360 --> 00:40:11.401
+<v Krotoa 1012>you, a feature of hypothesis tests. So,
+the key take away that you're supposed to</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/332-2
+00:40:11.401 --> 00:40:12.432
+<v Krotoa 1012>get from this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/333-0
+00:40:19.712 --> 00:40:23.152
+<v Krotoa 1012>Is that statistically significant effects?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/336-0
+00:40:42.432 --> 00:40:44.432
+<v Krotoa 1012>Are more easily found in.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/337-0
+00:40:45.312 --> 00:40:46.912
+<v Krotoa 1012>Larger sample sizes.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-0
+00:40:56.912 --> 00:40:59.802
+<v Krotoa 1012>So, obviously,
+this test was looking for an effect,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-1
+00:40:59.802 --> 00:41:04.026
+<v Krotoa 1012>specifically the difference in means.
+It failed to find it with the smaller</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-2
+00:41:04.026 --> 00:41:07.027
+<v Krotoa 1012>sample size,
+it found it with the larger sample size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-3
+00:41:07.027 --> 00:41:11.751
+<v Krotoa 1012>Sometimes a small sample size obscures an
+effect, but once we have more information,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-4
+00:41:11.751 --> 00:41:15.752
+<v Krotoa 1012>we are able to more concretely find a
+statistically significant effect.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/338-5
+00:41:15.752 --> 00:41:16.752
+<v Krotoa 1012>That's why they...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/339-0
+00:41:16.992 --> 00:41:22.342
+<v Krotoa 1012>Have to have certain sample sizes when
+they do something like clinical trials.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/339-1
+00:41:22.342 --> 00:41:27.828
+<v Krotoa 1012>If you can't just have one person in a
+clinical trial, that's not going to work.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/339-2
+00:41:27.828 --> 00:41:31.552
+<v Krotoa 1012>We have to see how it affects a large
+group of people.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/340-0
+00:41:34.192 --> 00:41:36.432
+<v Krotoa 1012>However, there is a downside to this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/341-0
+00:41:38.512 --> 00:41:43.872
+<v Krotoa 1012>And this is how where we're getting to
+effect size, so statistically significant.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/343-0
+00:41:50.832 --> 00:41:54.272
+<v Krotoa 1012>Does not always mean...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/344-0
+00:41:57.952 --> 00:41:59.712
+<v Krotoa 1012>Practically significant.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/348-0
+00:42:23.552 --> 00:42:24.912
+<v Krotoa 1012>So, um...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/349-0
+00:42:27.592 --> 00:42:28.672
+<v Krotoa 1012>For example.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/350-0
+00:42:29.672 --> 00:42:33.312
+<v Krotoa 1012>You set out to determine if you have this.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/351-0
+00:42:36.592 --> 00:42:39.792
+<v Krotoa 1012>Drug that is meant to lower blood
+pressure.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/352-0
+00:42:40.832 --> 00:42:41.632
+<v Krotoa 1012>And...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-0
+00:42:43.632 --> 00:42:48.734
+<v Krotoa 1012>you set out your clinical trial very well,
+you've got a large sample size,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-1
+00:42:48.734 --> 00:42:51.795
+<v Krotoa 1012>you find a statistically significant
+result.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-2
+00:42:51.795 --> 00:42:57.101
+<v Krotoa 1012>That means that you set up your test,
+your null hypothesis was that it had no</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-3
+00:42:57.101 --> 00:43:00.366
+<v Krotoa 1012>effect,
+your alternative hypothesis was that it</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-4
+00:43:00.366 --> 00:43:03.972
+<v Krotoa 1012>had an effect,
+and your tests at a very strict alpha</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/353-5
+00:43:03.972 --> 00:43:06.352
+<v Krotoa 1012>said, yes, this drug has an effect.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/354-0
+00:43:06.912 --> 00:43:09.903
+<v Krotoa 1012>That's the statistical significance.
+However,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/354-1
+00:43:09.903 --> 00:43:14.910
+<v Krotoa 1012>the practical significance would be,
+does it reduce blood pressure enough to</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/354-2
+00:43:14.910 --> 00:43:18.616
+<v Krotoa 1012>make a difference to a patient with high
+blood pressure?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/354-3
+00:43:18.616 --> 00:43:23.427
+<v Krotoa 1012>That's not always guaranteed by the test.
+The test says it has an effect,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/354-4
+00:43:23.427 --> 00:43:25.312
+<v Krotoa 1012>but practical significance is</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/355-0
+00:43:25.352 --> 00:43:31.789
+<v Krotoa 1012>this effect is meaningful in real life.
+Another example could be a marketing team</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/355-1
+00:43:31.789 --> 00:43:36.970
+<v Krotoa 1012>goes to their CEO and they say,
+we've done this study on this new</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/355-2
+00:43:36.970 --> 00:43:41.208
+<v Krotoa 1012>marketing campaign,
+and we have found that since this</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/355-3
+00:43:41.208 --> 00:43:44.112
+<v Krotoa 1012>marketing campaign, we have increased</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/356-0
+00:43:44.272 --> 00:43:45.072
+<v Krotoa 1012>Sales.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/357-0
+00:43:46.032 --> 00:43:51.222
+<v Krotoa 1012>So that's the statistical significance.
+There has been an effect detected.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/357-1
+00:43:51.222 --> 00:43:56.758
+<v Krotoa 1012>The practical significance comes into
+play where it might be that that increase</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/357-2
+00:43:56.758 --> 00:44:00.495
+<v Krotoa 1012>in sales is not enough to make a dent in
+the profits.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/357-3
+00:44:00.495 --> 00:44:04.992
+<v Krotoa 1012>So it is of no practical significance.
+We always have to look at</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/358-0
+00:44:05.152 --> 00:44:11.636
+<v Krotoa 1012>Yes, there is an effect, but in real life,
+what is the actual nature of this effect?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/358-1
+00:44:11.636 --> 00:44:17.738
+<v Krotoa 1012>So there is a thing called effect size,
+which we calculate alongside hypothesis</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/358-2
+00:44:17.738 --> 00:44:20.866
+<v Krotoa 1012>tests.
+Your job in this module is not to</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/358-3
+00:44:20.866 --> 00:44:24.832
+<v Krotoa 1012>calculate effect size,
+but it will be to interpret.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/359-0
+00:44:25.152 --> 00:44:28.032
+<v Krotoa 1012>Effect size, so effect size.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/360-0
+00:44:31.392 --> 00:44:32.192
+<v Krotoa 1012>Helps.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/361-0
+00:44:33.712 --> 00:44:34.672
+<v Krotoa 1012>Tell us.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/362-0
+00:44:36.992 --> 00:44:38.352
+<v Krotoa 1012>That our results.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/363-0
+00:44:39.952 --> 00:44:41.632
+<v Krotoa 1012>Are practically significant.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/364-0
+00:44:50.272 --> 00:44:51.472
+<v Krotoa 1012>You must know.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/365-0
+00:44:53.952 --> 00:44:55.152
+<v Krotoa 1012>How to interpret?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/366-0
+00:44:56.312 --> 00:44:58.272
+<v Krotoa 1012>So the guidance for how to interpret.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/367-0
+00:45:02.912 --> 00:45:03.872
+<v Krotoa 1012>Is found.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/368-0
+00:45:05.152 --> 00:45:07.152
+<v Krotoa 1012>On Slide 47 of Chapter 10.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/369-0
+00:45:08.112 --> 00:45:09.472
+<v Krotoa 1012>So at the bottom there.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/370-0
+00:45:12.032 --> 00:45:17.872
+<v Krotoa 1012>It says standardized effect size around 0.
+2, small.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/371-0
+00:45:19.032 --> 00:45:23.318
+<v Krotoa 1012>Around 0.5 medium greater than 0.
+8 large effect size,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/371-1
+00:45:23.318 --> 00:45:28.772
+<v Krotoa 1012>so that's kind of your guidelines,
+whether to say it's small, medium,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/371-2
+00:45:28.772 --> 00:45:32.512
+<v Krotoa 1012>or large. OK,
+and that's then Chapter Ten done.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/372-0
+00:45:33.552 --> 00:45:39.345
+<v Krotoa 1012>So, all from me today.
+Hope you guys have a good weekend and see</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/372-1
+00:45:39.345 --> 00:45:40.592
+<v Krotoa 1012>you next week.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/379-0
+00:46:30.632 --> 00:46:31.152
+<v Krotoa 1012>Did you?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/380-0
+00:46:32.312 --> 00:46:36.434
+<v Krotoa 1012>I sent you an e-mail. I'm not sure if so,
+but did you record it Tuesday or</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/380-1
+00:46:36.434 --> 00:46:40.446
+<v Krotoa 1012>Wednesday? Yeah, I did. Okay,
+I have uploaded it this morning. Have you?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/380-2
+00:46:40.446 --> 00:46:44.512
+<v Krotoa 1012>Okay, cool. Thank you so much. Okay,
+thank you very much. Thank you. Bye.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/384-0
+00:47:07.672 --> 00:47:08.352
+<v Krotoa 1012>This picture.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/385-0
+00:47:09.872 --> 00:47:11.392
+<v Krotoa 1012>OK, do you have questions?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/386-0
+00:47:13.552 --> 00:47:19.663
+<v Krotoa 1012>This question, I didn't use it,
+but I don't understand. You're not asking,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/386-1
+00:47:19.663 --> 00:47:22.432
+<v Krotoa 1012>and you said no. Really? OK, so...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/387-0
+00:47:28.032 --> 00:47:28.112
+<v Krotoa 1012>AM.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/388-0
+00:47:32.872 --> 00:47:39.443
+<v Krotoa 1012>The hypothesis test makes an assumption.
+The assumption in that specific question,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/388-1
+00:47:39.443 --> 00:47:44.272
+<v Krotoa 1012>the hypothesis test,
+or the null hypothesis, is that pi one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/389-0
+00:47:45.152 --> 00:47:50.002
+<v Krotoa 1012>Minus pi 2 is equal to 0.
+What does that mean? They're the same.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/389-1
+00:47:50.002 --> 00:47:54.852
+<v Krotoa 1012>There's no difference.
+The null of the alternative hypothesis is</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/389-2
+00:47:54.852 --> 00:47:59.552
+<v Krotoa 1012>that pi 1 minus pi 2 is not equal to 0.
+There is a difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/390-0
+00:48:00.512 --> 00:48:06.598
+<v Krotoa 1012>We must take the assumption of the null
+hypothesis to be true until proven false,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/390-1
+00:48:06.598 --> 00:48:11.792
+<v Krotoa 1012>and this is a rare occasion where this
+actually affects our standard.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/391-0
+00:48:13.952 --> 00:48:19.055
+<v Krotoa 1012>Error, because if this is true,
+and this is why I drew out,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/391-1
+00:48:19.055 --> 00:48:23.392
+<v Krotoa 1012>so normally your standard error of the
+difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/392-0
+00:48:24.352 --> 00:48:32.432
+<v Krotoa 1012>In sample proportions is equal to the
+square root of pi 1 * 1 minus pi one.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/393-0
+00:48:33.392 --> 00:48:40.058
+<v Krotoa 1012>over N1 plus pi 2 times 1 minus pi 2 over
+N2. Now, if you didn't know pi 1 and pi 2,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/393-1
+00:48:40.058 --> 00:48:45.703
+<v Krotoa 1012>you just used P1 and P2, right?
+So that's what's used in the conference</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/393-2
+00:48:45.703 --> 00:48:51.271
+<v Krotoa 1012>equation. Makes sense. However, now,
+if we're assuming that there's no</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/393-3
+00:48:51.271 --> 00:48:53.152
+<v Krotoa 1012>difference between them,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/394-0
+00:48:53.312 --> 00:48:56.858
+<v Krotoa 1012>then it becomes this.
+So applying the assumption makes it,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/394-1
+00:48:56.858 --> 00:49:01.125
+<v Krotoa 1012>I'm taking it out in front and I'm no
+longer calling it pi 1 and pi 2.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/394-2
+00:49:01.125 --> 00:49:05.632
+<v Krotoa 1012>I'm just calling it pi because it's now
+the same thing. Now it looks like.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/395-0
+00:49:06.752 --> 00:49:07.152
+<v Krotoa 1012>Miss.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/396-0
+00:49:08.752 --> 00:49:11.472
+<v Krotoa 1012>Now, that gets estimated.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/397-0
+00:49:15.872 --> 00:49:16.232
+<v Krotoa 1012>With...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/398-0
+00:49:18.672 --> 00:49:22.672
+<v Krotoa 1012>Pool proportion,
+which is just lump both sample.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/399-0
+00:49:24.592 --> 00:49:25.472
+<v Krotoa 1012>Information.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/400-0
+00:49:26.672 --> 00:49:27.152
+<v Krotoa 1012>Together.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/401-0
+00:49:28.592 --> 00:49:33.093
+<v Krotoa 1012>So the confidence interval does not make
+any assumptions by itself.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/401-1
+00:49:33.093 --> 00:49:37.065
+<v Krotoa 1012>It's just find plausible values for the
+unknown difference.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/401-2
+00:49:37.065 --> 00:49:41.764
+<v Krotoa 1012>So it can't say anything about it.
+A hypothesis test makes a claim and</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/401-3
+00:49:41.764 --> 00:49:45.802
+<v Krotoa 1012>checks that claim. So because of that,
+in this one instance,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/401-4
+00:49:45.802 --> 00:49:48.912
+<v Krotoa 1012>it doesn't happen anywhere else in the
+module.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/402-0
+00:49:49.312 --> 00:49:50.432
+<v Krotoa 1012>You have to.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/403-0
+00:49:52.512 --> 00:49:56.345
+<v Krotoa 1012>make your hypothesis test look different
+from your,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/403-1
+00:49:56.345 --> 00:50:02.535
+<v Krotoa 1012>or your standard error for the hypothesis
+test look different from your one for the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/403-2
+00:50:02.535 --> 00:50:07.104
+<v Krotoa 1012>confidence interval. So,
+does that make sense? Kind of. Yeah.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/403-3
+00:50:07.104 --> 00:50:08.872
+<v Krotoa 1012>So then, what did the...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/404-0
+00:50:10.472 --> 00:50:15.792
+<v Krotoa 1012>What would be like a Kieviet?
+When would we know whether or not to?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-0
+00:50:17.232 --> 00:50:20.523
+<v Krotoa 1012>I'm saying when you do hypothesis tests,
+you use pooled,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-1
+00:50:20.523 --> 00:50:24.275
+<v Krotoa 1012>when you do confidence intervals,
+you don't use like that. Yeah,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-2
+00:50:24.275 --> 00:50:28.027
+<v Krotoa 1012>that makes sense. Yeah, yeah.
+And then you could ask your, well,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-3
+00:50:28.027 --> 00:50:32.183
+<v Krotoa 1012>something that you might ask is,
+why don't we do the same thing for the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-4
+00:50:32.183 --> 00:50:35.762
+<v Krotoa 1012>difference in means?
+Because do you remember that Falcon also</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/405-5
+00:50:35.762 --> 00:50:37.032
+<v Krotoa 1012>uses a pooled variant?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/406-0
+00:50:37.472 --> 00:50:41.838
+<v Krotoa 1012>So why is it different?
+Because if you look at the difference in</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/406-1
+00:50:41.838 --> 00:50:45.062
+<v Krotoa 1012>means,
+we use pooled variance in the hypothesis</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/406-2
+00:50:45.062 --> 00:50:49.831
+<v Krotoa 1012>test and in the confidence interval.
+So why is it okay to do it there?</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/406-3
+00:50:49.831 --> 00:50:54.196
+<v Krotoa 1012>The reason is this is an assumption made
+by the hypothesis test.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/406-4
+00:50:54.196 --> 00:50:55.472
+<v Krotoa 1012>We have to obey it.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/407-0
+00:50:56.552 --> 00:51:01.534
+<v Krotoa 1012>When we assume that the with the means,
+when we assume that the two variances are</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/407-1
+00:51:01.534 --> 00:51:04.572
+<v Krotoa 1012>equal,
+that's our choice to make that assumption,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/407-2
+00:51:04.572 --> 00:51:09.736
+<v Krotoa 1012>so we do that as a simplifying assumption.
+It's not a it's not a characteristic of a</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/407-3
+00:51:09.736 --> 00:51:12.652
+<v Krotoa 1012>hypothesis, so that's the reason. Yeah,
+I mean,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/407-4
+00:51:12.652 --> 00:51:15.872
+<v Krotoa 1012>just like assignments in the work that we
+did today.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/408-0
+00:51:17.272 --> 00:51:18.512
+<v Krotoa 1012>No, it's fine.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/409-0
+00:51:20.432 --> 00:51:23.152
+<v Krotoa 1012>If the standard deviation is low, I mean.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/410-0
+00:51:26.032 --> 00:51:29.975
+<v Krotoa 1012>Um,
+you wouldn't know the standard deviation,</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/410-1
+00:51:29.975 --> 00:51:30.832
+<v Krotoa 1012>so like...</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/411-0
+00:51:31.712 --> 00:51:35.918
+<v Krotoa 1012>No, but they,
+like the ratio of variance that we did</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/411-1
+00:51:35.918 --> 00:51:39.251
+<v Krotoa 1012>now,
+why do we use S and not just because</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/411-2
+00:51:39.251 --> 00:51:44.488
+<v Krotoa 1012>we're taking it from the public,
+we we just have a sample for the</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/411-3
+00:51:44.488 --> 00:51:48.693
+<v Krotoa 1012>information,
+we make a claim about the unknown ratio</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/411-4
+00:51:48.693 --> 00:51:51.232
+<v Krotoa 1012>of variances, and we set out to.</v>
+
+5d61724e-fb66-41e7-99f0-8821ff93a10d/412-0
+00:51:51.472 --> 00:51:56.912
+<v Krotoa 1012>Test it using our, yeah, yeah, yeah,
+thank you so much, no worries.</v>

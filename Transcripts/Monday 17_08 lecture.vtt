@@ -1,0 +1,2097 @@
+WEBVTT
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/5-0
+00:00:05.980 --> 00:00:06.540
+<v Chemistry 1015>Why?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/6-0
+00:00:08.460 --> 00:00:08.820
+<v Chemistry 1015>Inside.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/7-0
+00:00:22.460 --> 00:00:23.660
+<v Chemistry 1015>I will be.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/9-0
+00:00:35.420 --> 00:00:36.700
+<v Chemistry 1015>I know a request.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/10-0
+00:00:55.500 --> 00:01:01.989
+<v Chemistry 1015>It's good to see you all again.
+Let's get started. Okay,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/10-1
+00:01:01.989 --> 00:01:04.380
+<v Chemistry 1015>so we are carrying...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/11-0
+00:01:04.460 --> 00:01:06.140
+<v Chemistry 1015>On with Chapter Nine.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/12-0
+00:01:07.260 --> 00:01:10.620
+<v Chemistry 1015>I'm still not using the slides.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/13-0
+00:01:11.780 --> 00:01:12.860
+<v Chemistry 1015>From the chapter.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/14-0
+00:01:14.460 --> 00:01:17.900
+<v Chemistry 1015>Still going to emphasise all the concepts.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/15-0
+00:01:20.620 --> 00:01:27.135
+<v Chemistry 1015>just through my own notes and I just
+prefer doing it this way.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/15-1
+00:01:27.135 --> 00:01:29.100
+<v Chemistry 1015>I don't like the...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/16-0
+00:01:30.140 --> 00:01:34.700
+<v Chemistry 1015>chronological order necessarily from the
+slides.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/17-0
+00:01:35.900 --> 00:01:41.102
+<v Chemistry 1015>But it would probably be good if you
+wanted to cheque in on the slides just to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/17-1
+00:01:41.102 --> 00:01:44.197
+<v Chemistry 1015>see,
+maybe to use it in a complementary way to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/17-2
+00:01:44.197 --> 00:01:45.580
+<v Chemistry 1015>what we're doing now.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/18-0
+00:01:46.700 --> 00:01:47.980
+<v Chemistry 1015>But, um...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/19-0
+00:01:50.140 --> 00:01:53.260
+<v Chemistry 1015>First goal for today is to...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/20-0
+00:01:54.220 --> 00:01:58.739
+<v Chemistry 1015>point out to you,
+I've mentioned that you get lower tail,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/20-1
+00:01:58.739 --> 00:02:04.350
+<v Chemistry 1015>two tail, and upper tail tests.
+First goal is to emphasise when it is a</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/20-2
+00:02:04.350 --> 00:02:10.817
+<v Chemistry 1015>lower tail, two tail, and upper tail test.
+The second goal is to correct something</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/20-3
+00:02:10.817 --> 00:02:13.700
+<v Chemistry 1015>from the example that I did with you.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/21-0
+00:02:14.140 --> 00:02:18.419
+<v Chemistry 1015>the last lecture,
+but it's a good correction because then</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/21-1
+00:02:18.419 --> 00:02:24.174
+<v Chemistry 1015>we can actually see what a change in the
+test statistic does to the decision.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/21-2
+00:02:24.174 --> 00:02:30.076
+<v Chemistry 1015>And then the third goal of today is to
+look at the p-value approach because you</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/21-3
+00:02:30.076 --> 00:02:34.060
+<v Chemistry 1015>get a critical value approach and a
+p-value approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/22-0
+00:02:35.580 --> 00:02:40.380
+<v Chemistry 1015>Both will get you to the same answer,
+but we want you to be able to do both.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/23-0
+00:02:41.220 --> 00:02:41.900
+<v Chemistry 1015>Okay, so...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/24-0
+00:02:45.500 --> 00:02:47.900
+<v Chemistry 1015>For mean you.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/25-0
+00:02:48.820 --> 00:02:50.060
+<v Chemistry 1015>And proportion pi.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/26-0
+00:02:55.260 --> 00:02:56.380
+<v Chemistry 1015>There AR.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/27-0
+00:02:58.860 --> 00:03:00.300
+<v Chemistry 1015>Three different.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/28-0
+00:03:02.060 --> 00:03:02.940
+<v Chemistry 1015>Tests.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/29-0
+00:03:07.420 --> 00:03:08.220
+<v Chemistry 1015>That you could do.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/30-0
+00:03:10.220 --> 00:03:14.611
+<v Chemistry 1015>The first one is a two-tailed test,
+or it doesn't necessarily have to be the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/30-1
+00:03:14.611 --> 00:03:15.580
+<v Chemistry 1015>first one, but...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/31-0
+00:03:16.460 --> 00:03:18.140
+<v Chemistry 1015>The one will start within the middle here.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/32-0
+00:03:19.100 --> 00:03:19.740
+<v Chemistry 1015>to tell.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/33-0
+00:03:22.220 --> 00:03:23.900
+<v Chemistry 1015>So, when you have your distribution...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/34-0
+00:03:29.700 --> 00:03:32.060
+<v Chemistry 1015>What makes a two-tail test different?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/35-0
+00:03:33.260 --> 00:03:34.380
+<v Chemistry 1015>is that you will have...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/36-0
+00:03:35.580 --> 00:03:37.180
+<v Chemistry 1015>Two rejection regions.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/39-0
+00:03:54.220 --> 00:03:55.340
+<v Chemistry 1015>The size of...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/40-0
+00:03:57.820 --> 00:04:01.331
+<v Chemistry 1015>the rejection region.
+On the left-hand side,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/40-1
+00:04:01.331 --> 00:04:05.467
+<v Chemistry 1015>it will be alpha over 2,
+and on the right-hand side,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/40-2
+00:04:05.467 --> 00:04:07.340
+<v Chemistry 1015>it will be alpha over 2.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/43-0
+00:04:20.340 --> 00:04:25.536
+<v Chemistry 1015>When is it a two-tailed test?
+It depends on how the hypothesis is</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/43-1
+00:04:25.536 --> 00:04:29.552
+<v Chemistry 1015>constructed. Remember,
+we always give a null, H-O,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/43-2
+00:04:29.552 --> 00:04:34.906
+<v Chemistry 1015>and an alternative hypothesis.
+The null would be stating that mu is</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/43-3
+00:04:34.906 --> 00:04:37.740
+<v Chemistry 1015>equal to some value. The alternative</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/44-0
+00:04:40.180 --> 00:04:45.260
+<v Chemistry 1015>When it's a two-tailed test,
+the alternative suggests that mu is not</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/44-1
+00:04:45.260 --> 00:04:47.100
+<v Chemistry 1015>equal to a certain value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/45-0
+00:04:51.260 --> 00:04:53.500
+<v Chemistry 1015>So, what we'll be doing is...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/46-0
+00:04:54.940 --> 00:04:56.620
+<v Chemistry 1015>We'll be looking for evidence.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/47-0
+00:05:01.580 --> 00:05:02.300
+<v Chemistry 1015>Of...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/48-0
+00:05:06.260 --> 00:05:07.340
+<v Chemistry 1015>Deviation.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/49-0
+00:05:08.460 --> 00:05:11.052
+<v Chemistry 1015>in either direction,
+so on the left-hand side and the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/49-1
+00:05:11.052 --> 00:05:11.820
+<v Chemistry 1015>right-hand side.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/52-0
+00:05:31.620 --> 00:05:36.578
+<v Chemistry 1015>And then we always talk about conducting
+the test with a certain level of</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/52-1
+00:05:36.578 --> 00:05:41.737
+<v Chemistry 1015>significance. That would be your alpha.
+So that is the size of the rejection</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/52-2
+00:05:41.737 --> 00:05:45.020
+<v Chemistry 1015>region.
+So the significance level for this test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/53-0
+00:05:48.340 --> 00:05:51.337
+<v Chemistry 1015>is still alpha,
+even though we split it up into two,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/53-1
+00:05:51.337 --> 00:05:54.220
+<v Chemistry 1015>the total significance level of the test
+is alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/54-0
+00:05:56.580 --> 00:05:59.151
+<v Chemistry 1015>So when you say,
+when you state your decision,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/54-1
+00:05:59.151 --> 00:06:02.160
+<v Chemistry 1015>reject or do not reject,
+you always say at blah, blah,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/54-2
+00:06:02.160 --> 00:06:04.896
+<v Chemistry 1015>blah significance level,
+you'll still take alpha,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/54-3
+00:06:04.896 --> 00:06:08.780
+<v Chemistry 1015>even though effectively for the test you
+would have divided it by two.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/55-0
+00:06:11.260 --> 00:06:11.340
+<v Chemistry 1015>Ohh.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/57-0
+00:06:23.260 --> 00:06:24.140
+<v Chemistry 1015>And then you have...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/58-0
+00:06:27.580 --> 00:06:29.180
+<v Chemistry 1015>A choice here between.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/59-0
+00:06:30.540 --> 00:06:31.020
+<v Chemistry 1015>Um...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/60-0
+00:06:33.660 --> 00:06:35.100
+<v Chemistry 1015>The different approaches.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/61-0
+00:06:37.420 --> 00:06:39.660
+<v Chemistry 1015>The one is the critical value approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/62-0
+00:06:45.500 --> 00:06:47.740
+<v Chemistry 1015>And the other is the P-value approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/63-0
+00:06:49.820 --> 00:06:52.665
+<v Chemistry 1015>Now,
+we have done an example for the critical</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/63-1
+00:06:52.665 --> 00:06:56.562
+<v Chemistry 1015>value approach for a two-tailed test,
+so we can tick that box.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/63-2
+00:06:56.562 --> 00:07:01.696
+<v Chemistry 1015>We have not yet done an example for the
+p-value approach, but by the end of today.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/63-3
+00:07:01.696 --> 00:07:01.820
+<v Chemistry 1015>..</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/64-0
+00:07:03.900 --> 00:07:07.420
+<v Chemistry 1015>We will have done an example for the
+P-value approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/65-0
+00:07:16.380 --> 00:07:17.420
+<v Chemistry 1015>Then you get...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/66-0
+00:07:18.780 --> 00:07:21.100
+<v Chemistry 1015>A lower tail test,
+so we'll put that on the left here.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/69-0
+00:07:35.580 --> 00:07:37.020
+<v Chemistry 1015>Now with the lower tail test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/70-0
+00:07:39.420 --> 00:07:43.340
+<v Chemistry 1015>Your rejection region is in the lower
+tail, the left-hand side.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/71-0
+00:07:48.060 --> 00:07:51.900
+<v Chemistry 1015>The size of that rejection region
+obviously being alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/72-0
+00:07:57.020 --> 00:08:00.583
+<v Chemistry 1015>So,
+the hypothesis that connects with this</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/72-1
+00:08:00.583 --> 00:08:01.660
+<v Chemistry 1015>type of test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/73-0
+00:08:03.740 --> 00:08:06.700
+<v Chemistry 1015>The null will look the same;
+it will suggest that.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/74-0
+00:08:08.060 --> 00:08:10.518
+<v Chemistry 1015>It will,
+it will claim that the mean is equal to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/74-1
+00:08:10.518 --> 00:08:11.020
+<v Chemistry 1015>something.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/75-0
+00:08:12.180 --> 00:08:15.571
+<v Chemistry 1015>But the alternative is where the
+difference comes in. The alternative will.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/75-1
+00:08:15.571 --> 00:08:15.660
+<v Chemistry 1015>..</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/76-0
+00:08:17.420 --> 00:08:20.540
+<v Chemistry 1015>state that mu is less than something.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/77-0
+00:08:22.380 --> 00:08:23.340
+<v Chemistry 1015>So, we will...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/78-0
+00:08:24.740 --> 00:08:25.620
+<v Chemistry 1015>LUCHEN.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/79-0
+00:08:26.780 --> 00:08:27.900
+<v Chemistry 1015>For evidence.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/80-0
+00:08:32.700 --> 00:08:33.660
+<v Chemistry 1015>Of A.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/81-0
+00:08:35.100 --> 00:08:36.220
+<v Chemistry 1015>Deviation.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/82-0
+00:08:38.860 --> 00:08:39.820
+<v Chemistry 1015>In the lower tail.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/83-0
+00:08:48.820 --> 00:08:50.300
+<v Chemistry 1015>Yeah, the significance level.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/84-0
+00:08:53.660 --> 00:08:54.780
+<v Chemistry 1015>Is equal to alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/85-0
+00:08:57.100 --> 00:08:58.140
+<v Chemistry 1015>And you also...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/86-0
+00:08:59.300 --> 00:08:59.900
+<v Chemistry 1015>Have your.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/87-0
+00:09:01.420 --> 00:09:03.580
+<v Chemistry 1015>option of the different approaches.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/88-0
+00:09:05.020 --> 00:09:06.620
+<v Chemistry 1015>Critical value and P-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/89-0
+00:09:08.780 --> 00:09:08.860
+<v Chemistry 1015>If.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/90-0
+00:09:13.100 --> 00:09:16.620
+<v Chemistry 1015>We have not yet done these,
+so we'll leave them as blank.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/91-0
+00:09:17.820 --> 00:09:18.940
+<v Chemistry 1015>Cheque boxes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/92-0
+00:09:23.740 --> 00:09:29.384
+<v Chemistry 1015>And we do have to go through each one
+because there's little things that change</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/92-1
+00:09:29.384 --> 00:09:33.900
+<v Chemistry 1015>depending on whether it's lower tail or
+upper tail or two tail.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/93-0
+00:09:36.540 --> 00:09:40.700
+<v Chemistry 1015>So it's a nice thing we can use to keep
+track of where we are.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/94-0
+00:09:42.940 --> 00:09:43.660
+<v Chemistry 1015>in the chapter.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/95-0
+00:09:48.700 --> 00:09:52.140
+<v Chemistry 1015>And then we've got, of course,
+an upper tail test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/98-0
+00:10:06.460 --> 00:10:10.892
+<v Chemistry 1015>The rejection region being on the
+right-hand side in the upper tail of the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/98-1
+00:10:10.892 --> 00:10:11.660
+<v Chemistry 1015>distribution.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/99-0
+00:10:16.700 --> 00:10:19.180
+<v Chemistry 1015>The size of the rejection region being
+alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/101-0
+00:10:21.580 --> 00:10:26.140
+<v Chemistry 1015>The hypothesis that matches with this
+type of test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/102-0
+00:10:28.060 --> 00:10:33.740
+<v Chemistry 1015>Remember, the null doesn't change,
+so the null will always have some assumed.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/103-0
+00:10:35.100 --> 00:10:39.074
+<v Chemistry 1015>value for the mean,
+and we'll look for evidence to the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/103-1
+00:10:39.074 --> 00:10:42.759
+<v Chemistry 1015>contrary. So here,
+it's a greater than sign in the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/103-2
+00:10:42.759 --> 00:10:46.661
+<v Chemistry 1015>alternative.
+So we'll look for evidence that the mean</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/103-3
+00:10:46.661 --> 00:10:48.540
+<v Chemistry 1015>is greater than something.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/108-0
+00:11:24.860 --> 00:11:26.460
+<v Chemistry 1015>Significant level is alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/109-0
+00:11:27.540 --> 00:11:30.862
+<v Chemistry 1015>and you get your two approaches,
+neither of which we have covered for the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/109-1
+00:11:30.862 --> 00:11:31.580
+<v Chemistry 1015>upper tail test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/113-0
+00:11:56.260 --> 00:11:57.740
+<v Chemistry 1015>And then maybe I should also just...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/114-0
+00:11:58.860 --> 00:11:59.660
+<v Chemistry 1015>State.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/115-0
+00:12:00.940 --> 00:12:03.020
+<v Chemistry 1015>I know I've said it, but alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/116-0
+00:12:04.380 --> 00:12:09.420
+<v Chemistry 1015>as well as being the significance level,
+is the size of the rejection region.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/117-0
+00:12:20.140 --> 00:12:21.500
+<v Chemistry 1015>So, larger alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/118-0
+00:12:26.540 --> 00:12:27.900
+<v Chemistry 1015>More likely rejection.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/120-0
+00:12:46.380 --> 00:12:46.500
+<v Chemistry 1015>Yeah.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/125-0
+00:13:23.980 --> 00:13:24.380
+<v Chemistry 1015>Okay.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/127-0
+00:13:40.940 --> 00:13:41.420
+<v Chemistry 1015>So...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/128-0
+00:13:43.260 --> 00:13:49.238
+<v Chemistry 1015>A question is not necessarily going to
+say you are conducting a lower tail test</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/128-1
+00:13:49.238 --> 00:13:52.676
+<v Chemistry 1015>now,
+or you are conducting an upper tail test</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/128-2
+00:13:52.676 --> 00:13:55.740
+<v Chemistry 1015>now.
+Sometimes it is going to have to be</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/128-3
+00:13:55.740 --> 00:13:59.252
+<v Chemistry 1015>inferred from the way the question is
+phrased.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/128-4
+00:13:59.252 --> 00:14:02.540
+<v Chemistry 1015>And I think that is probably where the
+most</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/129-0
+00:14:02.780 --> 00:14:07.570
+<v Chemistry 1015>Mistakes get made,
+but we will do many examples where we</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/129-1
+00:14:07.570 --> 00:14:11.100
+<v Chemistry 1015>look at the different wording and look at.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/130-0
+00:14:12.060 --> 00:14:16.300
+<v Chemistry 1015>whether or not or look at basically what
+test are we going to apply here.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/131-0
+00:14:20.460 --> 00:14:26.167
+<v Chemistry 1015>remember that you get a mark. Essentially,
+how you state your hypothesis is going to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/131-1
+00:14:26.167 --> 00:14:29.524
+<v Chemistry 1015>carry down to every single step of your
+question,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/131-2
+00:14:29.524 --> 00:14:33.821
+<v Chemistry 1015>and it is going to affect your answer.
+So this part is crucial,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/131-3
+00:14:33.821 --> 00:14:39.260
+<v Chemistry 1015>identifying the right hypothesis that the
+question wants you to test. All right.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/132-0
+00:14:39.660 --> 00:14:45.275
+<v Chemistry 1015>So just keep that in mind that this
+distinction is something we need to be</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/132-1
+00:14:45.275 --> 00:14:47.820
+<v Chemistry 1015>very aware of and we need to know.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/133-0
+00:14:49.700 --> 00:14:51.820
+<v Chemistry 1015>When it is appropriate to use which one?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/134-0
+00:14:53.180 --> 00:14:57.945
+<v Chemistry 1015>All of that we'll get to,
+and then we'll emphasise it even more</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/134-1
+00:14:57.945 --> 00:15:00.700
+<v Chemistry 1015>when we do the type for this chapter.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/135-0
+00:15:01.980 --> 00:15:02.460
+<v Chemistry 1015>So...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/136-0
+00:15:03.700 --> 00:15:09.510
+<v Chemistry 1015>My next item on the agenda is to quickly
+correct something from the previous</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/136-1
+00:15:09.510 --> 00:15:13.660
+<v Chemistry 1015>example that I did.
+So you remember this one that I...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/137-0
+00:15:14.980 --> 00:15:16.620
+<v Chemistry 1015>It was just my example.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/138-0
+00:15:17.940 --> 00:15:23.820
+<v Chemistry 1015>Where we said that a factory claims that
+their cereal contents average 500 grammes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/139-0
+00:15:24.620 --> 00:15:31.254
+<v Chemistry 1015>That's the claim there.
+You sample 30 boxes and calculate X bar</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/139-1
+00:15:31.254 --> 00:15:31.980
+<v Chemistry 1015>as 495.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/140-0
+00:15:33.180 --> 00:15:37.633
+<v Chemistry 1015>assume sigma is equal to 12.
+Is the original claim about mu wrong in</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/140-1
+00:15:37.633 --> 00:15:41.698
+<v Chemistry 1015>the light of the evidence,
+or is this just sampling variation?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/140-2
+00:15:41.698 --> 00:15:44.860
+<v Chemistry 1015>And in this,
+maybe it's also useful to point out</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/141-0
+00:15:46.460 --> 00:15:51.544
+<v Chemistry 1015>There is nothing in the question
+suggesting that they want evidence of a</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/141-1
+00:15:51.544 --> 00:15:56.628
+<v Chemistry 1015>deviation in a specific direction.
+They just want evidence that the null</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/141-2
+00:15:56.628 --> 00:15:58.300
+<v Chemistry 1015>hypothesis is incorrect.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-0
+00:15:59.260 --> 00:16:02.692
+<v Chemistry 1015>So that means that whether it's to the
+right or to the left,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-1
+00:16:02.692 --> 00:16:06.462
+<v Chemistry 1015>they just want to prove that the mean is
+not equal to 500 grammes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-2
+00:16:06.462 --> 00:16:10.007
+<v Chemistry 1015>So that naturally suggests A two-tailed
+test. It's not saying,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-3
+00:16:10.007 --> 00:16:13.045
+<v Chemistry 1015>is there evidence that the mean is
+greater than that?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-4
+00:16:13.045 --> 00:16:15.915
+<v Chemistry 1015>Is there evidence that the mean is less
+than that?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-5
+00:16:15.915 --> 00:16:18.390
+<v Chemistry 1015>Nothing is suggesting a specific
+direction.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/142-6
+00:16:18.390 --> 00:16:21.260
+<v Chemistry 1015>So that's how we know that it's a
+two-tailed test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/143-0
+00:16:23.020 --> 00:16:23.740
+<v Chemistry 1015>So...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/144-0
+00:16:25.660 --> 00:16:28.474
+<v Chemistry 1015>The first step would obviously be the
+hypothesis.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/144-1
+00:16:28.474 --> 00:16:32.300
+<v Chemistry 1015>I'm just going to recap quickly for you.
+We would have stated null.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/145-0
+00:16:34.780 --> 00:16:39.475
+<v Chemistry 1015>Mu is equal to 500,
+alternative mu is not equal to 500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/145-1
+00:16:39.475 --> 00:16:45.259
+<v Chemistry 1015>That sets the tone for the rest,
+because now it's a two-tailed test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/145-2
+00:16:45.259 --> 00:16:47.020
+<v Chemistry 1015>We were also given...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/146-0
+00:16:48.220 --> 00:16:54.540
+<v Chemistry 1015>That sigma is equal to 12,
+N is equal to 30, and we were asked.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/147-0
+00:16:56.780 --> 00:16:59.240
+<v Chemistry 1015>Well,
+I didn't actually put this in the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/147-1
+00:16:59.240 --> 00:17:04.220
+<v Chemistry 1015>question, but we can assume an alpha,
+a significance level for the test of 0.05.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/148-0
+00:17:06.140 --> 00:17:13.043
+<v Chemistry 1015>The question always is to give you alpha.
+We can't expect you to just use your own</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/148-1
+00:17:13.043 --> 00:17:16.620
+<v Chemistry 1015>alpha.
+But in the rare event that we don't</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/148-2
+00:17:16.620 --> 00:17:20.529
+<v Chemistry 1015>provide alpha,
+a good one to use is just 0.05.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/148-3
+00:17:20.529 --> 00:17:24.605
+<v Chemistry 1015>So you can assume it's 0.
+05 if it is not given,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/148-4
+00:17:24.605 --> 00:17:27.100
+<v Chemistry 1015>but it should always be given.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/149-0
+00:17:28.940 --> 00:17:32.670
+<v Chemistry 1015>The second step,
+as I outlined in my framework,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/149-1
+00:17:32.670 --> 00:17:34.380
+<v Chemistry 1015>is the test statistic.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/150-0
+00:17:37.980 --> 00:17:38.940
+<v Chemistry 1015>So that is where.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/151-0
+00:17:40.100 --> 00:17:41.660
+<v Chemistry 1015>You take your given.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/152-0
+00:17:44.140 --> 00:17:48.612
+<v Chemistry 1015>Point estimate.
+So we were told that X bar is equal to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/152-1
+00:17:48.612 --> 00:17:52.434
+<v Chemistry 1015>495.
+So now we need to go and standardise that</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/152-2
+00:17:52.434 --> 00:17:54.060
+<v Chemistry 1015>to a test statistic.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/153-0
+00:17:56.220 --> 00:17:57.980
+<v Chemistry 1015>So that Z stat.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/154-0
+00:17:59.060 --> 00:18:02.741
+<v Chemistry 1015>because this is a situation where sigma
+is known,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/154-1
+00:18:02.741 --> 00:18:06.423
+<v Chemistry 1015>it will be assumed to be from the Z
+distribution.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/154-2
+00:18:06.423 --> 00:18:12.460
+<v Chemistry 1015>So that will be X bar minus the assumed
+mean divided by sigma over square root N.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/155-0
+00:18:13.420 --> 00:18:17.820
+<v Chemistry 1015>So that will be 495 minus 500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/156-0
+00:18:18.780 --> 00:18:23.215
+<v Chemistry 1015>divided by 12 over sqrt 30.
+And here is where I messed up.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/156-1
+00:18:23.215 --> 00:18:29.604
+<v Chemistry 1015>I incorrectly calculated this and none of
+you picked up on it. Or at the very least,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/156-2
+00:18:29.604 --> 00:18:32.460
+<v Chemistry 1015>someone picked up on it but was too...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/157-0
+00:18:33.660 --> 00:18:35.020
+<v Chemistry 1015>scared to come and tell me.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/158-0
+00:18:36.380 --> 00:18:39.340
+<v Chemistry 1015>So, I previously calculated this.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/159-0
+00:18:41.740 --> 00:18:48.940
+<v Chemistry 1015>As negative 0.076, that's not even close.
+I don't know how I did that, but...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/160-0
+00:18:50.540 --> 00:18:55.420
+<v Chemistry 1015>Now we have a different test statistic,
+so we'll see how it changes the test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/161-0
+00:19:06.020 --> 00:19:10.514
+<v Chemistry 1015>Actually, that's not true.
+A student from the other group did pick</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/161-1
+00:19:10.514 --> 00:19:13.466
+<v Chemistry 1015>up on it.
+That is how I noticed my mistake.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/161-2
+00:19:13.466 --> 00:19:18.765
+<v Chemistry 1015>Step 3 would be either to calculate the
+critical value or the p-value for this</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/161-3
+00:19:18.765 --> 00:19:19.100
+<v Chemistry 1015>test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/162-0
+00:19:20.460 --> 00:19:23.420
+<v Chemistry 1015>So this is where you calculate critical
+value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/163-0
+00:19:24.620 --> 00:19:26.060
+<v Chemistry 1015>or p-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/164-0
+00:19:29.660 --> 00:19:31.660
+<v Chemistry 1015>Today, we'll go with critical value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/165-0
+00:19:33.500 --> 00:19:36.635
+<v Chemistry 1015>Well, in this reiteration,
+we'll go with critical value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/165-1
+00:19:36.635 --> 00:19:38.780
+<v Chemistry 1015>In a moment's time, we'll do key value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/166-0
+00:19:40.860 --> 00:19:42.540
+<v Chemistry 1015>So, remember, these are the...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/167-0
+00:19:44.220 --> 00:19:48.629
+<v Chemistry 1015>the bounds against which we will compare
+the test statistic.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/167-1
+00:19:48.629 --> 00:19:53.472
+<v Chemistry 1015>So if it is a two-tailed test,
+you will end up having two critical</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/167-2
+00:19:53.472 --> 00:19:56.869
+<v Chemistry 1015>values because you have two rejection
+regions.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/167-3
+00:19:56.869 --> 00:20:02.940
+<v Chemistry 1015>So you'll have a negative Z alpha over 2
+and you'll have a positive Z alpha over 2.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/168-0
+00:20:09.740 --> 00:20:10.380
+<v Chemistry 1015>So...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/169-0
+00:20:12.780 --> 00:20:14.860
+<v Chemistry 1015>Third alpha over 2 will be equal to.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/170-0
+00:20:15.740 --> 00:20:17.740
+<v Chemistry 1015>said 0.025.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/172-0
+00:20:19.740 --> 00:20:23.900
+<v Chemistry 1015>And that will be plus minus 1.96.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/173-0
+00:20:29.980 --> 00:20:33.622
+<v Chemistry 1015>I remember that's converting A
+probability to a Z value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/173-1
+00:20:33.622 --> 00:20:36.434
+<v Chemistry 1015>You did it a lot with confidence
+intervals,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/173-2
+00:20:36.434 --> 00:20:39.820
+<v Chemistry 1015>but you would basically in your
+calculator go 0.025.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/174-0
+00:20:40.980 --> 00:20:41.580
+<v Chemistry 1015>Shift.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/175-0
+00:20:45.100 --> 00:20:45.820
+<v Chemistry 1015>Inverse.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/176-0
+00:20:47.740 --> 00:20:48.220
+<v Chemistry 1015>Three.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/177-0
+00:20:54.620 --> 00:20:55.740
+<v Chemistry 1015>But we should know that.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/178-0
+00:20:58.540 --> 00:20:59.180
+<v Chemistry 1015>So...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/179-0
+00:21:00.460 --> 00:21:05.403
+<v Chemistry 1015>Now that we have our two values that
+define the rejection region,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/179-1
+00:21:05.403 --> 00:21:07.500
+<v Chemistry 1015>we can come to the decision.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/180-0
+00:21:09.420 --> 00:21:13.409
+<v Chemistry 1015>The decision will now be a little bit
+different because your test statistic is</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/180-1
+00:21:13.409 --> 00:21:15.985
+<v Chemistry 1015>different.
+So actually get to see what a rejection</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/180-2
+00:21:15.985 --> 00:21:16.540
+<v Chemistry 1015>looks like.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/181-0
+00:21:17.500 --> 00:21:20.220
+<v Chemistry 1015>So, the Z stat.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/182-0
+00:21:21.980 --> 00:21:25.820
+<v Chemistry 1015>of negative 2.2822.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/183-0
+00:21:28.460 --> 00:21:29.820
+<v Chemistry 1015>Is now less than.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/184-0
+00:21:30.900 --> 00:21:36.127
+<v Chemistry 1015>Remember, we have plus minus 1.96,
+it just needs to be outside of one of</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/184-1
+00:21:36.127 --> 00:21:39.420
+<v Chemistry 1015>those. So it is less than the negative 1.
+96.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/185-0
+00:21:42.700 --> 00:21:46.620
+<v Chemistry 1015>So, it falls in the rejection region,
+so we reject.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/186-0
+00:21:48.140 --> 00:21:48.860
+<v Chemistry 1015>The Knoll.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/187-0
+00:21:50.060 --> 00:21:51.820
+<v Chemistry 1015>at 0.05.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/188-0
+00:21:53.180 --> 00:21:54.700
+<v Chemistry 1015>significance level.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/189-0
+00:21:56.700 --> 00:21:58.780
+<v Chemistry 1015>So if you had to go and place that...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/190-0
+00:21:59.980 --> 00:22:03.420
+<v Chemistry 1015>on the distribution,
+it would fall somewhere.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/191-0
+00:22:05.660 --> 00:22:09.297
+<v Chemistry 1015>Just to the left of the negative critical
+value,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/191-1
+00:22:09.297 --> 00:22:12.860
+<v Chemistry 1015>so it would be solidly in the rejection
+region.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/192-0
+00:22:18.460 --> 00:22:23.006
+<v Chemistry 1015>And then it's good to also provide a
+second interpretation statement.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/192-1
+00:22:23.006 --> 00:22:28.267
+<v Chemistry 1015>We've named the decision that we've made,
+but it's good to relate it back to the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/192-2
+00:22:28.267 --> 00:22:31.579
+<v Chemistry 1015>original question that was asked.
+So if we reject,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/192-3
+00:22:31.579 --> 00:22:35.996
+<v Chemistry 1015>I'll get to you in just a moment,
+if we reject the null hypothesis,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/192-4
+00:22:35.996 --> 00:22:37.100
+<v Chemistry 1015>what we have done</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/193-0
+00:22:38.060 --> 00:22:40.780
+<v Chemistry 1015>Is found sufficient evidence.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/194-0
+00:22:46.060 --> 00:22:48.540
+<v Chemistry 1015>That the mean is not equal to.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/195-0
+00:22:49.500 --> 00:22:50.300
+<v Chemistry 1015>500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/196-0
+00:22:56.300 --> 00:22:56.860
+<v Chemistry 1015>Yes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/197-0
+00:23:01.580 --> 00:23:05.755
+<v Chemistry 1015>They should.
+It was my example and I failed to state</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/197-1
+00:23:05.755 --> 00:23:06.700
+<v Chemistry 1015>that, but...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/198-0
+00:23:07.660 --> 00:23:08.580
+<v Chemistry 1015>It will be there, yeah.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/199-0
+00:23:16.060 --> 00:23:16.540
+<v Chemistry 1015>Mnr.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/200-0
+00:23:19.820 --> 00:23:22.435
+<v Chemistry 1015>Okay,
+so previously it was a do not reject.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/200-1
+00:23:22.435 --> 00:23:26.002
+<v Chemistry 1015>Now it is a reject just because the test
+statistic changed.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/200-2
+00:23:26.002 --> 00:23:30.757
+<v Chemistry 1015>This value is now so far outside on the
+edges of the distribution that we don't</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/200-3
+00:23:30.757 --> 00:23:34.146
+<v Chemistry 1015>consider it to be likely given the
+current distribution,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/200-4
+00:23:34.146 --> 00:23:39.020
+<v Chemistry 1015>which points to evidence that this is not
+the true distribution we should assume.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/201-0
+00:23:40.260 --> 00:23:40.700
+<v Chemistry 1015>Okay.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/202-0
+00:23:43.340 --> 00:23:43.660
+<v Chemistry 1015>Hmm.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/203-0
+00:23:54.860 --> 00:23:59.100
+<v Chemistry 1015>Now we will look at the p-value approach
+for a two-tailed test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/204-0
+00:24:00.780 --> 00:24:03.420
+<v Chemistry 1015>And before we do that, actually...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/205-0
+00:24:04.700 --> 00:24:04.940
+<v Chemistry 1015>And.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/206-0
+00:24:07.180 --> 00:24:10.780
+<v Chemistry 1015>I'll just, in words,
+state what the critical value approach</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/206-1
+00:24:10.780 --> 00:24:14.620
+<v Chemistry 1015>does, and then, in words,
+state what the p-value approach does.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/208-0
+00:24:27.180 --> 00:24:29.580
+<v Chemistry 1015>So, what we just did...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/209-0
+00:24:30.540 --> 00:24:31.420
+<v Chemistry 1015>Is you?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/210-0
+00:24:33.100 --> 00:24:35.580
+<v Chemistry 1015>Find the test statistic.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/211-0
+00:24:37.900 --> 00:24:38.860
+<v Chemistry 1015>And that was.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/212-0
+00:24:40.260 --> 00:24:41.740
+<v Chemistry 1015>What we called Zedstat.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/213-0
+00:24:46.700 --> 00:24:48.060
+<v Chemistry 1015>And the critical value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/214-0
+00:24:53.340 --> 00:24:55.180
+<v Chemistry 1015>And that was what we call Z Crit.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/215-0
+00:24:59.700 --> 00:25:02.300
+<v Chemistry 1015>And then the rule is reject.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/216-0
+00:25:04.700 --> 00:25:05.420
+<v Chemistry 1015>The no.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/217-0
+00:25:06.700 --> 00:25:08.220
+<v Chemistry 1015>If Z start.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/218-0
+00:25:11.980 --> 00:25:13.420
+<v Chemistry 1015>Falls outside.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/219-0
+00:25:14.940 --> 00:25:15.820
+<v Chemistry 1015>The bounce.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/220-0
+00:25:18.100 --> 00:25:19.020
+<v Chemistry 1015>Provided.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/221-0
+00:25:21.900 --> 00:25:22.540
+<v Chemistry 1015>Bye.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/222-0
+00:25:23.900 --> 00:25:24.620
+<v Chemistry 1015>Said Prit.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/225-0
+00:25:50.540 --> 00:25:50.700
+<v Chemistry 1015>Hey.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/226-0
+00:25:56.940 --> 00:26:01.544
+<v Chemistry 1015>Now, the P-value approach,
+which is what we'll learn for the first</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/226-1
+00:26:01.544 --> 00:26:02.300
+<v Chemistry 1015>time today.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/227-0
+00:26:11.180 --> 00:26:16.220
+<v Chemistry 1015>is find the test statistics,
+same as previously.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/228-0
+00:26:23.500 --> 00:26:25.420
+<v Chemistry 1015>But now what we do with it is different.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/229-0
+00:26:29.580 --> 00:26:30.700
+<v Chemistry 1015>We compute.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/230-0
+00:26:34.100 --> 00:26:35.180
+<v Chemistry 1015>The probability.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/231-0
+00:26:40.700 --> 00:26:41.980
+<v Chemistry 1015>of observing.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/232-0
+00:26:47.100 --> 00:26:47.980
+<v Chemistry 1015>Z start.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/233-0
+00:26:49.500 --> 00:26:50.220
+<v Chemistry 1015>Under.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/234-0
+00:26:52.140 --> 00:26:53.340
+<v Chemistry 1015>the assumed.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/235-0
+00:26:56.700 --> 00:26:57.740
+<v Chemistry 1015>Null distribution.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/236-0
+00:27:09.260 --> 00:27:10.140
+<v Chemistry 1015>I.e.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/237-0
+00:27:12.140 --> 00:27:13.580
+<v Chemistry 1015>How likely?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/238-0
+00:27:15.180 --> 00:27:16.300
+<v Chemistry 1015>Is that sat?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/239-0
+00:27:18.380 --> 00:27:18.940
+<v Chemistry 1015>Given.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/240-0
+00:27:20.780 --> 00:27:21.340
+<v Chemistry 1015>The null.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/242-0
+00:27:35.740 --> 00:27:35.860
+<v Chemistry 1015>Yes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/243-0
+00:27:43.900 --> 00:27:44.940
+<v Chemistry 1015>Specifically.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/244-0
+00:27:50.460 --> 00:27:51.660
+<v Chemistry 1015>If the P-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/245-0
+00:27:54.540 --> 00:27:55.820
+<v Chemistry 1015>is less than alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/246-0
+00:27:57.740 --> 00:27:59.740
+<v Chemistry 1015>It suggests that it is unlikely.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/247-0
+00:28:04.220 --> 00:28:07.280
+<v Chemistry 1015>That gives us something concrete to
+compare it to,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/247-1
+00:28:07.280 --> 00:28:09.500
+<v Chemistry 1015>then the decision is reject the null.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/248-0
+00:28:12.140 --> 00:28:14.220
+<v Chemistry 1015>And if the P-value...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/249-0
+00:28:16.500 --> 00:28:18.140
+<v Chemistry 1015>is greater than or equal to alpha.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/250-0
+00:28:19.300 --> 00:28:22.540
+<v Chemistry 1015>It suggests that it is likely,
+given the null hypothesis.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/251-0
+00:28:24.140 --> 00:28:25.980
+<v Chemistry 1015>And then we do not reject the null.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/252-0
+00:28:33.820 --> 00:28:38.780
+<v Chemistry 1015>And just remember that rejection decision
+is always stated in terms of the null.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/257-0
+00:29:07.900 --> 00:29:08.060
+<v Chemistry 1015>Mm.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/258-0
+00:29:13.020 --> 00:29:15.820
+<v Chemistry 1015>The other thing just to keep in mind
+about this P-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/259-0
+00:29:19.260 --> 00:29:19.420
+<v Chemistry 1015>Yeah.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/260-0
+00:29:22.660 --> 00:29:23.740
+<v Chemistry 1015>Unfortunately.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/261-0
+00:29:26.060 --> 00:29:27.980
+<v Chemistry 1015>How we calculate it.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/262-0
+00:29:31.420 --> 00:29:32.380
+<v Chemistry 1015>Differs.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/263-0
+00:29:34.300 --> 00:29:35.340
+<v Chemistry 1015>According to...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/264-0
+00:29:37.900 --> 00:29:38.940
+<v Chemistry 1015>Type of test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/265-0
+00:29:41.460 --> 00:29:47.180
+<v Chemistry 1015>which is again where small mistakes can
+creep in. I actually...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/266-0
+00:29:48.460 --> 00:29:53.270
+<v Chemistry 1015>I actually want to say this is a chapter
+where a lot of things can go wrong in the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/266-1
+00:29:53.270 --> 00:29:57.964
+<v Chemistry 1015>assessment. Just because there's so many,
+it looks the same, but if you zoom in,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/266-2
+00:29:57.964 --> 00:30:01.673
+<v Chemistry 1015>the little details change depending on
+what type of test it is.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/266-3
+00:30:01.673 --> 00:30:05.498
+<v Chemistry 1015>So same structure, same framework,
+but the little details change.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/266-4
+00:30:05.498 --> 00:30:07.700
+<v Chemistry 1015>And I think the little details change.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/267-0
+00:30:07.820 --> 00:30:11.230
+<v Chemistry 1015>are what can come back to bite us in an
+assessment.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/267-1
+00:30:11.230 --> 00:30:15.100
+<v Chemistry 1015>So really knowing this chapter well,
+I think will benefit.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/268-0
+00:30:16.420 --> 00:30:19.556
+<v Chemistry 1015>And then,
+if you understand Chapter Nine very well,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/268-1
+00:30:19.556 --> 00:30:24.380
+<v Chemistry 1015>that will lend itself to understanding
+Chapter Ten very well as well. OK, so...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/270-0
+00:30:25.500 --> 00:30:31.710
+<v Chemistry 1015>Let's look at how we would have done the
+previous example if this was done with</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/270-1
+00:30:31.710 --> 00:30:33.340
+<v Chemistry 1015>the p-value approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/273-0
+00:30:44.340 --> 00:30:47.500
+<v Chemistry 1015>Okay, so this is now the same example,
+just with p-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/275-0
+00:31:01.020 --> 00:31:01.820
+<v Chemistry 1015>Yeah, so...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/276-0
+00:31:03.020 --> 00:31:05.900
+<v Chemistry 1015>Our hypotheses are the same as they were.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/277-0
+00:31:13.500 --> 00:31:16.780
+<v Chemistry 1015>We still have all the same information in
+is 30.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/278-0
+00:31:18.380 --> 00:31:19.580
+<v Chemistry 1015>Sigma is 12.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/279-0
+00:31:20.740 --> 00:31:22.940
+<v Chemistry 1015>X bar was equal to 495.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/280-0
+00:31:24.940 --> 00:31:27.660
+<v Chemistry 1015>And alpha is equal to 0.05.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/281-0
+00:31:31.660 --> 00:31:34.060
+<v Chemistry 1015>Test statistic, just to reiterate.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/282-0
+00:31:38.700 --> 00:31:40.300
+<v Chemistry 1015>We calculated it to be.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/283-0
+00:31:41.500 --> 00:31:45.594
+<v Chemistry 1015>negative 2.2822.
+So the calculation of the test statistic</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/283-1
+00:31:45.594 --> 00:31:49.053
+<v Chemistry 1015>does not change.
+You would have done those steps</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/283-2
+00:31:49.053 --> 00:31:49.900
+<v Chemistry 1015>identically.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/284-0
+00:31:52.860 --> 00:31:57.746
+<v Chemistry 1015>Now, step 3 is where it differs.
+So this is where I say you either work</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/284-1
+00:31:57.746 --> 00:32:00.460
+<v Chemistry 1015>out your critical value or your p-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/285-0
+00:32:01.500 --> 00:32:07.180
+<v Chemistry 1015>Now, for today, or the second time around,
+we'll focus on the P-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/286-0
+00:32:08.780 --> 00:32:11.254
+<v Chemistry 1015>Now,
+remember the calculation changes</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/286-1
+00:32:11.254 --> 00:32:14.380
+<v Chemistry 1015>depending on whether it's a one-tail,
+two-tail.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/287-0
+00:32:15.460 --> 00:32:15.900
+<v Chemistry 1015>Test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/288-0
+00:32:19.340 --> 00:32:23.447
+<v Chemistry 1015>or I should rather say whether it's a
+lower tail, two-tail, or upper tail test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/288-1
+00:32:23.447 --> 00:32:26.220
+<v Chemistry 1015>So at the moment it's a two-tail test,
+remember that.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/289-0
+00:32:27.340 --> 00:32:28.940
+<v Chemistry 1015>So, for the two-tail test.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/290-0
+00:32:35.740 --> 00:32:37.340
+<v Chemistry 1015>We define it as...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/291-0
+00:32:40.700 --> 00:32:45.580
+<v Chemistry 1015>The probability that we would observe a Z
+stat.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/292-0
+00:32:50.380 --> 00:33:00.380
+<v Chemistry 1015>Of negative 2.2822 or more extreme,
+so a Z-stat less than negative 2.2822.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/293-0
+00:33:01.420 --> 00:33:05.740
+<v Chemistry 1015>plus the probability that we observe a Z
+stat.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/294-0
+00:33:07.820 --> 00:33:11.260
+<v Chemistry 1015>Greater than positive 2.2822.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/296-0
+00:33:19.500 --> 00:33:21.340
+<v Chemistry 1015>So essentially what this is saying...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/297-0
+00:33:23.660 --> 00:33:24.300
+<v Chemistry 1015>Is.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/298-0
+00:33:25.820 --> 00:33:26.860
+<v Chemistry 1015>How likely?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/299-0
+00:33:29.100 --> 00:33:30.300
+<v Chemistry 1015>is an extreme.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/300-0
+00:33:33.180 --> 00:33:36.399
+<v Chemistry 1015>in either direction and that's why we do
+the both sides,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/300-1
+00:33:36.399 --> 00:33:39.900
+<v Chemistry 1015>the less than the negative and the
+greater than the positive.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/301-0
+00:33:43.420 --> 00:33:47.787
+<v Chemistry 1015>And that's because it's a two-tail test.
+That's the only time we phrase it like</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/301-1
+00:33:47.787 --> 00:33:48.060
+<v Chemistry 1015>this.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/303-0
+00:33:57.180 --> 00:34:00.360
+<v Chemistry 1015>Now,
+remember that we can use symmetry of the</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/303-1
+00:34:00.360 --> 00:34:05.130
+<v Chemistry 1015>Z distribution to our advantage.
+So instead of calculating these two</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/303-2
+00:34:05.130 --> 00:34:08.794
+<v Chemistry 1015>separately,
+remember that these two probabilities on</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/303-3
+00:34:08.794 --> 00:34:11.974
+<v Chemistry 1015>the distribution will be the same exact
+size.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/303-4
+00:34:11.974 --> 00:34:17.020
+<v Chemistry 1015>So we can instead go two times the
+probability that Z stat is less than.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/304-0
+00:34:17.180 --> 00:34:19.100
+<v Chemistry 1015>negative 2.2822.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/305-0
+00:34:20.220 --> 00:34:22.060
+<v Chemistry 1015>which is the easier one to work out.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/306-0
+00:34:27.620 --> 00:34:29.180
+<v Chemistry 1015>Okay, so on your calculators.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/307-0
+00:34:34.460 --> 00:34:35.340
+<v Chemistry 1015>You can put in your...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/309-0
+00:34:42.380 --> 00:34:42.620
+<v Chemistry 1015>Yeah.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/310-0
+00:34:43.700 --> 00:34:45.980
+<v Chemistry 1015>Remember to make it negative.
+We make it negative.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/311-0
+00:34:46.940 --> 00:34:48.300
+<v Chemistry 1015>Using this button here.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/312-0
+00:34:57.500 --> 00:34:58.780
+<v Chemistry 1015>So, this one.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/313-0
+00:35:00.020 --> 00:35:02.620
+<v Chemistry 1015>on the calculator gets shift.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/314-0
+00:35:04.140 --> 00:35:08.060
+<v Chemistry 1015>And we're just trying to find a
+probability, so it's just shifted to P.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/315-0
+00:35:12.700 --> 00:35:19.740
+<v Chemistry 1015>So that will give us two point or two
+multiplied by 0.01124.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/316-0
+00:35:20.860 --> 00:35:22.700
+<v Chemistry 1015>And then, if you multiply that by two...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/317-0
+00:35:23.580 --> 00:35:27.260
+<v Chemistry 1015>That is 0.02248.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/318-0
+00:35:32.300 --> 00:35:34.700
+<v Chemistry 1015>Now, the decision still has to be made.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/320-0
+00:35:43.980 --> 00:35:49.660
+<v Chemistry 1015>And remember, with the P-value approach,
+you now compare it to alpha, so...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/321-0
+00:35:51.500 --> 00:35:52.460
+<v Chemistry 1015>P-value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/322-0
+00:35:53.900 --> 00:35:57.260
+<v Chemistry 1015>of 0.02248.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/323-0
+00:35:58.860 --> 00:36:06.149
+<v Chemistry 1015>is less than alpha of 0.05.
+If the p-value is less than alpha,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/323-1
+00:36:06.149 --> 00:36:12.860
+<v Chemistry 1015>it is unlikely given the null
+distribution. So we reject.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/324-0
+00:36:13.980 --> 00:36:15.340
+<v Chemistry 1015>The null hypothesis.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/325-0
+00:36:16.540 --> 00:36:19.420
+<v Chemistry 1015>at 0.05 significance level.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/326-0
+00:36:21.420 --> 00:36:21.460
+<v Chemistry 1015>A.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/327-0
+00:36:23.820 --> 00:36:29.740
+<v Chemistry 1015>Same follow-up interpretation.
+There is now sufficient.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/328-0
+00:36:32.300 --> 00:36:33.180
+<v Chemistry 1015>Evidence.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/329-0
+00:36:35.820 --> 00:36:38.620
+<v Chemistry 1015>That the mean is not equal to 500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/330-0
+00:36:42.060 --> 00:36:44.540
+<v Chemistry 1015>So, what this P-value says to us...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/331-0
+00:36:50.140 --> 00:36:53.340
+<v Chemistry 1015>is that it is unlikely.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/332-0
+00:36:56.740 --> 00:36:57.340
+<v Chemistry 1015>To get.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/333-0
+00:36:58.700 --> 00:37:01.020
+<v Chemistry 1015>A sample mean of 495.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/334-0
+00:37:03.340 --> 00:37:05.900
+<v Chemistry 1015>if the mean is 500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/335-0
+00:37:07.060 --> 00:37:07.660
+<v Chemistry 1015>Given.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/336-0
+00:37:10.060 --> 00:37:16.368
+<v Chemistry 1015>sigma equal to 12, n equal to 30,
+and alpha equal to 0.05.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/336-1
+00:37:16.368 --> 00:37:21.180
+<v Chemistry 1015>That's what that p-value actually tells
+you.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/340-0
+00:37:41.180 --> 00:37:41.500
+<v Chemistry 1015>You.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/343-0
+00:37:59.660 --> 00:38:00.220
+<v Chemistry 1015>Yes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/344-0
+00:38:05.900 --> 00:38:09.266
+<v Chemistry 1015>Sometimes you'll have the option.
+We won't specify which one we want you to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/344-1
+00:38:09.266 --> 00:38:11.347
+<v Chemistry 1015>use,
+but sometimes we will say use the p-value</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/344-2
+00:38:11.347 --> 00:38:13.340
+<v Chemistry 1015>approach or use the critical value
+approach.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/345-0
+00:38:15.660 --> 00:38:15.900
+<v Chemistry 1015>Hmm.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/346-0
+00:38:19.220 --> 00:38:20.060
+<v Chemistry 1015>All right, so...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/347-0
+00:38:22.420 --> 00:38:23.660
+<v Chemistry 1015>Let me ask you this.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/348-0
+00:38:29.580 --> 00:38:32.300
+<v Chemistry 1015>If I get a sample mean of 495.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/349-0
+00:38:33.660 --> 00:38:37.580
+<v Chemistry 1015>And the claim is that the true mean is
+500.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/350-0
+00:38:38.940 --> 00:38:42.700
+<v Chemistry 1015>Would you not think that that is close
+enough to the true mean?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/351-0
+00:38:44.460 --> 00:38:49.707
+<v Chemistry 1015>The difference there is 5.
+Is that not enough evidence that the true</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/351-1
+00:38:49.707 --> 00:38:50.620
+<v Chemistry 1015>mean is 500?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/352-0
+00:38:52.300 --> 00:38:56.381
+<v Chemistry 1015>On paper, yes,
+but remember that this is based on a</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/352-1
+00:38:56.381 --> 00:39:00.305
+<v Chemistry 1015>distribution,
+and that distribution is subject to</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/352-2
+00:39:00.305 --> 00:39:03.759
+<v Chemistry 1015>variability.
+So the reason we get a reject,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/352-3
+00:39:03.759 --> 00:39:09.645
+<v Chemistry 1015>even though 499 appears close to 500,
+or 495, sorry, appears close to 500,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/352-4
+00:39:09.645 --> 00:39:13.020
+<v Chemistry 1015>is because the natural variability in
+this</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/353-0
+00:39:13.100 --> 00:39:18.316
+<v Chemistry 1015>sampling distribution is actually small.
+If you go and work out the variability,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/353-1
+00:39:18.316 --> 00:39:22.437
+<v Chemistry 1015>it's two point something.
+So the value of five is more than two</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/353-2
+00:39:22.437 --> 00:39:27.137
+<v Chemistry 1015>standard deviations out from the mean.
+That's almost at the edge of your</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/353-3
+00:39:27.137 --> 00:39:30.485
+<v Chemistry 1015>distribution. Given that,
+it is not a likely value.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/353-4
+00:39:30.485 --> 00:39:34.220
+<v Chemistry 1015>Because remember,
+originally the context is cereal boxes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/354-0
+00:39:35.660 --> 00:39:41.247
+<v Chemistry 1015>It says to us that it is unusual for a
+cereal box to vary by more than 5 grammes.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/354-1
+00:39:41.247 --> 00:39:45.880
+<v Chemistry 1015>It should be much more consistent than
+that. So the original claim,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/354-2
+00:39:45.880 --> 00:39:51.059
+<v Chemistry 1015>that suggests to us that the original
+claim that the mean is 500 grammes is</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/354-3
+00:39:51.059 --> 00:39:51.740
+<v Chemistry 1015>incorrect.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/355-0
+00:39:53.260 --> 00:39:58.161
+<v Chemistry 1015>if the true mean was 500 grammes,
+it would not give us a sample mean of 495.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/355-1
+00:39:58.161 --> 00:40:03.062
+<v Chemistry 1015>And that, the clue there is, first of all,
+it's affected by the variability,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/355-2
+00:40:03.062 --> 00:40:07.199
+<v Chemistry 1015>and to a certain extent,
+it's also affected by the alpha that we</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/355-3
+00:40:07.199 --> 00:40:10.127
+<v Chemistry 1015>choose.
+But alpha of 5% is considered quite a</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/355-4
+00:40:10.127 --> 00:40:13.500
+<v Chemistry 1015>moderate value. It's not too high,
+it's not too low.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/356-0
+00:40:13.900 --> 00:40:17.340
+<v Chemistry 1015>It's not too strict of a test,
+it's not too lenient of a test. Okay.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/358-0
+00:40:18.700 --> 00:40:22.210
+<v Chemistry 1015>So that is why we can't just make these
+decisions nominally,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/358-1
+00:40:22.210 --> 00:40:25.260
+<v Chemistry 1015>looking at just the difference in sample
+mean and...</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/359-0
+00:40:27.100 --> 00:40:31.020
+<v Chemistry 1015>claimed population mean we have to take
+the variability.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/360-0
+00:40:32.220 --> 00:40:35.446
+<v Chemistry 1015>The randomness, to an extent,
+the probability into account,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/360-1
+00:40:35.446 --> 00:40:38.940
+<v Chemistry 1015>and that's why we implement the steps in
+the way that we do, OK?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/361-0
+00:40:41.900 --> 00:40:45.700
+<v Chemistry 1015>That's all for me today. Any questions,
+you're welcome to come chat today.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/362-0
+00:40:49.260 --> 00:41:05.780
+<v Chemistry 1015>I think it's going to be I.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/363-0
+00:41:11.180 --> 00:41:28.700
+<v Chemistry 1015>Yeah, I think it's a good question.
+I hear it's 20 months ago.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/364-0
+00:41:28.900 --> 00:41:38.922
+<v Chemistry 1015>So, being a population,
+is that the combination,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/364-1
+00:41:38.922 --> 00:41:52.420
+<v Chemistry 1015>and then it said approval,
+and it's like one, and so you can see.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/365-0
+00:41:58.220 --> 00:42:08.780
+<v Chemistry 1015>How do you know the difference?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/366-0
+00:42:13.740 --> 00:42:19.767
+<v Chemistry 1015>But it's just, it's just,
+and if you're doing variance,</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/366-1
+00:42:19.767 --> 00:42:24.180
+<v Chemistry 1015>then you also really sway the population.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/367-0
+00:42:29.260 --> 00:42:34.740
+<v Chemistry 1015>Variance over square. Thanks.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/368-0
+00:42:47.500 --> 00:42:49.540
+<v Chemistry 1015>What's the end?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/369-0
+00:42:51.300 --> 00:42:51.660
+<v Chemistry 1015>Heleen.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/370-0
+00:42:52.500 --> 00:42:52.620
+<v Chemistry 1015>True.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/371-0
+00:42:57.580 --> 00:42:57.900
+<v Chemistry 1015>Be.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/372-0
+00:42:59.740 --> 00:42:59.980
+<v Chemistry 1015>Yeah.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/373-0
+00:43:02.020 --> 00:43:02.100
+<v Chemistry 1015>The.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/375-0
+00:43:09.740 --> 00:43:10.300
+<v Chemistry 1015>Thats it.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/376-0
+00:43:12.460 --> 00:43:13.060
+<v Chemistry 1015>No.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/377-0
+00:43:18.620 --> 00:43:18.780
+<v Chemistry 1015>The.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/378-0
+00:43:20.780 --> 00:43:21.100
+<v Chemistry 1015>Big.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/379-0
+00:43:22.060 --> 00:43:22.340
+<v Chemistry 1015>Oab.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/380-0
+00:43:25.020 --> 00:43:25.460
+<v Chemistry 1015>What's this?</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/381-0
+00:43:31.540 --> 00:43:31.660
+<v Chemistry 1015>Bing.</v>
+
+d43b85e6-7294-4f24-b226-3a0a28fcf43e/382-0
+00:43:34.300 --> 00:43:34.460
+<v Chemistry 1015>Scott.</v>

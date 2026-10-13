@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "size": 759014,
+    "sha256": "eb25367abd9bfbf8a9ff35618826561d20d4538d46362979baac004826d0f271",
+    "md5": "46404a1a2a160d76218948b12f6e9a7a"
+  },
+  "filename": "SDS188_A1S2_2026_MasterLearningSystem_v1_3_1_EXCEL_EXECUTION_PATCHED_CANDIDATE.html",
+  "title": "SDS188 \u00b7 A1S2 2026 Master Learning System \u00b7 Excel Execution Integration Candidate",
+  "doctype_present": true,
+  "html_lang": "en",
+  "scripts": [
+    {
+      "index": 1,
+      "id": null,
+      "path": "audit_work/html_audit/inline-script-1.js"
+    },
+    {
+      "index": 2,
+      "id": "v11-correction-layer",
+      "path": "audit_work/html_audit/inline-script-2.js"
+    },
+    {
+      "index": 3,
+      "id": "chapter8-provisional-content-pack",
+      "path": "audit_work/html_audit/inline-script-3.js"
+    },
+    {
+      "index": 4,
+      "id": "ch9-completeness-patch-v1",
+      "path": "audit_work/html_audit/inline-script-4.js"
+    },
+    {
+      "index": 5,
+      "id": "ch8-ch9-final-content-patch",
+      "path": "audit_work/html_audit/inline-script-5.js"
+    },
+    {
+      "index": 6,
+      "id": "ch8-ch9-final-mastery-integration-patch",
+      "path": "audit_work/html_audit/inline-script-6.js"
+    },
+    {
+      "index": 7,
+      "id": "a1s2-2026-practice-excel-integration-patch",
+      "path": "audit_work/html_audit/inline-script-7.js"
+    }
+  ],
+  "script_count": 7,
+  "style_count": 2,
+  "static_id_count": 56,
+  "duplicate_ids": {},
+  "navigation": [
+    {
+      "target": "now",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "learn",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "practise",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "retrieval",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "repair",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "training",
+      "label": "",
+      "exists_static": true
+    },
+    {
+      "target": "read-print",
+      "label": "",
+      "exists_static": true
+    }
+  ],
+  "label_refs_missing_static": [],
+  "getElementById_refs_not_literal_anywhere": [],
+  "selector_id_reference_count": 61,
+  "external_scripts": [],
+  "external_links": [],
+  "images": [],
+  "assets": [
+    {
+      "variable": "WORKBOOK_B64",
+      "output": "audit_work/html_audit/embedded-workbook.xlsx",
+      "embedded": {
+        "size": 16276,
+        "sha256": "ac687d42603b665064837d5bee872e9675eb9f47530f93abbcc32071b9f03130",
+        "md5": "866e25727495246c4b2a41f40610cac1"
+      },
+      "comparison_path": "/Users/nicole/Downloads/SDS188_A1S2_2026_Excel_Practice_Companion.xlsx",
+      "comparison": {
+        "size": 16276,
+        "sha256": "ac687d42603b665064837d5bee872e9675eb9f47530f93abbcc32071b9f03130",
+        "md5": "866e25727495246c4b2a41f40610cac1"
+      },
+      "byte_identical": true
+    },
+    {
+      "variable": "FORMULA_B64",
+      "output": "audit_work/html_audit/embedded-formula-sheet.pdf",
+      "embedded": {
+        "size": 73556,
+        "sha256": "f885898e7fa4836064f56cc55b9076c956a238933f276b9af81c5f398af61dd3",
+        "md5": "d73019e55dba15f0a04bd1120726e881"
+      },
+      "comparison_path": "/Users/nicole/Downloads/A1S2_2026_Formula_Sheet.pdf",
+      "comparison": {
+        "size": 73556,
+        "sha256": "f885898e7fa4836064f56cc55b9076c956a238933f276b9af81c5f398af61dd3",
+        "md5": "d73019e55dba15f0a04bd1120726e881"
+      },
+      "byte_identical": true
+    }
+  ],
+  "keyword_counts": {
+    "candidate": 25,
+    "debug": 0,
+    "todo": 0,
+    "console\\.": 1,
+    "source_ready": 42,
+    "source_partial": 35,
+    "hold": 122,
+    "2026": 127,
+    "confirmed": 54,
+    "official": 105,
+    "assessment": 46,
+    "excel": 503,
+    "emslearn": 10,
+    "formula sheet": 6
+  }
+}

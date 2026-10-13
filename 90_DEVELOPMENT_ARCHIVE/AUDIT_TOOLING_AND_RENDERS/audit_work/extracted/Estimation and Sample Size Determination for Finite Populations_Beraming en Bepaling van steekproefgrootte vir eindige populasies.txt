@@ -1,0 +1,259 @@
+
+===== PAGE 1 =====
+ 8.7 Estimation and Sample Size Det ermination for Finite Populations  1
+8.7  Estimation and Sample Size Det ermination 
+for Finite Populations
+Estimating the Mean
+When developing confidence interval estimates for population parameters, you use the finite 
+population correction factor when samples are selected without replacement from a finite pop-
+ulation. If more than 5% of the population is sampled (i.e., 
+n/N 7 0.05), the finite population 
+correction factor significantly reduces the width of the confidence interval. If less than 5% of the 
+population is sampled, the finite population correction factor has little or no practical effect on 
+the confidence interval width. Equation (8.12) defines the 
+(1 - a) * 100% confidence interval 
+estimate for the mean.
+CONFIDENCE INTERVAL FOR A MEAN ( s UNKNOWN) FOR A FINITE 
+POPULATION
+ X { ta/2 S
+2n A
+N - n
+N - 1 (8.12)
+To illustrate the f
+inite population correction factor, refer to the confidence inter -
+val estimate for the mean developed for Ricknel Home Centers in Section 8.2. Sup-
+pose that in this month there are 5,000 sales invoices. Using X = $110.27, S = $28.95, 
+N = 5,000, n = 100, df = n - 1 = 99, and with 95% confidence, ta/2 = 1.9842. From 
+Equation (8.12),
+ 110.27 { (1.9842) 28.95
+2100 A
+5,000 - 100
+5,000 - 1
+ = 110.27 { 5.744(0.99)
+ = 110.27 { 5.69
+ $104.58 … m … $115.96
+In this case, because only 2% of the population was sampled, the finite population correction has 
+a minimal effect on the width of the confidence interval. To examine the effect of the correction 
+factor when the sample size is more than 5% of the population size, see Example 8.10.
+In Example 8.3 on page 254, a sample of 27 approved policies was selected. Suppose the com-
+pany had a population of 200 approved policies. Construct a 95% confidence interval estimate 
+of the population mean.
+SOLUTION Using the finite population correction factor, with, X = 45.2222, S = 23.1472, 
+N = 200, n = 27, df = n - 1 = 26, and ta/2 = 2.0555 (for 95% confidence):
+ X { ta/2 S
+2n
+ A
+N - n
+N - 1
+ = 45.2222 { (2.0555) 23.1472
+227 A
+200 - 27
+200 - 1
+ = 45.2222 { 8.5376
+ 36.6846 … m … 53.7598
+Because more than 10% of the population was sampled the finite population correction factor 
+has a moderate effect on the confidence interval estimate.
+EXAMPLE 8.10
+Estimating the Mean 
+Processing Time
+Section 8.7.indd   1 13/03/20   10:10 AM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 2 =====
+2 CHAPTER 8 | Confidence Inter val Estimation
+Estimating the Proportion
+In sampling without replacement from a finite population, the (1 - a) * 100% confidence 
+interval estimate of the proportion is defined in Equation (8.13).
+CONFIDENCE INTERVAL ESTIMATE FOR THE PROPORTION USING  
+THE FINITE POPULATION CORRECTION FACTOR
+ p { Za>2 A
+p(1 - p)
+n A
+N - n
+N - 1 (8.13)
+To illustrate the use of the f
+inite population correction factor when developing a confidence 
+interval estimate of the population proportion, consider again the estimate developed for Ricknel 
+Home Centers in Section 8.3. For these data, N = 5,000, n = 100, p = 10/100 = 0.10, and, 
+with 95% confidence, Za/2 = 1.96. Using Equation (8.13),
+ p { Za/2 A
+p(1 - p)
+n A
+N - n
+N - 1
+ = 0.10 { (1.96) A
+(0.10)(0.90)
+100 A
+5,000 - 100
+5,000 - 1
+ = 0.10 { (1.96)(0.03)(0.99)
+ = 0.10 { 0.0582
+ 0.0418 … p … 0.1582
+In this case, because only 2% of the population was sampled, the finite population correction 
+factor has virtually no effect on the confidence interval estimate.
+Determining the Sample Size
+Just as you used the finite population correction factor to develop confidence interval estimates, 
+you can also use it to determine sample size when sampling without replacement. For example, 
+in estimating the mean, the sampling error is
+e = Za/2 s
+2n
+ A
+N - n
+N - 1
+and in estimating the proportion, the sampling error is
+e = Za/2 A
+p(1 - p)
+n A
+N - n
+N - 1
+To determine the sample size in estimating the mean or the proportion from Equations (8.4) 
+and (8.5),
+n0 = Za/2
+2 s2
+e2  and n0 = Za/2
+2 p(1 - p)
+e2
+where n0 is the sample size, without considering the finite population correction factor.  Applying 
+the f
+inite population correction factor results in the actual sample size, n , computed as in  
+Equation (8.14).
+Section 8.7.indd   2 13/03/20   10:10 AM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 3 =====
+ 8.7 Estimation and Sample Size Det ermination for Finite Populations  3
+SAMPLE SIZE DETERMINATION USING THE FINITE POPULATION  
+CORRECTION FACTOR
+ n = n0N
+n0 + (N - 1) (8.14)
+PROBLEMS FOR SECTION 8.7  
+LEARNING THE BASICS
+8.80 If, X = 75, S = 24, n = 36, and N = 200, construct a 95% 
+confidence interval estimate of the population mean, m, if sampling 
+is done without replacement.
+8.81 Consider a population of 1,000, where the standard de
+viation 
+is assumed to be equal to 20. What sample size is required if sam-
+pling is done without replacement if you desire 95% confidence and 
+a sampling error of 
+{5?
+APPL YING THE CONCEPTS
+8.82 The quality control manager at a l ight bulb factory needs to 
+estimate the mean life of a shipment of 2,000 light bulbs. Assume 
+that the standard deviation is 100 hours and that sampling is done 
+without replacement.
+a.
+ Construct a 
+95% confidence interval estimate of the population 
+mean life of light bulbs in this shipment if a random sample of 
+50 light bulbs selected from the shipment indicates a sample 
+mean life of 350 hours.
+b.
+ Determine the sample size needed to estimate the population 
+mean l
+ife to within {20 hours with 95% confidence.
+c. What are your answers to 
+(a) and (b) if the shipment contains 
+1,000 light bulbs?
+8.83 A surve
+y is planned to determine the mean annual family 
+medical expenses of the 3,000 employees of a large company. The 
+management of the company wishes to be 95% confident that the 
+sample mean is correct to within 
+{ $50 of the mean annual family 
+medical expenses. A small-scale study indicates that the standard 
+deviation is approximately $400. How large a sample size is neces-
+sary if sampling is done without replacement?
+8.84
+ The manager of a bank that has 1,000 depositors wants you to
+ 
+estimate the proportion of its depositors with more than one account 
+at the bank. A random sample of 100 depositors is selected without 
+replacement, and 30 state that they have more than one account at 
+the bank.
+a.
+ Construct a 90% 
+confidence interval estimate of the population 
+proportion of the bank’s depositors who have more than one 
+account at the bank.
+b.
+ What sample size is needed to estimate the population propor -
+tion to within {0.05 with 90% confidence?
+c. What are your answers to (a) and (b) if the bank has  
+2,000 depositors?
+8
+.85 An
+ automobile dealer wants to estimate the proportion of 
+customers who still own the cars they purchased five years ear -
+lier. Sales records indicate that the population of owners is 4,000. 
+A 
+ random sample of 200 customers selected without replacement 
+from the automobile dealer’
+s records indicate that 82 still own cars 
+that were purchased five years earlier.
+a.
+ Construct a 
+95% confidence interval estimate of the population 
+proportion of all customers who still own their cars five years 
+after they were purchased.
+b.
+ What sample size is necessary to estimate the population 
+ proportion to within {0.025 with 95% confidence?
+c. What are your answers to (a) and (b) if the popul
+ation consists 
+of 6,000 owners?
+In determining the sample size for Ricknel Home Centers, a sample size of 97 was needed 
+(rounded up from 96.04) for the mean and a sample of 100 (rounded up from 99.96) was needed 
+for the proportion. Using the finite population correction factor in Equation (8.14) for the mean, 
+with 
+N = 5,000, e = $5, S = $25, and Za/2 = 1.96 (for 95% confidence), leads to
+n = (96.04)(5,000)
+96.04 + (5,000 - 1) = 94.24
+Thus, n = 95.
+Using the finite population correction factor in Equation (8.14) for the proportion, with 
+N = 5,000, e = 0.07, p = 0.15, and Za/2 = 1.96 (for 95% confidence),
+n = (99.96)(5,000)
+99.96 + (5,000 - 1) = 98.02
+Thus, n = 99.
+To satisfy both requirements simultaneously with one sample, the larger sample size of 99 
+is needed.
+Section 8.7.indd   3 13/03/20   10:10 AM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 4 =====
+4 CHAPTER 8 | Confidence Inter val Estimation
+8.86 The inspection division of the Lee County Weights and 
+Measures Department is interested in estimating the mean amount
+ 
+of soft drink that is placed in 2-liter bottles at the local bottling 
+plant of a large nationally known soft-drink company. The pop-
+ulation consists of 2,000 bottles. The bottling plant has informed 
+the inspection division that the standard deviation for 2-liter bottles 
+is 0.05 liter.
+a.
+ Construct a 95% 
+confidence interval estimate of the population 
+mean amount of soft drink per bottle if a random sample of 100 
+2-liter bottles selected without replacement indicates a sample 
+mean of 1.99 liters.
+b.
+ Determine the sample size necessary to estimate the population 
+mean amount to within 
+{0.01 liter with 95% confidence.
+c. What are your answers to (a) and (b) if the popul
+ation consists 
+of 1,000 bottles?
+8.87 A stationery store wants to estimate the mean retail v
+alue of 
+the 300 greeting cards that it has in its inventory.
+a.
+ Construct a 95% 
+confidence interval estimate of the  population 
+mean v
+alue of all greeting cards that are in its inventory 
+if a  random sample of 20 greeting cards selected without 
+ replacement indicates a mean of $2.55 and a standard de
+viation 
+of $0.44.
+b. What is 
+your answer to (a) if the store has 500 greeting cards in 
+its inventory?
+Section 8.7.indd   4 13/03/20   10:10 AM
+Copyright © 2021 Pearson Education, Inc.

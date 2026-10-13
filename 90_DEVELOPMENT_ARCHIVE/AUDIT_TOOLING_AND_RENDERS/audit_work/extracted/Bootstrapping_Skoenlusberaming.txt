@@ -1,0 +1,89 @@
+
+===== PAGE 1 =====
+ 8.8 Bootstrapping 1
+8.8 Bootstr apping
+When one can assume that a population is normally distributed, using confidence interval  estimation 
+methods 
+for population parameters, such as the confidence interval estimation of the population 
+mean, is a valid approach to analyzing data. However, when one cannot assume that a population is 
+normally distributed, one uses other methods such as bootstrapping, which uses repeated resam-
+pling with replacement from an initial sample. Because bootstrap methods are based on the original 
+sample, these methods make no assumption concerning the underlying population distribution.
+For example, to estimate the population mean using bootstrapping:
+1. Select a random sample of size n without r
+eplacement from a population of size N.
+2. Resample the initial sample by selecting 
+n values with replacement from the n values in 
+the initial sample.
+3. Compute X from this resample.
+4. Repeat steps 2 and 3 m
+ different times.
+5. Construct the resampling distrib
+ution of X.
+6. Construct an ordered array of the entire set of resampled means.
+7. Find the 
+value that cuts off the smallest a>2 * 100% and the value that cuts off the 
+largest a>2 * 100%. These values provide the lower and upper limits of the bootstrap 
+confidence interval estimate of the population mean.
+To use bootstrapping estimation procedures, one typically selects a very large number of resamples  
+(in the thousands) and use statistical software such as JMP or Minitab. To illustrate the bootstrap 
+confidence interval estimate for the population mean, return to Example 8.3 on page 254 that 
+developed a confidence interval estimate of the population mean processing time of applications 
+for life insurance. The confidence interval estimate assumed that the population processing time 
+was normally distributed. Suppose a second insurance company did a similar study of 27 policies 
+that showed that the processing time was right skewed. For this second study, the validity of the 
+confidence interval developed is in doubt.
+Table 8.3 shows an initial bootstrap resample for that second study sample of 27 processing 
+times.
+TABLE 8.3
+Ordered array of first  
+resample of n = 27  
+from a sample of  
+27 processing times
+16 16 16 17 17 17 17 17 19 22 28 31 31 48
+51 56 56 60 60 64 64 64 69 73 73 90 92
+This initial bootstrap resample omits some values (18, 45, 50, 63, and 91) that appear in 
+the initial sample (not shown). Table 8.4 shows the ordered array of the sample means for 100 
+resamples of the processing times (step 6).
+TABLE 8.4
+Ordered array of the 
+sample means for  
+100 resamples of the 
+processing times
+31.5926 33.9259 35.4074 36.5185 36.6296 36.9630 37.0370 37.0741
+37.1481 37.3704 37.9259 38.1111 38.1481 38.2222 38.2963 38.7407
+38.8148 38.8519 38.8889 39.0000 39.1852 39.3333 39.3704 39.6667
+40.1481 40.5185 40.6296 40.9259 40.9630 41.2593 41.2963 41.7037
+41.8889 42.0741 42.1111 42.1852 42.8519 43.0741 43.1852 43.3704
+43.4444 43.7037 43.8148 43.8519 43.8519 43.9259 43.9630 44.1481
+44.4074 44.5556 44.7778 45.0000 45.4444 45.5185 45.5556 45.6667
+45.7407 45.8519 45.9630 45.9630 46.0000 46.1111 46.2963 46.2963
+46.3333 46.3333 46.4815 46.6667 46.7407 46.9630 47.0741 47.2222
+47.2963 47.3704 47.4815 47.4815 47.5556 47.6667 47.8519 48.5185
+48.8889 49.0000 49.2222 49.4444 49.4815 49.4815 49.6296 49.6296
+49.7407 50.2963 50.4074 50.5926 50.9259 51.4074 51.4815 51.5926
+51.9259 52.3704 53.4074 54.3333
+Section 8.8.indd   1 13/03/20   10:11 AM
+Copyright © 2021 Pearson Education, Inc.
+===== PAGE 2 =====
+2 CHAPTER 8 | Confidence Inter val Estimation
+ REFERENCES 
+Diaconis, P., and B. Efron. “Computer-Intensive Methods in 
+ Statistics.” Scienti
+fic American, 248, 1983, pp. 116–130.
+Efron, B., and R. Tibshirani. An Introduction to the Bootstrap. Boca 
+Raton, FL: Chapman and Hall/CRC, 1995.
+Gunter, B. “Bootstrapping: How to Make Something from Almost 
+Nothing and Get Statistically Valid Answers Part I: Brave New 
+World.” Quality Progress, 24, December 1991, pp. 97–103.
+Varian, H. “Bootstrap Tutorial.” Mathematica Journal, 2005, 9,  
+pp. 768–775.
+To construct a 90% bootstrap confidence interval, you need to determine the smallest 5% 
+and the largest 5% of the resample means. Since 100 resamples were selected, you need to 
+ id
+entify the 0.05 * 100% = 5th smallest value and the 0.05 * 100% = 5th largest value. 
+From Table 8.4, the fifth smallest value is 36.6296 and the fifth largest value is 51.5926. There-
+fore, the 90% bootstrap confidence interval estimate of the population mean processing time is 
+36.6296 to 51.5926.
+Section 8.8.indd   2 13/03/20   10:11 AM
+Copyright © 2021 Pearson Education, Inc.

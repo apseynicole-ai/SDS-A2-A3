@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>SDS188 · A2S2 Learning to Mastery · v0.5 Recovery Candidate</title>
+<meta content="Recovery candidate for the SDS188 A2S2 Learning to Mastery system. Re-established from the surviving v0.3.1 HTML and the documented v0.4 repair specification; not final, frozen or certified." name="description"/>
+<style>
+    :root{--paper:#f5f0e7;--ink:#251f1c;--wine:#7a2436;--wine-dark:#541827;--sage:#637864;--blue:#35627a;--gold:#a7751d;--purple:#76528b;--red:#a63b32;--green:#3e704b;--muted:#6e665f;--line:#d8cec1;--white:#fffdf8;--shadow:0 12px 32px rgba(54,35,27,.09);--sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--serif:Georgia,"Times New Roman",serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.58 var(--serif)}button,input,select,textarea{font:inherit}button,select,input{min-height:42px}button{cursor:pointer}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;z-index:99;background:#fff;padding:.7rem 1rem;color:var(--wine)}
+    header{background:var(--wine-dark);color:#fff;padding:1.25rem clamp(1rem,4vw,4rem)}.eyebrow,.ui,.badge,.nav{font-family:var(--sans);letter-spacing:.04em}.eyebrow{font-size:.77rem;text-transform:uppercase;opacity:.85}h1{font-size:clamp(1.45rem,3.1vw,2.45rem);line-height:1.08;margin:.35rem 0}.assessment{font-family:var(--sans);font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;margin:0;color:#f3dfe3}
+    .nav{display:flex;gap:.35rem;overflow-x:auto;padding:.65rem clamp(1rem,4vw,4rem);background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.nav button{border:0;border-bottom:3px solid transparent;background:transparent;padding:.5rem .75rem;color:#433a35;white-space:nowrap;font-weight:700;font-size:.78rem}.nav button[aria-selected="true"]{color:var(--wine);border-color:var(--wine)}.nav button:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #d79b2d;outline-offset:2px}
+    main{max-width:1180px;margin:auto;padding:clamp(1rem,3vw,2.4rem)}.view[hidden]{display:none}.grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(250px,.8fr);gap:1.4rem}.panel{background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);padding:clamp(1rem,3vw,2rem);border-radius:3px}.task{border-top:6px solid var(--wine)}.task h2{font:800 .8rem var(--sans);letter-spacing:.13em;color:var(--wine);margin:0 0 .8rem}.task-title{font:700 clamp(1.35rem,3vw,2.2rem)/1.2 var(--serif);margin:.2rem 0 1.25rem}.task dl{display:grid;grid-template-columns:5rem 1fr;gap:.55rem 1rem;margin:0}.task dt{font:800 .75rem var(--sans);text-transform:uppercase;color:var(--muted)}.task dd{margin:0}.status-list{list-style:none;padding:0;margin:0}.status-list li{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px solid var(--line);font-family:var(--sans);font-size:.88rem}.status-list li:last-child{border:0}.badge{display:inline-flex;align-items:center;gap:.35rem;border:1px solid currentColor;border-radius:999px;padding:.12rem .5rem;font-size:.68rem;font-weight:800;text-transform:uppercase}.ready{color:var(--green)}.partial{color:#8a5c0f}.missing,.repair{color:var(--red)}.neutral{color:var(--muted)}
+    h2,h3{line-height:1.2}h2{font-size:1.65rem}h3{font-size:1.12rem}.section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}.section-head h2{margin:0}.chapter-tabs,.filters,.actions{display:flex;gap:.55rem;flex-wrap:wrap}.chapter-tabs button,.secondary,.filters select{background:#fff;border:1px solid var(--line);padding:.45rem .7rem}.primary{background:var(--wine);color:#fff;border:1px solid var(--wine);padding:.55rem .9rem;font-family:var(--sans);font-weight:800}.danger{color:var(--red);border-color:var(--red)}.primary:hover{background:var(--wine-dark)}
+    .topic-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.8rem}.topic{border-top:3px solid var(--blue);padding:1rem;background:rgba(255,255,255,.52)}.topic h3{margin:.1rem 0 .45rem}.topic p{margin:.25rem 0;color:#514942}.mastery-row{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.65rem}.mastery{font:700 .66rem var(--sans);padding:.18rem .38rem;border-radius:2px;background:#e1ddd7}.m-understand{background:#d9e8ef;color:#214b60}.m-retrieve{background:#f2e1b8;color:#765312}.m-apply{background:#e6dcec;color:#5b376e}.m-stable{background:#d9eadc;color:#315c3b}.m-repair{background:#f1d7d4;color:#812a23}
+    .notice{border-left:4px solid var(--gold);background:#fff8e8;padding:1rem;margin:1rem 0}.notice.red{border-color:var(--red);background:#fff0ed}.question{border:1px solid var(--line);padding:1rem;background:#fff}.question fieldset{border:0;padding:0;margin:1rem 0}.question label{display:block;margin:.45rem 0}.question input[type="radio"]{min-height:0;margin-right:.45rem}.question-actions{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1rem}.feedback{min-height:1.6rem;font-family:var(--sans);font-weight:700;margin-top:.8rem}.scratch{position:fixed;right:1rem;bottom:1rem;z-index:30}.scratch>button{border-radius:99px;border:0;background:var(--wine-dark);color:#fff;padding:.65rem 1rem}.scratch-panel{width:min(360px,calc(100vw - 2rem));background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);padding:1rem}.scratch-panel[hidden]{display:none}.scratch textarea{width:100%;height:130px}.symbols{display:flex;gap:.25rem;flex-wrap:wrap}.symbols button{min-height:34px;border:1px solid var(--line);background:#fff}.compact{font-family:var(--sans);font-size:.86rem}.muted{color:var(--muted)}.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.spine{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin:1rem 0;font:800 .68rem var(--sans);text-align:center}.spine span{background:#eee4d9;padding:.45rem .2rem}.formula-object{border-left:4px solid var(--sage);padding:.8rem 1rem;background:#eef4ed;margin:.8rem 0}.formula-object dl{display:grid;grid-template-columns:8rem 1fr;gap:.25rem .8rem;margin:0}.formula-object dt{font:800 .72rem var(--sans);text-transform:uppercase}.formula-object dd{margin:0}.region-lab{height:120px;position:relative;margin:1rem 0 2rem;border-bottom:2px solid #493f39;background:linear-gradient(to top,rgba(122,36,54,.08),transparent)}.region-lab:before{content:"";position:absolute;left:15%;right:15%;bottom:0;height:98px;border-radius:50% 50% 0 0/100% 100% 0 0;border-top:4px solid var(--wine)}.region-lab .shade{position:absolute;bottom:0;height:72px;background:rgba(122,36,54,.42)}.region-lab.left .shade{left:0;width:38%}.region-lab.right .shade{right:0;width:38%}.region-lab.between .shade{left:34%;width:32%}.region-lab .boundary{position:absolute;bottom:-1.55rem;font:700 .75rem var(--sans)}
+    .source-table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.83rem}.source-table th,.source-table td{text-align:left;border-bottom:1px solid var(--line);padding:.55rem;vertical-align:top}.readiness{font:800 1.15rem var(--sans);padding:.8rem;border:2px solid var(--red);color:var(--red)}.closed-banner{display:none;background:#201b19;color:#fff;padding:.7rem 1rem;text-align:center;font:800 .8rem var(--sans);letter-spacing:.08em}.closed-book .closed-banner{display:block}.closed-book .hide-closed,.closed-book .nav button[data-view="learn"],.closed-book .nav button[data-view="repair"],.closed-book .nav button[data-view="read-print"]{display:none!important}
+    dialog{max-width:560px;border:1px solid var(--line);box-shadow:var(--shadow);padding:1.4rem;background:var(--white)}dialog::backdrop{background:rgba(24,18,15,.64)}
+    .question input[type="text"],.question input[type="number"],.structured select{width:min(100%,38rem);padding:.55rem;border:1px solid var(--line);background:#fff}.production-gate{padding:1rem;background:#f4eadf;border-left:4px solid var(--wine);margin:1rem 0}.production-gate input{display:block;margin:.4rem 0}.region-builder{border:1px solid var(--line)!important;padding:1rem!important}.curve-svg{width:100%;max-width:520px;height:140px;color:var(--wine);background:linear-gradient(to top,rgba(122,36,54,.08),transparent)}.region-options{display:flex;flex-wrap:wrap;gap:.5rem 1rem}.region-options label{font-family:var(--sans);font-weight:700}.structured{display:grid;gap:.7rem;margin:1rem 0}.structured label{font-family:var(--sans);font-weight:700}.block-question{margin:1rem 0}.due-card{padding:.7rem 0;border-bottom:1px solid var(--line)}.repair-card{margin-bottom:1rem}.hold-print{border:2px solid var(--red);padding:.6rem}.source-missing-print{border:3px solid var(--red)}
+    .scaffold-v12{border:1px solid var(--line);background:#f8f3ea;padding:1rem;margin:1rem 0}.scaffold-v12 h4{font:800 .78rem var(--sans);letter-spacing:.08em;margin:.1rem 0 .7rem}.scaffold-grid{display:grid;grid-template-columns:minmax(7rem,.35fr) 1fr;gap:.4rem .8rem}.scaffold-grid strong{font:800 .7rem var(--sans);text-transform:uppercase}.scaffold-entry{width:100%;min-height:42px;padding:.45rem;border:1px solid var(--line);background:#fff}.semantic-audit{max-height:28rem;overflow:auto}
+
+    /* ═══════════════════════════════════════════════════════════
+       CHAPTER 6 LEARN CANDIDATE — TEACHING LAYER ONLY
+       Separate formative UI state; no mastery-engine writes.
+    ═══════════════════════════════════════════════════════════ */
+    .learn-candidate-banner{border:2px solid var(--purple);background:#f7f0fb;padding:1rem 1.1rem;margin:0 0 1rem}.learn-candidate-banner strong{color:#573567}.learn-roadmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.65rem;margin:1rem 0 1.4rem}.learn-roadmap button{min-height:0;text-align:left;background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);padding:.8rem;border-radius:3px;color:var(--ink)}.learn-roadmap button:hover,.learn-roadmap button[aria-current="step"]{border-color:var(--wine);border-top-color:var(--wine);box-shadow:var(--shadow)}.learn-roadmap .lesson-code{display:block;font:800 .68rem var(--sans);letter-spacing:.08em;color:var(--wine);text-transform:uppercase}.learn-roadmap .lesson-name{display:block;font:700 .92rem/1.25 var(--serif);margin:.18rem 0}.learn-roadmap .lesson-state{display:block;font:700 .62rem var(--sans);text-transform:uppercase;color:var(--muted)}.learn-roadmap .lesson-state.passed{color:var(--green)}
+    .learn-progress-strip{display:flex;gap:.65rem;align-items:center;flex-wrap:wrap;font-family:var(--sans);font-size:.78rem;margin:.6rem 0}.learn-progress-strip .bar{flex:1;min-width:140px;height:8px;background:#e7dfd5;border-radius:99px;overflow:hidden}.learn-progress-strip .fill{height:100%;background:var(--sage);transition:width .2s}.learn-lesson{background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);padding:clamp(1rem,3vw,2rem);border-top:7px solid var(--wine)}.learn-lesson-head{display:grid;grid-template-columns:1fr auto;gap:1rem;align-items:start}.learn-lesson-head h2{font-size:clamp(1.55rem,3vw,2.25rem);margin:.15rem 0}.learn-lesson-head .lesson-kicker{font:800 .72rem var(--sans);letter-spacing:.11em;color:var(--wine);text-transform:uppercase}.lesson-skill-list{display:flex;gap:.3rem;flex-wrap:wrap;justify-content:flex-end}.lesson-skill-list span{font:700 .62rem var(--sans);background:#ece6df;padding:.2rem .4rem;border-radius:2px;color:#514942}
+    .lesson-block{margin:1.15rem 0;padding:1rem;border:1px solid var(--line);background:#fff}.lesson-block h3{font:800 .78rem var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--wine);margin:0 0 .65rem}.lesson-block p:last-child{margin-bottom:0}.lesson-objective{background:#eef4ed;border-left:5px solid var(--sage)}.lesson-explain{background:#fbf8f2}.lesson-visual{background:#f2f7fa;border-left:5px solid var(--blue);overflow:hidden}.lesson-say{background:#f6eef9;border-left:5px solid var(--purple)}.lesson-say .say-script{font-size:1.08rem;font-weight:700;line-height:1.5}.lesson-worked{background:#fff9e7;border-left:5px solid var(--gold)}.lesson-try{background:#f2f8f2;border-left:5px solid var(--green)}.lesson-exit{background:#fff0ed;border-left:5px solid var(--red)}.lesson-source{font:600 .72rem var(--sans);color:var(--muted);margin-top:.7rem}.lesson-callout{border-left:4px solid var(--gold);padding:.7rem .9rem;background:#fff8e8;margin:.8rem 0}.lesson-callout.trap{border-left-color:var(--red);background:#fff0ed}.lesson-callout.good{border-left-color:var(--green);background:#eff8f0}
+    .learn-check{border:1px solid var(--line);background:#fff;padding:1rem;margin:1rem 0}.learn-check legend{font:800 .76rem var(--sans);color:var(--wine);padding:0 .2rem}.learn-check label{display:block;padding:.4rem .55rem;margin:.35rem 0;border:1px solid #e3dcd2;background:#fff;cursor:pointer}.learn-check label:hover{border-color:var(--wine)}.learn-check input[type="radio"]{min-height:0;margin-right:.45rem}.learn-feedback{font:700 .8rem var(--sans);margin:.65rem 0 0;min-height:1.3rem}.learn-feedback.good{color:var(--green)}.learn-feedback.bad{color:var(--red)}.learn-numeric{width:min(100%,20rem);padding:.55rem;border:1px solid var(--line)}
+    .worked-steps{counter-reset:learnstep;list-style:none;padding:0;margin:0}.worked-steps li{counter-increment:learnstep;display:grid;grid-template-columns:2.2rem 1fr;gap:.6rem;padding:.55rem 0;border-bottom:1px dashed var(--line)}.worked-steps li:last-child{border-bottom:0}.worked-steps li:before{content:counter(learnstep);width:1.8rem;height:1.8rem;border-radius:50%;display:grid;place-items:center;background:var(--wine);color:#fff;font:800 .72rem var(--sans)}.worked-steps strong{font-family:var(--sans);color:var(--wine)}
+    .lesson-nav{display:flex;justify-content:space-between;gap:.7rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1rem;border-top:1px solid var(--line)}.lesson-nav .secondary{font-family:var(--sans);font-weight:800}.learn-practice-btn{background:var(--blue);border:1px solid var(--blue);color:#fff;padding:.55rem .85rem;font:800 .78rem var(--sans)}
+    .visual-compare{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:center}.visual-panel{padding:1rem;border:1px solid #cbd9df;background:#fff;text-align:center}.visual-panel .big{font:800 1.1rem var(--sans);color:var(--blue)}.visual-arrow{font:900 1.5rem var(--sans);color:var(--wine)}.dotline{height:64px;position:relative;border-bottom:2px solid #4b443f;margin:.4rem}.dotline .dot{position:absolute;bottom:-6px;width:12px;height:12px;border-radius:50%;background:var(--wine);transform:translateX(-50%)}.continuum{height:20px;margin:1.25rem .4rem .45rem;background:linear-gradient(90deg,var(--blue),#b5cfdd);border-radius:99px;position:relative}.continuum:before,.continuum:after{position:absolute;top:24px;font:700 .7rem var(--sans)}.continuum:before{content:'1';left:0}.continuum:after{content:'3';right:0}.point-zero{display:inline-flex;align-items:center;gap:.5rem;font:800 .78rem var(--sans);background:#fff0ed;padding:.4rem .6rem;color:var(--red)}
+    .normal-svg,.exp-svg{width:100%;max-width:680px;height:auto;display:block;margin:auto}.param-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.65rem;margin-top:.75rem}.param-card{border:1px solid #cbd9df;background:#fff;padding:.8rem}.param-card strong{display:block;font-family:var(--sans);color:var(--blue)}
+    .region-demo-controls{display:flex;gap:.45rem;flex-wrap:wrap;margin:.7rem 0}.region-demo-controls button{min-height:34px;background:#fff;border:1px solid var(--wine);padding:.35rem .65rem;font:700 .72rem var(--sans);color:var(--wine)}.region-demo-controls button.active{background:var(--wine);color:#fff}.learn-region .shade{transition:all .15s}
+    .area-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem;font-family:var(--sans);text-align:center}.area-flow div{padding:.8rem;border:1px solid #d9d0c5;background:#fff}.area-flow strong{display:block;color:var(--wine)}
+    .evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.65rem}.evidence-card{padding:.8rem;background:#fff;border:1px solid #cbd9df}.evidence-card strong{font-family:var(--sans);color:var(--blue)}.empirical{display:grid;grid-template-columns:68fr 27fr 4.7fr;gap:2px;margin:.8rem 0}.empirical span{padding:.55rem .25rem;text-align:center;font:800 .7rem var(--sans);background:#dce9df}.empirical span:nth-child(2){background:#f2e1b8}.empirical span:nth-child(3){background:#f1d7d4}
+    .excel-mini{width:100%;border-collapse:collapse;font:700 .72rem var(--sans);margin:.6rem 0}.excel-mini th,.excel-mini td{padding:.4rem .5rem;border:1px solid #cbd9df;text-align:right}.excel-mini th{background:#e8f0f4;color:#244d62}.excel-mini th:nth-child(2),.excel-mini td:nth-child(2){text-align:left}.excel-route{font:700 .8rem var(--sans);background:#fff;border-left:4px solid var(--green);padding:.8rem;margin:.7rem 0;white-space:pre-line}
+    .uniform-box{height:130px;position:relative;margin:1rem auto 2rem;max-width:620px;border-left:2px solid #4b443f;border-bottom:2px solid #4b443f}.uniform-box .rect{position:absolute;left:15%;right:15%;bottom:0;height:88px;border:2px solid var(--blue);background:rgba(53,98,122,.10)}.uniform-box .ushade{position:absolute;left:50%;width:20%;bottom:0;height:86px;background:rgba(122,36,54,.38)}.uniform-box .ua,.uniform-box .ub,.uniform-box .uc,.uniform-box .ud{position:absolute;bottom:-1.55rem;font:700 .7rem var(--sans)}.uniform-box .ua{left:15%}.uniform-box .ub{right:15%}.uniform-box .uc{left:50%}.uniform-box .ud{left:70%}.uniform-box .height-label{position:absolute;left:2%;top:18%;font:700 .7rem var(--sans);color:var(--blue)}
+    .poisson-exp{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}.poisson-exp>div{background:#fff;border:1px solid #cbd9df;padding:.85rem}.poisson-exp strong{display:block;font-family:var(--sans);color:var(--blue);margin-bottom:.3rem}.formula-flow{display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;font:800 .8rem var(--sans)}.formula-flow span{background:#fff;border:1px solid #d4c8bb;padding:.55rem}.formula-flow b{color:var(--wine)}
+    .continuity-table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.78rem}.continuity-table th,.continuity-table td{border:1px solid #d4c8bb;padding:.5rem}.continuity-table th{background:#eee4d9}.binom-bridge{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.8rem;margin:.8rem 0}.binom-side{padding:.85rem;border:1px solid #d4c8bb;background:#fff}.binom-side strong{display:block;font-family:var(--sans);color:var(--blue)}
+    .post-learn-path{margin-top:1rem;padding:1rem;border:2px solid var(--sage);background:#f1f6f0}.post-learn-path h3{margin-top:0}.post-learn-path .spine{grid-template-columns:repeat(4,1fr)}
+    @media(max-width:700px){.learn-lesson-head{grid-template-columns:1fr}.lesson-skill-list{justify-content:flex-start}.visual-compare,.poisson-exp,.binom-bridge{grid-template-columns:1fr}.visual-arrow{transform:rotate(90deg);justify-self:center}.area-flow{grid-template-columns:1fr}.learn-roadmap{grid-template-columns:1fr 1fr}}
+    @media(max-width:470px){.learn-roadmap{grid-template-columns:1fr}}
+    @media print{.learn-candidate-banner,.learn-roadmap,.lesson-nav,.learn-check,.learn-progress-strip{display:none!important}.learn-lesson{box-shadow:none;border:0;padding:0}.lesson-block{break-inside:avoid}}
+
+    @media(max-width:760px){.grid{grid-template-columns:1fr}.nav{position:static}.task dl{grid-template-columns:1fr}.task dd{margin-bottom:.4rem}.scratch{right:.6rem;bottom:.6rem}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+    @page{size:A4;margin:12mm}@media print{body{background:#fff;color:#000;font-size:10.5pt}.nav,header,.scratch,.no-print,.question-actions,.filters,.chapter-tabs{display:none!important}main{max-width:none;padding:0}.view{display:block!important}.view:not(#read-print){display:none!important}.panel,.topic{box-shadow:none;border-color:#777;break-inside:avoid}.source-table th,.source-table td{border-color:#777}.badge{color:#000!important}}
+  
+    /* Chapter 9 guided-learning visuals */
+    .ch9-source-banner{border-left:5px solid var(--green);background:#edf6ef;padding:1rem 1.1rem;margin:0 0 1rem;font-family:var(--sans)}
+    .ch9-source-banner strong{color:var(--green)}
+    .ch9-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.ch9-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}
+    .ch9-mini{border:1px solid var(--line);background:#fff;padding:.85rem;border-radius:4px}.ch9-mini strong{font-family:var(--sans)}
+    .ch9-matrix{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.82rem}.ch9-matrix th,.ch9-matrix td{border:1px solid var(--line);padding:.6rem;text-align:center}.ch9-matrix th{background:#efe8df}.ch9-good{background:#e4f0e6}.ch9-risk{background:#f6dfda}
+    .ch9-tail-controls{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:.65rem}.ch9-tail-controls button{border:1px solid var(--line);background:#fff;padding:.35rem .6rem}.ch9-tail-controls button.active{background:var(--wine);color:#fff}
+    .ch9-tail-demo{height:145px;position:relative;border-bottom:2px solid #51453f;overflow:hidden;background:linear-gradient(to top,rgba(122,36,54,.05),transparent)}
+    .ch9-tail-demo:before{content:"";position:absolute;left:12%;right:12%;bottom:0;height:118px;border-radius:50% 50% 0 0/100% 100% 0 0;border-top:4px solid var(--wine)}
+    .ch9-tail-demo .leftshade,.ch9-tail-demo .rightshade{position:absolute;bottom:0;height:84px;background:rgba(166,59,50,.34);display:none}.ch9-tail-demo .leftshade{left:0;width:24%}.ch9-tail-demo .rightshade{right:0;width:24%}
+    .ch9-tail-demo.lower .leftshade,.ch9-tail-demo.upper .rightshade,.ch9-tail-demo.two .leftshade,.ch9-tail-demo.two .rightshade{display:block}
+    .ch9-tail-labels{display:flex;justify-content:space-between;font:700 .72rem var(--sans);margin-top:.25rem}
+    .ch9-route{display:flex;gap:.65rem;align-items:center;justify-content:center;flex-wrap:wrap}.ch9-route .node{border:2px solid var(--blue);background:#eef5f8;padding:.8rem;text-align:center;font-family:var(--sans);font-weight:800}.ch9-route .arrow{font-size:1.4rem;color:var(--wine)}
+    .ch9-ci-line{position:relative;height:85px;border-bottom:3px solid var(--ink);margin:1rem 8%}.ch9-ci-line .limit{position:absolute;bottom:-9px;width:3px;height:18px;background:var(--wine)}.ch9-ci-line .l{left:15%}.ch9-ci-line .u{right:15%}.ch9-ci-line .mu0{position:absolute;left:54%;bottom:-6px;width:12px;height:12px;border-radius:50%;background:var(--green)}.ch9-ci-line .caption{position:absolute;top:8px;left:15%;right:15%;text-align:center;font:700 .8rem var(--sans)}
+    .ch9-power{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.ch9-power .curvebox{height:125px;position:relative;border-bottom:2px solid #555;background:linear-gradient(to top,#f7eee6,transparent)}.ch9-power .curvebox:before{content:"";position:absolute;left:10%;right:10%;bottom:0;height:96px;border-radius:50% 50% 0 0/100% 100% 0 0;border-top:4px solid var(--wine)}.ch9-power .shade{position:absolute;bottom:0;right:0;width:35%;height:62px;background:rgba(62,112,75,.32)}
+    .ch9-formula-strip{display:flex;gap:.45rem;flex-wrap:wrap}.ch9-formula-strip code{background:#f0ece6;border:1px solid var(--line);padding:.3rem .45rem;font-size:.84rem}
+    @media(max-width:760px){.ch9-grid2,.ch9-grid3,.ch9-power{grid-template-columns:1fr}.ch9-route{flex-direction:column}.ch9-route .node{width:100%}.ch9-route .arrow{transform:rotate(90deg);text-align:center}}
+
+/* v0.3 written-mastery layer */
+.a1s2-print-supplement{display:none!important}
+.wm-hero{background:linear-gradient(135deg,#fffdf8,#f7efe5);border:2px solid var(--wine)}
+.wm-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.wm-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.wm-chapter{border:1px solid var(--line);border-radius:14px;background:#fff;padding:1.1rem;box-shadow:0 6px 20px #3a172010}
+.wm-chapter h3{margin:.1rem 0 .5rem;color:var(--wine)}
+.wm-chapter .tagline{font:800 .72rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.wm-flow{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem;margin:.7rem 0}
+.wm-node{border:1px solid #b8ada7;background:#fff;padding:.5rem .7rem;border-radius:8px;font:700 .78rem var(--sans)}
+.wm-arrow{font-weight:900;color:var(--wine)}
+.wm-table{width:100%;border-collapse:collapse;font-size:.9rem}
+.wm-table th,.wm-table td{border:1px solid #c9c0ba;padding:.5rem;vertical-align:top}
+.wm-table th{background:#f0e5dc;color:#4e1628;font-family:var(--sans)}
+.wm-formula{font-family:Cambria,"Times New Roman",serif;font-size:1.08rem;background:#f3f7f2;border-left:5px solid #4f7657;padding:.7rem .85rem;margin:.55rem 0}
+.wm-trap{background:#f8e9ed;border-left:5px solid #8b2948;padding:.7rem .85rem;margin:.55rem 0}
+.wm-mark{background:#fff6dc;border-left:5px solid #b88727;padding:.7rem .85rem;margin:.55rem 0}
+.wm-source{font:700 .72rem var(--sans);color:#6c6063;margin-top:.7rem}
+.wm-checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem .9rem}
+.wm-check{display:flex;gap:.5rem;align-items:flex-start;border:1px solid #ddd2cc;padding:.55rem;border-radius:8px;background:#fff}
+.wm-check input{margin-top:.2rem}
+.wm-progress{height:10px;background:#e6ddd8;border-radius:99px;overflow:hidden;margin:.5rem 0}.wm-progress>span{display:block;height:100%;background:var(--wine);width:0}
+.wm-q{border:1px solid var(--line);border-radius:10px;background:#fff;margin:.8rem 0;padding:.9rem}
+.wm-q summary{cursor:pointer;font-weight:800;color:var(--wine)}
+.wm-answer{border-top:1px dashed #c9c0ba;margin-top:.65rem;padding-top:.65rem}
+.wm-mini-nav{display:flex;flex-wrap:wrap;gap:.45rem;margin:.8rem 0}.wm-mini-nav a{font:800 .75rem var(--sans);text-decoration:none;color:var(--wine);border:1px solid var(--wine);padding:.35rem .55rem;border-radius:99px;background:#fff}
+.wm-method-card{border:1px solid #cfc4bf;border-radius:10px;padding:.8rem;background:#fff}.wm-method-card b{color:var(--wine)}
+@media(max-width:850px){.wm-grid,.wm-grid3,.wm-checklist{grid-template-columns:1fr}}
+@media print{#written-mastery{display:block!important}.wm-mini-nav{display:none}.wm-grid,.wm-grid3{grid-template-columns:1fr}.wm-q{break-inside:avoid}}
+
+
+/* v0.3.1 repair layer */
+.mock-shell{border-top:5px solid var(--wine)}.mock-toolbar{display:flex;gap:.55rem;flex-wrap:wrap;align-items:center;margin:.8rem 0}.mock-timer{font:900 1rem var(--mono);padding:.35rem .65rem;border:1px solid var(--wine);background:#fff}.mock-section{border:1px solid var(--line);padding:1rem;margin:.8rem 0;background:#fff}.mock-q{border-top:1px solid var(--line);padding:.8rem 0}.mock-q:first-child{border-top:0}.mark-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem}.mark-grid label{display:flex;gap:.45rem;align-items:flex-start;border:1px solid var(--line);padding:.45rem;background:#fff}.mcq-grid{display:grid;gap:.75rem}.mcq-card{border:1px solid var(--line);padding:.8rem;background:#fff}.mock-score{font:900 1rem var(--sans);padding:.7rem;border:2px solid var(--wine);margin-top:.8rem}.source-guard{border-left:5px solid #b67a00;background:#fffaf0;padding:.8rem}.legacy-hidden{display:none!important}
+@media(max-width:850px){.mark-grid{grid-template-columns:1fr}}
+
+</style>
+<style id="ch6-ch9-learning-completeness-patch-style">
+#ch6-ch9-patch-print-supplement .patch-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+#ch6-ch9-patch-print-supplement code{white-space:normal;overflow-wrap:anywhere}
+@media(max-width:780px){#ch6-ch9-patch-print-supplement .patch-grid{grid-template-columns:1fr}}
+@media print{#ch6-ch9-patch-print-supplement{display:block!important;break-before:page;page-break-before:always}#ch6-ch9-patch-print-supplement .patch-grid{display:block}#ch6-ch9-patch-print-supplement .patch-grid>div{break-inside:avoid;page-break-inside:avoid;margin-bottom:.6rem}}
+</style>
+<meta content="2026-08-25; CH6 full; CH7 full current; CH8 core C8.01-C8.68; CH9 Slides 1-51 Lessons 9.1-9.7; bounded Practice Test Q4 numerical-power bridge; Tutorial9 priorities 1,2,3,4,7,8,10,14,15" name="sds188-a1s2-legacy-certification"/>
+<meta content="v0.2; 2026-09-26; official EMSLearn resource registry and Semester 2 transcripts integrated; CH7-9 routed; CH9 full-A2 restoration confirmed; CH10/13 lecture-aligned build queues; CH14 partial source-ready via Tutorial 11/formula sheet pending 22 Sep lecture alignment" name="sds188-a2s2-migration"/>
+<style id="a2s2-v01-style">
+#a1s2-print-supplement{display:none!important}
+.a2-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1rem 0}
+.a2-hero-card{border-top:5px solid var(--wine)}
+.a2-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}
+.a2-source{border:1px solid var(--line);padding:.85rem;background:#fff;display:grid;gap:.18rem}.a2-source strong{font:900 1.05rem var(--sans);color:var(--wine)}.a2-source span{font-weight:700}.a2-source small{font:800 .66rem var(--sans);letter-spacing:.04em}.a2-source.ready{border-top:4px solid var(--green)}.a2-source.partial{border-top:4px solid #b67a00;background:#fffaf0}.a2-source.missing{border-top:4px solid var(--red);background:#fff2ef}
+.a2-build-list{line-height:1.65}.a2-answer-frame{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:.35rem}.a2-answer-frame div{border:1px solid var(--line);padding:.75rem .5rem;background:#fff;text-align:center}.a2-answer-frame b{display:grid;width:1.7rem;height:1.7rem;border-radius:50%;place-items:center;background:var(--wine);color:#fff;margin:0 auto .45rem;font-family:var(--sans)}.a2-answer-frame span{font:800 .72rem/1.25 var(--sans)}
+@media(max-width:850px){.a2-grid{grid-template-columns:1fr}.a2-source-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.a2-answer-frame{grid-template-columns:1fr 1fr}}
+@media print{#a2s2-control,#paper-mode,#formula-map{break-before:page}.a2-source-grid{grid-template-columns:repeat(3,1fr)}.a2-answer-frame{grid-template-columns:repeat(7,1fr)}}
+</style>
+</head>
+<body>
+<a class="skip ui" href="#main">Skip to content</a>
+<div class="closed-banner" role="status">RECOVERY CANDIDATE · closed-book simulation is available only as a practice mode; assessment conditions are not frozen here.</div>
+<header><div class="eyebrow">SDS188 · A2S2 LEARNING → MASTERY · RECOVERY CANDIDATE v0.5</div><h1>Write the method. Show the calculation. Interpret the result.</h1><p class="assessment">9 November 2026 · 09:00 · Written assessment · Chapters 7, 8, 9, 10, 13 and 14 · Exact duration / closed-book control remains a release gate until independently re-verified.</p></header>
+<nav aria-label="Main learning destinations" class="nav" role="tablist"><button aria-selected="true" data-view="a2s2-control" role="tab">A2S2 CONTROL</button><button aria-selected="false" data-view="written-mastery" role="tab">LEARN + WRITTEN MASTERY</button><button aria-selected="false" data-view="paper-mode" role="tab">PAPER EXAM MODE</button><button aria-selected="false" data-view="formula-map" role="tab">FORMULA SHEET MAP</button><button aria-selected="false" data-view="a2-practice" role="tab">A2 PRACTICE</button><button aria-selected="false" data-view="read-print" role="tab">READ / PRINT</button></nav>
+<main id="main" tabindex="-1">
+<section class="view" id="a2s2-control" role="tabpanel">
+<div class="section-head"><div><h2>A2S2 Control</h2><p class="muted">Migration status, authoritative scope and source gates.</p></div></div>
+<div class="a2-grid"><article class="panel a2-hero-card">
+<span class="badge partial">RECOVERY BASELINE</span>
+<h3>Best surviving code lineage re-established</h3>
+<p><strong>Source lineage:</strong> surviving v0.3.1 HTML + the 26 Sep v0.4 internal repair specification.</p>
+<p><strong>This candidate is deliberately not FINAL/FROZEN/CERTIFIED.</strong> The original v0.4 HTML bytes were not located in the authorised SDS188 Drive. This branch removes the known hostile legacy runtime layers and provides a clean base for the current October source patch.</p>
+<p><strong>Current late-source gate:</strong> the final Tutorial 11 / Chapter 14 practical recording has not yet been released. Existing 21 Sep–9 Oct lecture/practical transcripts are available for the next bounded content patch.</p>
+</article>
+<article class="panel a2-hero-card"><span class="badge ready">CURRENT ASSESSMENT</span><h3>9 November 2026 · 09:00 · duration pending control verification</h3><p><strong>Written · exact conditions pending control verification.</strong> Section A contains longer questions where calculations must be shown. Section B contains multiple-choice questions.</p><p><strong>Scope:</strong> Chapters 7, 8, 9, 10, 13 and 14.</p></article>
+<article class="panel"><span class="badge partial">MIGRATION BUILD</span><h3>Reuse before rebuild</h3><p>The certified A1S2 engine is preserved underneath this development branch. The official resource-page capture and Semester 2 transcripts are now integrated. Chapters 7–9 are retained for written rebasing; Chapter 10 and 13 are lecture-aligned; Chapter 14 now has a source-backed Tutorial 11/formula-sheet core, but the 22 September Chapter 13 lecture is now identified and integrated; Chapter 14 remains partial because no separate Chapter 14 lecture/deck has yet been supplied.</p></article>
+</div>
+<div class="panel"><h3>Source readiness</h3><div class="a2-source-grid">
+<div class="a2-source ready"><strong>CH 7</strong><span>Sampling distributions</span><small>REUSE / REBASE</small></div>
+<div class="a2-source ready"><strong>CH 8</strong><span>Confidence intervals</span><small>REUSE / REBASE</small></div>
+<div class="a2-source ready"><strong>CH 9</strong><span>Hypothesis testing</span><small>RECOVERY BASELINE</small></div>
+<div class="a2-source ready"><strong>CH 10</strong><span>Two-sample tests</span><small>WRITTEN MASTERY + A2 PRACTICE EVIDENCE · v0.3.1</small></div>
+<div class="a2-source ready"><strong>CH 13</strong><span>Simple linear regression</span><small>WRITTEN MASTERY + A2 PRACTICE EVIDENCE · v0.3.1</small></div>
+<div class="a2-source partial"><strong>CH 14</strong><span>Multiple linear regression</span><small>RECOVERY BASELINE · OCTOBER PATCH PENDING · TUTORIAL 11 CORE BUILT</small></div>
+</div></div>
+<div class="panel"><h3>Lecturer intelligence now encoded in the build plan</h3><div class="a2-grid">
+<article class="notice"><strong>Chapter 9 · complete listed lecture sequence now mapped.</strong><br/>The 14–28 August lecture sequence plus the 3 September practical and the supplied Chapter 9 summary confirm full lower/upper/two-tail Z, t and proportion work plus power for A2. Power remains a high-priority revision family.</article>
+<article class="notice"><strong>Chapter 10 · written method first.</strong><br/>Manual/calculator work is now the focus. Pooled variance is a separate mark-bearing step before the pooled standard error. Two proportions use Z. F tests require correct variance ordering and matching numerator/denominator df.</article>
+<article class="notice"><strong>Effect size · interpret, do not overbuild.</strong><br/>The lecturer explicitly says the module requires interpretation rather than calculation of standardized effect size. Train statistical versus practical significance and small/medium/large interpretation only unless later official material changes this.</article>
+<article class="notice"><strong>Regression · output decoder is now built.</strong><br/>The listed 21–22 September Chapter 13 lecture sequence is mapped. The written layer now trains ŷ notation, b0/b1/r² interpretation, incomplete-output reconstruction, ANOVA/F, slope inference, prediction and residuals.</article>
+</div><p class="muted">Source-control note: the EMSLearn resource page states Tutorial 11 covers Chapters 13 and 14. Tutorial 11 contains explicit multiple-regression work. The 22 September Chapter 13 lecture has now been identified; Chapter 14 remains partial only because no separate direct Chapter 14 lecture/deck has yet been supplied.</p></div>
+<div class="panel"><h3>v0.3.1 repair-candidate status</h3><ul class="a2-build-list"><li>Active A2 runtime owns the 9 November written-exam identity; legacy A1 study views are retired from student-facing navigation.</li><li>Chapters 7–9 are rebased to paper-first written execution, with full Chapter 9 A2 tail/proportion/power coverage.</li><li>Chapters 10 and 13 are integrated into the active A2 method-evidence system; Chapter 14 has a bounded formula-sheet + Tutorial 11 core.</li><li>The active A2 registry contains 58 method skills plus 28 written checkpoints, persisted in the main state and included in A2 export/import/reset.</li><li>Paper Exam Mode includes one diagnostic and two generated FULL MOCK · DURATION NOT LOCKED mixed mocks with separate written-method marks and MCQs.</li><li>Release remains blocked while Chapter 14 is only PARTIAL_SOURCE_READY. This repaired candidate must pass the internal hostile audit and later the required independent external hostile audit before FINAL.</li></ul></div>
+<div class="panel" id="recovery-controls">
+<h3>Recovery controls</h3>
+<p class="muted">Standalone v0.5 state key. No A1 storage namespace is used.</p>
+<div class="actions">
+<button class="primary" id="recovery-export" type="button">EXPORT STATE</button>
+<label class="secondary" style="display:inline-block;padding:.7rem 1rem;cursor:pointer">
+          IMPORT STATE
+          <input accept="application/json,.json" hidden="" id="recovery-import" type="file"/>
+</label>
+<button class="secondary" id="recovery-reset" type="button">RESET v0.5 STATE</button>
+</div>
+<p aria-live="polite" class="muted" id="recovery-status">Ready.</p>
+</div></section>
+<section class="view" hidden="" id="written-mastery" role="tabpanel">
+<div class="section-head"><div><h2>A2 Written Mastery</h2><p class="muted">v0.3.1 repaired build · paper-first methods for Chapters 7, 8, 9, 10, 13 and the Tutorial-11-supported Chapter 14 core.</p></div></div>
+<article class="panel wm-hero">
+<span class="badge ready">BUILD ACTIVE</span>
+<h3>One exam language across every chapter</h3>
+<div class="wm-flow"><span class="wm-node">Recognise the object</span><span class="wm-arrow">→</span><span class="wm-node">Choose the model / test</span><span class="wm-arrow">→</span><span class="wm-node">Write conditions + df</span><span class="wm-arrow">→</span><span class="wm-node">Write formula</span><span class="wm-arrow">→</span><span class="wm-node">Substitute</span><span class="wm-arrow">→</span><span class="wm-node">Calculate</span><span class="wm-arrow">→</span><span class="wm-node">Interpret in context</span></div>
+<div class="wm-mark"><strong>Section A rule:</strong> never jump from the wording straight to a calculator number. The working itself is evidence and can earn marks even when the final arithmetic fails.</div>
+<div><strong>Written-mastery progress</strong><div class="wm-progress"><span id="wm-progress-bar"></span></div><span class="muted" id="wm-progress-text">0 of 28 checkpoints complete · 0%</span></div>
+<div class="wm-mini-nav"><a href="#wm-selector">Method selector</a><a href="#wm7">Ch 7</a><a href="#wm8">Ch 8</a><a href="#wm9">Ch 9</a><a href="#wm10">Ch 10</a><a href="#wm13">Ch 13</a><a href="#wm14">Ch 14 core</a><a href="#wm-practice">Written practice</a></div>
+</article>
+<article class="panel" id="wm-selector">
+<h3>Method selector · decide before calculating</h3>
+<div class="wm-grid3">
+<div class="wm-method-card"><b>One sample mean?</b><br/>Probability about X̄ → Ch 7. Confidence interval → Ch 8. Hypothesis test → Ch 9. Then ask: σ known = Z; σ unknown = t.</div>
+<div class="wm-method-card"><b>One sample proportion?</b><br/>Sampling probability → Ch 7. CI / sample size → Ch 8. Hypothesis test → Ch 9. Use the proportion standard error and Z route.</div>
+<div class="wm-method-card"><b>Two groups?</b><br/>Means independent → known σ Z or pooled t in Ch 10. Same people / matched pairs → paired t. Two proportions → Z. Two variances → F.</div>
+<div class="wm-method-card"><b>One X predicting Y?</b><br/>Simple linear regression, Ch 13. Decode b0, b1, r², SSE/SSR/SST, sYX, t/F and residual/prediction information.</div>
+<div class="wm-method-card"><b>Several X variables predicting Y?</b><br/>Multiple regression core, Ch 14. Use k predictors, adjusted r², overall F and model-significance hypotheses.</div>
+<div class="wm-method-card"><b>Tail?</b><br/>H1 contains &lt; → lower. H1 contains &gt; → upper. H1 contains ≠ → two-tail. Tail comes from H1, never from the observed sample result.</div>
+</div>
+<div class="wm-trap"><strong>Fast discrimination:</strong> parameter tells you the family; design tells you independent vs paired; knowledge of σ tells you Z vs t; H1 tells you the tail.</div>
+</article>
+<article class="panel" id="wm7">
+<div class="section-head"><div><h2>Chapter 7 · Sampling Distributions</h2><p class="muted">Rebased from the existing A1 system into paper execution.</p></div><span class="badge ready">REUSED + REBASED</span></div>
+<div class="wm-grid">
+<div class="wm-chapter"><span class="tagline">Core route</span><h3>Sample mean</h3><div class="wm-formula">E(X̄)=μ    SE(X̄)=σ/√n</div><p>Write the random object first. A question about one observation uses σ; a question about an average of n observations uses σ/√n.</p><div class="wm-trap"><strong>Trap:</strong> CLT makes the <em>sampling distribution of X̄</em> approximately normal; it does not make the population normal.</div></div>
+<div class="wm-chapter"><span class="tagline">Core route</span><h3>Sample proportion</h3><div class="wm-formula">E(p)=π    SE(p)=√[π(1−π)/n]</div><p>For theoretical probabilities use π in the SE. Check the approximation conditions before standardising.</p><div class="wm-trap"><strong>Trap:</strong> do not use the observed p in a theoretical probability question when π is supplied.</div></div>
+<div class="wm-chapter"><span class="tagline">Bridge</span><h3>Two independent sample means</h3><div class="wm-formula">E(X̄₁−X̄₂)=μ₁−μ₂<br/>SE=√(σ₁²/n₁+σ₂²/n₂)</div><p>Preserve group order from start to finish. The expected difference is μ₁−μ₂, not zero unless the problem says so.</p></div>
+<div class="wm-chapter"><span class="tagline">Finite population</span><h3>FPC</h3><div class="wm-formula">FPC=√[(N−n)/(N−1)]</div><p>Use for sampling without replacement from a finite population when the sampling fraction is material (course rule: above 5%). FPC changes spread, not the centre.</p></div>
+</div>
+<h3>Written frame</h3><table class="wm-table"><tr><th>1</th><td>Name the random object: X, X̄, p or X̄₁−X̄₂.</td></tr><tr><th>2</th><td>Write centre and standard error.</td></tr><tr><th>3</th><td>State why normal/CLT/proportion approximation applies.</td></tr><tr><th>4</th><td>Translate below/above/between/inverse wording into the region.</td></tr><tr><th>5</th><td>Standardise or solve the inverse boundary and interpret in context.</td></tr></table>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="7-object" type="checkbox"/>I can distinguish X from X̄ and p.</label><label class="wm-check"><input data-wm-check="7-se" type="checkbox"/>I write the correct SE before calculating.</label><label class="wm-check"><input data-wm-check="7-clt" type="checkbox"/>I can state the CLT correctly.</label><label class="wm-check"><input data-wm-check="7-fpc" type="checkbox"/>I can decide whether FPC applies.</label></div>
+<p class="wm-source">Primary basis: existing certified Chapter 7 system + official Chapter 7 deck/tutorial/formula references.</p>
+</article>
+<article class="panel" id="wm8">
+<div class="section-head"><div><h2>Chapter 8 · Confidence Interval Estimation</h2><p class="muted">Point estimate ± critical value × standard error.</p></div><span class="badge ready">REUSED + REBASED</span></div>
+<div class="wm-grid">
+<div class="wm-chapter"><h3>Mean · σ known</h3><div class="wm-formula">X̄ ± zα/2 · σ/√n</div><p>Use Z when the population standard deviation is known. State the confidence level, critical value, SE, margin of error and interval.</p></div>
+<div class="wm-chapter"><h3>Mean · σ unknown</h3><div class="wm-formula">X̄ ± tα/2,n−1 · s/√n</div><p>Use Student t and df=n−1 when σ is unknown and s is used.</p></div>
+<div class="wm-chapter"><h3>Population proportion</h3><div class="wm-formula">p ± zα/2 √[p(1−p)/n]</div><p>Interpret the interval as a range for the population proportion π, not for the observed sample proportion p.</p></div>
+<div class="wm-chapter"><h3>Sample size</h3><div class="wm-formula">n ≥ z²α/2 σ²/e²<br/>n ≥ z²α/2 π(1−π)/e²</div><p>Always round the required sample size <strong>up</strong>. For finite populations, apply the supplied FPC sample-size adjustment.</p></div>
+<div class="wm-chapter"><h3>Finite population CI</h3><div class="wm-formula">ordinary SE × √[(N−n)/(N−1)]</div><p>Use when sampling without replacement from finite N and the sampling fraction exceeds the course threshold.</p></div>
+<div class="wm-chapter"><h3>Bootstrap / totals</h3><p>Bootstrap: repeated resampling with replacement from the observed sample builds an empirical sampling distribution when normality is doubtful. Population total point estimate is N·X̄; the total CI scales the mean estimate by N.</p></div>
+</div>
+<div class="wm-mark"><strong>Interpretation sentence:</strong> “We are C% confident that the population [mean/proportion/total] lies between L and U.” Do not say that C% of individual observations lie inside the interval.</div>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="8-zvst" type="checkbox"/>I choose Z vs t correctly.</label><label class="wm-check"><input data-wm-check="8-interpret" type="checkbox"/>I can write a valid CI interpretation.</label><label class="wm-check"><input data-wm-check="8-size" type="checkbox"/>I can determine and round sample size correctly.</label><label class="wm-check"><input data-wm-check="8-fpc" type="checkbox"/>I can apply FPC to a CI.</label></div>
+</article>
+<article class="panel" id="wm9">
+<div class="section-head"><div><h2>Chapter 9 · One-Sample Hypothesis Testing</h2><p class="muted">Full A2 restoration: lower, upper and two-tail Z/t/proportion tests + power.</p></div><span class="badge ready">LECTURE SEQUENCE COMPLETE</span></div>
+<table class="wm-table"><thead><tr><th>H1 form</th><th>Tail</th><th>Critical area</th><th>p-value logic</th></tr></thead><tbody><tr><td>parameter &lt; value</td><td>Lower</td><td>α in left tail</td><td>P(test statistic or smaller)</td></tr><tr><td>parameter ≠ value</td><td>Two-tail</td><td>α/2 each tail</td><td>2 × one-tail area beyond |stat|</td></tr><tr><td>parameter &gt; value</td><td>Upper</td><td>α in right tail</td><td>P(test statistic or larger)</td></tr></tbody></table>
+<div class="wm-grid">
+<div class="wm-chapter"><h3>Mean · σ known</h3><div class="wm-formula">z = (X̄−μ₀)/(σ/√n)</div><p>Use the null value μ₀ in the numerator and the population σ in the denominator.</p></div>
+<div class="wm-chapter"><h3>Mean · σ unknown</h3><div class="wm-formula">t = (X̄−μ₀)/(s/√n),   df=n−1</div><p>The Chapter 9 summary visually shows s/√n for the unknown-σ route; the parsed text can misread that symbol, so the build follows the rendered formula and Chapter 8/9 model.</p></div>
+<div class="wm-chapter"><h3>One proportion</h3><div class="wm-formula">z = (p−π₀)/√[π₀(1−π₀)/n]</div><p>For the null test standard error use the hypothesised π₀.</p></div>
+<div class="wm-chapter"><h3>Decision language</h3><p><strong>Reject H0</strong> or <strong>fail/do not reject H0</strong>. Then write the evidence conclusion in context. Never “accept H0”.</p></div>
+</div>
+<h3>Power family</h3><div class="wm-formula">Power = 1−β</div><p>Two-stage course method: find the critical X̄ boundary under H0, then calculate β under the stated true distribution. Power rises when n increases or the true parameter moves farther from the null; β rises when α falls, variance rises, n falls, or the true value moves closer to the null.</p>
+<div class="wm-trap"><strong>Common trap:</strong> the direction of the test is set by H1 before you see the sample result. Do not choose a tail because the observed X̄ happens to be above or below μ₀.</div>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="9-hyp" type="checkbox"/>I write hypotheses about μ or π, not X̄ or p.</label><label class="wm-check"><input data-wm-check="9-tail" type="checkbox"/>I choose the tail from H1.</label><label class="wm-check"><input data-wm-check="9-z-t-p" type="checkbox"/>I discriminate Z, t and proportion routes.</label><label class="wm-check"><input data-wm-check="9-power" type="checkbox"/>I can perform the two-stage power calculation.</label></div>
+<p class="wm-source">Primary basis: complete listed Chapter 9 lecture sequence, 3 Sep practical, Tutorial 9 Excel memo and supplied Chapter 9 one-page summary.</p>
+</article>
+<article class="panel" id="wm10">
+<div class="section-head"><div><h2>Chapter 10 · Two-Sample Tests + Intervals</h2><p class="muted">Repaired v0.3.1: hypothesis tests and the assessed confidence-interval routes now live in one decision system.</p></div><span class="badge ready">RECOVERY BASELINE</span></div>
+<div class="wm-grid3">
+<div class="wm-chapter"><h3>Independent means · σ₁,σ₂ known</h3><div class="wm-formula">Z=[(X̄₁−X̄₂)−Δ₀]/√(σ₁²/n₁+σ₂²/n₂)<br/>CI: (X̄₁−X̄₂) ± z*√(σ₁²/n₁+σ₂²/n₂)</div><p>Use the Z family only when both population SDs are known.</p></div>
+<div class="wm-chapter"><h3>Independent means · equal unknown variances</h3><div class="wm-formula">s²p=[(n₁−1)s₁²+(n₂−1)s₂²]/(n₁+n₂−2)<br/>SE=sp√(1/n₁+1/n₂)<br/>t=[(X̄₁−X̄₂)−Δ₀]/SE<br/>CI: (X̄₁−X̄₂) ± t*SE</div><p><strong>Mark-bearing order:</strong> pooled variance → pooled SE → statistic/CI → df=n₁+n₂−2.</p></div>
+<div class="wm-chapter"><h3>Paired / related means</h3><div class="wm-formula">t=(D̄−μD,0)/(sD/√n), df=n−1<br/>CI: D̄ ± t*sD/√n</div><p>Reduce each pair to one difference. n is the number of pairs.</p></div>
+<div class="wm-chapter"><h3>Two proportions · test</h3><div class="wm-formula">p̄=(x₁+x₂)/(n₁+n₂)<br/>Z=[(p₁−p₂)−0]/√[p̄(1−p̄)(1/n₁+1/n₂)]</div><p><strong>Equality-test denominator is pooled under H₀: π₁=π₂.</strong></p></div>
+<div class="wm-chapter"><h3>Two proportions · confidence interval</h3><div class="wm-formula">(p₁−p₂) ± z*√[p₁(1−p₁)/n₁ + p₂(1−p₂)/n₂]</div><p><strong>Do not pool the CI standard error.</strong> The course deck uses the two observed sample proportions in the interval SE.</p></div>
+<div class="wm-chapter"><h3>Two variances</h3><div class="wm-formula">F=s²large/s²small</div><p>For the module route, larger sample variance goes in the numerator. Match numerator and denominator df to the corresponding samples.</p></div>
+<div class="wm-chapter"><h3>Unequal unknown variances</h3><p>The Chapter 10 deck states that the unequal-variance t test is <strong>beyond the scope of this course</strong>. Recognise the case; do not invent a Welch route for this module unless later official material changes the instruction.</p></div>
+<div class="wm-chapter"><h3>Effect size</h3><p>Train interpretation rather than Bonett calculation: statistical significance asks whether evidence exists; practical significance asks whether the magnitude matters. The 18 September lecture uses approximate standardized-effect-size anchors of 0.2 small, 0.5 medium and 0.8 large.</p></div>
+</div>
+<div class="wm-trap"><strong>Source discrepancy note:</strong> the Chapter 10 Excel p-value example displays p=0.0179, α=0.05 and the decision “Reject the null hypothesis”, but the printed Excel IF expression on that slide uses the comparator D22&gt;D9. Those two elements conflict. This build follows the displayed decision and the module decision rule used elsewhere: reject when p-value&lt;α.</div>
+<h3>Test versus CI discriminator</h3><table class="wm-table"><thead><tr><th>Family</th><th>Hypothesis-test SE</th><th>Confidence-interval SE</th></tr></thead><tbody><tr><td>Two proportions</td><td>Pooled under H₀: π₁=π₂</td><td>Unpooled using p₁ and p₂</td></tr><tr><td>Pooled two means</td><td>Same pooled SE family</td><td>Same pooled SE family</td></tr><tr><td>Paired means</td><td>sD/√n</td><td>sD/√n</td></tr></tbody></table>
+<h3>Tutorial 10 worked anchor</h3><p>For n₁=8, X̄₁=42, s₁=4 and n₂=15, X̄₂=34, s₂=5 with equal population variances:</p><div class="wm-formula">s²p=22.0000 → SE=2.05345 → t=3.89588 → df=21</div>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="10-family" type="checkbox"/>I identify independent, paired, proportion and variance families.</label><label class="wm-check"><input data-wm-check="10-pooled" type="checkbox"/>I calculate pooled variance before pooled SE.</label><label class="wm-check"><input data-wm-check="10-ci" type="checkbox"/>I can construct pooled-mean and paired-mean CIs.</label><label class="wm-check"><input data-wm-check="10-prop" type="checkbox"/>I know pooled-test versus unpooled-CI SE for two proportions.</label><label class="wm-check"><input data-wm-check="10-f" type="checkbox"/>I order the F ratio and df correctly.</label></div>
+<p class="wm-source">Primary basis: official Chapter 10 deck, Tutorial 10, F tables, effect-size extract and 2026 Chapter 10 lecture/tutorial transcripts.</p>
+</article>
+<article class="panel" id="wm13">
+<div class="section-head"><div><h2>Chapter 13 · Simple Linear Regression</h2><p class="muted">Repaired v0.3.1: calculation, output interpretation, assumptions and correlation inference.</p></div><span class="badge ready">RECOVERY BASELINE</span></div>
+<div class="wm-grid">
+<div class="wm-chapter"><h3>Fit the estimated line</h3><div class="wm-formula">b₁=SSXY/SSX<br/>b₀=ȳ−b₁x̄<br/>ŷ=b₀+b₁X</div><p>For small datasets the official deck gives the hand-calculator coefficient route. Keep the hat on predicted Y.</p></div>
+<div class="wm-chapter"><h3>Interpret coefficients</h3><p><strong>Intercept:</strong> estimated mean Y when X=0, if X=0 is meaningful. <strong>Slope:</strong> estimated change in mean Y for a one-unit increase in X.</p></div>
+<div class="wm-chapter"><h3>Sums of squares + fit</h3><div class="wm-formula">SST=SSR+SSE<br/>r²=SSR/SST<br/>sYX=√[SSE/(n−2)]</div><p>Use these identities to reconstruct deliberately omitted output cells.</p></div>
+<div class="wm-chapter"><h3>ANOVA / slope inference</h3><div class="wm-formula">MSR=SSR<br/>MSE=SSE/(n−2)<br/>F=MSR/MSE<br/>t=(b₁−β₁)/sb₁, df=n−2</div><p>For the usual slope test, H₀:β₁=0. The slope CI is b₁±t*sb₁.</p></div>
+<div class="wm-chapter"><h3>Correlation inference</h3><div class="wm-formula">H₀:ρ=0; H₁:ρ≠0<br/>t=(r−ρ)/√[(1−r²)/(n−2)], df=n−2</div><p>The deck uses r with the sign of b₁. Do not replace this with the slope t formula by accident.</p></div>
+<div class="wm-chapter"><h3>Prediction + residual</h3><div class="wm-formula">ŷ=b₀+b₁x₀<br/>residual=y−ŷ</div><p>Keep the residual sign. Avoid unsupported extrapolation beyond the observed X range.</p></div>
+</div>
+<h3>L.I.N.E. assumptions and residual diagnostics</h3><table class="wm-table"><thead><tr><th>Assumption</th><th>What to inspect</th></tr></thead><tbody><tr><td><strong>L</strong>inearity</td><td>Scatterplot and residuals versus X; no systematic curved pattern.</td></tr><tr><td><strong>I</strong>ndependence of errors</td><td>When data are collected over time, inspect residuals versus time for dependence.</td></tr><tr><td><strong>N</strong>ormality of errors</td><td>Histogram/boxplot/normal probability plot of residuals for serious non-normality.</td></tr><tr><td><strong>E</strong>qual error variance</td><td>Residuals versus X should not show a widening/narrowing funnel.</td></tr></tbody></table>
+<h3>Output reconstruction drill</h3><table class="wm-table"><thead><tr><th>If blank...</th><th>Recover with...</th></tr></thead><tbody><tr><td>R Square</td><td>SSR/SST</td></tr><tr><td>SSE</td><td>SST−SSR</td></tr><tr><td>MSE</td><td>SSE/(n−2)</td></tr><tr><td>Standard Error</td><td>√MSE</td></tr><tr><td>F</td><td>MSR/MSE</td></tr><tr><td>Predicted Y</td><td>b₀+b₁X</td></tr><tr><td>Residual</td><td>Y−ŷ</td></tr></tbody></table>
+<div class="wm-mark"><strong>Tutorial anchor:</strong> for the shelf-space example with SSR=2.0535 and SST=3.0025, SSE=0.9490, r²≈0.68393 and sYX≈0.30806.</div>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="13-eq" type="checkbox"/>I calculate b₁, b₀ and write ŷ=b₀+b₁X correctly.</label><label class="wm-check"><input data-wm-check="13-interpret" type="checkbox"/>I interpret b₀, b₁ and r² precisely.</label><label class="wm-check"><input data-wm-check="13-output" type="checkbox"/>I reconstruct missing regression-output cells.</label><label class="wm-check"><input data-wm-check="13-test" type="checkbox"/>I perform slope t / overall F inference.</label><label class="wm-check"><input data-wm-check="13-corr" type="checkbox"/>I can test H₀:ρ=0 with the correlation t statistic.</label><label class="wm-check"><input data-wm-check="13-line" type="checkbox"/>I can diagnose L.I.N.E. assumptions from residual plots.</label></div>
+<p class="wm-source">Primary basis: official Chapter 13 deck, Tutorial 11, regression_data.xlsx and 21–22 September lecture sequence.</p>
+</article>
+<article class="panel" id="wm14">
+<div class="section-head"><div><h2>Chapter 14 · Multiple Linear Regression Core</h2><p class="muted">Built only to the extent directly supported by Tutorial 11 Q12 + the A2S2 formula sheet.</p></div><span class="badge partial">RECOVERY BASELINE · OCTOBER PATCH PENDING</span></div>
+<div class="wm-trap"><strong>Scope guard:</strong> this is intentionally not a full textbook Chapter 14. No unsupported topics are being invented while we wait for direct Chapter 14 teaching material.</div>
+<div class="wm-grid">
+<div class="wm-chapter"><h3>Model</h3><div class="wm-formula">Yᵢ=β₀+β₁X₁ᵢ+…+βkXkᵢ+εᵢ</div><p>k is the number of predictors. Residual df = n−k−1.</p></div>
+<div class="wm-chapter"><h3>ANOVA pieces</h3><div class="wm-formula">MSR=SSR/k<br/>MSE=SSE/(n−k−1)<br/>F=MSR/MSE</div><p>Overall F tests whether the predictor set has explanatory value as a model.</p></div>
+<div class="wm-chapter"><h3>Adjusted r²</h3><div class="wm-formula">r²adj=1−(1−r²)(n−1)/(n−k−1)</div><p>Unlike ordinary r², adjusted r² penalises adding predictors through the df adjustment.</p></div>
+<div class="wm-chapter"><h3>Overall hypotheses</h3><div class="wm-formula">H₀: β₁=β₂=…=βk=0<br/>H₁: at least one βj≠0</div><p>Use F with df1=k and df2=n−k−1.</p></div>
+<div class="wm-chapter"><h3>Individual coefficient t · formula-sheet anchor</h3><div class="wm-formula">t=(bⱼ−βⱼ)/s<sub>bⱼ</sub></div><p>The supplied A2S2 formula sheet prints this coefficient-test statistic. Keep broader Chapter 14 coefficient-inference teaching source-gated until direct official Chapter 14 material is supplied.</p></div>
+</div>
+<h3>Tutorial 11 Q12 anchor · n=64, k=9, SST=53895.51, MSR=1455</h3><table class="wm-table"><tbody><tr><th>SSR</th><td>MSR×k = 1455×9 = <strong>13095</strong></td></tr><tr><th>SSE</th><td>SST−SSR = <strong>40800.51</strong></td></tr><tr><th>MSE</th><td>SSE/(64−9−1) = <strong>755.565</strong></td></tr><tr><th>sY</th><td>√[SST/(n−1)] ≈ <strong>29.2487</strong></td></tr><tr><th>r²</th><td>SSR/SST ≈ <strong>0.24297</strong></td></tr><tr><th>Multiple R</th><td>√r² ≈ <strong>0.49292</strong></td></tr><tr><th>Adjusted r²</th><td>≈ <strong>0.11680</strong></td></tr><tr><th>F</th><td>MSR/MSE ≈ <strong>1.92571</strong>, df=(9,54)</td></tr></tbody></table>
+<p>At α=.05, compare the F statistic to the supplied F-table critical value for numerator df=9 and denominator df=54 before writing the overall-significance conclusion.</p>
+<div class="wm-checklist"><label class="wm-check"><input data-wm-check="14-df" type="checkbox"/>I know residual df=n−k−1.</label><label class="wm-check"><input data-wm-check="14-anova" type="checkbox"/>I can reconstruct SSR/SSE/MSR/MSE.</label><label class="wm-check"><input data-wm-check="14-adjr2" type="checkbox"/>I can calculate adjusted r².</label><label class="wm-check"><input data-wm-check="14-f" type="checkbox"/>I can write the overall F hypotheses and df.</label><label class="wm-check"><input data-wm-check="14-coeft" type="checkbox"/>I recognise the individual coefficient t statistic printed on the A2S2 formula sheet.</label></div>
+<p class="wm-source">Direct source basis only: official A2S2 formula sheet + Tutorial 11 Q12. Expansion is source-gated.</p>
+</article>
+<article class="panel" id="wm-practice">
+
+<section class="panel" id="v05-repair-addendum">
+<span class="badge ready">RECOVERED v0.4 REPAIR RULES</span>
+<h2>Method-selection repairs carried forward</h2>
+<div class="a2-grid">
+<article class="panel">
+<h3>Chapter 8 · planning + finite population</h3>
+<ul>
+<li>If no planning estimate for a population proportion is supplied, use the conservative planning value <strong>π = 0.5</strong>.</li>
+<li>Finite-population total interval: estimate the total with <strong>Nx̄</strong>; its standard error carries the finite-population correction.</li>
+<li>For an unlisted t-table df, any lower-df lookup convention must remain visibly labelled <strong>interim / lecturer-unconfirmed</strong>.</li>
+</ul>
+</article>
+<article class="panel">
+<h3>Chapter 10 · variance test</h3>
+<p><strong>F = s²<sub>large</sub>/s²<sub>small</sub>.</strong> Match numerator and denominator df to those samples.</p>
+<p><strong>Two-tailed variance test:</strong> use the upper critical value at <strong>α/2</strong>. An upper-tailed variance test uses <strong>α</strong>.</p>
+</article>
+<article class="panel">
+<h3>Chapter 13 · regression inference</h3>
+<p><strong>s<sub>b1</sub> = s<sub>YX</sub>/√SSX</strong> <code>s_b1 = sYX/√SSX</code>.</p>
+<p>For testing β₁ = 0, the slope t-test, the equivalent one-predictor ANOVA F-test, the slope confidence interval and the p-value express the same inferential decision; for simple regression <strong>F = t²</strong>.</p>
+<p>Numerically interpret the intercept only when <strong>X = 0 lies within the observed X range</strong>; contextual meaning is a separate check.</p>
+</article>
+<article class="panel">
+<h3>Chapter 14 · current bounded anchor</h3>
+<p>Coefficient t-test df: <strong>n − k − 1</strong>.</p>
+<p>Tutorial 11 Q12: <strong>F ≈ 1.9257</strong>, df = (9,54), exact 5% critical value ≈ <strong>2.0585</strong>, p ≈ <strong>0.0676</strong>. Therefore <strong>do not reject H₀ at 5%</strong>.</p>
+<p>The October Chapter 14 teaching/transcript delta is intentionally <strong>not yet merged into this recovery baseline</strong>; that is the next academic-content build.</p>
+</article>
+</div>
+<div class="panel">
+<h3>Marked-answer language</h3>
+<p>Train the full chain: <strong>statistic versus critical value / p-value versus α → reject or do not reject H₀ → contextual conclusion.</strong> A bare calculator number is not a complete statistical answer.</p>
+</div>
+<div class="panel">
+<h3>Power anchor</h3>
+<p>For the repaired Chapter 9 anchor: critical boundary ≈ <strong>197.652</strong>; <strong>β ≈ 0.324</strong>; therefore <strong>power ≈ 0.676</strong>.</p>
+</div>
+</section>
+<h2>Written Practice Bank · v0.3.1</h2><p class="muted">Short source-aligned prompts. Work on paper first; then open the answer.</p>
+<details class="wm-q"><summary>Q1 · Ch 7 · Mean probability recognition</summary><p>A population has μ=100, σ=10. A random sample of n=25 is selected. What distributional spread belongs to X̄?</p><div class="wm-answer"><strong>Answer:</strong> SE=σ/√n=10/5=2. Centre remains 100. Do not use σ=10 for the sample mean.</div></details>
+<details class="wm-q"><summary>Q2 · Ch 8 · Unknown-σ confidence interval route</summary><p>You are given X̄, s and n, but no population σ. State the interval family and df.</p><div class="wm-answer"><strong>Answer:</strong> Student-t interval, X̄±tα/2,n−1·s/√n, with df=n−1.</div></details>
+<details class="wm-q"><summary>Q3 · Ch 9 · Tail recognition</summary><p>H1: μ&gt;500. Where is the rejection region and what happens to α?</p><div class="wm-answer"><strong>Answer:</strong> Upper-tail test; place the full α in the right tail.</div></details>
+<details class="wm-q"><summary>Q4 · Ch 9 · Power direction</summary><p>With all else fixed, what happens to β and power when n increases?</p><div class="wm-answer"><strong>Answer:</strong> β decreases and power=1−β increases.</div></details>
+<details class="wm-q"><summary>Q5 · Ch 10 · Pooled independent means</summary><p>n₁=8, X̄₁=42, s₁=4; n₂=15, X̄₂=34, s₂=5. Equal variances. Calculate s²p and df.</p><div class="wm-answer"><strong>Answer:</strong> s²p=[7(16)+14(25)]/21=22; df=8+15−2=21.</div></details>
+<details class="wm-q"><summary>Q6 · Ch 10 · Paired design trap</summary><p>Twenty matched pairs are measured. What n and df belong to the paired t test?</p><div class="wm-answer"><strong>Answer:</strong> n=20 differences; df=19. Do not use n=40.</div></details>
+<details class="wm-q"><summary>Q7 · Ch 10 · F ratio</summary><p>s₁=4 and s₂=7. Which variance belongs in the numerator for the module F-test route?</p><div class="wm-answer"><strong>Answer:</strong> 7²=49 belongs in the numerator; 4²=16 in the denominator. Match df to the samples in that order.</div></details>
+<details class="wm-q"><summary>Q8 · Ch 13 · Regression equation</summary><p>b₀=1.45, b₁=0.074. Predict mean Y when X=8.</p><div class="wm-answer"><strong>Answer:</strong> ŷ=1.45+0.074(8)=2.042. Keep the hat on predicted Y.</div></details>
+<details class="wm-q"><summary>Q9 · Ch 13 · Missing r²</summary><p>SSR=2.0535, SST=3.0025. Recover r².</p><div class="wm-answer"><strong>Answer:</strong> r²=SSR/SST≈0.68393, so about 68.393% of the variation in Y is explained by variation in X through the estimated linear model.</div></details>
+<details class="wm-q"><summary>Q10 · Ch 13 · Residual</summary><p>Observed Y=3 and predicted ŷ=1.367? What is the residual rule?</p><div class="wm-answer"><strong>Answer:</strong> residual=Y−ŷ. Keep the sign; do not take an absolute difference.</div></details>
+<details class="wm-q"><summary>Q11 · Ch 14 · ANOVA reconstruction</summary><p>n=64, k=9, SST=53895.51 and MSR=1455. Find SSR and residual df.</p><div class="wm-answer"><strong>Answer:</strong> SSR=MSR×k=13095; residual df=64−9−1=54.</div></details>
+<details class="wm-q"><summary>Q12 · Mixed · Choose the family</summary><p>Two independent groups, population SDs unknown, equal population variances assumed. Which route?</p><div class="wm-answer"><strong>Answer:</strong> Chapter 10 pooled-variance two-sample t route; df=n₁+n₂−2.</div></details>
+</article>
+</section>
+<section class="view" hidden="" id="paper-mode" role="tabpanel">
+<div class="section-head"><div><h2>Paper Exam Mode</h2><p class="muted">Implemented written-stage scoring, mixed MCQs and timed source-aligned generated mocks.</p></div></div>
+<div class="panel"><div class="a2-answer-frame"><div><b>1</b><span>Parameter / hypotheses</span></div><div><b>2</b><span>Conditions / assumptions</span></div><div><b>3</b><span>Formula and distribution</span></div><div><b>4</b><span>Substitute values</span></div><div><b>5</b><span>Critical value / p-value / interval</span></div><div><b>6</b><span>Decision</span></div><div><b>7</b><span>Contextual conclusion</span></div></div></div>
+<div class="a2-grid"><article class="panel"><h3>Section A · longer questions</h3><p>Each mock uses visible mark-stage checkboxes so you can self-mark method evidence separately from the final number.</p><div class="notice"><strong>Partial-mark rule:</strong> if stuck, still write the parameter/hypotheses, assumptions, distribution, df, formula and decision rule.</div></article><article class="panel"><h3>Section B · mixed MCQ</h3><p>Chapter labels and method names are removed inside the mock. Method recognition is part of the question.</p></article></div>
+<div class="panel"><h3>Lecturer-proven mark rules</h3><ul class="a2-build-list"><li><strong>Never write “accept H0”.</strong> Use reject H0 or fail/do not reject H0, then state the evidence conclusion in context.</li><li><strong>Avoid premature rounding.</strong> Keep intermediate precision and round at the end unless instructed otherwise.</li><li><strong>Regression notation is mark-bearing.</strong> Use ŷ for a predicted response and interpret coefficients in context.</li><li><strong>Power belongs in A2 Chapter 9 preparation.</strong> Know β, power=1−β and the critical-boundary workflow.</li></ul></div>
+<article class="panel mock-shell" data-duration="60" data-mock="diagnostic" id="diagnostic-mock">
+<div class="section-head"><div><h2>Diagnostic Mixed Paper · 60 min</h2><p class="muted">Generated from the verified Chapter 7–10 and 13–14 method families. Not an official past paper.</p></div><span class="badge partial">DIAGNOSTIC</span></div>
+<div class="mock-toolbar"><button class="primary" data-mock-start="diagnostic">START 60-MIN TIMER</button><span class="mock-timer" id="timer-diagnostic">60:00</span><button class="secondary" data-mock-score="diagnostic">SCORE DIAGNOSTIC</button></div>
+<div class="mock-section"><h3>Section A · 30 marks</h3>
+<div class="mock-q"><strong>Q1 · 10 marks</strong><p>A sample gives X̄=51.2, s=4.8, n=25. Test H₀:μ=50 against H₁:μ≠50 at α=.05, and state the matching 95% confidence-interval decision check.</p><div class="mark-grid"><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> Correct H₀/H₁ and two-tail</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> Student t selected</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> df=24</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> t statistic setup + substitution</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> critical/p-value route</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> reject/fail-to-reject rule</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> same-level CI cross-check</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> contextual conclusion</label></div><details><summary>Memo</summary><p>t=(51.2−50)/(4.8/5)=1.25, df=24. At 5% two-tail, |t| is below the usual 95% critical boundary, so do not reject H₀; the corresponding 95% CI contains 50.</p></details></div>
+<div class="mock-q"><strong>Q2 · 10 marks</strong><p>Two independent samples have n₁=8, X̄₁=42, s₁=4 and n₂=15, X̄₂=34, s₂=5. Equal population variances are assumed. Set up the pooled two-sample t test for H₀:μ₁−μ₂=0 and a 95% CI for μ₁−μ₂.</p><div class="mark-grid"><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> s²p=22</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> sp identified</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> SE≈2.05345</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> df=21</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> t≈3.89588</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> 95% CI formula</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> contextual interpretation</label></div><details><summary>Memo</summary><p>s²p=22; SE=√22·√(1/8+1/15)≈2.05345; t≈3.89588; df=21. CI structure is 8 ± t*×2.05345.</p></details></div>
+<div class="mock-q"><strong>Q3 · 10 marks</strong><p>Regression output gives n=12, SSR=2.0535, SST=3.0025, b₁=.074 and sb₁=.0159. Recover SSE, r² and sYX, then set up the slope t test.</p><div class="mark-grid"><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> SSE=.9490</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> r²≈.68393</label><label><input data-mock-mark="diagnostic" type="checkbox" value="2"/> sYX≈.30806</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> H₀:β₁=0</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> df=10</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> t=.074/.0159</label><label><input data-mock-mark="diagnostic" type="checkbox" value="1"/> correct r² interpretation</label></div><details><summary>Memo</summary><p>SSE=.9490; r²≈.68393; sYX=√(.9490/10)≈.30806; t≈4.6541 with df=10.</p></details></div>
+</div>
+<div class="mock-section"><h3>Section B · 6 marks</h3><div class="mcq-grid" id="mcq-diagnostic"></div></div><div class="mock-score" id="score-diagnostic">Not scored yet.</div>
+</article>
+<article class="panel mock-shell" data-duration="180" data-mock="mockA" id="full-mock-a">
+<div class="section-head"><div><h2>Full Source-Aligned Mock A · FULL MOCK · DURATION NOT LOCKED</h2><p class="muted">Generated practice architecture: Section A method marks + Section B mixed MCQ. Not an official past paper.</p></div><span class="badge ready">FULL MOCK</span></div>
+<div class="mock-toolbar"><button class="primary" data-mock-start="mockA">START FULL MOCK · DURATION NOT LOCKED TIMER</button><span class="mock-timer" id="timer-mockA">180:00</span><label><input id="closed-mockA" type="checkbox"/> I completed this closed-book</label><button class="secondary" data-mock-score="mockA">SCORE + RECORD</button></div>
+<div class="mock-section"><h3>Section A · 60 marks</h3>
+<div class="mock-q"><strong>A1 · 12 marks · Sampling + confidence</strong><p>A finite population has N=500. A sample without replacement of n=50 gives X̄=82 and s=12. State whether the finite-population correction is material under the course rule, then construct the 95% mean-CI setup using the unknown-σ route and FPC.</p><div class="mark-grid"><label><input data-mock-mark="mockA" type="checkbox" value="1"/> n/N=.10 &gt; .05</label><label><input data-mock-mark="mockA" type="checkbox" value="1"/> t route selected</label><label><input data-mock-mark="mockA" type="checkbox" value="1"/> df=49</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> SE=s/√n</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> FPC=√[(N−n)/(N−1)]</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> combined CI setup</label><label><input data-mock-mark="mockA" type="checkbox" value="1"/> critical-value route</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> interpretation</label></div></div>
+<div class="mock-q"><strong>A2 · 12 marks · One-proportion test</strong><p>In a sample of 400 customers, 88 prefer option A. Test H₀:π=.20 against H₁:π&gt;.20 at α=.05. Show expected-count checks, statistic and conclusion structure.</p><div class="mark-grid"><label><input data-mock-mark="mockA" type="checkbox" value="1"/> p=.22</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> expected counts 80 and 320</label><label><input data-mock-mark="mockA" type="checkbox" value="1"/> upper-tail</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> null SE uses π₀=.20</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> Z setup</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> critical/p-value decision</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> context conclusion</label></div></div>
+<div class="mock-q"><strong>A3 · 14 marks · Two-sample inference</strong><p>Two webpage designs have x₁=387 of n₁=4325 sign-ups and x₂=283 of n₂=4639. Set up the equality test for π₁−π₂ and a 95% CI. Explicitly distinguish the two standard errors.</p><div class="mark-grid"><label><input data-mock-mark="mockA" type="checkbox" value="2"/> p₁,p₂ calculated</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> pooled p̄ for H₀ test</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> pooled test SE</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> Z statistic</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> unpooled CI SE</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> 95% CI setup</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> decision + interpretation</label></div></div>
+<div class="mock-q"><strong>A4 · 12 marks · Simple regression</strong><p>Given b₀=98.2483, b₁=.10977, sb₁=.03297, n=10, SSR=18934.9348 and SSE=13665.5652: write the prediction line, interpret the slope, calculate r², set up the slope t test and identify two residual diagnostics relevant to L.I.N.E.</p><div class="mark-grid"><label><input data-mock-mark="mockA" type="checkbox" value="2"/> ŷ equation</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> slope interpretation</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> r² route</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> t=b₁/sb₁, df=8</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> L.I.N.E. residual diagnostic 1</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> L.I.N.E. residual diagnostic 2</label></div></div>
+<div class="mock-q"><strong>A5 · 10 marks · Multiple-regression core</strong><p>A model has n=64, k=9, SST=53895.51 and MSR=1455. Recover SSR, SSE, MSE and adjusted r², then state the overall F hypotheses and degrees of freedom.</p><div class="mark-grid"><label><input data-mock-mark="mockA" type="checkbox" value="1"/> SSR=13095</label><label><input data-mock-mark="mockA" type="checkbox" value="1"/> SSE=40800.51</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> MSE=755.565</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> r² then adjusted r²≈.11680</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> H₀ all slopes=0; H₁ at least one nonzero</label><label><input data-mock-mark="mockA" type="checkbox" value="2"/> F df=(9,54)</label></div></div>
+</div><div class="mock-section"><h3>Section B · 12 marks</h3><div class="mcq-grid" id="mcq-mockA"></div></div><div class="mock-score" id="score-mockA">Not scored yet.</div>
+</article>
+<article class="panel mock-shell" data-duration="180" data-mock="mockB" id="full-mock-b">
+<div class="section-head"><div><h2>Full Source-Aligned Mock B · FULL MOCK · DURATION NOT LOCKED</h2><p class="muted">Second representative generated mock for delayed mixed practice.</p></div><span class="badge ready">FULL MOCK</span></div>
+<div class="mock-toolbar"><button class="primary" data-mock-start="mockB">START FULL MOCK · DURATION NOT LOCKED TIMER</button><span class="mock-timer" id="timer-mockB">180:00</span><label><input id="closed-mockB" type="checkbox"/> I completed this closed-book</label><button class="secondary" data-mock-score="mockB">SCORE + RECORD</button></div>
+<div class="mock-section"><h3>Section A · 60 marks</h3>
+<div class="mock-q"><strong>B1 · 12 marks</strong><p>A population has μ=100 and σ=15. For n=36, calculate the sampling-distribution centre and SE for X̄, then show the route for P(X̄&gt;104).</p><div class="mark-grid"><label><input data-mock-mark="mockB" type="checkbox" value="2"/> object X̄</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> centre=100</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> SE=15/6=2.5</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> Z setup</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> right-tail complement</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> context</label></div></div>
+<div class="mock-q"><strong>B2 · 12 marks</strong><p>For a lower-tail mean test with μ₀=200, σ=5.71, n=16 and α=.05, show the critical X̄ boundary and explain how β and power would be evaluated if the true mean were 197.</p><div class="mark-grid"><label><input data-mock-mark="mockB" type="checkbox" value="2"/> lower-tail H₁</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> SE=1.4275</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> z*≈−1.645</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> critical X̄≈197.652</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> β evaluated under μ=197</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> power=1−β</label></div></div>
+<div class="mock-q"><strong>B3 · 14 marks</strong><p>Twenty matched pairs produce D̄=−3.2871 and sD=6.0101. Test H₀:μD=0 two-sided and construct the 95% CI. Explain why n=20, not 40.</p><div class="mark-grid"><label><input data-mock-mark="mockB" type="checkbox" value="2"/> paired design recognised</label><label><input data-mock-mark="mockB" type="checkbox" value="1"/> n=20 differences</label><label><input data-mock-mark="mockB" type="checkbox" value="1"/> df=19</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> t setup</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> two-tail critical/p-value</label><label><input data-mock-mark="mockB" type="checkbox" value="3"/> 95% paired CI</label><label><input data-mock-mark="mockB" type="checkbox" value="3"/> decision + context</label></div></div>
+<div class="mock-q"><strong>B4 · 12 marks</strong><p>For a simple regression, describe how residual plots would flag a failure of linearity, equal variance, normality and independence. Then state the correlation-coefficient hypotheses and df.</p><div class="mark-grid"><label><input data-mock-mark="mockB" type="checkbox" value="2"/> linearity diagnostic</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> equal-variance diagnostic</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> normality diagnostic</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> independence diagnostic</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> H₀:ρ=0; H₁:ρ≠0</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> df=n−2</label></div></div>
+<div class="mock-q"><strong>B5 · 10 marks</strong><p>For a multiple regression with k predictors, state residual df, MSR, MSE, overall F, adjusted-r² formula and the overall null hypothesis.</p><div class="mark-grid"><label><input data-mock-mark="mockB" type="checkbox" value="2"/> df=n−k−1</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> MSR=SSR/k</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> MSE=SSE/(n−k−1)</label><label><input data-mock-mark="mockB" type="checkbox" value="2"/> F=MSR/MSE</label><label><input data-mock-mark="mockB" type="checkbox" value="1"/> adjusted r² formula</label><label><input data-mock-mark="mockB" type="checkbox" value="1"/> all slopes zero null</label></div></div>
+</div><div class="mock-section"><h3>Section B · 12 marks</h3><div class="mcq-grid" id="mcq-mockB"></div></div><div class="mock-score" id="score-mockB">Not scored yet.</div>
+</article>
+<div class="source-guard"><strong>Mock status:</strong> these are source-aligned generated practice papers built from the supplied SDS188 course materials. They are not represented as official 2026 past papers or as predictions of exact chapter weighting.</div>
+</section>
+<section class="view" hidden="" id="formula-map" role="tabpanel">
+<div class="section-head"><div><h2>A2S2 Formula Sheet Map</h2><p class="muted">Use the official two-page sheet as a recognition map, not as a substitute for knowing when each formula applies.</p></div><button class="primary no-print" id="a2-download-formula">DOWNLOAD FORMULA SHEET</button></div>
+<div class="a2-grid">
+<article class="panel"><h3>Page 1 · inference</h3><table class="source-table"><thead><tr><th>Formula family</th><th>Main chapter</th><th>Recognition cue</th></tr></thead><tbody><tr><td>Sample-size formulas + FPC</td><td>8</td><td>Required n for a mean/proportion; finite N</td></tr><tr><td>One mean / one proportion</td><td>8–9</td><td>CI or hypothesis test for one population</td></tr><tr><td>Two independent means</td><td>10</td><td>Compare Group 1 vs Group 2</td></tr><tr><td>Two proportions</td><td>10</td><td>Compare success proportions</td></tr><tr><td>Variance ratio F</td><td>10</td><td>Compare population variances</td></tr><tr><td>Slope / correlation t</td><td>13</td><td>Inference for simple linear relationship</td></tr></tbody></table></article>
+<article class="panel"><h3>Page 2 · regression</h3><table class="source-table"><thead><tr><th>Formula family</th><th>Main chapter</th><th>Recognition cue</th></tr></thead><tbody><tr><td>Simple linear regression model</td><td>13</td><td>One X predicts/explains Y</td></tr><tr><td>SST = SSR + SSE; SSX; SSXY</td><td>13</td><td>Regression sums of squares</td></tr><tr><td>b₀, b₁, r², sYX</td><td>13</td><td>Fit and assess the simple line</td></tr><tr><td>MSR, MSE, F</td><td>13</td><td>Overall simple-regression test</td></tr><tr><td>Multiple regression model</td><td>14</td><td>Two or more X predictors</td></tr><tr><td>Adjusted r²; overall F; coefficient t</td><td>14</td><td>Multiple-regression fit and coefficient inference</td></tr></tbody></table></article>
+</div>
+<div class="panel"><h3>Required retrieval standard</h3><p>For every printed formula, this build requires: <strong>what it is → when to use it → symbol meanings → conditions → degrees of freedom → one worked setup → common trap → interpretation sentence.</strong></p></div>
+</section>
+
+
+
+
+
+
+
+<section class="view" hidden="" id="a2-practice" role="tabpanel">
+<div class="section-head">
+<div>
+<h2>A2 Practice · Recovery Engine</h2>
+<p class="muted">Small verified retrieval layer for codebase recovery. Full Learning→Mastery bank is the next build, not silently reconstructed here.</p>
+</div>
+</div>
+<div class="panel">
+<div class="actions">
+<button class="primary" id="practice-next" type="button">NEXT QUESTION</button>
+<button class="secondary" id="practice-show" type="button">SHOW EXPLANATION</button>
+</div>
+<div id="practice-card" style="margin-top:1rem"></div>
+<div class="panel" hidden="" id="practice-explanation"></div>
+<p class="muted" id="practice-metrics">Attempts 0 · Correct 0 · Repairs 0</p>
+</div>
+<div class="panel">
+<h3>Repair queue</h3>
+<div id="practice-repairs">No open repairs.</div>
+</div>
+</section>
+<section class="view" hidden="" id="read-print" role="tabpanel">
+<div class="section-head"><div><h2>Read / Print · A2S2</h2><p class="muted">A2 written-mastery and formula reference only. Legacy A1S2 execution material is excluded.</p></div><button class="primary no-print" onclick="window.print()">PRINT A4</button></div>
+<div id="print-content"><p class="muted">A2 print surface is generated from current Written Mastery + Formula Map.</p></div>
+<div class="panel no-print" style="margin-top:1rem"><h3>Progress controls</h3><label>Chapter <select id="reset-chapter"><option>7</option><option>8</option><option>9</option><option>10</option><option>13</option><option>14</option></select></label> <button class="secondary danger" id="reset-one-chapter">RESET CHAPTER</button> <button class="secondary danger" id="reset-all">RESET ENTIRE SYSTEM</button></div>
+<div class="panel" style="margin-top:1rem"><h3>Source register</h3><div id="source-register"></div></div>
+<div class="panel no-print" style="margin-top:1rem"><h3>Internal QA</h3><button class="secondary" id="run-qa">RUN A2S2 REPAIR QA</button><div aria-live="polite" id="qa-results"></div></div>
+</section>
+<aside class="scratch no-print"><button aria-expanded="false" id="scratch-toggle">SCRATCH AREA</button><div class="scratch-panel" hidden="" id="scratch-panel"><label class="ui" for="scratch-text"><strong>Unscored scratch work</strong></label><textarea id="scratch-text"></textarea><div aria-label="Insert symbol" class="symbols"><button>μ</button><button>σ</button><button>π</button><button>λ</button><button>X̄</button><button>≤</button><button>≥</button><button>√</button></div></div></aside>
+<dialog id="confirm-dialog"><h2 id="dialog-title">Confirm</h2><p id="dialog-copy"></p><div class="actions"><button class="primary" id="dialog-confirm">CONFIRM</button><button class="secondary" id="dialog-cancel">CANCEL</button></div></dialog>
+<div aria-live="polite" class="sr" id="announcer"></div>
+
+
+
+
+
+
+<style id="a1s2-excel-integration-style">
+  /* 2026-08-25 bounded exam-day paper + automated Excel training companion patch */
+  .a1s2-control-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:.8rem;margin:.8rem 0}
+  .a1s2-control-card{border:1px solid var(--line);background:var(--panel,#fff);padding:1rem;border-radius:6px}
+  .a1s2-control-card h3{margin:.1rem 0 .5rem;color:var(--wine)}
+  .a1s2-paper-mini{display:grid;gap:.35rem;margin:.55rem 0;font-family:var(--sans)}
+  .a1s2-paper-mini div{border:1px solid var(--line);padding:.55rem;background:#fff}
+  .a1s2-permission-note{border:2px solid #555;background:#f1f1f1;padding:.8rem;margin:.8rem 0;font-family:var(--sans)}
+  .a1s2-priority-list{columns:2;column-gap:1.4rem;margin:.5rem 0;padding-left:1.2rem}
+  .a1s2-priority-list li{break-inside:avoid;margin:.35rem 0}
+  @media(max-width:680px){.a1s2-priority-list{columns:1}}
+  @media print{.a1s2-control-grid{display:block}.a1s2-control-card{break-inside:avoid;margin:.6rem 0}.a1s2-priority-list{columns:1}.a1s2-permission-note{break-inside:avoid}}
+
+  .a1s2-hero{border:2px solid var(--wine);border-top-width:7px;background:linear-gradient(135deg,#fffdf8 0 68%,#f0e3dc 68%);padding:clamp(1rem,3vw,2rem);margin-bottom:1rem}
+  .a1s2-hero h2{margin:.15rem 0 .5rem;color:var(--wine)}
+  .a1s2-evidence-grid,.a1s2-blueprint,.a1s2-formula-grid,.a1s2-task-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.8rem}
+  .a1s2-card{border:1px solid var(--line);background:#fff;padding:1rem;border-radius:4px}
+  .a1s2-card h3{margin:.1rem 0 .45rem;color:var(--wine)}
+  .a1s2-card .tagline{font:800 .68rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .a1s2-confirmed{border-top:5px solid var(--green)}
+  .a1s2-partial{border-top:5px solid var(--gold)}
+  .a1s2-hold{border-top:5px solid var(--red)}
+  .a1s2-rule-list{margin:.45rem 0 0;padding-left:1.25rem}
+  .a1s2-rule-list li{margin:.35rem 0}
+  .a1s2-flow{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font:800 .77rem var(--sans);margin:.8rem 0}
+  .a1s2-flow span{background:#edf3f5;border:1px solid #bdcbd0;padding:.35rem .5rem;border-radius:999px}.a1s2-flow b{color:var(--wine)}
+  .a1s2-task{border:1px solid var(--line);border-top:6px solid var(--blue);background:#fff;padding:1rem;margin:1rem 0;box-shadow:0 6px 18px rgba(54,35,27,.06)}
+  .a1s2-task[data-workbook="true"]{border-top-color:var(--green)}
+  .a1s2-task .task-meta{font:800 .68rem var(--sans);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+  .a1s2-task h3{margin:.25rem 0 .55rem;color:var(--wine)}
+  .a1s2-task .workbook-cue{border-left:4px solid var(--green);background:#eef6ef;padding:.65rem .8rem;margin:.65rem 0;font-family:var(--sans)}
+  .a1s2-task .training-caveat{border-left:4px solid var(--gold);background:#fff8e8;padding:.65rem .8rem;margin:.65rem 0}
+  .a1s2-part{display:grid;grid-template-columns:minmax(0,1fr) minmax(155px,220px);gap:.7rem;align-items:center;padding:.5rem 0;border-bottom:1px solid #eee5db}
+  .a1s2-part:last-of-type{border-bottom:0}.a1s2-part label{font-weight:700}.a1s2-part input,.a1s2-part select{width:100%;padding:.55rem;border:1px solid var(--line);background:#fff}
+  .a1s2-feedback{font:700 .82rem var(--sans);min-height:1.4rem;margin-top:.55rem}.a1s2-feedback.good{color:var(--green)}.a1s2-feedback.bad{color:var(--red)}
+  .a1s2-error-chip{display:inline-block;margin:.18rem .25rem .18rem 0;border:1px solid currentColor;border-radius:999px;padding:.12rem .45rem;font:800 .63rem var(--sans);text-transform:uppercase}
+  .a1s2-toolbar{display:flex;gap:.55rem;flex-wrap:wrap;align-items:center;margin:.8rem 0}
+  .a1s2-timer{font:900 1.15rem var(--sans);color:var(--wine);padding:.45rem .7rem;border:2px solid var(--wine);background:#fff}
+  .a1s2-progress{font:800 .8rem var(--sans);padding:.45rem .65rem;background:#eef4ed;border:1px solid #c2d2c4}
+  .a1s2-source-table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.79rem}.a1s2-source-table th,.a1s2-source-table td{border:1px solid var(--line);padding:.5rem;vertical-align:top}.a1s2-source-table th{background:#eee4d9;text-align:left}
+  .a1s2-rehearsal .a1s2-support,.a1s2-rehearsal .a1s2-blueprint-panel,.a1s2-rehearsal .a1s2-source-panel,.a1s2-rehearsal .a1s2-check-one{display:none!important}
+  .a1s2-rehearsal .a1s2-task{box-shadow:none}.a1s2-rehearsal #a1s2-submit-rehearsal{display:inline-block!important}
+  #a1s2-submit-rehearsal{display:none}
+  .a1s2-rehearsal-banner{display:none;border:2px solid var(--wine);background:#fff0ed;padding:.8rem;margin:.8rem 0;font:800 .8rem var(--sans)}.a1s2-rehearsal .a1s2-rehearsal-banner{display:block}
+  .a1s2-print-supplement{margin-top:1.2rem;border-top:4px solid var(--wine);padding-top:1rem}
+  @media(max-width:680px){.a1s2-part{grid-template-columns:1fr}.a1s2-task-grid{grid-template-columns:1fr}}
+  @media print{#excel-mode{display:none!important}#read-print>.section-head{display:none!important}.a1s2-print-supplement{display:block!important;break-before:page}.a1s2-print-supplement button,.a1s2-print-supplement .no-print{display:none!important}.a1s2-source-table{font-size:8pt}.a1s2-card,.a1s2-print-task{break-inside:avoid}.a1s2-print-task{border:1px solid #777;padding:.75rem;margin:.75rem 0}.a1s2-answer-line{font-weight:700;letter-spacing:.02em}}
+</style>
+<!-- A2S2 v0.3.1 repair: legacy A1S2 Excel runtime integration removed. -->
+<style id="ch8-guided-learn-v14-style">
+.ch8-guided-banner{border:2px solid var(--accent,#334155);border-radius:14px;padding:1rem;margin-bottom:1rem;background:color-mix(in srgb,var(--panel,#fff) 92%,#dbeafe 8%)}
+.ch8-guided-banner .bar{height:.55rem;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:.35rem 0}.ch8-guided-banner .fill{height:100%;background:currentColor}
+.ch8-source-badges{display:flex;gap:.45rem;flex-wrap:wrap;margin:.65rem 0}.ch8-source-badges span{font-size:.78rem;font-weight:800;border:1px solid currentColor;border-radius:999px;padding:.25rem .5rem}
+.ch8-roadmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.55rem;margin:1rem 0}.ch8-roadmap button{text-align:left;padding:.65rem;border:1px solid var(--line,#d1d5db);border-radius:10px;background:var(--panel,#fff);cursor:pointer}.ch8-roadmap button[aria-current="step"]{outline:3px solid color-mix(in srgb,var(--accent,#334155) 30%,transparent);border-color:var(--accent,#334155)}.ch8-roadmap .code{font-weight:900;display:block}.ch8-roadmap .state{display:block;font-size:.72rem;margin-top:.25rem;opacity:.8}.ch8-roadmap .passed{font-weight:800}
+.ch8-lesson{border:1px solid var(--line,#d1d5db);border-radius:16px;padding:1rem;background:var(--panel,#fff)}.ch8-lesson-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;flex-wrap:wrap}.ch8-skill-list{display:flex;gap:.35rem;flex-wrap:wrap;max-width:42rem}.ch8-skill-list span{font-size:.72rem;border:1px solid var(--line,#d1d5db);padding:.2rem .4rem;border-radius:999px}
+.ch8-recognise-grid,.ch8-concept-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.65rem}.ch8-recognise-grid>div,.ch8-concept-grid>div{border:1px solid var(--line,#d1d5db);border-radius:10px;padding:.7rem;background:color-mix(in srgb,var(--panel,#fff) 94%,#f8fafc 6%)}
+.ch8-formula-box{font-size:1.05rem;font-weight:800;border:2px solid var(--accent,#334155);border-radius:10px;padding:.75rem;margin:.6rem 0;background:color-mix(in srgb,var(--panel,#fff) 92%,#f1f5f9 8%)}
+.ch8-excel-route{border-left:5px solid #16a34a}.ch8-trap{border-left:5px solid #dc2626}.ch8-pair{display:grid;grid-template-columns:repeat(2,minmax(120px,220px));gap:.65rem;margin:.6rem 0}.ch8-pair label{display:grid;gap:.2rem}.ch8-pair input{width:100%}
+.ch8-guided-print-supplement{margin-top:1.4rem}.ch8-print-lesson{break-inside:avoid-page;border-top:2px solid #555;padding-top:.65rem;margin-top:1rem}.ch8-print-lesson h3{margin-bottom:.35rem}.ch8-print-lesson h4{margin:.55rem 0 .25rem}.ch8-print-lesson p,.ch8-print-lesson li{line-height:1.35}
+@media print{#ch8-guided-print-supplement{display:block!important}.ch8-print-lesson{font-size:9.7pt}.ch8-guided-banner,.ch8-roadmap,.ch8-lesson{display:none!important}}
+
+.ch7-guided-banner{border:2px solid var(--accent,#334155);border-radius:14px;padding:1rem;margin-bottom:1rem;background:color-mix(in srgb,var(--panel,#fff) 92%,#dcfce7 8%)}
+.ch7-guided-banner .bar{height:.55rem;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:.35rem 0}.ch7-guided-banner .fill{height:100%;background:currentColor}
+.ch7-source-badges{display:flex;gap:.45rem;flex-wrap:wrap;margin:.65rem 0}.ch7-source-badges span{font-size:.78rem;font-weight:800;border:1px solid currentColor;border-radius:999px;padding:.25rem .5rem}
+.ch7-roadmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.55rem;margin:1rem 0}.ch7-roadmap button{text-align:left;padding:.65rem;border:1px solid var(--line,#d1d5db);border-radius:10px;background:var(--panel,#fff);cursor:pointer}.ch7-roadmap button[aria-current="step"]{outline:3px solid color-mix(in srgb,var(--accent,#334155) 30%,transparent);border-color:var(--accent,#334155)}.ch7-roadmap .code{font-weight:900;display:block}.ch7-roadmap .state{display:block;font-size:.72rem;margin-top:.25rem;opacity:.8}.ch7-roadmap .passed{font-weight:800}
+.ch7-lesson{border:1px solid var(--line,#d1d5db);border-radius:16px;padding:1rem;background:var(--panel,#fff)}.ch7-lesson-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;flex-wrap:wrap}.ch7-skill-list{display:flex;gap:.35rem;flex-wrap:wrap;max-width:42rem}.ch7-skill-list span{font-size:.72rem;border:1px solid var(--line,#d1d5db);padding:.2rem .4rem;border-radius:999px}
+.ch7-recognise-grid,.ch7-concept-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.65rem}.ch7-recognise-grid>div,.ch7-concept-grid>div{border:1px solid var(--line,#d1d5db);border-radius:10px;padding:.7rem;background:color-mix(in srgb,var(--panel,#fff) 94%,#f8fafc 6%)}
+.ch7-formula-box{font-size:1.05rem;font-weight:800;border:2px solid var(--accent,#334155);border-radius:10px;padding:.75rem;margin:.6rem 0;background:color-mix(in srgb,var(--panel,#fff) 92%,#f1f5f9 8%)}
+.ch7-excel-route{border-left:5px solid #16a34a}.ch7-trap{border-left:5px solid #dc2626}.ch7-pair{display:grid;grid-template-columns:repeat(2,minmax(120px,220px));gap:.65rem;margin:.6rem 0}.ch7-pair label{display:grid;gap:.2rem}.ch7-pair input{width:100%}
+.ch7-guided-print-supplement{margin-top:1.4rem}.ch7-print-lesson{break-inside:avoid-page;border-top:2px solid #555;padding-top:.65rem;margin-top:1rem}.ch7-print-lesson h3{margin-bottom:.35rem}.ch7-print-lesson h4{margin:.55rem 0 .25rem}.ch7-print-lesson p,.ch7-print-lesson li{line-height:1.35}
+@media print{#ch7-guided-print-supplement{display:block!important}.ch7-print-lesson{font-size:9.7pt}.ch7-guided-banner,.ch7-roadmap,.ch7-lesson{display:none!important}}
+</style>
+
+
+
+
+
+
+
+</main><script id="a2s2-v05-recovery-runtime">
+(() => {
+  'use strict';
+
+  const VERSION = 'v0.5-recovery';
+  const STORAGE_KEY = 'SDS188_A2S2_RECOVERY_V05';
+  const VIEWS = ['a2s2-control','written-mastery','paper-mode','formula-map','a2-practice','read-print'];
+
+  const defaultState = () => ({
+    schema: 1,
+    version: VERSION,
+    activeView: 'a2s2-control',
+    inputs: {},
+    practice: {index: -1, attempts: 0, correct: 0, repairs: []},
+    updatedAt: null
+  });
+
+  let state = defaultState();
+
+  const $ = (s, root=document) => root.querySelector(s);
+  const $$ = (s, root=document) => [...root.querySelectorAll(s)];
+
+  function save() {
+    state.updatedAt = new Date().toISOString();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  }
+
+  function load() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const parsed = JSON.parse(raw);
+      if (!parsed || parsed.schema !== 1 || parsed.version !== VERSION) return;
+      state = Object.assign(defaultState(), parsed);
+      state.inputs ||= {};
+      state.practice ||= defaultState().practice;
+      state.practice.repairs ||= [];
+    } catch (_) {
+      state = defaultState();
+    }
+  }
+
+  function setStatus(msg) {
+    const el = $('#recovery-status');
+    if (el) el.textContent = msg;
+  }
+
+  function showView(id, push=true) {
+    if (!VIEWS.includes(id)) id = 'a2s2-control';
+    $$('.view').forEach(v => {
+      const active = v.id === id;
+      v.classList.toggle('active', active);
+      v.hidden = !active;
+    });
+    $$('nav.nav [data-view]').forEach(b => {
+      const active = b.dataset.view === id;
+      b.setAttribute('aria-selected', active ? 'true' : 'false');
+      b.classList.toggle('active', active);
+    });
+    state.activeView = id;
+    if (push) save();
+    if (id === 'read-print') renderPrint();
+  }
+
+  function bindNav() {
+    $$('nav.nav [data-view]').forEach(b => {
+      b.addEventListener('click', () => showView(b.dataset.view));
+    });
+  }
+
+  function inputKey(el, i) {
+    if (el.id) return `id:${el.id}`;
+    const section = el.closest('.view')?.id || 'unknown';
+    return `${section}:${el.type || el.tagName}:${i}`;
+  }
+
+  function bindInputs() {
+    const fields = $$('input, textarea, select').filter(el =>
+      !['recovery-import'].includes(el.id) && el.type !== 'file'
+    );
+    fields.forEach((el, i) => {
+      const key = inputKey(el, i);
+      el.dataset.recoveryKey = key;
+      const saved = state.inputs[key];
+      if (saved !== undefined) {
+        if (el.type === 'checkbox' || el.type === 'radio') el.checked = !!saved;
+        else el.value = saved;
+      }
+      el.addEventListener('change', () => {
+        state.inputs[key] = (el.type === 'checkbox' || el.type === 'radio') ? el.checked : el.value;
+        save();
+      });
+      if (el.tagName === 'TEXTAREA' || ['text','number'].includes(el.type)) {
+        el.addEventListener('input', () => {
+          state.inputs[key] = el.value;
+          save();
+        });
+      }
+    });
+  }
+
+  function stripIds(node) {
+    if (node.nodeType !== 1) return;
+    node.removeAttribute('id');
+    [...node.children].forEach(stripIds);
+  }
+
+  function renderPrint() {
+    const host = $('#print-content');
+    if (!host) return;
+    host.innerHTML = '';
+    ['written-mastery','formula-map'].forEach(id => {
+      const src = document.getElementById(id);
+      if (!src) return;
+      const clone = src.cloneNode(true);
+      stripIds(clone);
+      clone.querySelectorAll('button,input,textarea,select,.no-print').forEach(x => x.remove());
+      host.appendChild(clone);
+    });
+  }
+
+  const PRACTICE = [
+    {ch:'8', q:'No pilot estimate is supplied when planning n for a population proportion. Which planning value is conservative?', opts:['π = 0.10','π = 0.25','π = 0.50','π = 0.90'], a:2, e:'Use π = 0.5 when no planning estimate is supplied; π(1−π) is then maximised.'},
+    {ch:'10', q:'For a two-tailed F test at significance level α, which upper critical probability is used in this course route?', opts:['α','α/2','1−α','2α'], a:1, e:'A two-tailed variance test uses the upper F critical value at α/2. An upper-tailed F test uses α.'},
+    {ch:'10', q:'For the module F-ratio route, which sample variance goes in the numerator?', opts:['The smaller variance','The larger variance','Always sample 1','Whichever has larger n'], a:1, e:'Use F = s²large/s²small and match numerator/denominator df to those samples.'},
+    {ch:'13', q:'Which formula recovers the standard error of the simple-regression slope?', opts:['sYX√SSX','sYX/√SSX','SSX/sYX','√SSE/SSX'], a:1, e:'s_b1 = sYX / √SSX.'},
+    {ch:'13', q:'When is the numerical intercept interpretation defensible?', opts:['Always','Only when r² > .5','When X=0 lies in the observed X range; then also check context','Only if the slope is significant'], a:2, e:'First check whether X=0 is within the observed X range. Contextual meaning is a second check.'},
+    {ch:'13', q:'In simple linear regression, when testing β1=0, what relationship holds between the ANOVA F and slope t statistics?', opts:['F=t','F=t²','t=F²','No relationship'], a:1, e:'For one-predictor simple regression, F = t² for the equivalent test.'},
+    {ch:'14', q:'In multiple regression with n observations and k predictors, coefficient-test residual df is:', opts:['n−1','n−k','n−k−1','k−1'], a:2, e:'Residual df = n − k − 1.'},
+    {ch:'14', q:'Tutorial 11 Q12 gives F≈1.9257 and the exact 5% critical value ≈2.0585. What is the overall decision?', opts:['Reject H0','Do not reject H0','Accept H0','Cannot compare F values'], a:1, e:'Because 1.9257 < 2.0585 (p≈.0676), do not reject H0 at 5%.'},
+    {ch:'9', q:'If β≈0.324, what is the power?', opts:['0.324','0.676','1.324','0.162'], a:1, e:'Power = 1 − β = 0.676.'},
+    {ch:'mixed', q:'What is the complete marked decision chain?', opts:['Calculator answer only','Formula only','Statistic/critical or p/α comparison → H0 decision → contextual conclusion','Context sentence without hypotheses'], a:2, e:'Train the complete comparison → decision → context chain.'}
+  ];
+
+  function updatePracticeMetrics() {
+    const p = state.practice;
+    const el = $('#practice-metrics');
+    if (el) el.textContent = `Attempts ${p.attempts} · Correct ${p.correct} · Repairs ${p.repairs.length}`;
+    const r = $('#practice-repairs');
+    if (r) {
+      if (!p.repairs.length) r.textContent = 'No open repairs.';
+      else r.innerHTML = p.repairs.map(i => `<div>Repair: Ch ${PRACTICE[i].ch} · ${PRACTICE[i].q}</div>`).join('');
+    }
+  }
+
+  function renderPractice(index) {
+    const card = $('#practice-card');
+    const exp = $('#practice-explanation');
+    if (!card || !exp) return;
+    if (index < 0) index = 0;
+    const item = PRACTICE[index % PRACTICE.length];
+    state.practice.index = index % PRACTICE.length;
+    card.innerHTML = `<span class="badge">CH ${item.ch}</span><h3>${item.q}</h3>` +
+      item.opts.map((o,i)=>`<button type="button" class="secondary practice-option" data-i="${i}" style="display:block;margin:.45rem 0;text-align:left">${String.fromCharCode(65+i)}. ${o}</button>`).join('');
+    exp.hidden = true;
+    exp.textContent = item.e;
+    $$('.practice-option', card).forEach(btn => {
+      btn.addEventListener('click', () => {
+        const chosen = Number(btn.dataset.i);
+        state.practice.attempts += 1;
+        if (chosen === item.a) {
+          state.practice.correct += 1;
+          state.practice.repairs = state.practice.repairs.filter(x => x !== state.practice.index);
+          btn.textContent = '✓ ' + btn.textContent;
+        } else {
+          if (!state.practice.repairs.includes(state.practice.index)) state.practice.repairs.push(state.practice.index);
+          btn.textContent = '✗ ' + btn.textContent;
+        }
+        $$('.practice-option', card).forEach(b => b.disabled = true);
+        save();
+        updatePracticeMetrics();
+      });
+    });
+    save();
+    updatePracticeMetrics();
+  }
+
+  function bindPractice() {
+    $('#practice-next')?.addEventListener('click', () => {
+      renderPractice((state.practice.index + 1) % PRACTICE.length);
+    });
+    $('#practice-show')?.addEventListener('click', () => {
+      const exp = $('#practice-explanation');
+      if (exp) exp.hidden = false;
+    });
+    renderPractice(state.practice.index >= 0 ? state.practice.index : 0);
+  }
+
+  function bindExamScoring() {
+    // The recovered v0.3.1 papers use self-mark checkboxes. Keep them usable
+    // without pretending the old full-mock duration is now authoritative.
+    const pm = $('#paper-mode');
+    if (!pm) return;
+    $$('button', pm).forEach(btn => {
+      const t = btn.textContent.trim().toUpperCase();
+      if (t.includes('180') || t.includes('FULL MOCK')) {
+        if (t.includes('START')) {
+          btn.textContent = 'FULL MOCK TIMER · DURATION NOT LOCKED';
+          btn.disabled = true;
+          btn.title = 'Release gate: assessment duration has not been independently re-verified for this recovery branch.';
+        }
+      }
+      if (t.includes('SCORE')) {
+        btn.addEventListener('click', () => {
+          const block = btn.closest('.panel') || btn.parentElement?.parentElement || pm;
+          const checks = $$('input[type="checkbox"]', block);
+          const marked = checks.filter(x => x.checked).length;
+          $$('details', block).forEach(d => d.open = true);
+          const msg = document.createElement('p');
+          msg.className = 'muted recovery-score';
+          msg.textContent = `Self-mark evidence recorded: ${marked}/${checks.length} checklist items checked. Worked memo details opened where present.`;
+          block.querySelectorAll('.recovery-score').forEach(x => x.remove());
+          block.appendChild(msg);
+          save();
+        });
+      }
+    });
+  }
+
+  function exportState() {
+    const blob = new Blob([JSON.stringify(state, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'SDS188 A2S2 v0.5 Recovery State.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setStatus('State exported.');
+  }
+
+  async function importState(file) {
+    try {
+      const parsed = JSON.parse(await file.text());
+      if (!parsed || parsed.schema !== 1 || parsed.version !== VERSION || typeof parsed.inputs !== 'object') {
+        throw new Error('wrong schema/version');
+      }
+      state = Object.assign(defaultState(), parsed);
+      save();
+      setStatus('Valid v0.5 state imported. Reloading…');
+      location.reload();
+    } catch (_) {
+      setStatus('Import rejected: this is not a valid v0.5 recovery-state file.');
+    }
+  }
+
+  function bindRecoveryControls() {
+    $('#recovery-export')?.addEventListener('click', exportState);
+    $('#recovery-import')?.addEventListener('change', e => {
+      const f = e.target.files?.[0];
+      if (f) importState(f);
+    });
+    $('#recovery-reset')?.addEventListener('click', () => {
+      if (!confirm('Reset only the SDS188 A2S2 v0.5 recovery state?')) return;
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    });
+  }
+
+  window.SDS188Recovery = {
+    version: VERSION,
+    storageKey: STORAGE_KEY,
+    exportState: () => JSON.parse(JSON.stringify(state)),
+    renderPrint
+  };
+
+  load();
+  bindNav();
+  bindInputs();
+  bindPractice();
+  bindExamScoring();
+  bindRecoveryControls();
+  showView(state.activeView || 'a2s2-control', false);
+})();
+</script><script id="a2s2-v05-recovery-qa">
+(() => {
+  'use strict';
+  function runQA() {
+    const checks = [];
+    const add = (name, pass, detail='') => checks.push({name, pass:!!pass, detail});
+    const views = ['a2s2-control','written-mastery','paper-mode','formula-map','a2-practice','read-print'];
+
+    add('Exactly six active A2 views exist', views.every(id => document.getElementById(id)) && document.querySelectorAll('.view').length === 6);
+    add('Exactly six nav destinations exist', document.querySelectorAll('nav.nav [data-view]').length === 6);
+    add('Standalone v0.5 storage namespace', window.SDS188Recovery?.storageKey === 'SDS188_A2S2_RECOVERY_V05');
+    add('Export control exists', !!document.getElementById('recovery-export'));
+    add('Import control exists', !!document.getElementById('recovery-import'));
+    add('Practice engine reachable', !!document.querySelector('nav.nav [data-view="a2-practice"]') && !!document.getElementById('practice-card'));
+
+    window.SDS188Recovery?.renderPrint();
+    const printText = (document.getElementById('print-content')?.innerText || '').toUpperCase();
+    add('Print has Ch 7', printText.includes('CHAPTER 7'));
+    add('Print has Ch 8', printText.includes('CHAPTER 8'));
+    add('Print has Ch 9', printText.includes('CHAPTER 9'));
+    add('Print has Ch 10', printText.includes('CHAPTER 10'));
+    add('Print has Ch 13', printText.includes('CHAPTER 13'));
+    add('Print has Ch 14', printText.includes('CHAPTER 14'));
+    add('Print excludes legacy Excel/HOLD markers', !printText.includes('LEGACY EXCEL') && !printText.includes('AWAIT_MEMO'));
+
+    const ids = [...document.querySelectorAll('[id]')].map(x => x.id);
+    add('No duplicate runtime IDs', new Set(ids).size === ids.length);
+
+    const body = document.body.innerText;
+    add('Two-tail F α/2 rule present', body.includes('Two-tailed variance test') && body.includes('α/2'));
+    add('Slope SE formula present', body.includes('s_b1') || body.includes('sb1') || body.includes('s_b1'.replace('_','')));
+    add('Chapter 14 df rule present', body.includes('n − k − 1') || body.includes('n−k−1'));
+    add('Q12 decision anchor present', body.includes('2.0585') && body.includes('do not reject H₀'));
+    add('Power numeric anchor present', body.includes('0.324') && body.includes('0.676'));
+    add('Current October source patch explicitly pending', body.includes('October Chapter 14 teaching/transcript delta'));
+
+    const result = {passed: checks.filter(c=>c.pass).length, total: checks.length, checks};
+    const host = document.getElementById('qa-results') || document.querySelector('#read-print .panel:last-of-type');
+    if (host) {
+      let box = document.getElementById('recovery-qa-output');
+      if (!box) {
+        box = document.createElement('div');
+        box.id = 'recovery-qa-output';
+        box.className = 'panel';
+        host.appendChild(box);
+      }
+      box.innerHTML = `<h3>Recovery QA ${result.passed}/${result.total}</h3>` +
+        checks.map(c => `<div>${c.pass ? 'PASS' : 'FAIL'} · ${c.name}${c.detail ? ' · '+c.detail : ''}</div>`).join('');
+    }
+    return result;
+  }
+
+  window.SDS188RecoveryQA = runQA;
+
+  const rp = document.getElementById('read-print');
+  if (rp) {
+    const btn = [...rp.querySelectorAll('button')].find(b => /RUN A2S2 REPAIR QA/i.test(b.textContent));
+    if (btn) {
+      btn.textContent = 'RUN v0.5 RECOVERY QA';
+      btn.onclick = runQA;
+    } else {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'secondary no-print';
+      b.textContent = 'RUN v0.5 RECOVERY QA';
+      b.addEventListener('click', runQA);
+      rp.insertBefore(b, document.getElementById('print-content'));
+    }
+  }
+})();
+</script></body>
+</html>

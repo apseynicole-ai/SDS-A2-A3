@@ -1,0 +1,2894 @@
+WEBVTT
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/10-0
+00:00:53.944 --> 00:00:58.266
+<v Krotoa 1012>Good morning, everybody.
+It's good to see you all again.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/10-1
+00:00:58.266 --> 00:01:01.224
+<v Krotoa 1012>So we are starting a new chapter today.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/12-0
+00:01:02.184 --> 00:01:07.524
+<v Krotoa 1012>Chapter 13. And like I said,
+this is the second last chapter.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/12-1
+00:01:07.524 --> 00:01:13.897
+<v Krotoa 1012>It's called Simple Linear Regression.
+And then the last chapter is called</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/12-2
+00:01:13.897 --> 00:01:19.151
+<v Krotoa 1012>Multiple Linear Regression.
+So it builds on the same themes.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/12-3
+00:01:19.151 --> 00:01:22.424
+<v Krotoa 1012>So we're going to start with kind of a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/13-0
+00:01:23.864 --> 00:01:27.624
+<v Krotoa 1012>Motivational example to help you
+understand.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/14-0
+00:01:30.424 --> 00:01:31.624
+<v Krotoa 1012>The idea behind it.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/15-0
+00:01:33.144 --> 00:01:38.344
+<v Krotoa 1012>OK, so let's say, for example,
+on the x-axis is...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/16-0
+00:01:39.304 --> 00:01:40.904
+<v Krotoa 1012>The number of hours that...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/17-0
+00:01:42.904 --> 00:01:46.264
+<v Krotoa 1012>or the average number of hours studied
+per week.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/18-0
+00:01:52.824 --> 00:01:56.344
+<v Krotoa 1012>And then Y, on the y-axis we measure.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/19-0
+00:01:57.464 --> 00:01:58.424
+<v Krotoa 1012>Final mark.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/20-0
+00:02:05.544 --> 00:02:08.184
+<v Krotoa 1012>Okay, so you guys are in first year.
+You tell me.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/21-0
+00:02:09.384 --> 00:02:12.584
+<v Krotoa 1012>Is there a relationship between ours
+studied and final mark?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/22-0
+00:02:14.344 --> 00:02:15.864
+<v Krotoa 1012>We hope so, right?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/23-0
+00:02:17.464 --> 00:02:18.104
+<v Krotoa 1012>So.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/24-0
+00:02:19.224 --> 00:02:24.728
+<v Krotoa 1012>There's always that one person that feels
+like they don't study at all and somehow</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/24-1
+00:02:24.728 --> 00:02:29.170
+<v Krotoa 1012>they get the best marks.
+But I'm sure you also know the feeling of</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/24-2
+00:02:29.170 --> 00:02:34.210
+<v Krotoa 1012>really putting in the hard work for a
+module and then seeing that hard work</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/24-3
+00:02:34.210 --> 00:02:38.719
+<v Krotoa 1012>reflected in your final mark.
+So if I did this for a large group of</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/24-4
+00:02:38.719 --> 00:02:39.184
+<v Krotoa 1012>people,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/25-0
+00:02:40.584 --> 00:02:42.344
+<v Krotoa 1012>I hope that...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/26-0
+00:02:46.784 --> 00:02:50.264
+<v Krotoa 1012>Maybe the scatter plot looks something
+like this.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/27-0
+00:02:54.264 --> 00:02:55.384
+<v Krotoa 1012>Okay, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/28-0
+00:02:58.424 --> 00:03:04.367
+<v Krotoa 1012>Can we say there's a relationship here if
+our scatter plot looks like this?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/28-1
+00:03:04.367 --> 00:03:09.529
+<v Krotoa 1012>The general trend seems to be that if you
+increase hours studied,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/28-2
+00:03:09.529 --> 00:03:15.081
+<v Krotoa 1012>the final mark should increase.
+There might be the occasional outlier,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/28-3
+00:03:15.081 --> 00:03:17.584
+<v Krotoa 1012>like if we make a dot over here,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/29-0
+00:03:18.184 --> 00:03:24.125
+<v Krotoa 1012>This person really studied many hours,
+but their final mark is not so high in</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/29-1
+00:03:24.125 --> 00:03:29.153
+<v Krotoa 1012>the end. That can happen.
+We're not going to talk about what went</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/29-2
+00:03:29.153 --> 00:03:34.942
+<v Krotoa 1012>wrong there, but that can happen.
+And then you've also got maybe an outlier</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/29-3
+00:03:34.942 --> 00:03:35.704
+<v Krotoa 1012>over here.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/30-0
+00:03:37.144 --> 00:03:42.184
+<v Krotoa 1012>who did not study many hours,
+but their final mark is quite high.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/31-0
+00:03:43.544 --> 00:03:44.104
+<v Krotoa 1012>So.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/32-0
+00:03:46.984 --> 00:03:47.864
+<v Krotoa 1012>If we have to...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/33-0
+00:03:49.064 --> 00:03:55.382
+<v Krotoa 1012>Summarize this relationship with a single
+function that tries to capture the trend</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/33-1
+00:03:55.382 --> 00:03:58.504
+<v Krotoa 1012>and not the noise. You might draw a line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/34-0
+00:03:59.944 --> 00:04:00.904
+<v Krotoa 1012>Through the data.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/35-0
+00:04:03.104 --> 00:04:08.215
+<v Krotoa 1012>And then we can see that there is a
+linear relationship between our studied</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/35-1
+00:04:08.215 --> 00:04:09.224
+<v Krotoa 1012>and final mark.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/36-0
+00:04:10.384 --> 00:04:15.320
+<v Krotoa 1012>So I just went and drew a line through
+the data,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/36-1
+00:04:15.320 --> 00:04:22.372
+<v Krotoa 1012>but you might disagree with me and say,
+actually, if this is my line,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/36-2
+00:04:22.372 --> 00:04:29.424
+<v Krotoa 1012>I think that the slope should be less
+severe. So maybe we agree that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/37-0
+00:04:30.024 --> 00:04:35.654
+<v Krotoa 1012>our studied influences final mark,
+but we disagree on the extent to which it</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/37-1
+00:04:35.654 --> 00:04:40.187
+<v Krotoa 1012>influences final mark.
+So maybe you say there's other factors</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/37-2
+00:04:40.187 --> 00:04:43.624
+<v Krotoa 1012>that influence final mark besides our
+studied.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/38-0
+00:04:44.904 --> 00:04:49.259
+<v Krotoa 1012>So, or you might say,
+I actually think we should keep the slope</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/38-1
+00:04:49.259 --> 00:04:52.662
+<v Krotoa 1012>the same,
+but pick up this line and move it a bit</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/38-2
+00:04:52.662 --> 00:04:57.495
+<v Krotoa 1012>higher. You and I are going to,
+if we had to draw the line through it,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/38-3
+00:04:57.495 --> 00:05:03.144
+<v Krotoa 1012>disagree on exactly where to put the line.
+And it doesn't really do us any good to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/39-0
+00:05:04.664 --> 00:05:10.381
+<v Krotoa 1012>just kind of randomly choose each time
+where to put the line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/39-1
+00:05:10.381 --> 00:05:17.667
+<v Krotoa 1012>So there is a statistical method that
+optimizes the way in which we place that</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/39-2
+00:05:17.667 --> 00:05:21.817
+<v Krotoa 1012>line.
+And the ultimate goal here is to use a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/39-3
+00:05:21.817 --> 00:05:24.584
+<v Krotoa 1012>variable to predict or explain</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/40-0
+00:05:24.744 --> 00:05:29.418
+<v Krotoa 1012>Another variable,
+so one of the questions that we're going</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/40-1
+00:05:29.418 --> 00:05:32.984
+<v Krotoa 1012>to look at in this chapter is, how do we..
+.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/41-0
+00:05:34.184 --> 00:05:39.944
+<v Krotoa 1012>Choose the line of best fit,
+or let me just say the best line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/42-0
+00:05:41.544 --> 00:05:43.144
+<v Krotoa 1012>That describes the daughter.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/43-0
+00:05:44.344 --> 00:05:46.184
+<v Krotoa 1012>Or that describes the relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/44-0
+00:05:53.944 --> 00:05:57.464
+<v Krotoa 1012>And what does it mean?
+As in what does the relationship mean?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/45-0
+00:06:05.304 --> 00:06:06.904
+<v Krotoa 1012>So, some...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/46-0
+00:06:08.264 --> 00:06:08.744
+<v Krotoa 1012>AM.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/47-0
+00:06:10.744 --> 00:06:14.824
+<v Krotoa 1012>Some of the key variables at play here:
+first of all, you've got Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/48-0
+00:06:16.024 --> 00:06:18.024
+<v Krotoa 1012>Now, why we're going to call...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/49-0
+00:06:18.984 --> 00:06:20.664
+<v Krotoa 1012>The dependent variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/51-0
+00:06:28.904 --> 00:06:30.104
+<v Krotoa 1012>So, this is the...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/52-0
+00:06:32.024 --> 00:06:34.184
+<v Krotoa 1012>Thing we want to predict or explain.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/55-0
+00:06:46.584 --> 00:06:49.144
+<v Krotoa 1012>And X, in this case, is our...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/56-0
+00:06:50.424 --> 00:06:51.784
+<v Krotoa 1012>Independent variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/57-0
+00:07:00.984 --> 00:07:03.975
+<v Krotoa 1012>So,
+this is the thing that we will use to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/57-1
+00:07:03.975 --> 00:07:06.184
+<v Krotoa 1012>explain our dependent variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/58-0
+00:07:18.024 --> 00:07:21.416
+<v Krotoa 1012>Um,
+that's generally the terminology in this</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/58-1
+00:07:21.416 --> 00:07:21.944
+<v Krotoa 1012>module.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/59-0
+00:07:22.824 --> 00:07:25.064
+<v Krotoa 1012>in other modules or field or...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/60-0
+00:07:27.384 --> 00:07:31.911
+<v Krotoa 1012>areas of research,
+you might come across them calling a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/60-1
+00:07:31.911 --> 00:07:35.064
+<v Krotoa 1012>dependent variable a response variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/61-0
+00:07:36.664 --> 00:07:41.242
+<v Krotoa 1012>I'm just adding that for interest's sake.
+Independent variable could be called</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/61-1
+00:07:41.242 --> 00:07:42.344
+<v Krotoa 1012>predictor variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/62-0
+00:07:48.184 --> 00:07:52.363
+<v Krotoa 1012>But I'm less worried about that
+terminology and more worried about the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/62-1
+00:07:52.363 --> 00:07:54.424
+<v Krotoa 1012>dependent, independent terminology.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/63-0
+00:07:56.344 --> 00:07:56.664
+<v Krotoa 1012>Hmm.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/65-0
+00:08:12.264 --> 00:08:15.649
+<v Krotoa 1012>OK,
+so this kind of thing is what's known as</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/65-1
+00:08:15.649 --> 00:08:17.304
+<v Krotoa 1012>a linear relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/66-0
+00:08:18.824 --> 00:08:22.149
+<v Krotoa 1012>all relationships are not linear.
+Some are,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/66-1
+00:08:22.149 --> 00:08:27.363
+<v Krotoa 1012>and then we can utilize the techniques in
+this chapter. Other times,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/66-2
+00:08:27.363 --> 00:08:32.049
+<v Krotoa 1012>you'll get more of a,
+if you look at that scatter plot in the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/66-3
+00:08:32.049 --> 00:08:35.601
+<v Krotoa 1012>middle,
+you've got more of a quadratic kind of</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/66-4
+00:08:35.601 --> 00:08:37.944
+<v Krotoa 1012>relationship. If you did have a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/67-0
+00:08:38.104 --> 00:08:41.210
+<v Krotoa 1012>linear equation there,
+you'd have to decide,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/67-1
+00:08:41.210 --> 00:08:46.387
+<v Krotoa 1012>are you going to model the sloping down
+part or are you going to model the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/67-2
+00:08:46.387 --> 00:08:49.838
+<v Krotoa 1012>sloping up part?
+And then you're only going to be</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/67-3
+00:08:49.838 --> 00:08:55.360
+<v Krotoa 1012>capturing some of the relationship there.
+So the methods we learn about in this</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/67-4
+00:08:55.360 --> 00:08:57.224
+<v Krotoa 1012>chapter have to be applied.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-0
+00:08:57.344 --> 00:09:00.461
+<v Krotoa 1012>with caution.
+And one of the first things that you do</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-1
+00:09:00.461 --> 00:09:03.058
+<v Krotoa 1012>before applying the methods in this
+chapter,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-2
+00:09:03.058 --> 00:09:06.868
+<v Krotoa 1012>if you were doing this in kind of a real
+life context or setting,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-3
+00:09:06.868 --> 00:09:10.735
+<v Krotoa 1012>one of the very first things you do is
+you look at a scatter plot.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-4
+00:09:10.735 --> 00:09:15.411
+<v Krotoa 1012>Because before I even drew this line here,
+we just looked at what is the general</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/68-5
+00:09:15.411 --> 00:09:16.104
+<v Krotoa 1012>trend there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/69-0
+00:09:16.264 --> 00:09:22.092
+<v Krotoa 1012>And if it seems like you can fit a linear
+or a straight line through the data and</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/69-1
+00:09:22.092 --> 00:09:27.850
+<v Krotoa 1012>you'll do a pretty good job at capturing
+the points, then you move on from that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/69-2
+00:09:27.850 --> 00:09:32.612
+<v Krotoa 1012>You've also got the case where there's no
+relationship over there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/69-3
+00:09:32.612 --> 00:09:36.024
+<v Krotoa 1012>So we've just got dots and it doesn't
+seem like</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/70-0
+00:09:36.584 --> 00:09:41.439
+<v Krotoa 1012>any change in X has any effect on Y.
+That could also look like that,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/70-1
+00:09:41.439 --> 00:09:46.928
+<v Krotoa 1012>where Y is constant even as X is changing.
+So there's no effect. Essentially,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/70-2
+00:09:46.928 --> 00:09:51.572
+<v Krotoa 1012>with this one, there's no slope.
+So the slope is X's effect on Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/70-3
+00:09:51.572 --> 00:09:55.442
+<v Krotoa 1012>It could cause a negative effect or a
+positive effect,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/70-4
+00:09:55.442 --> 00:09:57.624
+<v Krotoa 1012>but there is no slope there. So</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/71-0
+00:09:57.904 --> 00:10:03.616
+<v Krotoa 1012>There is no relationship there.
+Your linear relationships can be positive</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/71-1
+00:10:03.616 --> 00:10:07.244
+<v Krotoa 1012>sloped or negative sloped.
+It depends on what,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/71-2
+00:10:07.244 --> 00:10:11.721
+<v Krotoa 1012>is there an increase in Y together with
+an increase in X?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/71-3
+00:10:11.721 --> 00:10:16.584
+<v Krotoa 1012>That relationship is very direct.
+Or is there a decrease in Y?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-0
+00:10:16.664 --> 00:10:20.185
+<v Krotoa 1012>as a result of an increase in X,
+then you've got this indirect</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-1
+00:10:20.185 --> 00:10:23.762
+<v Krotoa 1012>relationship between the two,
+but there's still a relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-2
+00:10:23.762 --> 00:10:26.891
+<v Krotoa 1012>It kind of goes with our,
+we learned about correlation,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-3
+00:10:26.891 --> 00:10:31.307
+<v Krotoa 1012>and we also visualized the different
+kinds of correlation with a scatter plot.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-4
+00:10:31.307 --> 00:10:35.610
+<v Krotoa 1012>What we're doing in this chapter that's
+different from correlation is we are</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/72-5
+00:10:35.610 --> 00:10:36.784
+<v Krotoa 1012>trying to establish a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/73-0
+00:10:36.864 --> 00:10:42.504
+<v Krotoa 1012>Causal relationship as well,
+not just linear correlation, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/74-0
+00:10:44.744 --> 00:10:45.624
+<v Krotoa 1012>At the moment.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/76-0
+00:10:46.584 --> 00:10:54.024
+<v Krotoa 1012>To start with any kind of regression,
+we have to have good grounds to believe.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/77-0
+00:10:55.704 --> 00:11:01.688
+<v Krotoa 1012>That Y is a function of X,
+and is specifically a linear function of</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/77-1
+00:11:01.688 --> 00:11:01.864
+<v Krotoa 1012>X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/78-0
+00:11:05.264 --> 00:11:09.609
+<v Krotoa 1012>So we have to have good grounds to
+believe that final mark is a linear</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/78-1
+00:11:09.609 --> 00:11:11.384
+<v Krotoa 1012>relationship of ours studied.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/79-0
+00:11:18.104 --> 00:11:22.732
+<v Krotoa 1012>And what I mean by that is,
+and when we believe that,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/79-1
+00:11:22.732 --> 00:11:25.304
+<v Krotoa 1012>then we can infer that Y is...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/80-0
+00:11:26.304 --> 00:11:28.904
+<v Krotoa 1012>predicted or explained in some way by X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/81-0
+00:11:37.864 --> 00:11:38.024
+<v Krotoa 1012>Yeah.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/82-0
+00:11:44.264 --> 00:11:46.664
+<v Krotoa 1012>And we can define this relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/83-0
+00:11:55.224 --> 00:11:56.744
+<v Krotoa 1012>With A formula.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/85-0
+00:12:11.704 --> 00:12:14.888
+<v Krotoa 1012>OK,
+so the first kind of formula that we'll</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/85-1
+00:12:14.888 --> 00:12:17.784
+<v Krotoa 1012>learn is the population regression line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/86-0
+00:12:33.384 --> 00:12:36.266
+<v Krotoa 1012>So,
+if I put population in front of something,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/86-1
+00:12:36.266 --> 00:12:40.744
+<v Krotoa 1012>it means that this would have been
+estimated with the entire population.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/87-0
+00:12:42.184 --> 00:12:47.221
+<v Krotoa 1012>That would be the regression line that
+you would have if you had all of the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/87-1
+00:12:47.221 --> 00:12:49.144
+<v Krotoa 1012>information at your disposal.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/88-0
+00:12:50.264 --> 00:12:51.144
+<v Krotoa 1012>This is...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/89-0
+00:12:52.024 --> 00:12:57.407
+<v Krotoa 1012>the purest form that the regression
+equation can take. It cannot,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/89-1
+00:12:57.407 --> 00:13:02.952
+<v Krotoa 1012>if you work it out on the population,
+it cannot vary or be altered.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/89-2
+00:13:02.952 --> 00:13:06.704
+<v Krotoa 1012>That is what it is. But we,
+in just a moment,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/89-3
+00:13:06.704 --> 00:13:10.864
+<v Krotoa 1012>will look at the one you estimate from
+the sample.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/90-0
+00:13:11.384 --> 00:13:16.232
+<v Krotoa 1012>But we always start with the ideal,
+which is the population.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/90-1
+00:13:16.232 --> 00:13:22.194
+<v Krotoa 1012>We study the properties of the ideal,
+and then we see how what we estimate</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/90-2
+00:13:22.194 --> 00:13:23.784
+<v Krotoa 1012>lives up to that. So</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/91-0
+00:13:24.984 --> 00:13:25.304
+<v Krotoa 1012>Um...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/92-0
+00:13:26.424 --> 00:13:29.264
+<v Krotoa 1012>If you, if I asked you to draw a...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/93-0
+00:13:31.224 --> 00:13:37.651
+<v Krotoa 1012>some kind of slope line on the graph,
+you'd fall back on your formula y = mx +</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/93-1
+00:13:37.651 --> 00:13:41.801
+<v Krotoa 1012>c. Basically,
+you've got an intercept and a slope,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/93-2
+00:13:41.801 --> 00:13:47.821
+<v Krotoa 1012>and that's what you need to be able to
+plot some sort of line on a graph.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/93-3
+00:13:47.821 --> 00:13:50.344
+<v Krotoa 1012>Sound familiar? So this is just</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/94-0
+00:13:51.144 --> 00:13:55.261
+<v Krotoa 1012>This is that same idea;
+we've just given it different symbols, so.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/94-1
+00:13:55.261 --> 00:13:55.384
+<v Krotoa 1012>..</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/95-0
+00:13:57.464 --> 00:14:00.762
+<v Krotoa 1012>Y,
+and we just add I as an index for a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/95-1
+00:14:00.762 --> 00:14:05.836
+<v Krotoa 1012>specific observation.
+So some sort of specific observation.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/95-2
+00:14:05.836 --> 00:14:09.980
+<v Krotoa 1012>So this could be observation one in my
+data set,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/95-3
+00:14:09.980 --> 00:14:15.224
+<v Krotoa 1012>but all of it is described by the same
+formula. So Y would be</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/96-0
+00:14:15.624 --> 00:14:19.449
+<v Krotoa 1012>An intercept B0,
+and actually it's beta zero;</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/96-1
+00:14:19.449 --> 00:14:24.024
+<v Krotoa 1012>that's why I've given it this long tail,
+so beta zero.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/97-0
+00:14:25.104 --> 00:14:28.744
+<v Krotoa 1012>Plus beta one times XI.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/98-0
+00:14:30.024 --> 00:14:34.904
+<v Krotoa 1012>Plus epsilon I,
+so epsilon is just a funny looking E.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/99-0
+00:14:36.664 --> 00:14:43.261
+<v Krotoa 1012>And the symbols are important because the
+symbols are usually how we distinguish a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/99-1
+00:14:43.261 --> 00:14:48.904
+<v Krotoa 1012>population parameter from a sample
+statistic. So this is my intercept.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/100-0
+00:14:53.384 --> 00:14:57.242
+<v Krotoa 1012>So that tells me where the graph cuts the
+y-axis.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/100-1
+00:14:57.242 --> 00:14:59.944
+<v Krotoa 1012>So if I extended this line up here.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/101-0
+00:15:01.864 --> 00:15:04.904
+<v Krotoa 1012>Over there would be my intercept.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/102-0
+00:15:09.624 --> 00:15:12.584
+<v Krotoa 1012>Then my slope is beta one.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/104-0
+00:15:19.944 --> 00:15:26.834
+<v Krotoa 1012>And that tells me the change I can expect
+for Y as a result of a one-unit change in</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/104-1
+00:15:26.834 --> 00:15:29.624
+<v Krotoa 1012>X, so your slope is going to be...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/105-0
+00:15:32.504 --> 00:15:38.678
+<v Krotoa 1012>The change in Y over the change in X,
+that tells me how steep the line is.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/105-1
+00:15:38.678 --> 00:15:43.618
+<v Krotoa 1012>And it also tells me about the severity
+of the effect of X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/105-2
+00:15:43.618 --> 00:15:48.064
+<v Krotoa 1012>So all of this together,
+the intercept and the slope,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/105-3
+00:15:48.064 --> 00:15:49.464
+<v Krotoa 1012>that's mx plus c.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/106-0
+00:15:53.064 --> 00:15:54.904
+<v Krotoa 1012>That is the linear component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/107-0
+00:16:02.584 --> 00:16:03.304
+<v Krotoa 1012>And then...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/108-0
+00:16:04.464 --> 00:16:08.984
+<v Krotoa 1012>This part over here, the epsilon,
+is the random error component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/109-0
+00:16:20.424 --> 00:16:21.144
+<v Krotoa 1012>So...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/110-0
+00:16:31.144 --> 00:16:34.904
+<v Krotoa 1012>If I take you back up here to my
+regression line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/111-0
+00:16:36.904 --> 00:16:40.904
+<v Krotoa 1012>My Uys do not all fall exactly on the
+line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/112-0
+00:16:41.864 --> 00:16:44.424
+<v Krotoa 1012>There are some deviations, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/113-0
+00:16:45.664 --> 00:16:47.144
+<v Krotoa 1012>If I draw a point from this.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/114-0
+00:16:48.824 --> 00:16:52.504
+<v Krotoa 1012>Specific dot to the line,
+there's a difference.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/115-0
+00:16:53.464 --> 00:16:55.944
+<v Krotoa 1012>From this dot to the line,
+there's a difference.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/115-1
+00:16:55.944 --> 00:16:58.424
+<v Krotoa 1012>From this dot to the line,
+there's a difference.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/116-0
+00:17:00.264 --> 00:17:01.384
+<v Krotoa 1012>So that is the...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/117-0
+00:17:03.784 --> 00:17:06.777
+<v Krotoa 1012>Basically,
+it says that my points are dispersed</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/117-1
+00:17:06.777 --> 00:17:10.518
+<v Krotoa 1012>around the line;
+they very rarely fall perfectly. Remember,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/117-2
+00:17:10.518 --> 00:17:15.568
+<v Krotoa 1012>we talked about there's some people here
+that aren't going to follow the pattern</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/117-3
+00:17:15.568 --> 00:17:16.504
+<v Krotoa 1012>exactly, and...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/118-0
+00:17:17.944 --> 00:17:21.695
+<v Krotoa 1012>This is the error,
+the random error that the model makes,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/118-1
+00:17:21.695 --> 00:17:24.024
+<v Krotoa 1012>so the model, if you think about it.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/119-0
+00:17:25.544 --> 00:17:29.304
+<v Krotoa 1012>If I had to try and model every single
+data point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/120-0
+00:17:30.344 --> 00:17:33.600
+<v Krotoa 1012>This is just going to be a throwaway
+piece of paper,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/120-1
+00:17:33.600 --> 00:17:38.455
+<v Krotoa 1012>but if I had my little scatterplot here
+and I tried to model every single data</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/120-2
+00:17:38.455 --> 00:17:38.824
+<v Krotoa 1012>point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/121-0
+00:17:42.904 --> 00:17:46.045
+<v Krotoa 1012>I end up with something that's kind of
+noisy.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/121-1
+00:17:46.045 --> 00:17:51.644
+<v Krotoa 1012>And the problem here is that I'm trying
+to specifically conform to that data set.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/121-2
+00:17:51.644 --> 00:17:57.175
+<v Krotoa 1012>If I picked this line up and I were to
+try and apply it to a different data set,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/121-3
+00:17:57.175 --> 00:18:02.024
+<v Krotoa 1012>I would suddenly be missing all of the
+points on that data set because</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/122-0
+00:18:02.144 --> 00:18:05.378
+<v Krotoa 1012>points will be dispersed a little bit
+differently.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/122-1
+00:18:05.378 --> 00:18:08.612
+<v Krotoa 1012>But if I modeled just the trend and not
+the noise,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/122-2
+00:18:08.612 --> 00:18:13.876
+<v Krotoa 1012>if I picked this line up and I applied it
+to a different data set that also looked</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/122-3
+00:18:13.876 --> 00:18:18.252
+<v Krotoa 1012>at hours studied and final mark,
+I would bet that it's going to do a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/122-4
+00:18:18.252 --> 00:18:22.184
+<v Krotoa 1012>pretty good job of modeling the trend.
+So there's a big theme</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/123-0
+00:18:22.504 --> 00:18:26.198
+<v Krotoa 1012>in statistics,
+which extends to machine learning of we</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/123-1
+00:18:26.198 --> 00:18:31.707
+<v Krotoa 1012>want to model the trend and not the noise.
+We don't want the random fluctuations.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/123-2
+00:18:31.707 --> 00:18:36.880
+<v Krotoa 1012>We want the actual systematic structure
+behind why the data looks the way it</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/123-3
+00:18:36.880 --> 00:18:41.784
+<v Krotoa 1012>looks. And as long as these errors,
+that's my error component, that's my</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/124-0
+00:18:42.424 --> 00:18:46.600
+<v Krotoa 1012>That's the fact that not all of the
+points fall on the line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/124-1
+00:18:46.600 --> 00:18:50.161
+<v Krotoa 1012>As long as those are,
+there's no structure to them.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/124-2
+00:18:50.161 --> 00:18:53.859
+<v Krotoa 1012>They're just kind of evenly dispersed
+along the line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/124-3
+00:18:53.859 --> 00:18:59.062
+<v Krotoa 1012>I don't have to worry about them.
+So that's actually one of the assumptions</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/124-4
+00:18:59.062 --> 00:19:02.144
+<v Krotoa 1012>of regression that we'll talk about later
+is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/125-0
+00:19:02.824 --> 00:19:05.817
+<v Krotoa 1012>The normal,
+the even distribution of these error</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/125-1
+00:19:05.817 --> 00:19:06.184
+<v Krotoa 1012>terms.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/126-0
+00:19:07.384 --> 00:19:10.339
+<v Krotoa 1012>But for now,
+just because we're calling it an error</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/126-1
+00:19:10.339 --> 00:19:13.920
+<v Krotoa 1012>component doesn't mean that our model is
+doing anything wrong.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/126-2
+00:19:13.920 --> 00:19:16.024
+<v Krotoa 1012>It is an expected part of this model.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/127-0
+00:19:17.144 --> 00:19:17.584
+<v Krotoa 1012>OK.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/128-0
+00:19:18.744 --> 00:19:22.559
+<v Krotoa 1012>Um,
+you can actually see the full picture on</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/128-1
+00:19:22.559 --> 00:19:24.424
+<v Krotoa 1012>the slides here, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/129-0
+00:19:27.464 --> 00:19:32.564
+<v Krotoa 1012>The blue dots there are our points and
+the red line is the prediction line that</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/129-1
+00:19:32.564 --> 00:19:36.453
+<v Krotoa 1012>goes through it. And for each,
+there I have my error term i,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/129-2
+00:19:36.453 --> 00:19:41.682
+<v Krotoa 1012>which is for that specific data point.
+I just means for that specific data point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/129-3
+00:19:41.682 --> 00:19:44.487
+<v Krotoa 1012>And there it's a little bit above the
+line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/129-4
+00:19:44.487 --> 00:19:48.504
+<v Krotoa 1012>So there our line has underestimated that
+specific data point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/130-0
+00:19:48.904 --> 00:19:55.107
+<v Krotoa 1012>But then we also got the slope there,
+the change in Y for a change in X,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/130-1
+00:19:55.107 --> 00:20:00.631
+<v Krotoa 1012>and there our line is cutting the y-axis
+at that specific point,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/130-2
+00:20:00.631 --> 00:20:06.664
+<v Krotoa 1012>so that would be the intercept. Okay,
+so I've called it the population</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/130-3
+00:20:06.664 --> 00:20:08.024
+<v Krotoa 1012>regression line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/131-0
+00:20:09.944 --> 00:20:11.144
+<v Krotoa 1012>And that is because...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/132-0
+00:20:12.264 --> 00:20:15.933
+<v Krotoa 1012>Like I said,
+that would be with perfect information if</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/132-1
+00:20:15.933 --> 00:20:20.203
+<v Krotoa 1012>we were to be able to calculate this for
+the entire population,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/132-2
+00:20:20.203 --> 00:20:24.473
+<v Krotoa 1012>but as is often the case,
+we won't be able to if we're studying</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/132-3
+00:20:24.473 --> 00:20:28.476
+<v Krotoa 1012>quite a large population.
+So we have to go to the estimated</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/132-4
+00:20:28.476 --> 00:20:29.544
+<v Krotoa 1012>regression line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/134-0
+00:20:46.144 --> 00:20:48.264
+<v Krotoa 1012>Okay,
+so this one will have a few differences.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/135-0
+00:20:49.864 --> 00:20:50.664
+<v Krotoa 1012>First of all...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/136-0
+00:20:52.904 --> 00:20:54.904
+<v Krotoa 1012>Instead of YI, it will be.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/137-0
+00:20:56.664 --> 00:20:57.304
+<v Krotoa 1012>Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/139-0
+00:20:58.264 --> 00:21:00.104
+<v Krotoa 1012>Hat eye, so the hat.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/140-0
+00:21:01.064 --> 00:21:07.466
+<v Krotoa 1012>tells us it is an estimated value.
+It is no longer the actual data point,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/140-1
+00:21:07.466 --> 00:21:13.696
+<v Krotoa 1012>but it is now the line that,
+the point on the line that would be given.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/140-2
+00:21:13.696 --> 00:21:19.407
+<v Krotoa 1012>Then instead of beta zero,
+we will have lowercase B0 to show that</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/140-3
+00:21:19.407 --> 00:21:21.224
+<v Krotoa 1012>this is now a sample.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/141-0
+00:21:21.864 --> 00:21:25.492
+<v Krotoa 1012>Estimate,
+instead of a population parameter,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/141-1
+00:21:25.492 --> 00:21:30.250
+<v Krotoa 1012>it's still our intercept,
+and then we have our slope of B1</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/141-2
+00:21:30.250 --> 00:21:32.024
+<v Krotoa 1012>lowercase B1 times xi.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-0
+00:21:34.904 --> 00:21:38.111
+<v Krotoa 1012>And then I don't actually estimate the
+error component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-1
+00:21:38.111 --> 00:21:42.177
+<v Krotoa 1012>So you'll see that is left out.
+I'll explain more on that in a second,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-2
+00:21:42.177 --> 00:21:45.098
+<v Krotoa 1012>but the error component is always there.
+You will,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-3
+00:21:45.098 --> 00:21:47.618
+<v Krotoa 1012>as soon as you put a line through the
+data,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-4
+00:21:47.618 --> 00:21:51.971
+<v Krotoa 1012>the discrepancies between your points and
+the line are the error component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/142-5
+00:21:51.971 --> 00:21:55.064
+<v Krotoa 1012>So you do not need to separately estimate
+it. It will</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/143-0
+00:21:55.304 --> 00:22:01.064
+<v Krotoa 1012>Be estimated as a result of you just
+fitting a regression line, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/144-0
+00:22:03.864 --> 00:22:06.824
+<v Krotoa 1012>Here, this is the predicted value of Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/145-0
+00:22:11.704 --> 00:22:15.304
+<v Krotoa 1012>That's what the line would tell me that Y
+is.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/146-0
+00:22:20.264 --> 00:22:23.725
+<v Krotoa 1012>For a point X,
+this is still my intercept now;</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/146-1
+00:22:23.725 --> 00:22:26.744
+<v Krotoa 1012>it has just been estimated from a sample.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/147-0
+00:22:29.864 --> 00:22:31.384
+<v Krotoa 1012>And this is still my slope.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/148-0
+00:22:35.304 --> 00:22:37.864
+<v Krotoa 1012>And this XI is the value of X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/149-0
+00:22:40.664 --> 00:22:44.504
+<v Krotoa 1012>at a specific point I.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/150-0
+00:22:46.504 --> 00:22:46.984
+<v Krotoa 1012>Okay.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/151-0
+00:22:49.704 --> 00:22:50.264
+<v Krotoa 1012>So...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/152-0
+00:22:51.464 --> 00:22:53.704
+<v Krotoa 1012>As for what I said about the error
+component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/153-0
+00:22:58.664 --> 00:23:03.784
+<v Krotoa 1012>I'll just write it out explicitly: We do
+not have to estimate.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/154-0
+00:23:06.504 --> 00:23:08.824
+<v Krotoa 1012>That error term, epsilon I.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/157-0
+00:23:23.264 --> 00:23:25.224
+<v Krotoa 1012>There will be.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/158-0
+00:23:27.704 --> 00:23:30.424
+<v Krotoa 1012>Naturally occurring.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/159-0
+00:23:35.224 --> 00:23:36.584
+<v Krotoa 1012>Discrepancies.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/160-0
+00:23:41.304 --> 00:23:42.904
+<v Krotoa 1012>Between actual Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/161-0
+00:23:45.944 --> 00:23:47.144
+<v Krotoa 1012>And estimated Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/165-0
+00:24:07.304 --> 00:24:12.184
+<v Krotoa 1012>So, this error term is referred to as EI,
+so that would be the...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/166-0
+00:24:13.864 --> 00:24:18.430
+<v Krotoa 1012>Naturally occurring discrepancies,
+not the population error component,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/166-1
+00:24:18.430 --> 00:24:20.424
+<v Krotoa 1012>but the sample error component.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/167-0
+00:24:22.104 --> 00:24:24.024
+<v Krotoa 1012>And it is going to be the difference
+between...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/168-0
+00:24:25.864 --> 00:24:26.264
+<v Krotoa 1012>YI.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/169-0
+00:24:27.184 --> 00:24:32.104
+<v Krotoa 1012>The actual Y and Y hat I,
+which is the predicted Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/170-0
+00:24:39.224 --> 00:24:43.933
+<v Krotoa 1012>And sometimes they refer to this,
+it's either error or residual.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/170-1
+00:24:43.933 --> 00:24:46.904
+<v Krotoa 1012>Those are the names they like to give it.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/171-0
+00:24:47.944 --> 00:24:53.967
+<v Krotoa 1012>residual because it is left over after
+the structure has been modeled.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/171-1
+00:24:53.967 --> 00:25:00.584
+<v Krotoa 1012>So it is what remains behind after we
+have accounted for what can be modeled.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/172-0
+00:25:09.544 --> 00:25:10.104
+<v Krotoa 1012>ZOë.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/173-0
+00:25:13.464 --> 00:25:15.464
+<v Krotoa 1012>We've got our little regression line here.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/174-0
+00:25:20.904 --> 00:25:24.324
+<v Krotoa 1012>Just to kind of,
+I didn't speak about this,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/174-1
+00:25:24.324 --> 00:25:26.424
+<v Krotoa 1012>but I'll just write it out.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/175-0
+00:25:27.704 --> 00:25:28.904
+<v Krotoa 1012>So there's my...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/176-0
+00:25:32.824 --> 00:25:36.184
+<v Krotoa 1012>Interviews over there,
+so that would be the zero.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/177-0
+00:25:39.864 --> 00:25:43.624
+<v Krotoa 1012>This is my actual predicted line Y hat.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/178-0
+00:25:45.544 --> 00:25:47.464
+<v Krotoa 1012>But I also then have some points.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/179-0
+00:25:51.304 --> 00:25:53.384
+<v Krotoa 1012>Because this is still based on real data.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/181-0
+00:26:01.624 --> 00:26:02.424
+<v Krotoa 1012>And then...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/182-0
+00:26:04.744 --> 00:26:06.584
+<v Krotoa 1012>Obviously, I also have my slope here.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/183-0
+00:26:10.584 --> 00:26:11.304
+<v Krotoa 1012>The one.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/184-0
+00:26:12.664 --> 00:26:20.184
+<v Krotoa 1012>And then I could choose a specific point,
+xi, so why don't we take this point?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/185-0
+00:26:22.984 --> 00:26:23.784
+<v Krotoa 1012>Over here.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/186-0
+00:26:25.464 --> 00:26:26.904
+<v Krotoa 1012>So, if I go down...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/187-0
+00:26:30.424 --> 00:26:34.824
+<v Krotoa 1012>To the x-axis, that is the point XI,
+so a specific point there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/188-0
+00:26:35.864 --> 00:26:42.184
+<v Krotoa 1012>And then, if I take that to the y-axis,
+that's my actual YI value.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/189-0
+00:26:43.224 --> 00:26:45.919
+<v Krotoa 1012>But then,
+if I just take it down to the regression</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/189-1
+00:26:45.919 --> 00:26:46.184
+<v Krotoa 1012>line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/190-0
+00:26:48.184 --> 00:26:52.554
+<v Krotoa 1012>So if I make that a solid line,
+that there is my Y hat i.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/190-1
+00:26:52.554 --> 00:26:58.357
+<v Krotoa 1012>So that is for that point X what my
+regression line predicts instead of what</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/190-2
+00:26:58.357 --> 00:26:59.864
+<v Krotoa 1012>the actual value is.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/191-0
+00:27:01.464 --> 00:27:02.744
+<v Krotoa 1012>And then my error term.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/192-0
+00:27:05.784 --> 00:27:09.944
+<v Krotoa 1012>Would be the vertical distance between Y
+_i and Y _hat _i.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/193-0
+00:27:12.584 --> 00:27:13.864
+<v Krotoa 1012>So that over there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/194-0
+00:27:15.864 --> 00:27:18.424
+<v Krotoa 1012>That vertical distance is EI.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/195-0
+00:27:19.424 --> 00:27:22.253
+<v Krotoa 1012>So,
+from YI to Y hat I is that vertical</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/195-1
+00:27:22.253 --> 00:27:26.003
+<v Krotoa 1012>distance EI,
+so that tells me how far off my line is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/195-2
+00:27:26.003 --> 00:27:27.064
+<v Krotoa 1012>from the point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/196-0
+00:27:28.184 --> 00:27:30.424
+<v Krotoa 1012>At that specific X-value.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/197-0
+00:27:40.824 --> 00:27:41.544
+<v Krotoa 1012>Okay, but...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/198-0
+00:27:42.624 --> 00:27:48.700
+<v Krotoa 1012>Big picture is, we've got a scatter plot,
+we've assumed a linear relationship</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/198-1
+00:27:48.700 --> 00:27:52.907
+<v Krotoa 1012>between X&amp;Y,
+we've found a line through the data,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/198-2
+00:27:52.907 --> 00:27:58.983
+<v Krotoa 1012>and we acknowledge that our line is
+obviously not going to go through all the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/198-3
+00:27:58.983 --> 00:28:01.944
+<v Krotoa 1012>points, and it's useful for us to see.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/199-0
+00:28:02.424 --> 00:28:02.984
+<v Krotoa 1012>Okay.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/200-0
+00:28:05.144 --> 00:28:09.964
+<v Krotoa 1012>Is it okay that it's, you know,
+not going through all the points as long</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/200-1
+00:28:09.964 --> 00:28:15.313
+<v Krotoa 1012>as there's kind of an even dispersion of
+points from the line and our line is on</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/200-2
+00:28:15.313 --> 00:28:19.144
+<v Krotoa 1012>average pretty close to all the points,
+then we're happy.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/201-0
+00:28:20.904 --> 00:28:22.024
+<v Krotoa 1012>Okay, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/202-0
+00:28:26.344 --> 00:28:31.786
+<v Krotoa 1012>Now, the question is,
+how do you actually find the line of best</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/202-1
+00:28:31.786 --> 00:28:35.953
+<v Krotoa 1012>fit? So,
+if I bring it back to the original line</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/202-2
+00:28:35.953 --> 00:28:37.144
+<v Krotoa 1012>that I drew...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/203-0
+00:28:38.424 --> 00:28:41.946
+<v Krotoa 1012>Remember that I said I might have drawn
+the line like this,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/203-1
+00:28:41.946 --> 00:28:45.704
+<v Krotoa 1012>but you might have tilted it a little bit,
+or you might have...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/204-0
+00:28:46.824 --> 00:28:49.064
+<v Krotoa 1012>moved it down a little bit or moved it up
+a little bit.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/205-0
+00:28:50.024 --> 00:28:55.922
+<v Krotoa 1012>So, there has to be a systematic way,
+or an unbiased mathematical way,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/205-1
+00:28:55.922 --> 00:28:58.664
+<v Krotoa 1012>of finding this line of best fit.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/206-0
+00:28:59.864 --> 00:29:02.824
+<v Krotoa 1012>And this is where it gets fun, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/207-0
+00:29:04.664 --> 00:29:07.064
+<v Krotoa 1012>They set it up as an optimization problem.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/211-0
+00:29:30.104 --> 00:29:32.424
+<v Krotoa 1012>So the line of best fit is...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/212-0
+00:29:35.304 --> 00:29:36.184
+<v Krotoa 1012>The line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/213-0
+00:29:38.104 --> 00:29:40.184
+<v Krotoa 1012>That is overall.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/214-0
+00:29:43.064 --> 00:29:44.344
+<v Krotoa 1012>The closest.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/215-0
+00:29:46.504 --> 00:29:47.704
+<v Krotoa 1012>To all the data points.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/216-0
+00:29:55.944 --> 00:29:58.104
+<v Krotoa 1012>So, it's a very...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/217-0
+00:29:59.864 --> 00:30:04.219
+<v Krotoa 1012>specific optimization problem in the
+sense that if this is the line of best</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/217-1
+00:30:04.219 --> 00:30:08.460
+<v Krotoa 1012>fit, if I move this a little bit,
+suddenly it's not the line of best fit.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/217-2
+00:30:08.460 --> 00:30:12.242
+<v Krotoa 1012>Suddenly now it's a little bit far away
+from all the data points.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/217-3
+00:30:12.242 --> 00:30:16.425
+<v Krotoa 1012>Or if I moved it up a little bit,
+suddenly it would be a little bit more</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/217-4
+00:30:16.425 --> 00:30:19.864
+<v Krotoa 1012>far away from all the data points.
+So it has to be the line</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/218-0
+00:30:19.944 --> 00:30:24.536
+<v Krotoa 1012>That minimizes the distance from all the
+data points for us to be able to say this</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/218-1
+00:30:24.536 --> 00:30:25.864
+<v Krotoa 1012>is the best line to use.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/219-0
+00:30:27.144 --> 00:30:27.784
+<v Krotoa 1012>So...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/220-0
+00:30:30.904 --> 00:30:36.746
+<v Krotoa 1012>If you have to then take that and
+translate it into a mathematical</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/220-1
+00:30:36.746 --> 00:30:39.624
+<v Krotoa 1012>objective, it has to be the line.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/221-0
+00:30:42.184 --> 00:30:42.904
+<v Krotoa 1012>That.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/222-0
+00:30:44.664 --> 00:30:45.864
+<v Krotoa 1012>Minimizers.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/223-0
+00:30:54.344 --> 00:30:55.624
+<v Krotoa 1012>The distance.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/224-0
+00:30:59.144 --> 00:31:00.264
+<v Krotoa 1012>From all the points.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/225-0
+00:31:11.224 --> 00:31:13.144
+<v Krotoa 1012>And this distance from all the points.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/227-0
+00:31:15.704 --> 00:31:20.424
+<v Krotoa 1012>We refer to as the sum of squared errors.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/228-0
+00:31:26.504 --> 00:31:27.704
+<v Krotoa 1012>And that gets a little...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/229-0
+00:31:28.664 --> 00:31:30.264
+<v Krotoa 1012>acronym there, SSE.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/232-0
+00:31:44.344 --> 00:31:45.864
+<v Krotoa 1012>Okay, so the SSE.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/233-0
+00:31:51.144 --> 00:31:54.024
+<v Krotoa 1012>Looks like this, it's literally the sum.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/234-0
+00:31:55.464 --> 00:31:57.144
+<v Krotoa 1012>From i = 1 up to N.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/235-0
+00:31:58.984 --> 00:32:01.544
+<v Krotoa 1012>Of the squared distance.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/236-0
+00:32:02.704 --> 00:32:04.184
+<v Krotoa 1012>from each YI.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/237-0
+00:32:08.104 --> 00:32:10.184
+<v Krotoa 1012>And its corresponding Y hat I.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/238-0
+00:32:13.624 --> 00:32:14.184
+<v Krotoa 1012>So.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/239-0
+00:32:17.944 --> 00:32:20.504
+<v Krotoa 1012>It's going to take each vertical distance.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/240-0
+00:32:21.864 --> 00:32:22.424
+<v Krotoa 1012>There.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/241-0
+00:32:24.904 --> 00:32:28.280
+<v Krotoa 1012>and add all of them up.
+So it's going to take all the vertical</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/241-1
+00:32:28.280 --> 00:32:31.227
+<v Krotoa 1012>distances from the points to the line and
+add them up.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/241-2
+00:32:31.227 --> 00:32:34.496
+<v Krotoa 1012>But what does it do before it adds them
+up? It squares them.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/241-3
+00:32:34.496 --> 00:32:36.104
+<v Krotoa 1012>Why is it important to square?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/242-0
+00:32:37.064 --> 00:32:42.307
+<v Krotoa 1012>because you'd probably end up with 0 if
+you had positive deviations plus negative</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/242-1
+00:32:42.307 --> 00:32:45.760
+<v Krotoa 1012>deviations.
+It will all kind of pull together towards</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/242-2
+00:32:45.760 --> 00:32:48.382
+<v Krotoa 1012>0,
+and you're not left with a meaningful</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/242-3
+00:32:48.382 --> 00:32:51.772
+<v Krotoa 1012>quantity. So instead,
+we first take the differences,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/242-4
+00:32:51.772 --> 00:32:56.504
+<v Krotoa 1012>then square them, and then we add them up.
+And then you get a nice single</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/243-0
+00:32:57.224 --> 00:33:02.032
+<v Krotoa 1012>value that tells you this is the total
+error that your model is making at the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/243-1
+00:33:02.032 --> 00:33:04.867
+<v Krotoa 1012>moment.
+And we're going to try and choose the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/243-2
+00:33:04.867 --> 00:33:08.751
+<v Krotoa 1012>line so that that total error is the
+least it can possibly be.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/243-3
+00:33:08.751 --> 00:33:12.450
+<v Krotoa 1012>It will always exist,
+but we want it to be the least it can</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/243-4
+00:33:12.450 --> 00:33:15.224
+<v Krotoa 1012>possibly be.
+So it's a minimization problem.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/244-0
+00:33:16.664 --> 00:33:22.115
+<v Krotoa 1012>This looks a lot like something you've
+dealt with, which is the variance.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/244-1
+00:33:22.115 --> 00:33:27.936
+<v Krotoa 1012>The variance is the sum of the squared
+deviations of each point from its mean.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/244-2
+00:33:27.936 --> 00:33:29.704
+<v Krotoa 1012>Same kind of idea there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/245-0
+00:33:31.144 --> 00:33:31.864
+<v Krotoa 1012>So, this...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/246-0
+00:33:32.824 --> 00:33:35.224
+<v Krotoa 1012>And then we can rewrite this if we want.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/247-0
+00:33:36.744 --> 00:33:37.864
+<v Krotoa 1012>This becomes.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/248-0
+00:33:43.384 --> 00:33:49.691
+<v Krotoa 1012>Y hat I just gets sub,
+you sub the formula for Y hat I,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/248-1
+00:33:49.691 --> 00:33:51.944
+<v Krotoa 1012>which is B0 plus B1.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/249-0
+00:33:53.064 --> 00:33:53.624
+<v Krotoa 1012>XI.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/250-0
+00:34:00.824 --> 00:34:02.104
+<v Krotoa 1012>So, the goal here...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/251-0
+00:34:10.024 --> 00:34:10.744
+<v Krotoa 1012>Choose.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/252-0
+00:34:11.864 --> 00:34:12.824
+<v Krotoa 1012>Beta ZOë.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/253-0
+00:34:14.024 --> 00:34:15.144
+<v Krotoa 1012>and beta one.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/254-0
+00:34:16.664 --> 00:34:18.184
+<v Krotoa 1012>So that...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/255-0
+00:34:19.784 --> 00:34:22.504
+<v Krotoa 1012>The SSE is minimised.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/256-0
+00:34:23.944 --> 00:34:28.696
+<v Krotoa 1012>If you've chosen beta 0 and beta one,
+you've chosen your line because the line</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/256-1
+00:34:28.696 --> 00:34:33.449
+<v Krotoa 1012>is just the slope and the intercept,
+and you need to choose it so that the SSE</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/256-2
+00:34:33.449 --> 00:34:36.758
+<v Krotoa 1012>is minimized.
+And this was just to show you that it is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/256-3
+00:34:36.758 --> 00:34:38.744
+<v Krotoa 1012>actually a function of B0 and B1.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/259-0
+00:34:55.864 --> 00:35:00.184
+<v Krotoa 1012>Some background on minimization or
+optimization.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/260-0
+00:35:03.144 --> 00:35:08.077
+<v Krotoa 1012>I'm putting it in a different color here
+because this part is not strictly</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/260-1
+00:35:08.077 --> 00:35:12.484
+<v Krotoa 1012>necessary for you to know,
+but I would like you to understand what</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/260-2
+00:35:12.484 --> 00:35:14.984
+<v Krotoa 1012>you are doing here. So the background.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/261-0
+00:35:15.864 --> 00:35:17.944
+<v Krotoa 1012>On minimization.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/262-0
+00:35:22.504 --> 00:35:25.384
+<v Krotoa 1012>So, this is an optimization problem, and..
+.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/263-0
+00:35:27.064 --> 00:35:29.544
+<v Krotoa 1012>The SSE is a function in and of itself.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/264-0
+00:35:30.544 --> 00:35:34.264
+<v Krotoa 1012>And it's specifically an error function,
+so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/265-0
+00:35:35.624 --> 00:35:39.612
+<v Krotoa 1012>I'm not saying it looks like this,
+but it might look like this.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/265-1
+00:35:39.612 --> 00:35:44.660
+<v Krotoa 1012>So there will be some sort of point where
+the error function is at a high point,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/265-2
+00:35:44.660 --> 00:35:49.334
+<v Krotoa 1012>and there will be another part where the
+error function is at a low point,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/265-3
+00:35:49.334 --> 00:35:52.824
+<v Krotoa 1012>and then maybe it goes high again.
+This spot over here,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/266-0
+00:35:55.944 --> 00:36:00.710
+<v Krotoa 1012>That's the spot we want;
+that's if we get that error function to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/266-1
+00:36:00.710 --> 00:36:01.664
+<v Krotoa 1012>be minimized.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/267-0
+00:36:03.304 --> 00:36:05.304
+<v Krotoa 1012>That is the line of best fit, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/268-0
+00:36:06.504 --> 00:36:07.384
+<v Krotoa 1012>We want.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/269-0
+00:36:09.224 --> 00:36:11.784
+<v Krotoa 1012>B0 and B1.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/270-0
+00:36:14.184 --> 00:36:14.984
+<v Krotoa 1012>That give us.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/271-0
+00:36:16.824 --> 00:36:17.384
+<v Krotoa 1012>This.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/272-0
+00:36:20.184 --> 00:36:23.595
+<v Krotoa 1012>So the reason I give you this background
+is,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/272-1
+00:36:23.595 --> 00:36:29.660
+<v Krotoa 1012>do you remember how they told you to find
+minimums for functions in high school</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/272-2
+00:36:29.660 --> 00:36:33.224
+<v Krotoa 1012>maths?
+Did you guys do minimums for functions?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/273-0
+00:36:34.424 --> 00:36:35.784
+<v Krotoa 1012>ringing any kind of bells.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/274-0
+00:36:36.984 --> 00:36:40.954
+<v Krotoa 1012>So if you have a function and you need to
+find its minimum,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/274-1
+00:36:40.954 --> 00:36:46.380
+<v Krotoa 1012>you derive it with respect to some sort
+of value, and then you set it equal to 0,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/274-2
+00:36:46.380 --> 00:36:51.144
+<v Krotoa 1012>and then you solve for that value.
+Then that's the value that gives the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/274-3
+00:36:51.144 --> 00:36:56.504
+<v Krotoa 1012>minimum of the function at that point.
+Luckily for you, you don't have to do the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/275-0
+00:36:56.544 --> 00:37:01.056
+<v Krotoa 1012>Derivation and the setting equal to 0,
+there's a closed form solution to this,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/275-1
+00:37:01.056 --> 00:37:05.625
+<v Krotoa 1012>which means you just get the nice formula
+that has already been solved for you,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/275-2
+00:37:05.625 --> 00:37:09.624
+<v Krotoa 1012>but the background is that you would
+derive it and set it equal to 0.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/276-0
+00:37:13.064 --> 00:37:14.984
+<v Krotoa 1012>So, you derive the SSE.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/277-0
+00:37:16.264 --> 00:37:18.264
+<v Krotoa 1012>with respect.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/278-0
+00:37:19.624 --> 00:37:23.944
+<v Krotoa 1012>To B0 and B1 individually.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/279-0
+00:37:25.384 --> 00:37:26.824
+<v Krotoa 1012>And set equal to 0.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/280-0
+00:37:33.984 --> 00:37:34.664
+<v Krotoa 1012>Cancel.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/281-0
+00:37:35.704 --> 00:37:40.926
+<v Krotoa 1012>So this part is just background.
+It explains how we get to that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/281-1
+00:37:40.926 --> 00:37:45.105
+<v Krotoa 1012>And all of that is called the least
+squares method.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/281-2
+00:37:45.105 --> 00:37:51.613
+<v Krotoa 1012>So least squares because it is trying to
+find the least squared distance between</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/281-3
+00:37:51.613 --> 00:37:54.104
+<v Krotoa 1012>the value and what it predicts.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/282-0
+00:37:55.784 --> 00:37:58.893
+<v Krotoa 1012>Okay,
+so the slides say it will be found using</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/282-1
+00:37:58.893 --> 00:38:03.192
+<v Krotoa 1012>Excel. That's partially true. Yes,
+it will be found using Excel,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/282-2
+00:38:03.192 --> 00:38:08.153
+<v Krotoa 1012>but for certain small data sets,
+we could ask you to calculate it by hand.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/282-3
+00:38:08.153 --> 00:38:13.379
+<v Krotoa 1012>I will show you how it's done by hand,
+but I'll also show you how you can find</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/282-4
+00:38:13.379 --> 00:38:14.504
+<v Krotoa 1012>it on your lovely</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/283-0
+00:38:14.744 --> 00:38:20.592
+<v Krotoa 1012>HP calculator. So,
+and I will strongly advise you to use the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/283-1
+00:38:20.592 --> 00:38:27.784
+<v Krotoa 1012>HP calculator instead of the by hand,
+because often what I see, if I mark,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/284-0
+00:38:29.904 --> 00:38:32.443
+<v Krotoa 1012>Papers,
+where they have long answer questions,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/284-1
+00:38:32.443 --> 00:38:36.008
+<v Krotoa 1012>the ones who do it by hand somehow always
+end up making mistakes,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/284-2
+00:38:36.008 --> 00:38:39.304
+<v Krotoa 1012>so I would rather have you just find it
+with the calculator.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/285-0
+00:38:40.824 --> 00:38:46.270
+<v Krotoa 1012>So there's also very specific
+interpretation of the slope and the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/285-1
+00:38:46.270 --> 00:38:49.901
+<v Krotoa 1012>intercept.
+So B0 being our intercept is the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/285-2
+00:38:49.901 --> 00:38:54.192
+<v Krotoa 1012>estimated mean value of Y when the value
+of X is 0.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/285-3
+00:38:54.192 --> 00:39:00.464
+<v Krotoa 1012>There will be a question most likely
+asking you to interpret the intercept.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/286-0
+00:39:00.744 --> 00:39:05.624
+<v Krotoa 1012>And you use this phrasing pretty much
+verbatim, and that gives you one mark.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/287-0
+00:39:06.504 --> 00:39:08.344
+<v Krotoa 1012>The interpretation of the slope.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/288-0
+00:39:09.304 --> 00:39:14.548
+<v Krotoa 1012>It's the estimated change in the mean
+value of Y as a result of a one-unit</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/288-1
+00:39:14.548 --> 00:39:18.744
+<v Krotoa 1012>increase in X. Again, this phrasing,
+you memorize verbatim.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/288-2
+00:39:18.744 --> 00:39:22.171
+<v Krotoa 1012>What happens if you increase X by one
+unit to Y?</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/288-3
+00:39:22.171 --> 00:39:25.667
+<v Krotoa 1012>So it's the change in X from a one-unit
+increase.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/288-4
+00:39:25.667 --> 00:39:29.304
+<v Krotoa 1012>It's the change in Y from a one-unit
+increase in X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/289-0
+00:39:31.064 --> 00:39:35.880
+<v Krotoa 1012>We'll do some practice closer to the time
+to get you used to.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/289-1
+00:39:35.880 --> 00:39:40.153
+<v Krotoa 1012>Remember how with confidence intervals,
+we always say,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/289-2
+00:39:40.153 --> 00:39:46.368
+<v Krotoa 1012>after we've given the confidence interval,
+we give that interpretation sentence</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/289-3
+00:39:46.368 --> 00:39:48.544
+<v Krotoa 1012>about, we are 95% confident.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/290-0
+00:39:48.824 --> 00:39:52.550
+<v Krotoa 1012>and so on and so on and so on.
+The same with hypothesis tests.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/290-1
+00:39:52.550 --> 00:39:56.868
+<v Krotoa 1012>We do the whole hypothesis test,
+and then we have the part where we say,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/290-2
+00:39:56.868 --> 00:40:01.304
+<v Krotoa 1012>reject at this significance level,
+therefore there is sufficient evidence.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-0
+00:40:02.424 --> 00:40:06.769
+<v Krotoa 1012>I've kind of told you when it comes to
+that, you memorize it verbatim,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-1
+00:40:06.769 --> 00:40:10.442
+<v Krotoa 1012>you give it to me verbatim.
+This is kind of the same thing.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-2
+00:40:10.442 --> 00:40:15.461
+<v Krotoa 1012>We don't want to lose marks for getting
+creative with our words and then implying</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-3
+00:40:15.461 --> 00:40:18.644
+<v Krotoa 1012>that we don't actually understand what is
+going on.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-4
+00:40:18.644 --> 00:40:23.235
+<v Krotoa 1012>Then we can look at a quick example.
+So here a real estate agent wishes to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/291-5
+00:40:23.235 --> 00:40:24.704
+<v Krotoa 1012>examine the relationship</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/292-0
+00:40:25.144 --> 00:40:29.095
+<v Krotoa 1012>between the selling price of a home and
+its size. So basically,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/292-1
+00:40:29.095 --> 00:40:34.035
+<v Krotoa 1012>the size of the house measured in square
+feet will be the independent variable.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/292-2
+00:40:34.035 --> 00:40:39.036
+<v Krotoa 1012>That will be the thing that we'll use to
+try and say something about the size of</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/292-3
+00:40:39.036 --> 00:40:41.938
+<v Krotoa 1012>the house. So, I mean,
+the price of the house.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/292-4
+00:40:41.938 --> 00:40:43.544
+<v Krotoa 1012>So just thinking about it,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/293-0
+00:40:44.704 --> 00:40:50.747
+<v Krotoa 1012>What kind of relationship should this be?
+It should be a positive relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/293-1
+00:40:50.747 --> 00:40:54.372
+<v Krotoa 1012>Larger houses should be sold for higher
+prices.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/293-2
+00:40:54.372 --> 00:40:59.509
+<v Krotoa 1012>So the first thing is we gather our data.
+Now this is on 10 houses,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/293-3
+00:40:59.509 --> 00:41:03.664
+<v Krotoa 1012>not really a groundbreaking data set for
+house prices.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/294-0
+00:41:03.784 --> 00:41:04.744
+<v Krotoa 1012>But, um...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/296-0
+00:41:06.424 --> 00:41:11.584
+<v Krotoa 1012>just to make it easier for us,
+they've just chosen 10 houses to look at.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/296-1
+00:41:11.584 --> 00:41:14.764
+<v Krotoa 1012>And you might think this is a silly
+example,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/296-2
+00:41:14.764 --> 00:41:18.864
+<v Krotoa 1012>but this is actually still a very
+relevant problem today.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/296-3
+00:41:18.864 --> 00:41:24.519
+<v Krotoa 1012>There's a branch of the government that
+tries to estimate people's house prices</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/296-4
+00:41:24.519 --> 00:41:27.064
+<v Krotoa 1012>so they can know exactly how much to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/297-0
+00:41:27.144 --> 00:41:31.802
+<v Krotoa 1012>tax them on for their properties.
+And they look at all sorts of interesting</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/297-1
+00:41:31.802 --> 00:41:36.705
+<v Krotoa 1012>things like they have satellite data.
+And then if you have added a pool to your</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/297-2
+00:41:36.705 --> 00:41:39.586
+<v Krotoa 1012>house,
+which they can pick up on the satellite</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/297-3
+00:41:39.586 --> 00:41:43.570
+<v Krotoa 1012>data, they can tax you more.
+So things like that. It's actually,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/297-4
+00:41:43.570 --> 00:41:47.064
+<v Krotoa 1012>it's still very relevant today,
+predicting house prices.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/298-0
+00:41:47.384 --> 00:41:51.532
+<v Krotoa 1012>But the model will obviously in real life
+not be this simple.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/298-1
+00:41:51.532 --> 00:41:56.081
+<v Krotoa 1012>They'll add in other variables.
+But if you work out a scatter plot,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/298-2
+00:41:56.081 --> 00:41:59.359
+<v Krotoa 1012>you will with house price on the x-axis,
+I mean,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/298-3
+00:41:59.359 --> 00:42:02.772
+<v Krotoa 1012>square feet on the x-axis and price on
+the y-axis,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/298-4
+00:42:02.772 --> 00:42:06.184
+<v Krotoa 1012>we see early indications that we should
+be able to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/299-0
+00:42:06.264 --> 00:42:11.785
+<v Krotoa 1012>put a straight line through the data.
+So this is suggestive of a positive</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/299-1
+00:42:11.785 --> 00:42:16.933
+<v Krotoa 1012>correlation between the two.
+Then we move on to try and fit a linear</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/299-2
+00:42:16.933 --> 00:42:20.664
+<v Krotoa 1012>model to try and establish A causal
+relationship.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/300-0
+00:42:21.664 --> 00:42:27.326
+<v Krotoa 1012>So, this output is generated with Excel,
+and you are going to get very familiar</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/300-1
+00:42:27.326 --> 00:42:31.148
+<v Krotoa 1012>with this output.
+I'm going to show you where to find</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/300-2
+00:42:31.148 --> 00:42:34.263
+<v Krotoa 1012>everything on this output,
+and in the exam,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/300-3
+00:42:34.263 --> 00:42:38.722
+<v Krotoa 1012>you're not going to have to use Excel to
+generate this output,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/300-4
+00:42:38.722 --> 00:42:41.624
+<v Krotoa 1012>but you will get a printout, most likely.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/301-0
+00:42:41.784 --> 00:42:44.824
+<v Krotoa 1012>And you will have to interpret this
+output, so...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/302-0
+00:42:47.144 --> 00:42:51.722
+<v Krotoa 1012>I have some great resources that I'll
+also, when the time is right,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/302-1
+00:42:51.722 --> 00:42:55.694
+<v Krotoa 1012>put up on Sunlearn cheat sheets to
+understand this output.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/302-2
+00:42:55.694 --> 00:43:00.272
+<v Krotoa 1012>But the very first thing you start with
+is the regression equation.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/302-3
+00:43:00.272 --> 00:43:04.850
+<v Krotoa 1012>And that is what is circled here.
+So you will see there we have the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/302-4
+00:43:04.850 --> 00:43:06.264
+<v Krotoa 1012>intercept and we have</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/303-0
+00:43:06.504 --> 00:43:07.464
+<v Krotoa 1012>The slope.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/304-0
+00:43:08.584 --> 00:43:10.744
+<v Krotoa 1012>So,
+I'm just going to switch so that I can...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/305-0
+00:43:12.904 --> 00:43:13.784
+<v Krotoa 1012>Highlight for you.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/306-0
+00:43:14.744 --> 00:43:17.560
+<v Krotoa 1012>So,
+one of the easiest questions we can ask</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/306-1
+00:43:17.560 --> 00:43:20.248
+<v Krotoa 1012>is,
+give the regression equation based on</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/306-2
+00:43:20.248 --> 00:43:23.320
+<v Krotoa 1012>this output,
+so you know the general regression</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/306-3
+00:43:23.320 --> 00:43:24.984
+<v Krotoa 1012>equation is going to be...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/307-0
+00:43:26.104 --> 00:43:28.984
+<v Krotoa 1012>Y hat I is equal to.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/308-0
+00:43:30.184 --> 00:43:35.464
+<v Krotoa 1012>B0 plus B1XI. Now, if you go and...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/309-0
+00:43:36.504 --> 00:43:41.597
+<v Krotoa 1012>make it relevant to this,
+you need your B0, your intercept.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/309-1
+00:43:41.597 --> 00:43:47.624
+<v Krotoa 1012>That is literally given as intercept.
+So that is going to be 98.24833.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/310-0
+00:43:53.544 --> 00:43:56.504
+<v Krotoa 1012>Plus my slope, so the slope.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/311-0
+00:43:58.584 --> 00:44:03.109
+<v Krotoa 1012>The name that it gets here is the name of
+the variable because the slope is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/311-1
+00:44:03.109 --> 00:44:07.337
+<v Krotoa 1012>connected to the X variable.
+So here the slope gets named square feet,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/311-2
+00:44:07.337 --> 00:44:11.863
+<v Krotoa 1012>but it's not the actual square feet.
+It is the slope that is related to the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/311-3
+00:44:11.863 --> 00:44:16.329
+<v Krotoa 1012>square feet. So that is 0.10977.
+Notice it's a positive slope because it's</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/311-4
+00:44:16.329 --> 00:44:16.984
+<v Krotoa 1012>a positive.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/312-0
+00:44:17.224 --> 00:44:20.672
+<v Krotoa 1012>Linear relationship: if it was a negative
+linear relationship,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/312-1
+00:44:20.672 --> 00:44:23.464
+<v Krotoa 1012>it would have been a negative slope,
+so this is...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/313-0
+00:44:24.584 --> 00:44:26.344
+<v Krotoa 1012>0.109.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/314-0
+00:44:27.544 --> 00:44:32.562
+<v Krotoa 1012>77 and then you have to put in your XI.
+So for me, I'm happy with that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/314-1
+00:44:32.562 --> 00:44:38.000
+<v Krotoa 1012>What I'm looking for is I want to see,
+did you put the hat over? Because yes,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/314-2
+00:44:38.000 --> 00:44:41.067
+<v Krotoa 1012>I will deduct marks if I don't see the
+hat.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/314-3
+00:44:41.067 --> 00:44:46.504
+<v Krotoa 1012>Because if you don't put the hat over,
+you're suggesting that's the actual Y.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/315-0
+00:44:46.824 --> 00:44:50.426
+<v Krotoa 1012>It's not the actual Y,
+it's the predicted Y for that X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/315-1
+00:44:50.426 --> 00:44:54.413
+<v Krotoa 1012>I want to see that you've correctly
+identified the intercept.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/315-2
+00:44:54.413 --> 00:44:59.044
+<v Krotoa 1012>If you put X with the intercept,
+then I know you don't know what you're</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/315-3
+00:44:59.044 --> 00:45:03.868
+<v Krotoa 1012>talking about. X goes with the slope.
+So I want three marks if I see those</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/315-4
+00:45:03.868 --> 00:45:06.184
+<v Krotoa 1012>things. Now, if you want to be safe,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/316-0
+00:45:06.584 --> 00:45:11.812
+<v Krotoa 1012>I know it's also preferred if you can
+apply it to the context.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/316-1
+00:45:11.812 --> 00:45:15.464
+<v Krotoa 1012>So instead of Y hat I and XI,
+you could go.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/317-0
+00:45:16.344 --> 00:45:24.845
+<v Krotoa 1012>house price hat, for some reason,
+they like that, equals 98.24833 plus 0.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/317-1
+00:45:24.845 --> 00:45:31.393
+<v Krotoa 1012>10977 square feet,
+just to sub in what the variables are</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/317-2
+00:45:31.393 --> 00:45:36.104
+<v Krotoa 1012>actually called in this specific context.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/318-0
+00:45:37.064 --> 00:45:39.944
+<v Krotoa 1012>I would mark correctly either one of
+these.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-0
+00:45:41.144 --> 00:45:45.170
+<v Krotoa 1012>But the marking gets split up between the
+lectures for this module.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-1
+00:45:45.170 --> 00:45:47.893
+<v Krotoa 1012>So if you want to be safe with all
+lecturers,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-2
+00:45:47.893 --> 00:45:52.096
+<v Krotoa 1012>I would say this is your best bet if you
+give the regression equation.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-3
+00:45:52.096 --> 00:45:56.122
+<v Krotoa 1012>But I think we get instructions to mark
+this and this both correct,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-4
+00:45:56.122 --> 00:45:59.023
+<v Krotoa 1012>because then you've identified everything
+right.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/319-5
+00:45:59.023 --> 00:46:01.984
+<v Krotoa 1012>So there's many more things on this Excel
+output.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/320-0
+00:46:02.064 --> 00:46:05.773
+<v Krotoa 1012>that we have to learn,
+but we're not going to jump in and learn</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/320-1
+00:46:05.773 --> 00:46:08.903
+<v Krotoa 1012>everything on the first day that we learn
+this topic.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/320-2
+00:46:08.903 --> 00:46:13.655
+<v Krotoa 1012>So just warning you for now that this is
+one of the things we're going to have to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/320-3
+00:46:13.655 --> 00:46:17.306
+<v Krotoa 1012>get to know quite well,
+but you're already well on your way if</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/320-4
+00:46:17.306 --> 00:46:20.784
+<v Krotoa 1012>you can interpret the regression equation
+from this output.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/321-0
+00:46:22.104 --> 00:46:27.341
+<v Krotoa 1012>Okay, and then we're almost done.
+There's not too much more I want to talk</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/321-1
+00:46:27.341 --> 00:46:30.553
+<v Krotoa 1012>about,
+but if you went and plotted this exact</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/321-2
+00:46:30.553 --> 00:46:35.650
+<v Krotoa 1012>regression line on top of your data,
+which is something that you can do,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/321-3
+00:46:35.650 --> 00:46:39.910
+<v Krotoa 1012>you will see that we have our lovely
+little intercept there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/321-4
+00:46:39.910 --> 00:46:42.424
+<v Krotoa 1012>It crosses the x-axis at that point.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/322-0
+00:46:42.824 --> 00:46:45.975
+<v Krotoa 1012>And remember when we talked about the
+intercept,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/322-1
+00:46:45.975 --> 00:46:49.384
+<v Krotoa 1012>it's what the house price would be at 0
+square feet.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-0
+00:46:50.344 --> 00:46:53.630
+<v Krotoa 1012>that is not,
+that doesn't make sense for the data.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-1
+00:46:53.630 --> 00:46:57.432
+<v Krotoa 1012>So sometimes a value of X equal to 0
+would not make sense.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-2
+00:46:57.432 --> 00:47:01.234
+<v Krotoa 1012>So the intercept is sometimes just a
+theoretical quantity,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-3
+00:47:01.234 --> 00:47:05.616
+<v Krotoa 1012>not a practical quantity,
+because you would not have a house with 0</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-4
+00:47:05.616 --> 00:47:09.160
+<v Krotoa 1012>square feet.
+So the intercept is sometimes applicable,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-5
+00:47:09.160 --> 00:47:12.575
+<v Krotoa 1012>sometimes not.
+You'll still give the interpretation,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/323-6
+00:47:12.575 --> 00:47:13.864
+<v Krotoa 1012>so you'll still say,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/324-0
+00:47:14.104 --> 00:47:17.147
+<v Krotoa 1012>This is the value of Y when X is equal to
+0,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/324-1
+00:47:17.147 --> 00:47:22.219
+<v Krotoa 1012>but it doesn't always have practical
+implications for the data because the</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/324-2
+00:47:22.219 --> 00:47:26.006
+<v Krotoa 1012>data doesn't always extrapolate beyond a
+certain range.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/324-3
+00:47:26.006 --> 00:47:30.199
+<v Krotoa 1012>You see that house prices tend to start
+at 1,000 square feet.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/324-4
+00:47:30.199 --> 00:47:32.904
+<v Krotoa 1012>They don't really start fewer than that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/325-0
+00:47:33.624 --> 00:47:36.833
+<v Krotoa 1012>And then here they end at 2,
+500 square feet.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/325-1
+00:47:36.833 --> 00:47:42.205
+<v Krotoa 1012>They don't really extrapolate beyond that.
+So we must also be careful not to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/325-2
+00:47:42.205 --> 00:47:47.926
+<v Krotoa 1012>extrapolate beyond the range of our data.
+That's an error that statisticians make</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/325-3
+00:47:47.926 --> 00:47:51.624
+<v Krotoa 1012>to this day that they're not careful
+about. And then</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/326-0
+00:47:52.024 --> 00:47:58.351
+<v Krotoa 1012>The slope is obviously not so easily seen
+from on this, if we just draw the line,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/326-1
+00:47:58.351 --> 00:48:04.292
+<v Krotoa 1012>the slope is implicit in the line.
+But one thing we can notice, like I said,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/326-2
+00:48:04.292 --> 00:48:07.224
+<v Krotoa 1012>it's a positive slope. So your line is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/327-0
+00:48:08.104 --> 00:48:11.768
+<v Krotoa 1012>positively sloped,
+that means as X increases,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/327-1
+00:48:11.768 --> 00:48:15.513
+<v Krotoa 1012>Y also increases.
+If you had a negative slope,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/327-2
+00:48:15.513 --> 00:48:20.770
+<v Krotoa 1012>it would look like that. As X increases,
+Y decreases. Then, just,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/327-3
+00:48:20.770 --> 00:48:27.144
+<v Krotoa 1012>there's your other marks that you get for
+interpretation. So saying what B0 is,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/328-0
+00:48:28.744 --> 00:48:31.270
+<v Krotoa 1012>Again,
+notice it says it has no practical</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/328-1
+00:48:31.270 --> 00:48:35.721
+<v Krotoa 1012>application in this case because a house
+cannot have square footage of 0.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/328-2
+00:48:35.721 --> 00:48:39.090
+<v Krotoa 1012>And then if we look at the interpretation
+of the slope,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/328-3
+00:48:39.090 --> 00:48:44.022
+<v Krotoa 1012>it estimates the change in the mean value
+of Y as a result of 1 unit change in X.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/328-4
+00:48:44.022 --> 00:48:44.744
+<v Krotoa 1012>So they say,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/329-0
+00:48:45.624 --> 00:48:48.463
+<v Krotoa 1012>Here,
+this tells us that the mean value of a</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/329-1
+00:48:48.463 --> 00:48:53.512
+<v Krotoa 1012>house increases by this, on average,
+for each additional 1 square foot of size.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/329-2
+00:48:53.512 --> 00:48:56.352
+<v Krotoa 1012>So,
+what they've done is they've just subbed</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/329-3
+00:48:56.352 --> 00:49:01.464
+<v Krotoa 1012>out X&amp;Y for price and square feet,
+and notice that they actually multiplied.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/330-0
+00:49:03.224 --> 00:49:08.186
+<v Krotoa 1012>the slope by $1,000.
+Why they can do that is because that is</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/330-1
+00:49:08.186 --> 00:49:13.637
+<v Krotoa 1012>the units of y that was given to us when
+our data was given to us.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/330-2
+00:49:13.637 --> 00:49:19.007
+<v Krotoa 1012>So they said in the beginning,
+house price is in units of $1,000.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/330-3
+00:49:19.007 --> 00:49:22.424
+<v Krotoa 1012>So that is sometimes what they like to do.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/331-0
+00:49:22.504 --> 00:49:25.842
+<v Krotoa 1012>just to show that's completely applied to
+this context.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/331-1
+00:49:25.842 --> 00:49:28.584
+<v Krotoa 1012>We'll also look at a lot of examples of
+that.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/332-0
+00:49:30.504 --> 00:49:31.304
+<v Krotoa 1012>And then...</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/333-0
+00:49:34.904 --> 00:49:41.544
+<v Krotoa 1012>You can also, okay, I'll stop there.
+We'll carry on when I see you next.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/335-0
+00:50:01.064 --> 00:50:01.624
+<v Krotoa 1012>Excellent.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/336-0
+00:50:07.224 --> 00:50:08.824
+<v Krotoa 1012>Shut up.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/337-0
+00:50:11.224 --> 00:50:11.744
+<v Krotoa 1012>Remind me.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/339-0
+00:50:17.544 --> 00:50:25.064
+<v Krotoa 1012>And then I read it, and it's like,
+it's not going to be something.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/340-0
+00:50:28.104 --> 00:50:33.301
+<v Krotoa 1012>Then,
+I'll be able to say there was a way to</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/340-1
+00:50:33.301 --> 00:50:38.384
+<v Krotoa 1012>keep the machine,
+more I'll be able to say.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/342-0
+00:50:48.664 --> 00:50:52.804
+<v Krotoa 1012>I couldn't say yes,
+but I've got it across now at a venue</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/342-1
+00:50:52.804 --> 00:50:56.516
+<v Krotoa 1012>across campus,
+so I have to like make my way there.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/342-2
+00:50:56.516 --> 00:51:01.870
+<v Krotoa 1012>So you can ask me tomorrow if you want,
+or you can e-mail me a screenshot.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/342-3
+00:51:01.870 --> 00:51:02.584
+<v Krotoa 1012>Thank you.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-0
+00:51:04.224 --> 00:51:07.713
+<v Krotoa 1012>I just quickly ask you,
+students have been asking when the A2</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-1
+00:51:07.713 --> 00:51:10.696
+<v Krotoa 1012>breakdown,
+like what we have to say for the A2 would</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-2
+00:51:10.696 --> 00:51:13.454
+<v Krotoa 1012>be out.
+So the breakdown is basically everything</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-3
+00:51:13.454 --> 00:51:16.831
+<v Krotoa 1012>in second semester. In second,
+so not the whole year? Yeah,</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-4
+00:51:16.831 --> 00:51:21.502
+<v Krotoa 1012>not the whole year. A3 is the whole year,
+but A2 is everything in second semester.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/343-5
+00:51:21.502 --> 00:51:21.784
+<v Krotoa 1012>Okay.</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/344-0
+00:51:23.904 --> 00:51:27.271
+<v Krotoa 1012>What else do they want to know?
+They wanted to know when the formula</v>
+
+036dcc69-1fad-44e2-9bc9-4577ee383866/344-1
+00:51:27.271 --> 00:51:29.224
+<v Krotoa 1012>sheet that we will be given for the ETJ.</v>

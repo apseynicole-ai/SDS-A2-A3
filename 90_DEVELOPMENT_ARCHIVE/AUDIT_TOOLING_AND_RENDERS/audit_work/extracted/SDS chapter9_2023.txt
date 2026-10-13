@@ -1,0 +1,1027 @@
+
+===== PAGE 1 =====
+Fundamentals of 
+Hypothesis Testing:  
+One-Sample Tests
+Chapter 9
+
+===== PAGE 2 =====
+Objectives
+In this chapter, you learn:
+◼ The principles of hypothesis testing.
+◼ How to use hypothesis testing to test a mean or 
+proportion.
+◼ To evaluate the assumptions of each hypothesis testing 
+procedure and understand the consequences if 
+assumptions are seriously violated.
+◼ The pitfalls and ethical issues involved in hypothesis 
+testing.
+◼ How to avoid the pitfalls involved in hypothesis testing.
+===== PAGE 3 =====
+DCOVA
+===== PAGE 4 =====
+What is an Hypothesis?
+◼ A hypothesis is a claim (assertion) about 
+a population parameter:
+◼ Population mean 𝝁 :
+◼ Population proportion 𝝅 :
+Example: The proportion of tertiary students in the 
+Western Cape that own a car is 25%.
+𝜋 = 0.25
+Example: The average monthly allowance of tertiary 
+students in the Western Cape is R4500.
+𝜇 = 4500
+===== PAGE 5 =====
+Hypothesis Testing
+◼ Previously, we sought to determine whether a 
+sample mean is consistent with a known 
+population mean.
+◼ Here, we seek to validate a claim about the 
+population using the sample mean.
+◼ For this new goal, we use an inferential method 
+called: hypothesis testing.
+===== PAGE 6 =====
+◼ Steps for hypothesis testing:
+1) State a straightforward claim about the population 
+mean 𝜇 . This claim is referred to as the null 
+hypothesis 𝐻0 .
+2) State a mutually exclusive claim to the null 
+hypothesis. Such a claim is referred to as the 
+alternative hypothesis 𝐻1 .
+3) Begin with the assumption that 𝐻0 is true.
+◼ Recall: innocent until proven guilty!
+4) Examine the sample statistics to see if it better 
+supports 𝐻0 or 𝐻1.
+Hypothesis Testing
+===== PAGE 7 =====
+The Null Hypothesis H0
+◼ States the claim or assertion to be validated.
+◼ Assumes the status-quo scenario.
+◼ Represents the current belief in a situation.
+◼ May or may not be rejected.
+◼ Note: the null hypothesis is NEVER accepted.
+◼ Always about a population parameter NOT 
+about a sample statistic.
+===== PAGE 8 =====
+◼ The average diameter of a bolt manufactured 
+by a company for use in car engines is 30𝑚𝑚.
+𝐇𝟎: 𝝁 = 𝟑𝟎
+◼ A vending machine is programmed to dispense 
+240𝑚𝑙 of hot chocolate per cup.
+𝐇𝟎: 𝝁 = 𝟐𝟒𝟎
+◼ An airline advertised that its trip from Cape 
+Town to Johannesburg is 110𝑚𝑖𝑛𝑠 on average. 
+𝐇𝟎: 𝝁 = 𝟏𝟏𝟎
+The Null Hypothesis H0
+Examples
+===== PAGE 9 =====
+The Alternative Hypothesis H1
+◼ Is the opposite of the null hypothesis.
+◼ Challenges the status-quo scenario.
+◼ May or may not be proven.
+◼ It is generally the hypothesis that the researcher 
+intends to prove.
+===== PAGE 10 =====
+◼ The average diameter of bolts manufactured by 
+a company for use in car engines is not 30𝑚𝑚.
+𝐇𝟏: 𝝁 ≠ 𝟑𝟎
+◼ The hot chocolate vending machine is 
+programmed to dispense less than 240𝑚𝑙 on 
+average.
+𝐇𝟏: 𝝁 < 𝟐𝟒𝟎
+◼ The average travel time of an airline from Cape 
+Town to Johannesburg is longer than 110𝑚𝑖𝑛𝑠.
+𝐇𝟏: 𝝁 > 𝟏𝟏𝟎
+The Alternative Hypothesis H1
+Examples
+===== PAGE 11 =====
+The Hypothesis Testing Process
+◼ Claim: The population mean age is 50.
+H0: 𝜇 = 50 H1: 𝜇 ≠ 50
+◼ Sample the population and calculate the sample mean.
+◼ Suppose the sample mean value ҧ𝑥 = 20.
+◼ This is significantly less than the claimed mean population 
+age of 50.
+◼ If the null hypothesis were true, the probability of getting such 
+a different sample mean would be very small, so reject the 
+null hypothesis.
+◼ In other words, getting a sample mean age of 20 is so 
+unlikely if the population mean is 50.
+◼ Conclude that the population mean could not have been 50.
+===== PAGE 12 =====
+Concepts of Hypothesis Testing
+Claim: the population mean age 
+is 50 years. That is, null 
+hypothesis, H0: 𝜇 = 50. Population
+Select a 
+random 
+sample
+Sample
+Suppose the sample 
+mean age is 20. That 
+is, ҧ𝑥 = 20.
+Is ҧ𝑥 = 20
+likely if 
+𝜇 = 50?
+If not likely, 
+REJECT null 
+hypothesis
+===== PAGE 13 =====
+The Hypothesis Testing Process
+Sampling 
+Distribution of ഥ𝒙
+If H0 is true
+a. If it is unlikely that you 
+would get a sample 
+mean of this value … b. … when in fact this was 
+the population mean …
+c. … then you 
+reject the null 
+hypothesis 
+that 𝜇 = 50.
+===== PAGE 14 =====
+◼ If the sample mean is close to the stated 
+population mean, H0 is not rejected.
+◼ If the sample mean is far from the stated 
+population mean, H0 is rejected.
+◼ How far is “far enough” or how close is “close 
+enough” for a decision about H0 to be made?
+◼ The critical value of a test statistic helps to answer 
+this decision-making question.
+◼ For hypothesis test with respect to the population 
+mean, the test statistic is the sample mean.
+The Test Statistic and Critical Values
+===== PAGE 15 =====
+The Test Statistic and Critical Values
+Critical Values
+Too far away from the mean 
+of the sampling distribution
+Region of 
+rejection
+Region of 
+rejectionRegion of 
+non-rejection
+===== PAGE 16 =====
+Risks in Decision Making Using 
+Hypothesis Testing
+◼ Type I Error:
+◼ Reject a true null hypothesis H0 .
+◼ A Type I error is a “false alarm”.
+◼ The probability of a Type I error is often denoted by 𝜶.
+◼ Called “level of significance” of the test.
+◼ Specified by the researcher in advance.
+◼ Type II Error:
+◼ Failure to reject a false null hypothesis H0 .
+◼ Type II error represents a “missed opportunity”.
+◼ The probability of a Type II error is often denoted by 𝜷.
+===== PAGE 17 =====
+Risks in Decision Making Using 
+Hypothesis Testing
+Possible Hypothesis Test Outcomes
+Actual Situation
+Decision H0 is True H0 is False
+Do not reject H0
+Correct decision
+confidence = 1 − α
+Type II error
+P Type II Error = 𝛽
+Reject H0
+Type I error
+P Type I Error = 𝛼
+Correct decision
+power = 1 − 𝛽
+◼ The confidence coefficient 1 − 𝛼  is the probability of not rejecting 
+a true H0.
+◼ The confidence level of a hypothesis test is calculated as 1 − 𝛼 ×
+100%.
+◼ The power of a statistical test 1 − 𝛽  is the probability of rejecting 
+a false H0.
+===== PAGE 18 =====
+Type I and Type II Errors 
+Relationship
+◼ Type I and Type II errors cannot happen at the 
+same time.
+◼ A Type I error can only occur if H0 is true.
+◼ A Type II error can only occur if H0 is false.
+If the probability of Type I error 𝜶 increases gain
+then the probability of Type II error 𝜷 decreases d1
+===== PAGE 19 =====
+Factors That Influence Type II Error
+◼ All else equal:
+◼ 𝛽 increases when the difference between 
+hypothesised parameter and its true value 
+decreases.
+◼ 𝛽 increases when P Type I Error = 𝛼 
+decreases.
+◼ 𝛽 increases when variance 𝜎2  increases.
+◼ 𝛽 increases when sample size 𝑛  
+decreases.
+===== PAGE 20 =====
+Critical 
+values
+Rejection region
+Level of Significance and 
+Rejection Region
+Two-tail Test
+◼ H0:  𝜇 = 30.
+◼ H1:  𝜇 ≠ 30.
+◼ Significance level = 𝛼.
+This is a two-tail test 
+because there is a 
+rejection region at 
+both tails.
+===== PAGE 21 =====
+Critical value
+Rejection region
+Level of Significance and 
+Rejection Region
+One-tail Test
+◼ H0:  𝜇 ≥ 30.
+◼ H1:  𝜇 < 30.
+◼ Significance level = 𝛼.
+This is a one-tail test 
+because there is a 
+rejection region at 
+the left tail.
+===== PAGE 22 =====
+Critical value
+Rejection region
+Level of Significance and 
+Rejection Region
+One-tail Test
+◼ H0:  𝜇 ≤ 30.
+◼ H1:  𝜇 > 30.
+◼ Significance level = 𝛼.
+This is a one-tail test 
+because there is a 
+rejection region at 
+the right tail.
+===== PAGE 23 =====
+Hypothesis Tests for the Mean
+Hypothesis 
+Tests for 𝝁
+𝝈 known
+(𝐙 test)
+𝝈 unknown
+(𝐭 test)
+Critical value
+approach
+p-value
+approach
+Two-tail 
+test
+One-tail 
+test
+Two-tail 
+test
+One-tail 
+test
+===== PAGE 24 =====
+◼ The test statistic when the population standard 
+deviation 𝜎  is known can be expressed as 
+follows.
+z𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝜎/ 𝑛
+Z Test of Hypothesis for the Mean
+(𝜎 Known)
+Test Statistic
+===== PAGE 25 =====
+◼ Convert sample statistic ҧ𝑥  to test statistic z𝑠𝑡𝑎𝑡 .
+◼ Determine the critical Z -value for a specified level 
+of significance 𝛼  from a table or by using 
+Microsoft Excel.
+◼ Decision Rule: If the test statistic falls in the 
+rejection region, reject H0. Otherwise, do not reject 
+H0.
+Z Test of Hypothesis for the Mean
+(𝜎 Known)
+Critical Value Approach
+===== PAGE 26 =====
+Lower critical 
+value
+Upper critical 
+value
+Reject H0 Reject H0Do not reject H0
+Z Test of Hypothesis for the Mean
+(𝜎 Known)
+Critical Value Approach: Two-tail Test
+◼ There are two cut-off (or 
+critical) values that define 
+the rejection regions.
+𝐇𝟎:  𝝁 = 𝟑𝟎
+ 
+𝐇𝟏:  𝝁 ≠ 𝟑𝟎
+===== PAGE 27 =====
+Steps in the Critical Value 
+Approach to Hypothesis Testing
+1. State the null hypothesis H0  and the 
+alternative hypothesis H1 .
+2. Choose the level of significance 𝛼  and the 
+sample size 𝑛 . The level of significance is 
+based on the relative importance of Type I and 
+Type II errors in the problem.
+3. Determine the appropriate test statistic and 
+sampling distribution.
+4. Determine the critical values that divide the 
+rejection and non-rejection regions.
+===== PAGE 28 =====
+Steps in the Critical Value 
+Approach to Hypothesis Testing
+5. Collect the sample data, organise the results 
+and compute the value of the test statistic.
+6. Make the statistical decision, determine 
+whether the assumptions are valid and state 
+the managerial conclusion in the context of the 
+theory, claim or assertion being tested.
+▪ If the test statistic falls in the non-rejection region, 
+you do not reject the null hypothesis H0.
+▪ If the test statistic falls in the rejection region, reject 
+the null hypothesis.
+===== PAGE 29 =====
+Critical Value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+1. State the appropriate null and alternative 
+hypotheses.
+◼ H0:  𝜇 = 30   vs   H1:  𝜇 ≠ 30 (this is a two-tail test).
+2. Specify the desired level of significance and 
+sample size.
+◼ Suppose that 𝛼 = 0.05 and 𝑛 = 100 are chosen for 
+this test.
+Test the claim that the true mean diameter of a 
+manufactured bolt is 30mm. Assume 𝜎 = 0.80.
+===== PAGE 30 =====
+3. Determine the appropriate technique.
+◼ σ is assumed known. So, this is a Z test.
+4. Determine the critical values.
+◼ With 𝛼 = 0.05 for a two-tail test the critical Z values 
+are ±1.96.
+Z 0.05 0.06 0.07
+1.7 0.9599 0.9608 0.9616
+1.8 0.9678 0.9686 0.9693
+1.9 0.9744 0.9750 0.9756
+2.0 0.9798 0.9803 0.9808
+2.1 0.9842 0.9846 0.9850
+Critical Value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+Z 0.05 0.06 0.07
+-2.1 0.0158 0.0154 0.0150
+-2.0 0.0202 0.0197 0.0192
+-1.9 0.0256 0.0250 0.0244
+-1.8 0.0322 0.0314 0.0307
+-1.7 0.0401 0.0392 0.0384
+Cumulative Standardised Normal Probabilities
+===== PAGE 31 =====
+5. Collect the data and compute the test statistic.
+◼ Suppose that the sample results are the following.
+ 
+ Therefore, the test statistic is:
+𝑧𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝜎/ 𝑛 = 29.84 − 30
+0.80/ 100
+= −0.16
+0.08 = −2.0
+𝑛 = 100 ҧ𝑥 = 29.84 𝜎 = 0.80
+assume known
+Critical Value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+===== PAGE 32 =====
+Reject H0 Reject H0Do not reject H0
+6. Is the test statistic in the rejection region?
+◼ Reject H0 if 𝑧𝑠𝑡𝑎𝑡 < −1.96 or if 𝑧𝑠𝑡𝑎𝑡 > +1.96. 
+Otherwise, do no reject H0.
+Critical Value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+Here, 𝑧stat = −2.0 < −1.96, 
+so the test statistic is in the 
+rejection region.
+===== PAGE 33 =====
+Reject H0 Reject H0Do not reject H0
+7. Reach a decision and interpret the result.
+◼ Since 𝑧𝑠𝑡𝑎𝑡 = −2.0 < −1.96, reject the null 
+hypothesis and conclude that there is sufficient 
+evidence that the mean diameter of a manufactured 
+bolt is not equal to 30𝑚𝑚.
+Critical Value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+===== PAGE 34 =====
+𝑝-value Approach to Hypothesis 
+Testing
+◼ 𝑝-value: probability of obtaining a test statistic equal 
+to or more extreme than the observed sample value, 
+given that H0 is true.
+◼ The 𝑝-value is also called the observed level of 
+significance.
+◼ It is the smallest value of 𝛼 for which H0 can be rejected.
+◼ Interpreting the 𝑝-value: compare the 𝑝-value with 𝛼.
+◼ If the 𝑝-value < 𝛼, reject H0.
+◼ If the 𝑝-value ≥ 𝛼, do not reject H0.
+===== PAGE 35 =====
+The 5 Step 𝑝-value Approach to 
+Hypothesis Testing
+1. State the null hypothesis H0  and the alternative hypothesis 
+H1 .
+2. Choose the level of significance 𝛼  and the sample size 𝑛 .
+▪ The level of significance is based on the relative importance of 
+the risks of Type I and Type II errors.
+3. Determine the appropriate test statistic and sampling 
+distribution.
+4. Collect the sample data, compute the value of the test 
+statistic and the 𝑝-value.
+5. Make the statistical decision and state the managerial 
+conclusion in the context of the theory, claim or assertion 
+being tested.
+▪ If the 𝑝-value is less than 𝛼, reject H0.
+===== PAGE 36 =====
+𝑝-value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+1. State the appropriate null and alternative 
+hypotheses.
+◼ H0:  𝜇 = 30   vs   H1:  𝜇 ≠ 30 (this is a two-tail test).
+2. Specify the desired level of significance and 
+sample size.
+◼ Suppose that 𝛼 = 0.05 and 𝑛 = 100 are chosen for 
+this test.
+Test the claim that the true mean diameter of a 
+manufactured bolt is 30mm. Assume 𝜎 = 0.80.
+===== PAGE 37 =====
+𝑝-value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+3. Determine the appropriate technique.
+◼ σ is assumed known. So, this is a Z test.
+4a. Collect the data and compute the test statistic.
+◼ Suppose that the sample results are the following.
+ 
+ Therefore, the test statistic is:
+𝑧𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝜎/ 𝑛 = 29.84 − 30
+0.80/ 100
+= −0.16
+0.08 = −2.0
+𝑛 = 100 ҧ𝑥 = 29.84 𝜎 = 0.80
+assume known
+===== PAGE 38 =====
+𝑝-value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+4b. Calculate the 𝑝-value.
+◼ How likely is it to get a 𝑧𝑠𝑡𝑎𝑡 of −2 (or a value further 
+from the mean = 0 , in either direction) if H0 is true?
+𝑝−value = 0.0228 + 0.0228
+= 0.0456
+===== PAGE 39 =====
+𝑝-value Approach to Hypothesis Testing
+Example (Two-Tail Test)
+5a. Is the 𝑝-value < 𝛼.
+◼ Since 𝑝-value = 0.0456 < 𝛼 = 0.05, reject H0.
+5b. State the managerial conclusion in the context 
+of the situation.
+◼ There is sufficient evidence to conclude that the 
+mean diameter of a manufactured bolt is not equal to 
+30𝑚𝑚.
+===== PAGE 40 =====
+Two-Tail Hypothesis Test for Mean
+𝒑-value Approach (Excel)
+A B C
+1 Data Excel Commands
+2 Null Hypothesis H0                       𝜇 = 30.00
+3 Alternative Hypothesis H1            𝜇 ≠ 30.00
+4 Significance Level 𝛼 0.05
+5 Sample Size 𝑛 100.00
+6 Sample Mean ҧ𝑥 29.84
+7 Population Standard Deviation 𝜎 0.80
+8
+9 Intermediate Calculations
+10 Standard Error of the Mean 0.0800 = B7 / SQRT(B5)
+11 𝑧 test Statistic -2.0000 = (B6 - B2) / B10
+12
+13 Two-Tail Hypothesis Test
+14 Lower Critical Value -1.9600 = NORM.S.INV(B4 / 2)
+15 Upper Critical Value 1.9600 = NORM.S.INV(1 - B4 / 2)
+16 𝑝-value 0.0455 = (1 - NORM.S.DIST(ABS(B11), TRUE)) * 2
+17 Decision Reject null 
+hypothesis
+= IF(B16 < B4, "Reject null hypothesis",
+                          "Do not reject null hypothesis")
+===== PAGE 41 =====
+Connection Between Two-Tail Z Tests 
+and Confidence Intervals
+Recall,
+ഥX ~ N 𝜇, 𝜎2/𝑛
+Implies that,
+𝑧 = ҧ𝑥 − 𝜇
+𝜎/ 𝑛
+So that,
+P −1.96 < Z < 1.96 = 0.95
+ 
+P −1.96 <
+ഥX − 𝜇
+𝜎/ 𝑛 < 1.96 = 0.95
+ 
+P ҧ𝑥 − 1.96 × 𝜎
+𝑛 < μ < ҧ𝑥 + 1.96 × 𝜎
+𝑛 = 0.95
+===== PAGE 42 =====
+Connection Between Two-Tail Z Tests 
+and Confidence Intervals
+◼ For ҧ𝑥 = 29.84, 𝜎 = 0.80, 𝑛 = 100 and 𝛼 = 5%, the 
+95% confidence interval for 𝜇 is:
+◼ Since this interval does not contain the hypothesised 
+mean 30 , we reject the null hypothesis at 𝛼 = 0.05.
+ҧ𝑥 − 𝑧𝛼/2 × 𝜎
+𝑛 ≤ 𝜇 ≤ ҧ𝑥 + 𝑧𝛼/2 × 𝜎
+𝑛
+ 
+29.84 − 1.96 × 0.8
+100
+≤ 𝜇 ≤ 29.84 + 1.96 × 0.8
+100
+ 
+29.6832 ≤ 𝜇 ≤ 29.9968
+===== PAGE 43 =====
+Do You Ever Know 𝜎?
+◼ Probably not!
+◼ In virtually all real-world business situations, 𝜎 is not 
+known.
+◼ If there is a situation where 𝜎 is known, then 𝜇 
+should also be known because 𝜇 is needed to 
+compute 𝜎.
+◼ If we truly know 𝜇, there would be no need to gather 
+a sample to estimate it.
+===== PAGE 44 =====
+Hypothesis Testing for the Mean
+𝜎 Unknown
+◼ If the population standard deviation 𝜎  is unknown, 
+you use the sample standard deviation 𝑠  instead. 
+◼ Because of this change, it is important to replace the 
+Z distribution with the 𝒕 distribution when testing 
+null hypothesis about the mean.
+◼ When using the 𝒕 distribution you must assume 
+that the population you are sampling from follows a 
+normal distribution.
+◼ All other steps, concepts and conclusions from the 𝑍 
+distribution remain the same for the 𝒕 distribution.
+===== PAGE 45 =====
+t Test of Hypothesis for the Mean
+(𝜎 Unknown)
+◼ In order to use the 𝑡 test, it is important to assume that 
+the population distribution of the variable of interest is 
+normal.
+◼ As long as the sample size is not very small and the 
+population is not very skewed, the 𝑡 test can be used.
+◼ Recall that to evaluate the normality assumption:
+◼ Determine how closely sample statistics match the 
+normal distribution’s theoretical properties.
+◼ Assess symmetry of the variable graphically with 
+histogram or stem-and-leaf plot or boxplot.
+◼ Assess linearity of the normal probability plot.
+===== PAGE 46 =====
+◼ When the population standard deviation is 
+unknown, the sample standard deviation is used to 
+approximate it. The test statistic can then be 
+expressed as follows.
+t𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝑠/ 𝑛
+t Test of Hypothesis for the Mean
+(𝜎 Unknown)
+Test Statistic
+===== PAGE 47 =====
+t Test of Hypothesis for the Mean
+(𝜎 Unknown)
+Critical Value Approach: Two-tail Test
+The mean cost of a large-sized pizza in the Western Cape is 
+said to be R168. To determine if this is true, a random 
+sample of 25 pizza outlets (from separate brands) is taken 
+and this resulted in a sample mean ҧ𝑥  of R172.50 and a 
+sample standard deviation 𝑠  of R15.40. Test the 
+appropriate hypotheses at 𝛼 = 0.05. (Assume that the 
+population distribution is normal)
+Example
+𝐇𝟎:  𝝁 = 𝟏𝟔𝟖 𝐇𝟏:  𝝁 ≠ 𝟏𝟔𝟖
+===== PAGE 48 =====
+Reject H0 Reject H0Do not reject H0
+t Test of Hypothesis for the Mean
+(𝜎 Unknown)
+Critical Value Approach: Two-tail Test
+Solution
+◼ 𝛼 = 0.05. 
+◼ 𝑛 = 25.
+◼ Degrees of Freedom
+𝑑𝑓 = 25 − 1 = 24.
+◼ 𝜎 is unknown, so use 
+a 𝒕 statistic.
+◼ Critical value: 
+± 𝑡24,0.025 = ±2.0639.
+Do not reject 𝐇𝟎: insufficient evidence that 
+the true mean cost of a large pizza is 
+different from R168.
+𝑡𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝑠/ 𝑛 = 172.50 − 168
+15.40/ 25
+= 1.46
+===== PAGE 49 =====
+Two-Tail Hypothesis 𝑡  Test for Mean
+𝝈 Unknown | 𝒑-value Approach (Excel)
+A B C
+1 Data Excel Commands
+2 Null Hypothesis H0                       𝜇 = 168.00
+3 Alternative Hypothesis H1            𝜇 ≠ 168.00
+4 Significance Level 𝛼 0.05
+5 Sample Size 𝑛 25.00
+6 Sample Mean ҧ𝑥 172.50
+7 Sample Standard Deviation 𝑠 15.40
+8
+9 Intermediate Calculations
+10 Standard Error of the Mean 3.0800 = B7 / SQRT(B5)
+11 Degrees of Freedom 24.0000 = B5 - 1
+12 𝑡 test Statistic 1.4610 = (B6 - B2) / B10
+13
+14 Two-Tail Hypothesis Test
+15 Lower Critical Value -2.0639 = T.INV(B4 / 2, B11)
+16 Upper Critical Value 2.0639 = T.INV(1 - B4 / 2, B11)
+17 𝑝-value 0.1570 = T.DIST.2T(ABS(B12), B11)
+18 Decision
+Do not 
+reject null 
+hypothesis
+= IF(B17<B4, "Reject null hypothesis",
+                        "Do not reject null hypothesis")
+===== PAGE 50 =====
+Connection Between Two-Tail 𝑡 Tests 
+and Confidence Intervals
+Recall that when population variance is unknown,
+ഥX ሶ~ N 𝜇, 𝑠2/𝑛
+Implies that,
+𝑡 =
+ഥX − 𝜇
+𝑠/ 𝑛
+So that,
+P 𝑡𝑛−1,0.025 < t < 𝑡𝑛−1,0.975 = 0.95
+ 
+P 𝑡𝑛−1,0.025 <
+ഥX − 𝜇
+𝑠/ 𝑛 < 𝑡𝑛−1,0.975 = 0.95
+ 
+P ҧ𝑥 − 𝑡𝑛−1,0.025 × 𝑠
+𝑛 < μ < ҧ𝑥 + 𝑡𝑛−1,0.975 × 𝑠
+𝑛 = 0.95
+===== PAGE 51 =====
+Connection Between Two-Tail 𝑡 Tests 
+and Confidence Intervals
+◼ For ҧ𝑥 = 172.5, 𝑠 = 15.40, 𝑛 = 25 and 𝛼 = 5%, the 
+95% confidence interval for 𝜇 is:
+◼ Since this interval contains the hypothesised mean 
+168 , we fail to reject the null hypothesis at 𝛼 = 0.05.
+ҧ𝑥 − 𝑡𝑛−1,𝛼/2 × 𝑠
+𝑛 ≤ 𝜇 ≤ ҧ𝑥 + 𝑡𝑛−1,𝛼/2 × 𝑠
+𝑛
+ 
+172.5 − 2.0639 × 15.4
+25
+≤ 𝜇 ≤ 172.5 + 2.0639 × 15.4
+25
+ 
+166.1432 ≤ 𝜇 ≤ 178.8568
+===== PAGE 52 =====
+One-Tail 
+Hypothesis 
+Tests
+===== PAGE 53 =====
+One-Tail Hypothesis Tests for the Mean
+◼ In many cases, the alternative hypothesis 
+focuses on a particular direction.
+Case 1: Lower-Tail Test
+𝐇𝟎:  𝝁 ≥ 𝟑
+𝐇𝟏:  𝝁 < 𝟑
+This is a lower-tail test because, 
+relatively, the alternative hypothesis H1  
+focuses on the left side of the number 
+line. That is, below the mean 𝜇  of 3. 
+Case 2: Upper-Tail Test
+𝐇𝟎:  𝝁 ≤ 𝟑
+𝐇𝟏:  𝝁 > 𝟑
+This is a upper-tail test because, 
+relatively, the alternative hypothesis H1  
+focuses on the right side of the number 
+line. That is, above the mean 𝜇  of 3. 
+===== PAGE 54 =====
+◼ It is common practice to approximate the exact 
+inequality sign of the null hypothesis in one-tail 
+tests with an equal sign.
+Case 1: Lower-Tail Test
+𝐇𝟎:  𝝁 ≥ 𝟑
+𝐇𝟏:  𝝁 < 𝟑
+Case 2: Upper-Tail Test
+𝐇𝟎:  𝝁 = 𝟑
+𝐇𝟏:  𝝁 < 𝟑≈
+𝐇𝟎:  𝝁 ≤ 𝟑
+𝐇𝟏:  𝝁 > 𝟑
+𝐇𝟎:  𝝁 = 𝟑
+𝐇𝟏:  𝝁 > 𝟑≈
+◼ For simplicity, the null hypothesis approximations 
+specified above will be adopted in SDS188.
+One-Tail Hypothesis Tests for the Mean
+===== PAGE 55 =====
+Critical 
+value
+Reject H0 Do not reject H0
+Lower-Tail Test
+◼ There is only one critical value since the rejection 
+area is in only one tail – on the left side.
+𝐇𝟎:  𝝁 = 𝟑
+𝐇𝟏:  𝝁 < 𝟑
+===== PAGE 56 =====
+Critical 
+value
+Reject H0Do not reject H0
+Upper-Tail Test
+◼ There is only one critical value since the rejection 
+area is in only one tail – on the right side.
+𝐇𝟎:  𝝁 = 𝟑
+𝐇𝟏:  𝝁 > 𝟑
+===== PAGE 57 =====
+One-Tail Hypothesis Test for Mean
+Upper-Tail | 𝝈 Unknown | Critical Value Approach
+Example
+A phone industry manager thinks that customer monthly 
+phone bills have increased and now average over R52 per 
+month. The company wishes to test the claim. Subsequently, 
+data from 25 customers were collected and this resulted in a 
+sample mean ҧ𝑥  of R53.10 and a sample standard deviation 
+𝑠  of R10.00. Test the appropriate hypotheses at a 10% 
+significance level. (Assume that the population distribution is 
+normal)
+𝐇𝟎:  𝝁 = 𝟓𝟐 the mean monthly bill remains R52 per month.
+𝐇𝟏:  𝝁 > 𝟓𝟐 the mean is greater than R52 per month.
+===== PAGE 58 =====
+Do not reject H0 Reject H0
+◼ 𝛼 = 0.10.
+◼ 𝑛 = 25.
+◼ 𝜎 is unknown, so use 
+a 𝒕 statistic.
+◼ Degrees of Freedom
+𝑑𝑓 = 25 − 1 = 24.
+◼ Critical value: 
+𝑡24,0.10 = 1.3178. Do not reject 𝐇𝟎: insufficient evidence that the 
+true mean monthly phone bill is greater than R52.
+𝑡𝑠𝑡𝑎𝑡 = ҧ𝑥 − 𝜇
+𝑠/ 𝑛 = 53.10 − 52
+10/ 25
+= 0.55
+One-Tail Hypothesis Test for Mean
+Upper-Tail | 𝝈 Unknown | Critical Value Approach
+Solution
+===== PAGE 59 =====
+Do not reject H0 Reject H0
+One-Tail Hypothesis Test for Mean
+Upper-Tail | 𝝈 Unknown | 𝒑-value Approach
+Do not reject 𝐇𝟎: insufficient evidence that the true mean monthly phone bill 
+is greater than R52 since 𝑝-value ≈ 0.2937 > 𝛼 = 0.10.
+===== PAGE 60 =====
+One-Tail Hypothesis 𝑡  Test for Mean
+Upper-Tail | 𝝈 Unknown | 𝒑-value Approach (Excel)
+A B C
+1 Data Excel Commands
+2 Null Hypothesis H0                       𝜇 = 52.00
+3 Alternative Hypothesis H1            𝜇 > 52.00
+4 Significance Level 𝛼 0.10
+5 Sample Size 𝑛 25.00
+6 Sample Mean ҧ𝑥 53.10
+7 Sample Standard Deviation 𝑠 10.00
+8
+9 Intermediate Calculations
+10 Standard Error of the Mean 2.0000 = B7 / SQRT(B5)
+11 Degrees of Freedom 24.0000 = B5 - 1
+12 𝑡 test Statistic 0.5500 = (B6 - B2) / B10
+13
+14 Upper-Tail Hypothesis Test
+15 Upper Critical Value 1.3178 = T.INV(1 - B4, B11)
+16 𝑝-value 0.2937 = 1 - T.DIST(ABS(B12), B11, TRUE)
+17 Decision
+Do not 
+reject null 
+hypothesis
+= IF(B16 < B4, "Reject null hypothesis",
+                          "Do not reject null hypothesis")
+===== PAGE 61 =====
+Hypothesis 
+Tests for 
+Proportions
+===== PAGE 62 =====
+Hypothesis Tests for Proportions
+◼ Involves categorical variables.
+◼ Categorical variable must have only two 
+possible outcomes.
+◼ Gender variable: Male or Female.
+◼ Coin variable: Head or Tail.
+◼ Fraction or proportion of the population in the 
+category of interest is denoted by 𝜋.
+===== PAGE 63 =====
+Hypothesis Tests for Proportions
+◼ Sample proportion in the category of interest is 
+denoted by 𝑝.
+𝑝 = 𝑋
+𝑛 = number in category of interest within sample
+sample size
+◼ When both 𝑛𝜋 and 𝑛 1 − 𝜋  are at least 5, the 
+distribution of the sample proportion 𝑝  can be 
+approximated by a normal  distribution with 
+mean 𝜇  and standard deviation 𝜎  given by:
+𝜇 = 𝜋
+ 
+𝜎 = 𝜋 1 − 𝜋
+𝑛
+===== PAGE 64 =====
+Hypothesis Tests for Proportions
+Hypothesis Tests 
+for Proportions
+𝒏𝝅 ≥ 𝟓
+and
+𝒏 𝟏 − 𝝅 ≥ 𝟓
+𝒏𝝅 < 𝟓
+or
+𝒏 𝟏 − 𝝅 < 𝟓
+Approximate with 
+normal distribution
+Not discussed in 
+this course
+===== PAGE 65 =====
+Hypothesis Tests for Proportions
+◼ When the sampling distribution of 𝑝 can be 
+approximated with a normal distribution, the test 
+statistic is given by the following expression.
+z𝑠𝑡𝑎𝑡 = 𝑝 − 𝜋
+𝜋 1 − 𝜋
+𝑛
+◼ Since 𝑥 = 𝑛𝑝, it implies that the expression of the 
+test statistic given above can be re-expressed as:
+z𝑠𝑡𝑎𝑡 = 𝑥 − 𝑛𝜋
+𝑛𝜋 1 − 𝜋
+===== PAGE 66 =====
+Hypothesis Tests for Proportions
+𝑛𝜋 = 500 × 8% = 40
+ 
+𝑛 1 − 𝜋 = 500 × 1 − 8% = 460
+Example
+A marketing company claims that it receives 8% 
+responses from its mailing. To test this claim, a 
+random sample of 500 subjects were surveyed 
+and 25 responses were received. Verify the claim 
+at the 𝛼 = 0.05 significance level.
+Check
+Therefore, since 𝑛𝜋 and 𝑛 1 − 𝜋  are both greater than 5, 
+we can approximate with a normal distribution.
+===== PAGE 67 =====
+◼ 𝛼 = 0.05.
+◼ 𝑛 = 500.
+◼ 𝑝 =
+25
+500 = 0.05.
+◼ Critical value:
+   ±z𝛼/2= ±z0.025 = ±1.96.
+Reject 𝐇𝟎: −𝟐. 𝟒𝟕 < −𝟏. 𝟗𝟔. Thus, the evidence 
+from the data does not support the company’s 
+claim of 8% response rate.
+𝑧𝑠𝑡𝑎𝑡 = 𝑝 − 𝜋
+𝜋 1 − 𝜋 /𝑛
+= 0.05 − 0.08
+0.08 1 − 0.08 /500
+= −2.47
+Solution (Critical Value Approach)
+Hypothesis Tests for Proportions
+𝐇𝟎:  𝝅 = 𝟖%
+𝐇𝟏:  𝝅 ≠ 𝟖%
+===== PAGE 68 =====
+Reject 𝐇𝟎: 𝟎. 𝟎𝟏𝟑𝟔 < 𝜶 = 𝟎. 𝟎𝟓. Therefore, the data contain sufficient evidence to 
+reject the company’s claim of 8% response rate.
+𝑧𝑠𝑡𝑎𝑡 = 0.05 − 0.08
+0.08 1 − 0.08 /500
+= −2.47
+Solution (𝒑-value Approach)
+Hypothesis Tests for Proportions
+𝑝−value = P 𝑍 ≤ −2.47 + P 𝑍 ≥ 2.47
+ 
+≈ 0.0068 + 0.0068 = 0.0136
+===== PAGE 69 =====
+◼ What is the goal of the survey, study or experiment?
+◼ How can you translate the goal into a null and an alternative hypothesis?
+◼ Is the hypothesis test one-tail or two-tail?
+◼ Can a random sample be selected?
+◼ What type of data set will be collected – numerical or categorical?
+◼ What level of significance should be used?
+◼ Is the intended sample size large enough to achieve the desired power?
+◼ What statistical test procedure should be used and why?
+◼ What conclusions and interpretations can be reached from the results of 
+the planned hypothesis test?
+Questions to Address in the Planning Stage 
+of Hypothesis Testing
+Failure to consider these questions can lead to bias or 
+incomplete results!.
+===== PAGE 70 =====
+Statistical Significance vs 
+Practical Significance
+◼ Statistically significant results (that is, rejecting 
+the null hypothesis) are not always of practical 
+significance.
+◼ This is more likely to happen when the sample size 
+gets very large.
+◼ Practically important results might be found to 
+be statistically insignificant (that is, failing to 
+reject the null hypothesis).
+◼ This is more likely to happen when the sample size is 
+relatively small.
+===== PAGE 71 =====
+Reporting Findings and Ethical Issues
+◼ Should document and report both good and bad results.
+◼ Should not just report statistically significant results.
+◼ Reports should distinguish between poor research 
+methodology and unethical behaviour.
+◼ Ethical issues can arise so they must be properly 
+handled and reported. These include,
+◼ The use of human subjects.
+◼ The data collection method.
+◼ The type of test being used.
+◼ The level of significance being used.
+◼ The cleaning and discarding of the data.
+◼ The failure to report pertinent findings.
+===== PAGE 72 =====
+Power of the 
+Test
+===== PAGE 73 =====
+Power of the Hypothesis Test
+◼ The power of an hypothesis test 1 − 𝛽  is the 
+probability of rejecting a false null hypothesis.
+◼ 𝜷: the probability of Type II Error. That is, the 
+probability of failing to reject a false H0.
+◼ Power of the test depends on the following.
+◼ The magnitude of the difference between the 
+hypothesised and the true mean value.
+◼ The size of the significance level 𝛼 .
+◼ Whether the test is one or two-tailed.
+===== PAGE 74 =====
+Power of the Hypothesis Test
+One-tail test is more powerful compared to two-tailed test.
+The higher the difference between the true and hypothesised 
+means, the higher the power of the test.
+Higher significance level 𝜶  causes the power of the test to 
+increase.
+===== PAGE 75 =====
+Power of the Hypothesis Test
+Example
+A cereal filling machine is designed to discharge an 
+average of 368g per box with a standard deviation 𝜎  
+of 15g. An inspector from the consumer protection unit 
+is interested in validating a complaint that the machine 
+dispenses less than the advertised quantity. If a random 
+sample of 25 boxes was taken and a significance level 
+𝛼 = 0.05 is adopted, compute the power of the test if the 
+actual amount of cereal discharged is 360g and 𝜎 
+remains 15g.
+===== PAGE 76 =====
+1. Calculate the critical value that corresponds to 
+the specified significance level, under the 
+“assumed” distribution.
+Assumed Distribution
+True Distribution
+𝑧𝛼 = 𝑧0.05 = ҧ𝑥𝑐𝑟𝑖𝑡 − 𝜇
+𝜎/ 𝑛
+−1.645 = ҧ𝑥𝑐𝑟𝑖𝑡 − 368
+15/ 25
+ҧ𝑥𝑐𝑟𝑖𝑡 = 368 − 1.645 × 15
+25
+≈ 363.0650
+Power of the Hypothesis Test
+Solution
+===== PAGE 77 =====
+2. Determine 𝛽 = P Type II Error . That is, the probability 
+of observing ҧ𝑥𝑐𝑟𝑖𝑡 or more extreme values under the 
+true distribution.
+Power of the Hypothesis Test
+Solution
+Reject  H0:  𝜇 = 368 Do not reject  H0:  𝜇 = 368
+===== PAGE 78 =====
+2. Determine 𝛽 = P Type II Error . That is, the probability 
+of observing ҧ𝑥𝑐𝑟𝑖𝑡 or more extreme values under the 
+true distribution.
+Power of the Hypothesis Test
+Solution
+𝛽 = P ത𝑋 > ҧ𝑥𝑐𝑟𝑖𝑡 | 𝜇 = 360
+𝑧𝑠𝑡𝑎𝑡 = ҧ𝑥𝑐𝑟𝑖𝑡 − 360
+15/ 25
+= 363.0650 − 360
+15/ 25
+≈ 1.0217
+∴ 𝛽 = P 𝑍 > 1.0217
+= 1 − P 𝑍 < 1.0217
+≈ 1 − 0.8461 = 0.1539
+⇒ Power = 1 − 𝛽
+= 1 − 0.1539 = 𝟎. 𝟖𝟒𝟔𝟏.
+===== PAGE 79 =====
+Chapter Summary
+◼ The principles of hypothesis testing.
+◼ How to use hypothesis testing to test a mean or 
+proportion.
+◼ One-tail vs Two-tail tests and Critical value vs p-
+value approach to hypothesis testing.
+◼ The pitfalls and ethical issues involved in 
+hypothesis testing and how they can be avoided.
+◼ How to evaluate power of the test.
+In this chapter, we discussed:

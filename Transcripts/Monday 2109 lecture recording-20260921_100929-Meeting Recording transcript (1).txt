@@ -1,0 +1,257 @@
+[0:00]
+Good morning, everybody. It's good to see you all again. So we are starting a new chapter today, chapter 13. And like I said, this is the second last chapter. It's called simple linear regression, and then the last chapter is called multiple linear regression.
+
+[1:12]
+So it builds on the same themes. So we're gonna start with kind of a motivational example to help you understand the idea behind it. Okay. So let's say, for example, on the x axis is the number of hours that... Or the average number of hours studied per week.
+
+[1:51]
+And then y... On the y axis, we measure final mark. K. So you guys are in first year. You tell me.
+
+[2:08]
+Is there a relationship between our studied and final mark? We hope so. Right? So there's always that one person that feels like they don't study at all and somehow they get the best marks. But I'm sure you also know the feeling of really putting in the hard work for a module and then seeing that hard work reflected in your final mark.
+
+[2:35]
+So if I did this for a large group of people, I hope that Maybe the the scatter plot looks something like this. Okay. So can we can we say there's a relationship here if our scatter plot looks like this? The general trend seems to be that if you increase hours studied, the final mark should increase. There might be the occasional outlier, like if we make a dot over here.
+
+[3:17]
+This person really studied many hours, but their final mark is not so high in the end. That can happen. We're not gonna talk about what went wrong there, but that can happen. And then you've also got maybe an outlier over here who did not study many hours, but their final mark is quite high. So if we have to summarize this relationship with a single function that tries to capture the trend and not the noise, you might draw a line through the data.
+
+[4:02]
+And then we can see that there is a linear relationship between hours studied and final mark. So I just went and drew a line through the data, but you might disagree with me and say, actually, if this is my line, I think that the slope should be less severe. So maybe we agree that our study influences final mark, but we disagree on the extent to which it influences final mark. So maybe you say there's other factors that influence final mark besides our studied. So...
+
+[4:45]
+Or you might say, I actually think we should keep the slope the same, but pick up this line and move it a bit higher. You and I are going to, if we had to draw the line through it, disagree on exactly where to put the line. And it doesn't really do us any good to just kind of randomly choose each time where to put the line. So there is a statistical method that optimizes the way in which we place that line. And the ultimate goal here is to use a variable to predict or explain another variable.
+
+[5:25]
+So one of the questions that we're gonna look at in this chapter is how do we choose the line of best fit? Or let me just say the best line that describes the data or that describes the relationship. And what does it mean? As in what does the relationship mean? So some some of the key variables at play here.
+
+[6:12]
+First of all, you've got y. Now y, we're going to call the dependent variable. So this is the thing we want to predict or explain. And x, in this case, is our independent variable. So this is the thing that we will use to explain our dependent variable.
+
+[7:17]
+That's generally the the terminology in this module. In other modules or field or areas of research, you might come across them calling a dependent variable response variable. I'm just adding that for interest's sake. Independent variable could be called predictor variable, but I'm less worried about that terminology and more worried about the dependent... Independent terminology.
+
+[8:11]
+Okay. So this kind of thing is what's known as a linear relationship. All relationships are not linear. Some are, and then we can utilize the techniques in this chapter. Other times, you'll get more of a...
+
+[8:29]
+If you look at that scatter plot in the middle, you've got more of a quadratic kind of relationship. If you did have a linear equation there, you'd have to decide, are you gonna model that sloping down part or are you gonna model the sloping up part? And then you're only gonna be capturing some of the relationship there. So the methods we learn about in this chapter have to be applied with caution. And one of the first things that you do before applying the methods in this chapter, if you were doing this in kind of a real life context or setting, one of the very first things you do is you you look at a scatter plot.
+
+[9:10]
+Because before I even drew this line here, we just looked at what is the general trend there. And if it seems like you can fit a linear or a straight line through the data and you'll do a pretty good job at capturing the points, then you move on from that. You've also got the case where there's no relationship over there. So we've just got dots and it doesn't seem like any change in x has any effect on y. That could also look like that where y is constant even as x is changing.
+
+[9:44]
+So there's no effect in... Essentially, with this one, there's no slope. So the slope is x's effect on y. It could cause a negative effect or a positive effect, but there is no slope there. So there is no relationship there.
+
+[9:59]
+Your linear relationships can be positive sloped or negative sloped. It depends on what... Is there an increase in y together with an increase in x? That's a... That relationship is very direct.
+
+[10:14]
+Or is there a decrease in y as a result of an increase in x? Then you've got this indirect relationship between the two, but there's still a relationship. It kind of goes with our... We learned about correlation and we also visualized the different kinds of correlation with a scatter plot. What we're doing in this chapter that's different from correlation is we are trying to establish a causal relationship as well, not just linear correlation.
+
+[10:41]
+So at the moment, to start with any kind of regression, we have to have good grounds to believe that y is a function of x and is specifically a linear function of x. So we have to have good grounds to believe that final mark is a linear relationship of hours studied. And what I mean by that is... And when we believe that, then we can infer that y is predicted or explained in some way by x. And we can define this relationship with a formula.
+
+[12:10]
+Okay. So the first kind of formula that we'll learn is the population regression line. So if I put population in front of something, it means that this would have been estimated with the entire population. That would be the regression line that you would have if you had all of the information at your disposal. This is the purest form that the regression equation can take.
+
+[12:55]
+It cannot... If you work it out on a population, it cannot vary or be altered. That is what it is. But we, in just a moment, will look at the one you estimate from the sample, but we always start with the ideal, which is the population. We study the properties of the ideal, and then we see how what we estimate lives up to that.
+
+[13:22]
+So if you... If I asked you to draw a... Some kind of slope line on the graph, you'd fall back on your formula y equals m x plus c. Basically, you've got an intercept and a slope, and that's what you need to be able to plot some sort of line on a graph. Sound familiar?
+
+[13:47]
+So this is just... This is that same idea. We've just given it different symbols. So y, and we just add I as an index for, a specific observation. So some sort of specific observation.
+
+[14:05]
+So this could be observation one in my dataset, but it's... All of it is described by the same formula. So y would be an intercept b zero, and actually it's beta zero that's why I've given it this long tail. So beta zero plus beta one times x I plus epsilon I. So epsilon is just a funny looking e and the symbols are important because the symbols are usually how we distinguish a population parameter from a, sample statistic.
+
+[14:45]
+So this is my intercept. So that tells me where the graph cuts the y axis. So if I extended this line up here, over there would be my intercept. Then my slope is beta one. And that tells me the change I can expect for y as a result of a one unit change in x.
+
+[15:26]
+So your slope is going to be the change in y over the change in x that tells me how steep the line is, and it also tells me about the severity of the effect of x. So all of this together, the intercept and the slope, that's m x plus c. That is the linear component. And then this part over here, the epsilon, is the random error component. So If I take you back up here to my regression line, my y's do not all fall exactly on the line.
+
+[16:40]
+There are some deviations. So if I draw a point from this specific dot to the line, there's a difference. From this dot to the line, there's a difference. From this dot to the line, there's a difference. So that is the...
+
+[17:02]
+Basically, it says that my points are dispersed around the line. They very rarely fall perfectly. Remember we talked about there's some people here that aren't going to follow the pattern exactly, and this is the error... The random error that the model makes. So the model, if you think about it, if I had to try and model every single data point, this is just gonna be a throwaway piece of paper.
+
+[17:31]
+But if I have my little scatterplot here and I try to model every single data point, I end up with something that's kind of noisy. And the problem here is that I'm trying to to specifically conform to that data set. If I picked this line up and I were to try and apply it to a different dataset, I would suddenly be missing all of the points on that dataset because the points will be dispersed a little bit differently. But if I modeled just the trend and not the noise, if I picked this line up and I applied it to a different data set that also looked at hours studied and final mark, I would bet that it's going to do a pretty good job of modeling the trend. So there's a big theme in statistics which extends to machine learning of we want to model the trend and not the noise.
+
+[18:27]
+We don't want the random fluctuations. We want the actual systematic structure behind why the data looks the way it looks. And as long as these errors... That... That's my error component.
+
+[18:40]
+That's my... That's the fact that not of... All of the points fall on the line. As long as those are... There's no structure to them.
+
+[18:49]
+They're just kind of evenly dispersed along the line. I don't have to worry about them. So that's actually one of the assumptions of regression that we'll talk about later is the normal... The even distribution of these error terms. But for now, just because we're calling it an error component doesn't mean that our model is doing anything wrong.
+
+[19:12]
+It is an expected part of this model. Okay. You can actually see the full picture on the slides here. So we... The blue dots there are our points, and the red line is the prediction line that goes through it.
+
+[19:32]
+And for each... There, I have my error term I, which is for that specific data point. I just means for that specific data point. And there, it's got... It's a little bit above the line.
+
+[19:43]
+So there, our line has underestimated that specific data point. But then we also got the slope there, the change in y for a change in x, and there our line is cutting the y axis at that specific point, that would be the intercept. Okay. So I've called it the population regression line, and that is because, like I said, that would be with perfect information if we were to be able to calculate this for the entire population, but as is often the case, we won't be able to if we're studying quite a large population. So we have to go to the estimated regression line.
+
+[20:45]
+Okay. So this one will have a few differences. First of all, instead of y I, it will be y hat I. So the hat tells us it is an estimated value. It is no longer the actual data point, but it is now the line that...
+
+[21:09]
+The point on the line that would be given. Then instead of beta zero, we will have lowercase b zero to show that this is now a sample estimate instead of a population parameter. It's still our intercept, and then we have our slope of b one, lowercase b one times x I. And then I'll... I don't actually estimate the error component, so you'll see that is left out.
+
+[21:39]
+I'll explain more on that in a in a second, but the error component is always there. You will... As soon as you put a line through the data, the discrepancies between your points and the line are the error component. So you do not need to separately estimate it. It will be estimated as a result of you just fitting a regression line.
+
+[21:59]
+So here, this is the predicted value of y. That's what the line would tell me that y is. For a point x, This is still my intercept. Now it has just been estimated from a sample, and this is still my slope. And this x I is the value of x at a specific point I.
+
+[22:45]
+Okay. So as for what I said about the error component, I'll just write it out explicitly. We do not have to estimate that error term epsilon I, There will be naturally occurring discrepancies between actual y and estimated y. So this error term is referred to as e I. So that would be the naturally occurring discrepancies, not the population error component, but the sample error component.
+
+[24:21]
+And it is going to be the difference between y I, the actual y, and y hat I, which is the predicted y. And sometimes they refer to this... It's either error or residual. Those are the names they like to give it. Residual because it is left over after the structure has been modeled.
+
+[24:53]
+So it is what remains behind after we have accounted for what can be modeled. So we've got our little regression line here just to kind of... I did speak about this, but I'll just write it out. So there's my intercept over there, so that would be b zero. This is my actual predicted line y hat, but I also then have some points because this is still based on real data.
+
+[26:00]
+And then, obviously, I also have my slope here, p one. And then I could choose a specific point x I. So why don't we take this point over here? So if I go down to the x axis, that is the point x I, so a specific point there. And then if I take that to the y axis, that's my actual y I value.
+
+[26:42]
+But then if I just take it down to the regression line, so if I make that a solid line, that there is my y hat I. So that is for that point x what my regression line predicts instead of what the actual value is. And then my error term would be the vertical distance between y I and y hat I. So that over there, that vertical distance is e I. So from y I to y hat I is that vertical distance e I.
+
+[27:22]
+So that tells me how far off my line is from the point at that specific x value. Okay. But big picture is we've got a scatter plot, We've assumed a linear relationship between x and y. We've found a line through the data, and we acknowledge that our, line is obviously not going to go through all the points, and it's useful for us to see, okay, is our... Is it okay that it's, you know, not going through all the points as long as there's kind of an even dispersion of points from the line and our line is on average pretty close to all the points, then we're happy.
+
+[28:20]
+Okay. So Now the question is how do you actually find the line of best fit? So if I bring it back to the original line that I drew, remember that I said, I might have drawn the line like this, but you might have tilted it a little bit or you might have moved it down a little bit or moved it up a little bit. So there has to be a systematic way or an unbiased mathematical way of finding this line of best fit. And this is where it gets fun.
+
+[29:01]
+So they set it up as an optimization problem. So the line of best fit is the line that is overall the closest to all the data points. So it's a very specific optimization problem in the sense that if this is the line of best fit, if I move this a little bit, suddenly it's not the line of best fit. Suddenly now it's a little bit far away from all the data points. Or if I moved it up a little bit, suddenly it would be a little bit more far away from all the data points.
+
+[30:17]
+So it has to be the line that minimizes the distance from all the data points for us to be able to say this is the best line to use. So if you have to then take that and translate it into a mathematical objective, it has to be the line that minimizes the distance from all the points, And this distance from all the points, we refer to as the sum of squared errors. That gets a little acronym there, SSE. Okay. So the SSE looks like this.
+
+[31:51]
+It's literally the sum from I equals one up to n of the squared distance from each y I and its corresponding y hat I. So it's going to take each vertical distance there and add all of them up. So it's gonna take all the vertical distances from the points to the line and add them up. But what does it do before it adds them up? It squares them.
+
+[32:33]
+Why is it important to square? Because you'd probably end up with zero if you had positive deviations plus negative deviations. It will all kind of pull together towards zero, and you're not left with a meaningful quantity. So instead, we first take the differences, then square them, and then we add them up. And then you get a nice single value that tells you this is the total error that your model is making at the moment.
+
+[33:03]
+And we're going to try and choose the line so that that total error is the least it can possibly be. It will always exist, but we want it to be the least it can possibly be. So it's a minimization problem. This looks a lot like something you've dealt with, which is the, variance. The variance is the sum of the squared deviations of each point from its mean.
+
+[33:27]
+Same kind of idea there. So this... And then we can rewrite this if we want. This becomes y hat I just gets subbed... You sub the formula for y hat I, which is b zero plus b one x I.
+
+[33:59]
+So the goal here, choose beta zero and beta one so that the SSE is minimized. If you've chosen beta zero and beta one, you've chosen your line because the line is just the slope and the intercept, and you need to choose it so that the SSE is minimized. And this was just to show you that it is actually a function of b zero and b one. Okay. So some background on minimization or optimization.
+
+[35:02]
+I'm putting it in a different color here because this part is not strictly necessary for you to know, but I would like you to understand what you are doing here. So the background on minimization. So this is a... An optimization problem, and the SSE is a function in and of itself, and it's specifically an error function. So I'm not saying it looks like this, but it might look like this.
+
+[35:39]
+So there will be some sort of point where the error function is at its... At a high point, and there will be another part where the error function is at a low point, and then maybe it goes high again. This spot over here, that's the spot we want. That's... If we get that error function to be minimized, that is the line of best fit.
+
+[36:03]
+So we want b zero and b one that give us this. So the reason I give you this background is... Do you remember how they told you to find minimums for functions in, high school maths? Did you guys do minimums for functions? Ringing any kind of bell?
+
+[36:36]
+So if you have a function and you need to find its minimum, you derive it with respect to some sort of value and then you set it equal to zero, and then you solve for that value. Then that's the value that gives the minimum of the function at that point. Luckily for you, you don't have to do the derivation and the setting equal to zero. There's a closed form solution to this, which means you just get the nice formula that has already been solved for you. But the background is that you would derive it and set it equal to zero.
+
+[37:12]
+So you derive the SSE with respect to b zero and b one individually and set equal to zero. And solve. So this part, it's just background. It explains how we get to that, and that... All of that is called the least squares method.
+
+[37:44]
+So least squares because it is trying to find the least square distance between the value and what it predicts. Okay. So the slides say it will be found using Excel. That's partially true. Yes.
+
+[38:00]
+It will be found using Excel, but, for certain small data sets, we could ask you to calculate it by hand. I will show you how it's done by hand, but I'll also show you how you can find it on your lovely HP calculator. So... And I will strongly advise you to use the HP calculator instead of the by hand Because often, what I see if I mark papers, where they have long answer questions, the ones who do it by hand somehow always end up making mistakes. So I would rather have you just find it with the calculator.
+
+[38:39]
+So, there's also very specific interpretation of the slope and the intercept. So b zero being our intercept, is the estimated mean value of y when the value of x is zero. There will be a question most likely asking you to interpret the intercept, and you use this phrasing pretty much verbatim, and that gives you one mark. The interpretation of the slope, it's the estimated change in the mean value of y as a result of a one unit increase in x. Again, this phrasing, you memorize verbatim.
+
+[39:18]
+What happens if you increase x by one unit to y? So it's the change in x from a one unit increase... It's the change in y from a one unit increase in x. We'll do some practice closer to the time to get you used to. Remember how with confidence intervals, we always say, after we've given the confidence interval, we we give that interpretation sentence about we are 95% confident and so on and so on and so on.
+
+[39:49]
+The same with hypothesis tests, we do the whole hypothesis test and then we have the part where we say reject at this significance level, therefore, is sufficient evidence. I've kind of told you when it comes to that, you memorize it verbatim, you give it to me verbatim. This is kind of the same thing. We don't wanna lose marks for getting creative with our words and then implying that we don't actually understand what is going on. Then we can look at a quick example.
+
+[40:20]
+So here, a real estate agent wishes to examine the relationship between the selling price of a home and its size. So, basically, the size of the house measured in square feet will be the independent variable. That will be the thing that we'll use to try and say something about the size of the house. So... I mean, the price of the house.
+
+[40:41]
+So just thinking about it, what kind of relationship should this be? It should be a positive relationship. Larger houses should be sold for higher prices. So the first thing is we gather our data. Now this is on 10 houses, not really a groundbreaking data set for house prices, but just to make it easier for us, they've just chosen 10 houses to look at.
+
+[41:10]
+And you might think this is a silly example, but this is actually still a very relevant problem today. There's a branch of the government that tries to estimate people's house prices so they can know exactly how much to tax them on for their properties. And they look at all sorts of interesting things like they have satellite data, and then if you've added a pool to your house, which they can pick up on satellite data, they can tax you more. So things like that. It's it's actually...
+
+[41:43]
+It's still very relevant today predicting house prices, but the model will obviously, in real life, not be this simple. They'll add in other variables. But if you work out a scatter plot, you will... With house price on the x axis and... I mean, square feet on the x axis and price on the y axis, we see early indications that we should be able to put a straight line through the data.
+
+[42:08]
+So this is suggestive of a positive correlation between the two, then we move on to try and fit a linear model to try and establish a causal relationship. So this output is generated with Excel and you are going to get very familiar with this output. I'm going to show you where to find everything on this output. And in the exam, you're not going to have to use Excel to generate this output, but you will get a print out most likely, and you will have to interpret this output. So I have some great resources that I'll also, when the time is right, put up on SunLearn cheat sheets to understand this output.
+
+[42:53]
+But the very first thing you start with is the regression equation, and that is what is circled here. So you will see there we have the intercept and we have the slope. So I'm just gonna switch so that I can highlight for you. So one of the easiest questions we can ask is give the regression equation based on this output. So you know the general regression equation is going to be y hat I is equal to b zero plus b one x I.
+
+[43:33]
+Now if you go and make it relevant to this, you need your b zero, your intercept. That is literally given as intercept. So that is going to be 98.24833. Plus my slope. So the slope...
+
+[43:57]
+The name that it gets here is the name of the variable because the slope is connected to the x variable. So here the slope gets named square feet, but it's not the actual square feet. It is the slope that is related to the square feet. So that is 0.10977. Notice it's a positive slope because it's a positive linear relationship.
+
+[44:17]
+If it was a negative linear relationship, it would have been a negative slope. So this is 0.10977, and then you have to put in your x I. So for me, that... I'm happy with that. What I'm looking for is I want to see, did you put the hat over?
+
+[44:38]
+Because, yes, I will deduct marks if I don't see the hat. Because if you don't put the hat over, you're suggesting that's the actual y. It's not the actual y. It's the predicted y for that x. I want to see that you've correctly identified the intercept.
+
+[44:53]
+If you put x with the intercept, then I know you don't know what you're talking about. X goes with the slope. So I want three marks if I see those things. Now if you wanna be safe, I know it's also preferred if you can apply it to the context. So instead of y hat I and x I, you could go house price hat for some reason, they like that, equals 98.24833 plus 0.10977 square feet.
+
+[45:29]
+Just to sub in what the variables are actually called in this specific context. I would mark correctly either one of these, but the marking gets split up between the lectures for this module. So if you wanna be safe with all lecturers, I would say this is your best bet if you give the regression equation. But I think we get instructions to mark this and this both correct because then you've identified everything right. So there's many more things on this Excel output that we have to learn, but we're not going to jump in and learn everything on the first day that we learn this topic.
+
+[46:07]
+So just warning you for now that this is one of the things we're gonna have to get to know quite well, but you're already well on your way if you can interpret the regression equation from this output. Okay. And then, we're almost done. There's not too much more I wanna talk about, but if you went and plotted this exact regression line on top of your data, which is something that you can do, you will see that we have our lovely little intercept there. It crosses the x axis at that point.
+
+[46:41]
+And remember when we talked about the intercept, it's what the house price would be at zero square feet. That is not... That doesn't make sense for the data. So sometimes a value of x equal to zero would not make sense. So the intercept is sometimes just a theoretical quantity, not a practical quantity because you would not have a house with zero square feet.
+
+[47:06]
+So the intercept is sometimes applicable, sometimes not. You'll still give the interpretation, so you'll still say this is the value of y when x is equal to zero, but it doesn't always have practical implications for the data because the data doesn't always extrapolate beyond a certain range. You see that house prices tend to start at 1,000 square feet. They don't really, start fewer than that. And then here, end at 2,500 square feet.
+
+[47:36]
+They don't really extrapolate beyond that. So we must also be careful not to extrapolate beyond the range of our data. That's an error that statisticians make to this day, that they're not careful about. And then the slope is obviously not so easily seen from... On this...
+
+[47:56]
+If we just draw the line, the slope is implicit in the line. But one thing we can notice, like I said, it's a positive slope. So your line is positively sloped. That means as x increases, y also increases. If you had a negative slope, it would look like that.
+
+[48:14]
+As x increases, y decreases. Then, just, there's your other marks that you get for interpretation. So saying what b zero is. Again, notice it says it has no practical application in this case because a house cannot have square footage of zero. And then if we look at the interpretation of the slope, it estimates the change in the mean value of y as a result of one unit change in x.
+
+[48:43]
+So they say, here, this tells us that the mean value of a house increases by this on average for each additional one square foot of size. So they... What they've done is they've just subbed out x and y for price and square feet and notice that they actually multiplied the slope by a thousand dollars. Why they can do that is because that is the units of y that was given to us when our data was given to us. So they said in the beginning, house price is in units of a thousand dollars.
+
+[49:18]
+So that is sometimes what they like to do just to show that's completely applied to this context. We'll also look at a lot of examples of that. And then you can also... Okay. I'll stop there.
+
+[49:38]
+We'll carry on when I see you next. I've got it across now... At the venue across campus, so I have to, like, make my way there. So you you can ask me tomorrow if you want, or you can email me a screenshot. Thank you so much.
+
+[51:02]
+So I just wanna quickly ask you. Students have been asking me when the a two breakdown, like, we have to say for the a two would be out. So the breakdown is basically everything in second semester. In second... So not the whole year.
+
+[51:16]
+Just not the whole year. A three is the whole year, but a two is everything in second semester. Okay. That's the breakdown. What else do they wanna know?
+
+[51:24]
+They wanted to know when the formula sheet that we will be given for the a two

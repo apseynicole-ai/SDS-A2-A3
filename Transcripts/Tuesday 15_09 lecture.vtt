@@ -1,0 +1,1819 @@
+WEBVTT
+
+94246c9f-d887-44eb-882b-43aae15d3648/10-0
+00:00:29.086 --> 00:00:34.768
+<v Krotoa 1012>Okay, good morning, everybody.
+Good to see you all again.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/10-1
+00:00:34.768 --> 00:00:40.353
+<v Krotoa 1012>So we are moving on to our third topic
+for this chapter,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/10-2
+00:00:40.353 --> 00:00:46.526
+<v Krotoa 1012>which is hypothesis testing for two
+population proportions. So</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/11-0
+00:00:49.086 --> 00:00:53.406
+<v Krotoa 1012>We've got a lot of notation here.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/13-0
+00:00:55.246 --> 00:00:57.086
+<v Krotoa 1012>Instead of going through it one by one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/14-0
+00:00:58.366 --> 00:01:00.606
+<v Krotoa 1012>I am rather going to...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/15-0
+00:01:01.966 --> 00:01:06.046
+<v Krotoa 1012>Kind of go at it from a distribution
+point of view, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/16-0
+00:01:10.766 --> 00:01:13.886
+<v Krotoa 1012>We are now looking at the situation where
+we have.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/17-0
+00:01:16.406 --> 00:01:17.566
+<v Krotoa 1012>A population.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/18-0
+00:01:18.686 --> 00:01:21.086
+<v Krotoa 1012>This is, say, for example, population one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/19-0
+00:01:25.166 --> 00:01:27.486
+<v Krotoa 1012>And it has some sort of...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/20-0
+00:01:33.086 --> 00:01:39.646
+<v Krotoa 1012>Population proportion, so remember,
+population proportion is looking at...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/21-0
+00:01:42.206 --> 00:01:45.904
+<v Krotoa 1012>actually underlying A binomial random
+variable,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/21-1
+00:01:45.904 --> 00:01:51.837
+<v Krotoa 1012>how many successes out of N trials,
+and then it just divides by N to express</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/21-2
+00:01:51.837 --> 00:01:55.920
+<v Krotoa 1012>it as a proportion.
+So that is what a proportion is,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/21-3
+00:01:55.920 --> 00:02:00.851
+<v Krotoa 1012>and that's how we quantify or summarize a
+categorical variable.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/21-4
+00:02:00.851 --> 00:02:03.086
+<v Krotoa 1012>So something that talks about</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/22-0
+00:02:03.326 --> 00:02:06.862
+<v Krotoa 1012>A characteristic,
+so we're looking at quantifying</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/22-1
+00:02:06.862 --> 00:02:10.470
+<v Krotoa 1012>characteristics.
+We've moved on from the mean now.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/22-2
+00:02:10.470 --> 00:02:14.148
+<v Krotoa 1012>Remember,
+the mean quantifies numeric variables via</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/22-3
+00:02:14.148 --> 00:02:14.926
+<v Krotoa 1012>an average.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/23-0
+00:02:15.966 --> 00:02:21.028
+<v Krotoa 1012>A proportion quantifies categorical
+variables via proportion. OK,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/23-1
+00:02:21.028 --> 00:02:23.406
+<v Krotoa 1012>then we also have population 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/24-0
+00:02:28.926 --> 00:02:30.526
+<v Krotoa 1012>And we are interested in.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/25-0
+00:02:34.366 --> 00:02:35.726
+<v Krotoa 1012>The difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/26-0
+00:02:39.966 --> 00:02:42.990
+<v Krotoa 1012>So,
+the difference will tell us something</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/26-1
+00:02:42.990 --> 00:02:43.566
+<v Krotoa 1012>about...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/27-0
+00:02:44.446 --> 00:02:47.486
+<v Krotoa 1012>the comparison between the two
+populations.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/29-0
+00:03:06.846 --> 00:03:08.286
+<v Krotoa 1012>Okay, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/30-0
+00:03:10.926 --> 00:03:12.286
+<v Krotoa 1012>It's the usual.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/31-0
+00:03:13.166 --> 00:03:19.646
+<v Krotoa 1012>Situation where I am going to tell you
+that we cannot obtain.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/32-0
+00:03:20.846 --> 00:03:25.566
+<v Krotoa 1012>Pi one and Pi two,
+we cannot survey the entire population,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/32-1
+00:03:25.566 --> 00:03:31.086
+<v Krotoa 1012>so we cannot obtain that,
+but what we can do is we can get a sample.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/33-0
+00:03:34.606 --> 00:03:36.686
+<v Krotoa 1012>And from that sample, we can get...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/34-0
+00:03:38.286 --> 00:03:42.526
+<v Krotoa 1012>P1,
+the sample proportion for population one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/35-0
+00:03:43.406 --> 00:03:44.446
+<v Krotoa 1012>And we can get...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/36-0
+00:03:47.406 --> 00:03:50.389
+<v Krotoa 1012>from that P2,
+which is simply exactly that</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/36-1
+00:03:50.389 --> 00:03:54.622
+<v Krotoa 1012>characteristic that we wanted to measure
+for the population,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/36-2
+00:03:54.622 --> 00:03:59.617
+<v Krotoa 1012>now just measured for the sample.
+And it should be a good estimator for</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/36-3
+00:03:59.617 --> 00:04:03.433
+<v Krotoa 1012>whatever is in the sample.
+So P is an estimator of pi.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/36-4
+00:04:03.433 --> 00:04:05.446
+<v Krotoa 1012>P1 is now an estimator of pi.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/37-0
+00:04:05.526 --> 00:04:08.766
+<v Krotoa 1012>Pi one and P2 is now an estimator of Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/38-0
+00:04:10.526 --> 00:04:13.884
+<v Krotoa 1012>We allow for,
+you can see the first bullet point there</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/38-1
+00:04:13.884 --> 00:04:17.303
+<v Krotoa 1012>is N1 and N2.
+That means we can take a different sample</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/38-2
+00:04:17.303 --> 00:04:21.272
+<v Krotoa 1012>size from each population.
+It doesn't have to be the same sample</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/38-3
+00:04:21.272 --> 00:04:26.401
+<v Krotoa 1012>size. It's only ever with a paired design,
+like there are repeated measures for the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/38-4
+00:04:26.401 --> 00:04:30.126
+<v Krotoa 1012>means that we needed to take the same
+sample size from both.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/39-0
+00:04:30.606 --> 00:04:31.726
+<v Krotoa 1012>Okay, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/40-0
+00:04:33.246 --> 00:04:35.486
+<v Krotoa 1012>We learned in Chapter Seven.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/41-0
+00:04:37.966 --> 00:04:43.486
+<v Krotoa 1012>That this sample proportion has its own
+distribution.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/42-0
+00:04:44.686 --> 00:04:45.326
+<v Krotoa 1012>ZOë.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/43-0
+00:04:54.366 --> 00:04:59.583
+<v Krotoa 1012>I'm just going to provide the two
+distributions, P1 and P2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/43-1
+00:04:59.583 --> 00:05:02.366
+<v Krotoa 1012>They'll both be the same. So P1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/44-0
+00:05:04.046 --> 00:05:08.126
+<v Krotoa 1012>Will be under the right circumstances,
+normally distributed.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/45-0
+00:05:09.086 --> 00:05:13.250
+<v Krotoa 1012>Its mean, or its expected value,
+is going to be pi one;</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/45-1
+00:05:13.250 --> 00:05:19.646
+<v Krotoa 1012>that's the thing it is trying to estimate,
+and its standard error is the square root.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/46-0
+00:05:20.766 --> 00:05:24.526
+<v Krotoa 1012>Of pi 1 * 1 minus pi one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/47-0
+00:05:26.926 --> 00:05:28.366
+<v Krotoa 1012>Divided by N one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/48-0
+00:05:31.406 --> 00:05:36.033
+<v Krotoa 1012>So, nothing new there.
+We know the distribution of the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/48-1
+00:05:36.033 --> 00:05:41.166
+<v Krotoa 1012>proportion, P2, obviously, same thing,
+normally distributed.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/49-0
+00:05:44.286 --> 00:05:48.606
+<v Krotoa 1012>With expected value PI2 standard error.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/50-0
+00:05:49.726 --> 00:05:54.846
+<v Krotoa 1012>root of pi 2 times 1 minus pi 2 divided
+by n2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/51-0
+00:05:58.686 --> 00:06:01.486
+<v Krotoa 1012>And this is under the right conditions.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/52-0
+00:06:02.846 --> 00:06:03.966
+<v Krotoa 1012>This normality.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/53-0
+00:06:10.006 --> 00:06:11.006
+<v Krotoa 1012>Which is just...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/54-0
+00:06:12.126 --> 00:06:13.326
+<v Krotoa 1012>Basically, if you're...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/55-0
+00:06:14.686 --> 00:06:17.295
+<v Krotoa 1012>Essentially,
+boils down to if your sample size is</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/55-1
+00:06:17.295 --> 00:06:19.592
+<v Krotoa 1012>large enough,
+but we know those conditions,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/55-2
+00:06:19.592 --> 00:06:23.246
+<v Krotoa 1012>N times pi and N times 1 minus pi,
+both have to be greater than five.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/56-0
+00:06:24.446 --> 00:06:24.846
+<v Krotoa 1012>Okay.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/57-0
+00:06:28.286 --> 00:06:31.506
+<v Krotoa 1012>But remember that we are interested in pi
+1 minus pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/57-1
+00:06:31.506 --> 00:06:33.806
+<v Krotoa 1012>So what do you think we're going to use?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/58-0
+00:06:37.486 --> 00:06:39.406
+<v Krotoa 1012>Estimate width.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/59-0
+00:06:40.526 --> 00:06:42.766
+<v Krotoa 1012>P1 minus P2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/60-0
+00:06:45.006 --> 00:06:45.726
+<v Krotoa 1012>So...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/61-0
+00:06:49.126 --> 00:06:53.666
+<v Krotoa 1012>First things first,
+whenever you use a sample quantity to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/61-1
+00:06:53.666 --> 00:06:58.206
+<v Krotoa 1012>estimate a population quantity,
+you have to ask yourself,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/61-2
+00:06:58.206 --> 00:07:02.668
+<v Krotoa 1012>what distribution is this sample quantity
+going to have?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/61-3
+00:07:02.668 --> 00:07:09.166
+<v Krotoa 1012>I have to know its distribution before I
+can move to any kind of probability or...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/62-0
+00:07:09.646 --> 00:07:15.373
+<v Krotoa 1012>hypothesis test or confidence interval,
+any kind of statistical inference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/62-1
+00:07:15.373 --> 00:07:21.558
+<v Krotoa 1012>I am going to need a distribution because
+the distribution is going to give me a</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/62-2
+00:07:21.558 --> 00:07:24.995
+<v Krotoa 1012>clue about its behavior and its
+variability.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/62-3
+00:07:24.995 --> 00:07:28.126
+<v Krotoa 1012>So if you take a normally distributed P1,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/63-0
+00:07:28.846 --> 00:07:33.009
+<v Krotoa 1012>and you say minus a normally distributed
+P2,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/63-1
+00:07:33.009 --> 00:07:39.486
+<v Krotoa 1012>you're going to get a normally
+distributed P1 minus P2. So they will,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/63-2
+00:07:39.486 --> 00:07:47.166
+<v Krotoa 1012>you will not have any dramatic changes to
+the distribution. So P1 minus P2 is also</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/64-0
+00:07:47.286 --> 00:07:50.501
+<v Krotoa 1012>Normally distributed now,
+its expected value,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/64-1
+00:07:50.501 --> 00:07:53.646
+<v Krotoa 1012>the thing it is trying to estimate would
+be.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/65-0
+00:07:55.086 --> 00:07:57.406
+<v Krotoa 1012>Pi 1 minus Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/66-0
+00:07:58.446 --> 00:08:03.851
+<v Krotoa 1012>So that says that this is an unbiased
+estimator of Pi 1 minus Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/66-1
+00:08:03.851 --> 00:08:07.826
+<v Krotoa 1012>But more than that,
+it means that if you took the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/66-2
+00:08:07.826 --> 00:08:14.266
+<v Krotoa 1012>distribution of all the P 1 minus P2s,
+exactly in the middle would be Pi 1 minus</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/66-3
+00:08:14.266 --> 00:08:17.446
+<v Krotoa 1012>Pi 2. So it's doing a really good job at</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/67-0
+00:08:17.966 --> 00:08:25.583
+<v Krotoa 1012>estimating it for the most part. Now,
+the sample standard or the standard error</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/67-1
+00:08:25.583 --> 00:08:31.582
+<v Krotoa 1012>for this P1 minus P2,
+we have to kind of borrow from the logic</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/67-2
+00:08:31.582 --> 00:08:37.486
+<v Krotoa 1012>that we use when we look at the
+difference into sample means.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/68-0
+00:08:38.926 --> 00:08:40.606
+<v Krotoa 1012>And you'll see that we handle that.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/69-0
+00:08:42.046 --> 00:08:45.629
+<v Krotoa 1012>standard error much the same way.
+Basically,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/69-1
+00:08:45.629 --> 00:08:52.238
+<v Krotoa 1012>we have to add the two variances and then
+take the square root. So if we take the,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/69-2
+00:08:52.238 --> 00:08:57.413
+<v Krotoa 1012>it would be a big square root,
+and then within that square root,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/69-3
+00:08:57.413 --> 00:08:59.006
+<v Krotoa 1012>you're going to have</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/70-0
+00:08:59.966 --> 00:09:02.926
+<v Krotoa 1012>Pi 1 * 1 minus Pi one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/71-0
+00:09:04.126 --> 00:09:07.166
+<v Krotoa 1012>Over in one plus.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/72-0
+00:09:10.126 --> 00:09:12.846
+<v Krotoa 1012>Pi 2 * 1 minus Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/73-0
+00:09:13.886 --> 00:09:18.606
+<v Krotoa 1012>Over into,
+you'll see that this mimics the...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/74-0
+00:09:20.166 --> 00:09:25.490
+<v Krotoa 1012>the way that we handle the variance slash
+standard error for the difference in</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/74-1
+00:09:25.490 --> 00:09:26.366
+<v Krotoa 1012>sample means.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/77-0
+00:09:51.166 --> 00:09:54.766
+<v Krotoa 1012>OK, before I talk about this next thing.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/78-0
+00:09:58.766 --> 00:10:01.646
+<v Krotoa 1012>Which is the pooled proportion?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/79-0
+00:10:03.966 --> 00:10:05.726
+<v Krotoa 1012>I have to quickly...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/80-0
+00:10:07.246 --> 00:10:08.526
+<v Krotoa 1012>Remind you.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/81-0
+00:10:09.486 --> 00:10:11.886
+<v Krotoa 1012>Of the form that the hypothesis can take.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/82-0
+00:10:13.166 --> 00:10:13.806
+<v Krotoa 1012>So...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/84-0
+00:10:15.406 --> 00:10:20.081
+<v Krotoa 1012>First of all,
+I'm going to remind you here that we</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/84-1
+00:10:20.081 --> 00:10:24.482
+<v Krotoa 1012>conduct,
+and this is true throughout hypothesis</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/84-2
+00:10:24.482 --> 00:10:27.966
+<v Krotoa 1012>testing, we conduct A hypothesis test.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/85-0
+00:10:32.126 --> 00:10:33.166
+<v Krotoa 1012>Assuming.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/86-0
+00:10:37.966 --> 00:10:39.726
+<v Krotoa 1012>The null hypothesis.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/87-0
+00:10:41.806 --> 00:10:42.926
+<v Krotoa 1012>Is true.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/88-0
+00:10:45.566 --> 00:10:47.006
+<v Krotoa 1012>Until proven false.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/89-0
+00:10:53.326 --> 00:10:57.806
+<v Krotoa 1012>And sometimes we gloss over this,
+but what it actually means is...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/90-0
+00:11:06.446 --> 00:11:07.726
+<v Krotoa 1012>We apply.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/91-0
+00:11:10.686 --> 00:11:12.046
+<v Krotoa 1012>Any statement?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/92-0
+00:16:34.510 --> 00:16:35.230
+<v Krotoa 1012>Assumption.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/93-0
+00:16:36.750 --> 00:16:37.150
+<v Krotoa 1012>Um...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/94-0
+00:16:37.230 --> 00:16:37.310
+<v Krotoa 1012>The.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/96-0
+00:16:38.510 --> 00:16:45.448
+<v Krotoa 1012>Remember, with we just did means,
+remember we also make an assumption that</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/96-1
+00:16:45.448 --> 00:16:50.629
+<v Krotoa 1012>the means are equal, or sorry,
+the variances are equal,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/96-2
+00:16:50.629 --> 00:16:58.030
+<v Krotoa 1012>but that is an external assumption that
+we impose onto the test. This is the...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/97-0
+00:16:58.070 --> 00:17:01.378
+<v Krotoa 1012>Different,
+it's an internal assumption made by the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/97-1
+00:17:01.378 --> 00:17:05.919
+<v Krotoa 1012>test, the one we made the choice,
+and we acknowledge that that is not</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/97-2
+00:17:05.919 --> 00:17:10.590
+<v Krotoa 1012>always going to be the case,
+but in this situation with the proportion.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/98-0
+00:17:11.630 --> 00:17:14.030
+<v Krotoa 1012>It does not matter what the truth
+actually is.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/99-0
+00:17:15.190 --> 00:17:18.743
+<v Krotoa 1012>We assume the null is true until proven
+false,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/99-1
+00:17:18.743 --> 00:17:25.092
+<v Krotoa 1012>so we have to go and make this assumption
+always. It's a necessity of the test. OK,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/99-2
+00:17:25.092 --> 00:17:25.470
+<v Krotoa 1012>so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/100-0
+00:17:26.670 --> 00:17:30.030
+<v Krotoa 1012>The problem is that this and this.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/101-0
+00:17:31.270 --> 00:17:33.950
+<v Krotoa 1012>This pie is unknown.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/102-0
+00:17:36.190 --> 00:17:38.190
+<v Krotoa 1012>because it is a population quantity.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/103-0
+00:17:46.030 --> 00:17:47.230
+<v Krotoa 1012>We estimate it.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/104-0
+00:17:51.950 --> 00:17:52.990
+<v Krotoa 1012>And this is called...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/105-0
+00:17:53.870 --> 00:17:56.350
+<v Krotoa 1012>P bar, and that is the pooled.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/106-0
+00:17:59.150 --> 00:18:03.870
+<v Krotoa 1012>Proportion,
+so that is at the at the bottom there.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/107-0
+00:18:05.310 --> 00:18:05.630
+<v Krotoa 1012>Of the.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/108-0
+00:18:06.910 --> 00:18:11.630
+<v Krotoa 1012>Slides that bullet point pooled estimate
+for the overall proportion, if...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/109-0
+00:18:12.790 --> 00:18:17.675
+<v Krotoa 1012>the two proportions are the same,
+which the test assumes,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/109-1
+00:18:17.675 --> 00:18:23.233
+<v Krotoa 1012>then we can combine both sample
+proportion or both of our samples</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/109-2
+00:18:23.233 --> 00:18:28.623
+<v Krotoa 1012>information to estimate this unknown
+thing. So what it will be,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/109-3
+00:18:28.623 --> 00:18:34.350
+<v Krotoa 1012>remember that sample proportion is just x
+/ n. So P1 is x1 over n1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/110-0
+00:18:34.470 --> 00:18:38.830
+<v Krotoa 1012>P2 is X2 over M2,
+but if we were to estimate...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/111-0
+00:18:40.950 --> 00:18:44.910
+<v Krotoa 1012>If we were to group them all together,
+it becomes X1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/112-0
+00:18:46.110 --> 00:18:52.270
+<v Krotoa 1012>Plus X2 divided by N1 plus N2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/113-0
+00:18:57.790 --> 00:18:59.390
+<v Krotoa 1012>So it combines.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/114-0
+00:19:04.350 --> 00:19:05.310
+<v Krotoa 1012>Information.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/115-0
+00:19:06.390 --> 00:19:07.470
+<v Krotoa 1012>from both samples.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/120-0
+00:19:37.310 --> 00:19:40.737
+<v Krotoa 1012>OK,
+so that was a bit of a detour just to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/120-1
+00:19:40.737 --> 00:19:45.470
+<v Krotoa 1012>explain why we handle the variance in the
+way that we do.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/121-0
+00:19:47.710 --> 00:19:51.230
+<v Krotoa 1012>Now that we know what our standard error
+will be,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/121-1
+00:19:51.230 --> 00:19:55.595
+<v Krotoa 1012>we know that we can estimate it using
+this pooled proportion.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/121-2
+00:19:55.595 --> 00:20:01.016
+<v Krotoa 1012>We can express our test statistic,
+and we always want to find the expression</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/121-3
+00:20:01.016 --> 00:20:05.380
+<v Krotoa 1012>for the test statistic, because that is,
+once we've got that,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/121-4
+00:20:05.380 --> 00:20:07.070
+<v Krotoa 1012>we're well on our way to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/122-0
+00:20:07.230 --> 00:20:09.710
+<v Krotoa 1012>Finalizing the hypothesis test, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/123-0
+00:20:10.870 --> 00:20:12.190
+<v Krotoa 1012>The test statistic.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/124-0
+00:20:17.990 --> 00:20:21.939
+<v Krotoa 1012>Okay, and then another check here.
+Is it a,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/124-1
+00:20:21.939 --> 00:20:24.990
+<v Krotoa 1012>will this be a T-stat or a Z stat?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/125-0
+00:20:28.510 --> 00:20:31.150
+<v Krotoa 1012>So, with proportion, it's always Z.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/126-0
+00:20:32.430 --> 00:20:36.619
+<v Krotoa 1012>Always.
+There is no t-distribution for proportion.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/126-1
+00:20:36.619 --> 00:20:43.191
+<v Krotoa 1012>So we need the t-distribution for the
+mean because of the way that the variance</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/126-2
+00:20:43.191 --> 00:20:49.352
+<v Krotoa 1012>is handled. If the variance is unknown,
+we have to use the t-distribution.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/126-3
+00:20:49.352 --> 00:20:50.830
+<v Krotoa 1012>But the proportion</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/127-0
+00:20:52.670 --> 00:20:56.430
+<v Krotoa 1012>if you,
+the proportion in a very deterministic</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/127-1
+00:20:56.430 --> 00:21:03.070
+<v Krotoa 1012>way tells us what the variance will be.
+So there is no extra layer of uncertainty.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/127-2
+00:21:03.070 --> 00:21:09.070
+<v Krotoa 1012>So we do not need to jump to a T
+distribution. The Z distribution is fine.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/127-3
+00:21:09.070 --> 00:21:11.630
+<v Krotoa 1012>Even in this two sample setting,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/128-0
+00:21:11.950 --> 00:21:17.550
+<v Krotoa 1012>The Z distribution is fine,
+so for means in Chapter Ten, it's...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/129-0
+00:21:19.150 --> 00:21:22.948
+<v Krotoa 1012>Usually,
+given that your population quantities are</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/129-1
+00:21:22.948 --> 00:21:26.523
+<v Krotoa 1012>unknown,
+you default to the T distribution with</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/129-2
+00:21:26.523 --> 00:21:30.321
+<v Krotoa 1012>proportion,
+whether it's one sample or two sample,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/129-3
+00:21:30.321 --> 00:21:33.895
+<v Krotoa 1012>it's Z distribution.
+So just keep that in mind.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/129-4
+00:21:33.895 --> 00:21:35.310
+<v Krotoa 1012>So our Z stop here.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/130-0
+00:21:36.830 --> 00:21:42.275
+<v Krotoa 1012>And what is a test statistic?
+We don't look at the individual formula,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/130-1
+00:21:42.275 --> 00:21:47.644
+<v Krotoa 1012>we look at the structure of the formula.
+So what is a test statistic?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/130-2
+00:21:47.644 --> 00:21:53.089
+<v Krotoa 1012>It's a sample statistic, what you observe,
+minus what is hypothesized,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/130-3
+00:21:53.089 --> 00:21:55.390
+<v Krotoa 1012>divided by the standard error.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/131-0
+00:21:56.430 --> 00:22:00.620
+<v Krotoa 1012>Across the board,
+it doesn't matter what scenario I throw</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/131-1
+00:22:00.620 --> 00:22:06.545
+<v Krotoa 1012>at you, for a symmetrical distribution,
+that is what your test statistic is going</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/131-2
+00:22:06.545 --> 00:22:10.591
+<v Krotoa 1012>to look like.
+So our observed difference in proportions</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/131-3
+00:22:10.591 --> 00:22:14.564
+<v Krotoa 1012>is P1 minus P2.
+That's the information we get from the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/131-4
+00:22:14.564 --> 00:22:15.070
+<v Krotoa 1012>sample.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/132-0
+00:22:16.390 --> 00:22:20.270
+<v Krotoa 1012>What we're making a hypothesis about is
+pi one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/133-0
+00:22:21.310 --> 00:22:22.350
+<v Krotoa 1012>Minus pi two.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/134-0
+00:22:27.150 --> 00:22:34.804
+<v Krotoa 1012>And we divide with the standard error,
+which we've just spoken about the how and</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/134-1
+00:22:34.804 --> 00:22:39.150
+<v Krotoa 1012>the why of it,
+so it's P bar times 1 - p bar.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/135-0
+00:22:40.990 --> 00:22:44.980
+<v Krotoa 1012>See,
+everywhere it was in the formula as pi,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/135-1
+00:22:44.980 --> 00:22:51.630
+<v Krotoa 1012>I've now replaced it with P bar,
+and then it's 1 over N 1 plus 1 over N 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/136-0
+00:22:58.750 --> 00:23:00.350
+<v Krotoa 1012>And where P-bar.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/137-0
+00:23:03.870 --> 00:23:06.590
+<v Krotoa 1012>Is X1 plus X2?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/138-0
+00:23:07.710 --> 00:23:09.630
+<v Krotoa 1012>Over N1 plus N2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/143-0
+00:23:35.390 --> 00:23:40.257
+<v Krotoa 1012>You can also take note of the assumptions.
+They just state them clearly.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/143-1
+00:23:40.257 --> 00:23:44.457
+<v Krotoa 1012>So we assume that N1 times pi 1 is
+greater than or equal to 5,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/143-2
+00:23:44.457 --> 00:23:48.257
+<v Krotoa 1012>and N1 times 1 minus pi 1 is greater than
+or equal to 5.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/143-3
+00:23:48.257 --> 00:23:53.323
+<v Krotoa 1012>And the same for N2 and pi 2. Remember,
+this is the thing that allows us to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/143-4
+00:23:53.323 --> 00:23:55.390
+<v Krotoa 1012>assume the normal distribution.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/144-0
+00:23:56.350 --> 00:23:57.230
+<v Krotoa 1012>So, for this...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/145-0
+00:23:59.550 --> 00:24:04.590
+<v Krotoa 1012>In this instance,
+you are allowed to make that assumption.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/146-0
+00:24:06.430 --> 00:24:11.616
+<v Krotoa 1012>In an exam, though, I always want you,
+especially for a long answer question,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/146-1
+00:24:11.616 --> 00:24:14.740
+<v Krotoa 1012>I want you to write that the assumption
+holds,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/146-2
+00:24:14.740 --> 00:24:18.330
+<v Krotoa 1012>because that could be two marks that you
+get. Seeing,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/146-3
+00:24:18.330 --> 00:24:22.785
+<v Krotoa 1012>just doing that check that the assumption
+holds. So in a question,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/146-4
+00:24:22.785 --> 00:24:25.710
+<v Krotoa 1012>if ever you see it's to do with
+proportion,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/147-0
+00:24:26.830 --> 00:24:30.904
+<v Krotoa 1012>Even though it feels silly,
+even though you know the assumption holds,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/147-1
+00:24:30.904 --> 00:24:35.207
+<v Krotoa 1012>you're going to write N times pi,
+whatever that N and whatever that pi is,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/147-2
+00:24:35.207 --> 00:24:39.338
+<v Krotoa 1012>you're going to calculate it.
+You're going to say greater than or equal</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/147-3
+00:24:39.338 --> 00:24:41.920
+<v Krotoa 1012>to 5.
+You're going to say N times 1 minus pi</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/147-4
+00:24:41.920 --> 00:24:46.510
+<v Krotoa 1012>greater than or equal to 5. I see that,
+I give Mark. So you'll want to do that.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/148-0
+00:24:47.150 --> 00:24:48.510
+<v Krotoa 1012>Okay, then.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/149-0
+00:24:49.550 --> 00:24:49.870
+<v Krotoa 1012>Um...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/150-0
+00:24:54.030 --> 00:24:56.840
+<v Krotoa 1012>We've looked at the form of the
+hypothesis tests.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/150-1
+00:24:56.840 --> 00:24:58.750
+<v Krotoa 1012>We also get a confidence interval.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/151-0
+00:25:00.750 --> 00:25:05.141
+<v Krotoa 1012>Have you noticed in this chapter we
+discuss the hypothesis tests and</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/151-1
+00:25:05.141 --> 00:25:08.896
+<v Krotoa 1012>confidence intervals all in one in the
+two sample setting,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/151-2
+00:25:08.896 --> 00:25:11.824
+<v Krotoa 1012>since we're now pretty comfortable with
+both?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/151-3
+00:25:11.824 --> 00:25:16.852
+<v Krotoa 1012>And we know that there is this inherent
+relationship between a hypothesis test</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/151-4
+00:25:16.852 --> 00:25:20.670
+<v Krotoa 1012>and a confidence interval.
+What kind of hypothesis test is?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/152-0
+00:25:22.430 --> 00:25:27.557
+<v Krotoa 1012>the flip side of a confidence interval,
+it has to be a two-tailed hypothesis test.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/152-1
+00:25:27.557 --> 00:25:31.572
+<v Krotoa 1012>Because A two-tailed hypothesis test
+takes alpha divided by two.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/152-2
+00:25:31.572 --> 00:25:34.660
+<v Krotoa 1012>A confidence interval takes alpha divided
+by two.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/152-3
+00:25:34.660 --> 00:25:39.478
+<v Krotoa 1012>That's the one that sits symmetrically
+around the center of the distribution.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/152-4
+00:25:39.478 --> 00:25:40.590
+<v Krotoa 1012>You cannot compare</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/153-0
+00:25:40.830 --> 00:25:43.464
+<v Krotoa 1012>A lower tail test to a confidence
+interval,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/153-1
+00:25:43.464 --> 00:25:47.295
+<v Krotoa 1012>you cannot compare an upper tail test to
+a confidence interval,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/153-2
+00:25:47.295 --> 00:25:49.630
+<v Krotoa 1012>so notice this confidence interval now.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/154-0
+00:25:51.630 --> 00:25:57.091
+<v Krotoa 1012>You see what's different here,
+so it's sample statistic,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/154-1
+00:25:57.091 --> 00:25:59.870
+<v Krotoa 1012>which is the difference in...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/155-0
+00:26:01.550 --> 00:26:06.790
+<v Krotoa 1012>A sample proportions, plus minus. Next,
+I have to have a critical value.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/155-1
+00:26:06.790 --> 00:26:09.230
+<v Krotoa 1012>This would be my Z critical value.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/156-0
+00:26:11.430 --> 00:26:16.110
+<v Krotoa 1012>And then I have to have my standard error.
+But look what my standard error is.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/159-0
+00:26:34.190 --> 00:26:36.190
+<v Krotoa 1012>The standard error that I used here.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/160-0
+00:26:40.190 --> 00:26:42.670
+<v Krotoa 1012>These 2 things are a little bit different;
+they're not the same.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/161-0
+00:26:45.870 --> 00:26:46.590
+<v Krotoa 1012>Remember.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/162-0
+00:26:48.830 --> 00:26:50.350
+<v Krotoa 1012>At a conference interval.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/163-0
+00:26:57.950 --> 00:27:02.110
+<v Krotoa 1012>Makes no prior statement or prior
+hypothesis statement.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/166-0
+00:27:17.430 --> 00:27:18.990
+<v Krotoa 1012>Thus, we cannot assume.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/167-0
+00:27:24.990 --> 00:27:27.550
+<v Krotoa 1012>Pi one is equal to Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/168-0
+00:27:30.990 --> 00:27:33.310
+<v Krotoa 1012>Instead, we just keep them separate.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/170-0
+00:27:34.510 --> 00:27:37.070
+<v Krotoa 1012>And we plug in P1 instead of...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/171-0
+00:27:38.230 --> 00:27:40.430
+<v Krotoa 1012>Pi one and P2 instead of Pi 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/172-0
+00:27:42.030 --> 00:27:42.750
+<v Krotoa 1012>So...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/173-0
+00:27:45.790 --> 00:27:48.900
+<v Krotoa 1012>Usually,
+you will use the same standard error in</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/173-1
+00:27:48.900 --> 00:27:52.136
+<v Krotoa 1012>your hypothesis test and your confidence
+interval,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/173-2
+00:27:52.136 --> 00:27:57.276
+<v Krotoa 1012>but this is just a little trick with the
+proportion that we have to stay mindful</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/173-3
+00:27:57.276 --> 00:27:59.815
+<v Krotoa 1012>of,
+is that they use slightly different</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/173-4
+00:27:59.815 --> 00:28:00.830
+<v Krotoa 1012>standard errors.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/180-0
+00:28:38.830 --> 00:28:40.350
+<v Krotoa 1012>Okay, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/181-0
+00:28:41.350 --> 00:28:50.632
+<v Krotoa 1012>Let's have a quick look at the example.
+So in an experiment to compare 2 web page</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/181-1
+00:28:50.632 --> 00:28:57.310
+<v Krotoa 1012>designs, 387 of 4,
+325 visitors signed up from design one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/182-0
+00:28:58.430 --> 00:29:02.430
+<v Krotoa 1012>So it's successes out of trials, 387.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/183-0
+00:29:03.550 --> 00:29:10.455
+<v Krotoa 1012>Signed up out of four, three, two,
+5 visitors, while 283 of 4,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/183-1
+00:29:10.455 --> 00:29:14.510
+<v Krotoa 1012>639 visitors signed up from design 2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/184-0
+00:29:15.790 --> 00:29:21.487
+<v Krotoa 1012>At the significance level alpha of 5%,
+test if there is a difference between the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/184-1
+00:29:21.487 --> 00:29:26.551
+<v Krotoa 1012>proportion of sign-ups generated by the
+two different web page designs,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/184-2
+00:29:26.551 --> 00:29:31.755
+<v Krotoa 1012>and then construct the confidence
+interval for the difference between the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/184-3
+00:29:31.755 --> 00:29:34.990
+<v Krotoa 1012>two population proportions of sign-ups.
+Okay.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/185-0
+00:29:35.070 --> 00:29:35.670
+<v Krotoa 1012>ZOë.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/186-0
+00:29:37.070 --> 00:29:38.510
+<v Krotoa 1012>Test if there is a difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/187-0
+00:29:40.110 --> 00:29:43.406
+<v Krotoa 1012>That is a two-tailed test.
+It's not saying test if there's a</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/187-1
+00:29:43.406 --> 00:29:46.756
+<v Krotoa 1012>positive difference or test if there's a
+negative difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/187-2
+00:29:46.756 --> 00:29:50.430
+<v Krotoa 1012>It's just saying test if there's a
+difference. So, two-tailed test.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/190-0
+00:29:58.190 --> 00:30:01.477
+<v Krotoa 1012>The null, of course,
+is saying there is no difference,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/190-1
+00:30:01.477 --> 00:30:03.390
+<v Krotoa 1012>and the alternative is saying...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/191-0
+00:30:05.390 --> 00:30:06.830
+<v Krotoa 1012>There is a difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/192-0
+00:30:08.390 --> 00:30:09.870
+<v Krotoa 1012>If you take the 1 minus the other.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/193-0
+00:30:11.070 --> 00:30:13.006
+<v Krotoa 1012>It might be negative,
+it might be positive,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/193-1
+00:30:13.006 --> 00:30:15.470
+<v Krotoa 1012>but it will be non-zero,
+so there will be a difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/194-0
+00:30:16.990 --> 00:30:23.710
+<v Krotoa 1012>OK, then we also know, so design one,
+so that means X1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/195-0
+00:30:24.670 --> 00:30:30.190
+<v Krotoa 1012>Is equal to 387,
+that's the number of successful visits.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/196-0
+00:30:31.310 --> 00:30:34.270
+<v Krotoa 1012>For this web page, and that was out of...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/197-0
+00:30:36.670 --> 00:30:39.470
+<v Krotoa 1012>a total of 4325.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/198-0
+00:30:41.390 --> 00:30:46.110
+<v Krotoa 1012>So, that's my N1, and then for design 2,
+we had 283.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/199-0
+00:30:47.950 --> 00:30:48.110
+<v Krotoa 1012>Yeah.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/200-0
+00:30:52.270 --> 00:30:53.310
+<v Krotoa 1012>And into.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/201-0
+00:30:54.590 --> 00:30:59.382
+<v Krotoa 1012>was 4639.
+So sometimes they will give sample</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/201-1
+00:30:59.382 --> 00:31:05.557
+<v Krotoa 1012>proportion P1,
+but other times they'll just give X&amp;N,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/201-2
+00:31:05.557 --> 00:31:09.710
+<v Krotoa 1012>and then you have to work out P. So P1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/202-0
+00:31:10.830 --> 00:31:14.110
+<v Krotoa 1012>Just be X1 over N one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/203-0
+00:31:15.190 --> 00:31:21.710
+<v Krotoa 1012>So that's going to be 387 out of 4325.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/204-0
+00:31:22.670 --> 00:31:26.983
+<v Krotoa 1012>And that will be,
+I'm just going to take it approximate to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/204-1
+00:31:26.983 --> 00:31:31.296
+<v Krotoa 1012>4 decimal places,
+so rounding off my intermediate answers,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/204-2
+00:31:31.296 --> 00:31:35.390
+<v Krotoa 1012>which is only advisable in practice,
+not in assessment.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/205-0
+00:31:37.950 --> 00:31:39.390
+<v Krotoa 1012>And then your P2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/206-0
+00:31:43.070 --> 00:31:47.310
+<v Krotoa 1012>Would be X2 over N2, so that would be 283.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/207-0
+00:31:49.550 --> 00:31:51.390
+<v Krotoa 1012>Over 4639.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/208-0
+00:31:54.910 --> 00:31:56.350
+<v Krotoa 1012>And that will be about...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/209-0
+00:31:57.470 --> 00:31:59.390
+<v Krotoa 1012>0.0610.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/210-0
+00:32:00.630 --> 00:32:05.070
+<v Krotoa 1012>And then the other thing you have to work
+out is also the pooled.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/211-0
+00:32:06.750 --> 00:32:12.807
+<v Krotoa 1012>proportion which is going to get used in
+the standard error.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/211-1
+00:32:12.807 --> 00:32:17.870
+<v Krotoa 1012>So that is going to be X1 plus X2 over N1
+plus N2.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/212-0
+00:32:19.150 --> 00:32:24.190
+<v Krotoa 1012>So that's going to be 387 plus 283.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/213-0
+00:32:25.470 --> 00:32:26.190
+<v Krotoa 1012>Over.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/214-0
+00:32:27.470 --> 00:32:31.790
+<v Krotoa 1012>4325 plus 4639.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/215-0
+00:32:33.790 --> 00:32:34.910
+<v Krotoa 1012>And that will give us.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/218-0
+00:32:42.110 --> 00:32:47.707
+<v Krotoa 1012>Now that we have that,
+we can work out our test statistic,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/218-1
+00:32:47.707 --> 00:32:48.750
+<v Krotoa 1012>our Z stat.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/223-0
+00:33:15.390 --> 00:33:15.830
+<v Krotoa 1012>Okay.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/224-0
+00:33:16.990 --> 00:33:20.910
+<v Krotoa 1012>So that is what we need to work out.
+So we're going to sub in.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/225-0
+00:33:22.270 --> 00:33:23.070
+<v Krotoa 1012>Our.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/226-0
+00:33:24.270 --> 00:33:33.390
+<v Krotoa 1012>0.0895 minus 0.0610.
+What do we sub in as the difference?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/227-0
+00:33:35.230 --> 00:33:36.750
+<v Krotoa 1012>In population means?</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/228-0
+00:33:38.430 --> 00:33:39.070
+<v Krotoa 1012>ZOë.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/229-0
+00:33:42.030 --> 00:33:45.310
+<v Krotoa 1012>Because our null hypothesis says that
+there is no difference.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/230-0
+00:33:46.670 --> 00:33:48.854
+<v Krotoa 1012>So,
+we have to take the assumption of the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/230-1
+00:33:48.854 --> 00:33:50.830
+<v Krotoa 1012>null hypothesis, and then we've got...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/233-0
+00:34:02.270 --> 00:34:07.550
+<v Krotoa 1012>Running out of space here,
+but we've got that times one over...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/234-0
+00:34:09.230 --> 00:34:14.110
+<v Krotoa 1012>4325 plus 1 over 4639.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/235-0
+00:34:18.750 --> 00:34:19.150
+<v Krotoa 1012>Keara.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/236-0
+00:34:23.110 --> 00:34:25.230
+<v Krotoa 1012>And then, once you do that horrible...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/237-0
+00:34:26.830 --> 00:34:27.870
+<v Krotoa 1012>Calculation.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/238-0
+00:34:29.390 --> 00:34:33.971
+<v Krotoa 1012>Or let's do squiggly brackets,
+because we've definitely rounded</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/238-1
+00:34:33.971 --> 00:34:36.190
+<v Krotoa 1012>intermediate values here, so...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/239-0
+00:34:37.230 --> 00:34:41.470
+<v Krotoa 1012>5.1228 is my test statistic.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/240-0
+00:34:43.310 --> 00:34:45.230
+<v Krotoa 1012>Then RZ crit.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/241-0
+00:34:48.670 --> 00:34:53.470
+<v Krotoa 1012>That's a straightforward one. Alpha is 0.
+05.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/242-0
+00:34:54.510 --> 00:34:59.363
+<v Krotoa 1012>Should have put that earlier,
+but alpha is 0.05,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/242-1
+00:34:59.363 --> 00:35:04.910
+<v Krotoa 1012>so our Z alpha over 2 is going to be Z 0.
+025 this one.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/243-0
+00:35:06.750 --> 00:35:07.150
+<v Krotoa 1012>EM.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/244-0
+00:35:08.510 --> 00:35:12.626
+<v Krotoa 1012>We can do it on the calculator.
+It's just put in 0.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/244-1
+00:35:12.626 --> 00:35:18.720
+<v Krotoa 1012>025 and then shift inverse Z to P,
+because we're going from a probability to</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/244-2
+00:35:18.720 --> 00:35:22.361
+<v Krotoa 1012>a Z value. But this will be plus minus 1.
+96.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/244-3
+00:35:22.361 --> 00:35:27.031
+<v Krotoa 1012>So I take it as plus minus because it's a
+two-tailed test,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/244-4
+00:35:27.031 --> 00:35:30.830
+<v Krotoa 1012>so you will always have a minus and a
+positive.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/245-0
+00:35:30.990 --> 00:35:36.990
+<v Krotoa 1012>Go on both sides of the distribution,
+and now we can make our decision.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/246-0
+00:35:43.230 --> 00:35:45.150
+<v Krotoa 1012>So, we've got our distribution.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/247-0
+00:35:46.670 --> 00:35:48.510
+<v Krotoa 1012>We've set up our rejection regions.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/248-0
+00:35:52.430 --> 00:35:54.510
+<v Krotoa 1012>And we've got our Z stat.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/249-0
+00:35:58.590 --> 00:36:00.750
+<v Krotoa 1012>Of 5.1228.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/250-0
+00:36:01.550 --> 00:36:03.406
+<v Krotoa 1012>So,
+your normal distribution doesn't</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/250-1
+00:36:03.406 --> 00:36:04.510
+<v Krotoa 1012>typically actually go.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/251-0
+00:36:05.790 --> 00:36:09.630
+<v Krotoa 1012>Post -3 and three,
+so this one is somewhere here.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/252-0
+00:36:10.590 --> 00:36:14.220
+<v Krotoa 1012>Theoretically,
+your distribution keeps extending because</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/252-1
+00:36:14.220 --> 00:36:18.169
+<v Krotoa 1012>it's not actually bounded.
+The normal distribution is bounded</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/252-2
+00:36:18.169 --> 00:36:21.290
+<v Krotoa 1012>between negative infinity and positive
+infinity.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/252-3
+00:36:21.290 --> 00:36:26.640
+<v Krotoa 1012>It's just that values past negative 3 and
+3 for a standard normal distribution just</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/252-4
+00:36:26.640 --> 00:36:30.270
+<v Krotoa 1012>become very unlikely. Not impossible,
+but very unlikely.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/253-0
+00:36:30.590 --> 00:36:35.456
+<v Krotoa 1012>So that 5.
+1228 is going to sit maybe somewhere here.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/253-1
+00:36:35.456 --> 00:36:38.430
+<v Krotoa 1012>I don't know. But the point is...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/254-0
+00:36:39.550 --> 00:36:40.030
+<v Krotoa 1012>EM.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/255-0
+00:36:42.190 --> 00:36:47.390
+<v Krotoa 1012>It's well within the rejection region.
+Anything beyond this is rejection region.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/257-0
+00:36:48.750 --> 00:36:51.584
+<v Krotoa 1012>So,
+it's definitely not near the center of</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/257-1
+00:36:51.584 --> 00:36:55.341
+<v Krotoa 1012>the distribution,
+and if it's not near the center of the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/257-2
+00:36:55.341 --> 00:36:59.230
+<v Krotoa 1012>distribution, we would reject. OK,
+so the conclusion is...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/258-0
+00:37:01.950 --> 00:37:06.523
+<v Krotoa 1012>And remember, I don't want to,
+if we're doing A2 long answer questions,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/258-1
+00:37:06.523 --> 00:37:11.096
+<v Krotoa 1012>I don't want to see the picture. I mean,
+you can put the picture there,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/258-2
+00:37:11.096 --> 00:37:14.272
+<v Krotoa 1012>but I'm not going to give a mark for the
+picture.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/258-3
+00:37:14.272 --> 00:37:18.845
+<v Krotoa 1012>I'm going to give a mark for the
+statement that provides the reasoning.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/258-4
+00:37:18.845 --> 00:37:20.750
+<v Krotoa 1012>So we are going to say, since,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/259-0
+00:37:22.910 --> 00:37:23.950
+<v Krotoa 1012>Z start.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/260-0
+00:37:25.630 --> 00:37:26.990
+<v Krotoa 1012>A 5.1.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/261-0
+00:37:27.870 --> 00:37:32.510
+<v Krotoa 1012>228 is greater than Z crit.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/262-0
+00:37:33.630 --> 00:37:36.030
+<v Krotoa 1012>Of 196, reject.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/263-0
+00:37:38.270 --> 00:37:43.470
+<v Krotoa 1012>The null hypothesis at alpha of 0.05.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/264-0
+00:37:47.310 --> 00:37:49.230
+<v Krotoa 1012>If we reject the null hypothesis.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/265-0
+00:37:51.710 --> 00:37:53.230
+<v Krotoa 1012>We have found.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/266-0
+00:37:57.870 --> 00:37:59.310
+<v Krotoa 1012>Sufficient evidence.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/267-0
+00:38:08.510 --> 00:38:09.790
+<v Krotoa 1012>The proportions.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/268-0
+00:38:12.110 --> 00:38:14.910
+<v Krotoa 1012>Of signups,
+just connecting it back to the...</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/269-0
+00:38:16.230 --> 00:38:17.390
+<v Krotoa 1012>Original question.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/270-0
+00:38:18.550 --> 00:38:19.230
+<v Krotoa 1012>Are different.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/279-0
+00:39:11.710 --> 00:39:12.350
+<v Krotoa 1012>Makes sense.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/280-0
+00:39:13.750 --> 00:39:16.003
+<v Krotoa 1012>OK,
+and then looking at this confidence</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/280-1
+00:39:16.003 --> 00:39:16.510
+<v Krotoa 1012>interval.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-0
+00:39:17.790 --> 00:39:21.381
+<v Krotoa 1012>They also asked us to make this.
+The only thing I want to draw your</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-1
+00:39:21.381 --> 00:39:24.022
+<v Krotoa 1012>attention to is, again,
+different standard error.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-2
+00:39:24.022 --> 00:39:28.035
+<v Krotoa 1012>So you're not going to take your standard
+error that you worked out for the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-3
+00:39:28.035 --> 00:39:31.045
+<v Krotoa 1012>hypothesis test and apply it to the
+confidence interval.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-4
+00:39:31.045 --> 00:39:34.847
+<v Krotoa 1012>You're going to remember that the
+hypothesis test makes a very specific</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/281-5
+00:39:34.847 --> 00:39:36.590
+<v Krotoa 1012>assumption that we have to apply.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/282-0
+00:39:36.750 --> 00:39:42.196
+<v Krotoa 1012>The confidence interval does not.
+So you are going to use the standard</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/282-1
+00:39:42.196 --> 00:39:48.026
+<v Krotoa 1012>error that keeps P1 and P2 separate
+instead of combining them into a P bar.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/282-2
+00:39:48.026 --> 00:39:50.940
+<v Krotoa 1012>Okay,
+so if you were to work out this</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/282-3
+00:39:50.940 --> 00:39:55.082
+<v Krotoa 1012>confidence interval,
+you get the lower bound, 0.0175,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/282-4
+00:39:55.082 --> 00:39:57.230
+<v Krotoa 1012>and the upper bound, 0.0394.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/283-0
+00:39:57.550 --> 00:40:03.268
+<v Krotoa 1012>you're looking for is 0 in that interval.
+That interval does not contain zero.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/283-1
+00:40:03.268 --> 00:40:07.466
+<v Krotoa 1012>It's past zero on the number line.
+It does not span zero.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/283-2
+00:40:07.466 --> 00:40:11.664
+<v Krotoa 1012>So if it does not contain the null
+hypothesis value of 0,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/283-3
+00:40:11.664 --> 00:40:15.790
+<v Krotoa 1012>you reject the null hypothesis.
+So it comes to the same.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/284-0
+00:40:16.110 --> 00:40:19.710
+<v Krotoa 1012>Conclusion as the hypothesis test.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/285-0
+00:40:20.750 --> 00:40:21.150
+<v Krotoa 1012>EM.</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/286-0
+00:40:22.430 --> 00:40:27.722
+<v Krotoa 1012>just that if you are asked in the exam to
+use a confidence interval for the</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/286-1
+00:40:27.722 --> 00:40:31.343
+<v Krotoa 1012>hypothesis test,
+you must know what the rule is for</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/286-2
+00:40:31.343 --> 00:40:35.033
+<v Krotoa 1012>rejecting or not rejecting.
+But my advice is always,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/286-3
+00:40:35.033 --> 00:40:38.097
+<v Krotoa 1012>if the question asks for a hypothesis
+test,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/286-4
+00:40:38.097 --> 00:40:41.230
+<v Krotoa 1012>unless they say use the confidence
+interval,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/287-0
+00:40:41.390 --> 00:40:46.937
+<v Krotoa 1012>use your normal hypothesis test so that
+you can get all the marks that you should</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/287-1
+00:40:46.937 --> 00:40:50.521
+<v Krotoa 1012>get. Okay.
+And then Excel commands we'll chat about,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/287-2
+00:40:50.521 --> 00:40:53.836
+<v Krotoa 1012>not too important.
+And then next time I see you,</v>
+
+94246c9f-d887-44eb-882b-43aae15d3648/287-3
+00:40:53.836 --> 00:40:57.150
+<v Krotoa 1012>we'll talk about the last topic for the
+chapter.</v>

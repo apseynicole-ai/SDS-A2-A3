@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "userState": {
+    "activeView": "read-print",
+    "scratch": "persistence check μ σ X̄",
+    "currentQuestionId": null
+  },
+  "mastery": {
+    "QA.1": {
+      "level": "NOT_STARTED",
+      "updatedAt": "2026-08-09T00:40:56.530Z"
+    }
+  },
+  "attempts": [
+    {
+      "attemptId": "A-1786236056529-56y4",
+      "timestamp": "2026-08-09T00:40:56.529Z",
+      "score": 1,
+      "solutionViewed": true,
+      "hintUsed": false,
+      "substantialHintUsed": false,
+      "independent": true,
+      "changedWording": false,
+      "mixed": false,
+      "delayed": false,
+      "timed": false,
+      "elapsedSeconds": null,
+      "errorTypes": [],
+      "questionId": "QA-A",
+      "skillIds": [
+        "QA.1"
+      ],
+      "correct": true,
+      "type": "conceptual",
+      "masteryEligible": false
+    }
+  ],
+  "repairs": [],
+  "retrievalSchedule": [],
+  "simulations": [],
+  "settings": {
+    "closedBook": false,
+    "timerMinutes": 90
+  },
+  "sourceAcknowledgements": {},
+  "legacyReadHistory": false
+}

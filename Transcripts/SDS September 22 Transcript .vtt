@@ -1,0 +1,2567 @@
+WEBVTT
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/9-0
+00:00:54.187 --> 00:00:56.107
+<v Krotoa 1012>OK, good morning, everybody.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/11-0
+00:00:56.907 --> 00:01:03.634
+<v Krotoa 1012>Good to see you all again. So,
+we are carrying on with the topic of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/11-1
+00:01:03.634 --> 00:01:06.107
+<v Krotoa 1012>simple linear regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/12-0
+00:01:07.947 --> 00:01:09.467
+<v Krotoa 1012>And just kind of a...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/13-0
+00:01:10.827 --> 00:01:13.627
+<v Krotoa 1012>recap of where we're at.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/14-0
+00:01:19.627 --> 00:01:24.652
+<v Krotoa 1012>So,
+we start off with usually a scatter plot,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/14-1
+00:01:24.652 --> 00:01:25.307
+<v Krotoa 1012>and...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/15-0
+00:01:33.387 --> 00:01:34.747
+<v Krotoa 1012>Can indicate.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/16-0
+00:01:37.067 --> 00:01:37.787
+<v Krotoa 1012>That.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/17-0
+00:01:41.147 --> 00:01:42.507
+<v Krotoa 1012>Their relationship.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/18-0
+00:01:46.347 --> 00:01:50.187
+<v Krotoa 1012>Between X,
+X being our independent variable.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/19-0
+00:01:58.187 --> 00:02:01.707
+<v Krotoa 1012>And why, why being our dependent variable?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/20-0
+00:02:09.467 --> 00:02:10.507
+<v Krotoa 1012>is linear.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/21-0
+00:02:12.267 --> 00:02:15.387
+<v Krotoa 1012>So, that's usually the...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/22-0
+00:02:18.267 --> 00:02:20.507
+<v Krotoa 1012>Starting point for linear regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/23-0
+00:02:23.307 --> 00:02:24.027
+<v Krotoa 1012>And then...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/24-0
+00:02:29.067 --> 00:02:30.267
+<v Krotoa 1012>We Uys.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/25-0
+00:02:32.667 --> 00:02:34.107
+<v Krotoa 1012>The estimated.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/26-0
+00:02:41.147 --> 00:02:42.427
+<v Krotoa 1012>Regression formula.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/27-0
+00:02:46.787 --> 00:02:47.867
+<v Krotoa 1012>which looks like this.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/28-0
+00:02:49.027 --> 00:02:50.107
+<v Krotoa 1012>Why have I?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/29-0
+00:02:52.027 --> 00:02:57.547
+<v Krotoa 1012>Is equal to B0 plus B1 times XI.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/30-0
+00:03:03.227 --> 00:03:03.707
+<v Krotoa 1012>To.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/31-0
+00:03:04.907 --> 00:03:06.907
+<v Krotoa 1012>Approximate or estimate?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/32-0
+00:03:11.387 --> 00:03:13.307
+<v Krotoa 1012>The population regression formula.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/33-0
+00:03:15.307 --> 00:03:20.130
+<v Krotoa 1012>Or we can call it model, actually,
+population regression model,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/33-1
+00:03:20.130 --> 00:03:21.787
+<v Krotoa 1012>which looks like this.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/35-0
+00:03:33.587 --> 00:03:37.259
+<v Krotoa 1012>Okay,
+so just note the differences between the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/35-1
+00:03:37.259 --> 00:03:41.242
+<v Krotoa 1012>two. First of all,
+the estimated one is a Y hat I,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/35-2
+00:03:41.242 --> 00:03:44.992
+<v Krotoa 1012>because this is now providing an estimate
+of Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/35-3
+00:03:44.992 --> 00:03:51.553
+<v Krotoa 1012>Notice the difference in how we name the
+intercept and the slope, it's lowercase B.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/35-4
+00:03:51.553 --> 00:03:51.787
+<v Krotoa 1012>And</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/36-0
+00:03:52.107 --> 00:03:58.890
+<v Krotoa 1012>with the population, it's the symbol beta.
+And then the population contains the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/36-1
+00:03:58.890 --> 00:04:04.317
+<v Krotoa 1012>error term epsilon i,
+but for the estimated regression formula,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/36-2
+00:04:04.317 --> 00:04:10.675
+<v Krotoa 1012>we don't estimate the error term.
+The error term will be there just by the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/36-3
+00:04:10.675 --> 00:04:11.947
+<v Krotoa 1012>fact that we're</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/37-0
+00:04:12.427 --> 00:04:17.494
+<v Krotoa 1012>estimating a line,
+the fact that the points will diverge</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/37-1
+00:04:17.494 --> 00:04:23.627
+<v Krotoa 1012>from the line is our error term.
+So another point we spoke about was</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/38-0
+00:04:27.107 --> 00:04:27.867
+<v Krotoa 1012>The model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/39-0
+00:04:29.227 --> 00:04:32.107
+<v Krotoa 1012>Errors slash residuals.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/40-0
+00:04:35.227 --> 00:04:40.187
+<v Krotoa 1012>EI is equal to the estimated,
+or the actual minus the estimated.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/41-0
+00:04:44.347 --> 00:04:51.191
+<v Krotoa 1012>So, Y i - y hat i,
+where Y is actual and Y hat i is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/41-1
+00:04:51.191 --> 00:04:52.507
+<v Krotoa 1012>estimated.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/42-0
+00:04:53.667 --> 00:04:55.067
+<v Krotoa 1012>Okay, so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/43-0
+00:04:57.387 --> 00:05:01.787
+<v Krotoa 1012>The other thing we also spoke about last
+time was...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/44-0
+00:05:03.147 --> 00:05:06.982
+<v Krotoa 1012>We talked about estimating the regression
+formula,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/44-1
+00:05:06.982 --> 00:05:10.667
+<v Krotoa 1012>so the things we really need to estimate
+are B0.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/45-0
+00:05:11.867 --> 00:05:19.171
+<v Krotoa 1012>and B1. Y hat i is just a function of B0,
+B1 and X. X we get from the data.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/45-1
+00:05:19.171 --> 00:05:25.898
+<v Krotoa 1012>So what we need is B0 and B1.
+And we spoke about how best to estimate</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/45-2
+00:05:25.898 --> 00:05:27.147
+<v Krotoa 1012>B0 and B1. So</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/46-0
+00:05:28.907 --> 00:05:31.627
+<v Krotoa 1012>B0 and B1.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/47-0
+00:05:32.827 --> 00:05:33.947
+<v Krotoa 1012>Are obtained.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/48-0
+00:05:36.267 --> 00:05:39.147
+<v Krotoa 1012>by the least.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/49-0
+00:05:40.427 --> 00:05:41.547
+<v Krotoa 1012>Squares.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/50-0
+00:05:43.547 --> 00:05:44.107
+<v Krotoa 1012>Method.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/51-0
+00:05:45.387 --> 00:05:50.187
+<v Krotoa 1012>And the least squares method,
+what it does is it finds.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/52-0
+00:05:51.147 --> 00:05:52.027
+<v Krotoa 1012>B0.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/53-0
+00:05:52.987 --> 00:05:54.027
+<v Krotoa 1012>And B1.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/54-0
+00:05:55.227 --> 00:05:56.267
+<v Krotoa 1012>Such that.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/55-0
+00:05:57.467 --> 00:05:58.827
+<v Krotoa 1012>The SSE.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/56-0
+00:05:59.987 --> 00:06:04.267
+<v Krotoa 1012>Which is equal to the sum from i = 1 up
+to N.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/57-0
+00:06:05.227 --> 00:06:12.267
+<v Krotoa 1012>Of each Y i - y hat i ^2 is minimized.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/58-0
+00:06:14.027 --> 00:06:17.705
+<v Krotoa 1012>So,
+we find the parameters to minimize the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/58-1
+00:06:17.705 --> 00:06:18.987
+<v Krotoa 1012>error function.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/59-0
+00:06:22.227 --> 00:06:24.747
+<v Krotoa 1012>That is an optimization problem.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/60-0
+00:06:26.307 --> 00:06:27.387
+<v Krotoa 1012>And it's...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/61-0
+00:06:28.267 --> 00:06:34.439
+<v Krotoa 1012>the how of it,
+you remember we said you don't have to</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/61-1
+00:06:34.439 --> 00:06:36.267
+<v Krotoa 1012>really focus on.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/62-0
+00:06:39.227 --> 00:06:43.769
+<v Krotoa 1012>the background methodology,
+which is deriving it and setting it equal</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/62-1
+00:06:43.769 --> 00:06:47.143
+<v Krotoa 1012>to 0 and solving for B0 and B1.
+You'll have either,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/62-2
+00:06:47.143 --> 00:06:52.204
+<v Krotoa 1012>you'll be given these things in Excel and
+your job will be to interpret them.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/62-3
+00:06:52.204 --> 00:06:57.266
+<v Krotoa 1012>The other option is you'll get a small
+data set and then I'll show you how to</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/62-4
+00:06:57.266 --> 00:06:59.147
+<v Krotoa 1012>get it on your HP calculator.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/63-0
+00:06:59.547 --> 00:07:02.670
+<v Krotoa 1012>And then if you don't want,
+if neither of those,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/63-1
+00:07:02.670 --> 00:07:06.684
+<v Krotoa 1012>if you don't want to get it using your HP
+calculator, you can,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/63-2
+00:07:06.684 --> 00:07:09.487
+<v Krotoa 1012>there are formulas to calculate it by
+hand,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/63-3
+00:07:09.487 --> 00:07:14.330
+<v Krotoa 1012>but I would discourage you from using
+those formulas because I think the HP</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/63-4
+00:07:14.330 --> 00:07:17.707
+<v Krotoa 1012>calculator in this case is better and
+more accurate.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/64-0
+00:07:18.667 --> 00:07:21.387
+<v Krotoa 1012>I will point out the formula methods to
+you as well.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/65-0
+00:07:22.907 --> 00:07:26.347
+<v Krotoa 1012>OK,
+and then the interpretation and the slope,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/65-1
+00:07:26.347 --> 00:07:29.787
+<v Krotoa 1012>the interpretation of the slope and
+intercept.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/66-0
+00:07:31.547 --> 00:07:38.907
+<v Krotoa 1012>That is worth one or two marks,
+just giving that interpretation verbatim.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/67-0
+00:07:40.187 --> 00:07:45.351
+<v Krotoa 1012>So, whenever we do an example,
+whenever you have to give or find B0 or</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/67-1
+00:07:45.351 --> 00:07:49.787
+<v Krotoa 1012>B1 together with that,
+you need to know how to interpret it.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/68-0
+00:07:50.827 --> 00:07:55.295
+<v Krotoa 1012>So then we did briefly speak about the
+example.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/68-1
+00:07:55.295 --> 00:08:02.649
+<v Krotoa 1012>I'm going to also talk about it again
+because I feel like I rushed it a little</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/68-2
+00:08:02.649 --> 00:08:08.793
+<v Krotoa 1012>bit because I was trying to fit a lot
+into the last class's time.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/68-3
+00:08:08.793 --> 00:08:10.747
+<v Krotoa 1012>But basically we have</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/69-0
+00:08:10.827 --> 00:08:14.187
+<v Krotoa 1012>Now, a workable example where we have...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/70-0
+00:08:17.627 --> 00:08:19.947
+<v Krotoa 1012>The dependent variable is house price.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/71-0
+00:08:21.387 --> 00:08:23.307
+<v Krotoa 1012>And the independent variable is...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/72-0
+00:08:25.067 --> 00:08:28.863
+<v Krotoa 1012>square feet.
+So we are going to use square feet to try</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/72-1
+00:08:28.863 --> 00:08:32.728
+<v Krotoa 1012>and predict house price.
+Something you can just notice,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/72-2
+00:08:32.728 --> 00:08:37.145
+<v Krotoa 1012>which I'll come back to,
+is that the house price is in units of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/72-3
+00:08:37.145 --> 00:08:41.010
+<v Krotoa 1012>thousands of dollars.
+So if you look at your data here,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/72-4
+00:08:41.010 --> 00:08:44.667
+<v Krotoa 1012>obviously this then just means that this
+house price</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/73-0
+00:08:45.867 --> 00:08:50.524
+<v Krotoa 1012>Is 245,000,
+but we'll work with it more simply as</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/73-1
+00:08:50.524 --> 00:08:54.808
+<v Krotoa 1012>just 245 and we have the various square
+feet,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/73-2
+00:08:54.808 --> 00:08:58.347
+<v Krotoa 1012>so you always have to have a Y column.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/74-0
+00:09:00.347 --> 00:09:04.045
+<v Krotoa 1012>And an X column,
+in order to do this linear regression,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/74-1
+00:09:04.045 --> 00:09:07.347
+<v Krotoa 1012>this is our data,
+and we think of these as pairs,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/74-2
+00:09:07.347 --> 00:09:08.667
+<v Krotoa 1012>so this is pair one.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/75-0
+00:09:09.827 --> 00:09:12.790
+<v Krotoa 1012>Over here,
+so you've got your Y and your X.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/75-1
+00:09:12.790 --> 00:09:16.089
+<v Krotoa 1012>This is pair two;
+this is your Y and your X. So,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/75-2
+00:09:16.089 --> 00:09:19.658
+<v Krotoa 1012>for that square,
+for that specific size measurement,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/75-3
+00:09:19.658 --> 00:09:23.765
+<v Krotoa 1012>that is the price that comes with it. So,
+we have our pairs,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/75-4
+00:09:23.765 --> 00:09:28.747
+<v Krotoa 1012>and then we first thing we would want to
+do is plot it on a scatter plot.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/76-0
+00:09:28.987 --> 00:09:33.973
+<v Krotoa 1012>And this tells us that, okay, we should,
+we see a linear trend here,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/76-1
+00:09:33.973 --> 00:09:39.176
+<v Krotoa 1012>so a regression model here is suitable.
+It's very rare that you will do</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/76-2
+00:09:39.176 --> 00:09:43.294
+<v Krotoa 1012>regression with just 10 data points,
+but for simplicity,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/76-3
+00:09:43.294 --> 00:09:46.907
+<v Krotoa 1012>we've just got 10 data points on the
+slides here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/77-0
+00:09:48.267 --> 00:09:51.726
+<v Krotoa 1012>So,
+something we can also notice is just the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/77-1
+00:09:51.726 --> 00:09:56.107
+<v Krotoa 1012>boundaries of the data,
+so you can see that square feet.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/78-0
+00:09:57.867 --> 00:09:58.347
+<v Krotoa 1012>AM.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/79-0
+00:10:00.667 --> 00:10:08.662
+<v Krotoa 1012>Kind of stays between 1000 and 2500,
+and then price stays around, I would say,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/79-1
+00:10:08.662 --> 00:10:09.067
+<v Krotoa 1012>200.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/80-0
+00:10:10.267 --> 00:10:11.947
+<v Krotoa 1012>to 400,000.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/82-0
+00:10:13.947 --> 00:10:18.587
+<v Krotoa 1012>We can just note that, for now,
+it comes in more with our interpretation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/83-0
+00:10:20.667 --> 00:10:21.307
+<v Krotoa 1012>And then...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/84-0
+00:10:22.267 --> 00:10:26.698
+<v Krotoa 1012>you would use Excel to obtain this
+regression output.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/84-1
+00:10:26.698 --> 00:10:31.211
+<v Krotoa 1012>So Excel will take the data and it will
+calculate the,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/84-2
+00:10:31.211 --> 00:10:35.149
+<v Krotoa 1012>it will basically do this optimization
+problem,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/84-3
+00:10:35.149 --> 00:10:41.467
+<v Krotoa 1012>finding B0 and B1 as the best fit for
+this data. And then the first thing we</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/85-0
+00:10:41.627 --> 00:10:47.968
+<v Krotoa 1012>spoke about was obtaining your actual
+formula from the Excel output.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/85-1
+00:10:47.968 --> 00:10:53.850
+<v Krotoa 1012>So you will most likely get a printout
+for a specific data set.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/85-2
+00:10:53.850 --> 00:11:00.283
+<v Krotoa 1012>And a question that we love to ask is
+just give the regression model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/85-3
+00:11:00.283 --> 00:11:03.867
+<v Krotoa 1012>So you are wanting to give the equation</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/86-0
+00:11:04.587 --> 00:11:05.707
+<v Krotoa 1012>That looks like this.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/87-0
+00:11:10.827 --> 00:11:11.707
+<v Krotoa 1012>Okay, so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/88-0
+00:11:13.467 --> 00:11:18.851
+<v Krotoa 1012>The hat is very important.
+You can lose a mark for leaving out the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/88-1
+00:11:18.851 --> 00:11:25.200
+<v Krotoa 1012>hat because the hat tells us it's an
+estimate. It's the predicted house price.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/88-2
+00:11:25.200 --> 00:11:31.307
+<v Krotoa 1012>Then the intercept is conveniently named
+intercept. So that's our 98.24833.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/89-0
+00:11:36.267 --> 00:11:41.467
+<v Krotoa 1012>And then our slope is the variable that
+is related to the X variable,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/89-1
+00:11:41.467 --> 00:11:45.553
+<v Krotoa 1012>and in this case,
+the X variable is named square feet.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/89-2
+00:11:45.553 --> 00:11:50.604
+<v Krotoa 1012>So you look for your X variable,
+and the slope is usually below the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/89-3
+00:11:50.604 --> 00:11:52.907
+<v Krotoa 1012>intercept, and that is 0.10977.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/90-0
+00:11:59.347 --> 00:12:04.720
+<v Krotoa 1012>and then XI. So if I'm marking,
+this is usually a three-mark question.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/90-1
+00:12:04.720 --> 00:12:08.731
+<v Krotoa 1012>I look for,
+did you construct the formula correctly?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/90-2
+00:12:08.731 --> 00:12:13.271
+<v Krotoa 1012>So I look for the hat.
+I look for you being able to clearly</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/90-3
+00:12:13.271 --> 00:12:17.433
+<v Krotoa 1012>identify the intercept, which is alone,
+and the slope,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/90-4
+00:12:17.433 --> 00:12:19.627
+<v Krotoa 1012>which is with the X variable.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/91-0
+00:12:20.027 --> 00:12:25.266
+<v Krotoa 1012>And then I give a mark for correctly
+identifying the intercept and the slope.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/91-1
+00:12:25.266 --> 00:12:28.692
+<v Krotoa 1012>Okay. So that can be 3 marks.
+And it seems simple,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/91-2
+00:12:28.692 --> 00:12:33.931
+<v Krotoa 1012>but every year I mark many people wrong
+for this question because either they</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/91-3
+00:12:33.931 --> 00:12:37.894
+<v Krotoa 1012>switch the intercept or the slope,
+they leave out the hat,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/91-4
+00:12:37.894 --> 00:12:39.707
+<v Krotoa 1012>or they do something really</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/92-0
+00:12:40.187 --> 00:12:43.235
+<v Krotoa 1012>strange.
+Sometimes if it's a small data set and</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/92-1
+00:12:43.235 --> 00:12:47.488
+<v Krotoa 1012>you have to calculate these by hand,
+the formula might be correct,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/92-2
+00:12:47.488 --> 00:12:51.551
+<v Krotoa 1012>but then the values are incorrect.
+You might get one mark then.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/92-3
+00:12:51.551 --> 00:12:54.027
+<v Krotoa 1012>So we kind of try and be lenient there.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/93-0
+00:12:55.347 --> 00:13:01.448
+<v Krotoa 1012>And then something you can do is also use
+actually the variable name house price.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/93-1
+00:13:01.448 --> 00:13:07.029
+<v Krotoa 1012>So here it's house price hat equals
+intercept plus slope times the name of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/93-2
+00:13:07.029 --> 00:13:09.707
+<v Krotoa 1012>the X variable. So that's also fine.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/94-0
+00:13:12.587 --> 00:13:16.138
+<v Krotoa 1012>Okay,
+then I'm just plotting the scatter plot</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/94-1
+00:13:16.138 --> 00:13:20.615
+<v Krotoa 1012>and the prediction line.
+So this is now the line that you</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/94-2
+00:13:20.615 --> 00:13:21.387
+<v Krotoa 1012>estimated.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/95-0
+00:13:24.027 --> 00:13:27.948
+<v Krotoa 1012>over there.
+And you can see it's a pretty nice fit</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/95-1
+00:13:27.948 --> 00:13:32.562
+<v Krotoa 1012>through the data.
+The intercept is if it theoretically were</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/95-2
+00:13:32.562 --> 00:13:36.867
+<v Krotoa 1012>to extend to the y-axis,
+it's where it cuts the y-axis.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/95-3
+00:13:36.867 --> 00:13:42.787
+<v Krotoa 1012>Can you tell me why this intercept is
+kind of not practically useful for us?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/96-0
+00:13:43.227 --> 00:13:44.507
+<v Krotoa 1012>In this instance.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/97-0
+00:13:46.787 --> 00:13:51.787
+<v Krotoa 1012>I did mention it yesterday.
+Anybody want to tell me? Yes.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/98-0
+00:13:57.467 --> 00:14:01.335
+<v Krotoa 1012>Yeah,
+so the houses only really start at 1000</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/98-1
+00:14:01.335 --> 00:14:05.876
+<v Krotoa 1012>square feet.
+So telling me what the price would be at</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/98-2
+00:14:05.876 --> 00:14:08.987
+<v Krotoa 1012>0 square feet is not useful to me. So</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/99-0
+00:14:10.907 --> 00:14:18.226
+<v Krotoa 1012>Just note that sometimes the intercept
+will have a useful application and</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/99-1
+00:14:18.226 --> 00:14:25.941
+<v Krotoa 1012>sometimes X will have a value of 0 in the
+data set, but sometimes it doesn't.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/99-2
+00:14:25.941 --> 00:14:30.787
+<v Krotoa 1012>So another set of marks that you can get
+is just</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/100-0
+00:14:30.987 --> 00:14:36.507
+<v Krotoa 1012>It will say,
+"Give and interpret the intercept," so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/101-0
+00:14:37.947 --> 00:14:42.405
+<v Krotoa 1012>In this example,
+we say the intercept B0 is the estimated</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/101-1
+00:14:42.405 --> 00:14:48.708
+<v Krotoa 1012>mean value of Y when the value of X is 0.
+If X is 0 is in the range of observed X</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/101-2
+00:14:48.708 --> 00:14:52.475
+<v Krotoa 1012>values.
+So that's pretty much the interpretation</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/101-3
+00:14:52.475 --> 00:14:55.934
+<v Krotoa 1012>that you can use.
+Estimated mean value of Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/101-4
+00:14:55.934 --> 00:14:58.547
+<v Krotoa 1012>and I want to see mean value of Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/102-0
+00:14:59.147 --> 00:15:04.923
+<v Krotoa 1012>because regression is looking at averages
+when the value of X is 0. And then here,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/102-1
+00:15:04.923 --> 00:15:09.237
+<v Krotoa 1012>just an additional note,
+because a house cannot have a square</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/102-2
+00:15:09.237 --> 00:15:12.507
+<v Krotoa 1012>footage of 0,
+it has no practical application.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/103-0
+00:15:13.547 --> 00:15:17.983
+<v Krotoa 1012>OK,
+and then we would also have to interpret</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/103-1
+00:15:17.983 --> 00:15:24.094
+<v Krotoa 1012>the slope. So here,
+B1 estimates the change in the mean value</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/103-2
+00:15:24.094 --> 00:15:24.587
+<v Krotoa 1012>of Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/104-0
+00:15:25.547 --> 00:15:29.778
+<v Krotoa 1012>as a result of a one unit increase in X.
+So they've just,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/104-1
+00:15:29.778 --> 00:15:34.884
+<v Krotoa 1012>that's the sort of general one,
+but they make it very specific to the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/104-2
+00:15:34.884 --> 00:15:39.552
+<v Krotoa 1012>application. So here,
+the mean value of a house increases by 0.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/104-3
+00:15:39.552 --> 00:15:45.096
+<v Krotoa 1012>10977. That's my slope, that's my B1.
+And then they just multiply it by the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/104-4
+00:15:45.096 --> 00:15:46.627
+<v Krotoa 1012>thousands. So because</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/105-0
+00:15:48.347 --> 00:15:54.267
+<v Krotoa 1012>This slope is in the units of Y,
+so we can multiply it by the units of Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/105-1
+00:15:54.267 --> 00:15:59.387
+<v Krotoa 1012>So that would just be $109.
+77 on average for each additional 1</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/105-2
+00:15:59.387 --> 00:16:04.187
+<v Krotoa 1012>square foot of size.
+So it's just basically translating the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/105-3
+00:16:04.187 --> 00:16:05.947
+<v Krotoa 1012>general interpretation</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/106-0
+00:16:06.187 --> 00:16:11.307
+<v Krotoa 1012>Into the specific context, so you...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/107-0
+00:16:12.507 --> 00:16:17.015
+<v Krotoa 1012>can also do that in the assessment.
+Whatever context we've given you,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/107-1
+00:16:17.015 --> 00:16:20.300
+<v Krotoa 1012>you can apply that to the specific
+interpretation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/107-2
+00:16:20.300 --> 00:16:24.421
+<v Krotoa 1012>And then I can see that you really
+understand how to apply this</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/107-3
+00:16:24.421 --> 00:16:25.387
+<v Krotoa 1012>interpretation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/108-0
+00:16:26.267 --> 00:16:31.763
+<v Krotoa 1012>Okay, then we look at,
+so this is one of the things that we have</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/108-1
+00:16:31.763 --> 00:16:35.822
+<v Krotoa 1012>to do.
+We have to predict the price for a house</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/108-2
+00:16:35.822 --> 00:16:41.403
+<v Krotoa 1012>with 2000 square feet.
+So now you've been given a new data point,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/108-3
+00:16:41.403 --> 00:16:46.307
+<v Krotoa 1012>2000 square feet,
+that is indeed within the range because</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/109-0
+00:16:46.667 --> 00:16:53.478
+<v Krotoa 1012>Square feet goes up to 2500, just about.
+And now it says, here's a new X value,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/109-1
+00:16:53.478 --> 00:17:00.545
+<v Krotoa 1012>predict the value of Y for that X value.
+So we're basically just going to use this</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/109-2
+00:17:00.545 --> 00:17:05.227
+<v Krotoa 1012>formula that we have here.
+So now the predicted value.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/110-0
+00:17:05.347 --> 00:17:14.342
+<v Krotoa 1012>Y hat I is equal to 98.24833 plus 0.10977.
+And then in here, for the X, we sub in,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/110-1
+00:17:14.342 --> 00:17:23.011
+<v Krotoa 1012>now we have an actual realized value of X.
+So we sub in the 2000 as my realized</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/110-2
+00:17:23.011 --> 00:17:26.587
+<v Krotoa 1012>value of X, and then you will get</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/111-0
+00:17:28.267 --> 00:17:33.947
+<v Krotoa 1012>317.85, so that is at X equals.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/112-0
+00:17:34.747 --> 00:17:38.572
+<v Krotoa 1012>Two 1000,
+my model predicts Y will be 31785,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/112-1
+00:17:38.572 --> 00:17:45.627
+<v Krotoa 1012>so now I have something that I can use to
+predict new data points if they come up.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/113-0
+00:17:46.587 --> 00:17:47.867
+<v Krotoa 1012>So, um...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/114-0
+00:17:49.107 --> 00:17:51.947
+<v Krotoa 1012>You can also, if you want to, obviously.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/115-0
+00:17:54.027 --> 00:18:00.721
+<v Krotoa 1012>change the units. So it's 317.
+85 if you multiply that by the units of Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/115-1
+00:18:00.721 --> 00:18:06.420
+<v Krotoa 1012>it's just 317 850,000,
+which is also good because then you can</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/115-2
+00:18:06.420 --> 00:18:09.947
+<v Krotoa 1012>see it actually is grounded in reality.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/116-0
+00:18:12.827 --> 00:18:17.256
+<v Krotoa 1012>Then, just the warning that I spoke about,
+we have to be careful to only predict</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/116-1
+00:18:17.256 --> 00:18:20.427
+<v Krotoa 1012>within the relevant range for the data,
+so it would be...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/117-0
+00:18:29.387 --> 00:18:31.627
+<v Krotoa 1012>So, it would be a bad idea to say...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/118-0
+00:18:36.667 --> 00:18:40.107
+<v Krotoa 1012>Don't,
+so I would say don't make a prediction.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/119-0
+00:18:42.507 --> 00:18:45.227
+<v Krotoa 1012>For X equal to...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/120-0
+00:18:46.387 --> 00:18:49.147
+<v Krotoa 1012>I don't know, 500 square feet, right?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/121-0
+00:18:52.587 --> 00:18:54.347
+<v Krotoa 1012>or X equal to...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/122-0
+00:18:55.507 --> 00:18:56.907
+<v Krotoa 1012>Three 1000 square feet.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/123-0
+00:18:59.387 --> 00:19:00.747
+<v Krotoa 1012>If our daughter.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/124-0
+00:19:01.707 --> 00:19:07.103
+<v Krotoa 1012>does not go beyond that range,
+then it's not a good idea for us to make</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/124-1
+00:19:07.103 --> 00:19:11.075
+<v Krotoa 1012>predictions along that range.
+Because the reason is,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/124-2
+00:19:11.075 --> 00:19:17.071
+<v Krotoa 1012>the reason why we try not to do that is
+because we don't know what the function</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/124-3
+00:19:17.071 --> 00:19:21.867
+<v Krotoa 1012>looks like beyond our range.
+So at the moment, it looks linear.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/125-0
+00:19:23.027 --> 00:19:27.237
+<v Krotoa 1012>But what if,
+beyond a certain square foot or square</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/125-1
+00:19:27.237 --> 00:19:31.203
+<v Krotoa 1012>footage,
+the function actually goes exponential?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/125-2
+00:19:31.203 --> 00:19:35.169
+<v Krotoa 1012>I'm not saying it does, but what if?
+Or what if,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/125-3
+00:19:35.169 --> 00:19:40.107
+<v Krotoa 1012>beyond a certain square footage,
+the price kind of plateaus?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/126-0
+00:19:41.867 --> 00:19:47.461
+<v Krotoa 1012>not going to draw the one where it goes
+down because I don't think that happens,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/126-1
+00:19:47.461 --> 00:19:51.950
+<v Krotoa 1012>but we don't know what form the function
+takes beyond our range.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/126-2
+00:19:51.950 --> 00:19:57.614
+<v Krotoa 1012>So we don't want to be assuming that it
+just goes in the same linear shape beyond</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/126-3
+00:19:57.614 --> 00:19:59.547
+<v Krotoa 1012>the range of the data. Okay.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-0
+00:20:01.547 --> 00:20:05.313
+<v Krotoa 1012>Then here are our formulas for
+calculating it by hand.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-1
+00:20:05.313 --> 00:20:08.325
+<v Krotoa 1012>I'm not a fan of these because like I
+said,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-2
+00:20:08.325 --> 00:20:12.980
+<v Krotoa 1012>anytime when I've marked and I see a
+student use the hand formulas,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-3
+00:20:12.980 --> 00:20:17.157
+<v Krotoa 1012>they usually get the wrong answer.
+So here I'm going to say,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-4
+00:20:17.157 --> 00:20:21.880
+<v Krotoa 1012>rather just use the calculator,
+I'm going to show you how to use the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/127-5
+00:20:21.880 --> 00:20:22.907
+<v Krotoa 1012>calculator. But</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/128-0
+00:20:23.147 --> 00:20:28.623
+<v Krotoa 1012>It is here if you want to.
+So you have to 1st calculate B1 if you're</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/128-1
+00:20:28.623 --> 00:20:33.384
+<v Krotoa 1012>using this formula.
+And this is essentially the closed form</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/128-2
+00:20:33.384 --> 00:20:37.589
+<v Krotoa 1012>solution to that optimization problem
+that we found.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/128-3
+00:20:37.589 --> 00:20:42.747
+<v Krotoa 1012>So this is the exact solution that
+optimizes our error function.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/130-0
+00:20:43.307 --> 00:20:50.974
+<v Krotoa 1012>So, it's this quantity SSXY,
+and here they explain exactly what SSXY</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/130-1
+00:20:50.974 --> 00:20:51.307
+<v Krotoa 1012>is.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/131-0
+00:20:53.387 --> 00:20:58.277
+<v Krotoa 1012>And then this here is just the optional
+computational formula. Remember,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/131-1
+00:20:58.277 --> 00:21:01.558
+<v Krotoa 1012>we spoke a lot about this in the first
+semester.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/131-2
+00:21:01.558 --> 00:21:06.850
+<v Krotoa 1012>There's usually the definition formula,
+and then the computational formula has</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/131-3
+00:21:06.850 --> 00:21:11.940
+<v Krotoa 1012>just been made slightly more efficient,
+and it's usually faster to compute.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/131-4
+00:21:11.940 --> 00:21:13.547
+<v Krotoa 1012>And then it's divided by</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/132-0
+00:21:13.787 --> 00:21:19.295
+<v Krotoa 1012>SSX, which is the sum of squares of X,
+which is essentially almost like the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/132-1
+00:21:19.295 --> 00:21:23.789
+<v Krotoa 1012>variance of X in a sense.
+But here is our definition for SSX,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/132-2
+00:21:23.789 --> 00:21:27.920
+<v Krotoa 1012>and then this is just our computational
+formula for SSX.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/132-3
+00:21:27.920 --> 00:21:32.993
+<v Krotoa 1012>Here they use the quantity Y-bar to
+indicate that it's the mean of Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/132-4
+00:21:32.993 --> 00:21:34.587
+<v Krotoa 1012>and the quantity X-bar</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/133-0
+00:21:34.907 --> 00:21:38.107
+<v Krotoa 1012>Is the mean of X, and then, once you have.
+..</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/134-0
+00:21:39.547 --> 00:21:46.547
+<v Krotoa 1012>B1, you can then go and calculate your B0,
+which is the mean of Y minus B1 times the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/134-1
+00:21:46.547 --> 00:21:50.747
+<v Krotoa 1012>mean of X.
+So that's why you need to 1st calculate</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/134-2
+00:21:50.747 --> 00:21:53.547
+<v Krotoa 1012>B1, and then you can calculate B0.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/135-0
+00:21:55.467 --> 00:22:00.253
+<v Krotoa 1012>If there is time at a later stage,
+I'll go through the example of how to do</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/135-1
+00:22:00.253 --> 00:22:04.220
+<v Krotoa 1012>it by hand for those of you that really
+want to do it by hand.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/135-2
+00:22:04.220 --> 00:22:08.439
+<v Krotoa 1012>It is in the slide so long,
+so they take you through how to do it.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/135-3
+00:22:08.439 --> 00:22:12.783
+<v Krotoa 1012>But for the sake of covering the things
+that are important to cover,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/135-4
+00:22:12.783 --> 00:22:14.987
+<v Krotoa 1012>I'm not going to do this right now.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/136-0
+00:22:15.947 --> 00:22:17.707
+<v Krotoa 1012>But you're welcome to have a look.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/137-0
+00:22:18.667 --> 00:22:21.787
+<v Krotoa 1012>The next thing we need to talk about is
+the...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/138-0
+00:22:23.867 --> 00:22:27.627
+<v Krotoa 1012>Composition of the variance for
+regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/139-0
+00:22:34.227 --> 00:22:35.387
+<v Krotoa 1012>OK, so.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/141-0
+00:22:45.307 --> 00:22:47.547
+<v Krotoa 1012>Assuming we have some sort of...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/143-0
+00:22:56.907 --> 00:22:58.907
+<v Krotoa 1012>Dataset with X&amp;Y pairs.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/144-0
+00:23:00.747 --> 00:23:04.907
+<v Krotoa 1012>The first thing I want you to see here is
+that...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/145-0
+00:23:06.587 --> 00:23:12.744
+<v Krotoa 1012>Y has its own variation.
+So if we ignore the extra dimension added</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/145-1
+00:23:12.744 --> 00:23:18.166
+<v Krotoa 1012>by X for a second,
+and we just kind of imagine compressing</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/145-2
+00:23:18.166 --> 00:23:20.187
+<v Krotoa 1012>this Y along its axis,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/146-0
+00:23:21.147 --> 00:23:26.980
+<v Krotoa 1012>So, if we pretend that this X isn't there,
+and then these all come to the same line,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/146-1
+00:23:26.980 --> 00:23:30.685
+<v Krotoa 1012>you can see that this is kind of just a
+distribution,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/146-2
+00:23:30.685 --> 00:23:35.900
+<v Krotoa 1012>and Y will kind of vary about some mean.
+So, imagine the mean of Y is here,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/146-3
+00:23:35.900 --> 00:23:38.027
+<v Krotoa 1012>then Y will kind of spread out.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/147-0
+00:23:39.067 --> 00:23:46.282
+<v Krotoa 1012>Above its mean and below its mean, right?
+Ignoring for a second the extra dimension</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/147-1
+00:23:46.282 --> 00:23:47.227
+<v Krotoa 1012>added by X.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/148-0
+00:23:48.427 --> 00:23:51.919
+<v Krotoa 1012>So that is kind of the total variation of
+Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/148-1
+00:23:51.919 --> 00:23:55.877
+<v Krotoa 1012>but then when you bring in the regression
+setting,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/148-2
+00:23:55.877 --> 00:24:01.620
+<v Krotoa 1012>there is that total variation of Y
+decomposes into basically an explained</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/148-3
+00:24:01.620 --> 00:24:07.595
+<v Krotoa 1012>part and an unexplained part. Now,
+the explained part is what the regression</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/148-4
+00:24:07.595 --> 00:24:09.147
+<v Krotoa 1012>model takes care of.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/149-0
+00:24:09.387 --> 00:24:14.597
+<v Krotoa 1012>The unexplained part would be anything
+that your regression model still can't</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/149-1
+00:24:14.597 --> 00:24:16.667
+<v Krotoa 1012>explain after that point, so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/150-0
+00:24:19.307 --> 00:24:24.507
+<v Krotoa 1012>If you have a regression model here,
+I'm just going to draw a straight line.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/151-0
+00:24:26.027 --> 00:24:28.747
+<v Krotoa 1012>Then there is this part here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/152-0
+00:24:29.587 --> 00:24:31.947
+<v Krotoa 1012>For a given point that.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/153-0
+00:24:32.827 --> 00:24:37.798
+<v Krotoa 1012>The model takes care of,
+so that deviation of Y from its mean is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/153-1
+00:24:37.798 --> 00:24:41.698
+<v Krotoa 1012>explained by X,
+so this would be thought of as the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/153-2
+00:24:41.698 --> 00:24:43.227
+<v Krotoa 1012>explained variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/154-0
+00:24:49.947 --> 00:24:53.376
+<v Krotoa 1012>And then you've kind of got the
+unexplained variation,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/154-1
+00:24:53.376 --> 00:24:58.114
+<v Krotoa 1012>which is any leftover variation that is
+not accounted for by the model. So,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/154-2
+00:24:58.114 --> 00:24:58.987
+<v Krotoa 1012>for example...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/155-0
+00:25:01.867 --> 00:25:04.347
+<v Krotoa 1012>We can think of maybe this point here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/156-0
+00:25:05.387 --> 00:25:09.787
+<v Krotoa 1012>The difference from it to the regression
+line is the unexplained variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/157-0
+00:25:14.587 --> 00:25:18.424
+<v Krotoa 1012>And together,
+if you put explain and unexplained</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/157-1
+00:25:18.424 --> 00:25:22.105
+<v Krotoa 1012>together,
+it makes up for the total variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/157-2
+00:25:22.105 --> 00:25:28.604
+<v Krotoa 1012>So this decomposition is important to us
+because it can tell us how well our model</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/157-3
+00:25:28.604 --> 00:25:33.067
+<v Krotoa 1012>is doing. Now, ideally,
+you want the explained variation</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/158-0
+00:25:33.467 --> 00:25:38.196
+<v Krotoa 1012>to account for the majority of the total
+variation, and the unexplained variation,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/158-1
+00:25:38.196 --> 00:25:42.355
+<v Krotoa 1012>you don't want that to be too high,
+because then your model might not be</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/158-2
+00:25:42.355 --> 00:25:45.147
+<v Krotoa 1012>doing as good of a job as you think it is
+doing.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/159-0
+00:25:46.747 --> 00:25:47.387
+<v Krotoa 1012>So...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/160-0
+00:25:50.267 --> 00:25:54.263
+<v Krotoa 1012>The main decomposition is SST,
+which is the,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/160-1
+00:25:54.263 --> 00:25:58.347
+<v Krotoa 1012>you can think of that as the total
+variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/161-0
+00:26:03.147 --> 00:26:05.227
+<v Krotoa 1012>Is equal to the SSR.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/162-0
+00:26:06.427 --> 00:26:09.701
+<v Krotoa 1012>Now, it's called,
+it stands for regression sum of squares</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/162-1
+00:26:09.701 --> 00:26:13.709
+<v Krotoa 1012>or sum of squares regression,
+but you can think of it as the explained</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/162-2
+00:26:13.709 --> 00:26:16.587
+<v Krotoa 1012>variation. So,
+what is accounted for by the model?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/163-0
+00:26:20.507 --> 00:26:26.027
+<v Krotoa 1012>Plus the SSE,
+which is the unexplained variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/165-0
+00:26:37.707 --> 00:26:41.547
+<v Krotoa 1012>So, the total variation is the total.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/166-0
+00:26:44.347 --> 00:26:47.067
+<v Krotoa 1012>Variation of Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/167-0
+00:26:48.667 --> 00:26:50.027
+<v Krotoa 1012>About its mean.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/168-0
+00:26:56.667 --> 00:27:00.987
+<v Krotoa 1012>Then the explained variation is the
+portion.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/169-0
+00:27:03.067 --> 00:27:04.187
+<v Krotoa 1012>A variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/170-0
+00:27:06.307 --> 00:27:07.547
+<v Krotoa 1012>Explained by the model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/171-0
+00:27:14.547 --> 00:27:17.787
+<v Krotoa 1012>And then the unexplained variation is the
+portion.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/172-0
+00:27:19.387 --> 00:27:22.747
+<v Krotoa 1012>That cannot be accounted for by the model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/176-0
+00:27:45.227 --> 00:27:45.627
+<v Krotoa 1012>Okay.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/177-0
+00:27:46.507 --> 00:27:51.067
+<v Krotoa 1012>So, coming to the formulas,
+then your SST is equal to...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/178-0
+00:27:52.027 --> 00:27:53.067
+<v Krotoa 1012>The summation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/179-0
+00:27:54.667 --> 00:27:55.867
+<v Krotoa 1012>Of each Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/180-0
+00:27:57.387 --> 00:27:59.707
+<v Krotoa 1012>I minus its mean.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/181-0
+00:28:00.747 --> 00:28:01.947
+<v Krotoa 1012>And then you square it.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/182-0
+00:28:04.987 --> 00:28:08.347
+<v Krotoa 1012>The squaring takes care of negatives,
+cancelling out positives.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/184-0
+00:28:17.267 --> 00:28:17.707
+<v Krotoa 1012>Then...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/185-0
+00:28:19.147 --> 00:28:21.707
+<v Krotoa 1012>The SSR, the sum of squares regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/186-0
+00:28:22.587 --> 00:28:28.607
+<v Krotoa 1012>Like I said, if you think about it,
+it's the difference from the mean to the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/186-1
+00:28:28.607 --> 00:28:32.907
+<v Krotoa 1012>predicted line,
+so it's the summation of each Y-hat I.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/187-0
+00:28:34.027 --> 00:28:35.707
+<v Krotoa 1012>Minus the mean.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/188-0
+00:28:42.667 --> 00:28:44.747
+<v Krotoa 1012>And then the SSE finally.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/189-0
+00:28:51.067 --> 00:28:52.347
+<v Krotoa 1012>Is the difference?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/190-0
+00:28:53.547 --> 00:29:00.707
+<v Krotoa 1012>Between each actual value of Y and
+predicted value of Y, so Y i - y hat i ^2.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/191-0
+00:29:10.427 --> 00:29:11.067
+<v Krotoa 1012>So...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/192-0
+00:29:12.027 --> 00:29:13.867
+<v Krotoa 1012>This is kind of the very basic.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/193-0
+00:29:15.307 --> 00:29:17.552
+<v Krotoa 1012>Graph,
+I'm going to give it to you in a little</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/193-1
+00:29:17.552 --> 00:29:18.507
+<v Krotoa 1012>bit more detail now.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/194-0
+00:29:23.787 --> 00:29:25.387
+<v Krotoa 1012>It is also on the slides.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/195-0
+00:29:27.147 --> 00:29:27.867
+<v Krotoa 1012>Over here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/196-0
+00:29:29.067 --> 00:29:29.627
+<v Krotoa 1012>But...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/197-0
+00:29:30.667 --> 00:29:33.707
+<v Krotoa 1012>You can make it with me and I think in
+making it with me.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/198-0
+00:29:35.627 --> 00:29:37.707
+<v Krotoa 1012>You'll maybe understand it a little bit
+better.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/199-0
+00:29:38.947 --> 00:29:40.107
+<v Krotoa 1012>So, we've got this.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/200-0
+00:29:41.787 --> 00:29:42.507
+<v Krotoa 1012>Point here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/201-0
+00:29:45.227 --> 00:29:46.987
+<v Krotoa 1012>On an X&amp;Y axis.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/202-0
+00:29:49.707 --> 00:29:51.227
+<v Krotoa 1012>We'll put the mean of Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/203-0
+00:29:53.667 --> 00:29:57.535
+<v Krotoa 1012>A straight line there,
+and the reason it's a straight line is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/203-1
+00:29:57.535 --> 00:30:02.587
+<v Krotoa 1012>because the mean doesn't really change;
+the mean is fixed once you calculate it.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/204-0
+00:30:03.467 --> 00:30:04.747
+<v Krotoa 1012>And then we've got...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/205-0
+00:30:06.187 --> 00:30:11.237
+<v Krotoa 1012>Our regression line,
+so that is my predicted regression line,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/205-1
+00:30:11.237 --> 00:30:15.147
+<v Krotoa 1012>so it's the Y-hat line,
+this is the Y-bar line.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/206-0
+00:30:16.427 --> 00:30:19.547
+<v Krotoa 1012>And then we'll look at a specific point.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/207-0
+00:30:23.547 --> 00:30:28.747
+<v Krotoa 1012>So, this is a given point,
+so if you trace this point to the y-axis.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/208-0
+00:30:30.347 --> 00:30:33.787
+<v Krotoa 1012>Like that,
+and you can trace it down to the x-axis.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/210-0
+00:30:35.067 --> 00:30:39.786
+<v Krotoa 1012>Like that,
+now we're concerned with the vertical</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/210-1
+00:30:39.786 --> 00:30:40.267
+<v Krotoa 1012>area.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/211-0
+00:30:41.867 --> 00:30:47.642
+<v Krotoa 1012>So Y is its own point over here,
+but if you trace it down to the x-axis,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/211-1
+00:30:47.642 --> 00:30:52.943
+<v Krotoa 1012>we've also got the predicted value.
+And if you trace it down here,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/211-2
+00:30:52.943 --> 00:30:56.107
+<v Krotoa 1012>you've also got the mean. So in general,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/212-0
+00:30:58.667 --> 00:31:00.667
+<v Krotoa 1012>Remember the total variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/213-0
+00:31:02.347 --> 00:31:08.427
+<v Krotoa 1012>Of Y from its mean would be the distance
+from this point Y to the actual.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/214-0
+00:31:11.627 --> 00:31:14.267
+<v Krotoa 1012>Y bar line, so that is your SST.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/215-0
+00:31:17.867 --> 00:31:22.362
+<v Krotoa 1012>Then you can see how it nicely decomposes
+into the two parts.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/215-1
+00:31:22.362 --> 00:31:27.363
+<v Krotoa 1012>So your SSR is the portion of that
+variation that's explained by the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/215-2
+00:31:27.363 --> 00:31:31.350
+<v Krotoa 1012>regression model.
+So that would be the gap between the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/215-3
+00:31:31.350 --> 00:31:33.307
+<v Krotoa 1012>regression model and the...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/216-0
+00:31:34.427 --> 00:31:37.627
+<v Krotoa 1012>Average, so that would be this point here,
+that's your SSR.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/217-0
+00:31:40.107 --> 00:31:44.721
+<v Krotoa 1012>And then the remaining gap,
+which is not accounted for by the model,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/217-1
+00:31:44.721 --> 00:31:49.067
+<v Krotoa 1012>would be the gap from the model to the
+point. So that is my SSE.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/218-0
+00:31:52.747 --> 00:31:53.787
+<v Krotoa 1012>If you want to also...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/219-0
+00:31:55.547 --> 00:31:56.027
+<v Krotoa 1012>AM.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/220-0
+00:31:59.787 --> 00:32:02.107
+<v Krotoa 1012>See it along the Y-axis.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/221-0
+00:32:03.627 --> 00:32:08.385
+<v Krotoa 1012>This is the point Y hat,
+this is the point Y, sorry, Y bar,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/221-1
+00:32:08.385 --> 00:32:12.587
+<v Krotoa 1012>this is the point Y hat I,
+and this is the point YI.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/222-0
+00:32:20.227 --> 00:32:20.667
+<v Krotoa 1012>Okay.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/223-0
+00:32:21.787 --> 00:32:21.867
+<v Krotoa 1012>Um...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/224-0
+00:32:24.987 --> 00:32:26.347
+<v Krotoa 1012>Following so far?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/225-0
+00:32:28.547 --> 00:32:28.907
+<v Krotoa 1012>Okay.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/226-0
+00:32:30.067 --> 00:32:33.719
+<v Krotoa 1012>This illustration,
+it's not perfect because this</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/226-1
+00:32:33.719 --> 00:32:37.893
+<v Krotoa 1012>illustration is showing it to you for a
+specific point.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/226-2
+00:32:37.893 --> 00:32:42.589
+<v Krotoa 1012>But keep in mind that this is an
+aggregation over many points.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/226-3
+00:32:42.589 --> 00:32:47.210
+<v Krotoa 1012>So it's supposed to sum all the points.
+So it's not actually,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/226-4
+00:32:47.210 --> 00:32:52.427
+<v Krotoa 1012>it doesn't actually make sense to say
+this exists for a single point.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/227-0
+00:32:52.667 --> 00:32:57.817
+<v Krotoa 1012>But it's just trying to show you the
+relationship between these three</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/227-1
+00:32:57.817 --> 00:33:01.275
+<v Krotoa 1012>quantities,
+so try not to take this graph as a</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/227-2
+00:33:01.275 --> 00:33:04.366
+<v Krotoa 1012>literal,
+because remember it is the total</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/227-3
+00:33:04.366 --> 00:33:08.412
+<v Krotoa 1012>aggregation,
+but I find that this graph is useful just</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/227-4
+00:33:08.412 --> 00:33:10.987
+<v Krotoa 1012>for understanding how these things.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/228-0
+00:33:11.627 --> 00:33:12.827
+<v Krotoa 1012>Interact with each other.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/229-0
+00:33:14.907 --> 00:33:18.349
+<v Krotoa 1012>OK,
+and then remember I showed you that</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/229-1
+00:33:18.349 --> 00:33:19.467
+<v Krotoa 1012>you'll get...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/230-0
+00:33:21.067 --> 00:33:22.027
+<v Krotoa 1012>This output.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/231-0
+00:33:22.907 --> 00:33:24.427
+<v Krotoa 1012>So, um...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/232-0
+00:33:25.387 --> 00:33:32.554
+<v Krotoa 1012>You can actually find the SSR, the SSE,
+and the total sum of squares from this</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/232-1
+00:33:32.554 --> 00:33:34.187
+<v Krotoa 1012>output here, so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/233-0
+00:33:36.907 --> 00:33:38.267
+<v Krotoa 1012>In Excel output.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/234-0
+00:33:39.707 --> 00:33:40.747
+<v Krotoa 1012>These are found.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/235-0
+00:33:52.907 --> 00:33:56.587
+<v Krotoa 1012>In the ANOVA section.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/236-0
+00:33:57.947 --> 00:34:04.896
+<v Krotoa 1012>ANOVA stands for Analysis of Variance,
+so your ANOVA section is this entire</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/236-1
+00:34:04.896 --> 00:34:05.627
+<v Krotoa 1012>section.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/237-0
+00:34:10.987 --> 00:34:13.547
+<v Krotoa 1012>So you also need to know what is going on
+here.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/238-0
+00:34:14.667 --> 00:34:18.347
+<v Krotoa 1012>The sum of squares regression is your SSR.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/239-0
+00:34:21.707 --> 00:34:24.107
+<v Krotoa 1012>Now, it might get confusing,
+but the sum of squares.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/240-0
+00:34:25.547 --> 00:34:30.493
+<v Krotoa 1012>residual is actually your SSE.
+So it says R, but its residual is,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/240-1
+00:34:30.493 --> 00:34:35.739
+<v Krotoa 1012>remember, another word for error.
+So in the context of linear models.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/240-2
+00:34:35.739 --> 00:34:39.262
+<v Krotoa 1012>So that's your SSE,
+and then this is your SST.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/240-3
+00:34:39.262 --> 00:34:44.808
+<v Krotoa 1012>And the relationship, of course,
+is that SST is equal to the sum of these</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/240-4
+00:34:44.808 --> 00:34:45.107
+<v Krotoa 1012>two.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/241-0
+00:34:46.587 --> 00:34:50.747
+<v Krotoa 1012>They each have their own degrees of
+freedom, which you can note.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/242-0
+00:34:52.347 --> 00:34:57.138
+<v Krotoa 1012>Sum of squares regression will always
+have degrees of freedom one.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/242-1
+00:34:57.138 --> 00:35:03.001
+<v Krotoa 1012>Sum of squares residual will have degrees
+of freedom N minus 1, sorry, N minus 2,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/242-2
+00:35:03.001 --> 00:35:06.576
+<v Krotoa 1012>actually.
+And then sum of squares total will have</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/242-3
+00:35:06.576 --> 00:35:10.723
+<v Krotoa 1012>degrees of freedom N minus 1.
+So our observations are 10,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/242-4
+00:35:10.723 --> 00:35:11.867
+<v Krotoa 1012>which means that</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/243-0
+00:35:11.947 --> 00:35:16.217
+<v Krotoa 1012>Total sum of squares will have N minus 1,
+which is 10 minus 1,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/243-1
+00:35:16.217 --> 00:35:20.757
+<v Krotoa 1012>residual will have N minus 2,
+which is 10 minus 2, and regression,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/243-2
+00:35:20.757 --> 00:35:25.569
+<v Krotoa 1012>if it's simple linear regression,
+it always has one degree of freedom.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/243-3
+00:35:25.569 --> 00:35:28.347
+<v Krotoa 1012>So your actual quantities then are these.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/244-0
+00:35:30.347 --> 00:35:35.290
+<v Krotoa 1012>And something we love to do is,
+what if we leave out total?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/244-1
+00:35:35.290 --> 00:35:40.973
+<v Krotoa 1012>So imagine total is not in the output,
+and we ask you what is total?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/244-2
+00:35:40.973 --> 00:35:44.927
+<v Krotoa 1012>You take regression plus residual equals
+total.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/244-3
+00:35:44.927 --> 00:35:49.787
+<v Krotoa 1012>So you have to understand how the
+quantities fit together.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/245-0
+00:35:50.107 --> 00:35:52.747
+<v Krotoa 1012>Or, for example, we leave out.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/246-0
+00:35:55.147 --> 00:35:56.587
+<v Krotoa 1012>Sum of squares regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/247-0
+00:35:57.787 --> 00:36:02.732
+<v Krotoa 1012>And then you have to take total minus
+residual is equal to regression.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/247-1
+00:36:02.732 --> 00:36:08.513
+<v Krotoa 1012>So just understanding how the quantities
+fit together and where they're located on</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/247-2
+00:36:08.513 --> 00:36:13.597
+<v Krotoa 1012>the graph will help you a lot.
+So I just wanted to show it to you on the</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/247-3
+00:36:13.597 --> 00:36:17.427
+<v Krotoa 1012>big output so that you can see where it's
+located. But</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/248-0
+00:36:18.907 --> 00:36:23.189
+<v Krotoa 1012>In the slides,
+they just use kind of a zoomed in cutout.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/248-1
+00:36:23.189 --> 00:36:28.747
+<v Krotoa 1012>And here you can see the breakdown
+exactly. SST is equal to SSR plus SSE.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/249-0
+00:36:29.867 --> 00:36:30.987
+<v Krotoa 1012>These things.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/250-0
+00:36:32.747 --> 00:36:37.275
+<v Krotoa 1012>We're ignoring them for now because we
+haven't learned about this yet,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/250-1
+00:36:37.275 --> 00:36:41.867
+<v Krotoa 1012>but keep that in the back of your mind.
+We'll speak about that as well.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/251-0
+00:36:44.187 --> 00:36:49.276
+<v Krotoa 1012>And then the next quantity we need to
+talk about is the coefficient of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/251-1
+00:36:49.276 --> 00:36:51.067
+<v Krotoa 1012>determination, r-squared.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/252-0
+00:36:53.067 --> 00:36:53.467
+<v Krotoa 1012>Okay.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/253-0
+00:36:55.067 --> 00:36:55.707
+<v Krotoa 1012>ZOë.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/254-0
+00:37:04.667 --> 00:37:12.027
+<v Krotoa 1012>By the way,
+I jumped into these measures of variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/255-0
+00:37:13.107 --> 00:37:17.467
+<v Krotoa 1012>But maybe I should add it to the recap
+now.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/256-0
+00:37:18.867 --> 00:37:24.027
+<v Krotoa 1012>Just to give you the big picture,
+so we've obtained our...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/257-0
+00:37:26.347 --> 00:37:29.147
+<v Krotoa 1012>Regression model, and now...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/258-0
+00:37:30.027 --> 00:37:33.627
+<v Krotoa 1012>The next step, if you were to do this,
+is to...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/259-0
+00:37:35.387 --> 00:37:36.667
+<v Krotoa 1012>after fitting the model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/260-0
+00:37:38.187 --> 00:37:43.227
+<v Krotoa 1012>Fitting just means I have found B0 and B1
+to fit the data best.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/262-0
+00:37:53.787 --> 00:37:56.267
+<v Krotoa 1012>The next step is to evaluate.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/263-0
+00:37:58.587 --> 00:38:00.427
+<v Krotoa 1012>How well...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/264-0
+00:38:01.507 --> 00:38:03.227
+<v Krotoa 1012>The model is suited to the data.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/265-0
+00:38:10.587 --> 00:38:14.267
+<v Krotoa 1012>So,
+this is sometimes referred to as goodness</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/265-1
+00:38:14.267 --> 00:38:15.787
+<v Krotoa 1012>of fit diagnostics.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/266-0
+00:38:23.627 --> 00:38:26.027
+<v Krotoa 1012>And these goodness of fit diagnostics.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/267-0
+00:38:27.067 --> 00:38:34.834
+<v Krotoa 1012>That is why we then look at the variance,
+the decomposition of the variance.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/267-1
+00:38:34.834 --> 00:38:36.347
+<v Krotoa 1012>We look at SST.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/268-0
+00:38:39.067 --> 00:38:42.890
+<v Krotoa 1012>equal to SSR plus SSE. The reason is,
+remember,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/268-1
+00:38:42.890 --> 00:38:48.942
+<v Krotoa 1012>if your explained variation is a lot and
+your unexplained variation is less</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/268-2
+00:38:48.942 --> 00:38:53.481
+<v Krotoa 1012>compared to that,
+then your model is doing a good job of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/268-3
+00:38:53.481 --> 00:38:56.347
+<v Krotoa 1012>explaining the relationship between.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/269-0
+00:38:56.387 --> 00:38:59.887
+<v Krotoa 1012>between X&amp;Y.
+If your unexplained variation accounts</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/269-1
+00:38:59.887 --> 00:39:03.450
+<v Krotoa 1012>for the majority,
+then your model is perhaps not doing a</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/269-2
+00:39:03.450 --> 00:39:08.387
+<v Krotoa 1012>good job at explaining the variation,
+and perhaps a different model would have</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/269-3
+00:39:08.387 --> 00:39:11.887
+<v Krotoa 1012>been better chosen. So this is now,
+that is the bridge,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/269-4
+00:39:11.887 --> 00:39:15.387
+<v Krotoa 1012>so that's why we're looking at these
+variance measures.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/270-0
+00:39:15.867 --> 00:39:21.497
+<v Krotoa 1012>But you also have more goodness of fit
+diagnostics, which we'll cover.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/270-1
+00:39:21.497 --> 00:39:25.938
+<v Krotoa 1012>So one is the looking at the breakdown of
+the variance.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/270-2
+00:39:25.938 --> 00:39:32.281
+<v Krotoa 1012>Another is the quantity called r-squared.
+That is a measure of goodness of fit.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/270-3
+00:39:32.281 --> 00:39:33.867
+<v Krotoa 1012>And the third one is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/271-0
+00:39:34.667 --> 00:39:35.867
+<v Krotoa 1012>Your s s.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/272-0
+00:39:37.547 --> 00:39:41.467
+<v Krotoa 1012>Or the standard error of estimation is XY.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/273-0
+00:39:42.627 --> 00:39:45.451
+<v Krotoa 1012>OK,
+so now we've looked at the breakdown of</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/273-1
+00:39:45.451 --> 00:39:48.982
+<v Krotoa 1012>the variance,
+and then actually these two measures are</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/273-2
+00:39:48.982 --> 00:39:51.806
+<v Krotoa 1012>derived from the breakdown of the
+variance.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/273-3
+00:39:51.806 --> 00:39:56.427
+<v Krotoa 1012>So the next one is the coefficient of
+determination, or your r-squared.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/276-0
+00:40:11.067 --> 00:40:12.827
+<v Krotoa 1012>So, basically, what it does...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/277-0
+00:40:14.187 --> 00:40:16.027
+<v Krotoa 1012>Is it takes your SSR?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/278-0
+00:40:17.547 --> 00:40:21.787
+<v Krotoa 1012>and it divides it by the SST.
+So that tells us.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/279-0
+00:40:23.587 --> 00:40:24.747
+<v Krotoa 1012>What portion?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/280-0
+00:40:26.947 --> 00:40:28.107
+<v Krotoa 1012>Of the SST.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/281-0
+00:40:29.307 --> 00:40:30.747
+<v Krotoa 1012>is made-up.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/282-0
+00:40:32.267 --> 00:40:33.707
+<v Krotoa 1012>Of SSR.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/283-0
+00:40:37.307 --> 00:40:38.747
+<v Krotoa 1012>So, basically, it says...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/284-0
+00:40:40.027 --> 00:40:40.987
+<v Krotoa 1012>In other words...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/285-0
+00:40:42.907 --> 00:40:43.947
+<v Krotoa 1012>What portion?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/287-0
+00:40:46.427 --> 00:40:47.867
+<v Krotoa 1012>Of the total variance.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/288-0
+00:40:52.987 --> 00:40:54.667
+<v Krotoa 1012>Or variation, rather.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/289-0
+00:40:55.827 --> 00:40:59.805
+<v Krotoa 1012>I shouldn't say variance,
+because variance is a specific quantity.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/289-1
+00:40:59.805 --> 00:41:01.467
+<v Krotoa 1012>Variation is rather general.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/290-0
+00:41:03.067 --> 00:41:05.227
+<v Krotoa 1012>What portion of the total variation?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/291-0
+00:41:06.427 --> 00:41:07.627
+<v Krotoa 1012>Is made.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/292-0
+00:41:08.827 --> 00:41:12.267
+<v Krotoa 1012>Up of explained variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/295-0
+00:41:19.067 --> 00:41:24.111
+<v Krotoa 1012>So, this tells if this is high,
+remember this will now be between zero</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/295-1
+00:41:24.111 --> 00:41:27.947
+<v Krotoa 1012>and one, because it's a proportion,
+so closer to one.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/296-0
+00:41:28.827 --> 00:41:30.187
+<v Krotoa 1012>So, R-squared will be...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/297-0
+00:41:32.267 --> 00:41:36.107
+<v Krotoa 1012>Between zero and one, and closer to one.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/298-0
+00:41:38.747 --> 00:41:39.627
+<v Krotoa 1012>Means.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/299-0
+00:41:41.547 --> 00:41:42.347
+<v Krotoa 1012>Model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/300-0
+00:41:43.947 --> 00:41:44.507
+<v Krotoa 1012>Is.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/301-0
+00:41:46.827 --> 00:41:47.867
+<v Krotoa 1012>Explaining well.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/302-0
+00:41:54.507 --> 00:41:57.547
+<v Krotoa 1012>So,
+we ideally want our R-squared to be high.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/303-0
+00:42:02.667 --> 00:42:05.547
+<v Krotoa 1012>And then we just see some examples.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/304-0
+00:42:07.307 --> 00:42:09.387
+<v Krotoa 1012>Of different R-squares, so...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/305-0
+00:42:12.747 --> 00:42:16.911
+<v Krotoa 1012>In your ideal,
+your ideal r-squared of 1 would mean that</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/305-1
+00:42:16.911 --> 00:42:21.659
+<v Krotoa 1012>there's literally a perfect linear
+relationship between X&amp;Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/305-2
+00:42:21.659 --> 00:42:26.846
+<v Krotoa 1012>which says that sometimes we like to
+change the one into a percentage,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/305-3
+00:42:26.846 --> 00:42:31.667
+<v Krotoa 1012>so 100% of the variation in Y is
+explained by the variation in X.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/306-0
+00:42:33.227 --> 00:42:33.627
+<v Krotoa 1012>Um...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/307-0
+00:42:34.747 --> 00:42:39.374
+<v Krotoa 1012>More often than not,
+you'll get a r-squared that is weaker,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/307-1
+00:42:39.374 --> 00:42:45.080
+<v Krotoa 1012>so a weaker r-squared will say some,
+but not all of the variation in Y is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/307-2
+00:42:45.080 --> 00:42:47.547
+<v Krotoa 1012>explained by the variation in X.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/308-0
+00:42:48.747 --> 00:42:51.903
+<v Krotoa 1012>And then something like that would be
+your r-squared of 0,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/308-1
+00:42:51.903 --> 00:42:55.381
+<v Krotoa 1012>which would mean there's no linear
+relationship between X&amp;Y,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/308-2
+00:42:55.381 --> 00:42:57.627
+<v Krotoa 1012>so your r-squared would be 0 in this case.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/309-0
+00:43:00.027 --> 00:43:05.571
+<v Krotoa 1012>So important for us is to know where to
+locate R squared on the Excel output.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/309-1
+00:43:05.571 --> 00:43:09.836
+<v Krotoa 1012>And it's quite easy because it is
+literally named R square.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/309-2
+00:43:09.836 --> 00:43:15.309
+<v Krotoa 1012>So if they give you the Excel output and
+they ask you to give the R squared,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/309-3
+00:43:15.309 --> 00:43:19.147
+<v Krotoa 1012>you just go look for R squared.
+And here it is, 0.58.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/310-0
+00:43:19.627 --> 00:43:20.507
+<v Krotoa 1012>082.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/311-0
+00:43:22.107 --> 00:43:28.449
+<v Krotoa 1012>The question will say, usually, it says,
+it will say give and interpret R-square.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/311-1
+00:43:28.449 --> 00:43:33.785
+<v Krotoa 1012>So in the interpretation,
+it's common to convert it to a percentage.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/311-2
+00:43:33.785 --> 00:43:38.734
+<v Krotoa 1012>So here it's 0.5808,
+but then in the interpretation, we say 58.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/311-3
+00:43:38.734 --> 00:43:45.153
+<v Krotoa 1012>08% of the variation in house prices is
+explained by the variation in square feet.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/311-4
+00:43:45.153 --> 00:43:45.307
+<v Krotoa 1012>So</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/312-0
+00:43:45.707 --> 00:43:50.342
+<v Krotoa 1012>That's your guideline for the
+interpretation. Again,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/312-1
+00:43:50.342 --> 00:43:57.076
+<v Krotoa 1012>we care about how you phrase things,
+because that tells us if you understand</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/312-2
+00:43:57.076 --> 00:43:59.787
+<v Krotoa 1012>the nuances. So interpretation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/313-0
+00:44:03.867 --> 00:44:06.667
+<v Krotoa 1012>First of all, you can convert r-squared.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/314-0
+00:44:08.587 --> 00:44:15.787
+<v Krotoa 1012>To percentage, so if it's zero,
+so for example, if it's zero point...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/315-0
+00:44:16.947 --> 00:44:27.867
+<v Krotoa 1012>58082, it becomes 5808%,
+and then you say of the variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/316-0
+00:44:30.107 --> 00:44:30.907
+<v Krotoa 1012>And why?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/317-0
+00:44:32.827 --> 00:44:36.987
+<v Krotoa 1012>In this case, it is house prices,
+but I want you to see that it's always Y.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/318-0
+00:44:38.987 --> 00:44:40.187
+<v Krotoa 1012>Is explained.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/319-0
+00:44:43.227 --> 00:44:46.187
+<v Krotoa 1012>By the variation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/320-0
+00:44:48.507 --> 00:44:51.227
+<v Krotoa 1012>In X, in this case, it's square feet.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/321-0
+00:44:52.387 --> 00:44:58.221
+<v Krotoa 1012>And here's what the slides don't say,
+but I would like you to add: when you</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/321-1
+00:44:58.221 --> 00:45:04.516
+<v Krotoa 1012>give an interpretation in the assessment,
+so fifty-eight percent of the variation</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/321-2
+00:45:04.516 --> 00:45:08.507
+<v Krotoa 1012>in Y is explained by the variation in X,
+through...</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/322-0
+00:45:09.707 --> 00:45:13.627
+<v Krotoa 1012>the estimated linear model,
+then I will be really happy.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/323-0
+00:45:14.907 --> 00:45:19.780
+<v Krotoa 1012>because we're just acknowledging that
+this r-squared only exists in the current</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/323-1
+00:45:19.780 --> 00:45:24.347
+<v Krotoa 1012>model that we have estimated. It's not a,
+it doesn't just exist by itself.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/324-0
+00:45:25.947 --> 00:45:27.227
+<v Krotoa 1012>Sorry, linear model.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/325-0
+00:45:31.387 --> 00:45:34.615
+<v Krotoa 1012>So,
+that's your roadmap or guideline for</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/325-1
+00:45:34.615 --> 00:45:36.347
+<v Krotoa 1012>giving interpretation.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/326-0
+00:45:38.747 --> 00:45:39.547
+<v Krotoa 1012>In the exam.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/327-0
+00:45:42.707 --> 00:45:47.763
+<v Krotoa 1012>What do you do if r-squared is not given
+to you?</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/327-1
+00:45:47.763 --> 00:45:56.016
+<v Krotoa 1012>Because sometimes we'll leave it out.
+Remember that you still have SST and SSR.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/327-2
+00:45:56.016 --> 00:45:59.627
+<v Krotoa 1012>And r-squared is just SSR over SST.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/328-0
+00:45:59.867 --> 00:46:04.064
+<v Krotoa 1012>So if we leave out r-squared,
+you go over here, you take your SST,</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/328-1
+00:46:04.064 --> 00:46:06.819
+<v Krotoa 1012>your SSR,
+you calculate r-squared yourself.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/328-2
+00:46:06.819 --> 00:46:11.329
+<v Krotoa 1012>It's not difficult to calculate.
+You just need to know what you need in</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/328-3
+00:46:11.329 --> 00:46:15.650
+<v Krotoa 1012>order to calculate it. Okay,
+so are you kind of seeing how we'll ask</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/328-4
+00:46:15.650 --> 00:46:18.907
+<v Krotoa 1012>things? Well,
+say give things and interpret things.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/329-0
+00:46:19.227 --> 00:46:25.018
+<v Krotoa 1012>And then sometimes we'll leave things out,
+but you'll have enough information to</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/329-1
+00:46:25.018 --> 00:46:30.451
+<v Krotoa 1012>compensate for what we've left out.
+So getting used to this Excel output is</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/329-2
+00:46:30.451 --> 00:46:32.667
+<v Krotoa 1012>going to help you tremendously.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/330-0
+00:46:33.547 --> 00:46:35.787
+<v Krotoa 1012>Okay, and that is then my time.</v>
+
+b636ed21-1ee2-4880-8ee2-e4afe43d9209/331-0
+00:46:37.867 --> 00:46:40.427
+<v Krotoa 1012>We'll pick this up on Friday.</v>

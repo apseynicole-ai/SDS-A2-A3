@@ -1,0 +1,336 @@
+
+===== PAGE 1 =====
+1 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP 
+DEPARTEMENT OF STATISTICS AND ACTUARIAL SCIENCE 
+ 
+STATISTIEK EN DATAWETENSKAP 188 
+STATISTICS AND DATA SCIENCE 188 
+ 
+TUTORIAAL 6 / TUTORIAL 6 
+ 
+1. Gegee die standaard normaal verdeling [dit is, die Normaal(𝜇 = 0;  𝜎 = 1) verdeling], 
+wat is die waarskynlikheid dat: 
+Given a standardised normal distribution [that is, a Normal(𝜇 = 0;  𝜎 = 1) 
+distribution] what is the probability that: 
+a. 𝑍 minder is as 1.57? / 𝑍 is less than 1.57? 
+b. 𝑍 minder is as 1.84?/ 𝑍 is less than 1.84? 
+c. 𝑍 groter is as 1.84? / 𝑍 is greater than 1.84? 
+d. 𝑍 tussen 1.57 en 1.84 is? / 𝑍 is between 1.57 and 1.84? 
+e. 𝑍 minder is as  1.57 of meer is as  1.84? / 𝑍 is less than  1.57 or greater than  
+1.84? 
+ 
+2. Gegee die standaard normaal verdeling, wat is die waarskynlikheid dat: / 
+Given a standardised normal distribution, what is the probability that: 
+a. P(𝑍 > 1.08)? 
+b. P(𝑍 < −0.21)? 
+c. P(−1.96 < 𝑍 < −0.21)? 
+d. Wat is die waarde van Z as 15.87 persent van alle moontlike Z-waardes groter 
+is? /  
+What is the value of 𝑍 if only 15.87 percent of all possible 𝑍 values are larger? 
+ 
+3. Gegee die normaal verdeling met  𝜇 = 50 en 𝜎 = 4, bereken die volgende 
+waarskynlikhede: 
+Given a normal distribution with 𝜇 = 50 and 𝜎 = 4, estimate the following 
+probabilities: 
+a. P(𝑋 > 43)? 
+b. P(𝑋 < 42)? 
+c. Vyf persent van die waardes is kleiner as watter X-waarde? /  
+Five percent of the values are less than what 𝑋 value? 
+d. Tussen watter twee X-waardes (simmetries verdeel rondom die gemiddelde) is 
+60 persent van die waardes? /  
+Between what two 𝑋 values (symmetrically distributed around the mean) are 60 
+percent of the values? 
+===== PAGE 2 =====
+2 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+4. ‘n Stel finale kursus punte in ‘n inleidende statistiek kursus is normaal verdeel, met ‘n 
+gemiddelde van 73 (uit 100) en ‘n standaardafwyking van 8. /  
+A set of final course grades in an introductory statistics course is normally distributed, 
+with a mean of 73 (out of 100) and a standard deviation of 8. 
+a. Wat is die waarskynlikheid dat ‘n student minder as 91 behaal het in die finale 
+punt? /  
+What is the probability that a student earned below 91 as the final grade? 
+b. Wat is die waarskynlikheid dat ‘n student ‘n finale punt tussen 65 en 89 behaal 
+het? / 
+What is the probability that a student earned a final grade between 65 and 89? 
+c. Die waarskynlikheid is 5 persent dat ‘n student wat die kursus volg, hoër verdien 
+as watter punt? /  
+The probability is 5 percent that a student that takes the course earns higher 
+than what grade? 
+d. Die universiteit gebruik ‘n kurwe-graderingstelsel, sodanig dat tien persent van 
+die studente wat vir ‘n kursus geregistreer ‘n onderskeiding kry , ongeag die 
+punt. Is jy beter af as jy ‘n finale punt van 81 kry vir hierdie kursus, of as jy ‘n 
+finale punt van 68 kry vir ‘n aparte kursus met ‘n gemiddelde van 62 en ‘n 
+standaardafwyking van 3? Verduidelik jou antwoord? / 
+The university operates a curve grading system such that the top ten percent of 
+the students registered for a course gets a distinction, regardless of the score. 
+Are you better off earning a final grade of 81 for this course or earning a final 
+grade of 68 for a separate course that has a mean of 62 and a standard 
+deviation of 3? Explain your answer? 
+ 
+5. Baie vervaardigingsprobleme behels die aanpassing van masjienonderdele, soos skagte 
+wat in ‘n klepgat pas. ‘n  Spesifieke ontwerp vereis ‘n as met ‘n deursnee van 22.000 
+mm, maar skagte met ‘n diameter tussen 21.990 en 22.010 mm is aanvaarbaar. Gestel 
+die vervaardigingsproses lewer skagte met deursnee wat normaal versprei is, met ‘n 
+gemiddelde van 22 .002 mm en ‘n standaardafwyking van 0 .005 mm. Vir die proses, 
+wat is: /  
+Many manufacturing problems involve the matching of machine parts, such as shafts 
+that fit into a valve hole. A particular design requires a shaft with a diameter of 
+22.000𝑚𝑚, but shafts with diameters between 21.990𝑚𝑚 and 22.010𝑚𝑚 are 
+acceptable. Suppose that the manufacturing process yields shafts with diameter 
+normally distributed, with a mean of 22.002𝑚𝑚 and a standard deviation of 
+0.005𝑚𝑚. For this process, what is: 
+a. die waarskynlikheid dat ‘n skag aanvaarbaar is? /  
+the probability that a shaft is acceptable? 
+b. die deursnee wat slegs twee persent van die skagte oorskry? /  
+the diameter that will be exceeded by only two percent of the shafts? 
+c. Wat sou jy antwoorde in (a) tot (c) wees as die standaardafwyking van die 
+asdiameters 0.004mm was? /  
+What would be your answers in (a) through (c) if the standard deviation of the 
+shaft diameters were 0.004𝑚𝑚? 
+ 
+===== PAGE 3 =====
+3 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+6. Gee die ses Z-waardes vir ‘n steekproef van ses eweredig verdeelde standaard normaal 
+waarnemings. /  
+List the six 𝑍 values for a sample of six evenly distributed standard normal 
+observations. 
+ 
+7. Toon aan dat die kleinste en gro otste waardes onderskeidelik -1.96 en +1.96 is vir ‘ n 
+steekproef van 39 waarnemings wat ewe redig versprei is en wat uit ‘ n standaard  
+normaal verdeling geneem is. /  
+Show that for a sample of evenly spread 39 observations that are drawn from a 
+standard normal distribution, the smallest and largest values are −1.96 and +1.96, 
+respectively. 
+ 
+8. Gestel jy kies een waarde uit ‘n uniforme verdeling met with 𝑎 = 0 en 𝑏 = 10.  Wat is 
+die waarskynlikheid dat die waarde: / 
+Suppose that you select one value from a uniform distribution with 𝑎 = 0 and 𝑏 = 10. 
+What is the probability that the value will be: 
+a. tussen 5 en 7 is? / between 5 and 7? 
+b. tussen 2 en 3 is? / between 2 and 3? 
+c. Wat is die gemiddelde? / What is the mean? 
+d. Wat is die standaardafwyking? / What is the standard deviation? 
+ 
+9. Hoe lank neem dit om ‘n HD-fliek van twee uur af te laai vanaf ‘n media-werf? Volgens 
+Fastmetric moet die aflaai van so ‘n fliek met ‘n internetverbinding van 100 Mbps 
+tussen 3.5 en 5 .5 minute duur. Gestel jy o orweeg dit om een van sulke flieks onder 
+soortgelyke internettoestande af te laai. Wat is die waarskynlikheid dat die aflaaityd: /  
+How long does it take to download a two-hour HD movie from a streaming media site? 
+According to Fastmetric, downloading such a movie using a 100Mbps internet 
+connection should take between 3.5 and 5.5 minutes. Consider downloading one of 
+such movies under similar internet condition. What is the probability that the download 
+time will be: 
+a. minder as 4.5 minute sal wees? / less than 4.5 minutes? 
+b. meer as 4.0 minute sal wees? / more than 4.0 minutes? 
+c. tussen 4.0 en 4.5 minute sal wees? / between 4.0 and 4.5 minutes? 
+d. Wat is die gemiddelde en standaardafwyking van die aflaai tye? /  
+What are the mean and standard deviation of the download times? 
+ 
+10. Gegee ‘n eksponensiaal verdeling met 𝜆 = 10, wat is die waarskynlikheid dat die 
+arriverings tyd: /  
+Given an exponential distribution with 𝜆 = 10, what is the probability that the arrival 
+time is: 
+a. minder as 0.1 is? / less than 0.1? 
+b. groter as 0.1 is? / greater than 0.1? 
+c. tussen 0.1 en 0.2 is? / between 0.1 and 0.2? 
+d. minder as 0.1 of groter as 0.2 is? / less than 0.1 or greater than 0.2? 
+ 
+ 
+ 
+ 
+===== PAGE 4 =====
+4 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+11. Gegee dat tyd ‘n eksponensiaal verdeling het met 𝜆 = 5, wat is die waarskynlikheid dat 
+die arrivering tyd: /  
+Given an exponential distribution with 𝜆 = 5, what is the probability that the arrival 
+time is: 
+a. minder as 0.3 is? / less than 0.3? 
+b. groter as 0.3 is ? / greater than 0.3? 
+c. groter as 0.3 en minder as 0.5 is? / greater than 0.3 and less than 0.5? 
+d. minder as 0.3 of groter as 0.5 is? / less than 0.3 or greater than 0.5? 
+ 
+12. Motors arriveer by ‘n tolplein by die ingang van ‘n brug teen ‘n snelheid van 50 per 
+minuut gedurende die 17h00 en 18h00 uur. As ‘n motor pas aangekom het: /  
+Cars arrive at a toll plaza located at the entrance to a bridge at a rate of 50 per minute 
+during the 17h00 and 18h00 hour. If a car just arrived: 
+a. wat is die waarskynlikheid dat die volgende motor binne 3 sekondes (0 .05 
+minute) sal arriveer? /  
+what is the probability that the next car will arrive within 3 seconds ( 0.05 
+minutes)?  
+b. wat is die waarskynlikheid dat die volgende motor binne die volgende sekonde 
+sal arriveer? /  
+what is the probability that the next car will arrive within the next second? 
+c. Hoe sal die antwoorde in (a) en (b) verander as die aankoms van motors 60 per 
+minuut is? /  
+How will the answers in (a) and (b) change if the rate of arrival of cars is 60 
+per minute? 
+d. Hoe sal die antwoorde in (a) en (b) verander as die aankoms van motors 30 per 
+minuut is? /  
+How will the answers in (a ) and (b) change if the rate of arrival of cars is 30 
+per minute? 
+ 
+13. Oproepe arriveer teen ‘n koers van 12 per uur by ‘n oproepsentrum. Wat is die 
+waarskynlikheid dat die volgende oproep in: / 
+Calls arrive at a call centre at the rate of 12 per hour. What is the probability that the 
+next call arrives in: 
+a. minder as 1 minuut sal arriveer? / less than 1 minute? 
+b. minders as 3 minute sal arriveer? / less than 3 minutes? 
+c. meer as 6 minute sal arriveer? / more than 6 minutes? 
+ 
+14. Vir 𝑛 = 100 en 𝜋 = 0.20, gebruik die normaal verdeling en benader die 
+waarskynlikheid dat: /  
+For 𝑛 = 100 and 𝜋 = 0.20, use the normal distribution to approximate the probability 
+that: 
+a. 𝑋 = 25 
+b. 𝑋 < 25 
+c. 𝑋 ≤ 25 
+d. 𝑋 > 25 
+ 
+ 
+ 
+===== PAGE 5 =====
+5 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+ 
+15. Vir 𝑛 = 100 en 𝜋 = 0.40, gebruik die normaal verdeling en benader die 
+waarskynlikheid dat: /  
+For 𝑛 = 100 and 𝜋 = 0.40, use the normal distribution to approximate the probability 
+that: 
+a. 𝑋 = 40 
+b. 𝑋 < 40 
+c. 𝑋 ≤ 40 
+d. 𝑋 > 40 
+ 
+16. Beskou ‘n eksperiment waar jy ‘n regverdige muntstuk 12 keer gooi en die aantal koppe 
+(“heads”) tel. Verkry die waarskynlikheid van: /  
+Consider an experiment in which you toss a fair coin 12 times and count the number of 
+heads. Determine the probability of observing: 
+a. 4 koppe / heads. 
+b. ten minste 4 koppe / at least 4 heads. 
+c. 5, 6 of / or 7 koppe / heads. 
+d. Gebruik die normaal benadering tot die binomia al verdeling om die 
+waarskynlikhede in (a), (b) en (c) te benader. / 
+Use the normal approximation to the binomial distribution to approximate the 
+probabilities in (a), (b) and (c). 
+ 
+17. Vir kort binnelandse vlugte het ‘n lugredery drie verskillende keuses op sy 
+peuselhappiespyskaart - pretzels, aartappelskyfies en koekies. Op grond van vorige 
+ervaring, is die lugredery van mening dat elke peuselhappie gelyke kans het om gekies 
+te word. As daar 150 passasiers op ‘n spesifieke vlug is, wat is die benaderde 
+waarskynlikheid dat: /  
+For short domestic flights, an airline has three different choices on its snack menu – 
+pretzels, potato chips and cookies. Based on past experience, the airline feels that each 
+snack is equally likely to be chosen. If there are 150 passengers on a particular flight, 
+what is the approximate probability that: 
+a. presies 60 passasiers sal pretzels vir nagereg kies? /  
+exactly 60 passengers will choose pretzels for dessert? 
+b. minstens 60 passasiers pretzels vir nagereg kies? /  
+at least 60 passengers will choose pretzels for dessert? 
+c. minder as 60 passasiers pretzels vir nagereg sal kies? /  
+fewer than 60 passengers will choose pretzels for dessert? 
+d. As die lugredery 70 van elke soort peuselhappie op die vlug beskikbaar het, wat 
+is die waarskynlikheid dat ‘n passasier nie pretzels vir nagreg kan kry nie? / If 
+the airline has 70 of each type of snack available on the flight, what is the 
+probability that a t least one passenger will not be able to get pretzels for 
+dessert? 
+ 
+  
+===== PAGE 6 =====
+6 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+Microsoft Excel® Questions 
+ 
+18. Een bewerking van ‘n meul is om stukke staal in dele te sny wat later as raamwerk vir 
+die voorste sitplekke in ‘n motoraanleg gebruik word. Die staal word met ‘n 
+diamantsaag gesny en die dele wat daaruit voortkom, moet binne ± 0.005 duim van die 
+lengte wat deur die motoronderneming gespesifiseer word, wees. Die data kom uit ‘n 
+steekproef van 100 staalonderdele en word in die Steel - lêer gestoor. Die meting wat 
+gerapporteer is, is die verskil in duim tussen die werklike lengte van die staaldeel, 
+gemeet deur ‘n lasermetingtoestel, en die gespesifiseerde lengte van die staaldeel. 
+Bepaal of die data ongeveer normaal verdeel is deur: /  
+One operation of a mill is to cut pieces of steel into parts that will later be used as the 
+frame for front seats in an automotive plant. The steel is cut with a diamond saw, and 
+the resulting parts must be within ±0.005𝑖𝑛𝑐ℎ of the length specified by the automobile 
+company. The data come from a sample of 100 steel parts and are stored in the  Steel 
+file. The measurement reported is the difference, in inches, between the actual length 
+of the steel part, as measured by a laser measurement device, and the specified length 
+of the steel part. Determine whether the data appear to be approximately normally 
+distributed by: 
+a. die data-eienskappe met teoretiese eienskappe te vergelyk. /  
+comparing data characteristics to theoretical properties.  
+b. ‘n normaal waarskynlikheidstipping te konstruering. /  
+constructing a normal probability plot. 
+c. ‘n histogram te konstrueer. /  
+constructing a normal histogram. 
+ 
+19. Die volgende Utility data stem ooreen met die waterkoste in Rand gedurende ‘n 
+somermaand van 2019 vir ‘n ewekansige steekproef van 50 woonstelle in die suidelike 
+voorstad van Kaapstad. / 
+The following Utility data correspond to the water costs, in Rands, during a summer 
+month of 2019 for a random sample of 50 self-contain apartments in the southern 
+suburb of Cape Town. 
+ 96 171 202 178 147 102 153 197 127  82  
+157 185  90 116 172 111 148 213 130 165  
+141 149 206 175 123 128 144 168 109 167  
+ 95 163 150 154 130 143 187 166 139 149  
+108 119 183 151 114 135 191 137 129 158  
+ 
+ 
+ 
+===== PAGE 7 =====
+7 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+Besluit of die data ongeveer normaal verdeel is deur: /  
+Decide whether the data appear to be approximately normally distributed by: 
+a. die data-eienskappe met teoretiese eienskappe te vergelyk. /  
+comparing the empirical characteristics to theoretical properties. 
+b. ‘n normaal waarskynlikheidstipping te konstruering. /  
+constructing a normal probability plot. 
+c. ‘n histogram te konstrueer. /  
+constructing a normal histogram. 
+ 
+20. Die aandbestuurder van ‘n restaurant was baie bekommerd oor die tydsduur wat 
+sommige klante in die ry gewag het om te sit. Sy was ook bekommerd oor die sittye - 
+dit wil sê die tydsduur tussen die sit van ‘n klant en die tyd dat sy of hy die restaurant 
+verlaat. In die verloop van een week is 100 klante (met nie meer as een per partytjie 
+nie) ewekansig gekies en hulle wag - en siture (in minute) is in die Wait - lêer 
+aangeteken./ 
+The evening manager of a restaurant was very concerned about the length of time some 
+customers were waiting in line to be seated. She also had some concern about the 
+seating times – that is, the length of time between when a customer is seated and the 
+time she or he leaves the restaurant. Over the course of one week, 100 customers (with 
+no more than one per party) were randomly selected and their waiting and seating 
+times (in minutes) were recorded in the Wait file. 
+a. Kontrueer ‘n histogram en ‘n normaal waarskynlikheidstipping van die wagtye 
+op. Dink u hierdie wagtye lyk meer soos ‘n uniforme, ‘n eksponensiële of ‘n 
+normale verdeling? /  
+Construct a histogram and a normal probability plot of the waiting times. Do 
+you think these waiting times more closely resemble a uniform, an exponential, 
+or a normal distribution? 
+b. Kontrueer ‘n histogram en ‘n normaal waarskynlikheidstipping van die sittye 
+op. Dink u hierdie sittye lyk meer soos ‘n uniforme, ‘n eksponensiële of ‘n 
+normale verdeling? / 
+Construct a histogram and a normal probability plot of the seating times. Do 
+you think these seating times more closely resemble a uniform, an exponential, 
+or a normal distribution? 
+ 
+ﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬﻬ 

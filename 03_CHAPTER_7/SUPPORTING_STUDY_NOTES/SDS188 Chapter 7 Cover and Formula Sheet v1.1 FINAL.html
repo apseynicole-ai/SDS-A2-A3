@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SDS188 Chapter 7 cover and comprehensive sampling-distributions formula sheet">
+<title>SDS188 Chapter 7 - Cover and Formula Sheet v1.1 Final</title>
+<style>
+:root{--wine:#6b1530;--wine2:#8b2948;--ink:#211b1d;--muted:#625b5d;--line:#c9c3c1;--paper:#fffdf8;--blue:#edf5f7;--sage:#eef5ec;--cream:#fbf4df;--rose:#f8eaee}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#d8d4cf;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+body{counter-reset:sheet}
+.page{position:relative;width:210mm;height:297mm;margin:10mm auto;background:var(--paper);padding:8.5mm 9mm 14mm;overflow:hidden;box-shadow:0 3mm 12mm #0002;break-after:page;page-break-after:always;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page:last-child{break-after:auto;page-break-after:auto}
+h1,h2,h3,p,ul,ol,table{margin-top:0}
+.eyebrow{font-size:8pt;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--wine)}
+.cover-head{border:1.2px solid var(--wine);border-top:3px solid var(--wine);padding:3.2mm 3.5mm 3mm;display:grid;grid-template-columns:1fr auto;gap:2mm;min-height:31mm}
+.head-line{display:flex;justify-content:space-between;align-items:center;margin-bottom:2.1mm}
+.cover-head h1{font-size:20pt;line-height:1;margin:.5mm 0 1.5mm;color:#201b1d;letter-spacing:-.02em}
+.subtitle{font-size:8.5pt;line-height:1.35;color:#51494c;margin:0;max-width:160mm}
+.badge{width:16mm;height:16mm;background:var(--wine);color:#fff;border-radius:2.2mm;display:grid;place-items:center;font-size:16pt;font-weight:900;align-self:start}
+.section{border:1px solid #d3cecb;margin-top:3mm;padding:2.8mm 3.1mm}
+.section-title{font-size:9pt;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#31282b;margin:0 0 2.2mm;display:flex;align-items:center;gap:1.4mm}
+.section-title::before{content:"";width:1.4mm;height:4.2mm;background:var(--wine);border-radius:.3mm}
+.topic-flow{display:flex;align-items:center;flex-wrap:wrap;gap:1.15mm .8mm}
+.tag{display:inline-block;border:1px solid #aebbc0;background:var(--blue);border-radius:2mm;padding:1.2mm 1.7mm;font-size:8.5pt;line-height:1.12;font-weight:700}
+.arrow{font-size:8pt;font-weight:900;color:var(--wine)}
+.cover-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:3mm;margin-top:3mm}
+.cover-grid .section{margin-top:0;min-height:70mm}
+.concept-tags{display:flex;flex-wrap:wrap;align-content:flex-start;gap:1.7mm}
+.concept-tags .tag{background:#fff;border-color:#c5c0bd;border-left:1.2mm solid var(--wine);border-radius:0;padding:1.15mm 1.5mm;font-size:8pt}
+.rule-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4mm}
+.rule{border:1px solid #cdd3d5;background:var(--blue);padding:2.1mm;font-size:8pt;line-height:1.32;min-height:27mm}
+.rule:nth-child(2){background:var(--sage)}.rule:nth-child(3){background:var(--cream)}.rule:nth-child(4){background:var(--rose)}
+.rule h3{font-size:8.4pt;color:var(--wine);margin:0 0 1mm}
+.rule p{margin:0 0 .65mm}.rule p:last-child{margin:0}
+.bullets{margin:0;padding-left:3.6mm;font-size:8.5pt;line-height:1.44}.bullets li{margin:0 0 1.5mm;padding-left:.5mm}
+.exam-row .section{min-height:72mm}
+.readiness{border-color:var(--wine);background:linear-gradient(90deg,#fff 0,#fff 55%,#f3f7f3 100%);min-height:48mm}
+.check-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.7mm 4mm;font-size:8.2pt;line-height:1.32}
+.check::before{content:"\2610";font-size:8pt;color:var(--wine);margin-right:1.2mm;vertical-align:-.2mm}
+.footer{position:absolute;left:9mm;right:9mm;bottom:8mm;border-top:1px solid var(--wine);padding-top:1.5mm;display:flex;justify-content:space-between;gap:5mm;font-size:6.2pt;color:#4d4548}
+.footer strong{color:var(--ink)}
+
+/* Formula page */
+.formula-page{padding:7.5mm 8mm 15mm}
+.formula-head{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:2.2px solid var(--wine);padding-bottom:2mm;margin-bottom:2mm}
+.formula-head h1{font-size:19pt;line-height:1;margin:0;color:var(--wine);letter-spacing:-.02em}
+.formula-head .meta{text-align:right;font-size:7.5pt;line-height:1.25;color:var(--muted)}
+.decision{width:100%;border-collapse:collapse;font-size:7.5pt;margin:0 0 1.2mm;table-layout:fixed}
+.decision th,.decision td{border:1px solid #bfb9b6;padding:.55mm .8mm;text-align:left;vertical-align:middle}
+.decision th{background:var(--wine);color:#fff;font-size:7.5pt;letter-spacing:.02em}.decision td:nth-child(n+2){font-family:Cambria,"Times New Roman",serif;font-size:9pt}
+.decision .root{font-size:9.2pt}
+.sequence{background:var(--cream);border:1px solid #d7c893;padding:.75mm 1.2mm;text-align:center;font-size:7.5pt;font-weight:800;margin-bottom:1.2mm}
+.formula-columns{display:grid;grid-template-columns:1fr 1fr;gap:1.3mm;align-items:start}
+.formula-col{display:grid;gap:1mm}
+.fbox{border:1px solid #c8c3c0;background:#fff;padding:1.05mm 1.25mm;break-inside:avoid}
+.fbox.blue{background:var(--blue)}.fbox.sage{background:var(--sage)}.fbox.cream{background:var(--cream)}.fbox.rose{background:var(--rose)}
+.fbox h2{font-size:8.7pt;line-height:1.05;color:var(--wine);margin:0 0 .65mm;border-bottom:.7px solid #bbaeb2;padding-bottom:.45mm;text-transform:uppercase;letter-spacing:.025em}
+.fbox h3{font-size:7.5pt;margin:.55mm 0 .3mm;color:#49363d;text-transform:uppercase;letter-spacing:.02em}
+.fbox p,.fbox li{font-size:7.5pt;line-height:1.1}.fbox p{margin:0 0 .4mm}.fbox ul{margin:.25mm 0 0;padding-left:2.7mm}.fbox li{margin-bottom:.2mm}
+.formula{font-family:Cambria,"Times New Roman",serif;font-size:10.5pt!important;line-height:1.08!important;text-align:center;margin:.35mm 0!important;white-space:nowrap}
+.formula.compact{font-size:9.2pt!important}.formula.tiny{font-size:8.5pt!important}
+.formula-row{display:grid;grid-template-columns:1fr 1fr;gap:.5mm}.formula-row.three{grid-template-columns:repeat(3,1fr)}
+.xbar{display:inline-block;text-decoration:overline;text-decoration-thickness:1px;font-style:italic}
+.frac{display:inline-grid;grid-template-rows:auto auto;text-align:center;vertical-align:middle;line-height:.98;margin:0 .08em}
+.frac>span:first-child{border-bottom:1px solid currentColor;padding:0 .14em .04em}.frac>span:last-child{padding:.03em .14em 0}
+.root{display:inline-flex;align-items:flex-start;vertical-align:middle;white-space:nowrap}.root::before{content:"\221a";font-size:1.28em;line-height:.92}.root>span{border-top:1px solid currentColor;padding:.07em .12em 0}
+.note{font-size:7.5pt!important;color:#4f4749}.cue{border-left:1.2mm solid var(--wine);padding-left:1mm;font-weight:700}
+.normal-table{width:100%;border-collapse:collapse;font-size:7.5pt;margin:.35mm 0}.normal-table th,.normal-table td{border:1px solid #bbb5b2;padding:.35mm;text-align:center}.normal-table th{background:#eee7df}
+.trap-strip{margin-top:1mm;border:1px solid var(--wine);background:var(--rose);padding:.8mm 1.1mm}
+.trap-strip h2{display:inline;font-size:7.8pt;color:var(--wine);text-transform:uppercase;margin-right:1mm}.trap-strip span{font-size:7.5pt;line-height:1.1}
+.choose{display:inline-grid;grid-template-rows:1fr 1fr;line-height:.78;vertical-align:middle;position:relative;padding:0 .55em;margin:0 .1em}.choose::before,.choose::after{position:absolute;top:50%;transform:translateY(-52%);font-size:2.1em;font-weight:300}.choose::before{content:"(";left:0}.choose::after{content:")";right:0}
+.formula-footer{position:absolute;left:8mm;right:8mm;bottom:8mm;border-top:1px solid var(--wine);padding-top:1mm;display:flex;justify-content:space-between;font-size:6.2pt;color:#514a4c}
+.check-strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35mm 2mm;font-size:7.5pt;line-height:1.1}
+.check-strip span::before{content:"\2713";color:var(--wine);font-weight:900;margin-right:.8mm}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+sup,sub{line-height:0}
+@page{size:A4 portrait;margin:0}
+@media print{html,body{background:#fff}.page{margin:0;box-shadow:none;zoom:1!important}.page:last-child{break-after:auto;page-break-after:auto}}
+@media screen and (max-width:850px){body{overflow-x:hidden}.page{zoom:.92;margin:8px auto 12px}}
+@media screen and (max-width:700px){.page{zoom:.80}}
+@media screen and (max-width:560px){.page{zoom:.62}}
+@media screen and (max-width:430px){.page{zoom:.47}}
+@media screen and (max-width:360px){.page{zoom:.39}}
+</style>
+</head>
+<body>
+<main aria-label="SDS188 Chapter 7 print pack">
+<section class="page cover-page" aria-labelledby="cover-title">
+  <header class="cover-head">
+    <div>
+      <div class="head-line"><span class="eyebrow">Statistics and Data Science 188</span><span class="eyebrow">Topic Divider</span></div>
+      <h1 id="cover-title">Sampling Distributions</h1>
+      <p class="subtitle">Sample means, sample proportions, the Central Limit Theorem, differences between independent sample means, and finite-population correction.</p>
+    </div>
+    <div class="badge" aria-label="Topic 07">07</div>
+  </header>
+
+  <section class="section" aria-labelledby="topic-map-title">
+    <h2 class="section-title" id="topic-map-title">I. Topic map</h2>
+    <div class="topic-flow" aria-label="Sampling-distribution workflow">
+      <span class="tag">Identify the random object</span><span class="arrow">&rarr;</span>
+      <span class="tag">Choose X, <span class="xbar" role="math" aria-label="X bar">X</span>, p, or <span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub></span><span class="arrow">&rarr;</span>
+      <span class="tag">Find the centre</span><span class="arrow">&rarr;</span>
+      <span class="tag">Calculate the standard error</span><span class="arrow">&rarr;</span>
+      <span class="tag">Check distribution conditions</span><span class="arrow">&rarr;</span>
+      <span class="tag">Standardise</span><span class="arrow">&rarr;</span>
+      <span class="tag">Find the probability or boundary</span><span class="arrow">&rarr;</span>
+      <span class="tag">Interpret in context</span>
+    </div>
+  </section>
+
+  <div class="cover-grid">
+    <section class="section" aria-labelledby="concepts-title">
+      <h2 class="section-title" id="concepts-title">II. Key concepts</h2>
+      <div class="concept-tags">
+        <span class="tag">Population distribution</span><span class="tag">Sample</span><span class="tag">Statistic</span>
+        <span class="tag">Sampling distribution</span><span class="tag">Sample mean</span><span class="tag">Sample proportion</span>
+        <span class="tag">Unbiased estimator</span><span class="tag">Standard error</span><span class="tag">Central Limit Theorem</span>
+        <span class="tag">Difference between independent sample means</span><span class="tag">Finite-population correction</span>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="rules-title">
+      <h2 class="section-title" id="rules-title">III. Main distinctions / rules</h2>
+      <div class="rule-grid">
+        <article class="rule"><h3>1 - X versus <span class="xbar" role="math" aria-label="X bar">X</span></h3><p><i>X</i> is one observation; <span class="xbar" role="math" aria-label="X bar">X</span> is a random-sample average.</p><p>Use &sigma; for <i>X</i> and &sigma;/&radic;<i>n</i> for <span class="xbar" role="math" aria-label="X bar">X</span>.</p></article>
+        <article class="rule"><h3>2 - SD versus SE</h3><p>&sigma; describes variability among individuals; SE describes variability among possible statistics.</p><p>Larger <i>n</i> reduces SE, not the centre.</p></article>
+        <article class="rule"><h3>3 - Normal versus CLT</h3><p>A valid independent random sample from a normal population gives normal <span class="xbar" role="math" aria-label="X bar">X</span> for any <i>n</i>.</p><p>For non-normal populations, sufficiently large <i>n</i> may justify the CLT.</p></article>
+        <article class="rule"><h3>4 - Ordinary SE versus FPC</h3><p>Use ordinary SE with replacement or a negligible sampling fraction.</p><p>Without replacement from finite <i>N</i>, apply FPC when <i>n/N</i> &gt; 0.05.</p></article>
+      </div>
+    </section>
+  </div>
+
+  <div class="cover-grid exam-row">
+    <section class="section" aria-labelledby="exam-title">
+      <h2 class="section-title" id="exam-title">IV. Exam focus</h2>
+      <ul class="bullets">
+        <li>Identify whether the question concerns X, <span class="xbar" role="math" aria-label="X bar">X</span>, p or <span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub>.</li>
+        <li>Write the centre and standard error before standardising.</li>
+        <li>Check normality, CLT, proportion or independence conditions.</li>
+        <li>Translate below, above, between and inverse wording into the correct normal region.</li>
+        <li>Interpret the final probability or boundary in the context of the sample statistic.</li>
+      </ul>
+    </section>
+    <section class="section" aria-labelledby="traps-title">
+      <h2 class="section-title" id="traps-title">V. Common traps</h2>
+      <ul class="bullets">
+        <li>Using &sigma; instead of &sigma;/&radic;<i>n</i> for a sample mean.</li>
+        <li>Dividing by <i>n</i> instead of &radic;<i>n</i>.</li>
+        <li>Confusing variance with standard deviation.</li>
+        <li>Saying the population becomes normal under the CLT.</li>
+        <li>Using the wrong tail or forgetting the complement.</li>
+        <li>Forgetting FPC above 5% without replacement.</li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="section readiness" aria-labelledby="ready-title">
+    <h2 class="section-title" id="ready-title">Before moving on, I should know...</h2>
+    <div class="check-grid">
+      <div class="check">I can distinguish X from <span class="xbar" role="math" aria-label="X bar">X</span>.</div>
+      <div class="check">I can calculate and explain a standard error.</div>
+      <div class="check">I can decide whether the normal model or CLT applies.</div>
+      <div class="check">I can solve below, above, between and inverse mean problems.</div>
+      <div class="check">I can solve sample-proportion problems and check both conditions.</div>
+      <div class="check">I can calculate probabilities for two independent sample means.</div>
+      <div class="check">I can decide whether finite-population correction is required.</div>
+      <div class="check">I can explain unbiasedness and the effect of increasing <i>n</i>.</div>
+    </div>
+  </section>
+  <footer class="footer"><strong>Chapter 7 Sampling Distributions &middot; Cover Sheet</strong><span>Full detail is in the printed SDS188 Chapter 7 manual behind this divider.</span></footer>
+</section>
+
+<section class="page formula-page" aria-labelledby="formula-title">
+  <header class="formula-head"><div><div class="eyebrow">SDS188 &middot; Chapter 7</div><h1 id="formula-title">Sampling Distributions Formula Sheet</h1></div><div class="meta"><strong>Centre &middot; standard error &middot; conditions &middot; probability</strong><br>Population parameters: &mu;, &sigma;, &pi; &nbsp;|&nbsp; Sample statistics: <span class="xbar" role="math" aria-label="X bar">X</span>, p</div></header>
+
+  <table class="decision" aria-label="Random object, centre and spread decision table">
+    <thead><tr><th scope="col">Question concerns...</th><th scope="col">Random object</th><th scope="col">Centre</th><th scope="col">Spread</th></tr></thead>
+    <tbody><tr><th scope="row">One observation</th><td>X</td><td>&mu;</td><td>&sigma;</td></tr>
+    <tr><th scope="row">Average of n observations</th><td><span class="xbar" role="math" aria-label="X bar">X</span></td><td>&mu;</td><td><span class="frac"><span>&sigma;</span><span>&radic;n</span></span></td></tr>
+    <tr><th scope="row">Sample proportion</th><td>p</td><td>&pi;</td><td><span class="root"><span><span class="frac"><span>&pi;(1-&pi;)</span><span>n</span></span></span></span></td></tr>
+    <tr><th scope="row">Difference between two independent sample means</th><td><span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub></td><td>&mu;<sub>1</sub>-&mu;<sub>2</sub></td><td><span class="root"><span><span class="frac"><span>&sigma;<sub>1</sub><sup>2</sup></span><span>n<sub>1</sub></span></span>+<span class="frac"><span>&sigma;<sub>2</sub><sup>2</sup></span><span>n<sub>2</sub></span></span></span></span></td></tr></tbody>
+  </table>
+  <div class="sequence">Identify object &rarr; write centre &rarr; write SE &rarr; check conditions &rarr; draw region &rarr; standardise &rarr; calculate area &rarr; interpret</div>
+
+  <div class="formula-columns">
+    <div class="formula-col">
+      <section class="fbox cream" aria-labelledby="population-formulas"><h2 id="population-formulas">1. Population formulas</h2>
+        <div class="formula-row three">
+          <p class="formula" role="math" aria-label="Population mean equals the sum of X i from i equals 1 to N, divided by N">&mu; = <span class="frac"><span>&sum;<sub>i=1</sub><sup>N</sup>X<sub>i</sub></span><span>N</span></span></p>
+          <p class="formula" role="math" aria-label="Population variance equals the sum of squared deviations from mu, divided by N">&sigma;<sup>2</sup> = <span class="frac"><span>&sum;<sub>i=1</sub><sup>N</sup>(X<sub>i</sub>-&mu;)<sup>2</sup></span><span>N</span></span></p>
+          <p class="formula" role="math" aria-label="Population standard deviation equals the square root of population variance">&sigma; = <span class="root"><span><span class="frac"><span>&sum;<sub>i=1</sub><sup>N</sup>(X<sub>i</sub>-&mu;)<sup>2</sup></span><span>N</span></span></span></span></p>
+        </div><p class="note cue">Use N for a complete listed population, not n-1.</p>
+      </section>
+
+      <section class="fbox" aria-labelledby="exact-formulas"><h2 id="exact-formulas">2. General exact sampling distributions</h2>
+        <div class="formula-row"><p class="formula">&mu;<sub>T</sub> = &sum;tP(t)</p><p class="formula">&sigma;<sub>T</sub><sup>2</sup> = &sum;(t-&mu;<sub>T</sub>)<sup>2</sup>P(t)</p></div>
+        <p class="formula">&sigma;<sub>T</sub> = <span class="root"><span>&sum;(t-&mu;<sub>T</sub>)<sup>2</sup>P(t)</span></span></p>
+        <p class="formula compact" role="math" aria-label="Probability that T equals t equals the frequency of t divided by the total number of equally likely samples">P(T=t)=<span class="frac"><span>frequency of t</span><span>total number of equally likely samples</span></span></p>
+        <p class="note cue">T is the statistic; t is one possible value. Use exact formulas when all values and probabilities are listed.</p>
+        <div class="formula-row"><p class="formula compact"><span class="choose"><span>N</span><span>n</span></span> = <span class="frac"><span>N!</span><span>n!(N-n)!</span></span></p><p class="formula compact">ordered, with replacement: N<sup>n</sup><br>example: 4<sup>2</sup> = 16</p></div>
+        <p class="note">Tutorial 7 Q4: combinations count unordered samples without replacement.</p>
+      </section>
+
+      <section class="fbox blue" aria-labelledby="observation-mean"><h2 id="observation-mean">3. Individual observation and sample mean</h2>
+        <h3>One individual observation (normal X)</h3><p class="formula" role="math" aria-label="Z equals X minus mu, divided by sigma">Z = <span class="frac"><span>X-&mu;</span><span>&sigma;</span></span></p><p class="note cue">One person, item, time or observation: do not divide &sigma; by &radic;n.</p>
+        <h3>Sampling distribution of the mean</h3>
+        <div class="formula-row three"><p class="formula">E(<span class="xbar" role="math" aria-label="X bar">X</span>)=&mu;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub>=&mu;</p><p class="formula">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub><sup>2</sup>=<span class="frac"><span>&sigma;<sup>2</sup></span><span>n</span></span></p><p class="formula">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub>=<span class="frac"><span>&sigma;</span><span>&radic;n</span></span></p></div>
+        <p class="formula compact" role="math" aria-label="If X is normal with mean mu and variance sigma squared, then X bar is normal with mean mu and variance sigma squared divided by n">X &sim; N(&mu;,&sigma;<sup>2</sup>) &nbsp;&Longrightarrow;&nbsp; <span class="xbar" role="math" aria-label="X bar">X</span> &sim; N<span class="nowrap">(&mu;, &sigma;<sup>2</sup>/n)</span></p>
+        <p class="note"><strong>Notation on this sheet:</strong> N(mean, variance). Random independent sample required.</p>
+        <div class="formula-row"><p class="formula">Z=<span class="frac"><span><span class="xbar" role="math" aria-label="X bar">X</span>-&mu;</span><span>&sigma;/&radic;n</span></span></p><p class="formula"><span class="xbar" role="math" aria-label="X bar">X</span>=&mu;+Z<span class="frac"><span>&sigma;</span><span>&radic;n</span></span></p></div>
+        <div class="formula-row"><p class="formula compact"><span class="xbar" role="math" aria-label="X bar">X</span><sub>L</sub>=&mu;+z<sub>L</sub><span class="frac"><span>&sigma;</span><span>&radic;n</span></span> &nbsp;;&nbsp; <span class="xbar" role="math" aria-label="X bar">X</span><sub>U</sub>=&mu;+z<sub>U</sub><span class="frac"><span>&sigma;</span><span>&radic;n</span></span></p><p class="formula">&mu;&plusmn;z<sup>*</sup><span class="frac"><span>&sigma;</span><span>&radic;n</span></span></p></div>
+        <p class="note cue">Ordinary mean SE - use unless the finite-population correction applies.</p>
+      </section>
+
+      <section class="fbox sage" aria-labelledby="clt-rules"><h2 id="clt-rules">4. Central Limit Theorem</h2>
+        <p class="formula" role="math" aria-label="Under the Central Limit Theorem, X bar is approximately normal with mean mu and variance sigma squared divided by n"><span class="xbar" role="math" aria-label="X bar">X</span> &asymp; N<span class="nowrap">(&mu;, <span class="frac"><span>&sigma;<sup>2</sup></span><span>n</span></span>)</span></p>
+        <p class="note cue">Use when the CLT provides an adequate normal approximation.</p>
+        <p class="note">Course guide: about n&asymp;15 if fairly symmetric; about n&asymp;30 for most populations; use greater caution with strong skewness or outliers.</p>
+      </section>
+
+      <section class="fbox rose" aria-labelledby="proportion-formulas"><h2 id="proportion-formulas">5. Sample proportion</h2>
+        <div class="formula-row three"><p class="formula">p=<span class="frac"><span>X</span><span>n</span></span></p><p class="formula">&mu;<sub>p</sub>=&pi;</p><p class="formula">&sigma;<sub>p</sub>=<span class="root"><span><span class="frac"><span>&pi;(1-&pi;)</span><span>n</span></span></span></span></p></div>
+        <p class="note cue">Ordinary proportion SE - use unless FPC applies. X is the success count.</p>
+        <p class="formula compact" role="math" aria-label="p is approximately normal with mean pi and variance pi times one minus pi divided by n">p &asymp; N<span class="nowrap">(&pi;, <span class="frac"><span>&pi;(1-&pi;)</span><span>n</span></span>)</span> &nbsp;;&nbsp; n&pi;&ge;5, &nbsp; n(1-&pi;)&ge;5</p>
+        <p class="note">The second N parameter is the variance. Known &pi;: use &pi; in theoretical SE.</p>
+        <div class="formula-row"><p class="formula">Z=<span class="frac"><span>p-&pi;</span><span class="root"><span>&pi;(1-&pi;)/n</span></span></span></p><p class="formula">&sigma;&#770;<sub>p</sub>=<span class="root"><span><span class="frac"><span>p(1-p)</span><span>n</span></span></span></span></p></div>
+        <p class="note">Unknown &pi; and estimated SE requested: use observed p. No continuity correction.</p>
+      </section>
+    </div>
+
+    <div class="formula-col">
+      <section class="fbox blue" aria-labelledby="two-means-formulas"><h2 id="two-means-formulas">6. Difference between two independent sample means</h2>
+        <p class="formula">&mu;<sub><span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub></sub>=&mu;<sub>1</sub>-&mu;<sub>2</sub></p>
+        <p class="formula">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub></sub><sup>2</sup>=<span class="frac"><span>&sigma;<sub>1</sub><sup>2</sup></span><span>n<sub>1</sub></span></span>+<span class="frac"><span>&sigma;<sub>2</sub><sup>2</sup></span><span>n<sub>2</sub></span></span></p>
+        <p class="formula">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub></sub>=<span class="root"><span><span class="frac"><span>&sigma;<sub>1</sub><sup>2</sup></span><span>n<sub>1</sub></span></span>+<span class="frac"><span>&sigma;<sub>2</sub><sup>2</sup></span><span>n<sub>2</sub></span></span></span></span></p>
+        <p class="formula compact" role="math" aria-label="X bar one minus X bar two is normal with mean mu one minus mu two and variance sigma one squared over n one plus sigma two squared over n two"><span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub> &sim; N<span class="nowrap">(&mu;<sub>1</sub>-&mu;<sub>2</sub>, <span class="frac"><span>&sigma;<sub>1</sub><sup>2</sup></span><span>n<sub>1</sub></span></span>+<span class="frac"><span>&sigma;<sub>2</sub><sup>2</sup></span><span>n<sub>2</sub></span></span>)</span></p>
+        <p class="formula compact">Z=<span class="frac"><span>(<span class="xbar" role="math" aria-label="X bar">X</span><sub>1</sub>-<span class="xbar" role="math" aria-label="X bar">X</span><sub>2</sub>)-(&mu;<sub>1</sub>-&mu;<sub>2</sub>)</span><span class="root"><span>&sigma;<sub>1</sub><sup>2</sup>/n<sub>1</sub>+&sigma;<sub>2</sub><sup>2</sup>/n<sub>2</sub></span></span></span></p>
+        <p class="note">Applies with independence within/between random samples, known population SDs, and normal populations or sufficiently large samples.</p>
+        <p class="note cue">Expected difference is &mu;<sub>1</sub>-&mu;<sub>2</sub>, not zero by default.</p>
+      </section>
+
+      <section class="fbox sage" aria-labelledby="fpc-formulas"><h2 id="fpc-formulas">7. Finite-population correction</h2>
+        <div class="formula-row three"><p class="formula">f=<span class="frac"><span>n</span><span>N</span></span></p><p class="formula">FPC=<span class="root"><span><span class="frac"><span>N-n</span><span>N-1</span></span></span></span></p><p class="note cue">Use only without replacement from finite N when n/N &gt; 0.05.</p></div>
+        <p class="formula compact">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub>=<span class="frac"><span>&sigma;</span><span>&radic;n</span></span><span class="root"><span><span class="frac"><span>N-n</span><span>N-1</span></span></span></span></p>
+        <p class="formula compact">&sigma;<sub>p</sub>=<span class="root"><span><span class="frac"><span>&pi;(1-&pi;)</span><span>n</span></span></span></span><span class="root"><span><span class="frac"><span>N-n</span><span>N-1</span></span></span></span></p>
+        <p class="note">FPC changes spread only; it does not change &mu; or &pi;.</p>
+      </section>
+
+      <section class="fbox cream" aria-labelledby="normal-rules"><h2 id="normal-rules">8. Normal probability and inverse rules</h2>
+        <p class="formula compact">&Phi;(z)=P(Z&le;z) &nbsp;|&nbsp; P(Z&lt;z)=&Phi;(z) &nbsp;|&nbsp; P(Z&gt;z)=1-&Phi;(z)</p>
+        <p class="formula compact">P(a&lt;Z&lt;b)=&Phi;(b)-&Phi;(a)</p>
+        <p class="formula compact">P(Z&gt;z)=P(Z&lt;-z), &nbsp;&nbsp; &Phi;(-z)=1-&Phi;(z)</p>
+        <p class="formula compact">z=&Phi;<sup>-1</sup>(A) <span class="note">A = cumulative area to the left</span></p>
+        <p class="formula compact">boundary = centre + z&middot;SE</p>
+        <div class="formula-row"><p class="formula compact">p<sub>L</sub>=&pi;+z<sub>L</sub>&sigma;<sub>p</sub></p><p class="formula compact">p<sub>U</sub>=&pi;+z<sub>U</sub>&sigma;<sub>p</sub></p></div>
+        <div class="formula-row three"><p class="formula compact">&alpha;=1-C</p><p class="formula compact">tail each=<span class="frac"><span>&alpha;</span><span>2</span></span></p><p class="formula compact">z<sup>*</sup>=&Phi;<sup>-1</sup><span class="nowrap">(<span class="frac"><span>1+C</span><span>2</span></span>)</span></p></div>
+        <table class="normal-table" aria-label="Common central normal areas and critical z values"><thead><tr><th scope="col">Central area</th><th scope="col">Tail each side</th><th scope="col">z<sup>*</sup></th></tr></thead><tbody><tr><th scope="row">90%</th><td>0.05</td><td>1.6449</td></tr><tr><th scope="row">95%</th><td>0.025</td><td>1.9600</td></tr><tr><th scope="row">99%</th><td>0.005</td><td>2.5758</td></tr></tbody></table>
+        <p class="note">Sampling-distribution boundary references only; not confidence-interval teaching.</p>
+      </section>
+
+      <section class="fbox rose" aria-labelledby="bridge-formulas"><h2 id="bridge-formulas">9. Tutorial 7 bridge - Exponential waiting time</h2>
+        <div class="formula-row three"><p class="formula">&mu;<sub>X</sub>=<span class="frac"><span>1</span><span>&lambda;</span></span></p><p class="formula">&sigma;<sub>X</sub>=<span class="frac"><span>1</span><span>&lambda;</span></span></p><p class="formula">P(X&gt;t)=e<sup>-&lambda;t</sup></p></div>
+        <div class="formula-row"><p class="formula">&mu;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub>=<span class="frac"><span>1</span><span>&lambda;</span></span></p><p class="formula">&sigma;<sub><span class="xbar" role="math" aria-label="X bar">X</span></sub>=<span class="frac"><span>1/&lambda;</span><span>&radic;n</span></span></p></div>
+        <p class="note cue">Rate and time must use consistent units.</p>
+      </section>
+
+      <section class="fbox" aria-labelledby="checks"><h2 id="checks">10. Final checks</h2>
+        <div class="check-strip"><span>Object and centre</span><span>Correct SE / FPC</span><span>Conditions and tail</span><span>Full precision and context</span></div>
+      </section>
+    </div>
+  </div>
+
+  <aside class="trap-strip" aria-label="Formula-sheet traps"><h2>Trap strip</h2><span>Variance 36 &rarr; &sigma;=6 &nbsp;&bull;&nbsp; Percent &rarr; decimal &nbsp;&bull;&nbsp; Mean SE divides by &radic;n &nbsp;&bull;&nbsp; Right tail = 1-&Phi;(z); between = upper-lower CDF &nbsp;&bull;&nbsp; Keep order and full precision &nbsp;&bull;&nbsp; No FPC with replacement.</span></aside>
+  <footer class="formula-footer"><strong>SDS188 Chapter 7 &middot; Formula Sheet</strong><span>Sampling distributions &middot; source-aligned revision reference</span></footer>
+</section>
+</main>
+</body>
+</html>

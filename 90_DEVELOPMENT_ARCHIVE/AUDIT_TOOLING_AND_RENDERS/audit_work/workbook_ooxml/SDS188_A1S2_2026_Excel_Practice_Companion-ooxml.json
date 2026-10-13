@@ -1,0 +1,2581 @@
+{
+  "path": "/Users/nicole/Downloads/SDS188_A1S2_2026_Excel_Practice_Companion.xlsx",
+  "sheetnames": [
+    "README",
+    "Bootstrap_Practice",
+    "Calls_Practice"
+  ],
+  "defined_names": [],
+  "calculation": {
+    "calcMode": null,
+    "fullCalcOnLoad": null,
+    "forceFullCalc": null
+  },
+  "external_links": 0,
+  "sheets": [
+    {
+      "title": "README",
+      "state": "visible",
+      "dimensions": "A1:F12",
+      "max_row": 12,
+      "max_column": 6,
+      "freeze_panes": null,
+      "auto_filter": null,
+      "merged_ranges": [
+        "A3:F3",
+        "A1:F1"
+      ],
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "sheet_protection": false,
+      "tables": [],
+      "data_validations": 0,
+      "comments": [],
+      "formulas": [],
+      "formula_errors": [],
+      "nonempty_sample": [
+        {
+          "cell": "A1",
+          "value": "SDS188 A1S2 2026 — Excel Practice Companion",
+          "number_format": "General"
+        },
+        {
+          "cell": "A3",
+          "value": "Purpose: altered-number Excel execution drills matched to the STRUCTURE of the 2026 A1S2 practice test. This is not an official Stellenbosch workbook and contains no assessment answers.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A5",
+          "value": "Sheet",
+          "number_format": "General"
+        },
+        {
+          "cell": "B5",
+          "value": "Use",
+          "number_format": "General"
+        },
+        {
+          "cell": "A6",
+          "value": "Bootstrap_Practice",
+          "number_format": "General"
+        },
+        {
+          "cell": "B6",
+          "value": "Build 200 resample means from the supplied with-replacement resamples; use the HTML for the training-only boundary rule and answer validator.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A7",
+          "value": "Calls_Practice",
+          "number_format": "General"
+        },
+        {
+          "cell": "B7",
+          "value": "Use raw call-answer times for an upper-tail one-sample mean test with known population sigma; the HTML supplies the hypotheses, alpha, and power scenario.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A8",
+          "value": "Rule",
+          "number_format": "General"
+        },
+        {
+          "cell": "B8",
+          "value": "Numerical answers in the HTML A1S2 mode are entered to exactly four decimals, with a full stop and no units.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A9",
+          "value": "Important",
+          "number_format": "General"
+        },
+        {
+          "cell": "B9",
+          "value": "The real 2026 practice test uses A1PTData.xlsx. This companion uses different data so that practice is not memorisation.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A10",
+          "value": "Bootstrap caveat",
+          "number_format": "General"
+        },
+        {
+          "cell": "B10",
+          "value": "The real practice-test text does not reveal the exact lecturer convention for extracting 95% limits from 250 resamples. The HTML therefore labels its 200-resample cut-tail rule as a training convention, not an official 2026 procedure.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A11",
+          "value": "Workbook discipline",
+          "number_format": "General"
+        },
+        {
+          "cell": "B11",
+          "value": "Do the calculation in Excel first. Return to the HTML only to enter/check the answer.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A12",
+          "value": "No solutions here",
+          "number_format": "General"
+        },
+        {
+          "cell": "B12",
+          "value": "Correct answers and diagnostic feedback live in the HTML, not in this workbook.",
+          "number_format": "General"
+        }
+      ]
+    },
+    {
+      "title": "Bootstrap_Practice",
+      "state": "visible",
+      "dimensions": "A1:M204",
+      "max_row": 204,
+      "max_column": 13,
+      "freeze_panes": null,
+      "auto_filter": null,
+      "merged_ranges": [
+        "A2:M2",
+        "A1:M1"
+      ],
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "sheet_protection": false,
+      "tables": [],
+      "data_validations": 0,
+      "comments": [],
+      "formulas": [],
+      "formula_errors": [],
+      "nonempty_sample": [
+        {
+          "cell": "A1",
+          "value": "Bootstrap Practice — altered data (200 resamples)",
+          "number_format": "General"
+        },
+        {
+          "cell": "A2",
+          "value": "Original sample is in green. Each row C:L is one with-replacement bootstrap resample of the same size. In M5 enter =AVERAGE(C5:L5) and fill down to M204. Do not treat the HTML's training cut-tail convention as an official 250-resample rule.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A4",
+          "value": "Original sample",
+          "number_format": "General"
+        },
+        {
+          "cell": "B4",
+          "value": "Resample #",
+          "number_format": "General"
+        },
+        {
+          "cell": "C4",
+          "value": "Draw 1",
+          "number_format": "General"
+        },
+        {
+          "cell": "D4",
+          "value": "Draw 2",
+          "number_format": "General"
+        },
+        {
+          "cell": "E4",
+          "value": "Draw 3",
+          "number_format": "General"
+        },
+        {
+          "cell": "F4",
+          "value": "Draw 4",
+          "number_format": "General"
+        },
+        {
+          "cell": "G4",
+          "value": "Draw 5",
+          "number_format": "General"
+        },
+        {
+          "cell": "H4",
+          "value": "Draw 6",
+          "number_format": "General"
+        },
+        {
+          "cell": "I4",
+          "value": "Draw 7",
+          "number_format": "General"
+        },
+        {
+          "cell": "J4",
+          "value": "Draw 8",
+          "number_format": "General"
+        },
+        {
+          "cell": "K4",
+          "value": "Draw 9",
+          "number_format": "General"
+        },
+        {
+          "cell": "L4",
+          "value": "Draw 10",
+          "number_format": "General"
+        },
+        {
+          "cell": "M4",
+          "value": "Resample mean",
+          "number_format": "General"
+        },
+        {
+          "cell": "A5",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B5",
+          "value": 1,
+          "number_format": "General"
+        },
+        {
+          "cell": "C5",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "D5",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "E5",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F5",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G5",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "H5",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "I5",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "J5",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "K5",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "L5",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "A6",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "B6",
+          "value": 2,
+          "number_format": "General"
+        },
+        {
+          "cell": "C6",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D6",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "E6",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "F6",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "G6",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "H6",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "I6",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "J6",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "K6",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L6",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "A7",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B7",
+          "value": 3,
+          "number_format": "General"
+        },
+        {
+          "cell": "C7",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D7",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E7",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "F7",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "G7",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H7",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "I7",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "J7",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "K7",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L7",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "A8",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B8",
+          "value": 4,
+          "number_format": "General"
+        },
+        {
+          "cell": "C8",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "D8",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "E8",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F8",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G8",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "H8",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I8",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "J8",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "K8",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "L8",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "A9",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B9",
+          "value": 5,
+          "number_format": "General"
+        },
+        {
+          "cell": "C9",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "D9",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "E9",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F9",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "G9",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "H9",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "I9",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J9",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K9",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "L9",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "A10",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "B10",
+          "value": 6,
+          "number_format": "General"
+        },
+        {
+          "cell": "C10",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "D10",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "E10",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "F10",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "G10",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "H10",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "I10",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J10",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K10",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "L10",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "A11",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "B11",
+          "value": 7,
+          "number_format": "General"
+        },
+        {
+          "cell": "C11",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "D11",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "E11",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F11",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "G11",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "H11",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "I11",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J11",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "K11",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "L11",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "A12",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B12",
+          "value": 8,
+          "number_format": "General"
+        },
+        {
+          "cell": "C12",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "D12",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E12",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "F12",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "G12",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "H12",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "I12",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "J12",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "K12",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L12",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "A13",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "B13",
+          "value": 9,
+          "number_format": "General"
+        },
+        {
+          "cell": "C13",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "D13",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "E13",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "F13",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G13",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "H13",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "I13",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "J13",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "K13",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "L13",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "A14",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "B14",
+          "value": 10,
+          "number_format": "General"
+        },
+        {
+          "cell": "C14",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "D14",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "E14",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F14",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "G14",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H14",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I14",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J14",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "K14",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L14",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B15",
+          "value": 11,
+          "number_format": "General"
+        },
+        {
+          "cell": "C15",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "D15",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "E15",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "F15",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "G15",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "H15",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "I15",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "J15",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "K15",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L15",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B16",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "C16",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "D16",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "E16",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "F16",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G16",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H16",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I16",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "J16",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "K16",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L16",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "B17",
+          "value": 13,
+          "number_format": "General"
+        },
+        {
+          "cell": "C17",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "D17",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E17",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F17",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "G17",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "H17",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "I17",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "J17",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "K17",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L17",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B18",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "C18",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D18",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "E18",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "F18",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G18",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "H18",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I18",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "J18",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "K18",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "L18",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B19",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "C19",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D19",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "E19",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "F19",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G19",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "H19",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "I19",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "J19",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K19",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L19",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "C20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D20",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "E20",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "F20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "G20",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "I20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "J20",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K20",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L20",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B21",
+          "value": 17,
+          "number_format": "General"
+        },
+        {
+          "cell": "C21",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "D21",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E21",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "F21",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "G21",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "H21",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "I21",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J21",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "K21",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L21",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B22",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "C22",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "D22",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "E22",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "F22",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G22",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "H22",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I22",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J22",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "K22",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L22",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "B23",
+          "value": 19,
+          "number_format": "General"
+        },
+        {
+          "cell": "C23",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "D23",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "E23",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F23",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "G23",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H23",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I23",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "J23",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "K23",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "L23",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B24",
+          "value": 20,
+          "number_format": "General"
+        },
+        {
+          "cell": "C24",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "D24",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "E24",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F24",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "G24",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "H24",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I24",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "J24",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "K24",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "L24",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B25",
+          "value": 21,
+          "number_format": "General"
+        },
+        {
+          "cell": "C25",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "D25",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "E25",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F25",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "G25",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H25",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "I25",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "J25",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "K25",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L25",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B26",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "C26",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "D26",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E26",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "F26",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "G26",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H26",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I26",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "J26",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "K26",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "L26",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "B27",
+          "value": 23,
+          "number_format": "General"
+        },
+        {
+          "cell": "C27",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "D27",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "E27",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "F27",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G27",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H27",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I27",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "J27",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "K27",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "L27",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B28",
+          "value": 24,
+          "number_format": "General"
+        },
+        {
+          "cell": "C28",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "D28",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E28",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "F28",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G28",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "H28",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "I28",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "J28",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "K28",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L28",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B29",
+          "value": 25,
+          "number_format": "General"
+        },
+        {
+          "cell": "C29",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "D29",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "E29",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "F29",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "G29",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H29",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I29",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "J29",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "K29",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "L29",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B30",
+          "value": 26,
+          "number_format": "General"
+        },
+        {
+          "cell": "C30",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "D30",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E30",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F30",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "G30",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H30",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I30",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "J30",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K30",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L30",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B31",
+          "value": 27,
+          "number_format": "General"
+        },
+        {
+          "cell": "C31",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "D31",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "E31",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "F31",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G31",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "H31",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "I31",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "J31",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "K31",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L31",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B32",
+          "value": 28,
+          "number_format": "General"
+        },
+        {
+          "cell": "C32",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "D32",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "E32",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "F32",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "G32",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "H32",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "I32",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "J32",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "K32",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L32",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B33",
+          "value": 29,
+          "number_format": "General"
+        },
+        {
+          "cell": "C33",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "D33",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "E33",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "F33",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "G33",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "H33",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "I33",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "J33",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "K33",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "L33",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "B34",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "C34",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "D34",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "E34",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "F34",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "G34",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "H34",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "I34",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "J34",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "K34",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "L34",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B35",
+          "value": 31,
+          "number_format": "General"
+        },
+        {
+          "cell": "C35",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "D35",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "E35",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "F35",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "G35",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "H35",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "I35",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "J35",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "K35",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "L35",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B36",
+          "value": 32,
+          "number_format": "General"
+        },
+        {
+          "cell": "C36",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "D36",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "E36",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "F36",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "G36",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "H36",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "I36",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "J36",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "K36",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L36",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B37",
+          "value": 33,
+          "number_format": "General"
+        },
+        {
+          "cell": "C37",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "D37",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "E37",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "F37",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "G37",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "H37",
+          "value": 42,
+          "number_format": "General"
+        },
+        {
+          "cell": "I37",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J37",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "K37",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "L37",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "B38",
+          "value": 34,
+          "number_format": "General"
+        },
+        {
+          "cell": "C38",
+          "value": 65,
+          "number_format": "General"
+        },
+        {
+          "cell": "D38",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "E38",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "F38",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "G38",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "H38",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "I38",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "J38",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "K38",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "L38",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B39",
+          "value": 35,
+          "number_format": "General"
+        }
+      ]
+    },
+    {
+      "title": "Calls_Practice",
+      "state": "visible",
+      "dimensions": "A1:D40",
+      "max_row": 40,
+      "max_column": 4,
+      "freeze_panes": null,
+      "auto_filter": null,
+      "merged_ranges": [
+        "A1:D1",
+        "A2:D2"
+      ],
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "sheet_protection": false,
+      "tables": [],
+      "data_validations": 0,
+      "comments": [],
+      "formulas": [],
+      "formula_errors": [],
+      "nonempty_sample": [
+        {
+          "cell": "A1",
+          "value": "Call-answer times — altered raw-data practice",
+          "number_format": "General"
+        },
+        {
+          "cell": "A2",
+          "value": "Use the HTML A1S2 Excel Mode for the hypotheses, alpha, known population standard deviation, critical-boundary and power questions. Compute from this worksheet in actual Excel before entering answers in the HTML.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A4",
+          "value": "Observation",
+          "number_format": "General"
+        },
+        {
+          "cell": "B4",
+          "value": "Seconds",
+          "number_format": "General"
+        },
+        {
+          "cell": "D4",
+          "value": "Scratch area",
+          "number_format": "General"
+        },
+        {
+          "cell": "A5",
+          "value": 1,
+          "number_format": "General"
+        },
+        {
+          "cell": "B5",
+          "value": 15.7,
+          "number_format": "General"
+        },
+        {
+          "cell": "D5",
+          "value": "You may place AVERAGE, COUNT, z-critical, critical X̄, test statistic, β and power calculations here.",
+          "number_format": "General"
+        },
+        {
+          "cell": "A6",
+          "value": 2,
+          "number_format": "General"
+        },
+        {
+          "cell": "B6",
+          "value": 14.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A7",
+          "value": 3,
+          "number_format": "General"
+        },
+        {
+          "cell": "B7",
+          "value": 17.1,
+          "number_format": "General"
+        },
+        {
+          "cell": "A8",
+          "value": 4,
+          "number_format": "General"
+        },
+        {
+          "cell": "B8",
+          "value": 14.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A9",
+          "value": 5,
+          "number_format": "General"
+        },
+        {
+          "cell": "B9",
+          "value": 11.5,
+          "number_format": "General"
+        },
+        {
+          "cell": "A10",
+          "value": 6,
+          "number_format": "General"
+        },
+        {
+          "cell": "B10",
+          "value": 15.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A11",
+          "value": 7,
+          "number_format": "General"
+        },
+        {
+          "cell": "B11",
+          "value": 14.1,
+          "number_format": "General"
+        },
+        {
+          "cell": "A12",
+          "value": 8,
+          "number_format": "General"
+        },
+        {
+          "cell": "B12",
+          "value": 16.5,
+          "number_format": "General"
+        },
+        {
+          "cell": "A13",
+          "value": 9,
+          "number_format": "General"
+        },
+        {
+          "cell": "B13",
+          "value": 13.6,
+          "number_format": "General"
+        },
+        {
+          "cell": "A14",
+          "value": 10,
+          "number_format": "General"
+        },
+        {
+          "cell": "B14",
+          "value": 19.9,
+          "number_format": "General"
+        },
+        {
+          "cell": "A15",
+          "value": 11,
+          "number_format": "General"
+        },
+        {
+          "cell": "B15",
+          "value": 17,
+          "number_format": "General"
+        },
+        {
+          "cell": "A16",
+          "value": 12,
+          "number_format": "General"
+        },
+        {
+          "cell": "B16",
+          "value": 19.7,
+          "number_format": "General"
+        },
+        {
+          "cell": "A17",
+          "value": 13,
+          "number_format": "General"
+        },
+        {
+          "cell": "B17",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "A18",
+          "value": 14,
+          "number_format": "General"
+        },
+        {
+          "cell": "B18",
+          "value": 14.1,
+          "number_format": "General"
+        },
+        {
+          "cell": "A19",
+          "value": 15,
+          "number_format": "General"
+        },
+        {
+          "cell": "B19",
+          "value": 7.7,
+          "number_format": "General"
+        },
+        {
+          "cell": "A20",
+          "value": 16,
+          "number_format": "General"
+        },
+        {
+          "cell": "B20",
+          "value": 15.4,
+          "number_format": "General"
+        },
+        {
+          "cell": "A21",
+          "value": 17,
+          "number_format": "General"
+        },
+        {
+          "cell": "B21",
+          "value": 10.7,
+          "number_format": "General"
+        },
+        {
+          "cell": "A22",
+          "value": 18,
+          "number_format": "General"
+        },
+        {
+          "cell": "B22",
+          "value": 21.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A23",
+          "value": 19,
+          "number_format": "General"
+        },
+        {
+          "cell": "B23",
+          "value": 9.5,
+          "number_format": "General"
+        },
+        {
+          "cell": "A24",
+          "value": 20,
+          "number_format": "General"
+        },
+        {
+          "cell": "B24",
+          "value": 15.4,
+          "number_format": "General"
+        },
+        {
+          "cell": "A25",
+          "value": 21,
+          "number_format": "General"
+        },
+        {
+          "cell": "B25",
+          "value": 15.1,
+          "number_format": "General"
+        },
+        {
+          "cell": "A26",
+          "value": 22,
+          "number_format": "General"
+        },
+        {
+          "cell": "B26",
+          "value": 10.9,
+          "number_format": "General"
+        },
+        {
+          "cell": "A27",
+          "value": 23,
+          "number_format": "General"
+        },
+        {
+          "cell": "B27",
+          "value": 13.9,
+          "number_format": "General"
+        },
+        {
+          "cell": "A28",
+          "value": 24,
+          "number_format": "General"
+        },
+        {
+          "cell": "B28",
+          "value": 13,
+          "number_format": "General"
+        },
+        {
+          "cell": "A29",
+          "value": 25,
+          "number_format": "General"
+        },
+        {
+          "cell": "B29",
+          "value": 23,
+          "number_format": "General"
+        },
+        {
+          "cell": "A30",
+          "value": 26,
+          "number_format": "General"
+        },
+        {
+          "cell": "B30",
+          "value": 17.4,
+          "number_format": "General"
+        },
+        {
+          "cell": "A31",
+          "value": 27,
+          "number_format": "General"
+        },
+        {
+          "cell": "B31",
+          "value": 14.7,
+          "number_format": "General"
+        },
+        {
+          "cell": "A32",
+          "value": 28,
+          "number_format": "General"
+        },
+        {
+          "cell": "B32",
+          "value": 13.6,
+          "number_format": "General"
+        },
+        {
+          "cell": "A33",
+          "value": 29,
+          "number_format": "General"
+        },
+        {
+          "cell": "B33",
+          "value": 13.4,
+          "number_format": "General"
+        },
+        {
+          "cell": "A34",
+          "value": 30,
+          "number_format": "General"
+        },
+        {
+          "cell": "B34",
+          "value": 13.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A35",
+          "value": 31,
+          "number_format": "General"
+        },
+        {
+          "cell": "B35",
+          "value": 16.2,
+          "number_format": "General"
+        },
+        {
+          "cell": "A36",
+          "value": 32,
+          "number_format": "General"
+        },
+        {
+          "cell": "B36",
+          "value": 21.5,
+          "number_format": "General"
+        },
+        {
+          "cell": "A37",
+          "value": 33,
+          "number_format": "General"
+        },
+        {
+          "cell": "B37",
+          "value": 19.6,
+          "number_format": "General"
+        },
+        {
+          "cell": "A38",
+          "value": 34,
+          "number_format": "General"
+        },
+        {
+          "cell": "B38",
+          "value": 19.1,
+          "number_format": "General"
+        },
+        {
+          "cell": "A39",
+          "value": 35,
+          "number_format": "General"
+        },
+        {
+          "cell": "B39",
+          "value": 15.8,
+          "number_format": "General"
+        },
+        {
+          "cell": "A40",
+          "value": 36,
+          "number_format": "General"
+        },
+        {
+          "cell": "B40",
+          "value": 17.6,
+          "number_format": "General"
+        }
+      ]
+    }
+  ],
+  "zip_members": [
+    "xl/workbook.xml",
+    "xl/styles.xml",
+    "xl/theme/theme1.xml",
+    "xl/sharedStrings.xml",
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml",
+    "_rels/.rels",
+    "xl/_rels/workbook.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "vba": false,
+  "connections": false,
+  "external_link_parts": []
+}

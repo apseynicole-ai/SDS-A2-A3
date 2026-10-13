@@ -1,0 +1,167 @@
+[0:00]
+Okay. Good morning, everybody. Good to see you all again. So how did you find a one? Good.
+
+[2:25]
+Alright. Okay. The marks are undergoing a brief moderation period. It shouldn't take too long. The course coordinator will do her best to make sure that they are released as soon as possible.
+
+[2:48]
+Although the marks are there immediately after you've written because it gets marked automatically, they still do need to go through moderation just to check that everything is being calculated correctly. I had a look at the marks as they stand now. The average is up, almost 10% from last year, but the average now sits at 51, which gives you an idea of how it was last year. Last year, the distribution of marks looked like this. Do you know what this means?
+
+[3:33]
+This means most people did badly and a few people did well. This year, the marks are looking a bit more like this. So that is the distribution that we generally expect with marks. You have majority around the 50 and then a few well and a few bad. Some of you might still be disappointed with your mark.
+
+[4:07]
+I haven't looked at anybody's individual mark, but it's just the nature of this test. Some of you will still be disappointed with your mark. It's a it's a weird test. You're writing with time pressure. With Excel, it's very easy to get just flustered and forget what you normally know how to do.
+
+[4:30]
+After the marks are available And if you are unhappy with your mark, you can come and make a consultation with me. We'll go through your a one together, and we'll see where things went wrong. Okay. Then... But I'm not going to have...
+
+[4:48]
+Like, what... What's not going to happen is it's not going to become available for review as as I understand it. It's not happened like that in the past that it... You can just freely review your own a one. You must make an appointment to come and review your a one.
+
+[5:02]
+What I will do on Friday, I think, is I will go through the a one in class, and I'll show you what you should have done at each question. That lecture will not be recorded. I'm not going to record and upload that. It's going to be just live in person. And today, we're carrying on with chapter 10 of the work.
+
+[5:31]
+I know a lot of you aren't here because you are, studying for other a ones. We have to carry on, but this this chapter 10 lecture, as with all my other content lectures, are recorded. So, if you have friends and you you know for a fact that they're not here, just tell them to try and stay up to date at least, with the recordings if they're not going to be in class because I can't I can't slow down now. We also have to get through the work. Okay.
+
+[6:04]
+So we are looking at two sample tests. Okay. So we deal with four types of two sample tests in this module, and it's basically where you have two groups. Normally, you have one group as in one sample, and you are collecting some sort of sample statistic and making a hypothesis and then following the steps of the hypothesis test to come to a conclusion about the population parameter. A similar thing happens with two sample tests except now you're comparing two population parameters.
+
+[7:03]
+So a common one is to compare population means, and we actually have to split that one up into two cases. So you see where it says population means independent samples and population means related samples. We split it into two groups because the way that we define the groups is different and that affects the variation, that we can attribute to the two groups. Then you've got two comparisons or a comparison of two population proportions. That's the other type.
+
+[7:36]
+And then you've got a comparison of population variances, and that is a... An interesting one because it has to rely on a completely different distribution that you have not yet encountered before called the f distribution. For today, we're going to be looking at population means for independent samples, and I'm just going to pause or just linger there for a bit and, actually talk about the first two so that I can show you how they differ so that we can appreciate why it is independent groups. So I'm going to borrow from the example that we had in chapter seven where we looked at the MBA starting salary. Of Stella Marsh and UCT students, those ones who did an MBA.
+
+[8:51]
+So you can visualize the two groups as here's your Stellenbosch sample and here's your UCT sample. They are completely independent. So both were drawn separately. You will probably have a different mix of students in each group, and there will be lots of sources of variation. So groups are independent.
+
+[9:43]
+There will be many sources of variation. You can even have the groups be of different sizes. So Stellenbosch, you will have a sample of n one, and UCT will take a sample of n two. We use the notation like that to say, you might have gotten 50 students from Stellenbosch and sampled 60 students from UCT. So, it doesn't have to be the same exact number.
+
+[10:32]
+Now I wanna contrast it with related groups. Or I think they call it related samples. So there's two ways, to do it. Option one is same group, but we do a before and after. Or we do something called paired samples.
+
+[11:24]
+And I'll explain both of those. The aim with both of these is to have, to eliminate extra sources of variation. Okay. So it might look like this. You have a before where you have a group of people and each person gets a number.
+
+[12:07]
+So we have person number one, person number two, person number three, and so on and so on. And we apply some sort of treatment. So it could be a drug trial. So we take some measurements before, we apply the treatment, and we take measurements after. This is one of the ways that clinical trials get done.
+
+[12:35]
+So you see how it is already different from the independent groups idea. These groups, independent people, possibly different sample sizes had nothing to do with each other. Here, we're looking at how does it differ before and after. So it's going to be the same n. There's only gonna be one n.
+
+[13:00]
+There's not a n one and a n two. It's the same size group before and after. This is very common in clinical trials in the medical field. The other option, sometimes it's not so good, or it's not possible to do the before and after, or it's it's a choice made not to do it like that. So the second option is the paired samples.
+
+[13:29]
+So that might look something like this. You'll have a treatment group. They will get the medication, or I'll say get the real medication. So you'll have person one, two, three, four, and so on. And you'll also have a control group, and they will get a placebo.
+
+[14:13]
+You know what a placebo is? So different people, it will still be the same size group, but they will not get the real drug. And the idea of these studies is to do it, they call it double blind. So the person doesn't know whether they're getting the drug or the placebo, and the person administering the drug doesn't know if they're administering the drug or the placebo, to to try and eliminate any sources of variation. This kind of setup is ideal if you can get person one in treatment to look similar to person two in treatment.
+
+[14:55]
+So you're not going to have person one in treatment be someone who has been smoking for thirty years and has very obvious health issues and then person one in control be someone at peak health, then it's not a fair comparison. You're going to try and have similar profiles across the pairs. So person one here gets paired up with person one here, and you're seeing what is the difference between getting the drug and not getting the drug. Even more ideal is if you can have maybe a set of siblings or a set of twins. That is not...
+
+[15:30]
+Doesn't happen very often, but they have had studies in the past where they've had a pair of twins and one twin gets the placebo and one twin gets the drug. And then it's really nice to be able to see how they respond to treatment versus placebo. But that is the ideal situation. It doesn't always happen, but they try and match them up as well as possible. So that's a paired samples kind of treatment.
+
+[15:55]
+Again, if you have 10 here, you have to have 10 here because each person gets a pair. That is very different from, again, this situation where you don't have to pair anyone up. It's just one group here will look at the mean, and one group here will look at the mean. Okay. So the one we're focusing on is the independent one today, but I just wanted to highlight for you why it's important that we call it independent and what's different across the two ways in which we characterize it.
+
+[16:31]
+So Recall from chapter seven that we actually already have dealt with two independent groups. So from chapter seven, We know that there is a distribution of differences in independent sample means. And that distribution is for x bar one minus x bar two, and we know that this is normally distributed with mean equal to mu one minus mu two and standard deviation equal to square root of sigma one squared over n one plus sigma two squared over n one... I mean, n two. This is the...
+
+[17:59]
+Remember, any hypothesis test or confidence interval needs a sampling distribution as its base. So this is now what we'll use. And, again, this one came from an independent sample of size n one, and this one came from an independent sample of size n two. So both were sampled independently. Now we're just looking at their differences.
+
+[18:22]
+So in this chapter, we will assume that this difference is unknown. So we only have the sample information to work with, and we will either build a confidence interval. So we squeeze confidence intervals into this chapter as well or test some hypothesis about it. Okay. So The form of the test is, again, borrowing or building from chapter nine.
+
+[19:34]
+You still get your lower tailed test, your two tailed test, and your upper tailed test. And it's... The same rejection rules apply. Generally, this type of test will be a t test, and that is because the population variance will generally be unknown. And we also have to just note how we treat the different hypotheses.
+
+[20:05]
+So we get two equivalent hypothesis statements, but we prefer or will tend to work with the one rather than the other. So with your lower tailed test, we are making a comparison between two population means. So your null can be mu one equal to mu two. Your alternative is testing if mu one is less than mu two. But we're not going to work with it as is.
+
+[20:45]
+We're going to move each one over its equality or inequality sign. And what you will get instead is a statement about the differences. Now you have an actual value that you can use for the differences, and you have a hypothesis statement in terms of the differences. And the alternative hypothesis here or the null hypothesis is saying no difference, and the alternative is saying negative difference, which implies that the one is larger than the other. So we always have to, state hypothesis in terms of ITO differences instead of a direct comparison between the two.
+
+[22:20]
+They are equivalent, but it's just better to work with it this way. So let's look at how two tail changes. So your null will be that mu one is equal to mu two. Your alternative, mu one not equal to mu two. This will become So this one is saying no difference as usual, and the alternative is saying a difference.
+
+[23:12]
+The alternative does not care in a two tailed test if the difference is negative or positive. It is just a difference. Then an upper tail test. You are trying to say mu one is greater than mu two in the alternative. So the equivalent statement here in terms of differences...
+
+[24:00]
+Again, it's the alternative that changes. Instead of a negative difference, we're now trying to see a positive difference. Okay. So each test is particular about what it is looking for as proof against the null hypothesis. Okay.
+
+[25:05]
+Then we have a complicated way of treating the variance. Yes. Well, mu one and mu two is completely arbitrary. It's externally defined. So you will define which group is mu one, and you will define which group is mu two.
+
+[25:36]
+So you are right in saying if you switch them around, it's like flipping the test. But we will... In an assessment, we'll say, this is your mu one. This is your mu two. We want to test if mu one is greater than mu two.
+
+[25:50]
+Okay. Yeah. Okay. Sorry. Were you still writing?
+
+[26:07]
+Okay. Okay. So there is a bit of a thing with how we treat the variance. So there are... Technically, there are two cases.
+
+[26:43]
+So case one, I'm just calling it case one and case two. So case one is where variance from population one and variance from population two are unknown but equal. So the independent groups have the same variance. Then case two is that variance one and variance two are still unknown but unequal. Yes.
+
+[28:11]
+It's a simplifying assumption. So I'll tell you right now that this is the more realistic scenario, but the treatment is complicated. So it is not covered in this module. And this is the less realistic scenario, but it is a simplifying assumption that we deal with in this module. Because it's easy if you...
+
+[29:10]
+It's a lot more difficult to estimate two unknown things, and then how that affects the variance and the distribution gets complicated. It's easier if you have two samples that are estimating the same unknown thing. So that's the one we'll deal with. So but notice that they're both unknown. So both imply you can't use a zed test.
+
+[29:45]
+So think no more of case two. There's a whole slide as well that is there just for the purpose of saying the case exists, but it's not covered in this module. We're going to look at this one, case one. So the slides sort of just jump right into the pooled variance, but they make no explanation of where it comes from. So I'm going to explain where it comes from.
+
+[30:32]
+But maybe I should also just, as a broad outline, say that in case one, what we'll do is we will estimate the equal but unknown variance as a step one. And step two, estimate the standard error based on this. Okay. So estimating the equal but unknown variance. Recall that the standard error of the difference in sample means is...
+
+[31:50]
+And I wrote this down just now, but I'll write it again. Sigma one squared over n one plus sigma two squared over n two. If you now apply the assumption that sigma one squared is equal to sigma two squared, you can just replace it. You don't have to distinguish them in name. You can just replace both with a generic sigma squared since we're not saying they're two different things.
+
+[32:31]
+So now it becomes sigma squared over n one plus sigma squared over n two. And this can become... Just taking it out in front since it's now the same thing, It becomes that. This is the standard error, but this part here is unknown. We still don't remember it's...
+
+[33:52]
+We said equal population variances, still unknown, so we need a way to estimate that. So we estimate it with pooled variance. So the pooled variance is known as s p squared, s for sample variance, p for pooled, and squared because it is a variance value. That is equal to n one minus one times sample variance one plus n two minus one plus sample variance two divided by... And you can see the slides.
+
+[34:47]
+If you look at the slides, it's... The denominator is n one minus one plus n two minus one. I'm going to write it slightly differently. You can just write it as n one plus n two minus two. It's the same thing.
+
+[35:21]
+So this s p squared can be thought of as a weighted average of the two sample variances where sample size dictates how much each variance contributes to the estimate. Another way of saying or thinking about this is that it combines information about the unknown variance from both samples. And I'd like to emphasize that we can only do this because we made the assumption that it's equal. We couldn't do this if we didn't make that assumption. We can't pool variants like this unless we're assuming that they both estimate the same thing.
+
+[37:53]
+Okay. So just to note here, Many students will get confused and think this is the standard error. This is not the standard error. It gets used in the standard error. It gets used here as the estimate of this, but it's not the standard error.
+
+[38:33]
+So some students will stop at calculating this, and then they will lose marks. It's actually a two step process where you first get s p squared, and then you get your standard error. So your test statistic will become You'll have the difference in sample means minus your difference in population means divided by the square root of s p squared. So that's where it contributes to the equation times one over n one plus one over n two. This entire thing is your standard error.
+
+[39:50]
+This is your sample statistic. That's the observed difference in sample means, and this is your population parameter. That's your hypothesized difference in, population means. Okay. And then the other thing is in the hypothesis test, we have to get a critical value and sometimes a p value.
+
+[40:54]
+Because this is a... We're doing a t test because variance is unknown. Your t value, if it's a critical value, it will be dependent on alpha as well as degrees of freedom. And if it's a p value, it will be dependent on the test statistic as well as degrees of freedom. So in both cases, it needs degrees of freedom.
+
+[41:16]
+You've, up until now, been taught degrees of freedom is n minus one. This now changes because we're in the two sample setting. So because it's a two sample setting, Degrees of freedom becomes n one plus n two minus two. This is used in the t critical value and used for p value calculations. And then we also have to talk about the confidence interval.
+
+[42:27]
+We left this out of the chapter dedicated to confidence intervals because we weren't yet ready to discuss two sample settings. We left that for the chapter devoted to two sample settings. But confidence intervals and hypothesis tests are very closely related because they both are based on the same sampling distribution. And in the case where it's a two tailed test, it can come to the same conclusion as a confidence interval as long as alpha is the same between the two. So your confidence interval here is the observed difference in sample means.
+
+[43:06]
+That's your statistic. Plus minus your critical value. Now this is going to be a t critical value. And the slides say alpha over two. I'm going to say degrees of freedom comma alpha over two so that I more explicitly state that it is dependent on two things.
+
+[43:50]
+And then finally, we multiply by the standard error. Okay. So that is our setup for this chapter. I'm not going to do the example now because I'm... I will run out of time if I start it.
+
+[44:43]
+But those are the thing... Because we have to kind of keep in mind as we move now from the one sample setting to the two sample setting. Okay.

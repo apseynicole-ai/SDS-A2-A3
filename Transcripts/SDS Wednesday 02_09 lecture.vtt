@@ -1,0 +1,2240 @@
+WEBVTT
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/9-0
+00:00:54.949 --> 00:01:00.469
+<v Chemistry 1015>Okay, good morning everybody.
+Good to see you all again. So, um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/11-0
+00:01:03.029 --> 00:01:08.084
+<v Chemistry 1015>We are carrying on.
+Last time we stopped just before the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/11-1
+00:01:08.084 --> 00:01:14.469
+<v Chemistry 1015>example for two population means.
+So we're going to take it from there.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/12-0
+00:01:16.149 --> 00:01:16.789
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/13-0
+00:01:18.069 --> 00:01:20.469
+<v Chemistry 1015>Again, just a reminder of where we are.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/14-0
+00:01:22.149 --> 00:01:28.709
+<v Chemistry 1015>We are looking at the first of the four
+types of two sample tests that we have to</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/14-1
+00:01:28.709 --> 00:01:33.349
+<v Chemistry 1015>do in this chapter.
+So we're still at independent samples</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/14-2
+00:01:33.349 --> 00:01:35.509
+<v Chemistry 1015>comparing population means.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/15-0
+00:01:37.189 --> 00:01:37.589
+<v Chemistry 1015>Um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/16-0
+00:01:38.629 --> 00:01:42.477
+<v Chemistry 1015>Previous lecture,
+we just looked at the assumptions for the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/16-1
+00:01:42.477 --> 00:01:45.491
+<v Chemistry 1015>test.
+We looked at the forms that the test can</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/16-2
+00:01:45.491 --> 00:01:48.505
+<v Chemistry 1015>take.
+We looked at the pooled variance and how</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/16-3
+00:01:48.505 --> 00:01:53.315
+<v Chemistry 1015>that impacts the calculation of the
+standard error and the test statistic.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/16-4
+00:01:53.315 --> 00:01:58.509
+<v Chemistry 1015>We also looked at a confidence interval,
+and now we are putting it all together.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/17-0
+00:01:58.589 --> 00:01:59.109
+<v Chemistry 1015>Together.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/18-0
+00:02:02.309 --> 00:02:03.109
+<v Chemistry 1015>All right, so...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/19-0
+00:02:06.389 --> 00:02:11.669
+<v Chemistry 1015>We've got this example here comparing the
+sales of a product from two different</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/19-1
+00:02:11.669 --> 00:02:14.969
+<v Chemistry 1015>in-store locations,
+special upfront and in aisle,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/19-2
+00:02:14.969 --> 00:02:19.457
+<v Chemistry 1015>and we have the following monthly data.
+So we have the data points.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/19-3
+00:02:19.457 --> 00:02:24.869
+<v Chemistry 1015>It's very reasonable for you to be given
+these data points and asked to calculate</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/20-0
+00:02:25.109 --> 00:02:29.729
+<v Chemistry 1015>The sample mean and the sample standard
+deviation for each group,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/20-1
+00:02:29.729 --> 00:02:31.829
+<v Chemistry 1015>so maybe I'm just brush up on.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/21-0
+00:02:34.149 --> 00:02:37.852
+<v Chemistry 1015>those from first semester.
+Usually you're given the mean,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/21-1
+00:02:37.852 --> 00:02:43.087
+<v Chemistry 1015>but sometimes you'll have to calculate it.
+Sometimes you'll have to calculate the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/21-2
+00:02:43.087 --> 00:02:46.471
+<v Chemistry 1015>sample variance or standard deviation.
+In this case,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/21-3
+00:02:46.471 --> 00:02:51.195
+<v Chemistry 1015>it's easier to keep it at variance
+because the formula uses the variance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/21-4
+00:02:51.195 --> 00:02:53.749
+<v Chemistry 1015>But in any case, we have N1 equal to 10.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/22-0
+00:02:55.029 --> 00:03:02.140
+<v Chemistry 1015>X bar 1 equal to 246.
+4 and sample standard deviation or rather</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/22-1
+00:03:02.140 --> 00:03:05.029
+<v Chemistry 1015>sample variance 1809.8222.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/23-0
+00:03:07.189 --> 00:03:16.309
+<v Chemistry 1015>Second group here, N2 is 10 X bar to 202.
+3 and variance to 1058.0111.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/24-0
+00:03:18.149 --> 00:03:24.309
+<v Chemistry 1015>So notice that the sample sizes are the
+same. I just want to emphasize again,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/24-1
+00:03:24.309 --> 00:03:29.364
+<v Chemistry 1015>this does not have to be the case.
+They are independent groups,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/24-2
+00:03:29.364 --> 00:03:34.971
+<v Chemistry 1015>so they don't have to have the same
+number of observations, bless you,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/24-3
+00:03:34.971 --> 00:03:36.629
+<v Chemistry 1015>in each one. Okay, so</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/25-0
+00:03:38.629 --> 00:03:42.836
+<v Chemistry 1015>The hypothesis that we are trying to work
+out here, it says,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/25-1
+00:03:42.836 --> 00:03:47.664
+<v Chemistry 1015>assuming both populations are
+approximately normally distributed with</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/25-2
+00:03:47.664 --> 00:03:51.389
+<v Chemistry 1015>equal variances,
+is there a difference in mean sales?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/25-3
+00:03:51.389 --> 00:03:56.837
+<v Chemistry 1015>So our null hypothesis, mu 1 minus mu 2,
+that is the difference in mean sales,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/25-4
+00:03:56.837 --> 00:03:57.389
+<v Chemistry 1015>would be</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/26-0
+00:03:58.789 --> 00:04:00.149
+<v Chemistry 1015>Zero, no difference.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/27-0
+00:04:01.349 --> 00:04:06.138
+<v Chemistry 1015>Start off assuming no difference,
+and we'll try and find evidence for a</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/27-1
+00:04:06.138 --> 00:04:06.869
+<v Chemistry 1015>difference.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/28-0
+00:04:08.869 --> 00:04:09.429
+<v Chemistry 1015>Then...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/29-0
+00:04:11.189 --> 00:04:15.589
+<v Chemistry 1015>Alternative mu 1 minus mu 2 not equal to
+0.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/30-0
+00:04:17.189 --> 00:04:21.319
+<v Chemistry 1015>implying that there is a difference.
+It did not ask for any specific direction</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/30-1
+00:04:21.319 --> 00:04:23.985
+<v Chemistry 1015>that the difference should take.
+So it didn't say,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/30-2
+00:04:23.985 --> 00:04:27.330
+<v Chemistry 1015>is there a positive difference?
+Is there a negative difference?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/30-3
+00:04:27.330 --> 00:04:31.408
+<v Chemistry 1015>It just says, is there a difference?
+And that's why we go with the two-tailed</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/30-4
+00:04:31.408 --> 00:04:31.669
+<v Chemistry 1015>test.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/31-0
+00:04:32.749 --> 00:04:35.989
+<v Chemistry 1015>Then our test statistic calculation is
+step 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/32-0
+00:04:40.469 --> 00:04:44.389
+<v Chemistry 1015>And we have to kind of split this up into
+2.1 and 2.2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/33-0
+00:04:46.389 --> 00:04:49.035
+<v Chemistry 1015>And 2.
+1 would be finding the pooled variance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/33-1
+00:04:49.035 --> 00:04:50.949
+<v Chemistry 1015>I emphasize that that comes first.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/34-0
+00:04:54.269 --> 00:04:56.389
+<v Chemistry 1015>OK, and we learned that the pool variance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/35-0
+00:04:58.669 --> 00:04:59.749
+<v Chemistry 1015>Is SB squared?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/36-0
+00:05:00.869 --> 00:05:03.349
+<v Chemistry 1015>Equal to N 1 - 1.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/37-0
+00:05:04.509 --> 00:05:10.639
+<v Chemistry 1015>times S 1 squared,
+which is variance 1 squared,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/37-1
+00:05:10.639 --> 00:05:15.109
+<v Chemistry 1015>plus N 2 minus 1 times S 2 squared.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/38-0
+00:05:18.309 --> 00:05:21.589
+<v Chemistry 1015>Divided by N1 plus N2 minus 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/39-0
+00:05:24.469 --> 00:05:29.829
+<v Chemistry 1015>So, subbing everything in,
+N 1 - 1 is going to be 9 times that.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/40-0
+00:05:30.789 --> 00:05:33.749
+<v Chemistry 1015>Sample variance or of 1809.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/41-0
+00:05:34.549 --> 00:05:36.629
+<v Chemistry 1015>Point 8222.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/42-0
+00:05:38.069 --> 00:05:42.229
+<v Chemistry 1015>Plus N 2 - 1 is also 9 multiplied by.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/43-0
+00:05:43.309 --> 00:05:44.469
+<v Chemistry 1015>1058.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/44-0
+00:05:46.949 --> 00:05:48.389
+<v Chemistry 1015>Point 0111.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/45-0
+00:05:49.909 --> 00:05:56.069
+<v Chemistry 1015>And then we divide by 10 + 10 - 2,
+which would be 18.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/46-0
+00:05:58.309 --> 00:05:59.749
+<v Chemistry 1015>This will give you.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/47-0
+00:06:02.709 --> 00:06:07.585
+<v Chemistry 1015>1433.9167 will round to 4 decimal places.
+Generally,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/47-1
+00:06:07.585 --> 00:06:12.369
+<v Chemistry 1015>you should try and avoid this in an exam,
+but here,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/47-2
+00:06:12.369 --> 00:06:15.589
+<v Chemistry 1015>just for coherence with the slides,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/48-0
+00:06:18.829 --> 00:06:25.815
+<v Chemistry 1015>We are going to round four, and then 2.2,
+which is the actual calculation of the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/48-1
+00:06:25.815 --> 00:06:27.109
+<v Chemistry 1015>test statistic.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/49-0
+00:06:28.709 --> 00:06:30.389
+<v Chemistry 1015>Once we have the pooled variance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/50-0
+00:06:37.109 --> 00:06:39.429
+<v Chemistry 1015>is going to be the difference in sample
+means.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/51-0
+00:06:40.629 --> 00:06:46.356
+<v Chemistry 1015>That's our sample statistic,
+minus the difference in population means.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/51-1
+00:06:46.356 --> 00:06:50.712
+<v Chemistry 1015>That's what our hypothesis is saying
+something about,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/51-2
+00:06:50.712 --> 00:06:56.358
+<v Chemistry 1015>divided by the standard error,
+which is the square root of SP squared</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/51-3
+00:06:56.358 --> 00:07:00.229
+<v Chemistry 1015>times 1 over N1 plus 1 over N2. Okay,
+so notice</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/52-0
+00:07:00.629 --> 00:07:04.069
+<v Chemistry 1015>This is not the denominator, but it...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/53-0
+00:07:04.949 --> 00:07:08.469
+<v Chemistry 1015>forms a part of the denominator,
+which is why we needed to calculate it.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/54-0
+00:07:09.269 --> 00:07:09.989
+<v Chemistry 1015>First.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/55-0
+00:07:13.949 --> 00:07:21.115
+<v Chemistry 1015>Okay, so the difference in sample means,
+we can get that from our data.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/55-1
+00:07:21.115 --> 00:07:26.389
+<v Chemistry 1015>So sample mean one is 246.4.
+Sample mean 2 is 202.3.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/56-0
+00:07:28.069 --> 00:07:30.969
+<v Chemistry 1015>Generally,
+the question will say which one they want</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/56-1
+00:07:30.969 --> 00:07:35.509
+<v Chemistry 1015>to be X1 and which one they want to be X2.
+So here they clearly labeled it for us.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/57-0
+00:07:37.909 --> 00:07:42.949
+<v Chemistry 1015>Then, the difference in population mean?
+Well, remember that...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/58-0
+00:07:44.389 --> 00:07:47.680
+<v Chemistry 1015>This comes back to what the null
+hypothesis is saying.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/58-1
+00:07:47.680 --> 00:07:51.030
+<v Chemistry 1015>The null hypothesis is claiming there is
+no difference.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/58-2
+00:07:51.030 --> 00:07:53.962
+<v Chemistry 1015>So we will use that assumption of no
+difference.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/58-3
+00:07:53.962 --> 00:07:58.389
+<v Chemistry 1015>So hereby the difference in population
+means you will just sub in a zero.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/59-0
+00:08:03.189 --> 00:08:06.069
+<v Chemistry 1015>basically will have no effect on the
+numerator,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/59-1
+00:08:06.069 --> 00:08:10.149
+<v Chemistry 1015>but just to show you where it comes from,
+we can put that in there.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/59-2
+00:08:10.149 --> 00:08:11.589
+<v Chemistry 1015>And then we divide by...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/61-0
+00:08:20.069 --> 00:08:23.189
+<v Chemistry 1015>Times 1 / 10 1 / 10.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/62-0
+00:08:25.989 --> 00:08:27.109
+<v Chemistry 1015>And that will give us.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/63-0
+00:08:28.869 --> 00:08:33.349
+<v Chemistry 1015>2.6041, so that is our T-stat.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/66-0
+00:08:50.149 --> 00:08:53.589
+<v Chemistry 1015>And then step 3 would be the critical
+value.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/68-0
+00:09:05.029 --> 00:09:05.669
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/69-0
+00:09:06.549 --> 00:09:07.989
+<v Chemistry 1015>Very important to remember.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/70-0
+00:09:09.749 --> 00:09:14.180
+<v Chemistry 1015>Because this is now a T critical value,
+so it's dependent on degrees of freedom</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/70-1
+00:09:14.180 --> 00:09:15.509
+<v Chemistry 1015>as well as alpha over 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/71-0
+00:09:16.709 --> 00:09:18.149
+<v Chemistry 1015>The degrees of freedom.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/72-0
+00:09:19.189 --> 00:09:23.663
+<v Chemistry 1015>For A2 sample test,
+I'm not saying to tail,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/72-1
+00:09:23.663 --> 00:09:28.949
+<v Chemistry 1015>I'm saying to sample,
+so where you have two groups.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/73-0
+00:09:37.509 --> 00:09:43.123
+<v Chemistry 1015>is that. So it's not N minus 1.
+We have to take into account both of our</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/73-1
+00:09:43.123 --> 00:09:46.814
+<v Chemistry 1015>samples.
+So this is what our degrees of freedom</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/73-2
+00:09:46.814 --> 00:09:47.429
+<v Chemistry 1015>becomes.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/74-0
+00:09:49.429 --> 00:09:50.789
+<v Chemistry 1015>Basically, from each.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/75-0
+00:09:51.669 --> 00:09:54.229
+<v Chemistry 1015>From each sample,
+you lose 1 degree of freedom.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/76-0
+00:09:55.989 --> 00:09:59.157
+<v Chemistry 1015>because you have to estimate the mean
+first.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/76-1
+00:09:59.157 --> 00:10:03.029
+<v Chemistry 1015>So that is why the total degrees of
+freedom lost is 2,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/76-2
+00:10:03.029 --> 00:10:08.309
+<v Chemistry 1015>based on the total sample size of N1 plus
+N2. Okay, so it's going to be T.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/77-0
+00:10:09.509 --> 00:10:14.069
+<v Chemistry 1015>Crit, which is equal to T dependent on.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/78-0
+00:10:15.029 --> 00:10:15.429
+<v Chemistry 1015>Um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/80-0
+00:10:17.029 --> 00:10:21.873
+<v Chemistry 1015>N1 plus N2 minus 2 as well as alpha over
+2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/80-1
+00:10:21.873 --> 00:10:29.909
+<v Chemistry 1015>So that will be T depending on 18 degrees
+of freedom and alpha of 0.025.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/81-0
+00:10:31.509 --> 00:10:35.029
+<v Chemistry 1015>That will be,
+and we go to our calculator for that.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/83-0
+00:10:47.269 --> 00:10:50.229
+<v Chemistry 1015>Yeah, so 18 goes in first.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/84-0
+00:10:51.109 --> 00:10:56.365
+<v Chemistry 1015>as our degrees of freedom.
+Now remember this is a probability to T</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/84-1
+00:10:56.365 --> 00:11:00.601
+<v Chemistry 1015>value calculation.
+So we'll start with our degrees of</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/84-2
+00:11:00.601 --> 00:11:03.189
+<v Chemistry 1015>freedom and then we'll say shift.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/85-0
+00:11:05.029 --> 00:11:05.829
+<v Chemistry 1015>Inverse.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/86-0
+00:11:08.309 --> 00:11:08.869
+<v Chemistry 1015>Two.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/87-0
+00:11:10.029 --> 00:11:13.749
+<v Chemistry 1015>And then we'll provide our probability,
+and then we'll say equals.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/88-0
+00:11:16.309 --> 00:11:20.309
+<v Chemistry 1015>So, 18 shift inverse 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/89-0
+00:11:22.069 --> 00:11:31.234
+<v Chemistry 1015>0.025 equals. That is minus 2.1009,
+but I'll take it as plus minus since it's</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/89-1
+00:11:31.234 --> 00:11:33.349
+<v Chemistry 1015>a two-tailed test.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/91-0
+00:11:43.269 --> 00:11:45.589
+<v Chemistry 1015>Then we can come to our decision.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/92-0
+00:11:46.869 --> 00:11:47.589
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/93-0
+00:11:49.509 --> 00:11:51.989
+<v Chemistry 1015>Here are our two critical values,
+so we've got...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/94-0
+00:11:52.949 --> 00:11:57.109
+<v Chemistry 1015>Minus 2.1 and plus 2.1.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/95-0
+00:11:58.469 --> 00:11:59.749
+<v Chemistry 1015>We've got zero in the middle.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/96-0
+00:12:00.789 --> 00:12:02.469
+<v Chemistry 1015>And we had a T start of...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/97-0
+00:12:06.309 --> 00:12:08.069
+<v Chemistry 1015>2.6041</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/98-0
+00:12:15.589 --> 00:12:17.429
+<v Chemistry 1015>That will end up somewhere.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/99-0
+00:12:19.109 --> 00:12:23.669
+<v Chemistry 1015>To the right of our positive critical
+value.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/100-0
+00:12:24.829 --> 00:12:27.269
+<v Chemistry 1015>which would land it in the rejection
+region.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/101-0
+00:12:28.469 --> 00:12:29.509
+<v Chemistry 1015>So, the decision.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/102-0
+00:12:34.869 --> 00:12:35.669
+<v Chemistry 1015>Since...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/103-0
+00:12:37.429 --> 00:12:38.389
+<v Chemistry 1015>T start.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/104-0
+00:12:39.549 --> 00:12:43.669
+<v Chemistry 1015>2.6041 is greater than T crypt.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/105-0
+00:12:46.909 --> 00:12:52.389
+<v Chemistry 1015>Of 2.1009, we reject the null hypothesis.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/106-0
+00:12:56.149 --> 00:13:00.407
+<v Chemistry 1015>at alpha of 0.05.
+And then whenever we reject the null</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/106-1
+00:13:00.407 --> 00:13:04.588
+<v Chemistry 1015>hypothesis,
+we have found sufficient evidence for the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/106-2
+00:13:04.588 --> 00:13:08.149
+<v Chemistry 1015>alternative.
+So there is sufficient evidence.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/107-0
+00:13:13.989 --> 00:13:15.749
+<v Chemistry 1015>That the two groups.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/108-0
+00:13:18.949 --> 00:13:19.829
+<v Chemistry 1015>Are different.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/118-0
+00:14:15.189 --> 00:14:15.509
+<v Chemistry 1015>It.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/119-0
+00:14:24.949 --> 00:14:25.589
+<v Chemistry 1015>And then...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/120-0
+00:14:26.749 --> 00:14:29.749
+<v Chemistry 1015>The slides don't appear to have the
+P-value approach.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/121-0
+00:14:30.949 --> 00:14:33.664
+<v Chemistry 1015>But I always show the P-value approach as
+well,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/121-1
+00:14:33.664 --> 00:14:36.549
+<v Chemistry 1015>because you could be asked either one in
+the exam.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/122-0
+00:14:40.149 --> 00:14:42.058
+<v Chemistry 1015>So,
+let's just take it quickly from the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/122-1
+00:14:42.058 --> 00:14:42.869
+<v Chemistry 1015>p-value approach.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/123-0
+00:14:43.989 --> 00:14:44.629
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/124-0
+00:14:53.349 --> 00:14:59.589
+<v Chemistry 1015>Reminder that the test statistic which
+we'll need is 2.6041.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/125-0
+00:15:02.229 --> 00:15:05.109
+<v Chemistry 1015>The P-value, this is a two-tailed test.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/126-0
+00:15:06.389 --> 00:15:10.203
+<v Chemistry 1015>So,
+it's going to be two times the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/126-1
+00:15:10.203 --> 00:15:12.709
+<v Chemistry 1015>probability that T sat.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/127-0
+00:15:15.349 --> 00:15:19.269
+<v Chemistry 1015>is less than minus 2.6041.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/128-0
+00:15:25.189 --> 00:15:27.845
+<v Chemistry 1015>Okay,
+so this will be two times some</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/128-1
+00:15:27.845 --> 00:15:31.649
+<v Chemistry 1015>probability.
+We'll get that from the calculator in a</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/128-2
+00:15:31.649 --> 00:15:36.960
+<v Chemistry 1015>moment. Just showing you the steps here.
+It's A t-value to a probability.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/128-3
+00:15:36.960 --> 00:15:40.549
+<v Chemistry 1015>So we are going to supply our degrees of
+freedom.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/129-0
+00:15:41.589 --> 00:15:46.485
+<v Chemistry 1015>Then we're going to say shift straight to
+the T to P function.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/129-1
+00:15:46.485 --> 00:15:52.314
+<v Chemistry 1015>And then you'll put in your 2.6041.
+Then remember to change the sign using</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/129-2
+00:15:52.314 --> 00:15:55.733
+<v Chemistry 1015>plus minus,
+because we want it as negative.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/129-3
+00:15:55.733 --> 00:15:57.909
+<v Chemistry 1015>And then you can say equals.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/130-0
+00:16:03.589 --> 00:16:10.354
+<v Chemistry 1015>And our degrees of freedom for this is
+the same as when we found the critical</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/130-1
+00:16:10.354 --> 00:16:14.170
+<v Chemistry 1015>value.
+It's going to be N1 plus N2 minus 2,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/130-2
+00:16:14.170 --> 00:16:18.506
+<v Chemistry 1015>so it will be 18. So we can start,
+we can say 18,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/130-3
+00:16:18.506 --> 00:16:23.189
+<v Chemistry 1015>and then we can say shift 2,
+and then we can say 2.6.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/131-0
+00:16:23.669 --> 00:16:27.029
+<v Chemistry 1015>Oh, 41 and change the sign.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/132-0
+00:16:28.229 --> 00:16:33.589
+<v Chemistry 1015>and we can say equals. That will be 0.
+008972.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/133-0
+00:16:40.389 --> 00:16:43.109
+<v Chemistry 1015>And then we can multiply that by two.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/134-0
+00:16:56.949 --> 00:17:00.869
+<v Chemistry 1015>And there's our final p-value,
+and then the decision we can make.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/135-0
+00:17:08.309 --> 00:17:10.229
+<v Chemistry 1015>We can say P-value.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/136-0
+00:17:11.829 --> 00:17:19.029
+<v Chemistry 1015>Of 0.01794 is less than alpha of 0.05.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/137-0
+00:17:20.389 --> 00:17:22.709
+<v Chemistry 1015>So, we reject the null.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/138-0
+00:17:27.189 --> 00:17:32.263
+<v Chemistry 1015>And then I'm just going to say dot, dot,
+dot to imply that it's the same exact</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/138-1
+00:17:32.263 --> 00:17:36.309
+<v Chemistry 1015>interpretation as we just had for the
+critical value approach.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/139-0
+00:17:37.389 --> 00:17:42.049
+<v Chemistry 1015>The 2 approaches will never come to a
+different conclusion. If they do,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/139-1
+00:17:42.049 --> 00:17:45.349
+<v Chemistry 1015>then something has gone wrong in the
+calculations.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/140-0
+00:17:47.509 --> 00:17:47.749
+<v Chemistry 1015>E.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/141-0
+00:17:50.989 --> 00:17:59.672
+<v Chemistry 1015>And then we can also emphasize that the
+same approach or the same conclusion can</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/141-1
+00:17:59.672 --> 00:18:04.389
+<v Chemistry 1015>be reached with the confidence interval.
+So</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/142-0
+00:18:05.589 --> 00:18:08.229
+<v Chemistry 1015>This is how we would interpret the
+confidence interval.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/143-0
+00:18:09.509 --> 00:18:12.549
+<v Chemistry 1015>or calculate and then interpret.
+So remember.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/144-0
+00:18:16.309 --> 00:18:20.513
+<v Chemistry 1015>Even if I had not given you the formula
+for the confidence interval,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/144-1
+00:18:20.513 --> 00:18:23.377
+<v Chemistry 1015>which the slides did,
+I should be able to say,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/144-2
+00:18:23.377 --> 00:18:27.824
+<v Chemistry 1015>give me a confidence interval,
+and you should be able to find it because</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/144-3
+00:18:27.824 --> 00:18:31.967
+<v Chemistry 1015>it's just statistic plus minus critical
+value times standard error.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/144-4
+00:18:31.967 --> 00:18:34.709
+<v Chemistry 1015>And statistic you get in the hypothesis
+test</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/145-0
+00:18:35.109 --> 00:18:40.229
+<v Chemistry 1015>critical value you get in the hypothesis
+test and standard error you get in the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/145-1
+00:18:40.229 --> 00:18:43.941
+<v Chemistry 1015>hypothesis test.
+So none of the components we're going to</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/145-2
+00:18:43.941 --> 00:18:47.717
+<v Chemistry 1015>use here are new.
+It's just a reuse of the same components</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/145-3
+00:18:47.717 --> 00:18:49.829
+<v Chemistry 1015>for a different purpose. So here,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/146-0
+00:18:51.029 --> 00:18:52.149
+<v Chemistry 1015>It's the statistic.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/147-0
+00:18:54.549 --> 00:19:00.144
+<v Chemistry 1015>that we observe the difference in the
+observed difference in sample means,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/147-1
+00:19:00.144 --> 00:19:05.589
+<v Chemistry 1015>plus minus the T value depending on
+degrees of freedom and alpha over 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/148-0
+00:19:06.549 --> 00:19:08.349
+<v Chemistry 1015>And we multiply that with the.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/149-0
+00:19:09.829 --> 00:19:15.952
+<v Chemistry 1015>Standard error which is SP squared or
+square root of SP squared times one over</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/149-1
+00:19:15.952 --> 00:19:17.269
+<v Chemistry 1015>N 1 + 1 over N 2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/150-0
+00:19:18.549 --> 00:19:25.189
+<v Chemistry 1015>So, subbing everything in, we've got 246.
+4 minus 202.3.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/151-0
+00:19:26.789 --> 00:19:32.160
+<v Chemistry 1015>Plus minus,
+we just calculated our critical value as</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/151-1
+00:19:32.160 --> 00:19:32.869
+<v Chemistry 1015>2.1009.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/152-0
+00:19:33.949 --> 00:19:35.749
+<v Chemistry 1015>and we've got square root of...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/153-0
+00:19:37.829 --> 00:19:45.349
+<v Chemistry 1015>1433.9167 * 1 / 10 1 / 10.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/154-0
+00:19:54.229 --> 00:19:55.429
+<v Chemistry 1015>So that will give us.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/162-0
+00:20:56.429 --> 00:20:58.149
+<v Chemistry 1015>Okay,
+I just lost my calculation because I</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/162-1
+00:20:58.149 --> 00:21:00.309
+<v Chemistry 1015>pressed the wrong button.
+So I'm going to start over.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/165-0
+00:21:23.189 --> 00:21:24.629
+<v Chemistry 1015>Okay, so it should be.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/166-0
+00:21:27.429 --> 00:21:28.789
+<v Chemistry 1015>Thirty-five point.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/167-0
+00:21:30.069 --> 00:21:31.189
+<v Chemistry 1015>Five 7.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/168-0
+00:21:35.989 --> 00:21:38.389
+<v Chemistry 1015>I'm just going to take it to 4 decimal
+places.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/170-0
+00:21:41.189 --> 00:21:45.029
+<v Chemistry 1015>And then that should give you the
+following confidence interval.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/176-0
+00:22:21.029 --> 00:22:22.149
+<v Chemistry 1015>Okay, so...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/177-0
+00:22:25.429 --> 00:22:30.461
+<v Chemistry 1015>There is the confidence interval.
+Slightly different from the slides</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/177-1
+00:22:30.461 --> 00:22:34.983
+<v Chemistry 1015>confidence interval.
+The problem is I rounded differently now</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/177-2
+00:22:34.983 --> 00:22:39.578
+<v Chemistry 1015>than the slides rounded.
+They rounded a different intermediate</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/177-3
+00:22:39.578 --> 00:22:41.109
+<v Chemistry 1015>value than I did, but</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/178-0
+00:22:43.749 --> 00:22:47.899
+<v Chemistry 1015>In an exam, again, I caution,
+just round final answers,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/178-1
+00:22:47.899 --> 00:22:53.012
+<v Chemistry 1015>don't round intermediate values,
+because that's where problems start</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/178-2
+00:22:53.012 --> 00:22:56.866
+<v Chemistry 1015>happening.
+We do have a certain tolerance for wrong</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/178-3
+00:22:56.866 --> 00:22:57.829
+<v Chemistry 1015>decimals, but</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/179-0
+00:22:59.029 --> 00:23:03.263
+<v Chemistry 1015>Best is to only round final answers,
+but the conclusion that we can reach,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/179-1
+00:23:03.263 --> 00:23:06.254
+<v Chemistry 1015>so here is the lower bound,
+here is the upper bound,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/179-2
+00:23:06.254 --> 00:23:10.149
+<v Chemistry 1015>the conclusion that we can reach,
+remember that our null hypothesis.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/180-0
+00:23:11.349 --> 00:23:17.989
+<v Chemistry 1015>Is mu 1 minus mu 2 = 0 and the
+alternative mu 1 minus mu 2?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/181-0
+00:23:19.749 --> 00:23:23.458
+<v Chemistry 1015>not equal 0.
+So the question that you ask yourself</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/181-1
+00:23:23.458 --> 00:23:28.476
+<v Chemistry 1015>with the confidence interval,
+you look at this null hypothesis value</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/181-2
+00:23:28.476 --> 00:23:31.749
+<v Chemistry 1015>and you ask yourself,
+is it in the interval?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/182-0
+00:23:37.029 --> 00:23:39.313
+<v Chemistry 1015>Okay,
+so we've got a positive value and we've</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/182-1
+00:23:39.313 --> 00:23:41.349
+<v Chemistry 1015>got a positive value, which means that...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/183-0
+00:23:42.549 --> 00:23:46.869
+<v Chemistry 1015>We never had to cross zero in this
+interval, so since...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/184-0
+00:23:50.149 --> 00:23:52.669
+<v Chemistry 1015>mu 1 minus mu 2 of 0.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/185-0
+00:23:54.309 --> 00:23:55.909
+<v Chemistry 1015>Is not in the interval.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/186-0
+00:24:00.789 --> 00:24:02.869
+<v Chemistry 1015>You would also come to the conclusion.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/187-0
+00:24:04.069 --> 00:24:06.389
+<v Chemistry 1015>that you reject the null hypothesis.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/188-0
+00:24:07.669 --> 00:24:11.610
+<v Chemistry 1015>At alpha equals 0.
+05 dot dot dot meaning the other</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/188-1
+00:24:11.610 --> 00:24:16.309
+<v Chemistry 1015>interpretation from the critical value
+approach also applies.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/190-0
+00:24:31.989 --> 00:24:32.549
+<v Chemistry 1015>Okay.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/191-0
+00:24:35.669 --> 00:24:37.349
+<v Chemistry 1015>Are there any questions about that?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/192-0
+00:24:38.789 --> 00:24:40.229
+<v Chemistry 1015>Or does it make sense?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/193-0
+00:24:41.829 --> 00:24:42.389
+<v Chemistry 1015>Yes.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/194-0
+00:24:52.269 --> 00:24:56.191
+<v Chemistry 1015>Does not equal 0. Yeah,
+I can see how it looks like a 70,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/194-1
+00:24:56.191 --> 00:24:59.909
+<v Chemistry 1015>but it does not equal 0 as the
+alternative hypothesis.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/196-0
+00:25:12.549 --> 00:25:12.949
+<v Chemistry 1015>Okay.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/197-0
+00:25:14.789 --> 00:25:16.469
+<v Chemistry 1015>Right, so, um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/200-0
+00:25:27.749 --> 00:25:31.909
+<v Chemistry 1015>You'll see that in the slides there are
+some Excel slides.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/201-0
+00:25:33.269 --> 00:25:40.214
+<v Chemistry 1015>We're not going to do those in class.
+I will show you how to do the Excel part</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/201-1
+00:25:40.214 --> 00:25:41.269
+<v Chemistry 1015>in the tuts.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/202-0
+00:25:42.149 --> 00:25:47.581
+<v Chemistry 1015>But I won't place as much emphasis on
+that from now on because now when we</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/202-1
+00:25:47.581 --> 00:25:50.985
+<v Chemistry 1015>prepare,
+we prepare keeping in mind that A2 is</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/202-2
+00:25:50.985 --> 00:25:55.692
+<v Chemistry 1015>written, not on Excel.
+So it would still be good if you knew how</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/202-3
+00:25:55.692 --> 00:26:00.037
+<v Chemistry 1015>to do it in Excel.
+It's part of the outcome of this module,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/202-4
+00:26:00.037 --> 00:26:02.789
+<v Chemistry 1015>but I'll spend less time on the Excel.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/203-0
+00:26:04.069 --> 00:26:05.109
+<v Chemistry 1015>Then, um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/204-0
+00:26:10.029 --> 00:26:14.752
+<v Chemistry 1015>Okay, we did briefly discuss this,
+but remember that we kind of make the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/204-1
+00:26:14.752 --> 00:26:19.927
+<v Chemistry 1015>assumption that the two variances are
+equal between the two independent groups.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/204-2
+00:26:19.927 --> 00:26:24.067
+<v Chemistry 1015>There is a situation where the unknown
+variances are not equal.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/204-3
+00:26:24.067 --> 00:26:28.789
+<v Chemistry 1015>So now the two samples are no longer
+estimating the same thing. They are</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/205-0
+00:26:29.269 --> 00:26:33.548
+<v Chemistry 1015>You have to use each sample to estimate
+its own variance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/205-1
+00:26:33.548 --> 00:26:38.342
+<v Chemistry 1015>The way that you then have to combine the
+variance is different,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/205-2
+00:26:38.342 --> 00:26:42.695
+<v Chemistry 1015>and the steps of the t-test is different.
+Luckily for you,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/205-3
+00:26:42.695 --> 00:26:46.309
+<v Chemistry 1015>this is not covered in the scope of this
+course.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/206-0
+00:26:47.589 --> 00:26:48.069
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/207-0
+00:26:49.509 --> 00:26:49.909
+<v Chemistry 1015>AM.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/208-0
+00:26:50.989 --> 00:26:55.341
+<v Chemistry 1015>You do not have to worry about that.
+I did the same thing with my research.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/208-1
+00:26:55.341 --> 00:26:59.865
+<v Chemistry 1015>If there's something very complicated
+that I do not wish to discuss in a paper</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/208-2
+00:26:59.865 --> 00:27:02.442
+<v Chemistry 1015>or in my thesis,
+at the very end I just say,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/208-3
+00:27:02.442 --> 00:27:05.649
+<v Chemistry 1015>this and this and this is not in the
+scope of my study,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/208-4
+00:27:05.649 --> 00:27:09.829
+<v Chemistry 1015>and then I've covered myself,
+so I don't have to explain it any further.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/209-0
+00:27:10.309 --> 00:27:18.549
+<v Chemistry 1015>So now we're going to quickly look at the
+second case, which is related samples.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/210-0
+00:27:20.949 --> 00:27:25.584
+<v Chemistry 1015>I don't know how far we'll get or if
+we'll be able to do the example,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/210-1
+00:27:25.584 --> 00:27:26.709
+<v Chemistry 1015>but let's just...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/211-0
+00:27:27.909 --> 00:27:32.541
+<v Chemistry 1015>start talking about it. At the very least,
+you'll then know kind of what it is</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/211-1
+00:27:32.541 --> 00:27:35.648
+<v Chemistry 1015>before recess.
+And the reason I say before recess is</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/211-2
+00:27:35.648 --> 00:27:38.990
+<v Chemistry 1015>because on Friday,
+I won't be speaking about chapter 10.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/211-3
+00:27:38.990 --> 00:27:43.270
+<v Chemistry 1015>I'll be speaking about the A1.
+And remember, I'm not recording that one.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/211-4
+00:27:43.270 --> 00:27:45.029
+<v Chemistry 1015>So I'm speaking about it once.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/212-0
+00:27:45.909 --> 00:27:46.789
+<v Chemistry 1015>And then it's done.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/213-0
+00:27:48.469 --> 00:27:49.509
+<v Chemistry 1015>Okay, so...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/216-0
+00:28:00.789 --> 00:28:06.449
+<v Chemistry 1015>Do you remember the distinction I made
+between independent groups and related</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/216-1
+00:28:06.449 --> 00:28:07.029
+<v Chemistry 1015>samples?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/217-0
+00:28:08.309 --> 00:28:11.349
+<v Chemistry 1015>Spoke about it at the very beginning, so..
+.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/218-0
+00:28:16.229 --> 00:28:19.349
+<v Chemistry 1015>Remember that independent groups,
+if you're comparing 2 means.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/219-0
+00:28:26.469 --> 00:28:28.629
+<v Chemistry 1015>You might say I'm comparing.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/220-0
+00:28:31.989 --> 00:28:32.869
+<v Chemistry 1015>Average.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/221-0
+00:28:35.189 --> 00:28:36.309
+<v Chemistry 1015>Starting salary.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/222-0
+00:28:42.389 --> 00:28:46.389
+<v Chemistry 1015>Between UCT and Stellenbosch.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/223-0
+00:28:47.669 --> 00:28:48.469
+<v Chemistry 1015>Graduates.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/224-0
+00:28:51.429 --> 00:28:58.949
+<v Chemistry 1015>So I will take a sample from UCT and I
+will take a sample from Stellenbosch.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/225-0
+00:29:00.229 --> 00:29:02.069
+<v Chemistry 1015>Here in one.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/226-0
+00:29:03.189 --> 00:29:04.789
+<v Chemistry 1015>Does not necessarily.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/227-0
+00:29:05.989 --> 00:29:09.083
+<v Chemistry 1015>Have to equal into,
+so the sample sizes don't necessarily</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/227-1
+00:29:09.083 --> 00:29:10.149
+<v Chemistry 1015>have to be the same.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/229-0
+00:29:24.789 --> 00:29:26.629
+<v Chemistry 1015>They can be, but they don't have to be.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/230-0
+00:29:29.589 --> 00:29:31.669
+<v Chemistry 1015>The sampling is done independently.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/233-0
+00:29:45.909 --> 00:29:49.409
+<v Chemistry 1015>So the two groups are sampled randomly
+and independently from each other.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/233-1
+00:29:49.409 --> 00:29:52.389
+<v Chemistry 1015>So what we did over here does not affect
+what we do over here.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/234-0
+00:29:53.909 --> 00:29:56.712
+<v Chemistry 1015>And the problem with this kind of setup,
+or okay,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/234-1
+00:29:56.712 --> 00:30:00.971
+<v Chemistry 1015>maybe I shouldn't call it a problem,
+but the characteristic of this kind of</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/234-2
+00:30:00.971 --> 00:30:03.269
+<v Chemistry 1015>setup is that there's usually, because...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/235-0
+00:30:04.469 --> 00:30:08.416
+<v Chemistry 1015>You've just taken two groups and you're
+observing something about them.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/235-1
+00:30:08.416 --> 00:30:10.389
+<v Chemistry 1015>There are many sources of variation.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/236-0
+00:30:19.349 --> 00:30:24.047
+<v Chemistry 1015>We're also not doing a person-to-person
+comparison with this kind of setup.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/236-1
+00:30:24.047 --> 00:30:27.509
+<v Chemistry 1015>We're doing an overall mean to overall
+mean comparison.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/240-0
+00:30:58.269 --> 00:31:03.739
+<v Chemistry 1015>That is what we have just concluded.
+Those are the general characteristics of</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/240-1
+00:31:03.739 --> 00:31:07.946
+<v Chemistry 1015>the type of test or the type of setup
+we've just concluded.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/240-2
+00:31:07.946 --> 00:31:09.909
+<v Chemistry 1015>Now we are moving over to...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/241-0
+00:31:11.189 --> 00:31:12.469
+<v Chemistry 1015>Related samples.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/242-0
+00:31:25.269 --> 00:31:27.269
+<v Chemistry 1015>And I specifically...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/244-0
+00:31:28.389 --> 00:31:31.302
+<v Chemistry 1015>Gave you a little summary of independent
+groups,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/244-1
+00:31:31.302 --> 00:31:35.998
+<v Chemistry 1015>because I want you to see how it's now
+going to change when we come to related</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/244-2
+00:31:35.998 --> 00:31:39.029
+<v Chemistry 1015>samples. So,
+there are two types of ways we can...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/245-0
+00:31:40.229 --> 00:31:44.469
+<v Chemistry 1015>do related samples generally.
+The one is paired samples.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/246-0
+00:31:50.789 --> 00:31:53.189
+<v Chemistry 1015>And the other one is repeated measures.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/249-0
+00:32:04.949 --> 00:32:05.829
+<v Chemistry 1015>Okay, so...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/250-0
+00:32:07.429 --> 00:32:11.616
+<v Chemistry 1015>In illustration,
+I like to always use the analogy of</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/250-1
+00:32:11.616 --> 00:32:17.935
+<v Chemistry 1015>clinical trials because this type of
+design usually pops up in clinical trials.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/250-2
+00:32:17.935 --> 00:32:23.464
+<v Chemistry 1015>That does not mean that this is only a
+setup used in clinical trials.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/250-3
+00:32:23.464 --> 00:32:26.149
+<v Chemistry 1015>As you'll see in the example, they</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/251-0
+00:32:26.309 --> 00:32:31.041
+<v Chemistry 1015>use a non-medical example.
+But it's just my preference to do it like</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/251-1
+00:32:31.041 --> 00:32:34.743
+<v Chemistry 1015>this because it's often what is used in
+that setting.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/251-2
+00:32:34.743 --> 00:32:37.829
+<v Chemistry 1015>So it's a nice way to see how it happens.
+So</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/252-0
+00:32:39.349 --> 00:32:43.605
+<v Chemistry 1015>For example,
+you will have in paired samples a control</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/252-1
+00:32:43.605 --> 00:32:44.069
+<v Chemistry 1015>group.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/253-0
+00:32:51.349 --> 00:32:55.669
+<v Chemistry 1015>So,
+the control group will receive a placebo.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/254-0
+00:32:59.749 --> 00:33:01.749
+<v Chemistry 1015>Do you guys know what a placebo is?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/255-0
+00:33:03.269 --> 00:33:09.359
+<v Chemistry 1015>So it's a, they'll get a little pill,
+but that pill will be basically a sugar</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/255-1
+00:33:09.359 --> 00:33:15.605
+<v Chemistry 1015>pulse or just any other substance that's
+not supposed to have any effect on the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/255-2
+00:33:15.605 --> 00:33:19.041
+<v Chemistry 1015>body.
+And then you'll also have a treatment</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/255-3
+00:33:19.041 --> 00:33:19.509
+<v Chemistry 1015>group.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/256-0
+00:33:26.069 --> 00:33:29.669
+<v Chemistry 1015>So the treatment group will actually
+receive treatment.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/257-0
+00:33:36.789 --> 00:33:37.429
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/258-0
+00:33:38.949 --> 00:33:40.309
+<v Chemistry 1015>There, they have a group where...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/259-0
+00:33:41.109 --> 00:33:43.739
+<v Chemistry 1015>they're given nothing,
+so that's the baseline.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/259-1
+00:33:43.739 --> 00:33:47.599
+<v Chemistry 1015>And then they have a group where they're
+given the actual treatment.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/259-2
+00:33:47.599 --> 00:33:49.109
+<v Chemistry 1015>And we're going to compare.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/260-0
+00:33:50.509 --> 00:33:54.389
+<v Chemistry 1015>Does treatment group end up looking
+different from baseline group?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/261-0
+00:33:55.269 --> 00:33:59.725
+<v Chemistry 1015>And it's important to have a baseline to
+start the comparison with.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/261-1
+00:33:59.725 --> 00:34:02.149
+<v Chemistry 1015>What they're going to try to do, yes?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/262-0
+00:34:06.709 --> 00:34:07.429
+<v Chemistry 1015>So...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/263-0
+00:34:09.189 --> 00:34:12.305
+<v Chemistry 1015>They,
+it's basically a double-blind study where</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/263-1
+00:34:12.305 --> 00:34:17.369
+<v Chemistry 1015>I think the person might be aware that if
+they know how clinical trials work,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/263-2
+00:34:17.369 --> 00:34:22.432
+<v Chemistry 1015>they might be aware that they're either
+going to get the drug or the placebo,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/263-3
+00:34:22.432 --> 00:34:26.522
+<v Chemistry 1015>but they're not supposed to be told which
+one they're getting.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/263-4
+00:34:26.522 --> 00:34:28.989
+<v Chemistry 1015>So it's double-blind in the sense that</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/264-0
+00:34:29.069 --> 00:34:32.239
+<v Chemistry 1015>patient doesn't know whether they're
+getting treatment or placebo,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/264-1
+00:34:32.239 --> 00:34:35.977
+<v Chemistry 1015>and then the person administering the
+treatment doesn't know if they're giving</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/264-2
+00:34:35.977 --> 00:34:37.349
+<v Chemistry 1015>the treatment or the placebo.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/265-0
+00:34:38.549 --> 00:34:41.611
+<v Chemistry 1015>In reality,
+this often doesn't work that way.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/265-1
+00:34:41.611 --> 00:34:46.269
+<v Chemistry 1015>It's called breaking blind.
+So somehow the person will figure it out,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/265-2
+00:34:46.269 --> 00:34:49.663
+<v Chemistry 1015>but it's supposed to be as controlled as
+possible.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/265-3
+00:34:49.663 --> 00:34:53.989
+<v Chemistry 1015>So the idea here is to try and have
+similar pairs across groups.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/268-0
+00:35:08.349 --> 00:35:12.603
+<v Chemistry 1015>So here we have treatment pair or
+treatment group,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/268-1
+00:35:12.603 --> 00:35:15.189
+<v Chemistry 1015>and here we have control group.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/269-0
+00:35:16.629 --> 00:35:22.382
+<v Chemistry 1015>So you'll have person one in treatment,
+you'll have person one in control,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/269-1
+00:35:22.382 --> 00:35:27.752
+<v Chemistry 1015>you'll have person two in treatment,
+you'll have person 2 in control,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/269-2
+00:35:27.752 --> 00:35:31.357
+<v Chemistry 1015>and so on and so on. Here,
+N1 has to equal N2,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/269-3
+00:35:31.357 --> 00:35:35.269
+<v Chemistry 1015>because you have to have a matched pair
+each time.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/270-0
+00:35:35.589 --> 00:35:39.994
+<v Chemistry 1015>So this is very important. Now,
+you can't have the case where N1 can</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/270-1
+00:35:39.994 --> 00:35:41.909
+<v Chemistry 1015>possibly be different than N2.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/271-0
+00:35:46.069 --> 00:35:49.029
+<v Chemistry 1015>And you're going to try and make it so
+that this person...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/272-0
+00:35:49.909 --> 00:35:51.029
+<v Chemistry 1015>at this person.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/273-0
+00:35:51.909 --> 00:35:52.709
+<v Chemistry 1015>Are similar.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/274-0
+00:35:56.389 --> 00:35:56.949
+<v Chemistry 1015>So that...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/275-0
+00:36:00.149 --> 00:36:04.192
+<v Chemistry 1015>there is fairgrounds for comparison.
+So one of the main aims with related</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/275-1
+00:36:04.192 --> 00:36:04.629
+<v Chemistry 1015>samples.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/276-0
+00:36:05.829 --> 00:36:08.309
+<v Chemistry 1015>is to try and reduce.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-0
+00:36:09.989 --> 00:36:14.185
+<v Chemistry 1015>sources of variation.
+So that the only source of variation is</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-1
+00:36:14.185 --> 00:36:17.298
+<v Chemistry 1015>whether you're actually giving the
+treatment.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-2
+00:36:17.298 --> 00:36:21.967
+<v Chemistry 1015>And that is done so that nothing
+confounds the effects of the study.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-3
+00:36:21.967 --> 00:36:25.351
+<v Chemistry 1015>You can't have the person in the
+treatment group,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-4
+00:36:25.351 --> 00:36:30.156
+<v Chemistry 1015>person number one in treatment,
+be someone who has very obvious health</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/277-5
+00:36:30.156 --> 00:36:30.629
+<v Chemistry 1015>issues.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/278-0
+00:36:30.869 --> 00:36:35.391
+<v Chemistry 1015>and then person one in control group is a
+very healthy individual.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/278-1
+00:36:35.391 --> 00:36:39.440
+<v Chemistry 1015>That will confuse the study. So ideally,
+they'd have twins,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/278-2
+00:36:39.440 --> 00:36:45.108
+<v Chemistry 1015>or that doesn't always work out that way.
+So it has been done where they have a set</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/278-3
+00:36:45.108 --> 00:36:48.550
+<v Chemistry 1015>of twins,
+and one twin goes into treatment and one</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/278-4
+00:36:48.550 --> 00:36:50.709
+<v Chemistry 1015>twin goes into control, and then</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/279-0
+00:36:50.949 --> 00:36:55.715
+<v Chemistry 1015>It's very nice to see the effects of the
+treatment, but that doesn't always happen.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/279-1
+00:36:55.715 --> 00:36:58.949
+<v Chemistry 1015>So at the very least,
+they try and have them be similar.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/280-0
+00:37:00.949 --> 00:37:05.276
+<v Chemistry 1015>health profiles or age profiles or some
+similar set of demographics. Okay,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/280-1
+00:37:05.276 --> 00:37:09.487
+<v Chemistry 1015>so there are two distinct groups,
+but we try and pair them up as well as</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/280-2
+00:37:09.487 --> 00:37:12.544
+<v Chemistry 1015>possible.
+And each person will have a little friend.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/280-3
+00:37:12.544 --> 00:37:16.294
+<v Chemistry 1015>So person in treatment will have some
+related person in control,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/280-4
+00:37:16.294 --> 00:37:20.909
+<v Chemistry 1015>and we're going to be comparing what
+happens between those two people directly.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/281-0
+00:37:21.509 --> 00:37:21.829
+<v Chemistry 1015>Um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/282-0
+00:37:25.029 --> 00:37:28.568
+<v Chemistry 1015>Now, with repeated measures,
+that's the other way you can do this.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/282-1
+00:37:28.568 --> 00:37:30.469
+<v Chemistry 1015>So the difference is it's one group.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/283-0
+00:37:34.069 --> 00:37:35.269
+<v Chemistry 1015>And you measure.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/284-0
+00:37:36.869 --> 00:37:38.149
+<v Chemistry 1015>Before treatment.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/285-0
+00:37:43.189 --> 00:37:44.469
+<v Chemistry 1015>and after treatment.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/286-0
+00:37:49.949 --> 00:37:52.629
+<v Chemistry 1015>Okay, so you'll have before.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/287-0
+00:37:53.749 --> 00:37:57.288
+<v Chemistry 1015>So here we'll have person one, two,
+and so on and so on.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/287-1
+00:37:57.288 --> 00:38:01.509
+<v Chemistry 1015>But we don't take a new person for after,
+we take that same person.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/288-0
+00:38:04.949 --> 00:38:06.069
+<v Chemistry 1015>And we just look at...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/289-0
+00:38:07.029 --> 00:38:11.989
+<v Chemistry 1015>what happened to them after the treatment.
+What was the result after the treatment?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/290-0
+00:38:12.869 --> 00:38:17.909
+<v Chemistry 1015>On some set of on some timeline.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/291-0
+00:38:20.629 --> 00:38:24.421
+<v Chemistry 1015>This kind of study design has its own
+challenges.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/291-1
+00:38:24.421 --> 00:38:29.653
+<v Chemistry 1015>So some people will fail to show up for
+their follow-up measurement.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/291-2
+00:38:29.653 --> 00:38:33.673
+<v Chemistry 1015>Sometimes they're not studied in a
+hospital setting.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/291-3
+00:38:33.673 --> 00:38:38.829
+<v Chemistry 1015>They might be asked to return for after
+measurement and some don't.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/292-0
+00:38:40.869 --> 00:38:44.652
+<v Chemistry 1015>This happens too.
+People die before they can be measured</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/292-1
+00:38:44.652 --> 00:38:46.709
+<v Chemistry 1015>after it does happen. So, um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/293-0
+00:38:47.869 --> 00:38:51.058
+<v Chemistry 1015>This kind of study also has its own
+problems.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/293-1
+00:38:51.058 --> 00:38:54.108
+<v Chemistry 1015>So all sorts of measurement error comes
+in.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/293-2
+00:38:54.108 --> 00:38:57.990
+<v Chemistry 1015>And then you have to discard that
+observation entirely.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/293-3
+00:38:57.990 --> 00:39:02.150
+<v Chemistry 1015>So paired samples has the challenge of
+how to match people.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/293-4
+00:39:02.150 --> 00:39:07.349
+<v Chemistry 1015>Repeated measures has the challenge of
+people might drop out of the study.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/294-0
+00:39:08.069 --> 00:39:13.509
+<v Chemistry 1015>due to refusing to keep going or some
+sort of unfortunate circumstance.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/295-0
+00:39:15.109 --> 00:39:18.709
+<v Chemistry 1015>Um, so what we all do, um...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/296-0
+00:39:20.629 --> 00:39:23.669
+<v Chemistry 1015>How we actually treat these values
+statistically.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/297-0
+00:39:25.869 --> 00:39:31.163
+<v Chemistry 1015>is I'm going to now change it from
+treatment and control and before and</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/297-1
+00:39:31.163 --> 00:39:35.722
+<v Chemistry 1015>after, just to a generic X1 and X2.
+So X1 could be treatment,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/297-2
+00:39:35.722 --> 00:39:40.869
+<v Chemistry 1015>it could be before. This is your X1 group,
+and this is your X2 group.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/298-0
+00:39:43.109 --> 00:39:50.494
+<v Chemistry 1015>So that could be before, that could be,
+X1 could be before, it could be treatment,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/298-1
+00:39:50.494 --> 00:39:55.566
+<v Chemistry 1015>or X2 could be after, or control,
+doesn't really matter.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/298-2
+00:39:55.566 --> 00:40:01.349
+<v Chemistry 1015>So you'll have observation X11, X12, X13,
+all the way up to X1n.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/299-0
+00:40:02.229 --> 00:40:14.148
+<v Chemistry 1015>Then for this group here, you'll have X21,
+X22, X23, all the way down to X21,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/299-1
+00:40:14.148 --> 00:40:15.829
+<v Chemistry 1015>I mean X2n.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/300-0
+00:40:19.269 --> 00:40:24.789
+<v Chemistry 1015>You'll then create a new column,
+which is your differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/301-0
+00:40:27.429 --> 00:40:30.229
+<v Chemistry 1015>So, you will have difference one.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/302-0
+00:40:31.429 --> 00:40:32.229
+<v Chemistry 1015>Equal to.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/303-0
+00:40:33.389 --> 00:40:39.782
+<v Chemistry 1015>X11 minus X21,
+so you take the difference across these</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/303-1
+00:40:39.782 --> 00:40:43.269
+<v Chemistry 1015>difference 2 will be equal to.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/305-0
+00:40:44.469 --> 00:40:49.436
+<v Chemistry 1015>X12 minus X22,
+so you'll take the difference across</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/305-1
+00:40:49.436 --> 00:40:53.829
+<v Chemistry 1015>these, and so on and so on,
+until you have...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/306-0
+00:40:55.669 --> 00:40:57.269
+<v Chemistry 1015>In differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/310-0
+00:41:19.349 --> 00:41:22.469
+<v Chemistry 1015>So here you'll have your set of
+differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/311-0
+00:41:31.509 --> 00:41:34.629
+<v Chemistry 1015>and then you'll work out the mean of
+differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/312-0
+00:41:41.989 --> 00:41:44.861
+<v Chemistry 1015>So,
+the mean is just the simple arithmetic</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/312-1
+00:41:44.861 --> 00:41:47.934
+<v Chemistry 1015>mean,
+so D with a bar on top to indicate that</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/312-2
+00:41:47.934 --> 00:41:48.869
+<v Chemistry 1015>it's the mean.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/313-0
+00:41:49.829 --> 00:41:51.829
+<v Chemistry 1015>equal to 1 over N.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/314-0
+00:41:53.069 --> 00:41:57.829
+<v Chemistry 1015>summation from i = 1 up to N of each DI
+difference.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/315-0
+00:41:59.749 --> 00:42:02.309
+<v Chemistry 1015>You'll work out the standard deviation of
+differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/317-0
+00:42:15.349 --> 00:42:17.349
+<v Chemistry 1015>So we call that SD.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/318-0
+00:42:18.869 --> 00:42:20.309
+<v Chemistry 1015>And that is the square root.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/319-0
+00:42:24.309 --> 00:42:29.989
+<v Chemistry 1015>Of 1 / n - 1 times the summation from i =
+1 to N.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/320-0
+00:42:30.869 --> 00:42:33.429
+<v Chemistry 1015>of each difference minus its mean.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/321-0
+00:42:35.029 --> 00:42:35.589
+<v Chemistry 1015>Squared.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/322-0
+00:42:37.869 --> 00:42:42.461
+<v Chemistry 1015>Okay, so slightly different notation,
+but it's the same way to get an average</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/322-1
+00:42:42.461 --> 00:42:46.229
+<v Chemistry 1015>and the same way to get a standard
+deviation as we are used to.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/323-0
+00:42:47.669 --> 00:42:49.589
+<v Chemistry 1015>And this comes to a...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/324-0
+00:42:52.149 --> 00:42:55.337
+<v Chemistry 1015>T-stat,
+which is used for the hypothesis test,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/324-1
+00:42:55.337 --> 00:42:56.829
+<v Chemistry 1015>which will have the...</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/325-0
+00:42:58.309 --> 00:43:00.469
+<v Chemistry 1015>Sample mean observed.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/326-0
+00:43:01.429 --> 00:43:03.349
+<v Chemistry 1015>of the observed differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/327-0
+00:43:05.429 --> 00:43:07.109
+<v Chemistry 1015>Minus the hypothesized.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/328-0
+00:43:10.069 --> 00:43:11.029
+<v Chemistry 1015>Differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/329-0
+00:43:13.669 --> 00:43:18.986
+<v Chemistry 1015>divided by the standard deviation of the
+differences over the square root of N.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/329-1
+00:43:18.986 --> 00:43:23.905
+<v Chemistry 1015>This should look very familiar to you,
+because it's literally your t-test</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/329-2
+00:43:23.905 --> 00:43:29.022
+<v Chemistry 1015>statistic from a one-sample setting,
+which has just been given some slightly</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/329-3
+00:43:29.022 --> 00:43:31.149
+<v Chemistry 1015>updated notation. So this is the</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/330-0
+00:43:32.629 --> 00:43:34.389
+<v Chemistry 1015>sample mean of the differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/331-0
+00:43:44.469 --> 00:43:46.309
+<v Chemistry 1015>This is the hypothesis mean.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/332-0
+00:43:51.589 --> 00:43:53.509
+<v Chemistry 1015>And this is the standard error.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/333-0
+00:44:00.309 --> 00:44:03.429
+<v Chemistry 1015>And what do you guys think the degrees of
+freedom are here?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/334-0
+00:44:08.469 --> 00:44:11.109
+<v Chemistry 1015>Yes. N minus 1. Why?</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/335-0
+00:44:12.549 --> 00:44:16.217
+<v Chemistry 1015>because it's only one group.
+We started with two groups,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/335-1
+00:44:16.217 --> 00:44:20.656
+<v Chemistry 1015>but then we combined them into one row or
+one column of differences.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/335-2
+00:44:20.656 --> 00:44:24.388
+<v Chemistry 1015>So now it is again, back to,
+it was a two sample setting,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/335-3
+00:44:24.388 --> 00:44:27.991
+<v Chemistry 1015>but it went to a one sample setting.
+So very important,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/335-4
+00:44:27.991 --> 00:44:30.629
+<v Chemistry 1015>the degrees of freedom are now N minus 1.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/338-0
+00:44:47.629 --> 00:44:48.309
+<v Chemistry 1015>OK, so.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/339-0
+00:44:50.669 --> 00:44:53.989
+<v Chemistry 1015>A big source of mistakes.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/340-0
+00:44:55.269 --> 00:44:59.949
+<v Chemistry 1015>in chapter 10 work is in the first
+setting, the independent group setting,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/340-1
+00:44:59.949 --> 00:45:04.629
+<v Chemistry 1015>forgetting that the degrees of freedom
+have changed to N1 plus N2 minus 2,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/340-2
+00:45:04.629 --> 00:45:08.810
+<v Chemistry 1015>and then coming to the second setting,
+the related sample setting,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/340-3
+00:45:08.810 --> 00:45:13.864
+<v Chemistry 1015>forgetting that the degrees of freedom
+revert back to what they were for chapter</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/340-4
+00:45:13.864 --> 00:45:13.989
+<v Chemistry 1015>9.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/341-0
+00:45:19.349 --> 00:45:23.602
+<v Chemistry 1015>All right,
+and then we definitely won't have time</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/341-1
+00:45:23.602 --> 00:45:26.749
+<v Chemistry 1015>for the example, so we'll start that.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/342-0
+00:45:28.189 --> 00:45:29.429
+<v Chemistry 1015>when we are fresh again.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/343-0
+00:45:32.789 --> 00:45:37.794
+<v Chemistry 1015>But you can have a look in the meantime
+at the form of the hypotheses.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/343-1
+00:45:37.794 --> 00:45:42.517
+<v Chemistry 1015>I will talk about it again,
+but if you would like to look ahead at</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/343-2
+00:45:42.517 --> 00:45:42.869
+<v Chemistry 1015>that.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/344-0
+00:45:44.309 --> 00:45:50.006
+<v Chemistry 1015>And then for those of your friends that
+have opted to not come to the classes,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/344-1
+00:45:50.006 --> 00:45:55.630
+<v Chemistry 1015>just remind them that the work goes on.
+So if they have missed these classes,</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/344-2
+00:45:55.630 --> 00:45:59.019
+<v Chemistry 1015>it is,
+the onus is on them to watch the videos</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/344-3
+00:45:59.019 --> 00:46:00.749
+<v Chemistry 1015>because I am, I have to.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/352-0
+00:46:40.869 --> 00:46:41.429
+<v Chemistry 1015>Thank you.</v>
+
+37b7acb1-1c92-4376-bf93-c76e865f5a24/353-0
+00:46:44.709 --> 00:46:46.789
+<v Chemistry 1015>And then also,
+will there be a pack to them?</v>

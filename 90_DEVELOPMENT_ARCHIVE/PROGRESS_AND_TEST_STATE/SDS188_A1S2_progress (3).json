@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "userState": {
+    "activeView": "now",
+    "scratch": "",
+    "currentQuestionId": null
+  },
+  "mastery": {},
+  "attempts": [],
+  "repairs": [],
+  "retrievalSchedule": [],
+  "simulations": [],
+  "trainingBlocks": [],
+  "excelEvidence": {},
+  "settings": {
+    "closedBook": false,
+    "timerMinutes": 90
+  },
+  "sourceAcknowledgements": {},
+  "legacyV10History": null,
+  "legacyReadHistory": false
+}

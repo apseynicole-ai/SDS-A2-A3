@@ -1,0 +1,4425 @@
+﻿Group 2 - Mr H Sadiq
+Completion requirements
+Welcome to SDS188-2025 Group 2 resource page. This page contains OneDrive links to a variety of resources referenced in class. Kindly note that most of the links require that you sign in with your SUN details, apologies for the inconvenience.
+ 
+Lecturer: Mr Hassan Sadiq
+	Office
+	E-Mail
+	Book Consultation
+	Room 2028, Van der Sterr Building
+	hassans@sun.ac.za
+	Online || In-Person
+	a
+Meetings                        
+	Lecture (1024, Van der Sterr Building)
+	Practical (Neelsie E01.1 - E01.2)
+	Monday
+	Tuesday
+	Thursday
+	Monday
+	08h10 - 09h00
+	11h10 - 12h00
+	12h10 - 13h00
+	12h10 - 14h00
+	a
+Resources
+	Chapter 07
+	Chapter 08
+	Chapter 09
+	Lec.
+	Tut.
+	Xtra (Data)
+	Lec.
+	Tut.
+	Xtra (Data)
+	Lec.
+	Tut.
+	Xtra (Data)
+	HP 10bII+ Help File
+	 
+	S02 Summary
+	Last modified: Tuesday, 1 September 2026, 5:23 AM
+
+
+SDS188 G3 Lecture 2 [In-person]
+October 8, 2024
+(Van Der Sterr Building 1011)
+0 minutes 4 seconds
+0:04
+0 minutes 4 seconds
+And we've seen two of these values yesterday, the first table.
+0 minutes 10 seconds
+In our regression output is the regression statistics.
+0 minutes 21 seconds
+So not all software will call it that, but you'll mostly get Excel output anyway.
+0 minutes 30 seconds
+The Excel output starts with the regression statistics where they have multiple R.
+0 minutes 39 seconds
+R ^2.
+0 minutes 46 seconds
+Adjusted R ^2.
+0 minutes 56 seconds
+In a word.
+1 minute 1 second
+Adjusted R-squared and then standard error.
+1 minute 9 seconds
+And lastly, number of observations.
+1 minute 16 seconds
+As mentioned.
+38 minutes 38 seconds
+Mostly remember mostly applicable to our time series data.
+38 minutes 43 seconds
+So not only are we looking at curvature or this kind of any kind of relationship, if it's not for linear, for the linearity assumption we look at linearity.
+38 minutes 56 seconds
+For this one, we're going to look at.
+38 minutes 57 seconds
+Patterns.
+38 minutes 59 seconds
+Over time.
+39 minutes
+So typically X will be a time variable time related variable.
+39 minutes 5 seconds
+So if we can see a pattern with something's actually increasing over time.
+39 minutes 10 seconds
+Or that it increases decreases increases decreases.
+39 minutes 10 seconds
+Or that it increases decreases increases.
+39 minutes 13 seconds
+There's a cycle going on. That's an indication that it's not independent.
+39 minutes 18 seconds
+So when working with a time series, if they if we do notice a pattern in our residuals, that would be an indication that.
+39 minutes 27 seconds
+Within our residuals, we should actually consider maybe another variable.
+39 minutes 32 seconds
+So say for example, we haven't considered.
+39 minutes 38 seconds
+I don't know if we maybe forgot about some kind of site seasonal variable such as.
+39 minutes 46 seconds
+Christmas expenditures or something. Then we need to remember to add that into our model and then check again until our residuals are looking like this.
+39 minutes 56 seconds
+So to see if they have an example on that.
+40 minutes 1 second
+Yes, and since this, this is what you would.
+40 minutes 3 seconds
+Write.
+40 minutes 4 seconds
+If they if your data is not a time series since this data was not collected over time, you don't need to check for independence.
+40 minutes 11 seconds
+So.
+40 minutes 12 seconds
+That's all you have to do if they ask if they have. If it's very vague and they just ask you to check all of the assumptions.
+40 minutes 18 seconds
+And they you obviously go down in the going down the line for RINE.
+40 minutes 22 seconds
+NE then you don't have to check independence even at a time series, and we don't often actually give you guys time series data.
+40 minutes 31 seconds
+So it's very it's quite rare to have that one, but don't just say that.
+40 minutes 36 seconds
+Can never never be asked.
+40 minutes 36 seconds
+Can never never be.
+40 minutes 37 seconds
+It's just that it doesn't happen often.
+40 minutes 42 seconds
+Normality is the one that will require us to.
+40 minutes 48 seconds
+I think it's a plot that makes a bit of a comeback again, so we haven't really checked for the males since Chapter 6.
+40 minutes 53 seconds
+But.
+40 minutes 53 seconds
+All those same things apply evaluation for normality.
+40 minutes 58 seconds
+Did we?
+40 minutes 58 seconds
+Yeah, we didn't in Chapter 6 and also looking at symmetry from Chapter 3.
+41 minutes 6 seconds
+So checking for normality, we can use steam and leave display.
+41 minutes 11 seconds
+A box plot of the residuals.
+41 minutes 13 seconds
+Remember, we're not looking at Y&X having a normal distribution.
+41 minutes 16 seconds
+We're looking at the residuals having a normal distribution so we can have a histogram. If we have access to that, we have access to making a box plot or stim.
+41 minutes 27 seconds
+But you can also construct a normal probability plot.
+41 minutes 31 seconds
+So yeah, this isn't the first time that we coming across an old probability plot.
+41 minutes 36 seconds
+Strictly think it was chapter 3.
+41 minutes 43 seconds
+Either chapter 3 or Chapter 6.
+41 minutes 46 seconds
+We just check for the last bit.
+41 minutes 53 seconds
+I don't think we.
+41 minutes 56 seconds
+Wouldn't make sense in chapter 3 because we didn't.
+41 minutes 59 seconds
+Have as the normal distribution yet.
+42 minutes 3 seconds
+So.
+42 minutes 4 seconds
+Then it's probably chapter 6.
+42 minutes 12 seconds
+There was a whole section on that.
+42 minutes 20 seconds
+Yeah. So evaluating data for normality evaluate normal plot.
+42 minutes 25 seconds
+So it's exactly the same thing. We instead of XS, we just have es.
+42 minutes 29 seconds
+So this was the variable data X. So now we're going to replace everywhere we had X.
+42 minutes 36 seconds
+With our residuals.
+42 minutes 39 seconds
+So, as they say, we saw the residuals from small to large then where they had the alpha JS before. This is just going to be the π, but you can actually still call it alpha J if you really really want to.
+42 minutes 51 seconds
+But the same things apply for this one so.
+42 minutes 55 seconds
+Probability is the alpha J we had before where we have the index divided by N + 1.
+43 minutes 3 seconds
+Computer corresponding Z values.
+43 minutes 3 seconds
+Computer corresponding Z.
+43 minutes 5 seconds
+So still AZ value so we can basically compare.
+43 minutes 10 seconds
+This slide.
+43 minutes 15 seconds
+To the one from Chapter 6.
+43 minutes 21 seconds
+So this is actually exactly the same thing, but as I said, instead of X where we what we are in chapter 6, we just replace with our residuals E and we get the exact same type of plot though.
+43 minutes 34 seconds
+So we have our all of them.
+43 minutes 36 seconds
+We have.
+43 minutes 37 seconds
+In this case, was observed values on the vertical axis, but now we'll have our residuals on the vertical axis and so I'll say values on the X axis.
+43 minutes 48 seconds
+And we can still look for the same kind of curves in that one.
+43 minutes 52 seconds
+So we can use a lot of our Chapter 6 things.
+43 minutes 55 seconds
+For this elevation, evaluation of normality plot.
+44 minutes
+So no, it's not a perfect straight line like it could have been.
+44 minutes 5 seconds
+For example in this.
+44 minutes 8 seconds
+One so normal would be a straight line, then all left we skewed or right skewed.
+44 minutes 13 seconds
+This is close enough to a straight line, so that's why they say it's appropriate.
+44 minutes 21 seconds
+The yeah. So this is where these got through Li and N.
+44 minutes 27 seconds
+It isn't unimportant, but it does get asked in. I don't think there are any.
+44 minutes 35 seconds
+There are a lot of questions regarding this regulation diagnostics in the tutorial.
+44 minutes 42 seconds
+But we can look at more examples in revision, so this does. It doesn't mean that it's never going to be asked.
+44 minutes 49 seconds
+It can be asked even a long way or in a very very short way, or they can just give you a plot and ask you, OK, what assumption is.
+44 minutes 58 seconds
+This applicable to and is it appropriate or not?
+45 minutes 2 seconds
+Analysis So we can Friday, we can continue with the last one, equal variances assumptions and then finally our hypothesis tests and confidence intervals.
+45 minutes 15 seconds
+Don't think we're going to get through all of them, but.
+45 minutes 18 seconds
+We can at least find them on the output as well.
+45 minutes 22 seconds
+So yeah.
+45 minutes 25 seconds
+That's it for today.
+
+
+SDS188 G3 Practical [In-person]
+October 9, 2024
+
+
+(JanMouton_2017)
+0 minutes 3 seconds
+0:03
+0 minutes 3 seconds
+11 is the only one that actually requires you to really use Excel, but it's basically just for us to figure out how to actually get that output that they have in the slides.
+0 minutes 19 seconds
+So they even go through the steps in the question.
+0 minutes 27 seconds
+So they want us to consider the Excel data set called regression data that is on sunlearn and answer the questions that follow.
+0 minutes 39 seconds
+So there's not even a lot of questions.
+0 minutes 39 seconds
+So there's not even a lot of.
+0 minutes 41 seconds
+It's basically just get the output and look at it to be honest. So.
+0 minutes 49 seconds
+And then we can also just.
+0 minutes 54 seconds
+Let's just point out a lot of things and identify some values that we've been seeing in the slides.
+1 minute
+But I also have gone through this in class as well so.
+1 minute 6 seconds
+They want us to use the data analysis tool and then estimate the intercept and slope of the regression line between X&Y.
+1 minute 15 seconds
+And then we're going to look at all the other outputs.
+38 minutes 55 seconds
+So R-squared is the percentage of the OR the portion of the total variation in Y.
+39 minutes 1 second
+So in weekly sales.
+39 minutes 9 seconds
+That can be.
+39 minutes 12 seconds
+Well, that's at that can be explained.
+39 minutes 22 seconds
+By the total, sorry by not total, just variation by the variation.
+39 minutes 32 seconds
+In X which is shallow space.
+39 minutes 42 seconds
+So in the slides, there's the general interpretation.
+39 minutes 45 seconds
+You can literally just adjust that interpretation or the definition of the R-squared to the context of the problem that you are working with.
+39 minutes 53 seconds
+Whatever your Y is, whatever your X is and you just replace it in that.
+39 minutes 59 seconds
+In.
+39 minutes 59 seconds
+That in in that interpretation, and that will be that will be perfect.
+40 minutes 7 seconds
+So you first.
+40 minutes 8 seconds
+Either you have or screen or you calculate a ^2 and then you can interpret it exactly like this.
+40 minutes 19 seconds
+A Part B.
+40 minutes 23 seconds
+We have to determine the standard error of estimation.
+40 minutes 26 seconds
+Remember our formula for the standard error.
+40 minutes 34 seconds
+Is the square root of MSE.
+40 minutes 39 seconds
+So a bit of a challenge because we don't have SSE or we don't have MSE or SSE.
+40 minutes 45 seconds
+So we can first have to calculate SSE.
+40 minutes 49 seconds
+And then.
+40 minutes 53 seconds
+Basically then get get our degrees of freedom to get MSE, but thankfully our degrees of freedom is just based on our observations and the number the number of observations and the number of.
+41 minutes 6 seconds
+Excess or the number of parameters you're trying to estimate so.
+41 minutes 11 seconds
+1st we calculate SSE.
+41 minutes 16 seconds
+So since we already have SSR and SSD, all we have to do is.
+41 minutes 22 seconds
+Subtract SSR from SSD.
+41 minutes 30 seconds
+So SSD was 3.0025 and SSR was 2.0535.
+41 minutes 40 seconds
+That's.
+41 minutes 40 seconds
+Quite a simple calculation, so that's just 3.0025 -, 2.0535.
+41 minutes 49 seconds
+Can we get a value of 0.949?
+41 minutes 57 seconds
+That is our SSE.
+41 minutes 57 seconds
+That is our.
+41 minutes 58 seconds
+We still need to get our MSE so degrees of freedom associated with the residual.
+42 minutes 9 seconds
+Is equal to north -2, so summation the same data was 12 stores, so north is equal to 12.
+42 minutes 17 seconds
+12 -. 2 is equal to 10.
+42 minutes 23 seconds
+So to remember too, for the number of of parameters we estimating, so the one.
+42 minutes 30 seconds
+Parameter is beta node and the other one is beta one.
+42 minutes 35 seconds
+Or you can also think about it as N minus the number of XS -1.
+42 minutes 41 seconds
+So in general, I think in Chapter 14 we're actually going to refer to it as n, -, K, -, 1, because it's N minus the number of X's -1.
+42 minutes 52 seconds
+So that -1 comes from.
+42 minutes 54 seconds
+The intercept.
+42 minutes 57 seconds
+So yes, we are trying to estimate the coefficient associated with all of the XS, but we also are estimating at intercept coefficient.
+43 minutes 6 seconds
+So that's that's why it's in -2, so it's in minus the X, the 1X minus the intercept.
+43 minutes 14 seconds
+12 -, 2. That's 10.
+43 minutes 16 seconds
+So therefore our MSE.
+43 minutes 23 seconds
+It is 12, right?
+43 minutes 23 seconds
+It is 12.
+43 minutes 24 seconds
+I'm just double check, yeah.
+43 minutes 27 seconds
+Mse is equal to SSE divided by 10.
+43 minutes 34 seconds
+So that he says oh .949 / 10.
+43 minutes 44 seconds
+That is just 0.0949.
+43 minutes 50 seconds
+And then finally, we can get our standard error of the estimate.
+43 minutes 55 seconds
+As the square root of that value, so square root of 0.0949.
+44 minutes 5 seconds
+Square root of answer.
+44 minutes 9 seconds
+So there we get a standard error of 0.308.
+44 minutes 15 seconds
+Around that.
+44 minutes 16 seconds
+So that will be 6 and then it's be one.
+44 minutes 25 seconds
+That is our standard error of the estimate.
+44 minutes 27 seconds
+So now we can use the R-squared and possibly the standard error of the estimate.
+44 minutes 32 seconds
+If we don't feel like we calculated for no reason.
+44 minutes 36 seconds
+To just comment on the usefulness of this regression model.
+44 minutes 43 seconds
+O the first one would be to look at the R ^2.
+44 minutes 50 seconds
+Because ideally we would want this value to be high, because that means that.
+44 minutes 56 seconds
+Majority of the variation in Y can be explained by the variation in X, which means that.
+45 minutes 4 seconds
+X&Y definitely do have a relationship, and they have quite a strong relationship seeing as as X moves, Y also moves around the same the same way.
+45 minutes 16 seconds
+So 0.6839.
+45 minutes 19 seconds
+And if we look at the standard error of the estimate, if we remember this is a value that we can compare.
+45 minutes 23 seconds
+Without observed Y values.
+45 minutes 27 seconds
+So let's look at our standard error relative to our observed YS.
+45 minutes 37 seconds
+Yeah, this will still be in terms of the same wise that we have over there.
+45 minutes 41 seconds
+So the wise range, I think the smallest value of the Y that we can see is 1.4.
+45 minutes 50 seconds
+And the largest is 3.1.
+45 minutes 54 seconds
+So since it rains between 1.4 and 3.10, point 3 is.
+46 minutes
+Moderately small.
+46 minutes 4 seconds
+If we think about.
+46 minutes 7 seconds
+Minus.
+46 minutes 12 seconds
+Open 3 is kind of it's too small, but it's not too large so.
+46 minutes 18 seconds
+It's not bad, but it's not good.
+46 minutes 20 seconds
+So the if you have to comment in general, we can firstly look at the R ^2.
+46 minutes 27 seconds
+So this is.
+46 minutes 31 seconds
+AI.
+46 minutes 31 seconds
+Think this is the right answer as well.
+46 minutes 33 seconds
+This is a moderately useful model.
+46 minutes 48 seconds
+Since the R ^2.
+46 minutes 53 seconds
+Indicates.
+46 minutes 56 seconds
+A.
+46 minutes 58 seconds
+It's not a strong linear relationship either. Indicates.
+47 minutes 3 seconds
+A.
+47 minutes 3 seconds
+Moderately strong.
+47 minutes 7 seconds
+A.
+
+
+
+
+
+
+SDS188 G6 Practical [In-person]
+October 17, 2024
+
+
+Monday 21/09 lecture recording
+September 21, 2026
+
+
+Krotoa 1012
+0 minutes 53 seconds
+0:53
+Krotoa 1012 0 minutes 53 seconds
+Good morning, everybody. It's good to see you all again. So we are starting a new chapter today.
+Krotoa 1012 1 minute 2 seconds
+Chapter 13. And like I said, this is the second last chapter. It's called Simple Linear Regression. And then the last chapter is called Multiple Linear Regression. So it builds on the same themes. So we're going to start with kind of a
+Krotoa 1012 1 minute 23 seconds
+Motivational example to help you understand.
+Krotoa 1012 1 minute 30 seconds
+The idea behind it.
+Krotoa 1012 1 minute 33 seconds
+OK, so let's say, for example, on the x-axis is...
+Krotoa 1012 1 minute 39 seconds
+The number of hours that...
+Krotoa 1012 1 minute 42 seconds
+or the average number of hours studied per week.
+Krotoa 1012 1 minute 52 seconds
+And then Y, on the y-axis we measure.
+Krotoa 1012 1 minute 57 seconds
+Final mark.
+Krotoa 1012 2 minutes 5 seconds
+Okay, so you guys are in first year. You tell me.
+Krotoa 1012 43 minutes 36 seconds
+make it relevant to this, you need your B0, your intercept. That is literally given as intercept. So that is going to be 98.24833.
+Krotoa 1012 43 minutes 53 seconds
+Plus my slope, so the slope.
+Krotoa 1012 43 minutes 58 seconds
+The name that it gets here is the name of the variable because the slope is connected to the X variable. So here the slope gets named square feet, but it's not the actual square feet. It is the slope that is related to the square feet. So that is 0.10977. Notice it's a positive slope because it's a positive.
+Krotoa 1012 44 minutes 17 seconds
+Linear relationship: if it was a negative linear relationship, it would have been a negative slope, so this is...
+Krotoa 1012 44 minutes 24 seconds
+0.109.
+Krotoa 1012 44 minutes 27 seconds
+77 and then you have to put in your XI. So for me, I'm happy with that. What I'm looking for is I want to see, did you put the hat over? Because yes, I will deduct marks if I don't see the hat. Because if you don't put the hat over, you're suggesting that's the actual Y.
+Krotoa 1012 44 minutes 46 seconds
+It's not the actual Y, it's the predicted Y for that X. I want to see that you've correctly identified the intercept. If you put X with the intercept, then I know you don't know what you're talking about. X goes with the slope. So I want three marks if I see those things. Now, if you want to be safe,
+Krotoa 1012 45 minutes 6 seconds
+I know it's also preferred if you can apply it to the context. So instead of Y hat I and XI, you could go.
+Krotoa 1012 45 minutes 16 seconds
+house price hat, for some reason, they like that, equals 98.24833 plus 0.10977 square feet, just to sub in what the variables are actually called in this specific context.
+Krotoa 1012 45 minutes 37 seconds
+I would mark correctly either one of these.
+Krotoa 1012 45 minutes 41 seconds
+But the marking gets split up between the lectures for this module. So if you want to be safe with all lecturers, I would say this is your best bet if you give the regression equation. But I think we get instructions to mark this and this both correct, because then you've identified everything right. So there's many more things on this Excel output.
+Krotoa 1012 46 minutes 2 seconds
+that we have to learn, but we're not going to jump in and learn everything on the first day that we learn this topic. So just warning you for now that this is one of the things we're going to have to get to know quite well, but you're already well on your way if you can interpret the regression equation from this output.
+Krotoa 1012 46 minutes 22 seconds
+Okay, and then we're almost done. There's not too much more I want to talk about, but if you went and plotted this exact regression line on top of your data, which is something that you can do, you will see that we have our lovely little intercept there. It crosses the x-axis at that point.
+Krotoa 1012 46 minutes 42 seconds
+And remember when we talked about the intercept, it's what the house price would be at 0 square feet.
+Krotoa 1012 46 minutes 50 seconds
+that is not, that doesn't make sense for the data. So sometimes a value of X equal to 0 would not make sense. So the intercept is sometimes just a theoretical quantity, not a practical quantity, because you would not have a house with 0 square feet. So the intercept is sometimes applicable, sometimes not. You'll still give the interpretation, so you'll still say,
+Krotoa 1012 47 minutes 14 seconds
+This is the value of Y when X is equal to 0, but it doesn't always have practical implications for the data because the data doesn't always extrapolate beyond a certain range. You see that house prices tend to start at 1,000 square feet. They don't really start fewer than that.
+Krotoa 1012 47 minutes 33 seconds
+And then here they end at 2,500 square feet. They don't really extrapolate beyond that. So we must also be careful not to extrapolate beyond the range of our data. That's an error that statisticians make to this day that they're not careful about. And then
+Krotoa 1012 47 minutes 52 seconds
+The slope is obviously not so easily seen from on this, if we just draw the line, the slope is implicit in the line. But one thing we can notice, like I said, it's a positive slope. So your line is
+Krotoa 1012 48 minutes 8 seconds
+positively sloped, that means as X increases, Y also increases. If you had a negative slope, it would look like that. As X increases, Y decreases. Then, just, there's your other marks that you get for interpretation. So saying what B0 is,
+Krotoa 1012 48 minutes 28 seconds
+Again, notice it says it has no practical application in this case because a house cannot have square footage of 0. And then if we look at the interpretation of the slope, it estimates the change in the mean value of Y as a result of 1 unit change in X. So they say,
+Krotoa 1012 48 minutes 45 seconds
+Here, this tells us that the mean value of a house increases by this, on average, for each additional 1 square foot of size. So, what they've done is they've just subbed out X&Y for price and square feet, and notice that they actually multiplied.
+Krotoa 1012 49 minutes 3 seconds
+the slope by $1,000. Why they can do that is because that is the units of y that was given to us when our data was given to us. So they said in the beginning, house price is in units of $1,000. So that is sometimes what they like to do.
+Krotoa 1012 49 minutes 22 seconds
+just to show that's completely applied to this context. We'll also look at a lot of examples of that.
+Krotoa 1012 49 minutes 30 seconds
+And then...
+Krotoa 1012 49 minutes 34 seconds
+You can also, okay, I'll stop there. We'll carry on when I see you next.
+Krotoa 1012 50 minutes 1 second
+Excellent.
+Krotoa 1012 50 minutes 7 seconds
+Shut up.
+Krotoa 1012 50 minutes 11 seconds
+Remind me.
+Krotoa 1012 50 minutes 17 seconds
+And then I read it, and it's like, it's not going to be something.
+Krotoa 1012 50 minutes 28 seconds
+Then, I'll be able to say there was a way to keep the machine, more I'll be able to say.
+Krotoa 1012 50 minutes 48 seconds
+I couldn't say yes, but I've got it across now at a venue across campus, so I have to like make my way there. So you can ask me tomorrow if you want, or you can e-mail me a screenshot. Thank you.
+Krotoa 1012 51 minutes 4 seconds
+I just quickly ask you, students have been asking when the A2 breakdown, like what we have to say for the A2 would be out. So the breakdown is basically everything in second semester. In second, so not the whole year? Yeah, not the whole year. A3 is the whole year, but A2 is everything in second semester. Okay.
+Krotoa 1012 51 minutes 23 seconds
+What else do they want to know? They wanted to know when the formula sheet that we will be given for the ETJ.
+
+
+Meeting with Stapelberg, K [kstapelberg@sun.ac.za]
+September 22, 2026
+Krotoa 1012
+0 minutes 54 seconds
+0:54
+Krotoa 1012 0 minutes 54 seconds
+OK, good morning, everybody.
+Krotoa 1012 0 minutes 56 seconds
+Good to see you all again. So, we are carrying on with the topic of simple linear regression.
+Krotoa 1012 1 minute 7 seconds
+And just kind of a...
+Krotoa 1012 1 minute 10 seconds
+recap of where we're at.
+Krotoa 1012 1 minute 19 seconds
+So, we start off with usually a scatter plot, and...
+Krotoa 1012 1 minute 33 seconds
+Can indicate.
+Krotoa 1012 1 minute 37 seconds
+That.
+Krotoa 1012 1 minute 41 seconds
+Their relationship.
+Krotoa 1012 1 minute 46 seconds
+Between X, X being our independent variable.
+Krotoa 1012 1 minute 58 seconds
+And why, why being our dependent variable?
+Krotoa 1012 40 minutes 11 seconds
+So, basically, what it does...
+Krotoa 1012 40 minutes 14 seconds
+Is it takes your SSR?
+Krotoa 1012 40 minutes 17 seconds
+and it divides it by the SST. So that tells us.
+Krotoa 1012 40 minutes 23 seconds
+What portion?
+Krotoa 1012 40 minutes 26 seconds
+Of the SST.
+Krotoa 1012 40 minutes 29 seconds
+is made-up.
+Krotoa 1012 40 minutes 32 seconds
+Of SSR.
+Krotoa 1012 40 minutes 37 seconds
+So, basically, it says...
+Krotoa 1012 40 minutes 40 seconds
+In other words...
+Krotoa 1012 40 minutes 42 seconds
+What portion?
+Krotoa 1012 40 minutes 46 seconds
+Of the total variance.
+Krotoa 1012 40 minutes 52 seconds
+Or variation, rather.
+Krotoa 1012 40 minutes 55 seconds
+I shouldn't say variance, because variance is a specific quantity. Variation is rather general.
+Krotoa 1012 41 minutes 3 seconds
+What portion of the total variation?
+Krotoa 1012 41 minutes 6 seconds
+Is made.
+Krotoa 1012 41 minutes 8 seconds
+Up of explained variation.
+Krotoa 1012 41 minutes 19 seconds
+So, this tells if this is high, remember this will now be between zero and one, because it's a proportion, so closer to one.
+Krotoa 1012 41 minutes 28 seconds
+So, R-squared will be...
+Krotoa 1012 41 minutes 32 seconds
+Between zero and one, and closer to one.
+Krotoa 1012 41 minutes 38 seconds
+Means.
+Krotoa 1012 41 minutes 41 seconds
+Model.
+Krotoa 1012 41 minutes 43 seconds
+Is.
+Krotoa 1012 41 minutes 46 seconds
+Explaining well.
+Krotoa 1012 41 minutes 54 seconds
+So, we ideally want our R-squared to be high.
+Krotoa 1012 42 minutes 2 seconds
+And then we just see some examples.
+Krotoa 1012 42 minutes 7 seconds
+Of different R-squares, so...
+Krotoa 1012 42 minutes 12 seconds
+In your ideal, your ideal r-squared of 1 would mean that there's literally a perfect linear relationship between X&Y, which says that sometimes we like to change the one into a percentage, so 100% of the variation in Y is explained by the variation in X.
+Krotoa 1012 42 minutes 33 seconds
+Um...
+Krotoa 1012 42 minutes 34 seconds
+More often than not, you'll get a r-squared that is weaker, so a weaker r-squared will say some, but not all of the variation in Y is explained by the variation in X.
+Krotoa 1012 42 minutes 48 seconds
+And then something like that would be your r-squared of 0, which would mean there's no linear relationship between X&Y, so your r-squared would be 0 in this case.
+Krotoa 1012 43 minutes
+So important for us is to know where to locate R squared on the Excel output. And it's quite easy because it is literally named R square. So if they give you the Excel output and they ask you to give the R squared, you just go look for R squared. And here it is, 0.58.
+Krotoa 1012 43 minutes 19 seconds
+082.
+Krotoa 1012 43 minutes 22 seconds
+The question will say, usually, it says, it will say give and interpret R-square. So in the interpretation, it's common to convert it to a percentage. So here it's 0.5808, but then in the interpretation, we say 58.08% of the variation in house prices is explained by the variation in square feet. So
+Krotoa 1012 43 minutes 45 seconds
+That's your guideline for the interpretation. Again, we care about how you phrase things, because that tells us if you understand the nuances. So interpretation.
+Krotoa 1012 44 minutes 3 seconds
+First of all, you can convert r-squared.
+Krotoa 1012 44 minutes 8 seconds
+To percentage, so if it's zero, so for example, if it's zero point...
+Krotoa 1012 44 minutes 16 seconds
+58082, it becomes 5808%, and then you say of the variation.
+Krotoa 1012 44 minutes 30 seconds
+And why?
+Krotoa 1012 44 minutes 32 seconds
+In this case, it is house prices, but I want you to see that it's always Y.
+Krotoa 1012 44 minutes 38 seconds
+Is explained.
+Krotoa 1012 44 minutes 43 seconds
+By the variation.
+Krotoa 1012 44 minutes 48 seconds
+In X, in this case, it's square feet.
+Krotoa 1012 44 minutes 52 seconds
+And here's what the slides don't say, but I would like you to add: when you give an interpretation in the assessment, so fifty-eight percent of the variation in Y is explained by the variation in X, through...
+Krotoa 1012 45 minutes 9 seconds
+the estimated linear model, then I will be really happy.
+Krotoa 1012 45 minutes 14 seconds
+because we're just acknowledging that this r-squared only exists in the current model that we have estimated. It's not a, it doesn't just exist by itself.
+Krotoa 1012 45 minutes 25 seconds
+Sorry, linear model.
+Krotoa 1012 45 minutes 31 seconds
+So, that's your roadmap or guideline for giving interpretation.
+Krotoa 1012 45 minutes 38 seconds
+In the exam.
+Krotoa 1012 45 minutes 42 seconds
+What do you do if r-squared is not given to you? Because sometimes we'll leave it out. Remember that you still have SST and SSR. And r-squared is just SSR over SST.
+Krotoa 1012 45 minutes 59 seconds
+So if we leave out r-squared, you go over here, you take your SST, your SSR, you calculate r-squared yourself. It's not difficult to calculate. You just need to know what you need in order to calculate it. Okay, so are you kind of seeing how we'll ask things? Well, say give things and interpret things.
+Krotoa 1012 46 minutes 19 seconds
+And then sometimes we'll leave things out, but you'll have enough information to compensate for what we've left out. So getting used to this Excel output is going to help you tremendously.
+Krotoa 1012 46 minutes 33 seconds
+Okay, and that is then my time.
+Krotoa 1012 46 minutes 37 seconds
+We'll pick this up on Friday.
+
+
+
+
+Monday 28/09 lecture
+September 28, 2026
+105 days
+•148 views•SharePoint App•HD
+WEBVTT
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/7-0
+00:00:37.702 --> 00:00:40.902
+<v Chemistry 1015>Okay, good morning everybody.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/8-0
+00:00:42.822 --> 00:00:45.462
+<v Chemistry 1015>It's good to see you all again.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/9-0
+00:00:46.742 --> 00:00:50.822
+<v Chemistry 1015>I hope you are feeling rested after the
+weekend.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/11-0
+00:00:52.502 --> 00:00:57.353
+<v Chemistry 1015>So we are,
+we're getting there slowly but surely.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/11-1
+00:00:57.353 --> 00:01:04.533
+<v Chemistry 1015>We are almost done with chapter 13 and
+then we have just chapter 14 left.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/11-2
+00:01:04.533 --> 00:01:11.422
+<v Chemistry 1015>I don't think chapter 14 is too long.
+And then we start looking ahead.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/12-0
+00:01:11.622 --> 00:01:14.182
+<v Chemistry 1015>And revising for A2.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/13-0
+00:01:15.302 --> 00:01:16.022
+<v Chemistry 1015>So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/14-0
+00:01:18.822 --> 00:01:24.822
+<v Chemistry 1015>Before we just jump into the coefficient
+of determination, I want to...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/15-0
+00:01:26.742 --> 00:01:30.229
+<v Chemistry 1015>give the overview of how everything fits
+in so far.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/15-1
+00:01:30.229 --> 00:01:35.125
+<v Chemistry 1015>So I'm going to write down steps. Now,
+these are not the official steps.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/15-2
+00:01:35.125 --> 00:01:40.222
+<v Chemistry 1015>These are just if I were to give a
+logical ordering to what is happening in</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/15-3
+00:01:40.222 --> 00:01:44.782
+<v Chemistry 1015>the regression pipeline,
+this is the ordering that I would give it.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/16-0
+00:01:45.142 --> 00:01:47.062
+<v Chemistry 1015>So, generally.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/17-0
+00:01:48.502 --> 00:01:53.302
+<v Chemistry 1015>Before you even start modelling anything,
+you would start with a scatter plot.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/18-0
+00:01:54.822 --> 00:01:56.102
+<v Chemistry 1015>So, a scatter plot.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/19-0
+00:02:01.142 --> 00:02:02.262
+<v Chemistry 1015>Suggests.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/20-0
+00:02:05.022 --> 00:02:06.102
+<v Chemistry 1015>A potential.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/21-0
+00:02:09.942 --> 00:02:12.462
+<v Chemistry 1015>Linear relationship.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/22-0
+00:02:16.182 --> 00:02:17.302
+<v Chemistry 1015>Between X&amp;Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/23-0
+00:02:26.422 --> 00:02:32.822
+<v Chemistry 1015>where X is your independent variable and
+Y is your dependent variable.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/24-0
+00:02:36.262 --> 00:02:37.622
+<v Chemistry 1015>Then, in Step Two...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/25-0
+00:02:38.702 --> 00:02:39.382
+<v Chemistry 1015>Would be.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/26-0
+00:02:41.702 --> 00:02:42.822
+<v Chemistry 1015>We estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/27-0
+00:02:48.182 --> 00:02:51.140
+<v Chemistry 1015>The regression equation,
+which one do we estimate?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/27-1
+00:02:51.140 --> 00:02:52.822
+<v Chemistry 1015>The one that looks like this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/28-0
+00:02:56.182 --> 00:03:01.542
+<v Chemistry 1015>Y-hat equal to B0 plus B1 times X.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/29-0
+00:03:04.662 --> 00:03:08.267
+<v Chemistry 1015>And specifically what we're looking for
+is B0 and B1,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/29-1
+00:03:08.267 --> 00:03:13.674
+<v Chemistry 1015>because X you get from the data and Y hat
+you just get after plugging everything</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/29-2
+00:03:13.674 --> 00:03:15.142
+<v Chemistry 1015>else into the formula.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/30-0
+00:03:17.062 --> 00:03:19.142
+<v Chemistry 1015>So you estimate this from the data?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/31-0
+00:03:21.142 --> 00:03:24.662
+<v Chemistry 1015>How do you estimate this using the least
+squares method?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/32-0
+00:03:31.342 --> 00:03:32.102
+<v Chemistry 1015>For you.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/33-0
+00:03:32.982 --> 00:03:33.862
+<v Chemistry 1015>That means...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/34-0
+00:03:35.302 --> 00:03:39.442
+<v Chemistry 1015>Either using the formulas or the
+calculator to get B0 and B1,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/34-1
+00:03:39.442 --> 00:03:44.182
+<v Chemistry 1015>or just reading it off of the Excel
+output, but if we were to do it...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-0
+00:03:45.382 --> 00:03:48.497
+<v Chemistry 1015>correctly.
+Most of the time we get software to do it,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-1
+00:03:48.497 --> 00:03:51.208
+<v Chemistry 1015>but if you did actually want to do it by
+hand,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-2
+00:03:51.208 --> 00:03:54.784
+<v Chemistry 1015>you have to minimise the error function.
+So the SSE function,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-3
+00:03:54.784 --> 00:03:57.956
+<v Chemistry 1015>you have to minimise that.
+You have to find B0 and B1,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-4
+00:03:57.956 --> 00:04:01.186
+<v Chemistry 1015>which produce the minimum SSE.
+But we spoke about that.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/35-5
+00:04:01.186 --> 00:04:05.742
+<v Chemistry 1015>We spoke about how that optimization is
+done, and we spoke about the fact that</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/36-0
+00:04:06.022 --> 00:04:09.997
+<v Chemistry 1015>You don't have to do that.
+You can just use the results which get</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/36-1
+00:04:09.997 --> 00:04:11.382
+<v Chemistry 1015>you the best estimates.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/37-0
+00:04:12.902 --> 00:04:13.382
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/38-0
+00:04:14.182 --> 00:04:17.222
+<v Chemistry 1015>And then we should also mention that this.
+..</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/39-0
+00:04:19.622 --> 00:04:22.422
+<v Chemistry 1015>is the sample estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/40-0
+00:04:24.862 --> 00:04:27.302
+<v Chemistry 1015>Which is, it's done on a sample of data.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/41-0
+00:04:28.342 --> 00:04:30.502
+<v Chemistry 1015>Of the population model.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/42-0
+00:04:32.742 --> 00:04:33.942
+<v Chemistry 1015>Remember, it's always...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/43-0
+00:04:34.902 --> 00:04:38.102
+<v Chemistry 1015>A sample estimate of something in the
+population.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/44-0
+00:04:39.062 --> 00:04:40.422
+<v Chemistry 1015>And it's no different here.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/45-0
+00:04:41.582 --> 00:04:47.294
+<v Chemistry 1015>When we have a regression function,
+so the population model looks like this:</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/45-1
+00:04:47.294 --> 00:04:49.222
+<v Chemistry 1015>it's Y equal to beta zero.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/46-0
+00:04:50.662 --> 00:04:54.697
+<v Chemistry 1015>plus beta 1 times X.
+Notice I've taken away the Y hat.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/46-1
+00:04:54.697 --> 00:04:59.539
+<v Chemistry 1015>It's not an estimate now.
+That is the actual relationship between</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/46-2
+00:04:59.539 --> 00:05:02.400
+<v Chemistry 1015>X&amp;
+Y if we were to assume a linear</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/46-3
+00:05:02.400 --> 00:05:06.508
+<v Chemistry 1015>relationship.
+And then we also have an additional error</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/46-4
+00:05:06.508 --> 00:05:10.102
+<v Chemistry 1015>term which is indicated with the symbol
+epsilon.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/47-0
+00:05:15.222 --> 00:05:19.029
+<v Chemistry 1015>So just a note,
+I've spoken about this before as well.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/47-1
+00:05:19.029 --> 00:05:21.382
+<v Chemistry 1015>We don't have to estimate epsilon.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/48-0
+00:05:24.822 --> 00:05:25.942
+<v Chemistry 1015>Which is the AR term?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/49-0
+00:05:34.582 --> 00:05:36.902
+<v Chemistry 1015>The model error.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/50-0
+00:05:44.102 --> 00:05:47.222
+<v Chemistry 1015>or I'm going to say errors slash
+residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/51-0
+00:05:49.782 --> 00:05:51.542
+<v Chemistry 1015>Can be found after the fact.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/53-0
+00:05:58.902 --> 00:05:59.542
+<v Chemistry 1015>Fire.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/54-0
+00:06:01.222 --> 00:06:10.662
+<v Chemistry 1015>EI equal to Y i - y hat I,
+so that's for each of my Uys I can.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/55-0
+00:06:11.742 --> 00:06:16.827
+<v Chemistry 1015>look at the predicted Y and E is equal to
+the difference between actual and</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/55-1
+00:06:16.827 --> 00:06:20.507
+<v Chemistry 1015>predicted Y. So this is actual Y,
+this is predicted Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/55-2
+00:06:20.507 --> 00:06:25.525
+<v Chemistry 1015>So we don't concern ourselves with
+estimating it because the error will be</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/55-3
+00:06:25.525 --> 00:06:26.662
+<v Chemistry 1015>there regardless.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/56-0
+00:06:31.222 --> 00:06:31.702
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/57-0
+00:06:33.462 --> 00:06:36.182
+<v Chemistry 1015>So, that's the big step,
+that's the estimation step.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/58-0
+00:06:36.982 --> 00:06:37.542
+<v Chemistry 1015>But...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/59-0
+00:06:39.142 --> 00:06:39.782
+<v Chemistry 1015>And...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/60-0
+00:06:41.062 --> 00:06:42.022
+<v Chemistry 1015>I think this is...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/61-0
+00:06:43.102 --> 00:06:44.182
+<v Chemistry 1015>probably where...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/62-0
+00:06:45.622 --> 00:06:51.121
+<v Chemistry 1015>Most people would think you stop,
+you've done the part of calculating the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/62-1
+00:06:51.121 --> 00:06:55.505
+<v Chemistry 1015>regression line,
+but we have to double cheque ourselves in</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/62-2
+00:06:55.505 --> 00:06:59.220
+<v Chemistry 1015>many ways.
+The first way we have to double cheque</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/62-3
+00:06:59.220 --> 00:07:02.787
+<v Chemistry 1015>ourselves. So this would be,
+in the next thing,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/62-4
+00:07:02.787 --> 00:07:04.942
+<v Chemistry 1015>the next logical thing to do,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/63-0
+00:07:05.702 --> 00:07:06.342
+<v Chemistry 1015>Is.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/64-0
+00:07:07.462 --> 00:07:08.022
+<v Chemistry 1015>We.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/65-0
+00:07:09.542 --> 00:07:11.382
+<v Chemistry 1015>Want to determine?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/66-0
+00:07:16.022 --> 00:07:18.422
+<v Chemistry 1015>How well our model actually fits the data?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/67-0
+00:07:33.222 --> 00:07:35.382
+<v Chemistry 1015>So this is sometimes known as...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/68-0
+00:07:36.342 --> 00:07:38.422
+<v Chemistry 1015>goodness of fit diagnostics.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/71-0
+00:07:59.222 --> 00:08:00.502
+<v Chemistry 1015>And I actually want to...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/72-0
+00:08:05.142 --> 00:08:07.702
+<v Chemistry 1015>Maybe draw it for you,
+just to help you see.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/73-0
+00:08:18.422 --> 00:08:20.902
+<v Chemistry 1015>So,
+here's a regression line in both cases.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/74-0
+00:08:22.422 --> 00:08:24.582
+<v Chemistry 1015>This one I'm going to call a good fit.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/75-0
+00:08:28.102 --> 00:08:32.182
+<v Chemistry 1015>And this one I'm just going to call a
+less good fit. It feels too...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/76-0
+00:08:33.222 --> 00:08:38.422
+<v Chemistry 1015>Harsh to call it a bad fit,
+but a good fit might be like this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/77-0
+00:08:41.862 --> 00:08:45.302
+<v Chemistry 1015>and a bad, oh, let me stop myself,
+a less good fit.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/78-0
+00:08:50.502 --> 00:08:54.022
+<v Chemistry 1015>Might look like that,
+so the difference is...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/79-0
+00:08:55.542 --> 00:09:00.358
+<v Chemistry 1015>that there is a larger variation of
+points from the actual regression line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/79-1
+00:09:00.358 --> 00:09:03.462
+<v Chemistry 1015>So it spreads out more from the
+regression line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/80-0
+00:09:04.662 --> 00:09:05.222
+<v Chemistry 1015>So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/81-0
+00:09:06.102 --> 00:09:08.982
+<v Chemistry 1015>There's 2 goodness of fit diagnostics
+that we look at.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/82-0
+00:09:11.702 --> 00:09:15.435
+<v Chemistry 1015>There's r-squared,
+which we'll learn about.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/82-1
+00:09:15.435 --> 00:09:21.542
+<v Chemistry 1015>And then there's the standard error of
+the estimate, also known as SYX.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/83-0
+00:09:23.942 --> 00:09:26.582
+<v Chemistry 1015>So, this good fit will have...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/84-0
+00:09:28.982 --> 00:09:30.582
+<v Chemistry 1015>High R-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/85-0
+00:09:31.542 --> 00:09:33.542
+<v Chemistry 1015>And low.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/86-0
+00:09:34.462 --> 00:09:35.942
+<v Chemistry 1015>Standard error of the estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/87-0
+00:09:37.142 --> 00:09:39.462
+<v Chemistry 1015>and this less good fit will have.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/88-0
+00:09:40.422 --> 00:09:41.782
+<v Chemistry 1015>Low R squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/89-0
+00:09:42.662 --> 00:09:45.782
+<v Chemistry 1015>and high standard error of the estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/90-0
+00:09:48.182 --> 00:09:49.142
+<v Chemistry 1015>SYX.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/91-0
+00:10:00.982 --> 00:10:03.622
+<v Chemistry 1015>So,
+let's look at what r-squared actually is.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/92-0
+00:10:10.662 --> 00:10:14.502
+<v Chemistry 1015>It's also known as the coefficient of
+determination.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/95-0
+00:10:40.142 --> 00:10:43.052
+<v Chemistry 1015>Okay,
+I'd suggest you learn it as coefficient</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/95-1
+00:10:43.052 --> 00:10:47.417
+<v Chemistry 1015>of determination and just know that those
+terms are interchangeable.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/95-2
+00:10:47.417 --> 00:10:51.782
+<v Chemistry 1015>I think most likely the exam would say
+coefficient of determination.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/96-0
+00:10:58.502 --> 00:10:59.622
+<v Chemistry 1015>Okay, so...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/97-0
+00:11:02.022 --> 00:11:03.062
+<v Chemistry 1015>Do we remember?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/99-0
+00:11:04.422 --> 00:11:08.872
+<v Chemistry 1015>This thing, measures of variation.
+We spoke about that last time.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/99-1
+00:11:08.872 --> 00:11:10.422
+<v Chemistry 1015>We said that there's...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/100-0
+00:11:12.102 --> 00:11:16.289
+<v Chemistry 1015>Y has variance about its mean,
+but that that variance about its mean can</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/100-1
+00:11:16.289 --> 00:11:20.591
+<v Chemistry 1015>now be broken into the part that can be
+explained by the regression model,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/100-2
+00:11:20.591 --> 00:11:24.777
+<v Chemistry 1015>that's the explained variance,
+and the part that cannot be accounted for</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/100-3
+00:11:24.777 --> 00:11:28.104
+<v Chemistry 1015>by the regression model,
+that's the unexplained variance.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/100-4
+00:11:28.104 --> 00:11:30.742
+<v Chemistry 1015>And ideally,
+you want high explained variance</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/101-0
+00:11:30.822 --> 00:11:36.157
+<v Chemistry 1015>and low unexplained variance.
+And we spoke about that breakdown or</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/101-1
+00:11:36.157 --> 00:11:40.775
+<v Chemistry 1015>decomposition and what that might look
+like conceptually.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/101-2
+00:11:40.775 --> 00:11:45.313
+<v Chemistry 1015>And I showed you on the regression output
+how to get it.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/101-3
+00:11:45.313 --> 00:11:47.542
+<v Chemistry 1015>And it's in a section called</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/102-0
+00:11:48.902 --> 00:11:52.916
+<v Chemistry 1015>ANOVA,
+that stands for analysis of variance.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/102-1
+00:11:52.916 --> 00:12:00.231
+<v Chemistry 1015>So this ANOVA is how we get our r-squared
+and our standard error of the estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/102-2
+00:12:00.231 --> 00:12:07.099
+<v Chemistry 1015>So you can think of it as these goodness
+of fit measures are a better way to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/102-3
+00:12:07.099 --> 00:12:07.902
+<v Chemistry 1015>interpret</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/103-0
+00:12:07.982 --> 00:12:12.122
+<v Chemistry 1015>your ANOVA output.
+So it's kind of a more interpretable form.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/103-1
+00:12:12.122 --> 00:12:17.196
+<v Chemistry 1015>Just like we've learned that the standard
+deviation is a more interpretable</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/103-2
+00:12:17.196 --> 00:12:22.537
+<v Chemistry 1015>variance, because variance is squared.
+Taking the square root brings it back to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/103-3
+00:12:22.537 --> 00:12:25.942
+<v Chemistry 1015>the units of the data.
+This is kind of similar. So</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/104-0
+00:12:26.902 --> 00:12:27.862
+<v Chemistry 1015>R-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/105-0
+00:12:29.542 --> 00:12:30.902
+<v Chemistry 1015>is calculated like this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/106-0
+00:12:32.342 --> 00:12:34.822
+<v Chemistry 1015>You take the SSR.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/107-0
+00:12:35.942 --> 00:12:36.902
+<v Chemistry 1015>From the Anova.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/108-0
+00:12:38.662 --> 00:12:40.102
+<v Chemistry 1015>And you divide it by...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/109-0
+00:12:41.222 --> 00:12:44.662
+<v Chemistry 1015>the SST from the Inova. So that is.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/110-0
+00:12:46.182 --> 00:12:47.862
+<v Chemistry 1015>Explained variation.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/111-0
+00:12:52.262 --> 00:12:53.302
+<v Chemistry 1015>Divided by...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/112-0
+00:12:54.742 --> 00:12:56.182
+<v Chemistry 1015>Total variation.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/113-0
+00:13:04.662 --> 00:13:10.422
+<v Chemistry 1015>So it tells me how good my model is doing
+at explaining.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/114-0
+00:13:13.862 --> 00:13:15.142
+<v Chemistry 1015>Because this is...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/115-0
+00:13:16.302 --> 00:13:19.302
+<v Chemistry 1015>because SSR is already a portion of the
+total.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/116-0
+00:13:20.982 --> 00:13:25.030
+<v Chemistry 1015>The consequence is here that r-squared
+will be bounded,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/116-1
+00:13:25.030 --> 00:13:29.222
+<v Chemistry 1015>and it will be specifically bounded
+between zero and one.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/117-0
+00:13:32.102 --> 00:13:33.302
+<v Chemistry 1015>Closer to 0.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/118-0
+00:13:35.702 --> 00:13:36.502
+<v Chemistry 1015>Means.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/119-0
+00:13:39.942 --> 00:13:46.318
+<v Chemistry 1015>Lower r-squared, well, obviously,
+but it means the explained variation is</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/119-1
+00:13:46.318 --> 00:13:46.662
+<v Chemistry 1015>low.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/120-0
+00:13:52.222 --> 00:13:53.382
+<v Chemistry 1015>So, the model is...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/121-0
+00:13:59.222 --> 00:14:00.662
+<v Chemistry 1015>Not so good of a fit.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/122-0
+00:14:01.862 --> 00:14:04.502
+<v Chemistry 1015>or the model is not doing a good job at
+explaining why.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/125-0
+00:14:18.982 --> 00:14:22.396
+<v Chemistry 1015>And closer to one is obviously the
+inverse,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/125-1
+00:14:22.396 --> 00:14:26.662
+<v Chemistry 1015>where the model is doing a good job,
+so closer to one.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/127-0
+00:14:38.822 --> 00:14:39.942
+<v Chemistry 1015>model is a good fit.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/129-0
+00:14:56.582 --> 00:14:56.982
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/130-0
+00:14:58.902 --> 00:15:01.569
+<v Chemistry 1015>So,
+let's look at some different R-squareds.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/130-1
+00:15:01.569 --> 00:15:06.428
+<v Chemistry 1015>OK, that would be your perfect scenario,
+your perfect linear relationship between</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/130-2
+00:15:06.428 --> 00:15:06.902
+<v Chemistry 1015>X&amp;Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/131-0
+00:15:08.262 --> 00:15:11.956
+<v Chemistry 1015>A 100% of the variation here is being
+explained by the,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/131-1
+00:15:11.956 --> 00:15:16.178
+<v Chemistry 1015>of the variation in Y is being explained
+by the variation in X.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/131-2
+00:15:16.178 --> 00:15:19.542
+<v Chemistry 1015>You're not going to get this very often
+or at all.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/132-0
+00:15:21.782 --> 00:15:26.973
+<v Chemistry 1015>It's generally going to look more like
+this. So, like I said,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/132-1
+00:15:26.973 --> 00:15:28.982
+<v Chemistry 1015>we are thinking about...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/133-0
+00:15:30.342 --> 00:15:34.805
+<v Chemistry 1015>how spread out the values actually are at
+their maximum from the line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/133-1
+00:15:34.805 --> 00:15:38.262
+<v Chemistry 1015>So my top graph,
+they're a little bit closer together,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/133-2
+00:15:38.262 --> 00:15:43.102
+<v Chemistry 1015>which means that would be a higher
+r-squared, but not perfectly 1 r-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/133-3
+00:15:43.102 --> 00:15:46.874
+<v Chemistry 1015>And the bottom graph,
+they're a little bit more spread out,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/133-4
+00:15:46.874 --> 00:15:50.582
+<v Chemistry 1015>so that is probably a lower,
+somewhat lower r-squared, but</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/134-0
+00:15:50.902 --> 00:15:55.702
+<v Chemistry 1015>That's not a 0 r-squared, it's still,
+my model is still doing something to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/134-1
+00:15:55.702 --> 00:15:57.302
+<v Chemistry 1015>explain what's happening.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/135-0
+00:15:58.262 --> 00:16:00.502
+<v Chemistry 1015>And then, if there is no relationship.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/136-0
+00:16:02.342 --> 00:16:06.711
+<v Chemistry 1015>you'd get something like that,
+0 r-squared. So you can see there is,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/136-1
+00:16:06.711 --> 00:16:11.650
+<v Chemistry 1015>X is not doing anything to explain or
+predict Y. So there, I mean, we should,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/136-2
+00:16:11.650 --> 00:16:16.969
+<v Chemistry 1015>we probably would have seen that ahead of
+time when we looked at our scatter plots,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/136-3
+00:16:16.969 --> 00:16:20.262
+<v Chemistry 1015>so we probably wouldn't have gone through
+with even</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/137-0
+00:16:20.502 --> 00:16:21.542
+<v Chemistry 1015>Fitting this model.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/138-0
+00:16:23.062 --> 00:16:27.629
+<v Chemistry 1015>And on your Excel output,
+remember we have to learn this output</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/138-1
+00:16:27.629 --> 00:16:28.342
+<v Chemistry 1015>very well.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/139-0
+00:16:31.382 --> 00:16:36.725
+<v Chemistry 1015>It's called R-square, and it's up there.
+And you take it,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/139-1
+00:16:36.725 --> 00:16:41.884
+<v Chemistry 1015>and you get it as a proportion,
+but for interpretation,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/139-2
+00:16:41.884 --> 00:16:47.688
+<v Chemistry 1015>you can times it by 100.
+So you can report the R-square as its</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/139-3
+00:16:47.688 --> 00:16:49.622
+<v Chemistry 1015>proportion value, but</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/140-0
+00:16:49.782 --> 00:16:52.902
+<v Chemistry 1015>When it comes to interpreting,
+it's better to convert it to a percentage.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/141-0
+00:16:53.862 --> 00:16:55.302
+<v Chemistry 1015>if I left this out.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/142-0
+00:16:56.662 --> 00:16:57.782
+<v Chemistry 1015>if we didn't have this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/143-0
+00:16:59.462 --> 00:17:05.405
+<v Chemistry 1015>I would still expect you to be able to
+provide me with the R-squared because we</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/143-1
+00:17:05.405 --> 00:17:06.742
+<v Chemistry 1015>have our SSR here.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/144-0
+00:17:07.862 --> 00:17:11.065
+<v Chemistry 1015>This is our SSE, remember,
+and this is our SST.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/144-1
+00:17:11.065 --> 00:17:16.135
+<v Chemistry 1015>So we can take our SSR divided by our SST,
+and that gives us our R-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/144-2
+00:17:16.135 --> 00:17:20.672
+<v Chemistry 1015>So that is something we love to do.
+We love to leave something out,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/144-3
+00:17:20.672 --> 00:17:25.942
+<v Chemistry 1015>but you still have enough available on
+the output to calculate your R-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/145-0
+00:17:27.382 --> 00:17:29.302
+<v Chemistry 1015>The interpretation is very important.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/146-0
+00:17:37.022 --> 00:17:40.048
+<v Chemistry 1015>Okay,
+so I'm going to use the house price</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/146-1
+00:17:40.048 --> 00:17:43.218
+<v Chemistry 1015>example.
+So you take your R-squared and you</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/146-2
+00:17:43.218 --> 00:17:48.982
+<v Chemistry 1015>multiply it by 100 so that you get your
+percentage. So here it's 0.58082. So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/147-0
+00:17:50.422 --> 00:17:52.262
+<v Chemistry 1015>58.08.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/148-0
+00:17:53.422 --> 00:17:54.102
+<v Chemistry 1015>Percent.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/149-0
+00:17:56.182 --> 00:17:58.982
+<v Chemistry 1015>of the variation in Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/150-0
+00:18:00.382 --> 00:18:03.382
+<v Chemistry 1015>And I know they say house prices, but...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/151-0
+00:18:04.262 --> 00:18:04.662
+<v Chemistry 1015>Just...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/152-0
+00:18:05.542 --> 00:18:07.942
+<v Chemistry 1015>I'll just put that in brackets,
+house prices.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/153-0
+00:18:10.742 --> 00:18:11.862
+<v Chemistry 1015>Is explained.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/154-0
+00:18:15.142 --> 00:18:16.902
+<v Chemistry 1015>By the variation in X.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/155-0
+00:18:21.142 --> 00:18:22.902
+<v Chemistry 1015>which is square feet.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/156-0
+00:18:24.342 --> 00:18:27.186
+<v Chemistry 1015>So just two.
+And if you switch those around,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/156-1
+00:18:27.186 --> 00:18:32.305
+<v Chemistry 1015>if you tell me that the variation in X is
+being explained by the variation in Y,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/156-2
+00:18:32.305 --> 00:18:36.539
+<v Chemistry 1015>I will give you 0 for that,
+because we're not trying to explain X,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/156-3
+00:18:36.539 --> 00:18:38.182
+<v Chemistry 1015>we're trying to explain Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/157-0
+00:18:39.622 --> 00:18:39.942
+<v Chemistry 1015>Um...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/158-0
+00:18:41.222 --> 00:18:44.213
+<v Chemistry 1015>To make this perfect,
+I would be really happy if you,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/158-1
+00:18:44.213 --> 00:18:46.262
+<v Chemistry 1015>I know it's not in the slides, but...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/159-0
+00:18:47.142 --> 00:18:49.942
+<v Chemistry 1015>We look for this, you can say.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/160-0
+00:18:51.022 --> 00:18:51.622
+<v Chemistry 1015>Through.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/161-0
+00:18:53.062 --> 00:18:54.662
+<v Chemistry 1015>The estimated linear model.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/162-0
+00:19:01.142 --> 00:19:02.182
+<v Chemistry 1015>That is great.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/163-0
+00:19:06.982 --> 00:19:10.422
+<v Chemistry 1015>That's full Marx interpretation,
+probably around 3 Marx.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/164-0
+00:19:14.102 --> 00:19:17.222
+<v Chemistry 1015>So the question will often be like,
+give and explain the R-squared.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/165-0
+00:19:18.502 --> 00:19:19.862
+<v Chemistry 1015>That's how you get your full marks.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/166-0
+00:19:20.902 --> 00:19:20.982
+<v Chemistry 1015>AM.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/167-0
+00:19:27.062 --> 00:19:27.462
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/168-0
+00:19:29.782 --> 00:19:33.302
+<v Chemistry 1015>Then we get to the standard error of the
+estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/171-0
+00:19:53.382 --> 00:19:56.977
+<v Chemistry 1015>So,
+this usually you calculate both the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/171-1
+00:19:56.977 --> 00:19:59.942
+<v Chemistry 1015>R-squared and the standard error.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/172-0
+00:20:08.422 --> 00:20:10.582
+<v Chemistry 1015>And this is SYX.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/173-0
+00:20:17.622 --> 00:20:22.059
+<v Chemistry 1015>We specifically say SYX to avoid
+confusion with SXY,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/173-1
+00:20:22.059 --> 00:20:28.422
+<v Chemistry 1015>which is the sample covariance from
+semester one. So that's why we say SYX.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/174-0
+00:20:31.782 --> 00:20:33.302
+<v Chemistry 1015>This one is equal to...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/175-0
+00:20:35.942 --> 00:20:37.142
+<v Chemistry 1015>The square root.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/176-0
+00:20:38.142 --> 00:20:43.222
+<v Chemistry 1015>Of the SSE divided by its degrees of
+freedom, N -2.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/178-0
+00:20:50.102 --> 00:20:56.182
+<v Chemistry 1015>So it says E is your error sum of squares.
+Remember, it looks at how much the...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/179-0
+00:20:58.342 --> 00:21:01.933
+<v Chemistry 1015>Predicted,
+or how much the actual Y values deviate</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/179-1
+00:21:01.933 --> 00:21:03.622
+<v Chemistry 1015>from the predicted line?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/180-0
+00:21:05.302 --> 00:21:05.702
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/181-0
+00:21:11.462 --> 00:21:14.982
+<v Chemistry 1015>So,
+where we actually find it in the output</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/181-1
+00:21:14.982 --> 00:21:15.382
+<v Chemistry 1015>is...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/182-0
+00:21:16.182 --> 00:21:20.526
+<v Chemistry 1015>It's there's our r-squared ;
+our standard error is 2 below that,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/182-1
+00:21:20.526 --> 00:21:21.462
+<v Chemistry 1015>so it's the...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/183-0
+00:21:24.182 --> 00:21:28.852
+<v Chemistry 1015>standard error over there.
+And I said with r-squared converted to a</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/183-1
+00:21:28.852 --> 00:21:32.217
+<v Chemistry 1015>percentage,
+it would be incorrect to convert the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/183-2
+00:21:32.217 --> 00:21:37.643
+<v Chemistry 1015>standard error to a percentage because
+it's not a value that's bounded between</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/183-3
+00:21:37.643 --> 00:21:41.077
+<v Chemistry 1015>zero and one.
+It's not a proportion of something.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/183-4
+00:21:41.077 --> 00:21:42.862
+<v Chemistry 1015>It is a unit of deviation.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/184-0
+00:21:42.982 --> 00:21:45.222
+<v Chemistry 1015>So, remember how, with...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/185-0
+00:21:47.382 --> 00:21:51.148
+<v Chemistry 1015>with normal standard error,
+we take the square root so that it is</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/185-1
+00:21:51.148 --> 00:21:54.172
+<v Chemistry 1015>actually how much does one point on
+average deviate,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/185-2
+00:21:54.172 --> 00:21:58.737
+<v Chemistry 1015>and we take the square roots that it's in
+the units of the original data. Well,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/185-3
+00:21:58.737 --> 00:22:02.560
+<v Chemistry 1015>it's a similar thing here.
+We take the square root so that it's in</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/185-4
+00:22:02.560 --> 00:22:07.182
+<v Chemistry 1015>the units of y. So when you want to say,
+is this a large value or a small value,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/186-0
+00:22:07.262 --> 00:22:12.633
+<v Chemistry 1015>you look at what is the range of Y.
+So in this case, it's 41.3032.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/186-1
+00:22:12.633 --> 00:22:16.802
+<v Chemistry 1015>What are the units of Y in the house
+price example?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/186-2
+00:22:16.802 --> 00:22:22.734
+<v Chemistry 1015>It was in thousands of dollars.
+So we can times it with 1000 to get it in</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/186-3
+00:22:22.734 --> 00:22:26.582
+<v Chemistry 1015>the units of Y.
+So that gives you about 41,000.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/187-0
+00:22:26.982 --> 00:22:31.696
+<v Chemistry 1015>That's my standard error of the estimate.
+How do we see if it's big or small?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/187-1
+00:22:31.696 --> 00:22:35.262
+<v Chemistry 1015>We look at what's the range of Y.
+What was the range of Y?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/188-0
+00:22:36.902 --> 00:22:42.901
+<v Chemistry 1015>If we looked at our original house price
+data, which is all the way back here,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/188-1
+00:22:42.901 --> 00:22:47.989
+<v Chemistry 1015>the house prices tend to start,
+or maybe a scatter plot is better,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/188-2
+00:22:47.989 --> 00:22:53.153
+<v Chemistry 1015>they tend to start here at about 200K and
+they go up to about 400K.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/188-3
+00:22:53.153 --> 00:22:56.342
+<v Chemistry 1015>So is 40K large relative to 200K and 400K?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/189-0
+00:22:57.302 --> 00:23:00.386
+<v Chemistry 1015>Not really.
+It's not really a significant portion of</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/189-1
+00:23:00.386 --> 00:23:03.760
+<v Chemistry 1015>that. It's quite small compared to that.
+So in this case,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/189-2
+00:23:03.760 --> 00:23:07.775
+<v Chemistry 1015>we would say it's a relatively small
+standard error of the estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/189-3
+00:23:07.775 --> 00:23:12.022
+<v Chemistry 1015>We like to have a small standard error of
+the estimate because remember,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-0
+00:23:14.102 --> 00:23:16.766
+<v Chemistry 1015>That corresponds to a model that is doing
+a good job.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-1
+00:23:16.766 --> 00:23:19.578
+<v Chemistry 1015>So r-squared and standard error kind of
+go hand in hand.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-2
+00:23:19.578 --> 00:23:23.081
+<v Chemistry 1015>When you have high r-squared,
+you generally have low standard error of</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-3
+00:23:23.081 --> 00:23:25.400
+<v Chemistry 1015>the estimate.
+And when you have low r-squared,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-4
+00:23:25.400 --> 00:23:28.162
+<v Chemistry 1015>you generally have high standard error of
+the estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/190-5
+00:23:28.162 --> 00:23:31.862
+<v Chemistry 1015>So it's all about do the points cluster
+closely around the line or do they</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/191-0
+00:23:32.182 --> 00:23:33.462
+<v Chemistry 1015>Spread out from the line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/192-0
+00:23:34.582 --> 00:23:35.142
+<v Chemistry 1015>ZOë.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/193-0
+00:23:36.502 --> 00:23:36.982
+<v Chemistry 1015>Mnr.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/194-0
+00:23:38.422 --> 00:23:44.332
+<v Chemistry 1015>Here you can see the interpretation.
+So they say it's moderately small</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/194-1
+00:23:44.332 --> 00:23:46.662
+<v Chemistry 1015>relative to house price. So.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/195-0
+00:23:47.782 --> 00:23:52.022
+<v Chemistry 1015>I'll just make a note here.
+We always interpret.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/196-0
+00:23:54.342 --> 00:23:56.422
+<v Chemistry 1015>size relative.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/197-0
+00:24:00.022 --> 00:24:03.622
+<v Chemistry 1015>To Y, so is it large relative to Y?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/198-0
+00:24:09.702 --> 00:24:10.222
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/199-0
+00:24:11.782 --> 00:24:14.342
+<v Chemistry 1015>Happy so far? Any questions?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/200-0
+00:24:21.702 --> 00:24:23.542
+<v Chemistry 1015>Okay, then.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/201-0
+00:24:27.462 --> 00:24:28.862
+<v Chemistry 1015>I'll bring you back to my...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/202-0
+00:24:31.822 --> 00:24:33.782
+<v Chemistry 1015>Yes, so we've done step one.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/203-0
+00:24:35.302 --> 00:24:40.822
+<v Chemistry 1015>Establish that there is an indication of
+a linear relationship. Step 2.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/204-0
+00:24:42.262 --> 00:24:45.108
+<v Chemistry 1015>Actually,
+estimate the regression equation.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/204-1
+00:24:45.108 --> 00:24:50.022
+<v Chemistry 1015>Step 3 is determine if our model is doing
+a good job. Once we've done that,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/205-0
+00:24:54.422 --> 00:24:56.022
+<v Chemistry 1015>We have to do step 4.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/208-0
+00:25:11.462 --> 00:25:17.606
+<v Chemistry 1015>And this step 4, I would say,
+is should be called something like cheque</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/208-1
+00:25:17.606 --> 00:25:19.142
+<v Chemistry 1015>model assumptions.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/209-0
+00:25:24.902 --> 00:25:26.662
+<v Chemistry 1015>For violations.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/210-0
+00:25:39.942 --> 00:25:42.982
+<v Chemistry 1015>So what are these model assumptions?
+They follow an acronym.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/211-0
+00:25:45.222 --> 00:25:48.822
+<v Chemistry 1015>The acronym is LINE.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/212-0
+00:25:50.982 --> 00:25:55.748
+<v Chemistry 1015>Very clever of us,
+because it spells out line and we're</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/212-1
+00:25:55.748 --> 00:25:58.982
+<v Chemistry 1015>looking at regression lines, but we...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/213-0
+00:26:00.142 --> 00:26:02.502
+<v Chemistry 1015>why it's important to cheque these
+assumptions.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/214-0
+00:26:12.262 --> 00:26:14.342
+<v Chemistry 1015>Because it affects.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/215-0
+00:26:17.822 --> 00:26:20.262
+<v Chemistry 1015>whether our inference will be correct or
+not.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/216-0
+00:26:27.942 --> 00:26:30.842
+<v Chemistry 1015>Okay,
+we'll talk a bit more about inference</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/216-1
+00:26:30.842 --> 00:26:35.061
+<v Chemistry 1015>because that is step 5 actually,
+but before we go to inference,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/216-2
+00:26:35.061 --> 00:26:37.302
+<v Chemistry 1015>we have to cheque our assumptions.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/217-0
+00:26:39.542 --> 00:26:40.022
+<v Chemistry 1015>ZOë.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/218-0
+00:26:43.702 --> 00:26:44.742
+<v Chemistry 1015>Assumption one.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/219-0
+00:26:47.782 --> 00:26:49.302
+<v Chemistry 1015>is linearity.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/220-0
+00:26:54.502 --> 00:26:58.822
+<v Chemistry 1015>This one we kind of have checked already
+because we start with a scatter plot.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/221-0
+00:26:59.782 --> 00:27:00.022
+<v Chemistry 1015>Um...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/222-0
+00:27:01.142 --> 00:27:05.189
+<v Chemistry 1015>But basically,
+it's the assumption that the relationship</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/222-1
+00:27:05.189 --> 00:27:09.732
+<v Chemistry 1015>between X&amp;Y is linear.
+And there's two ways to cheque this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/222-2
+00:27:09.732 --> 00:27:13.282
+<v Chemistry 1015>I'll show you what it looks like.
+So it's either,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/222-3
+00:27:13.282 --> 00:27:16.902
+<v Chemistry 1015>let me just go back for a second.
+It's either plot</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/223-0
+00:27:18.582 --> 00:27:19.862
+<v Chemistry 1015>X versus Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/224-0
+00:27:21.462 --> 00:27:22.182
+<v Chemistry 1015>Or...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/225-0
+00:27:23.262 --> 00:27:23.862
+<v Chemistry 1015>What?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/226-0
+00:27:25.062 --> 00:27:28.262
+<v Chemistry 1015>X versus residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/227-0
+00:27:29.862 --> 00:27:31.302
+<v Chemistry 1015>So what is a residual?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/228-0
+00:27:32.822 --> 00:27:34.102
+<v Chemistry 1015>So, residual.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/229-0
+00:27:40.422 --> 00:27:41.782
+<v Chemistry 1015>which is also known as...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/230-0
+00:27:42.822 --> 00:27:47.236
+<v Chemistry 1015>E is just equal to actual Y minus
+predicted Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/230-1
+00:27:47.236 --> 00:27:53.622
+<v Chemistry 1015>So for each point in your data set,
+you can calculate its residual.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/231-0
+00:27:55.462 --> 00:27:58.182
+<v Chemistry 1015>And if you look at X versus Y.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/232-0
+00:28:02.262 --> 00:28:05.438
+<v Chemistry 1015>It's going to look something like that,
+maybe,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/232-1
+00:28:05.438 --> 00:28:10.911
+<v Chemistry 1015>if we have a nice linear relationship.
+But if we take the residual and we plot X</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/232-2
+00:28:10.911 --> 00:28:12.262
+<v Chemistry 1015>versus the residual,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/233-0
+00:28:14.022 --> 00:28:18.263
+<v Chemistry 1015>All that it does is it takes this line
+and it just straightens it.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/233-1
+00:28:18.263 --> 00:28:19.782
+<v Chemistry 1015>So now you're isolating.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/234-0
+00:28:21.462 --> 00:28:25.542
+<v Chemistry 1015>Sorry, that's now not why I'm incorrect.
+That's our residual.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/235-0
+00:28:27.862 --> 00:28:29.142
+<v Chemistry 1015>And that's our ex.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/236-0
+00:28:30.422 --> 00:28:32.822
+<v Chemistry 1015>And it kind of changes it so that it's...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/237-0
+00:28:35.102 --> 00:28:39.722
+<v Chemistry 1015>in this horizontal orientation.
+So it's just like taking that and just</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/237-1
+00:28:39.722 --> 00:28:44.342
+<v Chemistry 1015>moving it like that. So it's basically,
+it should be centred around 0.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/238-0
+00:28:46.902 --> 00:28:53.197
+<v Chemistry 1015>because generally you should have 0
+deviation between actual Y and predicted</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/238-1
+00:28:53.197 --> 00:28:56.712
+<v Chemistry 1015>Y,
+so it should be centred around 0 and it</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/238-2
+00:28:56.712 --> 00:29:01.862
+<v Chemistry 1015>will spread out with varying degrees from
+that centre point 0.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/239-0
+00:29:04.062 --> 00:29:06.970
+<v Chemistry 1015>So it's just sometimes an easier way to
+see.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/239-1
+00:29:06.970 --> 00:29:09.942
+<v Chemistry 1015>So let me show you what that looks like
+here.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/240-0
+00:29:11.062 --> 00:29:11.622
+<v Chemistry 1015>So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/241-0
+00:29:16.502 --> 00:29:17.462
+<v Chemistry 1015>Here we have.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/242-0
+00:29:20.422 --> 00:29:23.926
+<v Chemistry 1015>On this left-hand side,
+it is definitely not.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/242-1
+00:29:23.926 --> 00:29:27.887
+<v Chemistry 1015>These 2 are indicative of a violation of
+linearity.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/242-2
+00:29:27.887 --> 00:29:31.620
+<v Chemistry 1015>And here we have the assumption is
+actually met.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/242-3
+00:29:31.620 --> 00:29:37.409
+<v Chemistry 1015>So the top graph is just X versus Y.
+The bottom graph is X versus residual.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/242-4
+00:29:37.409 --> 00:29:39.542
+<v Chemistry 1015>So you can see how it's just</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/243-0
+00:29:39.782 --> 00:29:43.486
+<v Chemistry 1015>taken that slanting line and just
+levelled it out.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/243-1
+00:29:43.486 --> 00:29:49.077
+<v Chemistry 1015>That's what you do when you take out the
+effect of the model and you're just</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/243-2
+00:29:49.077 --> 00:29:53.942
+<v Chemistry 1015>looking at the difference between why
+actual and why predicted. So</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-0
+00:29:54.902 --> 00:29:57.540
+<v Chemistry 1015>Hopefully,
+we can all see that this is highly</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-1
+00:29:57.540 --> 00:30:00.235
+<v Chemistry 1015>nonlinear.
+It exhibits kind of a curve effect,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-2
+00:30:00.235 --> 00:30:03.848
+<v Chemistry 1015>and this curve effect is easier to see
+when we flatten it out.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-3
+00:30:03.848 --> 00:30:07.346
+<v Chemistry 1015>We can very clearly see that the
+residuals follow a pattern.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-4
+00:30:07.346 --> 00:30:12.163
+<v Chemistry 1015>This means that a linear model is perhaps
+not the most appropriate to describe this</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/244-5
+00:30:12.163 --> 00:30:14.342
+<v Chemistry 1015>relationship. We might need to take...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/245-0
+00:30:14.502 --> 00:30:18.847
+<v Chemistry 1015>a higher order model,
+some kind of polynomial model which will</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/245-1
+00:30:18.847 --> 00:30:22.226
+<v Chemistry 1015>allow for a curve,
+or we might have to perform a</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/245-2
+00:30:22.226 --> 00:30:26.502
+<v Chemistry 1015>transformation on our data to render the
+relationship linear.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/246-0
+00:30:28.582 --> 00:30:31.599
+<v Chemistry 1015>You're looking to see kind of an even
+spread,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/246-1
+00:30:31.599 --> 00:30:34.812
+<v Chemistry 1015>and we want to see white noise in our
+residuals,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/246-2
+00:30:34.812 --> 00:30:38.747
+<v Chemistry 1015>which means there's no pattern to it,
+there's no structure.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/246-3
+00:30:38.747 --> 00:30:43.927
+<v Chemistry 1015>Our model has taken care of all the
+structure that needed to be taken care of,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/246-4
+00:30:43.927 --> 00:30:47.862
+<v Chemistry 1015>and the rest is just kind of a random
+scattering of points.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/247-0
+00:30:48.342 --> 00:30:52.582
+<v Chemistry 1015>Around that middle line,
+so there's no structure left to model.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/248-0
+00:30:53.662 --> 00:30:57.161
+<v Chemistry 1015>That is what we want to see.
+Pretty easy to cheque the linearity</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/248-1
+00:30:57.161 --> 00:31:00.068
+<v Chemistry 1015>assumption,
+and we actually usually do it before even</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/248-2
+00:31:00.068 --> 00:31:00.822
+<v Chemistry 1015>starting this.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/249-0
+00:31:02.662 --> 00:31:05.627
+<v Chemistry 1015>exercise,
+but maybe it's worth it to just cheque it</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/249-1
+00:31:05.627 --> 00:31:09.960
+<v Chemistry 1015>again after fitting the model and cheque
+it with the actual regression line</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/249-2
+00:31:09.960 --> 00:31:14.464
+<v Chemistry 1015>plotted through, just to double check,
+but that's the first assumption that we</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/249-3
+00:31:14.464 --> 00:31:16.631
+<v Chemistry 1015>check.
+The next one that we cheque is</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/249-4
+00:31:16.631 --> 00:31:17.942
+<v Chemistry 1015>independence of errors.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/250-0
+00:31:20.182 --> 00:31:24.822
+<v Chemistry 1015>That's the I independence,
+but we like to add of errors just to.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/252-0
+00:31:26.102 --> 00:31:28.582
+<v Chemistry 1015>be specific about what we're talking
+about.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/253-0
+00:31:37.542 --> 00:31:38.742
+<v Chemistry 1015>Okay, so...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/254-0
+00:31:41.302 --> 00:31:42.422
+<v Chemistry 1015>This is needed.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/255-0
+00:31:45.262 --> 00:31:47.462
+<v Chemistry 1015>when data is collected over time.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/256-0
+00:31:54.822 --> 00:31:59.062
+<v Chemistry 1015>So, most of the so house prices,
+it's just...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/257-0
+00:32:00.022 --> 00:32:04.617
+<v Chemistry 1015>At one point in time,
+give me house prices and their associated</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/257-1
+00:32:04.617 --> 00:32:08.638
+<v Chemistry 1015>square feet,
+or house sizes and their associated price.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/257-2
+00:32:08.638 --> 00:32:13.017
+<v Chemistry 1015>That's not overtime.
+What is something that is overtime? So,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/257-3
+00:32:13.017 --> 00:32:14.022
+<v Chemistry 1015>for example...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/258-0
+00:32:15.222 --> 00:32:16.182
+<v Chemistry 1015>Stock prices.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/259-0
+00:32:18.022 --> 00:32:24.441
+<v Chemistry 1015>So usually you take one stock and you see
+what's the movement. Is it up today,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/259-1
+00:32:24.441 --> 00:32:28.422
+<v Chemistry 1015>down tomorrow? Is it on the rise?
+Is it falling?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/260-0
+00:32:29.302 --> 00:32:31.473
+<v Chemistry 1015>So,
+there's a pattern overtime that we're</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/260-1
+00:32:31.473 --> 00:32:32.662
+<v Chemistry 1015>looking at there, or...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/261-0
+00:32:34.102 --> 00:32:36.182
+<v Chemistry 1015>Weather measurements.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/262-0
+00:32:38.022 --> 00:32:42.120
+<v Chemistry 1015>We look at, was it raining yesterday?
+That means there's a higher chance that</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/262-1
+00:32:42.120 --> 00:32:45.219
+<v Chemistry 1015>it rains today.
+So those observations are not independent.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/262-2
+00:32:45.219 --> 00:32:46.742
+<v Chemistry 1015>They are very much dependent.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/265-0
+00:32:53.942 --> 00:32:58.582
+<v Chemistry 1015>Generally, for this kind of check,
+we only plot.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/266-0
+00:33:02.102 --> 00:33:04.742
+<v Chemistry 1015>X versus residual.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/267-0
+00:33:05.462 --> 00:33:09.978
+<v Chemistry 1015>So, we don't generally do X versus Y here,
+because we want to see,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/267-1
+00:33:09.978 --> 00:33:14.022
+<v Chemistry 1015>after the modelling has been done,
+is there any shape left?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/268-0
+00:33:15.622 --> 00:33:20.696
+<v Chemistry 1015>So, on the left,
+we have a violation of the independence</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/268-1
+00:33:20.696 --> 00:33:27.462
+<v Chemistry 1015>assumption. We have two violations. Here,
+we can see that there is still...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/269-0
+00:33:28.742 --> 00:33:32.292
+<v Chemistry 1015>kind of a unique shape that the residuals
+are taking.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/269-1
+00:33:32.292 --> 00:33:35.382
+<v Chemistry 1015>It's kind of this structure where they
+keep...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/270-0
+00:33:36.502 --> 00:33:37.302
+<v Chemistry 1015>Increasing.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/271-0
+00:33:38.422 --> 00:33:43.528
+<v Chemistry 1015>So that means that we could use a
+previous residual to calculate the next</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/271-1
+00:33:43.528 --> 00:33:48.702
+<v Chemistry 1015>residual. If I can see that, if I were to,
+for example, cut the data here,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/271-2
+00:33:48.702 --> 00:33:52.152
+<v Chemistry 1015>and I could fit a model to that part of
+the data,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/271-3
+00:33:52.152 --> 00:33:55.739
+<v Chemistry 1015>and my model would tell me to keep going
+like that.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/271-4
+00:33:55.739 --> 00:33:58.982
+<v Chemistry 1015>That means there's structure in the
+residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/272-0
+00:33:59.462 --> 00:34:04.627
+<v Chemistry 1015>The previous residual affects the next
+residual, they are not independent. Here,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/272-1
+00:34:04.627 --> 00:34:08.262
+<v Chemistry 1015>if I cut the data,
+I can see there's a cyclical pattern.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/273-0
+00:34:09.382 --> 00:34:13.222
+<v Chemistry 1015>So that cyclical pattern,
+if I were to fit a model to that.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/274-0
+00:34:14.182 --> 00:34:18.575
+<v Chemistry 1015>that cyclical pattern would be predicted
+for the data that the model didn't see,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/274-1
+00:34:18.575 --> 00:34:22.697
+<v Chemistry 1015>so it would just carry on with this
+cyclical pattern. It's not white noise,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/274-2
+00:34:22.697 --> 00:34:26.114
+<v Chemistry 1015>there is structure there,
+which means that my model is perhaps</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/274-3
+00:34:26.114 --> 00:34:30.074
+<v Chemistry 1015>inappropriate for this kind of data,
+because even after fitting a model,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/274-4
+00:34:30.074 --> 00:34:33.382
+<v Chemistry 1015>there's still structure left in the
+residuals. So that means</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/275-0
+00:34:33.942 --> 00:34:37.611
+<v Chemistry 1015>They're not independent,
+and my inference will be affected.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/275-1
+00:34:37.611 --> 00:34:41.769
+<v Chemistry 1015>What I want to see, no pattern.
+I want to see white noise. So here,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/275-2
+00:34:41.769 --> 00:34:45.988
+<v Chemistry 1015>there is no broad structure.
+They're just randomly scattered in kind</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/275-3
+00:34:45.988 --> 00:34:50.941
+<v Chemistry 1015>of an even distribution away from the
+centre line. So that's what I like to see.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/275-4
+00:34:50.941 --> 00:34:53.142
+<v Chemistry 1015>That means it's independent. Now for</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/276-0
+00:34:54.262 --> 00:34:57.142
+<v Chemistry 1015>This, like I said,
+it's only necessary if your data was</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/276-1
+00:34:57.142 --> 00:34:59.611
+<v Chemistry 1015>measured over time.
+In the house price example,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/276-2
+00:34:59.611 --> 00:35:02.594
+<v Chemistry 1015>it's not measured over time.
+So the slides even say that.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/276-3
+00:35:02.594 --> 00:35:05.474
+<v Chemistry 1015>Since the house price data was not
+collected over time,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/276-4
+00:35:05.474 --> 00:35:09.382
+<v Chemistry 1015>we don't need to cheque for independence.
+They didn't cheque for linearity.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/277-0
+00:35:10.422 --> 00:35:14.781
+<v Chemistry 1015>And they checked for linearity using the
+10 data points.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/277-1
+00:35:14.781 --> 00:35:18.680
+<v Chemistry 1015>And I think I say this every year.
+I don't really,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/277-2
+00:35:18.680 --> 00:35:24.339
+<v Chemistry 1015>I really have to use my imagination to
+cheque this plot because I imagine</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/277-3
+00:35:24.339 --> 00:35:26.862
+<v Chemistry 1015>they're saying, okay, it doesn't.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/278-0
+00:35:28.582 --> 00:35:33.309
+<v Chemistry 1015>It doesn't really fluctuate beyond those
+points. I think small dots is noisy.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/278-1
+00:35:33.309 --> 00:35:35.976
+<v Chemistry 1015>It's hard to see the true pattern.
+Ideally,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/278-2
+00:35:35.976 --> 00:35:40.825
+<v Chemistry 1015>you want a lot of dots points because
+then they confirm the pattern that you're</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/278-3
+00:35:40.825 --> 00:35:42.582
+<v Chemistry 1015>trying to show, which is that</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/279-0
+00:35:43.542 --> 00:35:47.281
+<v Chemistry 1015>it's supposed to kind of just be this
+random scattering.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/279-1
+00:35:47.281 --> 00:35:52.135
+<v Chemistry 1015>But now I don't know if there's shape or
+because it's so few dots points,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/279-2
+00:35:52.135 --> 00:35:57.317
+<v Chemistry 1015>I don't know if there's an actual shape
+or if it's just I'm interpolating some</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/279-3
+00:35:57.317 --> 00:36:01.253
+<v Chemistry 1015>shape because of the lack of data points.
+So if it were me,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/279-4
+00:36:01.253 --> 00:36:03.942
+<v Chemistry 1015>I'd want to see that instead of trying to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/280-0
+00:36:04.182 --> 00:36:09.253
+<v Chemistry 1015>Make the decision off of 10 data points,
+but that's what you're supposed to see.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/280-1
+00:36:09.253 --> 00:36:09.942
+<v Chemistry 1015>OK, then...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/281-0
+00:36:12.502 --> 00:36:13.302
+<v Chemistry 1015>Normality.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/282-0
+00:36:15.222 --> 00:36:17.062
+<v Chemistry 1015>So, this is normality of errors.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/283-0
+00:36:25.542 --> 00:36:27.142
+<v Chemistry 1015>OK, and it's actually...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/284-0
+00:36:28.102 --> 00:36:32.022
+<v Chemistry 1015>It took me a long time to understand this
+assumption, the normality of errors.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/285-0
+00:36:33.702 --> 00:36:36.982
+<v Chemistry 1015>Because I originally thought that...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/286-0
+00:36:45.382 --> 00:36:48.588
+<v Chemistry 1015>The data needed to be normal;
+doesn't always have to be normal,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/286-1
+00:36:48.588 --> 00:36:51.142
+<v Chemistry 1015>it's just the errors that have to be
+normal, so...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/287-0
+00:36:53.062 --> 00:36:58.102
+<v Chemistry 1015>If we look at our residuals,
+if I plot my residuals against X,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/287-1
+00:36:58.102 --> 00:37:01.782
+<v Chemistry 1015>so there I have X and there I have
+residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/288-0
+00:37:05.382 --> 00:37:07.702
+<v Chemistry 1015>And you know that that will be...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/289-0
+00:37:08.902 --> 00:37:14.123
+<v Chemistry 1015>If this is the zero line,
+it should be kind of spread out from the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/289-1
+00:37:14.123 --> 00:37:14.902
+<v Chemistry 1015>zero line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/290-0
+00:37:20.862 --> 00:37:23.462
+<v Chemistry 1015>Okay, so what we want to see...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/291-0
+00:37:26.742 --> 00:37:28.182
+<v Chemistry 1015>is if I turn this...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/292-0
+00:37:30.102 --> 00:37:35.480
+<v Chemistry 1015>And I just kind of paid attention,
+if I squashed all of this into just one</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/292-1
+00:37:35.480 --> 00:37:37.702
+<v Chemistry 1015>dimension, I'd want to be able.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/293-0
+00:37:39.062 --> 00:37:41.062
+<v Chemistry 1015>To draw a normal distribution.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/294-0
+00:37:42.342 --> 00:37:46.046
+<v Chemistry 1015>So my residuals themselves should be
+distributed normally.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/294-1
+00:37:46.046 --> 00:37:50.567
+<v Chemistry 1015>What that means is close clustering
+around the centre and a symmetrical</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/294-2
+00:37:50.567 --> 00:37:52.262
+<v Chemistry 1015>dispersion from the center.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/295-0
+00:37:53.542 --> 00:37:55.622
+<v Chemistry 1015>Does that make sense? So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/296-0
+00:37:57.302 --> 00:38:02.965
+<v Chemistry 1015>This will mean that I can perform the
+inference that I want to perform.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/296-1
+00:38:02.965 --> 00:38:06.582
+<v Chemistry 1015>So there's a few things we can do. We can.
+..</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-0
+00:38:07.622 --> 00:38:12.931
+<v Chemistry 1015>do stem and leaf display, not common.
+We can do box plot, somewhat more common,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-1
+00:38:12.931 --> 00:38:16.382
+<v Chemistry 1015>histogram, very nice,
+or a normal probability plot.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-2
+00:38:16.382 --> 00:38:19.302
+<v Chemistry 1015>That last one,
+the normal probability plot,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-3
+00:38:19.302 --> 00:38:24.279
+<v Chemistry 1015>is the one that is done most often.
+And they show that for the house price</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-4
+00:38:24.279 --> 00:38:27.331
+<v Chemistry 1015>example.
+So with the normal probability plot,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/297-5
+00:38:27.331 --> 00:38:27.862
+<v Chemistry 1015>you take</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/298-0
+00:38:27.942 --> 00:38:29.142
+<v Chemistry 1015>the residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/300-0
+00:38:42.182 --> 00:38:43.702
+<v Chemistry 1015>You take the residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/301-0
+00:38:45.222 --> 00:38:47.542
+<v Chemistry 1015>versus the theoretical.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/302-0
+00:38:49.782 --> 00:38:52.639
+<v Chemistry 1015>Z values, remember,
+Z values come from the normal</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/302-1
+00:38:52.639 --> 00:38:53.382
+<v Chemistry 1015>distribution.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-0
+00:38:54.422 --> 00:38:58.655
+<v Chemistry 1015>And what you're trying to see is,
+are the Z values in direct proportion to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-1
+00:38:58.655 --> 00:39:01.816
+<v Chemistry 1015>the residuals?
+So it doesn't have to be a straight line</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-2
+00:39:01.816 --> 00:39:05.203
+<v Chemistry 1015>through the origin,
+but it does have to be a straight line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-3
+00:39:05.203 --> 00:39:09.323
+<v Chemistry 1015>So can you draw a straight line through
+the Z values plotted against the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-4
+00:39:09.323 --> 00:39:13.048
+<v Chemistry 1015>residuals? And if you can,
+then they are consistent with a normal</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/303-5
+00:39:13.048 --> 00:39:13.782
+<v Chemistry 1015>distribution.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/304-0
+00:39:14.502 --> 00:39:18.022
+<v Chemistry 1015>So,
+a big violation from normality would be</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/304-1
+00:39:18.022 --> 00:39:20.582
+<v Chemistry 1015>if these points kind of started.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-0
+00:39:21.702 --> 00:39:24.742
+<v Chemistry 1015>to flare out from this supposed centre
+line.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-1
+00:39:24.742 --> 00:39:27.916
+<v Chemistry 1015>So that would be an immediate violation.
+Here,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-2
+00:39:27.916 --> 00:39:32.846
+<v Chemistry 1015>you're happy because you're not really
+concerned with this kind of small</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-3
+00:39:32.846 --> 00:39:36.359
+<v Chemistry 1015>fluctuation.
+You're concerned with big fluctuations</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-4
+00:39:36.359 --> 00:39:39.803
+<v Chemistry 1015>away from the centre line.
+If you can pretty much,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/305-5
+00:39:39.803 --> 00:39:42.302
+<v Chemistry 1015>if you imagine doing a regression and</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/306-0
+00:39:42.502 --> 00:39:46.822
+<v Chemistry 1015>That regression would have a high
+R-squared, then you're happy, so...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/307-0
+00:39:49.302 --> 00:39:53.298
+<v Chemistry 1015>In the case of the data itself,
+this house price data,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/307-1
+00:39:53.298 --> 00:39:56.567
+<v Chemistry 1015>that's what our probability plot looks
+like.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/307-2
+00:39:56.567 --> 00:40:02.306
+<v Chemistry 1015>And I am pretty happy with that because I
+can draw a straight line through it.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/307-3
+00:40:02.306 --> 00:40:06.810
+<v Chemistry 1015>This fluctuation is minor.
+So the conclusion is the normality</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/307-4
+00:40:06.810 --> 00:40:09.062
+<v Chemistry 1015>assumption here is appropriate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/308-0
+00:40:09.782 --> 00:40:13.691
+<v Chemistry 1015>Okay, and remember,
+minor fluctuations are exaggerated in</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/308-1
+00:40:13.691 --> 00:40:17.599
+<v Chemistry 1015>small data sets.
+So just keep in mind that if this were a</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/308-2
+00:40:17.599 --> 00:40:21.373
+<v Chemistry 1015>bigger data set,
+it would show that pattern much better</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/308-3
+00:40:21.373 --> 00:40:23.462
+<v Chemistry 1015>with more certainty. Okay, then</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/309-0
+00:40:27.462 --> 00:40:32.556
+<v Chemistry 1015>There's the steps for making the normal
+probability plot. You've done this before.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/309-1
+00:40:32.556 --> 00:40:36.361
+<v Chemistry 1015>It just now puts it in the specific
+context of the residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/309-2
+00:40:36.361 --> 00:40:40.902
+<v Chemistry 1015>I've not seen it often happen that you'd
+have to actually draw the normal</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/309-3
+00:40:40.902 --> 00:40:44.830
+<v Chemistry 1015>probability plot in the exam.
+It's definitely not a long answer</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/309-4
+00:40:44.830 --> 00:40:45.382
+<v Chemistry 1015>question.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-0
+00:40:45.702 --> 00:40:50.277
+<v Chemistry 1015>I think what you'd most likely get is
+maybe you'd be given a plot and say,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-1
+00:40:50.277 --> 00:40:55.035
+<v Chemistry 1015>is the assumption of normality met or not?
+You should still know the steps to</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-2
+00:40:55.035 --> 00:40:58.024
+<v Chemistry 1015>finding a normal probability plot,
+just in case.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-3
+00:40:58.024 --> 00:41:01.744
+<v Chemistry 1015>But generally with this section of the
+work, we want to see,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-4
+00:41:01.744 --> 00:41:05.953
+<v Chemistry 1015>do you know the assumptions?
+And can you tell if the assumptions are</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/310-5
+00:41:05.953 --> 00:41:06.502
+<v Chemistry 1015>violated?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/311-0
+00:41:06.822 --> 00:41:11.596
+<v Chemistry 1015>Not can you perform all the steps to
+constructing a normal probability plot?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/311-1
+00:41:11.596 --> 00:41:11.782
+<v Chemistry 1015>OK.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/313-0
+00:41:16.982 --> 00:41:21.142
+<v Chemistry 1015>Then that last one is the assumption of
+equal variance.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/314-0
+00:41:28.502 --> 00:41:29.462
+<v Chemistry 1015>And here again?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/315-0
+00:41:30.582 --> 00:41:38.342
+<v Chemistry 1015>You can either plot X versus Y,
+or you can plot X versus residuals.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/316-0
+00:41:41.462 --> 00:41:43.222
+<v Chemistry 1015>So those are the two plots you can make.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/317-0
+00:41:44.982 --> 00:41:47.382
+<v Chemistry 1015>With constant or equal variance.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/318-0
+00:41:51.222 --> 00:41:53.542
+<v Chemistry 1015>On the left, you see a violation of that,
+so...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/319-0
+00:41:55.902 --> 00:42:00.490
+<v Chemistry 1015>First of all, we have X versus Y,
+and if you were to imagine drawing a</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/319-1
+00:42:00.490 --> 00:42:01.782
+<v Chemistry 1015>normal distribution.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/320-0
+00:42:03.622 --> 00:42:07.559
+<v Chemistry 1015>I'm actually going to do it over here,
+so I like to look at the residual plot</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/320-1
+00:42:07.559 --> 00:42:11.142
+<v Chemistry 1015>because it flattens it out,
+so it allows me to see the pattern better.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/321-0
+00:42:13.062 --> 00:42:18.481
+<v Chemistry 1015>There's my distribution,
+but then if I keep going along increasing</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/321-1
+00:42:18.481 --> 00:42:22.040
+<v Chemistry 1015>X,
+what happens to this distribution is its</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/321-2
+00:42:22.040 --> 00:42:26.893
+<v Chemistry 1015>variance increases.
+So the spread of the residuals from the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/321-3
+00:42:26.893 --> 00:42:31.422
+<v Chemistry 1015>centre line widens as we go.
+So that means Y is getting</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/322-0
+00:42:31.862 --> 00:42:36.432
+<v Chemistry 1015>more and more erratic as X is increasing.
+We don't like that.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/322-1
+00:42:36.432 --> 00:42:38.422
+<v Chemistry 1015>We like to be able to draw.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/323-0
+00:42:39.302 --> 00:42:44.229
+<v Chemistry 1015>preferably the same normal distribution
+all along the data as X increases.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/323-1
+00:42:44.229 --> 00:42:49.222
+<v Chemistry 1015>So the problem is that our inference
+assumes that the variance is constant.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/323-2
+00:42:49.222 --> 00:42:52.835
+<v Chemistry 1015>So this can be,
+this can affect our inference if it is</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/323-3
+00:42:52.835 --> 00:42:55.923
+<v Chemistry 1015>not.
+So this is a violation of the assumption.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/323-4
+00:42:55.923 --> 00:42:59.142
+<v Chemistry 1015>So what you're looking for is that funnel
+shape.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/324-0
+00:42:59.382 --> 00:43:02.657
+<v Chemistry 1015>You're wanting,
+if you see the dots are kind of start</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/324-1
+00:43:02.657 --> 00:43:05.446
+<v Chemistry 1015>spreading out like this from the centre
+line,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/324-2
+00:43:05.446 --> 00:43:08.902
+<v Chemistry 1015>that is a violation of the constant
+variance assumption.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/325-0
+00:43:10.022 --> 00:43:10.502
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/326-0
+00:43:14.502 --> 00:43:17.363
+<v Chemistry 1015>So those are all of our assumptions.
+And again,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/326-1
+00:43:17.363 --> 00:43:22.250
+<v Chemistry 1015>they give the 10 dots a points and we're
+supposed to say whether this is constant</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/326-2
+00:43:22.250 --> 00:43:25.707
+<v Chemistry 1015>variance or not.
+They say constant variance assumption is</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/326-3
+00:43:25.707 --> 00:43:26.422
+<v Chemistry 1015>appropriate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/327-0
+00:43:29.062 --> 00:43:32.049
+<v Chemistry 1015>For me,
+it's difficult to see that from the data,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/327-1
+00:43:32.049 --> 00:43:35.932
+<v Chemistry 1015>but I'm not seeing any obvious funnel
+shapes. And theoretically,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/327-2
+00:43:35.932 --> 00:43:40.232
+<v Chemistry 1015>you should be able to cap it like that
+and it's white noise in between.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/327-3
+00:43:40.232 --> 00:43:42.502
+<v Chemistry 1015>So we'll take the slide's word for it.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/328-0
+00:43:48.342 --> 00:43:51.445
+<v Chemistry 1015>Okay,
+and then I'm just going to introduce the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/328-1
+00:43:51.445 --> 00:43:55.142
+<v Chemistry 1015>last section.
+We're not going to get into it in detail.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/329-0
+00:43:56.342 --> 00:44:02.582
+<v Chemistry 1015>But now we've done step one, two, three,
+4, 4 was.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/330-0
+00:44:04.582 --> 00:44:07.862
+<v Chemistry 1015>Checking our assumptions now, step 5.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/331-0
+00:44:08.942 --> 00:44:10.502
+<v Chemistry 1015>Continuing from previous.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/332-0
+00:44:14.342 --> 00:44:15.462
+<v Chemistry 1015>Is inference.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/335-0
+00:44:35.782 --> 00:44:36.342
+<v Chemistry 1015>Okay.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/336-0
+00:44:39.502 --> 00:44:40.022
+<v Chemistry 1015>So...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/337-0
+00:44:42.422 --> 00:44:43.862
+<v Chemistry 1015>Just keep in mind.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/338-0
+00:44:50.022 --> 00:44:54.502
+<v Chemistry 1015>That your B1, which is the slope estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/339-0
+00:44:55.942 --> 00:45:00.262
+<v Chemistry 1015>So, let's actually put that there. So,
+remember, for the slope estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/340-0
+00:45:03.862 --> 00:45:04.582
+<v Chemistry 1015>B1.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/341-0
+00:45:05.862 --> 00:45:07.062
+<v Chemistry 1015>Is an estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/342-0
+00:45:09.382 --> 00:45:13.062
+<v Chemistry 1015>Of Beta One, where B1.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/343-0
+00:45:14.502 --> 00:45:16.102
+<v Chemistry 1015>You obtain from the sample.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/344-0
+00:45:17.862 --> 00:45:21.862
+<v Chemistry 1015>And beta one is if you were to estimate
+it from the population.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/345-0
+00:45:24.742 --> 00:45:30.281
+<v Chemistry 1015>Anytime we try to use something from the
+sample to say something about the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/345-1
+00:45:30.281 --> 00:45:33.382
+<v Chemistry 1015>population, that is statistical inference.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/346-0
+00:45:35.302 --> 00:45:39.860
+<v Chemistry 1015>For all of our inference to be valid,
+we have to cheque the line assumptions,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/346-1
+00:45:39.860 --> 00:45:42.022
+<v Chemistry 1015>so LINE, all of those needed to hold.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/347-0
+00:45:43.782 --> 00:45:46.502
+<v Chemistry 1015>And justice, remember that our estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/348-0
+00:45:48.022 --> 00:45:51.062
+<v Chemistry 1015>Will have a distribution,
+so this sample estimate.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/349-0
+00:45:51.942 --> 00:45:53.702
+<v Chemistry 1015>Will have its own distribution.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/351-0
+00:46:02.022 --> 00:46:06.081
+<v Chemistry 1015>And that just means that,
+if on a different day we took a different</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/351-1
+00:46:06.081 --> 00:46:09.782
+<v Chemistry 1015>number of data points,
+it might vary slightly, so it has a...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/352-0
+00:46:10.822 --> 00:46:12.422
+<v Chemistry 1015>It exhibits variability.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/353-0
+00:46:16.982 --> 00:46:21.602
+<v Chemistry 1015>And we have to use that distribution for
+our statistical inference.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/353-1
+00:46:21.602 --> 00:46:25.542
+<v Chemistry 1015>What is the kind of statistical inference
+that we can do?</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/354-0
+00:46:27.302 --> 00:46:28.582
+<v Chemistry 1015>Inference includes.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/355-0
+00:46:29.742 --> 00:46:30.982
+<v Chemistry 1015>Hypothesis tests.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/356-0
+00:46:32.822 --> 00:46:35.222
+<v Chemistry 1015>Where we try to say something about the
+true.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/357-0
+00:46:38.422 --> 00:46:42.397
+<v Chemistry 1015>true population parameter.
+So we make a claim and we cheque if the</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/357-1
+00:46:42.397 --> 00:46:43.702
+<v Chemistry 1015>claim can be verified.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/358-0
+00:46:44.582 --> 00:46:48.502
+<v Chemistry 1015>or we construct a confidence interval.
+That is where we...</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/359-0
+00:46:50.342 --> 00:46:54.729
+<v Chemistry 1015>propose an interval that is likely to
+contain,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/359-1
+00:46:54.729 --> 00:47:00.422
+<v Chemistry 1015>or I shouldn't say likely because that
+suggests probability,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/359-2
+00:47:00.422 --> 00:47:07.142
+<v Chemistry 1015>but we have confidence that it contains
+the true population proportion.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/360-0
+00:47:08.662 --> 00:47:13.176
+<v Chemistry 1015>So, it's back full circle.
+We're still dealing with estimates of</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/360-1
+00:47:13.176 --> 00:47:16.718
+<v Chemistry 1015>population parameters,
+and whenever we have those,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/360-2
+00:47:16.718 --> 00:47:20.608
+<v Chemistry 1015>we have to do the correct inference on
+those estimates.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/360-3
+00:47:20.608 --> 00:47:26.025
+<v Chemistry 1015>So that will be the final topic of the
+chapter, the inference that we can do,</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/360-4
+00:47:26.025 --> 00:47:27.622
+<v Chemistry 1015>and then we'll be done.</v>
+
+
+a00fa76b-2439-4af1-b549-71f1b6a74d73/361-0
+00:47:29.542 --> 00:47:29.702
+<v Chemistry 1015>Yeah.</v>
+
+
+Meeting with Stapelberg, K [kstapelberg@sun.ac.za]
+September 30, 2026
+107 days
+•118 views•SharePoint App•HD
+Transcript. Use arrow keys to navigate between transcript entries. Select an entry to navigate the media to the time of the entry.
+Okay, good morning everybody.
+Chemistry 1015 0 minutes 56 seconds
+It's good to see you all again.
+Chemistry 1015 0 minutes 59 seconds
+So I hope the week has been treating you well so far. We are.
+Chemistry 1015 1 minute 7 seconds
+Today, Wednesday. We are almost to the end. So we have to discuss inference for the slope today. And I started talking about this. I think I just introduced the concept. So
+Chemistry 1015 1 minute 27 seconds
+We've heard about statistical inference. It's...
+
+
+Chemistry 1015 1 minute 27 seconds
+We've heard about statistical inference. It's...
+Chemistry 1015 1 minute 32 seconds
+Semester one was all about descriptive statistics, and semester 2 is about inferential statistics. So descriptive statistics is when you are concerned with what does my sample look like? What are the characteristics of my sample? So there, I'm just calculating the sample mean, I'm calculating the sample standard deviation, I'm looking at what's the shape,
+Chemistry 1015 1 minute 52 seconds
+of the distribution for the sample. But then when we come over to inferential statistics, that is when we start tying in the probability theory that we've also learned in this module. And then we start saying, how can I take this thing that I know about my sample and use it to make some sort of statement or claim about my population?
+Chemistry 1015 2 minutes 12 seconds
+because we're not really interested in the sample as the final end product, but we're actually interested in being able to make a general statement about the population. And the sample is the tool that we use to get there. So
+Chemistry 1015 2 minutes 30 seconds
+In this case, the slope.
+Chemistry 1015 2 minutes 36 seconds
+Is kind of...
+Chemistry 1015 44 minutes 6 seconds
+H.
+Chemistry 1015 44 minutes 12 seconds
+That's how you get your correlation, but then you have to get the actual test statistic. And this is another T-stat because it follows the T distribution.
+Chemistry 1015 44 minutes 24 seconds
+So the T-stat in this case is equal to...
+Chemistry 1015 44 minutes 29 seconds
+The sample estimate.
+Chemistry 1015 44 minutes 31 seconds
+Minus the population parameter, what gets subbed in here is 0, because the null hypothesis says that it is zero.
+Chemistry 1015 44 minutes 42 seconds
+And we have a functional, or we have a formula.
+Chemistry 1015 44 minutes 46 seconds
+for the actual standard error. And that is given to us as square root of 1 minus r ^2 divided by n - 2. And this tests degrees of freedom is equal to n - 2.
+Chemistry 1015 45 minutes 5 seconds
+And then you can follow the same, this, you have to go more old school with it.
+Chemistry 1015 45 minutes 12 seconds
+The correlation coefficient doesn't have an official hypothesis test output on the Excel, so you have to then go calculate the T crit using alpha and degrees of freedom, and you then compare your T stats to your two critical values, and you decide whether or not to reject the null hypothesis. I still have like...
+Chemistry 1015 45 minutes 32 seconds
+Three minutes left.
+Chemistry 1015 45 minutes 43 seconds
+Planning to use those 3 minutes, so...
+Chemistry 1015 45 minutes 47 seconds
+Have a look at this t-test for correlation coefficient. We will do it as well in class or in the TUT, either in TUT or in revision.
+Chemistry 1015 45 minutes 57 seconds
+Okay.
+Chemistry 1015 46 minutes 1 second
+So.
+Chemistry 1015 46 minutes 3 seconds
+That brings us to the end of...
+Chemistry 1015 46 minutes 6 seconds
+all the very important calculation-based things that you need to know for this chapter. Like I said, it will start clicking when we do more practice. The next few slides involve some pitfalls in regression analysis.
+Chemistry 1015 46 minutes 23 seconds
+And some steps for avoiding these potential pitfalls, so...
+Chemistry 1015 46 minutes 29 seconds
+I would say read through these. I would not, if RU try and parrot learn these verbatim. I think this is more a guideline for doing regression in practice.
+Chemistry 1015 46 minutes 44 seconds
+Um...
+Chemistry 1015 46 minutes 47 seconds
+So have a look at that.
+Chemistry 1015 46 minutes 50 seconds
+For example.
+Chemistry 1015 46 minutes 53 seconds
+Lacking an awareness of the assumptions of least squares regression.
+Chemistry 1015 46 minutes 59 seconds
+That's one of the basic things that you want to check.
+Chemistry 1015 47 minutes 3 seconds
+when doing regression.
+Chemistry 1015 47 minutes 6 seconds
+Guys.
+Chemistry 1015 47 minutes 10 seconds
+I'm going to get this thought out. I'm going to get this thought out. Just be patient with me here.
+Chemistry 1015 47 minutes 19 seconds
+So, I just want to share a story, because I think...
+Chemistry 1015 47 minutes 24 seconds
+Let me tell my story and then you guys can go. So...
+Chemistry 1015 47 minutes 29 seconds
+Lacking an awareness of the assumptions of least squares regression - that's why we have the LINE acronym.
+Chemistry 1015 47 minutes 37 seconds
+We cannot just go and apply this model to a data set without checking that the assumptions hold.
+Chemistry 1015 47 minutes 45 seconds
+And the reason I emphasize this is because I experienced...
+Chemistry 1015 47 minutes 51 seconds
+second-hand embarrassment on behalf of a classmate of mine who in our honors year
+Chemistry 1015 47 minutes 58 seconds
+I told this story to my other group as well. They were not very impressed with it, but if they are listening to the recording, they have to listen to it again.
+Chemistry 1015 48 minutes 6 seconds
+The whole year we had spent learning about these powerful methods, regression analysis being one of them, and we thought we had the power at our fingertips to predict any kind of data that we wanted to predict. And it was our final year presentation. So there was a thesis, a mini thesis that we had worked on
+Chemistry 1015 48 minutes 25 seconds
+The entire year, and at the end of the year, we got to present our thesis to the stats department, which included many distinguished professors.
+Chemistry 1015 48 minutes 35 seconds
+And this classmate of mine spent a lot of time talking about the methods that he had followed and the data that he had used and the predictions that he had made and the accuracy that his model had achieved because we evaluate whether our models are accurate or not. And one of the distinguished professors in the department put up his hand
+Chemistry 1015 48 minutes 57 seconds
+And he said, you are using time series data. Time series data has errors that are dependent on one another. So this regression model that you have used violates the assumption that the errors are supposed to be independent. And obviously, it was one of those like,
+Chemistry 1015 49 minutes 16 seconds
+awkward moments because the student realized that his entire project was basically invalid because he had failed to check a very, very basic assumption of simple linear regression that I am teaching my first years now. So
+Chemistry 1015 49 minutes 32 seconds
+silly story, but it just goes to show we should not take any of these little things, these little assumptions for granted, especially in statistics. Like whenever I introduce a new method to you, one of the first things I do is let us assume that this is following this distribution or that this behaves in this way. But we can kind of go into the real world and
+Chemistry 1015 49 minutes 55 seconds
+just kind of take those assumptions for granted. So we always have to check, does the messy real world data actually follow the distribution or do the thing that I assume it is doing? Okay, thank you for listening to my story. You guys can go now.
+
+
+
+
+Monday 05/10 lecture
+October 5, 2026
+Chemistry 1015
+0 minutes 6 seconds
+0:06
+Chemistry 1015 0 minutes 6 seconds
+Is.
+Chemistry 1015 0 minutes 9 seconds
+I think it's it's, it's, it's.
+Chemistry 1015 0 minutes 24 seconds
+We start with this.
+Chemistry 1015 0 minutes 49 seconds
+Stop.
+Chemistry 1015 0 minutes 54 seconds
+We might.
+Chemistry 1015 1 minute 7 seconds
+Hey, Cortana.
+Chemistry 1015 1 minute 11 seconds
+So, I think that's it.
+Chemistry 1015 1 minute 32 seconds
+And.
+Chemistry 1015 1 minute 44 seconds
+Okay, good morning everybody. It's good to see you all again.
+Chemistry 1015 1 minute 50 seconds
+I hope you had a good weekend.
+Chemistry 1015 41 minutes 49 seconds
+Of the variation.
+Chemistry 1015 41 minutes 53 seconds
+In sales, why?
+Chemistry 1015 41 minutes 57 seconds
+Is explained.
+Chemistry 1015 42 minutes 1 second
+Bye.
+Chemistry 1015 42 minutes 2 seconds
+The variation.
+Chemistry 1015 42 minutes 5 seconds
+in all of my X variables. So you could say in both price, which is X1, and advertising, which is X2. That way you account for all your X variables.
+Chemistry 1015 42 minutes 19 seconds
+And the last thing that you need to add for full marks is...
+Chemistry 1015 42 minutes 26 seconds
+Through.
+Chemistry 1015 42 minutes 28 seconds
+The estimated.
+Chemistry 1015 42 minutes 31 seconds
+Linear model.
+Chemistry 1015 42 minutes 41 seconds
+So often a question will say, give and interpret the r-squared. So that's what I then want.
+Chemistry 1015 42 minutes 46 seconds
+The question could...
+Chemistry 1015 42 minutes 49 seconds
+Leave out.
+Chemistry 1015 42 minutes 52 seconds
+The R-squared.
+Chemistry 1015 42 minutes 53 seconds
+So then you go and take your...
+Chemistry 1015 42 minutes 57 seconds
+SSR, which is over here.
+Chemistry 1015 43 minutes 1 second
+And then you divide it by your SST, which is over here.
+Chemistry 1015 43 minutes 7 seconds
+And that gets you your R-squared as well. So you would not be left without a way to calculate the R-squared, but you would need to understand how the output is arranged in order to do that. Remember, regression is SSR, residual is SSE. So
+Chemistry 1015 43 minutes 27 seconds
+If, for example...
+Chemistry 1015 43 minutes 30 seconds
+Yeah.
+Chemistry 1015 43 minutes 32 seconds
+they left out SSR, and they also left out R-squared, and you need to calculate that. Then you can use the relationship that SSR would just be, or actually, let me colour code it. So SSR.
+Chemistry 1015 43 minutes 48 seconds
+Would be equal to...
+Chemistry 1015 43 minutes 51 seconds
+SST minus.
+Chemistry 1015 43 minutes 56 seconds
+SSE, so you could get then your SSR, and then you could express it as a proportion of your SST.
+Chemistry 1015 44 minutes 10 seconds
+All right.
+Chemistry 1015 44 minutes 12 seconds
+And then...
+Chemistry 1015 44 minutes 16 seconds
+There's something else that.
+Chemistry 1015 44 minutes 22 seconds
+Comes into play in multiple linear regression.
+Chemistry 1015 44 minutes 26 seconds
+And that is the adjusted r-squared.
+Chemistry 1015 44 minutes 36 seconds
+So, where do we find the adjusted R-squared?
+Chemistry 1015 44 minutes 39 seconds
+We find it directly below R-squared, so there's R-squared, here's adjusted R-squared. What do we notice about adjusted R-squared? It's lower than R-squared.
+Chemistry 1015 44 minutes 51 seconds
+So there's a reason for that. So this adjusted r-squared is the one that we prefer.
+Chemistry 1015 44 minutes 59 seconds
+Four.
+Chemistry 1015 45 minutes 2 seconds
+Multiple linear regression.
+Chemistry 1015 45 minutes 17 seconds
+So, the reason is, when we add...
+Chemistry 1015 45 minutes 23 seconds
+Multiple independent variables or multiple X variables.
+Chemistry 1015 45 minutes 32 seconds
+R-squared.
+Chemistry 1015 45 minutes 34 seconds
+can be artificially inflated.
+Chemistry 1015 45 minutes 43 seconds
+And fail.
+Chemistry 1015 45 minutes 46 seconds
+To recognise.
+Chemistry 1015 45 minutes 50 seconds
+Redundant.
+Chemistry 1015 45 minutes 53 seconds
+Or meaningless.
+Chemistry 1015 45 minutes 59 seconds
+Fix variables.
+Chemistry 1015 46 minutes 5 seconds
+So the R-squared just says, welcome to the party, additional X variable. You have improved this model by your very presence here, so we have high explanatory power. The adjusted R-squared takes a little bit more of a conservative view, and it actually introduces a penalty
+Chemistry 1015 46 minutes 23 seconds
+for additional predictor variables. So what often happens is 2 variables might actually measure at its core the same thing, or two variables might be highly correlated, which means that including both in the model does not actually add anything unique to the model.
+Chemistry 1015 46 minutes 43 seconds
+So the formula for the adjusted r-squared, and you could very well be asked to calculate it if it's left out of the output, is this formula here. I will confirm if it is indeed on the formula sheet, but I do believe that it is, if memory serves.
+Chemistry 1015 47 minutes 3 seconds
+So it just takes your r-squared and it basically brings it down by a factor. And that factor is dependent on both the number of observations as well as the number of predictors. So for that formula, K is equal to the number
+Chemistry 1015 47 minutes 19 seconds
+Of X variables.
+Chemistry 1015 47 minutes 24 seconds
+And N is equal to the number.
+Chemistry 1015 47 minutes 28 seconds
+Of observations.
+Chemistry 1015 47 minutes 34 seconds
+So, the question should be quite clear: how many X variables you have?
+Chemistry 1015 47 minutes 38 seconds
+But you can find everything on your output. So where do you find number of observations? You find it there. Where do you find R squared? You find it there. Adjusted R squared. But if you need to calculate it by hand, they'd probably leave that one out. And then the number of predictors is, remember this is the intercept, and this is X1
+Chemistry 1015 47 minutes 58 seconds
+And this is X2, so you have two predictive variables in this example, so that's how you would calculate your adjusted R-squared.
+Chemistry 1015 48 minutes 7 seconds
+All right, that is my time for today. I hope you guys have a wonderful day further.
+Chemistry 1015 48 minutes 16 seconds
+It.
+
+
+October 7, 2026
+Chemistry 1015
+0 minutes 48 seconds
+0:48
+Chemistry 1015 0 minutes 48 seconds
+Okay, um...
+Chemistry 1015 0 minutes 50 seconds
+Good morning, everybody.
+Chemistry 1015 0 minutes 53 seconds
+It's good to see you all again. So we are carrying on with our chapter 14.
+Chemistry 1015 1 minute 3 seconds
+Previously, we discussed the main differences between simple linear regression and multiple linear regression.
+Chemistry 1015 1 minute 14 seconds
+And...
+Chemistry 1015 1 minute 17 seconds
+We talked about interpreting the Excel output. We talked about how the interpretation of the different coefficients change. We also spoke about the r-squared, and we said that the r-squared is now not preferable for multiple linear regression.
+Chemistry 1015 1 minute 38 seconds
+The problem is that r-squared, it's a very optimistic quantity, so it does not fall even if you add useless predictors. So sometimes predictors can be useless at actually explaining anything. Sometimes you can have two predictors or independent variables that are
+Chemistry 1015 1 minute 57 seconds
+very similar. So they're both doing, they're both explaining the same thing. So one of them can go actually out of the model, but the R-squared is not good at identifying these useless predictors. So we said that we prefer the adjusted R-squared. So the adjusted R-squared decreases
+Chemistry 1015 2 minutes 17 seconds
+by how many predictors you add. So it's a little bit more of a pessimistic measure, but that is a better way to judge your models.
+Chemistry 1015 2 minutes 29 seconds
+usefulness in explaining because it is a little bit more realistic. Okay, then after we, so that kind of fits into how well is our model doing. And now we need to check is our model statistically significant. So
+Chemistry 1015 38 minutes 6 seconds
+So you have to be sure which one you are working with.
+Chemistry 1015 38 minutes 11 seconds
+If you, so you could calculate the critical value, or...
+Chemistry 1015 38 minutes 17 seconds
+Look at the P-value.
+Chemistry 1015 38 minutes 20 seconds
+And you get the P-value from the Excel output.
+Chemistry 1015 38 minutes 29 seconds
+OK, so if we look at the Excel output here.
+Chemistry 1015 38 minutes 33 seconds
+My 2 p-values are this one and this one. What I want to see is that both of them are under my alpha. Let's assume alpha is 0.05. We can see that both of them are less than 0.05. So both p-values
+Chemistry 1015 38 minutes 54 seconds
+Less than alpha of 0.05, therefore both.
+Chemistry 1015 39 minutes 1 second
+reject the null hypothesis. We want to be able to reject the null hypothesis because we want to be able to reject the hypothesis that the true population slope is 0. If you have a slope of 0, there's no linear relationship. Then you can take that one out of the model. It's not doing anything for you.
+Chemistry 1015 39 minutes 23 seconds
+If you did calculate the...
+Chemistry 1015 39 minutes 27 seconds
+critical value that you have to use your HP calculator for. So I should say that here. It's not given to you in the...
+Chemistry 1015 39 minutes 35 seconds
+in the Excel output. So you'd have to use your HP calculator there.
+Chemistry 1015 39 minutes 39 seconds
+So if you did calculate the critical value, it's the same as any T critical value. It depends on degrees of freedom and alpha. You should know by now how to calculate a critical value. You would get these two values, and it's just your normal situation where you decide, do you reject or do you not reject based on where the test statistic falls.
+Chemistry 1015 40 minutes
+So then you have to take this test statistic and this test statistic and compare it to your critical values. And for both, make the decision. It'll get to the same conclusion.
+Chemistry 1015 40 minutes 13 seconds
+And then we also have confidence intervals, which we can calculate.
+Chemistry 1015 40 minutes 19 seconds
+So...
+Chemistry 1015 40 minutes 34 seconds
+We have a confidence interval.
+Chemistry 1015 40 minutes 38 seconds
+Four.
+Chemistry 1015 40 minutes 42 seconds
+Pizza one.
+Chemistry 1015 40 minutes 44 seconds
+And the confidence interval formula.
+Chemistry 1015 40 minutes 50 seconds
+Although it looks a little bit different, it's the same structure of a conference interval. It's that estimate plus minus AT critical value multiplied by the standard error. So.
+Chemistry 1015 41 minutes 1 second
+Here it would be B1.
+Chemistry 1015 41 minutes 3 seconds
+Plus minus T crit or T alpha over 2 multiplied by the standard error for B1. So in this case.
+Chemistry 1015 41 minutes 14 seconds
+Again, this one you get from, this one you have to calculate using your HP calculator, but this one you can get from the Excel output, and this one you can get from the Excel output. So this would be minus 24.97509 plus minus. That critical value is 2.25.
+Chemistry 1015 41 minutes 35 seconds
+1788
+Chemistry 1015 41 minutes 37 seconds
+And the standard error was 10.83213.
+Chemistry 1015 41 minutes 43 seconds
+You can work out for yourself what confidence interval that gets, then the confidence interval for beta two.
+Chemistry 1015 41 minutes 53 seconds
+That's going to be beta two, or sorry, B2.
+Chemistry 1015 41 minutes 57 seconds
+plus minus.
+Chemistry 1015 42 minutes 2 seconds
+T crit.
+Chemistry 1015 42 minutes 4 seconds
+Multiplied by the standard error for B2, and the same rules apply: T crits, you have to calculate with the HP, the other two you get from the Excel output.
+Chemistry 1015 42 minutes 15 seconds
+So B2 is 74.13096 plus minus T crit of 2.1788 multiplied by 25 point.
+Chemistry 1015 42 minutes 28 seconds
+And I think it was.
+Chemistry 1015 42 minutes 42 seconds
+Okay, and then the same thing, it will get you a confidence interval.
+Chemistry 1015 42 minutes 46 seconds
+Let's skip ahead to that confidence interval so that you get over here.
+Chemistry 1015 42 minutes 53 seconds
+So what you can, first of all, you get an indication of how much the slopes are going to vary under different sampling.
+Chemistry 1015 43 minutes 3 seconds
+Here, it's quite a large variation. So you go from minus 48 to minus 1, and you go from 17 to 130. So
+Chemistry 1015 43 minutes 15 seconds
+I would say, because it's a small sample, it's about 15 dots points, you can expect that level of variation. It should kind of stabilize if you take a larger sample. But the other thing that we can look at is B1, or the confidence interval for B1 starts at a negative, and it ends at a negative. So 0 is not contained in that interval.
+Chemistry 1015 43 minutes 36 seconds
+So we can again conclude that we reject the null hypothesis that the population slope is equal to 0. And for the second X value, the second confidence interval, it starts at a positive and it ends at a positive. So again, 0 is not in that interval. So we want to see that 0 is not in that interval. Something to keep in mind.
+Chemistry 1015 43 minutes 58 seconds
+Just a warning for you.
+Chemistry 1015 44 minutes 1 second
+This first Rd.
+Chemistry 1015 44 minutes 4 seconds
+It's inference for the intercept, but we generally don't concern ourselves with inference for the intercept. There are cases in regression with specific data sets where the intercept has an interpretation and it's useful to do inference for it. But generally, we would ask you to only do inference
+Chemistry 1015 44 minutes 24 seconds
+for the X variables. So the only reason I say that is just make sure you're on the right row when you have to do your inference. OK.
+Chemistry 1015 44 minutes 36 seconds
+And that's my time for today.
+
+
+October 9, 2026
+116 days
+•82 views•SharePoint App•HD
+Transcript. Use arrow keys to navigate between transcript entries. Select an entry to navigate the media to the time of the entry.
+AI-generated content may be incorrect
+Stapelberg, K [kstapelberg@sun.ac.za] started transcription
+K1
+
+Krotoa 1012
+0 minutes 4 seconds
+0:04
+Krotoa 1012 0 minutes 4 seconds
+It's good to see you all again. So we are finishing up Chapter 14 today.
+Krotoa 1012 0 minutes 14 seconds
+So, the last topic, or the last big topic, is...
+Krotoa 1012 0 minutes 20 seconds
+Old.
+Krotoa 1012 0 minutes 22 seconds
+Dummy variables, which is a bit of a strange name.
+Krotoa 1012 0 minutes 30 seconds
+But, um...
+Krotoa 1012 0 minutes 33 seconds
+I said this at the beginning of this chapter, but I'll restate it, so...
+Krotoa 1012 0 minutes 39 seconds
+At the beginning, I mentioned the independent variables, which would be your X variables.
+
+
+Krotoa 1012 0 minutes 52 seconds
+In multiple linear regression.
+Krotoa 1012 1 minute 2 seconds
+Can be numerical.
+Krotoa 1012 1 minute 7 seconds
+or categorical.
+Krotoa 1012 39 minutes 8 seconds
+Yeah.
+Krotoa 1012 39 minutes 11 seconds
+And then just important to keep in mind is...
+Krotoa 1012 39 minutes 15 seconds
+Look at the interpretations that they give.
+Krotoa 1012 39 minutes 20 seconds
+AM.
+Krotoa 1012 39 minutes 21 seconds
+For...
+Krotoa 1012 39 minutes 23 seconds
+Farm and double story, so with the same square feet.
+Krotoa 1012 39 minutes 28 seconds
+meaning we hold square feet constant, a farm will have an estimated average price of $23.53,000, more than any other style. So remember that the B coefficient, whether it's B1 or B2 or B3,
+Krotoa 1012 39 minutes 47 seconds
+is always interpreted in the units of Y, which is why it says $23.53,000, because Y is originally in units of thousands of dollars. And then the same for...
+Krotoa 1012 40 minutes 2 seconds
+Our.
+Krotoa 1012 40 minutes 6 seconds
+X2, so the interpretation of that 18.84, which is B2, it says, with the same square feet, in other words, holding the other predictor variable constant, a double story will have an estimated average price of $18.84,000 more than an other style. So
+Krotoa 1012 40 minutes 26 seconds
+Estimated average is the wording that we like. Average is important. We always talk in regression about an average effect. So even when we interpret the slope in simple linear regression, when it's just a numeric slope, it's always the estimated average effect on Y.
+Krotoa 1012 40 minutes 43 seconds
+Um...
+Krotoa 1012 40 minutes 45 seconds
+Depending on what X is, so when it's a slope for a numeric variable, it's average change to Y of a one-unit change in X. Here, it is the estimated average change more than any other style, but here it causes an increase in the intercept instead of a...
+Krotoa 1012 41 minutes 5 seconds
+A straightforward slope interpretation. OK, does that make sense?
+Krotoa 1012 41 minutes 14 seconds
+OK, so we just want to have to take care in handling categorical variables, but...
+Krotoa 1012 41 minutes 23 seconds
+Once we understand the concept, I think it works out quite nicely. But I would say there's a lot of...
+Krotoa 1012 41 minutes 32 seconds
+merit in first, when I got the original instruction for how to encode it, I drew it out like this. So I drew out my 3 levels, I drew out my 2 dummies, and this depends on how they want you to encode it. So there they gave instructions.
+Krotoa 1012 41 minutes 50 seconds
+They said X2 will be formed, X3 will be double storied.
+Krotoa 1012 41 minutes 54 seconds
+They could have done it otherwise, but they chose to do it this way. So we have a dummy for form and we have a dummy for double. And then you write it out like this so that you can see what happens to each of my variables and where is my default, how is that encoded. And it's especially helpful if you have even more levels. So you could have.
+Krotoa 1012 42 minutes 14 seconds
+5 levels of a categorical variable, then you need to create 4 dummies. If you have 6 levels, you create 5 dummies. If you have 7 levels, you create 6 dummies. It's always one less dummy than you need, because it will, that last one will automatically be encoded. If it's not any of the others, it has to be that one.
+Krotoa 1012 42 minutes 33 seconds
+Right, then.
+Krotoa 1012 42 minutes 45 seconds
+I'm on the fence about whether I should do this next section, just because I tried in my morning class and I ran out of time.
+Krotoa 1012 42 minutes 59 seconds
+Let's see, we have 7 minutes left.
+Krotoa 1012 43 minutes 9 seconds
+Okay.
+Krotoa 1012 43 minutes 11 seconds
+I think this is what I'm going to do. I'm reserving the right to change my mind. I'll think about it over the weekend. Either Monday, I'll quickly do these last two slides with you, right? I can tell you it's not massively important to the assessment, but it is important to understand the concept.
+Krotoa 1012 43 minutes 30 seconds
+Or, as an alternative, I'll make a recording of this topic, and then it will be up to you to watch it.
+Krotoa 1012 43 minutes 40 seconds
+If I do it on Monday, it's not going to take the whole lesson. It's going to take maybe 10 minutes. So then what I will do is Monday will mainly be revision.
+Krotoa 1012 43 minutes 50 seconds
+I haven't decided how I'm structuring the revision yet. I'm thinking maybe, first off,
+Krotoa 1012 43 minutes 59 seconds
+An overall review of Chapter 9, 10, 13, and 14.
+Krotoa 1012 44 minutes 7 seconds
+Have I missed anything? Yes, I've missed 7 and eight. Sorry, 7, 8, 9, 10, 13, 14. So one page summary of each one of those. Do you guys find those helpful?
+Krotoa 1012 44 minutes 21 seconds
+Then, I think we have two weeks for revision. Then, if there's time, we'll maybe go into extra revision questions, extra resources. I'll make some time to speak about the formula sheet, what's on there, what's not on there. But
+Krotoa 1012 44 minutes 40 seconds
+I think the revision should be semi-flexible. Like I said, I don't have a set plan in my head. So you are welcome to e-mail me with topics that you struggle with. And if I think that it's relevant to the exam and relevant to the whole class, I will make effort to
+Krotoa 1012 44 minutes 59 seconds
+accommodate you with the stuff you want me to revise. Okay, but that will, I need then input from you. Otherwise, I will just go with a set plan that I've decided on. Okay, cool. Hope you guys have a good weekend.
