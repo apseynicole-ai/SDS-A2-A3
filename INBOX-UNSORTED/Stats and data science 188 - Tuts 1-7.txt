@@ -1,0 +1,4326 @@
+﻿Stats and data science 188 - tut 1 
+
+
+
+
+Statistics and Data Science 188 | Statistiek en Datawetenskap 188
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE
+STATISTIEK EN DATAWETENSKAP 188
+STATISTICS AND DATA SCIENCE 188
+TUTORIAAL 1 / TUTORIAL 1
+Party vrae in die tutoriaal is uit “Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics
+for Managers Using Microsoft Excel. 9th edition, Pearson” aangepas. / Some questions in the
+tutorial have been adapted from “Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021).
+Statistics for Managers Using Microsoft Excel. 9th edition, Pearson”.
+1. Vier verskillende tipe films speel in ‘n filmteater: komedie, aksie, romanse, en drama. /
+Four different genres of movies are playing at a movie theatre: comedy, action, romance,
+and drama.
+(a) Identifiseer of die tipe film ‘n voorbeeld van ‘n numeriese of kategoriese veranderlike is.
+Verduidelik hoekom. / Identify whether the genre of movies is an example of a numerical
+or categorical variable. Explain why.
+(b) Bepaal die metingskaal vir die tipe films wat in die filmteater speel. Verduidelik hoekom.
+/ Determine the measurement scale for the genres of movies shown. Explain why.
+2. Die kilometers wat die afgelope maand deur ‘n onderneming se verkopers afgelê is, word
+gemeet. / The kilometres travelled by a company’s sales representatives last month are
+measured.
+(a) Identifiseer of die kilometers wat verkopers afgelê het numeriese of kategoriese
+veranderlikes is. Verduidelik hoekom. / Identify whether the kilometres travelled by sales
+representatives are numerical or categorical variables. Explain why.
+(b) Bepaal die metingskaal vir die kilometers wat die verkopers afgelê het. Verduidelik
+hoekom. / Determine the measurement scale for the kilometres travelled by the sales
+representatives. Explain why.
+3. Vir elk van die volgende veranderlikes, bepaal die tipe metingskaal wat gebruik word en
+of die veranderlike kategories of numeries is. / For each of the following variables,
+determine the type of scale used and whether the variable is categorical or numerical.
+(a) Bloedgroep van ‘n persoon / Blood type of a person
+(b) Tipe rekenaarsagteware wat ‘n persoon gebruik (Windows, Linux, iOS) / Type of
+operating system a person uses (Windows, Linux, iOS)
+(c) ‘n Algemene BCom student se gemiddelde punt vir eerstejaar / A general BCom students’
+average mark for first year
+(d) (e) (f) Lengte (in meter) / Length (in metre)
+Aantal items wat per dag verkoop word / Number of items sold per day
+Die frekwensie wat ‘n persoon oefening doen (nooit, skaars, partykeer, gereeld) / The
+frequency that a person does exercise (never, rarely, sometimes, often)
+1
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+4. Vir elk van die volgende veranderlikes, bepaal of die veranderlike kategories of numeries
+is. As die veranderlike numeries is, bepaal of die veranderlike diskreet of kontinu is. / For
+each of the following variables, determine whether the variable is categorical or
+numerical. If the variable is numerical, determine whether the variable is discrete or
+continuous.
+(a) Die aantal vergaderings in ‘n jaar wat ‘n MCom student met sy / haar studieleier gehad
+het. / The number of meetings in a year that an MCom student had with his / her supervisor.
+(b) ‘n Persoon se gunsteling koffiewinkel in die Neelsie. / ‘n Person’s favourite coffee shop
+in the Neelsie.
+(c) Die hoeveelheid tyd wat ‘n persoon weekliks aan oefening bestee. / Amount of time a
+person spends exercising each week.
+(d) Universiteitsgraad / University degree
+5. Gestel die volgende inligting word van ‘n tiener versamel oor haar gunsteling
+telekommunikasie pakket wat deur ‘n plaaslike telefoononderneming aangebied word. /
+Suppose the following information is collected from a teenager about her desired
+telecommunication package that is being offered by a local telephone company.
+(a) Gunsteling telekommunikasie pakket: R75 Top Up /
+Desired telecommunication package: R75 Top Up 36 months
+(b) Maandelikse sakgeld: R200 /
+Monthly pocket money: R200
+(c) Gemiddelde tyd wat sy op die Internet daagliks spandeer (in ure): 10.5 /
+Average time spent daily on the Internet (in hours): 10.5
+(d) Gemiddelde aantal sms’e wat sy per dag stuur: 8 /
+Average number of text messages sent daily: 8
+Klassifiseer elk van die response by tipe data en die metingskaal. / Classify each of the
+responses by type of data and measurement scale.
+6. Die kwaliteitskontroleerder by ‘n fabriek wat batterye vir elektriese motors vervaardig wil
+die leeftyd van ‘n battery analiseer. Die leeftyd van ‘n battery word gemeet as die afstand
+(in kilometer) wat ‘n motor in die fabriek se toetsafdeling kan voltooi. ‘n Steekproef van
+1000 batterye word getoets en lewer ‘n gemiddelde leeftyd van 523 km. / The quality
+controller at a factory that manufactures batteries for electric cars wants to analyse the
+lifetime of a battery. The lifetime of a battery is measured as the distance (in kilometre)
+that a car can complete in the factory’s testing division. A sample of 1000 batteries is
+tested and the average lifetime of a battery is found to be 523 km.
+(a) Identifiseer die populasie en steekproef vir die bogenoemde analise. / Identify the
+population and sample for the abovementioned analysis.
+(b) Verduidelik of die analise gebaseer is op ‘n primêre of sekondêre databron. / Explain
+whether the analysis is based on a primary or a secondary data source.
+2
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+7. As twee werknemers wat in dieselfde afdeling werk albei ‘n inkomste van R8000 verdien,
+watter argumente kan gebruik word om aan te toon dat die onderliggende veranderlike –
+vermoë om te verdien – kontinu is. / If two employees who are working in the same division
+both earn an income of R8000, what arguments could be used to show that the underlying
+variable – ability to earn – is continuous?
+8. ‘n Studie was uitgevoer om verbruikers se tevredenheid oor produkte van Stylerite te
+ontleed. Vir die studie was 500 klante wat enige van Stylerite se produkte gekoop het,
+ondervra. Die resultate het getoon dat 80% van die handelsmerk se klante tevrede is met
+hul aankope. / A study was conducted to analyse consumers’ satisfaction on Stylerite
+products. For the study, 500 customers who purchased any product from Stylerite were
+interviewed. The results showed that 80% of the brand’s customers are satisfied with their
+purchase.
+(a) Watter tipe databron was in hierdie studie gebruik? / What type of data source has been
+used in this study?
+(b) Wat is die stogastiese veranderlike van belang? / What is the random variable of interest?
+(c) Is die “80% wat tevrede is” ‘n voorbeeld van ‘n populasieparameter of ‘n
+steekproefstatistiek? / Is the “80% who are satisfied” an example of a population
+parameter or sample statistic?
+9. (a) (b) (c) Vir ‘n populasie van grootte 𝑁𝑁 = 902 individue, watter kodenommer sou u toeken aan /
+For a population of size 𝑁𝑁 = 902 individuals, what code number would you assign for
+die tweede persoon op die lys? / the second person on the list?
+die twintigste persoon op die lys? / the twentieth person on the list?
+die laaste persoon op die lys? / the last person on the list?
+10. Beskou ‘n populasie van grootte 𝑁𝑁 = 90 en veronderstel dat u ‘n steekproef van grootte
+𝑛𝑛 = 10 wil kies. Beskou die volgende tabel van ewekansige getalle. / Consider a
+population of size 𝑁𝑁 = 90 and suppose you want to select a sample of size 𝑛𝑛 = 10.
+Consider the following table of random numbers
+9 5 6 6 3 6 7 5 9 2
+6 6 3 1 7 5 7 3 7 2
+7 0 8 4 3 6 2 6 6 7
+(a) (b) Deur die rye in die tabel hierbo te lees, dui aan watter waarnemings van die populasie in
+die steekproef ingesluit sal word indien / Reading across the rows of the above table,
+indicate which observations from the population will be selected if
+u sonder terugplasing die steekproef kies. / you sample without replacement.
+u met terugplasing die steekproef kies. / you sample with replacement.
+11. ‘n Opname dui aan dat die oorgrote meerderheid universiteitstudente hul eie slimfoon
+(“smart phone”) besit. Watter inligting sal u wil weet voordat u die resultate van die
+opname as akkuraat aanvaar? / A survey indicates that the vast majority of university
+students own their own smartphones. What information would you want to know before
+you accepted the results of this survey?
+3
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+12. Die Eienaar van ‘n nasionale maatskappy wil haar werknemers se produktiwiteit
+ondersoek. Die maatskappy het verskeie kantore landswyd wat ‘n verskillende aantal
+werknemers in diens het. Werknemers by elke kantoor word daagliks ‘n produktiwiteit
+telling toegeken wat die kantoor se bestuurder versamel. Watter steekproefmetode moet
+die eienaar gebruik om ‘n analise uit te voer wat presiese resultate sal lewer. / The owner
+of a national company wants to investigate the productivity of her employees. The company
+has various offices nationwide that have a varying number of employees at each branch.
+Each employee is assigned a daily productivity score which the manager of the office
+collects. Which sampling method should the owner use to conduct an analysis that will
+deliver precise results
+13. ’n Populasie het vier lede (noem hulle A, B, C, en D). U wil graag ’n ewekansige
+steekproef van 𝑛𝑛 = 2 trek, wat u besluit om op die volgende wyse te doen: Skiet ’n
+muntstuk op; indien munt bo val, neem items A en B as steekproef; indien kruis bo val,
+neem items C en D as die steekproef. Alhoewel hierdie ’n ewekansige steekproef is, is dit
+nie ’n eenvoudige ewekansige steekproef nie. Verduidelik waarom. / A population has four
+members (call them A, B, C, and D). You would like to draw a random sample of 𝑛𝑛 = 2,
+which you decide to do in the following way: Flip a coin; if it is heads, the sample will be
+items A and B; if it is tails, the sample will be items C and D. Although this is a random
+sample, it is not a simple random sample. Explain why.
+14. ’n Eenvoudige ewekansige steekproef van n = 300 voltydse werknemers word uit ’n
+maatskappy-lys met die name van al N = 5000 voltydse werknemers geselekteer ten einde
+hul werksbevrediging te evalueer. Gee ‘n voorbeeld van ‘n / A simple random sample of
+n = 300 full-time employees is selected from a company list containing the names of all
+N = 5000 full-time employees in order to evaluate job satisfaction. Give an example of a
+(a) dekkingsfout. / coverage error.
+(b) nie-responsfout. / nonresponse error.
+(c) steekproeffout. / sampling error.
+(d) metingsfout. / measurement error.
+15. Gestel die totale monetêre waarde van verkope van N = 2400 fakture is R342 000 en dat
+n = 15 fakture volgens ‘n WEG seleksie-proses getrek moet word. Vyftien 6-syfer
+ewekansige getalle tussen 0000001 en 342000 word gegenereer en gerangskik van klein
+na groot. Die volgende tabel moet gebruik word om vas te stel watter fakture (wat minder
+as 15 kan wees indien dieselfde faktuur meer as een keer geselekteer word) met hierdie
+getalle geassosieer word. / Suppose the total monetary value of sales on N = 2400 invoices
+is R342 000 and that n = 15 invoices must be selected according to a PPS selection
+process. Fifteen 6-digit random numbers between 0000001 and 342000 are generated and
+arranged in ascending order. The following table is used to determine which invoices
+(which could be less than 15 if the same invoice is selected more than once) to associate
+with the random numbers.
+4
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+Faktuur
+/
+Invoice
+Monetêre waarde
+(R)
+/
+Monetary Value
+(R)
+Geakkumu-
+leerde waarde
+(R)
+/
+Accumulated
+value (R)
+Intervalwaardes
+/
+Interval Values
+6-syfer
+Ewekansige
+getalle
+/
+6-Digit
+Random
+Numbers
+1 200
+2 1120
+3 781
+4 680
+5 11789
+6 8743
+7 114
+8 14
+etc. etc.
+(a) (b) Gestel die eerste vier 6-syfergetalle is 000098, 000517, 000972 en 006863. Gegewe die
+bogenoemde inligting, voltooi die tabel en dui aan watter fakture in die steekproef ingesluit
+sal word. / Suppose the first four 6-digit numbers are 000098, 000517, 000972, and
+006863. Given the information above, complete the table and indicate which invoices will
+be included in the sample.
+Wat is die waarskynlikheid dat faktuur 7 geselekteer word? / What is the probability that
+invoice 7 is selected?
+Microsoft Excel®
+1. Maak die DirtyData.xlsx werkboek oop. Hierdie werkboek bevat 62 waarnemings van
+6 veranderlikes. / Open the DirtyData.xlsx workbook. This workbook contains 62
+observations of 6 variables.
+(a) Beweeg af tot by ry 64. Merk u iets vreemds aan die totale aantal waardes in elke ry?
+Identifiseer die fout in die data wat van hierdie opsomming gevind kan word. / Scroll down
+to row 64. Do you notice something strange about the total number of values in each row?
+Identify the data error that can be found using this summary.
+(b) Klik op die 1 om die hele eerste ry (kolomopskrifte) uit te lig. Gaan na Data -> Filter.
+Nadat u op Filter geklik het, let op dat die kolomopskrifte in ‘n seleksievenster verander
+het. Klik op die seleksievenster van die “Gender” kolom. Behalwe die totaal van “61” in
+ry 64, watter ander unieke aangetekende waardes word in hierdie kolom bevat? Is daar
+enige foute in die data in hierdie kolom? / Click on the 1 to highlight the entire row 1 (row
+of column headings). Go to Data -> Filter. After clicking on Filter, notice that the column
+headings changed to a selection pane. Click on the selection pane of the Gender column.
+Besides the total of “61” in row 64, which other unique recorded values are contained in
+this column? Are there any data errors in this column?
+(c) Gebruik hierdie funksie om enige foute in die “Age”, “Class”, “Major”, en “Grad
+Intention” kolomme te identifiseer. / Use this functionality to check the Age, Class, Major,
+and Grad Intention columns to identify any errors in each of these columns.
+5
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+2. Gedeeltes van hierdie vraag bevat gevorderde Excel metodes wat slegs vir demonstrasie
+gewys word. Deur die datastel in vraag 1 te gebruik, voer die volgende stappe uit om die
+data skoon te maak. / Parts of this question contain advanced Excel methods which are
+given solely for demonstration purposes. Using the dataset in question 1, perform the
+following steps to clean the data.
+(a) Selekteer al die data. Klik onder “Home” op “Find & Select” en kies die “Go to special...”
+opsie. In die boks wat verskyn, kies “Blanks” en klik OK. Excel behoort te wys dat sel
+B43 geen data bevat nie. / Select all the data. Click under “Home” on “Find & Select”
+and choose the “Go to special…” option. In the pop-up box, choose “Blanks” and click
+OK. Excel should display that cell B43 does not contain data.
+(b) Gebruik die “=IF()” funksie om die name in die “Gender” kolom te verander sodat daar
+slegs die groepe “Male” en “Female” is. Dui selle met geen data in nie aan met ‘n NA. /
+Use the “=IF()” function to change the names in the Gender column so that there are only
+two groups, Male and Female. Denote cells with not data in them with an NA.
+(c) Gebruik die “Find and Replace” funksie om die “Class” kolom reg te maak. Druk ctrl+H
+om die “Find and Replace” funksie oop te maak. In die “Find what” boks, tik “Soph*” en
+in die “Replace with” boks, tik “Sophomore”. Klik op “Replace all”. Dit laat Excel soek
+vir enige woorde wat “Soph” in het en verander die hele woord na “Sophomore”. / Use the
+“Find and Replace” function to fix the Class column. Press ctrl+H to open the “Find and
+Replace” function. In die “Find what” box, type “Soph*” and in the “Replace with” box,
+type “Sophomore”. Click on “Replace all”. This lets Excel search for any words that
+contain “Soph” and change the words to “Sophomore”.
+(d) Selekteer selle C2:C63. Gaan na “Home -> Conditional Formatting -> Highlighted Cells
+Rule -> More Rules...”. Kies die “Use a formula to determine which cells to format”. Tik
+die volgende formule in die oop spasie: =ISTEXT(C2). Klik op “Format” en kies ‘n kleur
+onder die “Fill” boks. Klik OK twee keer. Excel het nou selle C2 en C12 ‘n kleur gemaak
+omdat hulle nie-numeriese waarnemings bevat. / Select cells C2:C63. Go to Home ->
+Conditional Formatting -> Highlighted Cells Rule -> More Rules…” Choose the “Use a
+formula to determine which cells to format”. Type in the following formula in the open
+space: =ISTEXT(C2). Click on Format and select a colour under the Fill block. Click OK
+twice. Excel now changed cells C2 and C12 to a colour because they contain non-
+numerical entries.
+(e) Die volgende funksie kan gebruik word om enige nie-numeriese inskrywings te probeer
+verander na ‘n numeriese getal. Indien geen numeriese inskrywings gevind word nie, word
+‘n leë sel as uitset gegee. Let op dat sel C2 die inskrywing “k20” bevat. Ons wil dit na
+“20” verander. In enige oop kolom, maak ‘n nuwe kolom “OuderdomNuut”. In die eerste
+ry van hierdie kolom, tik die volgende funksie in:
+=TEXTJOIN("",TRUE,IFERROR(MID(C2,ROW(INDIRECT("1:100")),1)+0,""))
+Druk “Enter” en Excel gee “20” as uitvoer. Hierdie funksie kan nou in elke ry ingevul
+word om alle nie-numeries inskrywings in kolom C na numeriese inskrywings te verander.
+/ The following function can be used to try to convert any non-numeric entry in a cell to a
+numeric entry. If none of the entries are numerical, the function will return an empty cell.
+Note that cell C2 has an entry “k20”. We want to change this cell to “20”. In any open
+6
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+column, make a new heading “AgeNew”. In the first row of this column, type in the
+following function:
+=TEXTJOIN("",TRUE,IFERROR(MID(C2,ROW(INDIRECT("1:100")),1)+0,""))
+Press Enter and Excel will return “20” as output. This function can now be applied in
+each row to change all the non-numeric entries in column C to numerical entries.
+7
+Kopiereg voorbehou / Copyright reserved
+
+
+
+
+
+
+Statistics and Data Science 188 | Statistiek en Datawetenskap 188
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE
+STATISTIEK EN DATAWETENSKAP 188
+STATISTICS AND DATA SCIENCE 188
+TUTORIAAL 1 OPLOSSINGS / TUTORIAL 1 SOLUTIONS
+1.
+(a) kategoriese veranderlike / categorical variable
+(b) Die metingskaal vir die tipe film is ‘n nominale metingskaal omdat die veranderlike
+verskillende kategorieë as waardes aanneem waar die kategorieë geen sinvolle orde
+het nie. / The measuring scale of the type of film is a nominal measuring scale because
+the variable takes on different categories as values where the categories do not have
+any meaningful order.
+2.
+(a) (b) Numeriese veranderlike. Die aantal kilometers wat die verkopers van die onderneming
+aflê kan enige positiewe getal aanneem. / Numerical variable. The number of
+kilometres travelled by the sales representatives can take on any positive number.
+Verhoudingskaal. Die waarde nul vir die aantal kilometers afgelê deur ‘n verkoper is
+die ware nulpunt op die metingskaal van die veranderlike. / Ratio scale. The value
+zero for the number of kilometres travelled by a sales representative is the true zero
+point on the measuring scale of the variable.
+3.
+(a) kategories, nominaal / categorical, nominal
+(b) kategories, nominaal / categorical, nominal
+(c) numeries, verhoudingskaal / numerical, ratio scale
+(d) numeries, verhoudingskaal / numerical, ratio scale
+(e) numeries, verhoudingskaal / numerical, ratio scale
+(f) kategories, ordinaal / categorical, ordinal
+4.
+(a) numeries, diskreet / numerical, discrete
+(b) kategories, nominaal / categorical, nominal
+(c) numeries, kontinu / numerical, continuous
+(d) kategories, nominaal / categorical, nominal
+5.
+(a) kategories, nominaal / categorical, nominal
+(b) numeries, verhoudingskaal (kontinu) / numerical, ratio scale (continuous)
+(c) numeries, verhoudingskaal (kontinu) / numerical, ratio scale (continuous)
+(d) numeries, verhoudingskaal (kontinu) / numerical, ratio scale (continuous)
+1
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+6.
+7. (a) Die populasie is alle batterye vir die elektriese motors wat by die fabriek vervaardig
+word. Die steekproef is die 1000 batterye wat ewekansig uit die bestaande batterye
+geselekteer word. / The population is all batteries for the electric cars that the factory
+manufactures. The sample is the 1000 batteries that are randomly selected from the
+existing batteries.
+(b) Die analise is op ‘n primêre databron gebaseer omdat die kwaliteitskontroleerder direk
+die data vir analise versamel. / The analysis is based on a primary source of data since
+the quality controller directly collects the data for the analysis.
+Die vermoë om te verdien kan as kontinu beskou word net soos die geldeenheid van
+‘n land deur sy monetêre stelsel behandel word. / The ability to earn can be considered
+to be a continuous variable in the same way that the currency of a country is treated
+by its monetary system.
+8.
+(a) Die studie is gebaseer op ‘n primêre databron omdat Stylerite self die data versamel.
+/ The study is based on ‘n primary source of data because Stylerite collected the data
+themselves.
+(b) ‘n Verbruiker se tevredenheid met Stylerite se produkte. / A customer’s satisfaction
+with Stylerite’s products.
+(c) Steekproefstatistiek. Dit is ‘n numeriese eienskap van die steekproef. / Sample
+statistic. It is a numerical characteristic of the sample.
+9.
+(a) 002
+(b) 020
+(c) 902
+10.
+(a) 66, 36, 75, 31, 73, 72, 70, 84, 26, 67
+(b) 66, 36, 75, 66, 31, 75, 73, 72, 70, 84
+11. Is dit ‘n waarskynlikheidsteekproef? Was die regte steekproeftegniek gebruik sodat
+die populasie reg verteenwoordig word? Wat is die interval van die steekproeffout? Is
+daar enige ander opnamefoute? / Is it a probability sample? Was the correct sampling
+technique used so that the population is represented correctly? What is the interval of
+the sampling error? Are there any other sampling errors?
+12. Die eienaar moet ‘n gestratifiseerde steekproef neem. Dit kan uitgevoer word deur
+elke kantoor as ‘n stratum te kies. Die proporsie werknemers by elke kantoor word
+dan gebruik om van elke stratum ‘n aantal werknemers ewekansig te selekteer. Omdat
+die kantore verskillende aantal werknemers het, sal ‘n gestratifiseerde steekproef die
+akkuraatste resultate lewer. / The owner must take a stratified sample. This can be
+conducted by choosing each office as a stratum. The proportion of workers at each
+office is then used to randomly select a number of workers from each stratum. Since
+the offices have varying numbers of workers, a stratified sample will produce the most
+accurate results.
+2
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+13. Al die lede van die populasie het ‘n gelyke kans om in die steekproef ingesluit te word
+en die steekproefnemingsmeganisme is gebaseer op kans. Nie elke steekproef van
+grootte twee het egter dieselfde waarskynlikheid om voor te kom nie. Byvoorbeeld,
+die steekproef “B en C” is nie moontlik nie. / Here all members of the population are
+equally likely to be selected and the sample selection mechanism is based on chance.
+But not every sample of size two has the same chance of being selected. For example,
+the sample “B and C” is impossible.
+14.
+(a) Moontlike dekkingsfout: Slegs werknemers in ‘n spesifieke afdeling van die
+maatskappy is ingesluit. Alle deeltydse personeel is uitgesluit. / Possible coverage
+error: Only employees in a specific division of the company were sampled. Part time
+employees were ignored.
+(b) Moontlike nie-responsfout: Geen poging is aangewend om diegene wat nie terugvoer
+verskaf het te kontak en aan te moedig om die evaluering te voltooi nie. / Possible
+nonresponse error: No attempt is made to contact nonrespondents to urge them to
+complete the evaluation of job satisfaction.
+(c) Moontlike steekproeffout: Die steekproef statistieke verkry uit die steekproef sal nie
+naby genoeg aan die parameters van die populasie wees nie. / Possible sampling error:
+The sample statistics obtained from the sample will not be close enough to the
+parameters of interest in the population.
+(d) Moontlike metingsfout: Dubbelsinnige bewoording in vrae in die vraelys. / Possible
+measurement error: Ambiguous wording in questions asked on the questionnaire.
+15.
+Faktuur
+/
+Invoice
+Monetêre waarde
+(R)
+/
+Monetary Value
+(R)
+Geakkumu-
+leerde waarde
+(R)
+/
+Accumulated
+value (R)
+Intervalwaardes
+/
+Interval Values
+6-syfer
+Ewekansige
+getalle
+/
+6-Digit
+Random
+Numbers
+1 200 200 1 – 200 000098
+2 1120 1 320 201 – 1320 000517, 000972
+3 781 2 101 1321 – 2101
+4 680 2 781 2102 – 2781
+5 11789 14 570 2782 – 14570 006863
+6 8743 23 313 14571 – 23313
+7 114 23 427 23314 – 23427
+8 14 23 441 23428 – 23441
+etc. etc.
+(a) Fakture 1, 2, en 5 word in die steekproef ingesluit. / Invoices 1, 2, and 5 are included
+in the sample.
+(b) 114
+= 0.00033
+342000
+3
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+Microsoft Excel®
+1.
+(a) Daar is net 61 waarnemings vir kolom B (“Gender”). Die 42ste waarneming in ry 43
+bevat geen waarneming vir hierdie veranderlike nie. / There are only 61 observations
+for column B (Gender). The 42nd observation in row 43 does not contain an
+observation for this variable.
+(b) Die kolom bevat drie kategorieë: “Male”, “Female”, en “Mail”. Dit is duidelik dat
+“Mail” ‘n spelfout is. / The column contains three categories: Male, Female, and Mail.
+It is clear that Mail is a spelling error.
+(c) Die “Age” kolom bevat heelgetalle en een inskrywing “k20”. Die “k20” is ‘n fout en
+moes as 20 ingevul word. / The Age column contains integers and one entry “k20”.
+The “k20” is an error that should have been filled in as 20.
+Die “Class” kolom bevat die kategorieë: “Junior”, “Sophomore”, “Sophmore”,
+“Senior”, en “Management”. Die 22ste waarneming in ry 23 bevat die spelfout
+“Sophmore”. / The Class column contains the categories: Junior, Sophomore,
+Sophmore, Senior, and Management. The 22nd observation in row 23 contains the
+spelling error “Sophmore”.
+Die “Major” kolom bevat die hoofvakke wat studente studeer. Daar is een waarneming
+wat as “Economics/ Finance” ingevul is, maar hierdie groep moes as
+“Economics/Finance” aangedui word. / The Major column contains majors studied by
+students. There is one observation that is entered as “Economics/ Finance”, but this
+group should be denoted as “Economics/Finance”.
+Die “Grad Intention” kolom bevat vier foute. Die waarnemings in rye 17, 19, en 21 is
+as “Undecide”, “Undeicded”, en “Undecide” ingevul. Die waarneming in ry 39 is as
+“Accounting” ingevul wat nie een van die groepe vir hierdie veranderlike is nie. / The
+Grad Intention column contains four errors. The observations in rows 17, 19, and 21
+are entered as “Undecide”, “Undeicded”, and “Undecide”. The observation in row
+39 is entered as “Accounting” which is not one of the groups of this variable.
+4
+Kopiereg voorbehou / Copyright reserved
+Statistics and Data Science 188 | Statistiek en Datawetenskap 188
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE
+STATISTIEK EN DATAWETENSKAP 188
+STATISTICS AND DATA SCIENCE 188
+TUTORIAAL 1 / TUTORIAL 1
+Party vrae in die tutoriaal is uit “Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics
+for Managers Using Microsoft Excel. 9th edition, Pearson” aangepas. / Some questions in the
+tutorial have been adapted from “Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021).
+Statistics for Managers Using Microsoft Excel. 9th edition, Pearson”.
+1. Vier verskillende tipe films speel in ‘n filmteater: komedie, aksie, romanse, en drama. /
+Four different genres of movies are playing at a movie theatre: comedy, action, romance,
+and drama.
+(a) Identifiseer of die tipe film ‘n voorbeeld van ‘n numeriese of kategoriese veranderlike is.
+Verduidelik hoekom. / Identify whether the genre of movies is an example of a numerical
+or categorical variable. Explain why.
+(b) Bepaal die metingskaal vir die tipe films wat in die filmteater speel. Verduidelik hoekom.
+/ Determine the measurement scale for the genres of movies shown. Explain why.
+2. Die kilometers wat die afgelope maand deur ‘n onderneming se verkopers afgelê is, word
+gemeet. / The kilometres travelled by a company’s sales representatives last month are
+measured.
+(a) Identifiseer of die kilometers wat verkopers afgelê het numeriese of kategoriese
+veranderlikes is. Verduidelik hoekom. / Identify whether the kilometres travelled by sales
+representatives are numerical or categorical variables. Explain why.
+(b) Bepaal die metingskaal vir die kilometers wat die verkopers afgelê het. Verduidelik
+hoekom. / Determine the measurement scale for the kilometres travelled by the sales
+representatives. Explain why.
+3. Vir elk van die volgende veranderlikes, bepaal die tipe metingskaal wat gebruik word en
+of die veranderlike kategories of numeries is. / For each of the following variables,
+determine the type of scale used and whether the variable is categorical or numerical.
+(a) Bloedgroep van ‘n persoon / Blood type of a person
+(b) Tipe rekenaarsagteware wat ‘n persoon gebruik (Windows, Linux, iOS) / Type of
+operating system a person uses (Windows, Linux, iOS)
+(c) ‘n Algemene BCom student se gemiddelde punt vir eerstejaar / A general BCom students’
+average mark for first year
+(d) (e) (f) Lengte (in meter) / Length (in metre)
+Aantal items wat per dag verkoop word / Number of items sold per day
+Die frekwensie wat ‘n persoon oefening doen (nooit, skaars, partykeer, gereeld) / The
+frequency that a person does exercise (never, rarely, sometimes, often)
+1
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+4. Vir elk van die volgende veranderlikes, bepaal of die veranderlike kategories of numeries
+is. As die veranderlike numeries is, bepaal of die veranderlike diskreet of kontinu is. / For
+each of the following variables, determine whether the variable is categorical or
+numerical. If the variable is numerical, determine whether the variable is discrete or
+continuous.
+(a) Die aantal vergaderings in ‘n jaar wat ‘n MCom student met sy / haar studieleier gehad
+het. / The number of meetings in a year that an MCom student had with his / her supervisor.
+(b) ‘n Persoon se gunsteling koffiewinkel in die Neelsie. / ‘n Person’s favourite coffee shop
+in the Neelsie.
+(c) Die hoeveelheid tyd wat ‘n persoon weekliks aan oefening bestee. / Amount of time a
+person spends exercising each week.
+(d) Universiteitsgraad / University degree
+5. Gestel die volgende inligting word van ‘n tiener versamel oor haar gunsteling
+telekommunikasie pakket wat deur ‘n plaaslike telefoononderneming aangebied word. /
+Suppose the following information is collected from a teenager about her desired
+telecommunication package that is being offered by a local telephone company.
+(a) Gunsteling telekommunikasie pakket: R75 Top Up /
+Desired telecommunication package: R75 Top Up 36 months
+(b) Maandelikse sakgeld: R200 /
+Monthly pocket money: R200
+(c) Gemiddelde tyd wat sy op die Internet daagliks spandeer (in ure): 10.5 /
+Average time spent daily on the Internet (in hours): 10.5
+(d) Gemiddelde aantal sms’e wat sy per dag stuur: 8 /
+Average number of text messages sent daily: 8
+Klassifiseer elk van die response by tipe data en die metingskaal. / Classify each of the
+responses by type of data and measurement scale.
+6. Die kwaliteitskontroleerder by ‘n fabriek wat batterye vir elektriese motors vervaardig wil
+die leeftyd van ‘n battery analiseer. Die leeftyd van ‘n battery word gemeet as die afstand
+(in kilometer) wat ‘n motor in die fabriek se toetsafdeling kan voltooi. ‘n Steekproef van
+1000 batterye word getoets en lewer ‘n gemiddelde leeftyd van 523 km. / The quality
+controller at a factory that manufactures batteries for electric cars wants to analyse the
+lifetime of a battery. The lifetime of a battery is measured as the distance (in kilometre)
+that a car can complete in the factory’s testing division. A sample of 1000 batteries is
+tested and the average lifetime of a battery is found to be 523 km.
+(a) Identifiseer die populasie en steekproef vir die bogenoemde analise. / Identify the
+population and sample for the abovementioned analysis.
+(b) Verduidelik of die analise gebaseer is op ‘n primêre of sekondêre databron. / Explain
+whether the analysis is based on a primary or a secondary data source.
+2
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+7. As twee werknemers wat in dieselfde afdeling werk albei ‘n inkomste van R8000 verdien,
+watter argumente kan gebruik word om aan te toon dat die onderliggende veranderlike –
+vermoë om te verdien – kontinu is. / If two employees who are working in the same division
+both earn an income of R8000, what arguments could be used to show that the underlying
+variable – ability to earn – is continuous?
+8. ‘n Studie was uitgevoer om verbruikers se tevredenheid oor produkte van Stylerite te
+ontleed. Vir die studie was 500 klante wat enige van Stylerite se produkte gekoop het,
+ondervra. Die resultate het getoon dat 80% van die handelsmerk se klante tevrede is met
+hul aankope. / A study was conducted to analyse consumers’ satisfaction on Stylerite
+products. For the study, 500 customers who purchased any product from Stylerite were
+interviewed. The results showed that 80% of the brand’s customers are satisfied with their
+purchase.
+(a) Watter tipe databron was in hierdie studie gebruik? / What type of data source has been
+used in this study?
+(b) Wat is die stogastiese veranderlike van belang? / What is the random variable of interest?
+(c) Is die “80% wat tevrede is” ‘n voorbeeld van ‘n populasieparameter of ‘n
+steekproefstatistiek? / Is the “80% who are satisfied” an example of a population
+parameter or sample statistic?
+9. (a) (b) (c) Vir ‘n populasie van grootte 𝑁𝑁 = 902 individue, watter kodenommer sou u toeken aan /
+For a population of size 𝑁𝑁 = 902 individuals, what code number would you assign for
+die tweede persoon op die lys? / the second person on the list?
+die twintigste persoon op die lys? / the twentieth person on the list?
+die laaste persoon op die lys? / the last person on the list?
+10. Beskou ‘n populasie van grootte 𝑁𝑁 = 90 en veronderstel dat u ‘n steekproef van grootte
+𝑛𝑛 = 10 wil kies. Beskou die volgende tabel van ewekansige getalle. / Consider a
+population of size 𝑁𝑁 = 90 and suppose you want to select a sample of size 𝑛𝑛 = 10.
+Consider the following table of random numbers
+9 5 6 6 3 6 7 5 9 2
+6 6 3 1 7 5 7 3 7 2
+7 0 8 4 3 6 2 6 6 7
+(a) (b) Deur die rye in die tabel hierbo te lees, dui aan watter waarnemings van die populasie in
+die steekproef ingesluit sal word indien / Reading across the rows of the above table,
+indicate which observations from the population will be selected if
+u sonder terugplasing die steekproef kies. / you sample without replacement.
+u met terugplasing die steekproef kies. / you sample with replacement.
+11. ‘n Opname dui aan dat die oorgrote meerderheid universiteitstudente hul eie slimfoon
+(“smart phone”) besit. Watter inligting sal u wil weet voordat u die resultate van die
+opname as akkuraat aanvaar? / A survey indicates that the vast majority of university
+students own their own smartphones. What information would you want to know before
+you accepted the results of this survey?
+3
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+12. Die Eienaar van ‘n nasionale maatskappy wil haar werknemers se produktiwiteit
+ondersoek. Die maatskappy het verskeie kantore landswyd wat ‘n verskillende aantal
+werknemers in diens het. Werknemers by elke kantoor word daagliks ‘n produktiwiteit
+telling toegeken wat die kantoor se bestuurder versamel. Watter steekproefmetode moet
+die eienaar gebruik om ‘n analise uit te voer wat presiese resultate sal lewer. / The owner
+of a national company wants to investigate the productivity of her employees. The company
+has various offices nationwide that have a varying number of employees at each branch.
+Each employee is assigned a daily productivity score which the manager of the office
+collects. Which sampling method should the owner use to conduct an analysis that will
+deliver precise results
+13. ’n Populasie het vier lede (noem hulle A, B, C, en D). U wil graag ’n ewekansige
+steekproef van 𝑛𝑛 = 2 trek, wat u besluit om op die volgende wyse te doen: Skiet ’n
+muntstuk op; indien munt bo val, neem items A en B as steekproef; indien kruis bo val,
+neem items C en D as die steekproef. Alhoewel hierdie ’n ewekansige steekproef is, is dit
+nie ’n eenvoudige ewekansige steekproef nie. Verduidelik waarom. / A population has four
+members (call them A, B, C, and D). You would like to draw a random sample of 𝑛𝑛 = 2,
+which you decide to do in the following way: Flip a coin; if it is heads, the sample will be
+items A and B; if it is tails, the sample will be items C and D. Although this is a random
+sample, it is not a simple random sample. Explain why.
+14. ’n Eenvoudige ewekansige steekproef van n = 300 voltydse werknemers word uit ’n
+maatskappy-lys met die name van al N = 5000 voltydse werknemers geselekteer ten einde
+hul werksbevrediging te evalueer. Gee ‘n voorbeeld van ‘n / A simple random sample of
+n = 300 full-time employees is selected from a company list containing the names of all
+N = 5000 full-time employees in order to evaluate job satisfaction. Give an example of a
+(a) dekkingsfout. / coverage error.
+(b) nie-responsfout. / nonresponse error.
+(c) steekproeffout. / sampling error.
+(d) metingsfout. / measurement error.
+15. Gestel die totale monetêre waarde van verkope van N = 2400 fakture is R342 000 en dat
+n = 15 fakture volgens ‘n WEG seleksie-proses getrek moet word. Vyftien 6-syfer
+ewekansige getalle tussen 0000001 en 342000 word gegenereer en gerangskik van klein
+na groot. Die volgende tabel moet gebruik word om vas te stel watter fakture (wat minder
+as 15 kan wees indien dieselfde faktuur meer as een keer geselekteer word) met hierdie
+getalle geassosieer word. / Suppose the total monetary value of sales on N = 2400 invoices
+is R342 000 and that n = 15 invoices must be selected according to a PPS selection
+process. Fifteen 6-digit random numbers between 0000001 and 342000 are generated and
+arranged in ascending order. The following table is used to determine which invoices
+(which could be less than 15 if the same invoice is selected more than once) to associate
+with the random numbers.
+4
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+Faktuur
+/
+Invoice
+Monetêre waarde
+(R)
+/
+Monetary Value
+(R)
+Geakkumu-
+leerde waarde
+(R)
+/
+Accumulated
+value (R)
+Intervalwaardes
+/
+Interval Values
+6-syfer
+Ewekansige
+getalle
+/
+6-Digit
+Random
+Numbers
+1 200
+2 1120
+3 781
+4 680
+5 11789
+6 8743
+7 114
+8 14
+etc. etc.
+(a) (b) Gestel die eerste vier 6-syfergetalle is 000098, 000517, 000972 en 006863. Gegewe die
+bogenoemde inligting, voltooi die tabel en dui aan watter fakture in die steekproef ingesluit
+sal word. / Suppose the first four 6-digit numbers are 000098, 000517, 000972, and
+006863. Given the information above, complete the table and indicate which invoices will
+be included in the sample.
+Wat is die waarskynlikheid dat faktuur 7 geselekteer word? / What is the probability that
+invoice 7 is selected?
+Microsoft Excel®
+1. Maak die DirtyData.xlsx werkboek oop. Hierdie werkboek bevat 62 waarnemings van
+6 veranderlikes. / Open the DirtyData.xlsx workbook. This workbook contains 62
+observations of 6 variables.
+(a) Beweeg af tot by ry 64. Merk u iets vreemds aan die totale aantal waardes in elke ry?
+Identifiseer die fout in die data wat van hierdie opsomming gevind kan word. / Scroll down
+to row 64. Do you notice something strange about the total number of values in each row?
+Identify the data error that can be found using this summary.
+(b) Klik op die 1 om die hele eerste ry (kolomopskrifte) uit te lig. Gaan na Data -> Filter.
+Nadat u op Filter geklik het, let op dat die kolomopskrifte in ‘n seleksievenster verander
+het. Klik op die seleksievenster van die “Gender” kolom. Behalwe die totaal van “61” in
+ry 64, watter ander unieke aangetekende waardes word in hierdie kolom bevat? Is daar
+enige foute in die data in hierdie kolom? / Click on the 1 to highlight the entire row 1 (row
+of column headings). Go to Data -> Filter. After clicking on Filter, notice that the column
+headings changed to a selection pane. Click on the selection pane of the Gender column.
+Besides the total of “61” in row 64, which other unique recorded values are contained in
+this column? Are there any data errors in this column?
+(c) Gebruik hierdie funksie om enige foute in die “Age”, “Class”, “Major”, en “Grad
+Intention” kolomme te identifiseer. / Use this functionality to check the Age, Class, Major,
+and Grad Intention columns to identify any errors in each of these columns.
+5
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+2. Gedeeltes van hierdie vraag bevat gevorderde Excel metodes wat slegs vir demonstrasie
+gewys word. Deur die datastel in vraag 1 te gebruik, voer die volgende stappe uit om die
+data skoon te maak. / Parts of this question contain advanced Excel methods which are
+given solely for demonstration purposes. Using the dataset in question 1, perform the
+following steps to clean the data.
+(a) Selekteer al die data. Klik onder “Home” op “Find & Select” en kies die “Go to special...”
+opsie. In die boks wat verskyn, kies “Blanks” en klik OK. Excel behoort te wys dat sel
+B43 geen data bevat nie. / Select all the data. Click under “Home” on “Find & Select”
+and choose the “Go to special…” option. In the pop-up box, choose “Blanks” and click
+OK. Excel should display that cell B43 does not contain data.
+(b) Gebruik die “=IF()” funksie om die name in die “Gender” kolom te verander sodat daar
+slegs die groepe “Male” en “Female” is. Dui selle met geen data in nie aan met ‘n NA. /
+Use the “=IF()” function to change the names in the Gender column so that there are only
+two groups, Male and Female. Denote cells with not data in them with an NA.
+(c) Gebruik die “Find and Replace” funksie om die “Class” kolom reg te maak. Druk ctrl+H
+om die “Find and Replace” funksie oop te maak. In die “Find what” boks, tik “Soph*” en
+in die “Replace with” boks, tik “Sophomore”. Klik op “Replace all”. Dit laat Excel soek
+vir enige woorde wat “Soph” in het en verander die hele woord na “Sophomore”. / Use the
+“Find and Replace” function to fix the Class column. Press ctrl+H to open the “Find and
+Replace” function. In die “Find what” box, type “Soph*” and in the “Replace with” box,
+type “Sophomore”. Click on “Replace all”. This lets Excel search for any words that
+contain “Soph” and change the words to “Sophomore”.
+(d) Selekteer selle C2:C63. Gaan na “Home -> Conditional Formatting -> Highlighted Cells
+Rule -> More Rules...”. Kies die “Use a formula to determine which cells to format”. Tik
+die volgende formule in die oop spasie: =ISTEXT(C2). Klik op “Format” en kies ‘n kleur
+onder die “Fill” boks. Klik OK twee keer. Excel het nou selle C2 en C12 ‘n kleur gemaak
+omdat hulle nie-numeriese waarnemings bevat. / Select cells C2:C63. Go to Home ->
+Conditional Formatting -> Highlighted Cells Rule -> More Rules…” Choose the “Use a
+formula to determine which cells to format”. Type in the following formula in the open
+space: =ISTEXT(C2). Click on Format and select a colour under the Fill block. Click OK
+twice. Excel now changed cells C2 and C12 to a colour because they contain non-
+numerical entries.
+(e) Die volgende funksie kan gebruik word om enige nie-numeriese inskrywings te probeer
+verander na ‘n numeriese getal. Indien geen numeriese inskrywings gevind word nie, word
+‘n leë sel as uitset gegee. Let op dat sel C2 die inskrywing “k20” bevat. Ons wil dit na
+“20” verander. In enige oop kolom, maak ‘n nuwe kolom “OuderdomNuut”. In die eerste
+ry van hierdie kolom, tik die volgende funksie in:
+=TEXTJOIN("",TRUE,IFERROR(MID(C2,ROW(INDIRECT("1:100")),1)+0,""))
+Druk “Enter” en Excel gee “20” as uitvoer. Hierdie funksie kan nou in elke ry ingevul
+word om alle nie-numeries inskrywings in kolom C na numeriese inskrywings te verander.
+/ The following function can be used to try to convert any non-numeric entry in a cell to a
+numeric entry. If none of the entries are numerical, the function will return an empty cell.
+Note that cell C2 has an entry “k20”. We want to change this cell to “20”. In any open
+6
+Kopiereg voorbehou / Copyright reservedStatistics and Data Science 188 | Statistiek en Datawetenskap 188
+column, make a new heading “AgeNew”. In the first row of this column, type in the
+following function:
+=TEXTJOIN("",TRUE,IFERROR(MID(C2,ROW(INDIRECT("1:100")),1)+0,""))
+Press Enter and Excel will return “20” as output. This function can now be applied in
+each row to change all the non-numeric entries in column C to numerical entries.
+7
+Kopiereg voorbehou / Copyright reserved
+
+
+
+
+Stats and data science 188 - tut 2
+
+
+QUESTIONS
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE
+STATISTIEK EN DATAWETENSKAP 188
+STATISTICS AND DATA SCIENCE 188
+TUTORIAL 2 / TUTORIAAL 2
+Die meeste probleme is aangepas uit BASIC Business Statistics – Berenson, Levine & Krebiel,
+10th ed, Prentice Hall. / Most problems are adapted from BASIC Business Statistics – Berenson,
+Levine & Krebiel, 10th ed, Prentice Hall.
+1. Die 868 studente wat in 2008 vir Statistiek 186 geregistreer het, kan soos volg volgens
+kursus ingedeel word. / The 868 students who registered for Statistics 186 in 2008 can be
+divided as follows according to degree.
+BRek / BAcc 461
+BComm (Fin Rek) / BComm (Fin Acc) BComm (Bestuurs Rek) / BComm (Man Acc) 232
+175
+(a) In Excel, organiseer die data in ‘n toepaslike tabel wat frekwensie sowel as relatiewe
+frekwensie in terme van persentasies aandui. / In Excel, organise the data in a relevant
+table that shows frequencies as well as relative frequencies in terms of percentages.
+(b) Gee die drie hoeke wat in die konstruksie van ’n sektordiagram gebruik sal word; en
+produseer die sektordiagram in Excel / Give the three angles that will be used in the
+construction of a pie chart; and produce the pie chart in Excel.
+(c) Gee die hoogtes wat in die konstruksie van ’n staafdiagram gebruik sal word; en produseer
+die staafdiagram in Excel. / Give the heights that will be used in the construction of a bar
+chart; and produce the bar chart in Excel.
+2. Die studente wat in 2009 vir ’n sekere kursus by die US geregistreer het, kan soos volg
+volgens moedertaal verdeel word. / The students who enrolled for a certain course at the
+US during 2009, can be divided as follows according to their first language.
+Afrikaans 126
+Engels / English 65
+Duits / German 29
+Ander / Other 41
+(a) In Excel, organiseer die data in ‘n toepaslike tabel wat frekwensie sowel as relatiewe
+frekwensie in terme van persentasies aandui. / In Excel, organise the data in a relevant
+table that shows frequencies as wel as relative frequencies in terms of percentages.
+(b) Gee die vier hoeke wat in die konstruksie van ’n sektordiagram vir hierdie datastel gebruik
+sal word; en produseer die sektordiagram in Excel. / Give the four angles that will be used
+in the construction of a pie chart for this data set; and produce the pie chart in Excel.
+1
+Kopiereg voorbehou / Copyright reserved(c) Gee die hoogtes wat in die konstruksie van ’n staafdiagram gebruik sal word; en produseer
+die staafdiagram in Excel. / Give the heights that will be used in the construction of a bar
+chart; and produce the bar chart in Excel.
+3. In ’n ondersoek van drie banke in Suid-Afrika is tien analiste gevra om een van die banke
+se risiko om insolvent te raak, as ‘laag’, ‘medium’ of ‘hoog’ aan te dui. Die volgende
+uittreksel uit die data word aan u gegee. Hieruit kan ons byvoorbeeld sien dat die evaluering
+van Bank A aan analiste 1, 2, 8 en 10 toegeken is, en dat analis 8 die risiko as laag beskou
+het, terwyl die ander drie die risiko as hoog beskou het. / In an investigation of three banks
+in South Africa, ten analysts were asked to indicate the risk of one of the banks to become
+insolvent as ‘low’, ‘medium’ or ‘high’. The following excerpt from the data is given to you.
+From this we can, for example, see the evaluation of Bank A was allocated to analysts 1,
+2, 8, and 10 and that analyst 8 deemed the risk to be low, while the other three deemed it
+to be high.
+Analis / Analyst Risiko / Risk Bank
+1 hoog / high A
+2 hoog / high A
+3 medium C
+4 medium B
+5 medium C
+6 laag / low C
+7 medium B
+8 laag / low A
+9 hoog / high B
+10 hoog / high A
+(a) Stel ’n kruisklassifikasietabel vir die data-uittreksel op indien daar vasgestel wil word of
+daar verskille tussen die banke bestaan wat risiko betref. Stel vier veskillende tabelle op
+wat i) die frekwensies, ii) die persentasies van die geheel, iii) die ry-persentasies, en iv) die
+kolom-persentasies uitbeeld./ Set up a cross-classification table for the data excerpt if we
+are interested in determining whether there are differences between the banks with respect
+to risk. Compile four different tables that represent; i) the frequencies, ii) the global
+percentages, iii) the row percentages, and iv) the column percentages.
+(b) Teken die mees gepaste grafiek om die kruisklassifikasietabel in (a) op te som. / Draw the
+most applicable chart in order to summarise the cross-classification table in (a).
+4. Die volgende is ŉ stingel-en-blaarvoorstelling van die lengte van selfoonoproepe in minute
+(met blare in ŉ tiende van ŉ minuut) vir ŉ steekproef van 25 studente in ŉ Statistiek klas. /
+The following is a stem and leaf display representing the duration of cell phone calls in
+minutes (with leaves in tenths of minutes) for a sample of 25 students from a Statistics
+class.
+9 147
+10 02238
+11 125566777
+12 223489
+13 02
+2
+Kopiereg voorbehou / Copyright reserved(a) Rangskik die data. / Place the data into an ordered array.
+(b) Watter van die twee voorstellings verskaf meer inligting? Motiveer u antwoord. / Which of
+these two displays provide more information? Motivate your answer.
+(c) Wat is die mees waarskynlike lengte van ‘n selfoonoproep (in minute)? / What length of
+time (in minutes) is most likely to be spent on a cell phone call?
+5. Wanneer ’n ogief gekonstrueer word vir die punte van ’n steekproef van 50 studente wat
+aansoek doen vir ’n MBA program, dui vorige data aan dat geen van die studente ’n punt
+laer as 450 behaal nie. Die frekwensieverdeling is verkry deur klasintervalle 450−
+499
+,
+500− 549
+, ens. te vorm, waar die laaste klasinterval 700− was. Indien twee studente
+749
+wat aansoek gedoen het, se punte in die interval 450− 499
+lê, en 16 studente wat aansoek
+doen se punte in die interval 500− 549
+lê: / In constructing an ogive pertaining to the
+scores from a sample of 50 applicants to an MBA program, previous data indicate that
+none of the applicants scored below 450. The frequency distribution was formed by
+450−
+choosing class intervals 499
+, 549
+500− , etc., with the last class grouping being
+700− 749
+450−
+499
+. If two applicants scored in the interval , and 16 applicants scored
+in the interval :
+500−
+549
+(a) Watter persentasie studente wat aansoek doen het ’n punt laer as 500 behaal? / What
+percentage of applicants scored below 500?
+(b) Watter persentasie studente het ’n punt tussen 500 en 549 behaal? / What percentage of
+applicants scored between 500 and 549?
+(c) Watter persentasie studente het minder as 550 behaal? / What percentage of applicants
+scored below 550?
+(d) Watter persentasie studente het minder as 750 behaal? / What percentage of applicants
+scored below 750?
+6. Die massa (in kg) van ʼn groep persone is soos volg: / The weights (in kg) of a group of
+people are as follows:
+72 68 81 66 65 75 74 78 64 60
+74 86 58 83 80 79 71 76 73 75
+77 70 63 85 78 74 82 66 69 75
+(a) Stel ʼn stingel-en-blaarvoorstelling vir hierdie datastel op. / Construct a stem and leaf
+display for this data set.
+(b) Stel ʼn frekwensieverdeling vir hierdie datastel in Excel op. Gebruik ses klasse en stel die
+onderste grens van die eerste klas gelyk aan 58. / Construct a frequency distribution for
+this dataset in Excel. Use six classes, and take the lower limit of the first class equal to 58.
+(c) Watter voordeel het ʼn stingel-en-blaarvoorstelling bo ’n frekwensieverdeling? / What
+advantage does the stem and leaf display have compared to a frequency distribution?
+(d) Verskaf die hoogtes van die reghoeke in die relatiewe frekwensie histogram en gebruik
+Excel om dit uit te beeld. / Give the heights of the rectangles in the relative frequency
+histogram and use Excel to illustrate the histogram.
+(e) Verskaf die koördinate van al die punte wat in die relatiewe frekwensie veelhoek verbind
+word en gebruik Excel om dit uit te beeld. / Give the co-ordinates of all the points that are
+joined to form the relative frequency polygon and use Excel to show it.
+(f) Verskaf die koördinate van al die punte wat verbind word om die ogief te vorm en beeld
+dit uit in Excel. / Give the co-ordinates of all the points that are joined to form the ogive
+and demonstrate it in Excel.
+3
+Kopiereg voorbehou / Copyright reserved7. Die jaarlikse lone (in duisende rande) van 40 werkers is soos volg / The annual wages (in
+thousands of rands) of 40 workers are as follows:
+98 82 68 94 75 78 72 88 84 79
+80 75 66 91 90 79 85 89 76 77
+81 83 69 70 77 81 88 72 74 80
+89 81 78 75 65 66 70 85 89 94
+(a) Stel ʼn stingel-en-blaarvoorstelling vir hierdie datastel op. / Construct a stem and leaf
+display for this dataset.
+(b) Stel ʼn frekwensieverdeling vir hierdie datastel in Excel op. Gebruik sewe klasse en neem
+die onderste grens van die eerste klas gelyk aan 65. / Construct a frequency distribution for
+this dataset in Excl. Use seven classes, and take the lower limit of the first class equal to
+65.
+(c) Gee die hoogtes van die reghoeke in die relatiewe frekwensie histogram en gebruik Excel
+om dit uit te beeld. / Give the heights of the rectangles in the relative frequency histogram
+and use Excel to illustrate the histogram.
+(d) Gee die koördinate van al die punte wat in die relatiewe frekwensie veelhoek verbind word
+en gebruik Excel om dit uit te beeld. / Give the co-ordinates of all the points that are joined
+to form the relative frequency polygon and use Excel to show it.
+(e) Gee die koördinate van al die punte wat verbind word om die ogief te vorm en beeld dit uit
+in Excel. / Give the co-ordinates of all the points that are joined to form the ogive and
+demonstrate it in Excel.
+8. Beskou die volgende ogief wat vir ’n steekproef van 158 maande se winste vir maatskappy
+A en 375 maande se winste vir maatskappy B gekonstrueer is: / Consider the following
+ogive constructed for a sample of 158 months’ profits for company A, and 375 months’
+profits for company B:
+1.00
+0.90
+0.85
+0.80
+0.71
+0.70
+0.92
+0.72
+0.97
+0.87
+0.99
+0.92
+Kum. rel. frekwensie / Cum. rel. frequency
+0.60
+0.57
+0.50
+0.40
+0.30
+0.20
+0.10
+0.00
+0.46
+0.39
+0.44
+0.34
+0.24
+Maatskappy / Company A
+Maatskappy / Company B
+0 10 20 30 40 50 60 70 80
+Wins / Profit (in R000)
+4
+Kopiereg voorbehou / Copyright reserved(a) Vir maatskappy A, hoeveel maande se winste was R40 000 of meer? / For company A, how
+many of the months’ profits were R40 000 or more?
+(b) Vir maatskappy B, hoeveel maande se winste was R30 000 of meer, maar minder as
+R50 000? / For company B, how many months’ profits were R30 000 or more, but less than
+R50 000?
+(c) Bepaal ’n benaderde waarde vir die 90ste persentiel van die winste van maatskappy B. /
+Determine an approximation of the 90th percentile of the profits of company B.
+(d) Is die verdeling van maatskappy B se winste skeef na links, simmetries, uniform, of skeef
+na regs? / Is the distribution of the profits of company B left skewed, symmetric, uniform,
+or right skewed.
+(e) Oor die algemeen, watter maatskappy sou u sê vaar beter in terme van wins? / In general,
+which company would you say performs better in terms of profit?
+9. Die volgende datastel is ’n steekproef van 11=
+n items. / The following data set is a sample
+of 11=
+n items.
+X 7 5 8 3 6 10 12 4 9 15 18
+Y 21 15 24 9 18 30 36 12 27 45 54
+(a) Stip die spreidingsdiagram. / Plot the scatter diagram.
+(b) Is daar ’n verwantskap tussen X en Y? Motiveer u antwoord. / Is there a relationship
+between X and Y? Motivate your answer.
+10. Oefening 2.73 in die voorgeskrewe handbook. Exercise 2.73 from the prescribed textbook.
+11. Die volgende datastel stel die koste van elektrisiteit gedurende Julie 2009 voor vir ’n
+steekproef van 50 een-slaapkamer woonstelle in Johannesburg. / The data displayed below
+represent the cost of electricity during July 2009 for a random sample of 50 one bedroom
+apartments in Johannesburg.
+5
+Kopiereg voorbehou / Copyright reserved96 171 202 178 147 102 153 197 127 82
+157 185 90 116 172 111 148 213 130 165
+141 149 206 175 123 128 144 168 109 167
+95 163 150 154 130 143 187 166 139 149
+108 119 183 151 114 135 191 137 129 158
+(a) Vorm ’n frekwensieverdeling en ’n persentasieverdeling met klasintervalle met bogrense
+R100, R120 ens. / Form a frequency distribution and a percentage distribution that have
+class intervals with the upper class limits R100, R120, and so on.
+(b) Teken ’n histogram en ’n persentasieveelhoek. / Plot a histogram and a percentage
+polygon.
+(c) Stel die kumulatiewe persentasieverdeling op en teken die ogief. / Set up the cumulative
+percentage distribution and plot the ogive.
+(d) Om watter waarde blyk dit is die maandelikse elektrisiteit koste gekonsentreer? / Around
+which amount does the electricity cost seem to be concentrated?
+6
+Kopiereg voorbehou / Copyright reserved
+
+
+
+
+MEMO 
+
+
+
+
+
+
+Stats and data science 188 - tut 3https://github.com/apseynicole-ai/Statistics-And-Data-Science-188-.git
+Stats and data science 188 - tut 4
+Stats and data science 188 - tut 5
+Stats and data science 188 - tut 6
+
+
+2026 Module Framework SDS188 (2).pdf
+PDF
+Formula Sheet A2S1.pdf
+PDF
+we are compiling my notes for stats and data science a2 and i want your advise and help throuighouth the entire process please. advise me on best ways tot prep the notes (i think a question with theory on the side and help to work through is best bc on the limites timefrmae and then normal theory notes. dont create any notes until we have 1) confirmed we have all the stats and data science material for the a2 and you can access it for the a2 notes 2) we need to set the best workflow possible to get the best notes possible to prepare me to get the best mark possibe for the a2. here is the extra test information to store as well: 1. The A2S1 will be a closed-book written assessment. The paper counts 40 marks in total and consists of 40 multiple-choice questions. The duration of the test is three hours. 2. The A2S1 scheduled for 1 June at 09h00 will assess all the work up to Chapter 6, although its focus will be on Chapters 3 - 6. The formula sheet that will be available to you in the assessment are posted on EMSLearn. Details of venues are determined by the Assessment office and any concessions will be managed by them and not by the department. //////// here is the gitbhub for stats to ensure oyu can always acces it throughtout the note creation: https://github.com/apseynicole-ai/Statistics-And-Data-Science-188-.git ///// i also have access to lectire recordings for chaoter 3-6 so i can get the transcripst if that is needed for this porcess and the notes and my prep for the a2
+okay move onto Uniform Distribution Question Cards
+Great — Uniform is one of the nicest Chapter 6 areas because once the idea clicks, it becomes rectangle area + bounds. I’ll keep the same “teach first → recognise → formula → worked example → traps” structure.
+Thought for 17s
+Perfect — moving onto Uniform Distribution Question Cards. These are built to teach the topic while training MCQ recognition.
+SDS188 A2S1 — Chapter 6 Question Cards
+Part 2: Uniform Distribution
+First: what is a uniform distribution?
+A uniform distribution is used when every value in an interval is equally likely.
+The graph looks like a rectangle because the height stays constant from the lower bound a to the upper bound b. The formula sheet gives:
+X∼Uniform(a,b)X \sim Uniform(a,b)X∼Uniform(a,b) f(x)=1b−a,a≤x≤bf(x)=\frac{1}{b-a}, \quad a \le x \le bf(x)=b−a1​,a≤x≤b E[X]=a+b2E[X]=\frac{a+b}{2}E[X]=2a+b​ Var(X)=(b−a)212Var(X)=\frac{(b-a)^2}{12}Var(X)=12(b−a)2​
+These are officially on the A2S1 formula sheet.
+________________
+
+
+Card 1 — Recognising a Uniform Distribution
+Question type
+Identify whether the distribution is uniform.
+Teach it simply
+Uniform means:
+“All values between the lower limit and upper limit have the same chance.”
+So unlike the normal distribution, where values near the mean are more likely, the uniform distribution treats every value in the interval equally.
+Think of it like a flat rectangle:
+Position
+	Probability density
+	Near the start
+	Same height
+	In the middle
+	Same height
+	Near the end
+	Same height
+	The Chapter 6 transcript describes the uniform distribution as a rectangular distribution with a starting value a and an ending value b.
+________________
+
+
+Recognition clues
+Clue in question
+	Think
+	“Uniformly distributed”
+	Uniform
+	“Equally likely between…”
+	Uniform
+	“Between 3.5 and 5.5 minutes” with no rate
+	Uniform
+	Lower bound and upper bound are given
+	Uniform
+	No mean/SD given, no λ rate given
+	Probably uniform
+	Important trap
+Time does not automatically mean exponential.
+If the question says:
+“Download time is between 3.5 and 5.5 minutes”
+and gives no rate like “per minute” or “per hour”, it is likely uniform, not exponential.
+________________
+
+
+Card 2 — Finding the Height of the Rectangle
+Question type
+Find f(x) for a uniform distribution.
+Teach it simply
+For a continuous distribution, the total area under the curve must equal 1.
+For a uniform distribution, the graph is a rectangle.
+Area=base×heightArea = base \times heightArea=base×height
+The base is:
+b−ab-ab−a
+So the height must be:
+1b−a\frac{1}{b-a}b−a1​
+That is why:
+f(x)=1b−af(x)=\frac{1}{b-a}f(x)=b−a1​
+The transcript explains this exact logic: because total area must equal 1, and the base length is b−a, the height becomes 1/(b−a).
+________________
+
+
+Worked example
+Suppose:
+X∼Uniform(0,10)X \sim Uniform(0,10)X∼Uniform(0,10)
+Find the height.
+Step 1: Identify a and b
+Symbol
+	Value
+	a
+	0
+	b
+	10
+	Step 2: Use the height formula
+f(x)=1b−af(x)=\frac{1}{b-a}f(x)=b−a1​ f(x)=110−0f(x)=\frac{1}{10-0}f(x)=10−01​ f(x)=0.1f(x)=0.1f(x)=0.1
+Final answer
+f(x)=0.1f(x)=0.1f(x)=0.1
+Important interpretation
+0.1 is the height, not the probability of one exact value.
+For continuous variables:
+P(X=5)=0P(X=5)=0P(X=5)=0
+Probability comes from area, not from the height alone.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Thinking f(x) is the probability
+	It is only the height/density
+	Forgetting total area must equal 1
+	Always think rectangle area
+	Using b+a instead of b−a
+	Base length is upper minus lower
+	Thinking exact values have probability
+	Continuous exact point probability is 0
+	________________
+
+
+Card 3 — Probability Between Two Values
+Question type
+Find P(c < X < d).
+Teach it simply
+For a uniform distribution, probability is just the area of a rectangle section.
+Probability=base×heightProbability = base \times heightProbability=base×height
+Where:
+base=d−cbase = d-cbase=d−c
+and:
+height=1b−aheight = \frac{1}{b-a}height=b−a1​
+So:
+P(c<X<d)=(d−c)×1b−aP(c<X<d)=(d-c)\times \frac{1}{b-a}P(c<X<d)=(d−c)×b−a1​
+________________
+Worked example
+Suppose:
+X∼Uniform(0,10)X \sim Uniform(0,10)X∼Uniform(0,10)
+Find:
+P(5<X<7)P(5<X<7)P(5<X<7)
+Step 1: Find the height
+f(x)=110−0=0.1f(x)=\frac{1}{10-0}=0.1f(x)=10−01​=0.1
+Step 2: Find the base
+base=7−5=2base = 7-5 = 2base=7−5=2
+Step 3: Multiply base by height
+P(5<X<7)=2×0.1P(5<X<7)=2 \times 0.1P(5<X<7)=2×0.1 P(5<X<7)=0.2P(5<X<7)=0.2P(5<X<7)=0.2
+Final answer
+P(5<X<7)=0.2P(5<X<7)=0.2P(5<X<7)=0.2
+Interpretation
+There is a 20% probability that the selected value lies between 5 and 7.
+The practical transcript uses this same a=0, b=10 example and gets 0.2 for the probability between 5 and 7.
+________________
+
+
+MCQ traps
+Trap
+	Wrong answer
+	Correct thinking
+	Using 7 × 0.1
+	0.7
+	Need only distance from 5 to 7
+	Using 5 × 0.1
+	0.5
+	Lower value is not the base
+	Forgetting height
+	2
+	Probability cannot be greater than 1
+	Treating 5 and 7 as exact values
+	0
+	It asks for an interval, not exact points
+	________________
+
+
+Card 4 — Probability Less Than a Value
+Question type
+Find P(X < t).
+Teach it simply
+If X is uniform between a and b, then P(X < t) means:
+Find the area from the lower bound a up to t.
+So the base is:
+t−at-at−a
+The height is:
+1b−a\frac{1}{b-a}b−a1​
+Therefore:
+P(X<t)=t−ab−aP(X<t)=\frac{t-a}{b-a}P(X<t)=b−at−a​
+This shortcut is explained in the Chapter 6 transcript, even though the formula sheet mainly gives the height, mean and variance.
+________________
+
+
+Worked example
+Suppose:
+X∼Uniform(3.5,5.5)X \sim Uniform(3.5,5.5)X∼Uniform(3.5,5.5)
+Find:
+P(X<4.5)P(X<4.5)P(X<4.5)
+Step 1: Identify the bounds
+Symbol
+	Value
+	a
+	3.5
+	b
+	5.5
+	t
+	4.5
+	Step 2: Use the formula
+P(X<t)=t−ab−aP(X<t)=\frac{t-a}{b-a}P(X<t)=b−at−a​ P(X<4.5)=4.5−3.55.5−3.5P(X<4.5)=\frac{4.5-3.5}{5.5-3.5}P(X<4.5)=5.5−3.54.5−3.5​ P(X<4.5)=12P(X<4.5)=\frac{1}{2}P(X<4.5)=21​ P(X<4.5)=0.5P(X<4.5)=0.5P(X<4.5)=0.5
+Final answer
+P(X<4.5)=0.5P(X<4.5)=0.5P(X<4.5)=0.5
+Interpretation
+There is a 50% probability that the value is below 4.5.
+This makes sense because 4.5 is exactly halfway between 3.5 and 5.5.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Starting area from 0
+	Start from a, not always 0
+	Using 4.5/5.5
+	Wrong unless a=0
+	Forgetting the lower bound
+	Always subtract a
+	Thinking less-than and less-than-or-equal differ
+	For continuous variables, they are effectively the same
+	________________
+
+
+Card 5 — Probability Greater Than a Value
+Question type
+Find P(X > t).
+Teach it simply
+P(X > t) means:
+Find the area from t to the upper bound b.
+You can do it two ways.
+Method A: Area directly
+P(X>t)=(b−t)×1b−aP(X>t)=(b-t)\times \frac{1}{b-a}P(X>t)=(b−t)×b−a1​
+Method B: Complement
+P(X>t)=1−P(X<t)P(X>t)=1-P(X<t)P(X>t)=1−P(X<t)
+Both methods give the same answer.
+________________
+
+
+Worked example
+Suppose:
+X∼Uniform(3.5,5.5)X \sim Uniform(3.5,5.5)X∼Uniform(3.5,5.5)
+Find:
+P(X>4)P(X>4)P(X>4)
+Method A: Area directly
+Step 1: Find height
+f(x)=15.5−3.5f(x)=\frac{1}{5.5-3.5}f(x)=5.5−3.51​ f(x)=12f(x)=\frac{1}{2}f(x)=21​ f(x)=0.5f(x)=0.5f(x)=0.5
+Step 2: Find base from 4 to 5.5
+base=5.5−4base = 5.5-4base=5.5−4 base=1.5base=1.5base=1.5
+Step 3: Multiply
+P(X>4)=1.5×0.5P(X>4)=1.5 \times 0.5P(X>4)=1.5×0.5 P(X>4)=0.75P(X>4)=0.75P(X>4)=0.75
+Final answer
+P(X>4)=0.75P(X>4)=0.75P(X>4)=0.75
+________________
+Method B: Complement
+P(X>4)=1−P(X<4)P(X>4)=1-P(X<4)P(X>4)=1−P(X<4) P(X<4)=4−3.55.5−3.5P(X<4)=\frac{4-3.5}{5.5-3.5}P(X<4)=5.5−3.54−3.5​ P(X<4)=0.52=0.25P(X<4)=\frac{0.5}{2}=0.25P(X<4)=20.5​=0.25 P(X>4)=1−0.25P(X>4)=1-0.25P(X>4)=1−0.25 P(X>4)=0.75P(X>4)=0.75P(X>4)=0.75
+The transcript’s FastMetric example uses this same logic and gets 0.75 for download time greater than 4 minutes.
+________________
+
+
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Using area from a to t
+	Finds P(X<t)
+	For greater than, use t to b
+	Forgetting complement
+	Gives opposite probability
+	Use 1 − P(X<t)
+	Using t × height
+	Only works if lower bound is 0
+	Use actual base
+	Thinking “more than 4” means exponential
+	Not if only bounds are given
+	
+
+	________________
+
+
+Card 6 — Probability Between Two Values Using CDF Shortcut
+Question type
+Find P(x₁ < X < x₂) using cumulative probabilities.
+Teach it simply
+This is the same as the rectangle-area method, but written like normal-distribution logic:
+P(x1<X<x2)=P(X<x2)−P(X<x1)P(x_1<X<x_2)=P(X<x_2)-P(X<x_1)P(x1​<X<x2​)=P(X<x2​)−P(X<x1​)
+For uniform:
+P(X<t)=t−ab−aP(X<t)=\frac{t-a}{b-a}P(X<t)=b−at−a​
+So:
+P(x1<X<x2)=x2−ab−a−x1−ab−aP(x_1<X<x_2)=\frac{x_2-a}{b-a}-\frac{x_1-a}{b-a}P(x1​<X<x2​)=b−ax2​−a​−b−ax1​−a​
+The transcript gives this as the second method for uniform probabilities.
+________________
+
+
+Worked example
+Suppose:
+X∼Uniform(3.5,5.5)X \sim Uniform(3.5,5.5)X∼Uniform(3.5,5.5)
+Find:
+P(4<X<4.5)P(4<X<4.5)P(4<X<4.5)
+Step 1: Find probability below 4.5
+P(X<4.5)=4.5−3.55.5−3.5P(X<4.5)=\frac{4.5-3.5}{5.5-3.5}P(X<4.5)=5.5−3.54.5−3.5​ P(X<4.5)=12=0.5P(X<4.5)=\frac{1}{2}=0.5P(X<4.5)=21​=0.5
+Step 2: Find probability below 4
+P(X<4)=4−3.55.5−3.5P(X<4)=\frac{4-3.5}{5.5-3.5}P(X<4)=5.5−3.54−3.5​ P(X<4)=0.52=0.25P(X<4)=\frac{0.5}{2}=0.25P(X<4)=20.5​=0.25
+Step 3: Subtract
+P(4<X<4.5)=0.5−0.25P(4<X<4.5)=0.5-0.25P(4<X<4.5)=0.5−0.25 P(4<X<4.5)=0.25P(4<X<4.5)=0.25P(4<X<4.5)=0.25
+Final answer
+P(4<X<4.5)=0.25P(4<X<4.5)=0.25P(4<X<4.5)=0.25
+Interpretation
+There is a 25% probability that the download time lies between 4 and 4.5 minutes.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Lower probability minus upper probability
+	Always upper minus lower
+	Forgetting lower bound a
+	Use (t-a)/(b-a)
+	Using normal z-score
+	Uniform does not use z
+	Using exponential formula
+	Uniform does not use λ
+	________________
+
+
+Card 7 — Mean of a Uniform Distribution
+Question type
+Find the expected value / mean of a uniform distribution.
+Teach it simply
+For a uniform distribution, the mean is just the middle point between the lower and upper bounds.
+Why? Because the distribution is balanced perfectly evenly from a to b.
+E[X]=a+b2E[X]=\frac{a+b}{2}E[X]=2a+b​
+________________
+Worked example
+Suppose:
+X∼Uniform(3.5,5.5)X \sim Uniform(3.5,5.5)X∼Uniform(3.5,5.5)
+Find the mean.
+E[X]=a+b2E[X]=\frac{a+b}{2}E[X]=2a+b​ E[X]=3.5+5.52E[X]=\frac{3.5+5.5}{2}E[X]=23.5+5.5​ E[X]=92E[X]=\frac{9}{2}E[X]=29​ E[X]=4.5E[X]=4.5E[X]=4.5
+Final answer
+E[X]=4.5E[X]=4.5E[X]=4.5
+Interpretation
+The average download time is 4.5 minutes.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Using (b−a)/2
+	That gives half the width, not the midpoint
+	Thinking mean must be most likely value
+	In uniform, all values are equally likely
+	Confusing mean with height
+	Mean is on x-axis; height is on y-axis
+	________________
+
+
+Card 8 — Variance and Standard Deviation of a Uniform Distribution
+Question type
+Find variance or standard deviation.
+Teach it simply
+Variance tells us how spread out the values are.
+For a uniform distribution:
+Var(X)=(b−a)212Var(X)=\frac{(b-a)^2}{12}Var(X)=12(b−a)2​
+The standard deviation is the square root of the variance:
+σ=(b−a)212\sigma=\sqrt{\frac{(b-a)^2}{12}}σ=12(b−a)2​​
+The formula sheet gives the variance formula, so if the question asks for standard deviation, you must take the square root.
+________________
+
+
+Worked example
+Suppose:
+X∼Uniform(0,10)X \sim Uniform(0,10)X∼Uniform(0,10)
+Find the standard deviation.
+Step 1: Find variance
+Var(X)=(10−0)212Var(X)=\frac{(10-0)^2}{12}Var(X)=12(10−0)2​ Var(X)=10012Var(X)=\frac{100}{12}Var(X)=12100​ Var(X)=8.3333Var(X)=8.3333Var(X)=8.3333
+Step 2: Take square root
+σ=8.3333\sigma=\sqrt{8.3333}σ=8.3333​ σ=2.8868\sigma=2.8868σ=2.8868
+Final answer
+σ≈2.8868\sigma \approx 2.8868σ≈2.8868
+The Chapter 6 practical transcript also gives approximately 2.8868 for the standard deviation when a=0 and b=10.
+________________
+
+
+MCQ traps
+Trap
+	Wrong answer
+	Correct thinking
+	Giving variance when SD is asked
+	8.3333
+	SD is 2.8868
+	Forgetting to square (b−a)
+	too small
+	Use (b−a)²
+	Forgetting divisor 12
+	too large
+	Always divide by 12
+	Using normal SD logic
+	No z-score here
+	Uniform has its own formula
+	________________
+
+
+Uniform Distribution Quick Method Summary
+Question asks
+	Use
+	Height
+	1/(b−a)
+	Probability between c and d
+	(d−c) × height
+	Probability below t
+	(t−a)/(b−a)
+	Probability above t
+	(b−t)/(b−a) or 1−P(X<t)
+	Mean
+	(a+b)/2
+	Variance
+	(b−a)²/12
+	Standard deviation
+	√[(b−a)²/12]
+	________________
+
+
+Uniform Distribution Mini Trap Drill
+Scenario
+	What should you think?
+	X ~ Uniform(2,6)
+	a=2, b=6
+	“Between 2 and 6”
+	Lower and upper bounds
+	f(x)=0.25
+	Height, not probability
+	P(3<X<5)
+	Base = 2, height = 0.25, answer = 0.5
+	P(X<3)
+	Area from 2 to 3
+	P(X>3)
+	Area from 3 to 6
+	Asked for mean
+	Midpoint
+	Asked for SD
+	Square root of variance
+	Time interval but no rate
+	Could be uniform, not exponential
+	________________
+
+
+Tiny self-check
+Use:
+X∼Uniform(2,6)X \sim Uniform(2,6)X∼Uniform(2,6)
+Question
+	Method
+	Answer
+	Find height
+	1/(6−2)
+	0.25
+	P(3<X<5)
+	(5−3)×0.25
+	0.5
+	P(X<3)
+	(3−2)/(6−2)
+	0.25
+	P(X>3)
+	(6−3)/(6−2)
+	0.75
+	Mean
+	(2+6)/2
+	4
+	Variance
+	(6−2)²/12
+	1.3333
+	SD
+	√1.3333
+	1.1547
+	Next part
+Next we should move to Exponential Distribution Question Cards, because that is where the biggest trap is: λ rate + unit conversion + Poisson vs exponential confusion.
+move to Exponential Distribution Question Cards
+Thought for 18s
+Perfect — moving to Exponential Distribution Question Cards. This one is very important because it is easy once you understand it, but the MCQ traps are sneaky: Poisson vs exponential, λ units, and greater-than probabilities.
+SDS188 A2S1 — Chapter 6 Question Cards
+Part 3: Exponential Distribution
+First: what is an exponential distribution?
+An exponential distribution is used for waiting time or time between events.
+It answers questions like:
+Situation
+	Exponential question
+	Cars arrive at a toll plaza
+	How long until the next car arrives?
+	Calls arrive at a call centre
+	How long until the next call arrives?
+	A machine breaks down twice per week
+	How long until the next breakdown?
+	Customers arrive at a shop
+	How long until the next customer arrives?
+	The formula sheet gives the exponential distribution as:
+X∼Exponential(λ)X \sim Exponential(\lambda)X∼Exponential(λ) f(x)=λe−λx;x≥0f(x)=\lambda e^{-\lambda x}; \quad x \ge 0f(x)=λe−λx;x≥0 E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​ Var(X)=1λ2Var(X)=\frac{1}{\lambda^2}Var(X)=λ21​ P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+These are officially on the A2S1 formula sheet.
+________________
+
+
+Card 1 — Recognising an Exponential Distribution
+Question type
+Decide whether a question uses the exponential distribution.
+Teach it simply
+Exponential distribution is about how long you wait between events.
+It is closely linked to the Poisson distribution, but they ask different questions:
+Distribution
+	What it measures
+	Example
+	Poisson
+	Number of events in a fixed interval
+	Number of cars arriving in 1 minute
+	Exponential
+	Time between events
+	Time until the next car arrives
+	The Chapter 6 transcript explains this exact distinction: Poisson counts the number of discrete events in a fixed period, while exponential measures the time between events.
+________________
+
+
+Recognition clues
+Clue in question
+	Think
+	“time between arrivals”
+	Exponential
+	“waiting time until the next…”
+	Exponential
+	“the next car arrives within…”
+	Exponential
+	“the next call arrives in less than…”
+	Exponential
+	“breaks down on average twice per week; find probability it lasts…”
+	Exponential
+	“rate of 50 per minute” and asks about time
+	Exponential
+	Big trap
+A rate like “50 per minute” does not automatically mean Poisson.
+Ask:
+Is the question asking for a number of events or a waiting time?
+Question asks
+	Use
+	“How many cars arrive in 1 minute?”
+	Poisson
+	“How long until the next car arrives?”
+	Exponential
+	________________
+
+
+Card 2 — Understanding λ
+Question type
+Interpret λ in an exponential distribution.
+Teach it simply
+λ\lambdaλ
+is the average rate of events occurring.
+It is not the waiting time itself.
+Given phrase
+	λ
+	“50 cars per minute”
+	λ=50\lambda = 50λ=50 per minute
+	“12 calls per hour”
+	λ=12\lambda = 12λ=12 per hour
+	“2 breakdowns per week”
+	λ=2\lambda = 2λ=2 per week
+	“0.2 calls per minute”
+	λ=0.2\lambda = 0.2λ=0.2 per minute
+	Meaning of a bigger or smaller λ
+λ changes
+	What happens
+	λ increases
+	Events happen more often, so waiting time decreases
+	λ decreases
+	Events happen less often, so waiting time increases
+	The transcript explains this inverse relationship: if the number of events increases, the time between events goes down; if the number of events decreases, the time between events goes up.
+________________
+
+
+Mini example
+If cars arrive at:
+λ=50 cars per minute\lambda = 50 \text{ cars per minute}λ=50 cars per minute
+then the average waiting time between cars is:
+E[X]=1λE[X] = \frac{1}{\lambda}E[X]=λ1​ E[X]=150E[X]=\frac{1}{50}E[X]=501​ E[X]=0.02 minutesE[X]=0.02 \text{ minutes}E[X]=0.02 minutes
+Convert to seconds:
+0.02×60=1.2 seconds0.02 \times 60 = 1.2 \text{ seconds}0.02×60=1.2 seconds
+Interpretation
+On average, the next car arrives after 1.2 seconds.
+________________
+
+
+Card 3 — Probability Less Than a Time
+Question type
+Find P(X<x)P(X<x)P(X<x).
+Teach it simply
+This asks:
+What is the probability that the waiting time is less than a certain amount?
+For example:
+What is the probability that the next car arrives within 3 seconds?
+The formula sheet gives:
+P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+where:
+Symbol
+	Meaning
+	XXX
+	waiting time until next event
+	xxx
+	the time limit in the question
+	λ\lambdaλ
+	average rate of events
+	eee
+	calculator constant
+	P(X<x)P(X<x)P(X<x)
+	probability that the wait is shorter than x
+	The transcript also uses this exact formula for exponential questions.
+________________
+
+
+Worked example: cars at a toll plaza
+Cars arrive at a rate of:
+λ=50 per minute\lambda = 50 \text{ per minute}λ=50 per minute
+Find the probability that the next car arrives within 3 seconds.
+Step 1: Check units
+λ is per minute, but the question gives seconds.
+So convert:
+3 seconds=360=0.05 minutes3 \text{ seconds} = \frac{3}{60} = 0.05 \text{ minutes}3 seconds=603​=0.05 minutes
+This unit conversion is critical. The transcript says it would be incorrect to use x=3x=3x=3 when λ is per minute; the time must be converted to 0.050.050.05 minutes or λ must be converted to per-second units.
+Step 2: Use the formula
+P(X<0.05)=1−e−50(0.05)P(X<0.05)=1-e^{-50(0.05)}P(X<0.05)=1−e−50(0.05) P(X<0.05)=1−e−2.5P(X<0.05)=1-e^{-2.5}P(X<0.05)=1−e−2.5 P(X<0.05)=0.9179P(X<0.05)=0.9179P(X<0.05)=0.9179
+Final answer
+P(X<0.05)=0.9179P(X<0.05)=0.9179P(X<0.05)=0.9179
+Interpretation
+There is a 91.79% probability that the next car arrives within 3 seconds.
+________________
+
+
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Using x=3x=3x=3
+	Treats 3 as minutes
+	Convert 3 seconds to 0.05 minutes
+	Forgetting the negative exponent
+	Uses eλxe^{\lambda x}eλx
+	Use e−λxe^{-\lambda x}e−λx
+	Thinking λ is time
+	λ is rate
+	X is the waiting time
+	Choosing Poisson
+	Rate means Poisson
+	Here the question asks waiting time, so exponential
+	________________
+
+
+Card 4 — Probability Greater Than a Time
+Question type
+Find P(X>x)P(X>x)P(X>x).
+Teach it simply
+This asks:
+What is the probability that the waiting time is more than a certain amount?
+The formula sheet gives P(X<x)P(X<x)P(X<x), not directly P(X>x)P(X>x)P(X>x). So use the complement rule:
+P(X>x)=1−P(X<x)P(X>x)=1-P(X<x)P(X>x)=1−P(X<x)
+Since:
+P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+then:
+P(X>x)=1−(1−e−λx)P(X>x)=1-(1-e^{-\lambda x})P(X>x)=1−(1−e−λx) P(X>x)=e−λxP(X>x)=e^{-\lambda x}P(X>x)=e−λx
+So you can use the shortcut:
+P(X>x)=e−λxP(X>x)=e^{-\lambda x}P(X>x)=e−λx
+________________
+Worked example: call centre
+Calls arrive at a rate of:
+12 calls per hour12 \text{ calls per hour}12 calls per hour
+Find the probability that the next call arrives in more than 6 minutes.
+Step 1: Convert λ to per minute
+The question asks minutes, so convert λ:
+λ=1260\lambda = \frac{12}{60}λ=6012​ λ=0.2 calls per minute\lambda = 0.2 \text{ calls per minute}λ=0.2 calls per minute
+Step 2: Use greater-than shortcut
+P(X>6)=e−λxP(X>6)=e^{-\lambda x}P(X>6)=e−λx P(X>6)=e−0.2(6)P(X>6)=e^{-0.2(6)}P(X>6)=e−0.2(6) P(X>6)=e−1.2P(X>6)=e^{-1.2}P(X>6)=e−1.2 P(X>6)=0.3012P(X>6)=0.3012P(X>6)=0.3012
+Final answer
+P(X>6)=0.3012P(X>6)=0.3012P(X>6)=0.3012
+Interpretation
+There is a 30.12% probability that you wait more than 6 minutes for the next call.
+________________
+
+
+MCQ traps
+Trap
+	Wrong answer risk
+	Correct fix
+	Using 1−e−λx1-e^{-\lambda x}1−e−λx for “more than”
+	Gives less-than probability
+	Use e−λxe^{-\lambda x}e−λx
+	Forgetting to convert hours to minutes
+	Very wrong probability
+	Match λ units to x
+	Subtracting wrong way
+	Negative/incorrect answer
+	Greater-than = complement
+	Treating “more than” like “within”
+	Opposite tail
+	“Within” = less than; “more than” = greater than
+	________________
+
+
+Card 5 — Unit Conversion Questions
+Question type
+λ is in one unit, but x is in another unit.
+Teach it simply
+This is the biggest exponential trap.
+You cannot substitute into:
+P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+unless λ and x use the same time unit.
+λ is given as
+	x must be in
+	per minute
+	minutes
+	per hour
+	hours
+	per week
+	weeks
+	per second
+	seconds
+	You have two choices
+Option
+	What you do
+	Convert x
+	Change the time in the question to match λ
+	Convert λ
+	Change the rate to match the time in the question
+	Both are correct if you are consistent.
+________________
+
+
+Worked example A: convert x
+Cars arrive at:
+λ=50 per minute\lambda = 50 \text{ per minute}λ=50 per minute
+Find P(X<1 second)P(X<1 \text{ second})P(X<1 second).
+Step 1: Convert 1 second to minutes
+1 second=160 minutes1 \text{ second}=\frac{1}{60}\text{ minutes}1 second=601​ minutes
+Step 2: Substitute
+P(X<1/60)=1−e−50(1/60)P(X<1/60)=1-e^{-50(1/60)}P(X<1/60)=1−e−50(1/60) P(X<1/60)=0.5654P(X<1/60)=0.5654P(X<1/60)=0.5654
+Final answer
+P(X<1 second)=0.5654P(X<1 \text{ second})=0.5654P(X<1 second)=0.5654
+The transcript uses this exact conversion and result.
+________________
+
+
+Worked example B: convert λ
+Calls arrive at:
+12 per hour12 \text{ per hour}12 per hour
+Find P(X<3 minutes)P(X<3 \text{ minutes})P(X<3 minutes).
+Step 1: Convert λ to per minute
+λ=1260\lambda = \frac{12}{60}λ=6012​ λ=0.2 per minute\lambda = 0.2 \text{ per minute}λ=0.2 per minute
+Step 2: Substitute
+P(X<3)=1−e−0.2(3)P(X<3)=1-e^{-0.2(3)}P(X<3)=1−e−0.2(3) P(X<3)=1−e−0.6P(X<3)=1-e^{-0.6}P(X<3)=1−e−0.6 P(X<3)=0.4512P(X<3)=0.4512P(X<3)=0.4512
+Final answer
+P(X<3)=0.4512P(X<3)=0.4512P(X<3)=0.4512
+Interpretation
+There is a 45.12% probability that the next call arrives within 3 minutes.
+________________
+
+
+MCQ traps
+Trap
+	Example
+	Fix
+	λ per hour, x in minutes
+	λ=12,x=3\lambda=12, x=3λ=12,x=3
+	Convert λ to 0.2 per minute or x to 0.05 hours
+	λ per minute, x in seconds
+	λ=50,x=3\lambda=50, x=3λ=50,x=3
+	Convert x to 3/603/603/60 minutes
+	Forgetting rate units
+	Treating λ as unitless
+	Always write “per ___” next to λ
+	Mixing conversions
+	Convert both incorrectly
+	Convert only one side so units match
+	________________
+
+
+Card 6 — Mean and Variance of an Exponential Distribution
+Question type
+Find expected waiting time, variance, or standard deviation.
+Teach it simply
+The exponential distribution has a simple relationship:
+E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​
+This means:
+Average waiting time = inverse of the average rate.
+The formula sheet also gives:
+Var(X)=1λ2Var(X)=\frac{1}{\lambda^2}Var(X)=λ21​
+So standard deviation is:
+σ=1λ2=1λ\sigma = \sqrt{\frac{1}{\lambda^2}} = \frac{1}{\lambda}σ=λ21​​=λ1​
+For the exponential distribution, the mean and standard deviation are equal.
+________________
+
+
+Worked example
+A computer breaks down on average:
+λ=2 times per week\lambda = 2 \text{ times per week}λ=2 times per week
+Find the mean waiting time between breakdowns.
+Step 1: Use expected value formula
+E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​ E[X]=12E[X]=\frac{1}{2}E[X]=21​ E[X]=0.5 weeksE[X]=0.5 \text{ weeks}E[X]=0.5 weeks
+Final answer
+E[X]=0.5 weeksE[X]=0.5 \text{ weeks}E[X]=0.5 weeks
+Interpretation
+On average, the computer lasts 0.5 weeks between breakdowns.
+________________
+
+
+Variance
+Var(X)=1λ2Var(X)=\frac{1}{\lambda^2}Var(X)=λ21​ Var(X)=122Var(X)=\frac{1}{2^2}Var(X)=221​ Var(X)=14Var(X)=\frac{1}{4}Var(X)=41​ Var(X)=0.25Var(X)=0.25Var(X)=0.25
+Standard deviation
+σ=0.25=0.5\sigma=\sqrt{0.25}=0.5σ=0.25​=0.5
+________________
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Variance = 1/λ1/\lambda1/λ
+	Confuses variance with mean
+	Variance = 1/λ21/\lambda^21/λ2
+	Forgetting the square
+	Big error
+	Square λ in variance
+	Not giving units for mean
+	Incomplete interpretation
+	Mean uses time units
+	Thinking higher λ means higher waiting time
+	Opposite
+	Higher λ means shorter wait
+	________________
+
+
+Card 7 — Exponential vs Poisson
+Question type
+Decide whether the problem is Poisson or exponential.
+Teach it simply
+Poisson and exponential are linked because they both use λ, but they ask different questions.
+Ask yourself
+	If yes, use
+	Am I counting the number of events?
+	Poisson
+	Am I measuring the waiting time between events?
+	Exponential
+	The transcript says Poisson and exponential are “two sides of the same coin”: Poisson tracks the number of events in a fixed time period, while exponential tracks the time between those events.
+________________
+
+
+Examples
+Question
+	Distribution
+	Why
+	“Cars arrive at 50 per minute. Probability exactly 60 arrive in a minute?”
+	Poisson
+	Counting cars
+	“Cars arrive at 50 per minute. Probability next car arrives within 3 seconds?”
+	Exponential
+	Waiting time
+	“Calls arrive at 12 per hour. Probability 10 calls arrive in an hour?”
+	Poisson
+	Counting calls
+	“Calls arrive at 12 per hour. Probability next call takes more than 6 minutes?”
+	Exponential
+	Waiting time
+	________________
+
+
+MCQ trap wording
+Wording
+	Use
+	“within the next 3 seconds”
+	Exponential
+	“during the next 3 seconds” and asks number of events
+	Poisson
+	“time until”
+	Exponential
+	“number of arrivals”
+	Poisson
+	“average rate” only
+	Need to inspect what is being asked
+	________________
+
+
+Card 8 — Inverse Exponential: Find the Time From a Probability
+Question type
+Find the time ppp such that a certain percentage of waiting times are below it.
+This is like a percentile question.
+Teach it simply
+Usually exponential questions give you time and ask for probability.
+Inverse exponential goes backwards:
+Given probability → find the time.
+The Chapter 6 transcript covers this inverse exponential idea and gives the formula:
+p=−1λln⁡(1−α)p=-\frac{1}{\lambda}\ln(1-\alpha)p=−λ1​ln(1−α)
+where:
+Symbol
+	Meaning
+	ppp
+	the time/percentile you are solving for
+	λ\lambdaλ
+	rate
+	α\alphaα
+	probability to the left
+	ln⁡\lnln
+	natural log
+	________________
+
+
+Worked example
+Let:
+λ=2\lambda = 2λ=2
+Find the 80th percentile.
+This means:
+α=0.80\alpha = 0.80α=0.80
+Step 1: Use the inverse formula
+p=−1λln⁡(1−α)p=-\frac{1}{\lambda}\ln(1-\alpha)p=−λ1​ln(1−α) p=−12ln⁡(1−0.80)p=-\frac{1}{2}\ln(1-0.80)p=−21​ln(1−0.80) p=−0.5ln⁡(0.20)p=-0.5\ln(0.20)p=−0.5ln(0.20) p=0.8047p=0.8047p=0.8047
+Final answer
+p≈0.8047p \approx 0.8047p≈0.8047
+Interpretation
+80% of waiting times are below about 0.8047 time units.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Using 0.800.800.80 inside ln directly
+	Use 1−α1-\alpha1−α
+	Forgetting the negative sign
+	Final answer may become negative
+	Using log instead of ln
+	Use natural log
+	Forgetting units
+	p has the same time unit as λ’s inverse
+	Confusing percentile direction
+	80th percentile means 0.80 to the left
+	________________
+
+
+Exponential Quick Method Summary
+Question asks
+	Use
+	Probability waiting time is less than x
+	P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+	Probability waiting time is more than x
+	P(X>x)=e−λxP(X>x)=e^{-\lambda x}P(X>x)=e−λx
+	Mean waiting time
+	E[X]=1/λE[X]=1/\lambdaE[X]=1/λ
+	Variance
+	Var(X)=1/λ2Var(X)=1/\lambda^2Var(X)=1/λ2
+	Standard deviation
+	σ=1/λ\sigma=1/\lambdaσ=1/λ
+	Time from percentile
+	p=−1λln⁡(1−α)p=-\frac{1}{\lambda}\ln(1-\alpha)p=−λ1​ln(1−α)
+	Poisson or exponential?
+	Count = Poisson; wait = exponential
+	Unit mismatch
+	Convert λ or x before calculating
+	________________
+
+
+Exponential Mini Trap Drill
+Scenario
+	What should you think?
+	“Cars arrive at 50 per minute”
+	λ = 50 per minute
+	“Next car arrives within 3 seconds”
+	Exponential + convert 3 seconds to minutes
+	“Number of cars in one minute”
+	Poisson, not exponential
+	“Calls arrive at 12 per hour; next call in less than 3 minutes”
+	Convert λ to 0.2 per minute
+	“More than 6 minutes”
+	Use e−λxe^{-\lambda x}e−λx
+	“Average waiting time”
+	Use 1/λ1/\lambda1/λ
+	“Variance”
+	Use 1/λ21/\lambda^21/λ2
+	“80th percentile”
+	Use inverse exponential
+	________________
+
+
+Tiny self-check
+Use:
+λ=0.2 calls per minute\lambda = 0.2 \text{ calls per minute}λ=0.2 calls per minute
+Question
+	Method
+	Answer
+	P(X<1)P(X<1)P(X<1)
+	1−e−0.2(1)1-e^{-0.2(1)}1−e−0.2(1)
+	0.1813
+	P(X<3)P(X<3)P(X<3)
+	1−e−0.2(3)1-e^{-0.2(3)}1−e−0.2(3)
+	0.4512
+	P(X>6)P(X>6)P(X>6)
+	e−0.2(6)e^{-0.2(6)}e−0.2(6)
+	0.3012
+	Mean
+	1/0.21/0.21/0.2
+	5 minutes
+	Variance
+	1/0.221/0.2^21/0.22
+	25
+	SD
+	25\sqrt{25}25​
+	5 minutes
+	________________
+
+
+Final exponential memory line
+Poisson counts events. Exponential measures the waiting time between events. Match the units, then use 1−e−λx1-e^{-\lambda x}1−e−λx for “less than” and e−λxe^{-\lambda x}e−λx for “greater than.”
+Next part
+Next we should move to Normal Approximation to the Binomial Question Cards, because that is the bridge between Chapter 5 and Chapter 6 and it has the biggest MCQ trap: continuity correction.
+move to Normal Approximation to the Binomial Question Cards
+Thought for 9s
+Perfect — moving to Normal Approximation to the Binomial Question Cards. This is a big Chapter 6 bridge topic because it starts as Chapter 5 binomial but is solved using Chapter 6 normal distribution methods.
+SDS188 A2S1 — Chapter 6 Question Cards
+Part 4: Normal Approximation to the Binomial
+First: what is the normal approximation to the binomial?
+A binomial distribution is discrete. It counts the number of successes out of a fixed number of trials.
+Examples:
+Situation
+	Binomial variable
+	150 passengers choose snacks
+	Number who choose pretzels
+	350 booked passengers may show up
+	Number who show up
+	100 customers may buy a product
+	Number who buy
+	80 questions guessed with probability 0.25
+	Number correct
+	But when the number of trials is large, calculating binomial probabilities can become long because you may need to add many individual probabilities.
+So we use the normal approximation:
+A large binomial distribution can start to look like a bell-shaped normal distribution.
+The Chapter 6 transcript explains that large binomial distributions can resemble a normal curve, allowing normal methods to shorten tedious binomial calculations.
+________________
+
+
+Card 1 — Recognising Normal Approximation Questions
+Question type
+Decide whether a binomial question should be approximated using the normal distribution.
+Teach it simply
+This topic starts with binomial clues:
+Binomial clue
+	Meaning
+	Fixed number of trials
+	n
+	Each trial is success/failure
+	success vs failure
+	Probability of success stays constant
+	π
+	Question asks number of successes
+	X
+	But then the question often says something like:
+“Find the approximate probability…”
+That word approximate is the big clue.
+________________
+
+
+Recognition clues
+Clue in question
+	Think
+	“Approximate probability”
+	Normal approximation
+	X ~ Binomial(n,π) with large n
+	Possibly normal approximation
+	Number of successes out of many trials
+	Binomial first
+	Asked for cumulative probability like P(X ≤ 60)
+	Approximation may save time
+	Question gives large n
+	Check approximation rules
+	________________
+
+
+Big idea
+You are not saying the variable is originally normal.
+You are saying:
+X∼Binomial(n,π)X \sim Binomial(n,\pi)X∼Binomial(n,π)
+but approximately:
+Xa∼Normal(μ,σ2)X_a \sim Normal(\mu,\sigma^2)Xa​∼Normal(μ,σ2)
+where XaX_aXa​ means “the approximated normal version of X”.
+________________
+
+
+Card 2 — Checking if Normal Approximation is Allowed
+Question type
+Check whether normal approximation may be used.
+Teach it simply
+The normal approximation only works if the binomial distribution is “large enough” and not too squashed to one side.
+The rule is:
+nπ>5n\pi > 5nπ>5
+and
+n(1−π)>5n(1-\pi) > 5n(1−π)>5
+The transcript states these are the two checks that must hold before the normal approximation is used.
+________________
+
+
+What the checks mean
+Check
+	Meaning
+	nπ>5n\pi > 5nπ>5
+	Expected number of successes must be more than 5
+	n(1−π)>5n(1-\pi) > 5n(1−π)>5
+	Expected number of failures must be more than 5
+	If both are true, the binomial distribution is usually close enough to a normal shape.
+________________
+
+
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+Check whether normal approximation is allowed.
+Step 1: Calculate expected successes
+nπ=150×13n\pi = 150 \times \frac{1}{3}nπ=150×31​ nπ=50n\pi = 50nπ=50
+Since:
+50>550 > 550>5
+this condition passes.
+Step 2: Calculate expected failures
+n(1−π)=150×(1−13)n(1-\pi)=150 \times \left(1-\frac{1}{3}\right)n(1−π)=150×(1−31​) n(1−π)=150×23n(1-\pi)=150 \times \frac{2}{3}n(1−π)=150×32​ n(1−π)=100n(1-\pi)=100n(1−π)=100
+Since:
+100>5100 > 5100>5
+this condition passes.
+Final conclusion
+Normal approximation is allowed.
+________________
+
+
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Checking only nπn\pinπ
+	One condition only
+	Check both
+	Using n+πn+\pin+π
+	Wrong operation
+	Multiply
+	Forgetting 1−π1-\pi1−π
+	No failure check
+	Need successes and failures
+	Applying approximation for small n
+	May be inaccurate
+	Conditions must pass
+	________________
+
+
+Card 3 — Finding the Normal Mean and Standard Deviation
+Question type
+Convert a binomial distribution into its approximate normal distribution.
+Teach it simply
+A binomial distribution has:
+E[X]=nπE[X]=n\piE[X]=nπ Var(X)=nπ(1−π)Var(X)=n\pi(1-\pi)Var(X)=nπ(1−π)
+The formula sheet gives the binomial mean and variance formulas.
+For the normal approximation, we use the same centre and spread.
+So:
+μ=nπ\mu = n\piμ=nπ σ=nπ(1−π)\sigma = \sqrt{n\pi(1-\pi)}σ=nπ(1−π)​
+Notice:
+The normal distribution needs the standard deviation, not just the variance.
+________________
+
+
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+Step 1: Find the mean
+μ=nπ\mu=n\piμ=nπ μ=150×13\mu=150 \times \frac{1}{3}μ=150×31​ μ=50\mu=50μ=50
+Step 2: Find the standard deviation
+σ=nπ(1−π)\sigma=\sqrt{n\pi(1-\pi)}σ=nπ(1−π)​ σ=150×13×23\sigma=\sqrt{150 \times \frac{1}{3} \times \frac{2}{3}}σ=150×31​×32​​ σ=1003\sigma=\sqrt{\frac{100}{3}}σ=3100​​ σ≈5.7735\sigma \approx 5.7735σ≈5.7735
+Approximate normal distribution
+Xa∼Normal(50,1003)X_a \sim Normal(50, \frac{100}{3})Xa​∼Normal(50,3100​)
+or:
+Xa∼Normal(μ=50,σ≈5.7735)X_a \sim Normal(\mu=50, \sigma\approx 5.7735)Xa​∼Normal(μ=50,σ≈5.7735)
+Important note
+If notation uses:
+Normal(50,1003)Normal(50,\frac{100}{3})Normal(50,3100​)
+the second value is the variance. For z-scores, use:
+σ=1003\sigma = \sqrt{\frac{100}{3}}σ=3100​​
+________________
+MCQ traps
+Trap
+	Wrong answer risk
+	Correct fix
+	Using variance as SD
+	z-score too small
+	Use square root
+	Forgetting 1−π1-\pi1−π
+	wrong variance
+	Use nπ(1−π)n\pi(1-\pi)nπ(1−π)
+	Treating π\piπ as 3.14159
+	wrong formula
+	In binomial, π\piπ means probability of success
+	Forgetting mean = nπn\pinπ
+	wrong centre
+	Mean is expected successes
+	________________
+
+
+Card 4 — Why Continuity Correction Is Needed
+Question type
+Understand and apply the 0.5 correction.
+Teach it simply
+This is the most important part.
+The binomial distribution is discrete. It counts exact whole numbers:
+0,1,2,3,…,n0,1,2,3,\dots,n0,1,2,3,…,n
+The normal distribution is continuous. It uses areas over intervals.
+So when we move from binomial to normal, we must turn whole-number points into small intervals.
+That is why we add or subtract 0.5.
+The transcript describes this as the “tax” paid when shifting from discrete to continuous.
+________________
+
+
+Visual idea
+A binomial value like:
+X=60X=60X=60
+is a single bar centred at 60.
+To approximate that bar with continuous normal area, we use the interval:
+59.5<Xa<60.559.5 < X_a < 60.559.5<Xa​<60.5
+So:
+P(X=60)≈P(59.5<Xa<60.5)P(X=60) \approx P(59.5<X_a<60.5)P(X=60)≈P(59.5<Xa​<60.5)
+________________
+Continuity correction table
+Original binomial wording
+	Before normal calculation
+	P(X=x)P(X=x)P(X=x)
+	P(x−0.5<Xa<x+0.5)P(x-0.5<X_a<x+0.5)P(x−0.5<Xa​<x+0.5)
+	P(X≤x)P(X\le x)P(X≤x)
+	P(Xa<x+0.5)P(X_a<x+0.5)P(Xa​<x+0.5)
+	P(X<x)P(X<x)P(X<x)
+	P(X≤x−1)P(X\le x-1)P(X≤x−1), then P(Xa<x−0.5)P(X_a<x-0.5)P(Xa​<x−0.5)
+	P(X≥x)P(X\ge x)P(X≥x)
+	P(X>x−1)P(X>x-1)P(X>x−1), then P(Xa>x−0.5)P(X_a>x-0.5)P(Xa​>x−0.5)
+	P(X>x)P(X>x)P(X>x)
+	1−P(X≤x)1-P(X\le x)1−P(X≤x), then 1−P(Xa<x+0.5)1-P(X_a<x+0.5)1−P(Xa​<x+0.5)
+	________________
+
+
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Ignoring continuity correction
+	Directly use x
+	Add/subtract 0.5
+	Adding 0.5 in wrong direction
+	wrong tail
+	Use wording carefully
+	Treating P(X<60)P(X<60)P(X<60) as P(Xa<60)P(X_a<60)P(Xa​<60)
+	misses correction
+	X<60X<60X<60 means X≤59X\le59X≤59, so use 59.5
+	Treating P(X>70)P(X>70)P(X>70) as P(Xa>70)P(X_a>70)P(Xa​>70)
+	misses correction
+	X>70X>70X>70 means above 70.5 boundary
+	________________
+
+
+Card 5 — Exact Value: P(X=x)P(X=x)P(X=x)
+Question type
+Find the approximate probability of exactly x successes.
+Teach it simply
+For binomial, exact values matter.
+But normal is continuous, and:
+P(Xa=60)=0P(X_a=60)=0P(Xa​=60)=0
+So to approximate an exact binomial value, you need a small interval around it:
+P(X=60)≈P(59.5<Xa<60.5)P(X=60) \approx P(59.5<X_a<60.5)P(X=60)≈P(59.5<Xa​<60.5)
+________________
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+Find the approximate probability that exactly 60 passengers choose pretzels.
+P(X=60)P(X=60)P(X=60)
+Step 1: Check approximation conditions
+nπ=50>5n\pi=50>5nπ=50>5 n(1−π)=100>5n(1-\pi)=100>5n(1−π)=100>5
+Allowed.
+Step 2: Find mean and standard deviation
+μ=50\mu=50μ=50 σ=1003≈5.7735\sigma=\sqrt{\frac{100}{3}} \approx 5.7735σ=3100​​≈5.7735
+Step 3: Apply continuity correction
+P(X=60)≈P(59.5<Xa<60.5)P(X=60) \approx P(59.5<X_a<60.5)P(X=60)≈P(59.5<Xa​<60.5)
+Step 4: Convert both boundaries to z-scores
+For 59.5:
+z=59.5−505.7735z=\frac{59.5-50}{5.7735}z=5.773559.5−50​ z≈1.65z\approx1.65z≈1.65
+For 60.5:
+z=60.5−505.7735z=\frac{60.5-50}{5.7735}z=5.773560.5−50​ z≈1.82z\approx1.82z≈1.82
+Step 5: Use normal between-values method
+P(59.5<Xa<60.5)P(59.5<X_a<60.5)P(59.5<Xa​<60.5) =P(Z<1.82)−P(Z<1.65)= P(Z<1.82)-P(Z<1.65)=P(Z<1.82)−P(Z<1.65)
+From calculator:
+P(Z<1.82)=0.9656P(Z<1.82)=0.9656P(Z<1.82)=0.9656 P(Z<1.65)=0.9505P(Z<1.65)=0.9505P(Z<1.65)=0.9505 0.9656−0.9505=0.01510.9656-0.9505=0.01510.9656−0.9505=0.0151
+Final answer
+P(X=60)≈0.0151P(X=60)\approx0.0151P(X=60)≈0.0151
+The transcript’s snack example gives this same final probability for exactly 60 choosing pretzels.
+________________
+
+
+MCQ traps
+Trap
+	Wrong answer risk
+	Correct fix
+	Using P(Xa=60)P(X_a=60)P(Xa​=60)
+	0
+	Use interval 59.5 to 60.5
+	Only using one z-score
+	incomplete
+	Exact value needs two z-scores
+	Forgetting lower bound
+	too large
+	Subtract lower left-tail
+	Using 60 instead of 59.5/60.5
+	less accurate
+	Apply correction
+	________________
+
+
+Card 6 — At Least: P(X≥x)P(X\ge x)P(X≥x)
+Question type
+Find the approximate probability of at least x successes.
+Teach it simply
+“At least 60” means:
+X≥60X \ge 60X≥60
+That includes:
+60,61,62,…60,61,62,\dots60,61,62,…
+For normal approximation, the boundary starts halfway between 59 and 60:
+59.559.559.5
+So:
+P(X≥60)≈P(Xa>59.5)P(X\ge60)\approx P(X_a>59.5)P(X≥60)≈P(Xa​>59.5)
+Then use complement:
+P(Xa>59.5)=1−P(Xa<59.5)P(X_a>59.5)=1-P(X_a<59.5)P(Xa​>59.5)=1−P(Xa​<59.5)
+________________
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+Find:
+P(X≥60)P(X\ge60)P(X≥60)
+Step 1: Apply continuity correction
+P(X≥60)≈P(Xa>59.5)P(X\ge60)\approx P(X_a>59.5)P(X≥60)≈P(Xa​>59.5)
+Step 2: Use complement
+P(Xa>59.5)=1−P(Xa<59.5)P(X_a>59.5)=1-P(X_a<59.5)P(Xa​>59.5)=1−P(Xa​<59.5)
+Step 3: Convert 59.5 to z
+z=59.5−505.7735z=\frac{59.5-50}{5.7735}z=5.773559.5−50​ z≈1.65z\approx1.65z≈1.65
+Step 4: Calculator
+P(Z<1.65)=0.9505P(Z<1.65)=0.9505P(Z<1.65)=0.9505
+Step 5: Complement
+1−0.9505=0.04951-0.9505=0.04951−0.9505=0.0495
+Final answer
+P(X≥60)≈0.0495P(X\ge60)\approx0.0495P(X≥60)≈0.0495
+________________
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Using 60.5
+	That is for X>60X>60X>60 or X≤60X\le60X≤60 boundary
+	At least 60 starts at 59.5
+	Forgetting complement
+	gets lower-tail
+	Need upper-tail
+	Treating ≥\ge≥ as >>> without adjustment
+	wrong boundary
+	X≥60X\ge60X≥60 includes 60
+	Using exact binomial formula
+	too long if approximation requested
+	Use normal approximation
+	________________
+
+
+Card 7 — Fewer Than: P(X<x)P(X<x)P(X<x)
+Question type
+Find approximate probability of fewer than x successes.
+Teach it simply
+“Fewer than 60” means:
+X<60X<60X<60
+For a discrete count, this is the same as:
+X≤59X\le59X≤59
+So we first rewrite:
+P(X<60)=P(X≤59)P(X<60)=P(X\le59)P(X<60)=P(X≤59)
+Then apply continuity correction:
+P(X≤59)≈P(Xa<59.5)P(X\le59)\approx P(X_a<59.5)P(X≤59)≈P(Xa​<59.5)
+________________
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+Find:
+P(X<60)P(X<60)P(X<60)
+Step 1: Rewrite discrete wording
+P(X<60)=P(X≤59)P(X<60)=P(X\le59)P(X<60)=P(X≤59)
+Step 2: Apply continuity correction
+P(X≤59)≈P(Xa<59.5)P(X\le59)\approx P(X_a<59.5)P(X≤59)≈P(Xa​<59.5)
+Step 3: Standardise
+z=59.5−505.7735z=\frac{59.5-50}{5.7735}z=5.773559.5−50​ z≈1.65z\approx1.65z≈1.65
+Step 4: Calculator
+P(Z<1.65)=0.9505P(Z<1.65)=0.9505P(Z<1.65)=0.9505
+Final answer
+P(X<60)≈0.9505P(X<60)\approx0.9505P(X<60)≈0.9505
+The transcript’s snack example also uses this result for fewer than 60 passengers choosing pretzels.
+________________
+
+
+MCQ traps
+Trap
+	Wrong answer risk
+	Correct fix
+	Using P(Xa<60)P(X_a<60)P(Xa​<60)
+	wrong boundary
+	Use 59.5
+	Forgetting discrete rewrite
+	wrong correction
+	X<60X<60X<60 means X≤59X\le59X≤59
+	Taking complement unnecessarily
+	not needed
+	This is already left-tail
+	Confusing with “at least 60”
+	opposite
+	At least = upper tail; fewer than = lower tail
+	________________
+
+
+Card 8 — More Than: P(X>x)P(X>x)P(X>x)
+Question type
+Find approximate probability of more than x successes.
+Teach it simply
+“More than 70” means:
+X>70X>70X>70
+That means:
+71,72,73,…71,72,73,\dots71,72,73,…
+So the boundary lies halfway between 70 and 71:
+70.570.570.5
+Thus:
+P(X>70)≈P(Xa>70.5)P(X>70)\approx P(X_a>70.5)P(X>70)≈P(Xa​>70.5)
+Then use complement:
+P(Xa>70.5)=1−P(Xa<70.5)P(X_a>70.5)=1-P(X_a<70.5)P(Xa​>70.5)=1−P(Xa​<70.5)
+________________
+Worked example
+Suppose:
+X∼Binomial(150,13)X \sim Binomial(150,\frac{1}{3})X∼Binomial(150,31​)
+An airline has 70 pretzel snacks available.
+Find the probability that more than 70 passengers choose pretzels.
+P(X>70)P(X>70)P(X>70)
+Step 1: Apply continuity correction
+P(X>70)≈P(Xa>70.5)P(X>70)\approx P(X_a>70.5)P(X>70)≈P(Xa​>70.5)
+Step 2: Use complement
+P(Xa>70.5)=1−P(Xa<70.5)P(X_a>70.5)=1-P(X_a<70.5)P(Xa​>70.5)=1−P(Xa​<70.5)
+Step 3: Standardise
+z=70.5−505.7735z=\frac{70.5-50}{5.7735}z=5.773570.5−50​ z=20.55.7735z=\frac{20.5}{5.7735}z=5.773520.5​ z≈3.55z\approx3.55z≈3.55
+Step 4: Calculator
+P(Z<3.55)=0.9998P(Z<3.55)=0.9998P(Z<3.55)=0.9998
+Step 5: Complement
+1−0.9998=0.00021-0.9998=0.00021−0.9998=0.0002
+Final answer
+P(X>70)≈0.0002P(X>70)\approx0.0002P(X>70)≈0.0002
+The transcript gives this same result for the probability that more than 70 passengers choose pretzels.
+________________
+
+
+MCQ traps
+Trap
+	Wrong thinking
+	Correct thinking
+	Using 69.5
+	wrong side
+	More than 70 starts after 70.5
+	Using 70 directly
+	no continuity correction
+	Use 70.5
+	Forgetting complement
+	gives almost 1
+	Actual right tail is tiny
+	Misreading “at least one passenger cannot get pretzels”
+	direct wording unclear
+	Means more requests than available snacks
+	________________
+
+
+Card 9 — Less Than or Equal To: P(X≤x)P(X\le x)P(X≤x)
+Question type
+Find approximate probability of at most x successes.
+Teach it simply
+“At most x” means:
+X≤xX\le xX≤x
+The boundary includes x, so go halfway above x:
+x+0.5x+0.5x+0.5
+Thus:
+P(X≤x)≈P(Xa<x+0.5)P(X\le x)\approx P(X_a<x+0.5)P(X≤x)≈P(Xa​<x+0.5)
+________________
+Mini example
+Find:
+P(X≤70)P(X\le70)P(X≤70)
+Continuity correction
+P(X≤70)≈P(Xa<70.5)P(X\le70)\approx P(X_a<70.5)P(X≤70)≈P(Xa​<70.5)
+Then standardise:
+z=70.5−μσz=\frac{70.5-\mu}{\sigma}z=σ70.5−μ​
+Then use calculator.
+________________
+
+
+MCQ traps
+Trap
+	Correct fix
+	Using x−0.5x-0.5x−0.5
+	That is for X≥xX\ge xX≥x
+	Treating X≤xX\le xX≤x like X<xX<xX<x
+	They differ for discrete variables
+	Forgetting that original variable is binomial
+	Discrete rules matter before approximation
+	Skipping correction
+	boundary wrong
+	________________
+
+
+Card 10 — The Full Recipe for Normal Approximation
+Step-by-step method
+Step
+	What to do
+	1
+	Identify binomial: nnn, π\piπ, and event
+	2
+	Check nπ>5n\pi>5nπ>5 and n(1−π)>5n(1-\pi)>5n(1−π)>5
+	3
+	Calculate μ=nπ\mu=n\piμ=nπ
+	4
+	Calculate σ=nπ(1−π)\sigma=\sqrt{n\pi(1-\pi)}σ=nπ(1−π)​
+	5
+	Apply continuity correction
+	6
+	Convert corrected value(s) to z-score(s)
+	7
+	Use HP calculator for left-tail probability
+	8
+	Use complement/subtraction if needed
+	9
+	Interpret answer in context
+	________________
+
+
+Normal Approximation Quick Method Summary
+Original wording
+	Normal approximation setup
+	Exactly x
+	P(x−0.5<Xa<x+0.5)P(x-0.5<X_a<x+0.5)P(x−0.5<Xa​<x+0.5)
+	At most x
+	P(Xa<x+0.5)P(X_a<x+0.5)P(Xa​<x+0.5)
+	Less than x
+	P(Xa<x−0.5)P(X_a<x-0.5)P(Xa​<x−0.5)
+	At least x
+	P(Xa>x−0.5)P(X_a>x-0.5)P(Xa​>x−0.5)
+	More than x
+	P(Xa>x+0.5)P(X_a>x+0.5)P(Xa​>x+0.5)
+	Between a and b inclusive
+	P(a−0.5<Xa<b+0.5)P(a-0.5<X_a<b+0.5)P(a−0.5<Xa​<b+0.5)
+	Between a and b exclusive
+	Adjust endpoints first, then apply 0.5 logic
+	________________
+
+
+Normal Approximation Mini Trap Drill
+Scenario
+	What should you think?
+	Question says “approximate” and gives binomial setup
+	Use normal approximation
+	n=150n=150n=150, π=1/3\pi=1/3π=1/3
+	μ=50\mu=50μ=50, σ=100/3\sigma=\sqrt{100/3}σ=100/3​
+	Exactly 60
+	Use 59.5 to 60.5
+	At least 60
+	Use greater than 59.5
+	Fewer than 60
+	Use less than 59.5
+	More than 70
+	Use greater than 70.5
+	At most 70
+	Use less than 70.5
+	Greater-than normal area
+	Use complement
+	Between values
+	Upper left-tail minus lower left-tail
+	Original variable is discrete
+	Be careful with <, ≤, >, ≥ before correcting
+	________________
+
+
+Final memory line
+Normal approximation starts as binomial, checks if approximation is allowed, copies the binomial mean and standard deviation, pays the 0.5 continuity-correction “tax”, and then solves using normal z-scores.
+Next part
+Next we should make a Chapter 6 mixed distribution recognition drill, because by now you have all four main Chapter 6 question-card sets:
+1. Normal
+2. Uniform
+3. Exponential
+4. Normal approximation to binomial
+The drill will train the most important MCQ skill: choosing the right distribution before calculating.
+make a Chapter 6 mixed distribution recognition drill
+Love this step — this is exactly where Chapter 6 becomes exam-ready, because MCQs often test whether you can spot the correct distribution before touching a formula. I’ll build it as a drill with answers and quick reasoning, not just a blank quiz.
+Thought for 10s
+Absolutely — here is a Chapter 6 Mixed Distribution Recognition Drill. This is designed to train the first skill in MCQs:
+Before calculating, identify the distribution.
+The Chapter 6 transcript confirms the three main continuous distributions are normal, uniform, and exponential, with normal approximation to the binomial added as a bridge topic. It also explains uniform as rectangular and exponential as modelling time between events. The formula sheet supports these with formulas for normal, uniform, exponential, and binomial.
+SDS188 A2S1 — Chapter 6 Mixed Distribution Recognition Drill
+Fast recognition rule
+What the question describes
+	Distribution
+	Bell-shaped, mean + SD/variance
+	Normal
+	Equally likely between lower and upper bounds
+	Uniform
+	Waiting time/time between events, with a rate λ
+	Exponential
+	Number of successes out of n trials
+	Binomial
+	Approximate binomial probability with large n
+	Normal approximation to binomial
+	Number of events in a fixed interval
+	Poisson
+	________________
+
+
+Part A — Identify the distribution only
+For each question, choose:
+N = Normal
+U = Uniform
+E = Exponential
+NA = Normal approximation to binomial
+B = Binomial
+P = Poisson
+________________
+
+
+Questions
+No.
+	Scenario
+	Distribution?
+	1
+	The time to download an image file is normally distributed with mean 18 seconds and standard deviation 5 seconds. Find the probability it takes less than 20 seconds.
+	
+
+	2
+	A value is selected from a distribution where all values between 0 and 10 are equally likely.
+	
+
+	3
+	Cars arrive at a toll plaza at a rate of 50 per minute. Find the probability that the next car arrives within 3 seconds.
+	
+
+	4
+	Cars arrive at a toll plaza at a rate of 50 per minute. Find the probability that exactly 45 cars arrive in one minute.
+	
+
+	5
+	A flight has 150 passengers. Each passenger independently chooses pretzels with probability 1/31/31/3. Find the approximate probability that more than 70 choose pretzels.
+	
+
+	6
+	A random variable is described as bell-shaped and symmetric.
+	
+
+	7
+	A streaming company says a movie download takes between 3.5 and 5.5 minutes, with all times in this interval equally likely.
+	
+
+	8
+	Calls arrive at a call centre at 12 calls per hour. Find the probability the next call takes more than 6 minutes to arrive.
+	
+
+	9
+	A multiple-choice test has 40 questions and each guessed question has a 25% chance of being correct. Find the probability of exactly 12 correct answers.
+	
+
+	10
+	The number of emails received in an hour follows a distribution with mean rate λ. Find the probability of receiving 5 emails in an hour.
+	
+
+	11
+	A variable follows X∼N(100,162)X \sim N(100, 16^2)X∼N(100,162). Find the value such that only 10% are higher.
+	
+
+	12
+	A value is selected uniformly between 2 and 6. Find P(3<X<5)P(3<X<5)P(3<X<5).
+	
+
+	13
+	A machine breaks down on average twice per week. Find the probability it does not break down within the next 3 weeks.
+	
+
+	14
+	A binomial variable has n=350n=350n=350 and π=0.8\pi=0.8π=0.8. Find the approximate probability that more than 300 successes occur.
+	
+
+	15
+	A continuous distribution has a rectangular shape from aaa to bbb.
+	
+
+	16
+	The question asks for P(X=5)P(X=5)P(X=5) where XXX is continuous.
+	
+
+	17
+	The probability of success is constant from trial to trial, there are 100 trials, and the question asks for the number of successes.
+	
+
+	18
+	A question gives P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx.
+	
+
+	19
+	A normally distributed IQ score has mean 100 and standard deviation 16. Find the IQ such that 90% of people score below it.
+	
+
+	20
+	The probability of the next customer arriving within 2 minutes is required, and customers arrive at an average rate of 10 per hour.
+	
+
+	________________
+
+
+Part A — Answers and reasoning
+No.
+	Distribution
+	Why
+	1
+	N
+	It directly says normally distributed and gives mean + SD.
+	2
+	U
+	“All values between 0 and 10 are equally likely” = uniform.
+	3
+	E
+	Rate is given, but question asks waiting time until next car.
+	4
+	P
+	Rate is given and question asks number of cars in fixed time.
+	5
+	NA
+	Binomial setup, but asks approximate probability and nnn is large.
+	6
+	N
+	Bell-shaped and symmetric = normal clue.
+	7
+	U
+	Lower + upper bound with equally likely times = uniform.
+	8
+	E
+	Rate is given and question asks waiting time until next call.
+	9
+	B
+	Fixed number of trials, success/failure, constant probability.
+	10
+	P
+	Number of emails in fixed interval = Poisson.
+	11
+	N
+	Normal variable, inverse normal because value is required from percentage.
+	12
+	U
+	Uniform between 2 and 6.
+	13
+	E
+	Time until next breakdown = exponential.
+	14
+	NA
+	Binomial variable with large nnn, asks approximate probability.
+	15
+	U
+	Rectangular continuous distribution = uniform.
+	16
+	Continuous idea
+	If continuous, exact point probability is 0; likely normal/uniform/exponential depending context.
+	17
+	B
+	Count of successes out of fixed trials = binomial.
+	18
+	E
+	This is the exponential cumulative probability formula.
+	19
+	N
+	Normal variable, inverse normal cutoff.
+	20
+	E
+	Waiting time until next customer, with rate.
+	________________
+
+
+Part B — Choose the method, not just the distribution
+Now identify the method you would use.
+No.
+	Scenario
+	Method
+	1
+	X∼N(18,52)X \sim N(18,5^2)X∼N(18,52). Find P(X<18.6)P(X<18.6)P(X<18.6).
+	
+
+	2
+	X∼N(18,52)X \sim N(18,5^2)X∼N(18,52). Find P(X>18.6)P(X>18.6)P(X>18.6).
+	
+
+	3
+	X∼N(18,52)X \sim N(18,5^2)X∼N(18,52). Find P(17.4<X<18)P(17.4<X<18)P(17.4<X<18).
+	
+
+	4
+	X∼N(100,162)X \sim N(100,16^2)X∼N(100,162). Only 10% have higher IQ. Find IQ.
+	
+
+	5
+	X∼U(0,10)X \sim U(0,10)X∼U(0,10). Find P(5<X<7)P(5<X<7)P(5<X<7).
+	
+
+	6
+	X∼U(3.5,5.5)X \sim U(3.5,5.5)X∼U(3.5,5.5). Find P(X>4)P(X>4)P(X>4).
+	
+
+	7
+	Cars arrive at 50 per minute. Find probability next car arrives within 3 seconds.
+	
+
+	8
+	Calls arrive at 12 per hour. Find probability next call arrives after 6 minutes.
+	
+
+	9
+	X∼Bin(150,1/3)X\sim Bin(150,1/3)X∼Bin(150,1/3). Approximate P(X=60)P(X=60)P(X=60).
+	
+
+	10
+	X∼Bin(150,1/3)X\sim Bin(150,1/3)X∼Bin(150,1/3). Approximate P(X>70)P(X>70)P(X>70).
+	
+
+	________________
+
+
+Part B — Answers
+No.
+	Method
+	1
+	Normal left-tail: convert xxx to zzz, then calculator.
+	2
+	Normal right-tail: convert to zzz, find left area, subtract from 1.
+	3
+	Normal between-values: left area at upper value minus left area at lower value.
+	4
+	Inverse normal: “10% higher” means left area 0.900.900.90; find zzz, then x=zσ+μx=z\sigma+\mux=zσ+μ.
+	5
+	Uniform rectangle area: base =7−5=7-5=7−5, height =1/(10−0)=1/(10-0)=1/(10−0).
+	6
+	Uniform greater-than area: area from 4 to 5.5, or 1−P(X<4)1-P(X<4)1−P(X<4).
+	7
+	Exponential less-than: convert 3 seconds to minutes, then use 1−e−λx1-e^{-\lambda x}1−e−λx.
+	8
+	Exponential greater-than: convert λ to per minute or x to hours, then use e−λxe^{-\lambda x}e−λx.
+	9
+	Normal approximation exact value: use 59.5<Xa<60.559.5<X_a<60.559.5<Xa​<60.5, then normal between-values method.
+	10
+	Normal approximation greater-than: use P(Xa>70.5)P(X_a>70.5)P(Xa​>70.5), then complement.
+	The transcript emphasises that exponential problems require matching λ’s unit with the time unit in the question, and that normal approximation requires the binomial checks nπ>5n\pi>5nπ>5 and n(1−π)>5n(1-\pi)>5n(1−π)>5.
+________________
+
+
+Part C — MCQ-style mixed drill
+For each, choose the best answer.
+Q1
+A random variable XXX is normally distributed with mean 80 and standard deviation 10. The question asks for P(X<75)P(X<75)P(X<75). What should you do first?
+A. Use 1−e−λx1-e^{-\lambda x}1−e−λx
+B. Calculate z=75−8010z=\frac{75-80}{10}z=1075−80​
+C. Calculate f(x)=1b−af(x)=\frac{1}{b-a}f(x)=b−a1​
+D. Use continuity correction
+Answer: B
+Why: Normal probability questions start by standardising the x-value into a z-score.
+________________
+
+
+Q2
+A train waiting time is equally likely between 4 and 12 minutes. What distribution is this?
+A. Normal
+B. Uniform
+C. Exponential
+D. Poisson
+Answer: B
+Why: “Equally likely between lower and upper bounds” = uniform.
+________________
+
+
+Q3
+Calls arrive at a rate of 30 per hour. You are asked for the probability that the next call arrives within 2 minutes. What is the biggest trap?
+A. Forgetting continuity correction
+B. Using x=2x=2x=2 while λ is per hour
+C. Using variance instead of standard deviation
+D. Treating the graph as rectangular
+Answer: B
+Why: λ is per hour, but x is in minutes. Units must match.
+________________
+
+
+Q4
+Cars arrive at a rate of 50 per minute. Which question is exponential?
+A. Probability exactly 50 cars arrive in one minute
+B. Probability fewer than 40 cars arrive in one minute
+C. Probability the next car arrives within 3 seconds
+D. Probability more than 55 cars arrive in one minute
+Answer: C
+Why: Exponential measures waiting time until the next event. Po cars arrive in one minute
+Answer: C
+Why: Exponential measures waiting time until the next event. Poisson counts events in a fixed interval.
+________________
+
+
+Q5
+A question asks for the approximate probability that more than 300 of 350 booked passengers show up, where each passenger shows up with probability 0.8. Which correction is correct?
+A. P(Xa>299.5)P(X_a>299.5)P(Xa​>299.5)
+B. P(Xa>300)P(X_a>300)P(Xa​>300)
+C. P(Xa>300.5)P(X_a>300.5)P(Xa​>300.5)
+D. P(299.5<Xa<300.5)P(299.5<X_a<300.5)P(299.5<Xa​<300.5)
+Answer: C
+Why: “More than 300” means 301 or more, so the continuous boundary is 300.5.
+________________
+
+
+Q6
+If X∼Uniform(2,6)X \sim Uniform(2,6)X∼Uniform(2,6), what is the height of the rectangle?
+A. 4
+B. 0.5
+C. 0.25
+D. 2
+Answer: C
+Why:
+f(x)=16−2=14=0.25f(x)=\frac{1}{6-2}=\frac14=0.25f(x)=6−21​=41​=0.25
+________________
+Q7
+If X∼Exponential(0.2)X \sim Exponential(0.2)X∼Exponential(0.2), which formula finds P(X>6)P(X>6)P(X>6)?
+A. 1−e−0.2(6)1-e^{-0.2(6)}1−e−0.2(6)
+B. e−0.2(6)e^{-0.2(6)}e−0.2(6)
+C. 6−ab−a\frac{6-a}{b-a}b−a6−a​
+D. 6−μσ\frac{6-\mu}{\sigma}σ6−μ​
+Answer: B
+Why: Greater-than exponential probability is the complement of P(X<6)P(X<6)P(X<6), so P(X>6)=e−λxP(X>6)=e^{-\lambda x}P(X>6)=e−λx.
+________________
+
+
+Q8
+If X∼N(100,256)X \sim N(100,256)X∼N(100,256), what standard deviation should you use?
+A. 100
+B. 256
+C. 16
+D. 10
+Answer: C
+Why: Normal notation usually gives N(μ,σ2)N(\mu,\sigma^2)N(μ,σ2). So σ=256=16\sigma=\sqrt{256}=16σ=256​=16.
+________________
+
+
+Q9
+Which phrase most strongly indicates inverse normal?
+A. “Find P(X<20)P(X<20)P(X<20)”
+B. “Find the value such that 5% are above it”
+C. “Find the height of the distribution”
+D. “Find the waiting time between arrivals”
+Answer: B
+Why: It gives a percentage and asks for the value/cutoff.
+________________
+
+
+Q10
+For a continuous random variable, what is P(X=5)P(X=5)P(X=5)?
+A. 1
+B. 0.5
+C. Cannot be calculated
+D. 0
+Answer: D
+Why: In continuous distributions, exact point probability is 0. Probability is area over an interval.
+________________
+
+
+Part D — Harder mixed drill
+These are slightly more exam-like because the distribution is not spoon-fed.
+Q11
+A florist makes deliveries between 1 pm and 5 pm. Assume delivery times are equally likely across this interval. What is the probability a delivery is made after 4 pm?
+Distribution
+Uniform.
+Why
+“Between 1 and 5” and “equally likely” = uniform.
+Method
+Bounds:
+a=1,b=5a=1,\quad b=5a=1,b=5
+After 4:
+P(X>4)=5−45−1P(X>4)=\frac{5-4}{5-1}P(X>4)=5−15−4​ P(X>4)=14=0.25P(X>4)=\frac14=0.25P(X>4)=41​=0.25
+Answer
+0.25=25%0.25 = 25\%0.25=25%
+________________
+Q12
+The time between arrivals of vehicles follows an exponential distribution with mean 12 seconds. Find the probability that the time between two cars is 6 seconds or less.
+Distribution
+Exponential.
+Why
+It says time between arrivals.
+Key trap
+You are given the mean, not λ.
+For exponential:
+E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​
+So:
+12=1λ12=\frac{1}{\lambda}12=λ1​ λ=112\lambda=\frac{1}{12}λ=121​
+Method
+P(X≤6)=1−e−(1/12)(6)P(X\le6)=1-e^{-(1/12)(6)}P(X≤6)=1−e−(1/12)(6) P(X≤6)=1−e−0.5P(X\le6)=1-e^{-0.5}P(X≤6)=1−e−0.5 P(X≤6)≈0.3935P(X\le6)\approx0.3935P(X≤6)≈0.3935
+Answer
+0.39350.39350.3935
+________________
+Q13
+Kicking distance is uniformly distributed between 284.7 and 310.6 feet. Find the standard deviation.
+Distribution
+Uniform.
+Why
+It says uniformly distributed between two values.
+Method
+σ=(b−a)212\sigma=\sqrt{\frac{(b-a)^2}{12}}σ=12(b−a)2​​ σ=(310.6−284.7)212\sigma=\sqrt{\frac{(310.6-284.7)^2}{12}}σ=12(310.6−284.7)2​​ σ=25.9212\sigma=\sqrt{\frac{25.9^2}{12}}σ=1225.92​​ σ≈7.48\sigma\approx7.48σ≈7.48
+Answer
+σ≈7.48 feet\sigma\approx7.48 \text{ feet}σ≈7.48 feet
+________________
+Q14
+IQ scores are normally distributed with mean 100 and standard deviation 16. Find the IQ such that only 10% have a higher IQ.
+Distribution
+Normal, inverse normal.
+Why
+Normally distributed + asks for cutoff value from percentage.
+Key trap
+Only 10% higher means 90% are below.
+P(X<x)=0.90P(X<x)=0.90P(X<x)=0.90
+For standard normal:
+z≈1.2816z\approx1.2816z≈1.2816
+Then:
+x=zσ+μx=z\sigma+\mux=zσ+μ x=(1.2816)(16)+100x=(1.2816)(16)+100x=(1.2816)(16)+100 x≈120.5x\approx120.5x≈120.5
+Answer
+120.5120.5120.5
+________________
+Q15
+A flight time is uniformly distributed between 110 and 140 minutes. What is the probability the flight is more than 10 minutes late if the scheduled flight time is 120 minutes?
+Distribution
+Uniform.
+Why
+Flight time is uniformly distributed between lower and upper bounds.
+Interpret wording
+More than 10 minutes late means:
+X>130X>130X>130
+because scheduled time is 120, and 10 minutes late is 130.
+Method
+P(X>130)=140−130140−110P(X>130)=\frac{140-130}{140-110}P(X>130)=140−110140−130​ P(X>130)=1030P(X>130)=\frac{10}{30}P(X>130)=3010​ P(X>130)=0.3333P(X>130)=0.3333P(X>130)=0.3333
+Answer
+0.33330.33330.3333
+________________
+Part E — Final rapid-fire recognition table
+Cover the answer column and test yourself.
+Scenario
+	Distribution
+	Key trigger
+	Heights with mean and SD
+	Normal
+	Bell-shaped measurement
+	Time between cars
+	Exponential
+	Waiting time
+	Number of cars in 1 minute
+	Poisson
+	Count in interval
+	Values equally likely from 0 to 10
+	Uniform
+	Lower + upper bound
+	150 trials, success probability 1/31/31/3
+	Binomial
+	Successes out of trials
+	Approximate probability for large binomial
+	Normal approximation
+	“Approximate”
+	Top 10% cutoff
+	Inverse normal
+	Given percentage, find x
+	P(X=5)P(X=5)P(X=5) for continuous X
+	Continuous rule
+	Exact probability = 0
+	P(X>6)P(X>6)P(X>6) for exponential
+	Exponential complement
+	e−λxe^{-\lambda x}e−λx
+	P(X>70)P(X>70)P(X>70) from binomial approximation
+	Normal approximation
+	Continuity correction 70.5
+	________________
+
+
+Final exam recognition checklist
+Before calculating, ask these in order:
+1. Is X a count or a measurement?
+   * Count → Chapter 5 style.
+   * Measurement/time → Chapter 6 style.
+2. Is there a fixed number of trials and success/failure?
+   * Yes → Binomial.
+   * If approximate/large n → normal approximation.
+3. Is it a number of events in a fixed time/space?
+   * Yes → Poisson.
+4. Is it time until the next event or time between events?
+   * Yes → Exponential.
+5. Is it equally likely between lower and upper bounds?
+   * Yes → Uniform.
+6. Is it bell-shaped or does it give mean and SD/variance?
+   * Yes → Normal.
+7. Does it give a probability/percentage and ask for a value?
+   * Yes → inverse normal or inverse exponential, depending on distribution.
+Best next step
+Next, we should make a Chapter 6 Final Trap Sheet + One-Page Exam Checklist, because that will compress all of this into the last-minute form you can use right before practice MCQs.
+make a Chapter 6 Final Trap Sheet + One-Page Exam Checklist
+Absolutely — this is the compression layer: the page you use before practice MCQs and again right before the A2. I’ll make it teach-y enough to remind you why each trap matters, but tight enough to be usable under pressure.
+Thought for 11s
+Absolutely, Nix — here is the Chapter 6 Final Trap Sheet + One-Page Exam Checklist. This is the page you use before MCQ practice and again as your last-look page before the A2.
+SDS188 A2S1 — Chapter 6 Final Trap Sheet
+Continuous Distributions + Normal Approximation
+Chapter 6’s core distributions are normal, uniform and exponential, with the transcript explicitly describing normal as bell-shaped, uniform as rectangular, and exponential as modelling time between events. The formula sheet gives the official formulas for normal standardisation, uniform mean/variance/height, exponential probability/mean/variance, and binomial mean/variance for normal approximation.
+________________
+
+
+1. The biggest Chapter 6 rule
+Continuous probability = area, not height
+Wrong thought
+	Correct thought
+	“The height of the curve is the probability.”
+	No. Probability is the area under the curve.
+	“I can find P(X=5)P(X=5)P(X=5).”
+	No. For continuous variables, P(X=5)=0P(X=5)=0P(X=5)=0.
+	“Less than and less than or equal to are different.”
+	In continuous distributions, P(X<5)=P(X≤5)P(X<5)=P(X\le5)P(X<5)=P(X≤5).
+	Memory line
+In Chapter 6, probability lives in intervals. Exact points have probability zero.
+________________
+
+
+2. Distribution recognition traps
+Question clue
+	Use
+	Trap
+	Bell-shaped, mean + SD/variance
+	Normal
+	Using variance instead of SD
+	Equally likely between lower and upper bounds
+	Uniform
+	Thinking time always means exponential
+	Time until next event / time between events
+	Exponential
+	Confusing with Poisson
+	Number of events in fixed time
+	Poisson
+	Not exponential because it counts
+	Number of successes out of trials
+	Binomial
+	Not normal unless approximation requested
+	Approximate probability for large binomial
+	Normal approximation
+	Forgetting continuity correction
+	The lecturer specifically warned that a rate such as “50 per minute” could lead to either Poisson or exponential; Poisson counts events, while exponential measures the time between events.
+________________
+
+
+3. Normal distribution trap sheet
+Formula
+z=x−μσz=\frac{x-\mu}{\sigma}z=σx−μ​
+Trap
+	Fix
+	X∼N(100,256)X\sim N(100,256)X∼N(100,256)
+	The second value is variance, so σ=256=16\sigma=\sqrt{256}=16σ=256​=16.
+	P(X>x)P(X>x)P(X>x)
+	Calculator gives left area, so use 1−P(X<x)1-P(X<x)1−P(X<x).
+	P(a<X<b)P(a<X<b)P(a<X<b)
+	Use P(X<b)−P(X<a)P(X<b)-P(X<a)P(X<b)−P(X<a).
+	“Only 10% are higher”
+	Use left-tail probability 0.900.900.90.
+	“Top 5%”
+	Use left-tail probability 0.950.950.95.
+	“Bottom 5%”
+	Use left-tail probability 0.050.050.05.
+	P(X=μ)P(X=\mu)P(X=μ)
+	Equals 0, because normal is continuous.
+	P(X<μ)P(X<\mu)P(X<μ)
+	Equals 0.5.
+	Normal mini-check
+Wording
+	Method
+	Less than
+	z-score → calculator
+	Greater than
+	z-score → calculator → 1−answer1-\text{answer}1−answer
+	Between
+	upper left-tail − lower left-tail
+	Find x from percentage
+	inverse normal → x=zσ+μx=z\sigma+\mux=zσ+μ
+	________________
+
+
+4. Uniform distribution trap sheet
+Formulas
+f(x)=1b−af(x)=\frac{1}{b-a}f(x)=b−a1​ E[X]=a+b2E[X]=\frac{a+b}{2}E[X]=2a+b​ Var(X)=(b−a)212Var(X)=\frac{(b-a)^2}{12}Var(X)=12(b−a)2​
+Trap
+	Fix
+	Thinking f(x)f(x)f(x) is probability
+	f(x)f(x)f(x) is height. Probability = area.
+	Using t/(b−a)t/(b-a)t/(b−a) for P(X<t)P(X<t)P(X<t)
+	Use (t−a)/(b−a)(t-a)/(b-a)(t−a)/(b−a). Start from lower bound aaa.
+	Forgetting lower bound is not always 0
+	Always identify aaa and bbb.
+	Asked for SD but giving variance
+	Take square root of variance.
+	“Between 3.5 and 5.5 minutes”
+	If equally likely/no rate, this is uniform, not exponential.
+	Probability above ttt
+	Use (b−t)/(b−a)(b-t)/(b-a)(b−t)/(b−a) or 1−P(X<t)1-P(X<t)1−P(X<t).
+	The lecturer stressed that uniform probabilities are rectangle areas, and noted the formula sheet gives f(x)f(x)f(x), mean and variance, but the shortcut P(X<t)=t−ab−aP(X<t)=\frac{t-a}{b-a}P(X<t)=b−at−a​ is not on the formula sheet.
+Uniform memory line
+Uniform = rectangle. Height is 1/(b−a)1/(b-a)1/(b−a). Probability = base × height.
+________________
+
+
+5. Exponential distribution trap sheet
+Formulas
+P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx P(X>x)=e−λxP(X>x)=e^{-\lambda x}P(X>x)=e−λx E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​ Var(X)=1λ2Var(X)=\frac{1}{\lambda^2}Var(X)=λ21​
+Trap
+	Fix
+	λ per minute, x in seconds
+	Convert x to minutes or λ to per second.
+	λ per hour, x in minutes
+	Convert λ to per minute or x to hours.
+	Using 1−e−λx1-e^{-\lambda x}1−e−λx for “more than”
+	For P(X>x)P(X>x)P(X>x), use e−λxe^{-\lambda x}e−λx.
+	Treating λ as waiting time
+	λ is the rate. Waiting time mean is 1/λ1/\lambda1/λ.
+	Confusing Poisson and exponential
+	Count = Poisson. Waiting time = exponential.
+	Variance = 1/λ1/\lambda1/λ
+	Wrong. Mean = 1/λ1/\lambda1/λ, variance = 1/λ21/\lambda^21/λ2.
+	Forgetting negative exponent
+	Always e−λxe^{-\lambda x}e−λx.
+	The transcript is very clear that units must match; if λ is per minute and the question is in seconds, using the seconds directly is incorrect until converted.
+Exponential memory line
+Exponential = waiting time. Match units first, then use 1−e−λx1-e^{-\lambda x}1−e−λx for “within/less than” and e−λxe^{-\lambda x}e−λx for “more than.”
+________________
+
+
+6. Normal approximation to binomial trap sheet
+First identify binomial
+Binomial condition
+	Meaning
+	Fixed number of trials
+	nnn
+	Success/failure
+	two outcomes
+	Constant probability
+	π\piπ
+	Count successes
+	XXX
+	Approximation checks
+nπ>5n\pi>5nπ>5 n(1−π)>5n(1-\pi)>5n(1−π)>5
+Mean and standard deviation
+μ=nπ\mu=n\piμ=nπ σ=nπ(1−π)\sigma=\sqrt{n\pi(1-\pi)}σ=nπ(1−π)​
+The formula sheet gives binomial mean and variance as μ=nπ\mu=n\piμ=nπ and σ2=nπ(1−π)\sigma^2=n\pi(1-\pi)σ2=nπ(1−π), so for normal approximation you must take the square root to get standard deviation.
+Continuity correction table
+Original wording
+	Correct normal setup
+	P(X=x)P(X=x)P(X=x)
+	P(x−0.5<Xa<x+0.5)P(x-0.5<X_a<x+0.5)P(x−0.5<Xa​<x+0.5)
+	P(X≤x)P(X\le x)P(X≤x)
+	P(Xa<x+0.5)P(X_a<x+0.5)P(Xa​<x+0.5)
+	P(X<x)P(X<x)P(X<x)
+	P(Xa<x−0.5)P(X_a<x-0.5)P(Xa​<x−0.5)
+	P(X≥x)P(X\ge x)P(X≥x)
+	P(Xa>x−0.5)P(X_a>x-0.5)P(Xa​>x−0.5)
+	P(X>x)P(X>x)P(X>x)
+	P(Xa>x+0.5)P(X_a>x+0.5)P(Xa​>x+0.5)
+	Normal approximation traps
+Trap
+	Fix
+	Forgetting approximation checks
+	Check both nπn\pinπ and n(1−π)n(1-\pi)n(1−π).
+	Using variance as SD
+	Use nπ(1−π)\sqrt{n\pi(1-\pi)}nπ(1−π)​.
+	Ignoring 0.5 correction
+	Always apply continuity correction.
+	Treating X<60X<60X<60 as Xa<60X_a<60Xa​<60
+	X<60X<60X<60 means X≤59X\le59X≤59, so use 59.559.559.5.
+	Treating X>70X>70X>70 as Xa>70X_a>70Xa​>70
+	Use 70.570.570.5.
+	“At least 60”
+	Means X≥60X\ge60X≥60, so use 59.559.559.5.
+	“At most 70”
+	Means X≤70X\le70X≤70, so use 70.570.570.5.
+	Memory line
+Binomial is discrete. Normal is continuous. Pay the 0.5 tax before using z.
+________________
+
+
+7. One-Page Chapter 6 Exam Checklist
+Step 1: Identify the distribution
+Ask
+	If yes
+	Is X a measured value with mean + SD/variance?
+	Normal
+	Is X equally likely between two bounds?
+	Uniform
+	Is X the waiting time until/between events?
+	Exponential
+	Is X the number of events in a fixed interval?
+	Poisson
+	Is X the number of successes out of n trials?
+	Binomial
+	Does it say approximate binomial probability?
+	Normal approximation
+	________________
+
+
+Step 2: Check the question wording
+Wording
+	Action
+	Less than / below / within
+	Usually left-tail
+	Greater than / more than / exceeds
+	Complement or right-tail
+	Between
+	Upper left-tail − lower left-tail
+	Find the value/cutoff
+	Inverse method
+	At least
+	≥\ge≥
+	At most
+	≤\le≤
+	Fewer than
+	<<<
+	More than
+	>>>
+	________________
+
+
+Step 3: Choose the formula/method
+Distribution
+	Main method
+	Normal
+	z=x−μσz=\frac{x-\mu}{\sigma}z=σx−μ​
+	Uniform
+	Rectangle area
+	Exponential
+	P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+	Normal approximation
+	Binomial → normal + continuity correction
+	________________
+
+
+Step 4: Before calculating, check these
+Check
+	Why
+	Are the units matched?
+	Essential for exponential
+	Did I use SD, not variance?
+	Essential for normal
+	Did I identify aaa and bbb?
+	Essential for uniform
+	Did I apply 0.5 correction?
+	Essential for normal approximation
+	Is the answer between 0 and 1?
+	Probability sanity check
+	Does the answer direction make sense?
+	Left/right tail sanity check
+	________________
+
+
+8. Final last-minute memory table
+Topic
+	One-line rule
+	Continuous variables
+	Probability is area, exact point probability is 0.
+	Normal
+	Standardise using z=(x−μ)/σz=(x-\mu)/\sigmaz=(x−μ)/σ.
+	Inverse normal
+	Given probability → find z → x=zσ+μx=z\sigma+\mux=zσ+μ.
+	Uniform
+	Rectangle area: base × height.
+	Exponential
+	Waiting time; match units before substituting.
+	Poisson vs exponential
+	Count = Poisson; time between = exponential.
+	Normal approximation
+	Check conditions, apply 0.5 correction, then use normal.
+	Variance vs SD
+	If standardising, always divide by SD.
+	Greater-than probabilities
+	Usually use complement.
+	MCQ strategy
+	Identify distribution before calculating.
+	________________
+
+
+9. The 10-second MCQ routine
+Before touching your calculator, say:
+1. What is X measuring? Count, measurement, waiting time, or successes?
+2. Which distribution is it?
+3. What is the question direction? Less than, greater than, between, or inverse?
+4. Are units correct?
+5. Do I need SD or variance?
+6. Do I need continuity correction?
+7. Now calculate.
+8. Does my probability make sense?
+________________
+
+
+10. Final mini “danger words” list
+Danger word/phrase
+	Pause because…
+	“approximate”
+	Could mean normal approximation to binomial
+	“more than”
+	Usually complement/right-tail
+	“at least”
+	Includes the value
+	“fewer than”
+	Excludes the value
+	“between”
+	Needs two probabilities
+	“per minute/hour/week”
+	λ unit issue
+	“equally likely”
+	Uniform clue
+	“time until next”
+	Exponential clue
+	“only 10% higher”
+	Inverse normal with left area 90%
+	“variance”
+	May need square root
+	Best next step
+Next, we should create a Chapter 6 mini MCQ practice set with answers and explanations, because that will test whether this trap sheet actually works under exam-style wording.
+create a Chapter 6 mini MCQ practice set with answers and explanations
+Great — I’ll make this as an exam-style mini MCQ set, but with teaching explanations after the answers so it strengthens the topic rather than only testing you.
+Thought for 30s
+Absolutely — here is a Chapter 6 Mini MCQ Practice Set with answers + explanations. I’ve made it mixed on purpose so it trains the real A2 skill: recognise the distribution, choose the method, avoid the trap, then calculate.
+This set is based on the Chapter 6 focus areas: normal, uniform, exponential, and normal approximation to the binomial. The Chapter 6 transcript identifies the three main continuous distributions as normal, uniform and exponential, and the formula sheet gives the normal, uniform, exponential, binomial and Poisson formulas needed for these questions.
+SDS188 A2S1 — Chapter 6 Mini MCQ Practice Set
+Instructions
+Choose the best answer. Try answering first, then check the explanation.
+________________
+
+
+Section A — Distribution recognition
+Q1
+A random variable is described as symmetrical and bell-shaped, with mean 656565 and standard deviation 888. Which distribution is most likely?
+A. Uniform
+B. Exponential
+C. Normal
+D. Poisson
+Answer: C. Normal
+Explanation: Bell-shaped and symmetric is the normal distribution clue. The transcript describes the normal distribution as symmetrical and bell-shaped.
+________________
+
+
+Q2
+A delivery time is equally likely to occur between 2 pm and 6 pm. Which distribution is most appropriate?
+A. Normal
+B. Uniform
+C. Exponential
+D. Binomial
+Answer: B. Uniform
+Explanation: “Equally likely between two bounds” means uniform. Uniform is rectangular, with constant height between aaa and bbb. The transcript notes that uniform is represented as a rectangle and characterised by starting value aaa and ending value bbb.
+________________
+
+
+Q3
+Cars arrive at a toll plaza at a rate of 50 per minute. The question asks for the probability that the next car arrives within 3 seconds. Which distribution should be used?
+A. Poisson
+B. Binomial
+C. Exponential
+D. Uniform
+Answer: C. Exponential
+Explanation: The question asks for waiting time until the next event, so it is exponential. Poisson would be used if the question asked for the number of cars in a fixed interval.
+________________
+
+
+Q4
+Cars arrive at a toll plaza at a rate of 50 per minute. The question asks for the probability that exactly 45 cars arrive in one minute. Which distribution should be used?
+A. Exponential
+B. Poisson
+C. Uniform
+D. Normal
+Answer: B. Poisson
+Explanation: This counts the number of events in a fixed interval, so it is Poisson. Exponential would measure the time between arrivals.
+________________
+
+
+Q5
+A question says: “Find the approximate probability that more than 300 out of 350 booked passengers show up, where each passenger shows up with probability 0.8.” Which method is most likely?
+A. Uniform distribution
+B. Exact Poisson
+C. Normal approximation to binomial
+D. Exponential distribution
+Answer: C. Normal approximation to binomial
+Explanation: There is a binomial setup: fixed n=350n=350n=350, success/failure, constant probability π=0.8\pi=0.8π=0.8. The word “approximate” is the clue to use the normal approximation.
+________________
+
+
+Section B — Normal distribution
+Q6
+Let:
+X∼N(65,82)X \sim N(65, 8^2)X∼N(65,82)
+Find:
+P(X<72)P(X<72)P(X<72)
+A. 0.1908
+B. 0.8092
+C. 0.8750
+D. 0.5000
+Answer: B. 0.8092
+Explanation:
+Standardise:
+z=72−658z=\frac{72-65}{8}z=872−65​ z=78=0.875z=\frac{7}{8}=0.875z=87​=0.875
+Then:
+P(X<72)=P(Z<0.875)P(X<72)=P(Z<0.875)P(X<72)=P(Z<0.875) P(Z<0.875)≈0.8092P(Z<0.875)\approx0.8092P(Z<0.875)≈0.8092
+Because 727272 is above the mean, the probability below it should be more than 0.5.
+________________
+
+
+Q7
+Let:
+X∼N(65,82)X \sim N(65,8^2)X∼N(65,82)
+Find:
+P(X>80)P(X>80)P(X>80)
+A. 0.9696
+B. 0.0304
+C. 0.4696
+D. 0.5304
+Answer: B. 0.0304
+Explanation:
+Standardise:
+z=80−658z=\frac{80-65}{8}z=880−65​ z=1.875z=1.875z=1.875
+Calculator gives:
+P(Z<1.875)≈0.9696P(Z<1.875)\approx0.9696P(Z<1.875)≈0.9696
+But the question asks for greater than:
+P(X>80)=1−0.9696P(X>80)=1-0.9696P(X>80)=1−0.9696 P(X>80)=0.0304P(X>80)=0.0304P(X>80)=0.0304
+Trap: If you choose 0.9696, you found the left-tail probability, not the right-tail probability.
+________________
+
+
+Q8
+Let:
+X∼N(65,82)X \sim N(65,8^2)X∼N(65,82)
+Find:
+P(60<X<70)P(60<X<70)P(60<X<70)
+A. 0.4680
+B. 0.7340
+C. 0.2660
+D. 0.5320
+Answer: A. 0.4680
+Explanation:
+Find two z-scores.
+For 70:
+z=70−658=0.625z=\frac{70-65}{8}=0.625z=870−65​=0.625
+For 60:
+z=60−658=−0.625z=\frac{60-65}{8}=-0.625z=860−65​=−0.625
+Then:
+P(60<X<70)=P(Z<0.625)−P(Z<−0.625)P(60<X<70)=P(Z<0.625)-P(Z<-0.625)P(60<X<70)=P(Z<0.625)−P(Z<−0.625) ≈0.7340−0.2660\approx 0.7340-0.2660≈0.7340−0.2660 =0.4680=0.4680=0.4680
+Trap: Between-values questions need upper left-tail minus lower left-tail.
+________________
+
+
+Q9
+IQ scores are normally distributed with mean 100 and standard deviation 16. What IQ is such that only 10% have a higher IQ?
+A. 89.5
+B. 100.0
+C. 110.3
+D. 120.5
+Answer: D. 120.5
+Explanation:
+“Only 10% have a higher IQ” means:
+90% are below90\% \text{ are below}90% are below
+So use left-tail probability:
+0.900.900.90
+The corresponding z-score is approximately:
+z=1.2816z=1.2816z=1.2816
+Convert back to xxx:
+x=zσ+μx=z\sigma+\mux=zσ+μ x=(1.2816)(16)+100x=(1.2816)(16)+100x=(1.2816)(16)+100 x=120.5x=120.5x=120.5
+Trap: Do not use 0.10 as the left-tail area. Use 0.90.
+________________
+
+
+Q10
+If:
+X∼N(100,256)X \sim N(100,256)X∼N(100,256)
+what standard deviation should be used in the z-score formula?
+A. 100
+B. 256
+C. 16
+D. 65
+Answer: C. 16
+Explanation:
+Normal notation usually gives:
+N(μ,σ2)N(\mu,\sigma^2)N(μ,σ2)
+So:
+σ2=256\sigma^2=256σ2=256 σ=16\sigma=16σ=16
+The formula sheet gives normal notation as X∼Normal(μ,σ2)X \sim Normal(\mu,\sigma^2)X∼Normal(μ,σ2), so standardisation uses σ\sigmaσ, not σ2\sigma^2σ2.
+________________
+
+
+Section C — Uniform distribution
+Q11
+Let:
+X∼Uniform(2,10)X \sim Uniform(2,10)X∼Uniform(2,10)
+Find:
+P(4<X<7)P(4<X<7)P(4<X<7)
+A. 0.125
+B. 0.250
+C. 0.375
+D. 0.750
+Answer: C. 0.375
+Explanation:
+For uniform:
+height=1b−aheight=\frac{1}{b-a}height=b−a1​ height=110−2=18height=\frac{1}{10-2}=\frac{1}{8}height=10−21​=81​
+Base:
+7−4=37-4=37−4=3
+Probability:
+P(4<X<7)=3×18P(4<X<7)=3 \times \frac{1}{8}P(4<X<7)=3×81​ =0.375=0.375=0.375
+Trap: Do not use 7−27-27−2 or 4−24-24−2. Between 4 and 7 means the base is 7−47-47−4.
+________________
+
+
+Q12
+Let:
+X∼Uniform(3,9)X \sim Uniform(3,9)X∼Uniform(3,9)
+Find:
+P(X>6)P(X>6)P(X>6)
+A. 0.25
+B. 0.50
+C. 0.67
+D. 0.75
+Answer: B. 0.50
+Explanation:
+The distribution runs from 3 to 9. The interval above 6 is from 6 to 9.
+P(X>6)=9−69−3P(X>6)=\frac{9-6}{9-3}P(X>6)=9−39−6​ =36=0.5=\frac{3}{6}=0.5=63​=0.5
+Trap: Start from the actual lower and upper bounds, not from 0.
+________________
+
+
+Q13
+Let:
+X∼Uniform(3,9)X \sim Uniform(3,9)X∼Uniform(3,9)
+Find the mean.
+A. 3
+B. 6
+C. 9
+D. 12
+Answer: B. 6
+Explanation:
+Uniform mean:
+E[X]=a+b2E[X]=\frac{a+b}{2}E[X]=2a+b​ E[X]=3+92=6E[X]=\frac{3+9}{2}=6E[X]=23+9​=6
+The formula sheet gives the uniform mean as (a+b)/2(a+b)/2(a+b)/2.
+________________
+
+
+Q14
+Let:
+X∼Uniform(3,9)X \sim Uniform(3,9)X∼Uniform(3,9)
+Find the standard deviation.
+A. 1.7321
+B. 3.0000
+C. 6.0000
+D. 36.0000
+Answer: A. 1.7321
+Explanation:
+Formula sheet gives:
+Var(X)=(b−a)212Var(X)=\frac{(b-a)^2}{12}Var(X)=12(b−a)2​ Var(X)=(9−3)212Var(X)=\frac{(9-3)^2}{12}Var(X)=12(9−3)2​ Var(X)=3612=3Var(X)=\frac{36}{12}=3Var(X)=1236​=3
+Standard deviation:
+σ=3\sigma=\sqrt{3}σ=3​ σ=1.7321\sigma=1.7321σ=1.7321
+Trap: If the question asks for standard deviation, do not stop at variance.
+________________
+
+
+Section D — Exponential distribution
+Q15
+Calls arrive at a call centre at a rate of 12 per hour. Find the probability that the next call arrives within 2 minutes.
+A. 0.3297
+B. 0.6703
+C. 0.1813
+D. 0.4512
+Answer: A. 0.3297
+Explanation:
+First convert λ:
+12 per hour=1260=0.2 per minute12 \text{ per hour} = \frac{12}{60}=0.2 \text{ per minute}12 per hour=6012​=0.2 per minute
+Then:
+P(X<2)=1−e−0.2(2)P(X<2)=1-e^{-0.2(2)}P(X<2)=1−e−0.2(2) P(X<2)=1−e−0.4P(X<2)=1-e^{-0.4}P(X<2)=1−e−0.4 P(X<2)=0.3297P(X<2)=0.3297P(X<2)=0.3297
+The formula sheet gives exponential cumulative probability as P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx.
+Trap: You must match units. Since the question asks minutes, λ must be per minute.
+________________
+
+
+Q16
+Calls arrive at a call centre at a rate of 12 per hour. Find the probability that the next call arrives after 6 minutes.
+A. 0.6988
+B. 0.3012
+C. 0.4512
+D. 0.1813
+Answer: B. 0.3012
+Explanation:
+Convert λ:
+λ=0.2 per minute\lambda=0.2 \text{ per minute}λ=0.2 per minute
+“After 6 minutes” means:
+P(X>6)P(X>6)P(X>6)
+Use:
+P(X>6)=e−λxP(X>6)=e^{-\lambda x}P(X>6)=e−λx P(X>6)=e−0.2(6)P(X>6)=e^{-0.2(6)}P(X>6)=e−0.2(6) P(X>6)=e−1.2P(X>6)=e^{-1.2}P(X>6)=e−1.2 P(X>6)=0.3012P(X>6)=0.3012P(X>6)=0.3012
+Trap: 1−e−λx1-e^{-\lambda x}1−e−λx gives “less than”, not “greater than”.
+________________
+
+
+Q17
+The time between arrivals of vehicles follows an exponential distribution with a mean of 10 seconds. What is λ\lambdaλ?
+A. 10
+B. 0.10
+C. 5
+D. 100
+Answer: B. 0.10
+Explanation:
+For exponential:
+E[X]=1λE[X]=\frac{1}{\lambda}E[X]=λ1​
+Given:
+E[X]=10E[X]=10E[X]=10
+So:
+10=1λ10=\frac{1}{\lambda}10=λ1​ λ=110=0.10\lambda=\frac{1}{10}=0.10λ=101​=0.10
+Trap: The mean is not λ. λ is the inverse of the mean.
+________________
+
+
+Q18
+The time between arrivals of vehicles follows an exponential distribution with mean 10 seconds. Find:
+P(X<4)P(X<4)P(X<4)
+A. 0.3297
+B. 0.6703
+C. 0.4000
+D. 0.1000
+Answer: A. 0.3297
+Explanation:
+From Q17:
+λ=0.10\lambda=0.10λ=0.10
+Then:
+P(X<4)=1−e−0.10(4)P(X<4)=1-e^{-0.10(4)}P(X<4)=1−e−0.10(4) P(X<4)=1−e−0.4P(X<4)=1-e^{-0.4}P(X<4)=1−e−0.4 P(X<4)=0.3297P(X<4)=0.3297P(X<4)=0.3297
+________________
+Section E — Normal approximation to binomial
+Q19
+Let:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+Check whether normal approximation is allowed.
+A. No, because nπ=0.6n\pi=0.6nπ=0.6
+B. No, because n(1−π)=0.7n(1-\pi)=0.7n(1−π)=0.7
+C. Yes, because nπ=60n\pi=60nπ=60 and n(1−π)=140n(1-\pi)=140n(1−π)=140
+D. Yes, because n+π>5n+\pi>5n+π>5
+Answer: C. Yes, because nπ=60n\pi=60nπ=60 and n(1−π)=140n(1-\pi)=140n(1−π)=140
+Explanation:
+Check:
+nπ=200(0.3)=60>5n\pi=200(0.3)=60>5nπ=200(0.3)=60>5 n(1−π)=200(0.7)=140>5n(1-\pi)=200(0.7)=140>5n(1−π)=200(0.7)=140>5
+Both conditions pass.
+________________
+
+
+Q20
+For:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+what are the mean and standard deviation for the normal approximation?
+A. μ=60,σ=42\mu=60,\sigma=42μ=60,σ=42
+B. μ=60,σ=42\mu=60,\sigma=\sqrt{42}μ=60,σ=42​
+C. μ=42,σ=60\mu=42,\sigma=60μ=42,σ=60
+D. μ=140,σ=60\mu=140,\sigma=\sqrt{60}μ=140,σ=60​
+Answer: B. μ=60,σ=42\mu=60,\sigma=\sqrt{42}μ=60,σ=42​
+Explanation:
+Mean:
+μ=nπ\mu=n\piμ=nπ μ=200(0.3)=60\mu=200(0.3)=60μ=200(0.3)=60
+Variance:
+σ2=nπ(1−π)\sigma^2=n\pi(1-\pi)σ2=nπ(1−π) σ2=200(0.3)(0.7)=42\sigma^2=200(0.3)(0.7)=42σ2=200(0.3)(0.7)=42
+Standard deviation:
+σ=42\sigma=\sqrt{42}σ=42​
+The formula sheet gives binomial mean and variance, so for normal approximation you must take the square root of the variance for the z-score denominator.
+________________
+
+
+Q21
+For:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+which continuity correction is correct for:
+P(X>70)P(X>70)P(X>70)
+A. P(Xa>69.5)P(X_a>69.5)P(Xa​>69.5)
+B. P(Xa>70)P(X_a>70)P(Xa​>70)
+C. P(Xa>70.5)P(X_a>70.5)P(Xa​>70.5)
+D. P(69.5<Xa<70.5)P(69.5<X_a<70.5)P(69.5<Xa​<70.5)
+Answer: C. P(Xa>70.5)P(X_a>70.5)P(Xa​>70.5)
+Explanation:
+“More than 70” means:
+71,72,73,…71,72,73,\dots71,72,73,…
+The boundary between 70 and 71 is:
+70.570.570.5
+So:
+P(X>70)≈P(Xa>70.5)P(X>70)\approx P(X_a>70.5)P(X>70)≈P(Xa​>70.5)
+________________
+Q22
+Use the normal approximation for:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+Find approximately:
+P(X>70)P(X>70)P(X>70)
+A. 0.9474
+B. 0.0526
+C. 0.5000
+D. 0.1052
+Answer: B. 0.0526
+Explanation:
+From earlier:
+μ=60\mu=60μ=60 σ=42≈6.4807\sigma=\sqrt{42}\approx6.4807σ=42​≈6.4807
+Continuity correction:
+P(X>70)≈P(Xa>70.5)P(X>70)\approx P(X_a>70.5)P(X>70)≈P(Xa​>70.5)
+Standardise:
+z=70.5−606.4807z=\frac{70.5-60}{6.4807}z=6.480770.5−60​ z≈1.62z\approx1.62z≈1.62
+Left-tail probability:
+P(Z<1.62)≈0.9474P(Z<1.62)\approx0.9474P(Z<1.62)≈0.9474
+Greater-than probability:
+1−0.9474=0.05261-0.9474=0.05261−0.9474=0.0526
+Trap: If you choose 0.9474, you forgot the complement.
+________________
+
+
+Q23
+For:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+which continuity correction is correct for:
+P(X=50)P(X=50)P(X=50)
+A. P(Xa=50)P(X_a=50)P(Xa​=50)
+B. P(49.5<Xa<50.5)P(49.5<X_a<50.5)P(49.5<Xa​<50.5)
+C. P(Xa<50.5)P(X_a<50.5)P(Xa​<50.5)
+D. P(Xa>49.5)P(X_a>49.5)P(Xa​>49.5)
+Answer: B. P(49.5<Xa<50.5)P(49.5<X_a<50.5)P(49.5<Xa​<50.5)
+Explanation:
+Exact binomial values become small intervals under the normal approximation.
+P(X=50)≈P(49.5<Xa<50.5)P(X=50)\approx P(49.5<X_a<50.5)P(X=50)≈P(49.5<Xa​<50.5)
+The transcript describes the continuity correction as the 0.5 adjustment needed when shifting from discrete binomial values to continuous normal areas.
+________________
+
+
+Q24
+For:
+X∼Binomial(200,0.3)X \sim Binomial(200,0.3)X∼Binomial(200,0.3)
+which setup is correct for:
+P(X<50)P(X<50)P(X<50)
+A. P(Xa<50)P(X_a<50)P(Xa​<50)
+B. P(Xa<50.5)P(X_a<50.5)P(Xa​<50.5)
+C. P(Xa<49.5)P(X_a<49.5)P(Xa​<49.5)
+D. P(Xa>49.5)P(X_a>49.5)P(Xa​>49.5)
+Answer: C. P(Xa<49.5)P(X_a<49.5)P(Xa​<49.5)
+Explanation:
+Since XXX is discrete:
+X<50X<50X<50
+means:
+X≤49X\le49X≤49
+Then:
+P(X≤49)≈P(Xa<49.5)P(X\le49)\approx P(X_a<49.5)P(X≤49)≈P(Xa​<49.5)
+Trap: For normal approximation, handle the discrete inequality first, then apply the 0.5 correction.
+________________
+
+
+Section F — Mixed traps
+Q25
+For a continuous random variable, what is:
+P(X=5)P(X=5)P(X=5)
+A. 0
+B. 0.5
+C. 1
+D. Cannot be determined
+Answer: A. 0
+Explanation: For continuous variables, exact point probability is zero. Probability is area over an interval.
+________________
+
+
+Q26
+Which statement is correct for continuous distributions?
+A. P(X<5)P(X<5)P(X<5) and P(X≤5)P(X\le5)P(X≤5) are very different.
+B. P(X=5)P(X=5)P(X=5) is usually 0.5.
+C. P(X<5)=P(X≤5)P(X<5)=P(X\le5)P(X<5)=P(X≤5).
+D. Probability is the height of the curve.
+Answer: C. P(X<5)=P(X≤5)P(X<5)=P(X\le5)P(X<5)=P(X≤5)
+Explanation: In continuous distributions, exact point probability is zero, so including or excluding the endpoint does not change the probability. The transcript explicitly explains this distinction between Chapter 5 and Chapter 6.
+________________
+
+
+Q27
+Which of the following is the biggest warning sign in an exponential distribution question?
+A. Whether the mean is larger than the median
+B. Whether λ and xxx use the same units
+C. Whether the distribution is symmetric
+D. Whether continuity correction was used
+Answer: B. Whether λ and xxx use the same units
+Explanation: Exponential questions require λ and the waiting time to use the same unit. If λ is per hour and xxx is in minutes, convert one of them before calculating.
+________________
+
+
+Q28
+Which question is most likely asking for an inverse normal calculation?
+A. Find P(X<20)P(X<20)P(X<20).
+B. Find P(X>20)P(X>20)P(X>20).
+C. Find P(10<X<20)P(10<X<20)P(10<X<20).
+D. Find the value xxx such that 95% of observations are below it.
+Answer: D
+Explanation: Inverse normal means the probability is given and the value is unknown.
+________________
+
+
+Q29
+Which distribution uses the formula:
+P(X<x)=1−e−λxP(X<x)=1-e^{-\lambda x}P(X<x)=1−e−λx
+A. Uniform
+B. Normal
+C. Exponential
+D. Binomial
+Answer: C. Exponential
+Explanation: This is the exponential cumulative probability formula, and it appears on the formula sheet.
+________________
+
+
+Q30
+Which statement is true?
+A. Uniform distribution probabilities use z-scores.
+B. Exponential distribution always counts events.
+C. Normal approximation to binomial requires continuity correction.
+D. Normal distribution probabilities are calculated using rectangle area.
+Answer: C
+Explanation: Binomial is discrete and normal is continuous, so the 0.5 continuity correction is needed.
+________________
+
+
+Score guide
+Score
+	Meaning
+	Next action
+	25–30
+	Strong Chapter 6 readiness
+	Move to timed mixed questions
+	20–24
+	Good, but traps still possible
+	Redo wrong questions only
+	15–19
+	Concept recognition needs work
+	Revisit recognition table + trap sheet
+	Below 15
+	Pause calculations
+	Relearn distribution recognition first
+	Best next step
+Next, we should create a Chapter 6 error log template for this MCQ set so that every wrong answer gets converted into a trap category: distribution recognition, formula choice, units, tail direction, variance vs SD, or continuity correction.
+create a Chapter 6 error log template
+Thought for 5s
+Absolutely — here is a Chapter 6 Error Log Template designed for your MCQ practice. The goal is not just to record wrong answers, but to convert every mistake into a repeatable exam trap you can fix.
+SDS188 A2S1 — Chapter 6 Error Log Template
+Continuous Distributions + Normal Approximation
+1. Error category codes
+Use these codes every time you get a question wrong.
+Code
+	Error category
+	Meaning
+	DR
+	Distribution Recognition
+	Chose the wrong distribution
+	FC
+	Formula Choice
+	Chose the wrong formula/method
+	UN
+	Units
+	Did not match units, especially exponential λ
+	TD
+	Tail Direction
+	Mixed up less than, greater than, between, or complement
+	VSD
+	Variance vs SD
+	Used variance instead of standard deviation
+	CC
+	Continuity Correction
+	Forgot or misapplied ±0.5
+	CALC
+	Calculator
+	Input/calculator-function mistake
+	INV
+	Inverse Question
+	Misread “top/bottom %” or forgot to convert z back to x
+	INT
+	Interpretation
+	Answer did not make sense in context
+	CARE
+	Careless Error
+	Arithmetic, copying, rounding, or reading mistake
+	________________
+
+
+2. Main error log table
+Q no.
+	Topic
+	My answer
+	Correct answer
+	Error code
+	What went wrong?
+	Correct method
+	Redo date
+	Fixed?
+	
+
+	Normal / Uniform / Exponential / Approx.
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	☐
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	☐
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	☐
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	☐
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	☐
+	________________
+
+
+3. Quick “what went wrong?” sentence starters
+Use one of these so the log stays fast.
+Error code
+	Sentence starter
+	DR
+	“I thought it was ___, but it was ___ because…”
+	FC
+	“I used ___ formula, but should have used ___ because…”
+	UN
+	“λ was in ___, but x was in ___, so I needed to convert…”
+	TD
+	“The question asked for ___, but I calculated ___.”
+	VSD
+	“I used the variance ___ instead of the SD ___.”
+	CC
+	“I forgot that ___ becomes ___ after continuity correction.”
+	CALC
+	“I entered ___, but should have entered ___.”
+	INV
+	“I used left-tail probability ___, but the wording meant ___.”
+	INT
+	“My answer did not make sense because…”
+	CARE
+	“I made a basic mistake when…”
+	________________
+
+
+4. Error pattern tracker
+After every 10–15 questions, count your error types.
+Error category
+	Tally
+	Pattern?
+	Fix strategy
+	Distribution Recognition
+	
+
+	
+
+	Redo recognition drill
+	Formula Choice
+	
+
+	
+
+	Revisit formula decoder
+	Units
+	
+
+	
+
+	Write units beside λ and x before calculating
+	Tail Direction
+	
+
+	
+
+	Draw/label left vs right tail
+	Variance vs SD
+	
+
+	
+
+	Check whether notation gives σ or σ²
+	Continuity Correction
+	
+
+	
+
+	Rewrite discrete wording first
+	Calculator
+	
+
+	
+
+	Practise HP key sequence
+	Inverse Questions
+	
+
+	
+
+	Translate wording into left-tail probability
+	Interpretation
+	
+
+	
+
+	Ask if answer should be above/below 0.5
+	Careless
+	
+
+	
+
+	Slow down first line of working
+	________________
+
+
+5. Chapter 6 trap checklist for each wrong answer
+Before marking the question “fixed”, ask:
+Check
+	Yes/No
+	Did I identify the correct distribution?
+	☐
+	Did I choose the correct formula/method?
+	☐
+	If exponential, did λ and x have matching units?
+	☐
+	If normal, did I use SD, not variance?
+	☐
+	If greater-than, did I use the complement where needed?
+	☐
+	If between-values, did I subtract lower left-tail from upper left-tail?
+	☐
+	If inverse normal, did I use the correct left-tail percentage?
+	☐
+	If normal approximation, did I apply continuity correction?
+	☐
+	Is my final probability between 0 and 1?
+	☐
+	Does my answer make sense in context?
+	☐
+	________________
+
+
+6. Worked example entries
+Example 1 — Exponential unit error
+Q no.
+	Topic
+	My answer
+	Correct answer
+	Error code
+	What went wrong?
+	Correct method
+	Redo date
+	Fixed?
+	15
+	Exponential
+	1.0000
+	0.3297
+	UN
+	I used λ = 12 per hour with x = 2 minutes. Units did not match.
+	Convert λ to 12/60 = 0.2 per minute, then use 1−e−0.2(2)1-e^{-0.2(2)}1−e−0.2(2).
+	
+
+	☐
+	________________
+
+
+Example 2 — Normal right-tail error
+Q no.
+	Topic
+	My answer
+	Correct answer
+	Error code
+	What went wrong?
+	Correct method
+	Redo date
+	Fixed?
+	7
+	Normal
+	0.9696
+	0.0304
+	TD
+	I calculated P(X<80)P(X<80)P(X<80), but the question asked P(X>80)P(X>80)P(X>80).
+	Find left-tail, then subtract from 1.
+	
+
+	☐
+	________________
+
+
+Example 3 — Normal approximation correction error
+Q no.
+	Topic
+	My answer
+	Correct answer
+	Error code
+	What went wrong?
+	Correct method
+	Redo date
+	Fixed?
+	21
+	Normal approximation
+	Xa>70X_a>70Xa​>70
+	Xa>70.5X_a>70.5Xa​>70.5
+	CC
+	I forgot that “more than 70” means 71 or more, so the boundary is 70.5.
+	For P(X>70)P(X>70)P(X>70), use P(Xa>70.5)P(X_a>70.5)P(Xa​>70.5).
+	
+
+	☐
+	________________
+
+
+7. Redo rule
+A question is only “fixed” when you can redo it correctly without looking at the memo.
+Attempt
+	Action
+	Attempt 1 wrong
+	Log the error
+	Same day redo
+	Redo after reviewing the correct method
+	Next-day redo
+	Redo without notes
+	Final redo
+	Mix it with other distributions
+	Only tick Fixed after the next-day redo is correct.
+________________
+
+
+8. Mini summary box for your page
+My top 3 Chapter 6 weaknesses
+Rank
+	Weakness
+	Fix
+	1
+	
+
+	
+
+	2
+	
+
+	
+
+	3
+	
+
+	
+
+	Formulas/methods I keep mixing up
+I confuse…
+	Correct difference
+	Poisson vs exponential
+	Count events vs waiting time
+	Variance vs SD
+	SD = square root of variance
+	Less than vs greater than
+	Greater than usually needs complement
+	Uniform vs exponential
+	Bounds/equally likely vs rate/waiting time
+	Binomial vs normal approximation
+	Approximation needs checks + 0.5 correction
+	________________
+
+
+9. Tiny final rule
+Do not just write “I made a mistake.” Write the trap. The trap is what you need to beat in the exam.
+now do we have enough to make the html for this chapter using everything we created in this chat which I also pasted here to make it easier:

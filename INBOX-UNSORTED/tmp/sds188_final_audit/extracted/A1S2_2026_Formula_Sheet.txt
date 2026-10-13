@@ -1,0 +1,59 @@
+
+===== PAGE 1 =====
+FORMULA SHEET / FORMULEBLAD
+Probability distribution formulae / Waarskynlikheidsverdelingsformules
+Distribution /
+Verdeling
+Expected value /
+Verwagte waarde
+Variance /
+Variansie
+f (x) = λe−λx, x > 0 1
+λ
+1
+λ2
+f (x) = 1
+b − a , a ≤
+x ≤ b
+a + b
+2
+(b − a)2
+12
+Sample sizes / Steekproefgroottes
+n ≥
+z 2
+α/2σ2
+e2 ,
+n ≥
+z 2
+α/2π(1 − π)
+e2 ,
+FPC / EPK: n ≥ n0N
+n0 + (N − 1) .
+Inference formulae / Inferensie formules
+Under certain conditions: / Onder sekere voorwaardes:
+Parameter Statistic /
+Statistiek
+Standard error /
+Standaardfout Distribution / Verdeling
+µ ¯X σ√n
+Z ∼ N (0, 1), σ known /
+bekend
+µ ¯X s√n
+T ∼ tn−1, σ unknown /
+onbekend
+π p
+√
+π(1 − π)
+n Z ∼ N (0, 1)
+µ1 − µ2 ¯X1 − ¯X2
+√
+σ2
+1
+n1
++ σ2
+2
+n2
+Z ∼ N (0, 1), σ1, σ2 known
+/ bekend
+1

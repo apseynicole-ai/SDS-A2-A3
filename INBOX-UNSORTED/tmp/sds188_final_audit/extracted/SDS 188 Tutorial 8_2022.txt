@@ -1,0 +1,202 @@
+
+===== PAGE 1 =====
+1 
+Kopiereg voorbehou / Copyright reserved 
+DEPARTEMENT STATISTIEK EN AKTUARIËLE 
+WETENSKAP 
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE 
+ 
+STATISTIEK EN DATAWETENSKAP 188 
+STATISTICS AND DATA SCIENCE 188 
+ 
+TUTORIAAL 8 / TUTORIAL 8 
+ 
+Die meeste probleme is aangepas uit BASIC Business Statistics – Berenson, Levine & 
+Krebiel, 10th ed, Prentice Hall. / Most problems are adapted from BASIC Business Statistics 
+– Berenson, Levine & Krebiel, 10th ed, Prentice Hall.   
+ 
+1. Indien 
+85x = , 
+8=  en 
+64=n , stel ’n 95% vertrouensinterval vir die 
+populasiegemiddelde 
+  op. / If 
+85x = , 
+8=  and 
+64=n , construct a 95% 
+confidence interval for the population mean 
+ . 
+ 
+2.  Indien 
+125x = , 
+24=  en 
+36=n , stel ’n 9 9% vertrouensinterval vir die 
+populasiegemiddelde 
+  op. / If 
+125x = , 
+24=  and 
+36=n , construct a 99% 
+confidence interval for the population mean 
+ . 
+ 
+3. ’n Marknavorser beweer dat sy 95% vertroue het dat die gemiddelde maandelikse 
+verkope van ’n produk tussen R170 000 en R200 000 is. Verduidelik die betekenis van 
+hierdie stelling. / A market researcher states that she has 95% confidence that the mean 
+monthly sales of a product are between R170 000 and R200 000. Explain the meaning 
+of this statement. 
+ 
+4. Die inspeksie -afdeling van ’n koeldrankvervaardiger wil die werklike hoeveelheid 
+gaskoeldrank in 2 -liter bottels ondersoek. Die vervaardiger het dit aan die in speksie-
+afdeling bekend gemaak dat die populasie standaardafwyking vir 2 -liter bottels 0.05 
+liter is. ’n Ewekansige steekproef van 100 2-liter bottels by hierdie vervaardiger lewer 
+’n steekproefgemiddeld e van 1.99 liter. / The inspection division of a cool drink 
+manufacturer wants to estimate the actual amount of soft drink in 2 -litre bottles at a 
+local bottling plant. The bottling plant has informed the inspection division that the 
+population standard deviation for 2-litre bottles is 0.05 litre. A random sample of 100 
+2-litre bottles at this bottling plant indicates a sample mean of 1.99 litres. 
+ 
+(a) Stel ’n 95% vertrouensinter val vir die populasiegemiddelde  hoeveelheid 
+gaskoeldrank in elke bottel op. / Construct a 95% confidence interval f or the 
+population mean amount of soft-drink in each bottle. 
+(b) Is dit nodig om aan te neem dat die populasie van gaskoeldranke se inhoud normal 
+verdeel is? Motiveer u antwoord . / Must you assume that the population of soft -
+drink content is normally distributed? Motivate your answer. 
+===== PAGE 2 =====
+2 
+Kopiereg voorbehou / Copyright reserved 
+(c) Verduidelik waarom ’n waarde van 2.02 liter vir ’n enkele bottel se inhoud nie 
+ongewoon is nie, alhoewel dit buite die vertrouensinterval lê wat u bereken het. / 
+Explain why a value of 2.02 litres for the content of a single bottle is not unusual, 
+even though it is outside the confidence interval you calculated. 
+(d) Gestel dat die steekproefgemiddelde 1.97 liter was. Hoe sou dit u antwoord in (a) 
+verander? / Suppose that the sample mean had been 1.97 litres. How would this 
+change your answer to (a)? 
+ 
+5. Indien u 95% vertroue wil hê in die bera ming van die populasiegemiddeld e binne ’n 
+steekproeffout van 
+5 eenhede en kan aanneem dat die standaardafwyking 15 is, wat 
+is die steekproefgrootte wat benodig word? / If you want to be 95% confident of 
+estimating the population mean to within a sampling error of ±5 units and the standard 
+deviation is assumed to be 15, what sample size is required? 
+ 
+6. Indien u 99% vertroue wil hê in die beraming van die populasiegemiddelde binne ’n 
+steekproeffout van 
+20  en kan aanneem dat die standaardafwyking 100 is, wat is die 
+steekproefgrootte wat benodig word? / If you want to be 99% confident of estimating 
+the population mean to  within a sampling error of ± 20 and the standard deviation is 
+assumed to be 100, what sample size is required? 
+ 
+7. In 2001 is beraam dat 45% van Suid-Afrikaanse huishoudings kruideniersware by 
+geriefswinkels koop, en dat 29% kruideniersware by groothandelaars koop. Beskou ’n 
+opvolgstudie wat op die laaste kalenderjaar fokus. / In 2001 it was estimated that 45% 
+of South African households purchased groceries at convenience stores and 29% 
+purchased groceries at wholesalers. Consider a follow -up study focusing on the last 
+calendar year. 
+ 
+(a) Watter steekproefgrootte word benodig om die populasieproporsie Suid-Afrikaanse 
+huishoudings wat kruideniersware by geriefswinkels koop binne 
+02.0  met 95% 
+vertroue te beraam? / What sample size is needed to estimate the population 
+proportion of South African households purchasing groceries at convenience stores 
+to within ±0.02 with 95% confidence? 
+(b) Watter steekproefgrootte word benodig om die populasieproporsie Suid-Afrikaanse 
+huishoudings wat kruideniersware by groothandelaars koop binne 
+02.0  met 95% 
+vertroue te beraam? / What sample size is needed to estimate the  population 
+proportion of South African households p urchasing groceries at wholesal ers to 
+within ±0.02 with 95% confidence? 
+ 
+8. In ’n opname van 326 sakelui het 303 geantwoord dat hul voorleggings al deur die lui 
+van ’n selfoon onderbreek is, en 23 het geantwoord dat dit nog nie met hul gebeur het 
+nie (“You Say”, Presentations: Technology and Techniques for Effective 
+Communication, January 2003, 18). / In a survey of 326 business people, 303 answered 
+that their presentations have been interrupted by a ringing cell phone, and 23 answered 
+that this has not yet happened to them   (“You Say”, Presentations: Technology and 
+Techniques for Effective Communication, January 2003, 18). 
+ 
+===== PAGE 3 =====
+3 
+Kopiereg voorbehou / Copyright reserved 
+(a) Stel ’n 95% vertrouensinterval vir die populasieproporsie sakelui wie se 
+voorleggings al deur selfone onderbreek is , op . / Construct a 95% confidence 
+interval for the population proportion of business people whose presentation have 
+been disturbed by cell phones. 
+(b) Interpreteer die vertrouensinterval in (a). / Interpret the confidence interval in (a). 
+(c) Hoe groot steekproef word benodig om ’n opvolgstudie te loods wat 95% vertroue 
+sal lewer dat die puntberamer binne ±0.04 van die populasie proporsie is? / To 
+conduct a follow -up study that would provide 95% confidence that the point 
+estimate is correct to within ±0.04 of the population proportion, how large a sample 
+is required? 
+(d) Hoe groot steekproef word benodig om ’n opvolgstudie te loods wat 99% vertroue 
+sal lewer dat die puntberamer binne ±0.04 van die populasie proporsie is? / To 
+conduct a follow -up study that would provide 99% confidence that the point 
+estimate is correct to within ±0.04 of the population proportion, how large a sample 
+is required? 
+ 
+9. Bepaal die kritieke waarde van t in elk van die volgende omstandighede. / Determine 
+the critical value of t in each of the following circumstances. 
+ 
+(a) 1 − 𝛼 = 0.95, 𝑛 = 10 
+(b) 1 − 𝛼 = 0.99, 𝑛 = 10 
+(c) 1 − 𝛼 = 0.95, 𝑛 = 32 
+(d) 1 − 𝛼 = 0.95, 𝑛 = 65 
+(e) 1 − 𝛼 = 0.90, 𝑛 = 16 
+ 
+10. Regulering vereis dat bandevervaardigers prestasie -inligting aan die kant van ’n band 
+moet verskaf. Een belangrike maatstaf vir die prestasie van die band is die loopvlak 
+slytasie-indeks, wat die weerstand teen slytasie toon in vergelyking met ’n basis van 
+100. ’n Band met ’n indeks van 200 moet gemiddeld twee keer so lank duur as ’n band 
+van 100. Ons wil die werklike loopvlak slytasie-indeks van ’n handelsmerk skat wat ’n 
+indeks van 150 aandui. ’n Steekproef van 𝑛 =  24 lewer ’n gemiddelde slytasie-indeks 
+van 141.3 en ’n standaardafwyking van 19.1. / Regulation requires tyre manufacturers 
+to provide performance information on the side of a tyre. One important measure of 
+tyre performance is the tread wear index , which shows resistance to wear compared 
+with a base of 100. A tyre with an index of 200 should last twice as long, on  average 
+as a tyre graded as 100. We want to estimate the actual tread wear index of a brand 
+that claims an index of 150. A sample of 𝑛 = 24 indicates a mean wear index of 141.3 
+and a sample standard deviation of 19.1.  
+ 
+(a) Neem aan dat die populasie van loopvlak slytasie -indekse normaal ver deel is, 
+konstrueer ’n 90% vertrouensinterval vir die popul gemiddelde slytasie-indeks vir 
+bande wat deur hierdie vervaardiger onder hierdie handelsnaam vervaardig word. / 
+Assuming that the population of tread wear indexes is  normally distributed, 
+construct a 90% confidence interval for the population mean tread wear index for 
+tyres produced by this manufacturer under this brand name. 
+===== PAGE 4 =====
+4 
+Kopiereg voorbehou / Copyright reserved 
+(b) Dink u dat die verbruikersorganisasie die vervaardiger moet beskuldig dat hy bande 
+vervaardig wat nie aan die prestasie -inligting aan die kant van die band voldoen 
+nie? Verduidelik. / Do you think that the consumer organization should accuse the 
+manufacturer of producing tyres that do not meet the performance information 
+provided on the side of the tyre? Explain. 
+(c) Verduidelik waarom ’ n waargenome loopvlak slytasie -indeks van 152 vir ’n 
+bepaalde band nie ongewoon is nie, alhoewel dit buite die vertrouensinterval wat 
+in (a) ontwikkel is, is.  / Explain why an observed tread wear index of 152 for a 
+particular tyre is not unusual, even though it is outside the confidence interval 
+developed in (a). 
+ 
+11. Indien  𝑥̅ = 75, 𝑠  =   24, 𝑛  =   36, 𝑒𝑛 𝑁  =   200, konstrueer a 95% 
+vertrouensinterval beraming van die populasie-gemiddeld, 𝜇, as die steekproefneming 
+gedoen is sonder terugplasing . / If 𝑥̅   =   75, 𝑠  =   24 , 𝑛  =   36, 𝑎𝑛𝑑 𝑁  =   200, 
+construct a 95% confidence interval estimate of the population mean, 𝜇, if sampling is 
+done without replacement. 
+ 
+12. Die bestuurder van ’n bank met 1 000 deposante wil die proporsie van sy deposante 
+met meer as een rekening by die bank beraam. ' n Ewekansige steekproef van 100 
+deposante word sonder terugplasing gekies, en 30 verklaar dat hulle meer as een 
+rekening by die bank het. / The manager of a bank that has 1 000 depositors wants you 
+to estimate the proportion of its depositors with more than one account at the bank. A 
+random sample of 100 depositors is selected without replacement, and 30 state that 
+they have more than one account at the bank. 
+ 
+(a) Construeer ‘n 90% vertrouensinterval op van die populasieproporsie van die bank 
+se deposante wat meer as een rekening by die bank het.  / Construct a 90% 
+confidence interval for the population proportion of the bank’s depositors who have 
+more than one account at the bank. 
+(b) Watter steekproefgrootte is nodig om die populasieproporsie binne ± 0.05 met 90% 
+vertroue te skat? / What sample size is needed to estimate the population proportion 
+to within ±0.05 with 90% confidence? 
+(c) Wat is u antwoorde op (a) en (b) as die bank 2 000 deposante het? / What are your 
+answers to (a) and (b) if the bank has 2,000 depositors? 
+ 

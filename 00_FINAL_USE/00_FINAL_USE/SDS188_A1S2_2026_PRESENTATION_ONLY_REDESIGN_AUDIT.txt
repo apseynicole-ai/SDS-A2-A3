@@ -1,0 +1,95 @@
+SDS188 A1S2 2026 - PRESENTATION-ONLY REDESIGN AUDIT
+Date: 2026-08-25
+
+SCOPE
+- Implemented Option C: presentation-only redesign of BOTH the offline print pack and the final Master Learning System HTML.
+- Academic/statistical substance was not intentionally changed.
+- Original final/frozen files were not overwritten.
+
+PRINT PACK SOURCE / OUTPUT
+Source attached PDF:
+  SDS188_A1S2_2026_COMPLETE_OFFLINE_PRINT_PACK (1).pdf
+  SHA-256: 17d956f63ac9a3718b90b27140836521c9df7c32dae2a54b47df0f96d3e0b049
+  Pages: 64 (Word/macOS export)
+
+Source editable DOCX from 00_FINAL_USE:
+  SDS188_A1S2_2026_COMPLETE_OFFLINE_PRINT_PACK (1).docx
+  SHA-256: 7a7850e8b0e22e8b854a0a6e9f255ab159d617e2772197c95fa28295ef69c0b3
+
+Presentation-only DOCX:
+  SDS188_A1S2_2026_COMPLETE_OFFLINE_PRINT_PACK_PRESENTATION_ONLY_GREYSCALE.docx
+  SHA-256: 8c0cd369cf733b34f6e139cdf019152f6c1b0ed4dbc803b876f02a40385216fa
+
+Presentation-only PDF:
+  SDS188_A1S2_2026_COMPLETE_OFFLINE_PRINT_PACK_PRESENTATION_ONLY_GREYSCALE.pdf
+  SHA-256: 6cdd3fd1fc09f56e7aa38c2bad8c480a4e8945191dc8690b53335f99042e8506
+  Pages: 61
+  Page size: A4
+
+CONTENT-PRESERVATION GATE
+- Source DOCX w:t text runs: 2,702
+- Output DOCX w:t text runs: 2,702
+- Source DOCX visible-text characters: 151,092
+- Output DOCX visible-text characters: 151,092
+- Source/output DOCX text fingerprint SHA-256:
+  43c73d2488e05810970491e7a9c9d7667963e36211e57d4941cb636d7745e512
+- RESULT: IDENTICAL.
+
+PDF extraction cross-check against the attached 64-page PDF:
+- OBJECTIVE count: 45 -> 45
+- SAY ALOUD count: 45 -> 45
+- WORKED EXAMPLE count: 45 -> 45
+- KNOWLEDGE CHECK count: 85 -> 85
+- EXIT CRITERION count: 43 -> 43
+- Sources count: 43 -> 43
+- FORMULA / DECISION OBJECT count: 26 -> 26
+- COMMON TRAP count: 26 -> 26
+- Slides 1-51 references: 13 -> 13
+- HOLD references: 8 -> 8
+- Token multiset overlap versus smaller extraction: 99.7477%
+  (Remaining extraction variance is principally PDF glyph/text-extraction behaviour, including Greek symbols.)
+
+PRINT/RUNTIME VISUAL GATE
+- Final PDF rendered successfully: 61/61 pages.
+- Blank/near-blank unintended pages: 0.
+- Edge/clipping flags: 0.
+- Pages containing non-greyscale rendered pixels: 0.
+- PDF openable, unencrypted, text-based, A4.
+- Hard page-break paragraphs were converted to page-break-before formatting to prevent accidental orphan/blank pages after reflow. No learning text was removed.
+
+PRESENTATION CHANGES ONLY
+- Black/white/grey visual system.
+- Stronger hierarchy for lesson titles and chapter structure.
+- RECOGNISE made a dark visual anchor.
+- FORMULA / DECISION OBJECT given a distinct grey decision panel.
+- Excel syntax visually separated and monospaced where applicable.
+- SAY ALOUD given a stronger retrieval block.
+- Worked examples, checks, Your Turn, traps and exit criteria more clearly separated.
+- Source/provenance material retained but visually demoted.
+- Reference tables use dark headers and alternating grey rows.
+- Workspace rule spacing compacted to avoid orphan pages while retaining all workspace-rule text.
+- Embedded coloured reference graphics converted to greyscale in the final PDF.
+
+HTML SOURCE / OUTPUT
+Source:
+  SDS188_A1S2_2026_MasterLearningSystem_FINAL.html
+  SHA-256: cbeff839116f38860a0a12ffbfd097da1b8401c71dbdddc514f792370088b6c4
+  Bytes: 985,866
+
+Presentation-only HTML:
+  SDS188_A1S2_2026_MasterLearningSystem_PRESENTATION_ONLY_GREYSCALE.html
+  SHA-256: a6b42e13f6afa32058c28809ec979c62db8a7efb833d6f6ea2f7afdf5f44006d
+  Bytes: 993,197
+
+HTML PRESERVATION / SYNTAX GATE
+- The entire HTML <body> is byte-for-byte identical to the signed-off source.
+- Source body SHA-256: 089834a2f16c790948363a88200ef4043c92c08cb21e6459dbdeee6a29b1eb85
+- Output body SHA-256: 089834a2f16c790948363a88200ef4043c92c08cb21e6459dbdeee6a29b1eb85
+- Only one CSS override block was inserted in <head>.
+- Scripts/learning data/runtime body were not edited.
+- CSS parse errors: 0.
+- Override introduces no display:none, visibility:hidden, pointer-events:none or position:fixed rules.
+
+STATUS
+PASS - PRESENTATION-ONLY CANDIDATE.
+The source/frozen artifacts remain the substantive authority. This fork changes presentation only and should not replace the frozen originals unless the user separately chooses to promote it after personal study-use review.

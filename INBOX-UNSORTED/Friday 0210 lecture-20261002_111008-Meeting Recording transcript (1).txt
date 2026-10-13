@@ -1,0 +1,227 @@
+[0:00]
+Alright. Good morning, everyone. It's good to see you all again. So you might be wondering why we're still looking at chapter seven even though we finished it last lecture. There's a few housekeeping things that I still need to cover with you.
+
+[2:19]
+The main one is using your HP calculator, this one, to calculate the regression coefficients. So very likely, you will get two broad categories of question. The one will be a small dataset where you will be ex... You won't you won't be given the regression output. You will be expected to calculate the regression output.
+
+[2:50]
+So for a dataset like the one we have here, you need to find the regression equation. So that means calculating the intercept and the slope. Your one option is to use the formulas that we have on the slides. I would actually recommend that you rather just use the calculator. I'm gonna show you how to use it, and then you can decide for yourself.
+
+[3:19]
+But I think time is a big factor in a two, so this will be faster than doing it by hand. And as long as you've captured the data correctly, your values won't be wrong. Whereas if you're doing the calculations by hand, there's a lot of element wise operations that need to be done, and there's more room for errors to creep in. Okay. So we're going to steal the dataset found in the slides, the house price and square feet example.
+
+[3:54]
+And now we are going to try and find the regression coefficients using this. So we are wanting to get the equation that looks like this. The only things that we need to calculate are the intercept and the slope. So step one is going to be to actually capture your data into your calculator. So if you want to follow along with me, you can.
+
+[4:37]
+And I'll also write down the instructions as I go. So we are going to follow a pattern here. We're going to enter our first x value. And then immediately after that, we'll select input. Input is over here on the calculator.
+
+[5:02]
+And then we will enter our first y value, and then we will select this sigma plus. Okay. And this will carry on. So it comes in x y pairs until you basically have 10 pairs captured. So just make sure you don't mix up your x and your y.
+
+[5:33]
+So x in the slides is on the right hand side, y is on the left hand side. So we start our first x y pair. This one would be a thousand 400. That's my first x value. And my y pair or my y value for that is two four five.
+
+[5:54]
+So that's x one and that's y one. Okay. So let's put in x one. Oh, before you start, you can downshift c all just to make sure that you've cleared any memory in your calculator. And the other thing you can do, if yours...
+
+[6:12]
+If your calculator is not displaying four decimal places like mine, you can select downshift equals and then select the number of decimals you want. So if I go downshift equals five, it increases the decimals. If I go downshift equals four, it brings it back to four decimal places. So... Alright.
+
+[6:36]
+This is going to be tedious, but we only have to do it once correctly. So a 400 is my first x value, and then I immediately say input. And then two four five is my y value that goes with that, and I use the sigma plus to record the y. And then when you've done one x y pair, it should say one because you've done one pair, and then we go on. We say next x value is a 600 input to capture that, and then 312 as my y value, sigma plus to capture that.
+
+[7:12]
+Now it says two because I've done two pairs. Then we've got a 700 input, and we've got two seven nine sigma plus. Then we've got one eight seven five input, three zero eight sigma plus. A 100. Input, one nine nine sigma plus.
+
+[7:47]
+One five five o, input two one nine sigma plus, two three five o, input four zero five sigma plus, two four five o input, three two four sigma plus, one four two five input, Three one nine sigma plus. 1,700 input. 255 sigma plus. Okay. It'll show 10 because you've done...
+
+[8:29]
+Yes. This... The safe option, I guess, is to restart. There is a way to go back and edit what you've captured. Off the top of my head, I I don't remember it now.
+
+[8:55]
+But if you come chat to me afterwards, we can figure it out. But you have to decide, is it worth is it worth starting over, or is it worth just finishing what you've done and then going back and changing it? So... Yeah. Okay.
+
+[9:12]
+Here, it's not a good idea to now see all because then you're going to lose what you've just captured. The first thing we'd obviously want to get is the slope. So the calculator commands for that is going to be downshift five and then downshift, and it's... The button is k. It's over here, but it...
+
+[9:51]
+Actually, what we want is the swap function, which is why we start with a downshift. So if you have a look at button number five here on the calculator, you'll see in the orange text, you've got y hat comma m. So that button stores two outputs. The one is a prediction for a given x value, and the other one is m. So the slope, the HP calculator calls m.
+
+[10:25]
+And that's what we want. So this tells the calculator we want that m. So if you want to do it with me now, and this is the part where I cross my fingers and hope that I did not make a mistake with entering my data, but, we'll go downshift five, downshift swap. Okay. And we get the slope of 0.1098.
+
+[10:53]
+That is indeed the correct slope. Remember, we've already done the regression here for this model, and you can see on the output now our calculator matches the slope that we see there for square feet. It's just we've got it rounded to four decimal places. Then if you want to get the intercept, That's my b zero. And then for clarity, the HP calculator calls it b.
+
+[11:30]
+And like I said, at no point do you clear your memory now. You you have to keep the memory until you've gotten everything you wanted. So the intercept is going to be... See if you can find the b function, first of all. So it should be a b in orange text.
+
+[11:52]
+It's also after a comma, so it's on a button that stores two outputs, but it's the second of the two outputs. So it is going to be downshift six downshift k. K. So if we go downshift six downshift k, we get 98.2483. Right.
+
+[12:40]
+And then a question would most likely ask, give the regression equation. So it's... You calculate your slope and your intercept separately, and then you show that you understand how they fit into the formula. So it's y hat is equal to 98.2483 plus 0.1098 multiplied by x. Okay.
+
+[13:16]
+So I've spoken about this before, but in a question like this, I would give you a mark for, correctly calculating the slope. I'd give you a mark for correctly calculating the intercept, and then I'd give a mark for correctly applying them in the formula. So if, for example, your slope and your intercept were wrong, you'll still get a mark if you used it properly in the formula at least. Alright. And then what comes...
+
+[13:55]
+What usually is asked together with just finding the intercept and the slope is providing the correct interpretations for the intercept and the slope. So I'm going to write the correct interpretations for you now. And keep... By the way, keep your calculators as is. Don't remove any of the...
+
+[14:20]
+Don't write over any of the memory. So the intercept interpretation is going to be when x is equal to zero, there is an estimated expected... And you can say here's expected slash average. They are the same thing. Value of y of 98.2483.
+
+[15:04]
+So it says what is the average estimated value of y when x is equal to zero? Something along that lines, if you capture the... That meaning correctly, what I look for is, did you say it happens when x is equal to zero? Did you say it's the estimated average value of y, and did you use the slope correctly in this sentence? Okay.
+
+[15:31]
+Then the slope's interpretation. So this one starts for each one unit increase in x. It has to be the increase in x, the d... The independent variable, comma, there is an estimated average value of y... Or sorry.
+
+[16:16]
+I'm not thinking here. There is an estimated average change in y of... And then here we use our slope, 0.1098 units. You can say change just because sometimes the slope will be negative, sometimes it will be positive. So that's just a more general statement.
+
+[16:58]
+And then just remember that we start... We always preempt with the one unit change in x. This is our independent variable, and this y is our dependent variable. So I won't be too happy with you if, for example, you tell me for a one unit change in y, there's an estimated change in x because that means you've misunderstood the whole point of regression. Yes?
+
+[17:35]
+Yes. You can. I don't think it's a make or break if you don't. It depends. So if I keep it in an x y context where x...
+
+[17:59]
+They haven't said what x is and what y is, It doesn't really matter. In this case, it's the house price example where it's kind of intuitive to understand that square footage of a house will never be zero. So if it's applied in a specific context where you can see there's no practical interpretation, you can mention that. But I think... I don't think it's make or break.
+
+[18:22]
+Yeah. Okay. And then the other thing is if you want to, you can also look at the units of y. So this... You can also trans...
+
+[18:38]
+Remember the slope is in units of y. So what you can say is this 0.1098 y is in thousands of units, so it would also be $1.00 9.8 thousands of dollars. So this would be $1.00 $9.8, if you... Again, if that additional context about the units is supplied. Okay.
+
+[19:07]
+Then the next thing is we need to find the correlation coefficient. Okay. So This one is a little bit... Remember, we only really introduced this at the end when we spoke about the hypothesis tests that you can do, but the correlation coefficient is useful for getting your r squared. So...
+
+[19:48]
+And it's one of the things we can get on our calculator. So finding the correlation coefficient, you're looking for r on your calculator. So it's going to be downshift four downshift swap. And then this will give you r equal to... So I'll just do that again.
+
+[20:22]
+Downshift four, downshift swap, and then that is 0.7621. So that tells us about the correlation between x and y. However, the better measure to interpret for how well our model is doing is the coefficient of determination. So this is not directly available from the calculator, but it is your r squared quantity. So you literally take your correlation that you can get from the calculator and you square it.
+
+[21:05]
+And that will give us 0.58079641. The interpretation of the r squared quantity is also something we're almost sure to ask. And, again, the language here, I'm emphasizing the whole time the specific way I want you to give the interpretation because I feel like these are easy marks for you to get, just knowing the right interpretation. There's no trick to it. We tell you exactly how we want you to interpret it, and we give marks for doing that interpretation.
+
+[21:55]
+And we are quite strict in how we mark the interpretation because we've told you exactly what we want. Anything that deviates from that suggests that you don't understand what we've been talking about. And anything that deviates from that is potentially very incorrect if you think about the assumptions of, the linear model. So for the interpretation, it's, you are welcome to take that and change it into a percentage for the interpretation. So 58 o 8% of the variation in y, your dependent variable, is explained by the variation in x through the estimated linear model.
+
+[23:07]
+In my books, that's a full Marx interpretation. A lot of people, if they... I can tell they haven't studied the interpretation because they'll try and just explain to me what the formula for the r squared is. So they'll say it's the explained variance over the total variance. It's not incorrect, but it's not the interpretation of the r squared.
+
+[23:47]
+I actually think that the linear regression chapter is some of the easiest marks you can get in the whole a two. So definitely don't put it low on your list of priorities. I think it's if you if you know this chapter well, I think there's... We're very straightforward in how we ask these questions. So I want you guys to be able to get the marks for this section.
+
+[24:20]
+The other thing that we could do or if we've given you the small dataset where you have to use a hand calculator, the other thing that we often like to ask is the following. So the instruction might be, predict the value of y for the point x equal to a 700 and calculate its residual. So that might be the instruction. So we can actually use our HP calculator to predict a new point. So the one option that you can...
+
+[25:40]
+You don't necessarily have to use the calculator. All that you would need to do is sub in x of a 700 in your formula, but I... It might bring some rounding differences just because of the, fact that you've rounded it in your formula. So using the calculator, we enter a 700, and then we say downshift five. So look at what is the first function there contained at button number five.
+
+[26:27]
+So it's y hat. So it's going to give you the predicted value of y for a given value of x. So I put in a 700, and then I say downshift five. And then it provides me with predicted value equal to two eight four point eight five three. And my calculator, it has a little scratch on the screen there, but it's 58535.
+
+[27:02]
+Then calculating the residual, I accidentally chose the controversial one because it comes back to the fact that the data has x y pairs. And now for the residual, remember, the residual e I is equal to the actual y I minus y hat I. So I thought there was only one x of a 700 in the data, but there's actually two x's of a 700. So do we go and do we take the first one where it's, for that x value of a 700, the true y value is equal to two seven nine. So at that point, x equal to a 700, we've got actual y value of two seven nine minus the predicted point, which is two eight four point eight five three five.
+
+[28:28]
+So that's minus 5.8535. Or do we go... We take the other one of two five five minus two eight four point eight five three five, which would give us minus 29.8535. Neither one is incorrect. They are both valid residuals.
+
+[28:59]
+It's just, I guess, unlucky that we got a dataset here, and I happen to choose the x value for this example that, happens to have two x y pairs in the original dataset. It's very unlikely that we would give you a question that would result in this confusion. We'd probably make sure that each x value only appears once in the data. But on the rare occasion that it happens, just report both. It's fine.
+
+[29:30]
+So just provide both. If it's multiple choice, calculate both and then choose the one that corresponds to the options available. Does that make sense? Okay. So remember that we see this as the discrepancy between what y says the data is or what the data says y is, sorry, versus what the model is predicting.
+
+[30:00]
+So in both cases, my model is predicting a slightly higher value than what y actually is. So y is slightly over predicting, but that is... We will always pay the price of having discrepancies between our data and our model unless our model happens to be perfectly... Or unless our data happens to be perfectly linear without any noise, which is not likely to happen. Okay.
+
+[30:33]
+So I think that is pretty much the extent of what you could do with the calculator. So finding the slope and intercept, you could find your r squared via the correlation, and then you could predict a new point. There's another function. I think it's on button number four for x hat, which is technically still in the context of regression. You would input a y value and then calculate the predicted x value.
+
+[31:06]
+I don't think that that is something we focus on in this module because why would we be interested in predicting x for a given y? We're actually interested in predicting y for a given x. The only thing I can think of where it might come into play is they might say, if we... Maybe if it's forecasting sales or something, what if we want a sales figure of this? What should our input x be?
+
+[31:37]
+But I do have a problem with that because it involves extrapolating beyond the range of your data, and we've said that that is not something that we want to do because we don't know that the function remains linear beyond the range of our data. So I don't think that's necessary for us to look at, but you can just know that it is something you can do on the calculator. I will... There's this little document. It's actually in the manual for this calculator that reiterates everything that we've spoken about.
+
+[32:09]
+It also mentions the forecasting, but now you know the little part about the forecasting, the little warning about the forecasting, which I will upload to my page on SunLearn. And then there is one more thing that I also want to discuss as kind of a last bit of housekeeping before we are genuinely done with this chapter. So the one thing to just make you aware of is that everything we did now on the calculator is possible using the formulas. My recommendation to you, however, unless... I mean, you have to have your HP calculator with you for the exam anyway because we ask for the t values and the zed values.
+
+[32:55]
+So you might as well just learn how to do it on the calculator. I think that it saves you time, and it's more likely to be correct because with this method, you have to do a lot of additional calculations just to get to the sum of something that's squared and so on and so on. There's lots of room for errors to creep in. This... All the times I've marked, usually, when I get to a paper where a student has tried to use the formula, it it ends up being wrong.
+
+[33:27]
+I'm not saying it will be wrong, but I'm just saying the chance of making a mistake is higher. If that is what... If if you do want to follow this method, you can let me know if you want me to do a worked example using this method. I'm happy to do that, but I'm not going to do that unless asked. Okay?
+
+[33:49]
+So, it's up to you to ask me. Then, something I neglected to mention the previous time is with this f test for the slope. So as you can see in our null and alternative hypothesis, it says, null hypothesis slope for the population is equal to zero. Alternative hypothesis slope for the population is not equal to zero. So this is a...
+
+[34:48]
+This indicates that there is no linear relationship, And this indicates that there is a linear relationship. So I've... Since we started hypothesis tests, I have always told you that if you see the not equal sign, that suggests two tail. And what do we do when it's two tailed? We divide alpha by two.
+
+[35:30]
+But if you look here on the slides, at no point did they actually end up dividing alpha by two. They still used alpha as it was given in the question. They didn't divide it by two. This appears like a contradiction because we learned... When we first learned of the f test in chapter 10, we learned that there's a two tail version and an upper tail version.
+
+[35:54]
+The one divides alpha by two. This is the one exception. So even though it suggests two tail, do not divide alpha by two. It's different from chapter 10. It's it's an exception for this specific test, the f test for the slope.
+
+[36:24]
+So your rejection region will be found with the full alpha, not dividing it by two. Okay. The reason why... It's a long reason. It's a complicated reason.
+
+[36:46]
+The best way I can think of to explain it to you is that even though it suggests that we're doing a test on the slope, we're not actually testing the slope directly. We're testing the variance that is created in our regression. So we're testing the MSR, which is a measure of variance, divided by the MSE, which is a measure of variance, and we're taking the ratio of that variance. We are invoking the distribution of that ratio. We're not actually invoking the distribution of beta one.
+
+[37:22]
+It's completely different from the t test where we actually directly use the distribution of beta one. Then you have your two tailed as normal. But for this f test, the statement suggested by the hypothesis... We are testing that hypothesis, but we're not testing it via the direct root of beta one. We're testing it via the indirect root of the ratio of variances.
+
+[37:47]
+That's the plain English explanation I can give you. You don't need to know the explanation. You just need to remember not to divide alpha by two. Again, with this, if you want the very complicated reason, you are also welcome to email me, but just know that it it will have no bearing on what you need to know for the exam. Okay.
+
+[38:13]
+So I know this has been definitely a strange new chapter, kind of slightly departing from all the hypothesis tests and confidence intervals that we've been doing. But at the end of it, do you feel alright with it? With the... Do you feel on track with the work? So we have about three weeks left of classes.
+
+[38:40]
+How the next few weeks is gonna go, We're gonna finish up chapter 14. It's a relatively short chapter. And then I'm going to try to do as much revision as I possibly can for all the chapters covered this semester. Your h two will cover all the chapters this semester. Alright.
+
+[39:00]
+That's it then for me today. Hope you guys have a wonderful weekend. Just wanted to ask you. I haven't looked yet, but have you uploaded the recordings? I'm always behind.
+
+[39:21]
+It's okay. No. It's fine. If you can just before the weekend, because I I need to catch up, but that's okay. Thank you.
+
+[39:26]
+Need to... I think I should upload practical in today and maybe Wednesday as well. I'm not sure. But Okay. I will do Okay.
+
+[39:34]
+Perfect. Thanks. No. It's okay. Thank you.
+
+[40:07]
+Okay. So you have to... Did you do... You have basically have to capture all of your... So over here.
+
+[40:16]
+So I just... I I just go dot dot dot to show... You're gonna do See. Yeah. Yeah.
+
+[40:20]
+So you're gonna have to do that for every data point, which is why it's not working because you can't do a regression with one. So where is that data here? See. So you're literally... It's gonna...
+
+[40:31]
+You're... Yeah. Exactly. You're gonna go 1,400, two forty five, and then 1,600. And then it'll it'll display 10 once you've done all 10 x y pairs, and then you can...
+
+[40:44]
+That's really interesting. We should roll that 06:00. Yeah. Alright. 06:00.
+
+[40:52]
+Blue's out of the cafe, SaaS function. Do the same thing. They get the same odds using that function as well. Mhmm. We allow to use Yeah.
+
+[41:01]
+That's fine. As long as... Yes. Take your HP with it because I think with the t and the z values, don't that the b ones have that. Yeah.
+
+[41:08]
+Yeah. Okay. As long as you're comfortable and you know what you're doing, then that's fine. Awesome. Thank you,.

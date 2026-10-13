@@ -1,0 +1,44 @@
+{
+  "patch_scope": "bounded admin/exam-execution patch only; no existing statistics question/answer content intentionally altered",
+  "confirmed_logistics_added": [
+    "one blank rough-work sheet provided",
+    "Excel encouraged for all calculations",
+    "Tutorial 9 Q1,2,3,4,7,8,10,14,15 priority"
+  ],
+  "permission_boundary": "automated workbook classified as training/rehearsal unless real A1S2 explicitly permits pre-built personal workbook",
+  "workbook": {
+    "filename": "SDS188_A1S2_2026_AUTOMATED_EXCEL_TRAINING_COMPANION_FINAL.xlsx",
+    "bytes": 70056,
+    "sha256": "83862c28444d150e09301e4ae3498f4a5956a27085303e6beb3a00910913deb3"
+  },
+  "htmls": [
+    {
+      "source": "SDS188_A1S2_2026_MasterLearningSystem_FINAL.html",
+      "source_bytes": 985866,
+      "source_sha256": "cbeff839116f38860a0a12ffbfd097da1b8401c71dbdddc514f792370088b6c4",
+      "output": "SDS188_A1S2_2026_MasterLearningSystem_EXAM_SYSTEM_FINAL.html",
+      "output_bytes": 1064844,
+      "output_sha256": "371237f7248a6e483096b191cf83415beddac088576626bf33aa5ea30f81ce20",
+      "embedded_workbook_name": "SDS188_A1S2_2026_AUTOMATED_EXCEL_TRAINING_COMPANION_FINAL.xlsx",
+      "embedded_workbook_b64_chars": 93408
+    },
+    {
+      "source": "SDS188_A1S2_2026_MasterLearningSystem_PRESENTATION_ONLY_GREYSCALE.html",
+      "source_bytes": 993197,
+      "source_sha256": "a6b42e13f6afa32058c28809ec979c62db8a7efb833d6f6ea2f7afdf5f44006d",
+      "output": "SDS188_A1S2_2026_MasterLearningSystem_PRESENTATION_ONLY_GREYSCALE_EXAM_SYSTEM_FINAL.html",
+      "output_bytes": 1072175,
+      "output_sha256": "2934eefb1fd16abf82145970c813f087550a0cdc11cd17642f6ccde64475c3f5",
+      "embedded_workbook_name": "SDS188_A1S2_2026_AUTOMATED_EXCEL_TRAINING_COMPANION_FINAL.xlsx",
+      "embedded_workbook_b64_chars": 93408
+    }
+  ],
+  "verification": {
+    "html_script_syntax": "PASS: all 12 script blocks in each HTML passed node --check",
+    "required_patch_markers": "PASS in both HTMLs",
+    "embedded_workbook_identity": "PASS: embedded XLSX bytes match standalone training workbook",
+    "spreadsheet_formula_error_scan": "PASS: 0 matches for #REF!, #DIV/0!, #VALUE!, #NAME?, #N/A, #NUM! in artifact-tool scan",
+    "xlsx_zip_integrity": "PASS",
+    "headless_browser_runtime": "NOT COMPLETED: Chromium dump-dom timed out in this container; no full browser-runtime pass is claimed."
+  }
+}

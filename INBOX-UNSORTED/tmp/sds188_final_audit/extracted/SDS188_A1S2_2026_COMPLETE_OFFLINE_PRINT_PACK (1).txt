@@ -1,0 +1,2684 @@
+P1: SDS188 A1S2 2026
+P2: COMPLETE OFFLINE PRINT PACK
+P3: Chapters 6-8 + Chapter 9 Slides 1-51 only
+P4: Assessment: Saturday 29 August 2026 | Closed book | Invigilated | EMSLearn + Excel competency
+P5: Built from the exact signed-off FINAL HTML (SHA-256 cbeff839...b6c4) plus the latest lecturer scope update.
+P7: START HERE - CURRENT A1S2 SCOPE
+P9: A1S2 PRIORITY MAP - 24 TO 29 AUGUST
+P10: 1 - Chapter 8 AF preparation and completion: Deadline: Friday 28 Aug, 17:30. One attempt, 60 minutes. Revise Ch8 method selection before opening the live AF and complete it independently.
+P11: 2 - Narrowed Chapter 9 Slides 1-51: Master Lessons 9.1-9.7: H0/H1, Type I/II, alpha/beta/basic power meaning, tails, known-sigma Z, p-values, CI cross-check, unknown-sigma t.
+P12: 3 - Official A1S2 Practice Test: Deadline: Friday 28 Aug, 23:59. Use it as the closest EMSLearn/Excel format rehearsal. Password in the announcement: maties.
+P13: 4 - Repair Excel execution errors: Rehearse the exact formula syntax on paper: COUNT, AVERAGE, STDEV.S, SQRT, ROUNDUP, NORM.*, T.* and bootstrap ordering logic.
+P14: 5 - Chapter 6 revision AF: Ungraded, unlimited attempts. Use a cold attempt as a diagnostic, then repair only what you miss.
+P15: 6 - Chapter 7 revision AF: Same diagnostic strategy: attempt cold -> identify error -> repair -> reattempt.
+P16: 7 - Mixed closed-book retrieval: Use the lesson checks and Your Turn pages in this pack, manually respecting the Chapter 9 Slide-51 cutoff.
+P18: HOW TO STUDY FROM THIS PACK WITHOUT A COMPUTER
+P19: 1. Cover the explanation. Read only the lesson title + recognition cues and say aloud which method you would use.
+P20: 2. Read the explanation and formula/decision object. Then close the page with a sheet of paper and reconstruct it from memory.
+P21: 3. Rehearse the Excel route by writing the function exactly as you would type it. You are learning the decision + syntax even when no computer is open.
+P22: 4. Work the Worked Example line by line, then cover it and reproduce the route independently.
+P23: 5. Answer the Knowledge Check and Your Turn item without looking at the answer key.
+P24: 6. Use the Answer Key at the back. If wrong, label the error: recognition / object / distribution / tail / formula / arithmetic / interpretation / Excel syntax.
+P25: 7. Return to the nearest competing method and say the contrast aloud. Then retry the question later.
+P26: CONTENTS - PRINT NAVIGATION
+P27: Official 2026 formula sheet
+P28: Master method-selection maps + Excel function quick reference
+P29: Chapter 6 - 10 full Guided Learn lessons
+P30: Chapter 7 - 13 full Guided Learn lessons
+P31: Chapter 8 - 13 full Guided Learn lessons (C8.69-C8.75 HOLD excluded)
+P32: Official Student-t table
+P33: Chapter 9 - 7 in-scope Guided Learn lessons (Slides 1-51 only)
+P34: Consolidated answer key for lesson checks and Your Turn items
+P35: Final traps + pre-assessment checklist + scratch pages
+P37: OFFICIAL 2026 A1S2 FORMULA SHEET
+P38: This is the supplied 2026 one-page formula sheet. Learn what it gives you - and what it does not give you.
+P41: MASTER METHOD-SELECTION MAP
+P43: EXCEL FUNCTION QUICK REFERENCE - REHEARSE ON PAPER
+P45: CHAPTER 6
+P46: Continuous Distributions
+P47: Offline tracker: [ ] 6.1  [ ] 6.2  [ ] 6.3  [ ] 6.4  [ ] 6.5  [ ] 6.6  [ ] 6.7  [ ] 6.8  [ ] 6.9  [ ] 6.10
+P49: CHAPTER 6 | LESSON 6.1 | OFFLINE GUIDED LEARN
+P50: 6.1 - Continuous Probability Foundations
+P51: Explanation
+P52: A discrete variable jumps between countable outcomes. A continuous variable can take any real value in an interval, so measurements such as time, length, height and volume are continuous.
+P53: For a continuous distribution the vertical axis is density f(x), not probability. Probability is the area under the density curve over an interval. The full area is 1.
+P54: A single point has zero width, so it has zero area. Therefore P(X=c)=0. That is also why P(X<c)=P(X≤c) for continuous X.
+P55: Worked example - Why < and ≤ give the same continuous probability
+P56: 1. Suppose we want P(X≤5).
+P57: 2. Split it as P(X<5)+P(X=5).
+P58: 3. For continuous X, P(X=5)=0.
+P59: 4. Therefore P(X≤5)=P(X<5).
+P60: Result: Including or excluding one boundary point does not change a continuous probability.
+P61: Verify: If your reasoning depends on a positive probability at exactly one continuous value, stop and repair that idea.
+P62: Sources: 2026 Chapter 6 slides §§ continuous foundations | Chapter 6 lecturer transcript: discrete vs continuous / probability as area | Semester 1 Final Boss hub used only as a checked explanation/layout donor
+P63: WORKSPACE / RETRIEVAL NOTES
+P64: __________________________________________________________________________________________________
+P65: __________________________________________________________________________________________________
+P66: __________________________________________________________________________________________________
+P68: CHAPTER 6 | LESSON 6.2 | OFFLINE GUIDED LEARN
+P69: 6.2 - Normal Distribution
+P70: Explanation
+P71: The normal distribution is continuous, symmetric and bell-shaped. Its centre is μ. In a perfectly normal model, mean = median = mode.
+P72: In X~N(μ,σ²), the second parameter is variance. If you are given σ², take its square root before using the z-score formula.
+P73: Changing μ shifts the curve left or right without changing its basic shape. Increasing σ spreads the same total area over a wider range, so the curve becomes wider and flatter.
+P74: Any normal X can be translated to the standard normal Z~N(0,1) with z=(x-μ)/σ. A z-score tells you how many standard deviations x lies above or below μ.
+P75: Worked example - Standardise a value
+P76: 1. Given X~N(100,50²) and x=200.
+P77: 2. Identify μ=100 and σ=50.
+P78: 3. Compute z=(200-100)/50.
+P79: 4. z=2.
+P80: Result: x=200 is 2 standard deviations above the mean.
+P81: Verify: A value above μ must produce a positive z-score; below μ must produce a negative one.
+P82: Sources: 2026 Chapter 6 slides pp. 1-2 | 2023/departmental Chapter 6 slides: normal shape and standardisation | Chapter 6 lecturer transcript
+P83: WORKSPACE / RETRIEVAL NOTES
+P84: __________________________________________________________________________________________________
+P85: __________________________________________________________________________________________________
+P86: __________________________________________________________________________________________________
+P88: CHAPTER 6 | LESSON 6.3 | OFFLINE GUIDED LEARN
+P89: 6.3 - Normal Regions & Forward Probability
+P90: Explanation
+P91: Do not begin with calculator buttons. First draw or identify the region in X-units. The wording determines the region.
+P92: Below / less than means the left cumulative area. Above / greater than means a right tail, so use 1-left area. Between means upper left-area minus lower left-area.
+P93: Then standardise any X boundary using z=(x-μ)/σ. The course Excel routes are NORM.DIST(x,μ,σ,TRUE) for X directly and NORM.S.DIST(z,TRUE) for Z.
+P94: Worked example - Official download-time example: P(X<18.6)
+P95: 1. Given X~N(18,5²). We want the area left of 18.6.
+P96: 2. Standardise: z=(18.6-18)/5=0.12.
+P97: 3. Find Φ(0.12)=0.5478.
+P98: 4. Interpret: about 54.78% of download times are below 18.6 seconds.
+P99: Result: P(X<18.6)=0.5478.
+P100: Verify: 18.6 is slightly above the mean, so a left-tail probability slightly above 0.5 is sensible.
+P101: Sources: 2026 Chapter 6 notes §1.3 | Chapter 6 lecturer transcript download-time example | Tutorial 6 + solutions Q1-Q5 | Chapter 6 Excel shortcuts
+P102: WORKSPACE / RETRIEVAL NOTES
+P103: __________________________________________________________________________________________________
+P104: __________________________________________________________________________________________________
+P105: __________________________________________________________________________________________________
+P107: CHAPTER 6 | LESSON 6.4 | OFFLINE GUIDED LEARN
+P108: 6.4 - Inverse Normal & Percentiles
+P109: Explanation
+P110: Forward normal problems give x and ask for probability. Inverse normal problems give probability or percentile and ask for x.
+P111: The inverse tool expects cumulative area to the left. If the wording gives a right-tail percentage, convert it first. Example: top 10% means 10% to the right, so 90% to the left.
+P112: Find z from the cumulative-left probability, then return to original units with x=μ+zσ. Excel can do this directly with NORM.INV(prob,μ,σ), or use NORM.S.INV(prob) then back-transform.
+P113: Worked example - 20th percentile of N(18,5²)
+P114: 1. We need x with P(X<x)=0.20.
+P115: 2. Inverse standard normal gives z≈-0.8416.
+P116: 3. Back-transform: x=18+(-0.8416)(5).
+P117: 4. x≈13.792 seconds.
+P118: Result: The 20th percentile is about 13.8 seconds.
+P119: Verify: A 20th percentile must lie below the mean, so a negative z and x<18 are sensible.
+P120: Sources: 2026 Chapter 6 notes §1.3.2 | Percentiles from normal distribution worked sheet | Tutorial 6 + solutions Q2-Q5 | Chapter 6 Excel shortcuts
+P121: WORKSPACE / RETRIEVAL NOTES
+P122: __________________________________________________________________________________________________
+P123: __________________________________________________________________________________________________
+P124: __________________________________________________________________________________________________
+P126: CHAPTER 6 | LESSON 6.5 | OFFLINE GUIDED LEARN
+P127: 6.5 - Evaluation of Normality
+P128: Explanation
+P129: Real data are rarely perfectly normal. The task is usually to decide whether a normal approximation is reasonable.
+P130: Numerical evidence includes mean, median and mode for symmetry and the empirical 68-95-99.7 rule. Mean greater than median suggests right skew; mean less than median suggests left skew.
+P131: Graphical evidence includes histograms, frequency polygons, stem-and-leaf displays, boxplots and the normal probability plot. A normal probability plot should be approximately linear.
+P132: The strongest conclusion uses several indicators together. A bell-shaped histogram alone does not prove normality, and mean≈median alone does not prove normality.
+P133: Worked example - Small-sample empirical-rule evidence
+P134: 1. A worked example has n=15.
+P135: 2. Observed within 1s: 73% versus theoretical 68%.
+P136: 3. Observed within 2s: 100% versus theoretical 95%.
+P137: 4. Observed within 3s: 100% versus theoretical 99.7%.
+P138: 5. For a small sample, these are treated as reasonably close; combine this with symmetry and plot evidence before concluding.
+P139: Result: The example is classified as approximately normal based on the collective evidence.
+P140: Verify: Do not write "normal because 73%≈68%". Your conclusion should explicitly combine the available evidence.
+P141: Sources: 2026 Chapter 6 notes §§1.4, pp. 8-13 | Chapter 6 lecturer transcript normality discussion | Tutorial 6 Q18-Q20
+P142: WORKSPACE / RETRIEVAL NOTES
+P143: __________________________________________________________________________________________________
+P144: __________________________________________________________________________________________________
+P145: __________________________________________________________________________________________________
+P147: CHAPTER 6 | LESSON 6.6 | OFFLINE GUIDED LEARN
+P148: 6.6 - Excel Normality Laboratory
+P149: Explanation
+P150: The normal probability plot is built from ordered observed values and the theoretical standard-normal quantiles they should correspond to if the data were normal.
+P151: The course workflow is: sort X ascending → create index j → calculate αj=j/(n+1) → convert αj to Z with NORM.S.INV → scatterplot Z on the x-axis and ordered X on the y-axis → judge linearity.
+P152: This is a separate evidence channel from statistical understanding. Knowing the Excel clicks is not the same as knowing why a straight line supports normality.
+P153: Worked example - Supplied commuting-time workbook (n=15)
+P154: 1. For j=1: α=1/16=0.0625.
+P155: 2. NORM.S.INV(0.0625)≈-1.5341.
+P156: 3. The first ordered X is 24.6. Plot the point (Z,X)=(-1.5341,24.6).
+P157: 4. Repeat through j=15, ending at α=15/16=0.9375 and Z≈1.5341.
+P158: 5. Use a scatterplot and assess whether the cloud follows an approximately straight line.
+P159: Result: The plot is a theoretical-quantile check: approximate linearity supports normality.
+P160: Verify: Axes matter: Z belongs on x, ordered X on y in the official workflow.
+P161: Sources: 2026 Chapter 6 notes §1.4 step 3 | Supplied Chapter 6 Excel examples (Solutions).xlsx · Normal plot sheet | T06-data.xlsx · Steel / Utility / Wait | Chapter 6 lecturer transcript normal-plot workflow
+P162: WORKSPACE / RETRIEVAL NOTES
+P163: __________________________________________________________________________________________________
+P164: __________________________________________________________________________________________________
+P165: __________________________________________________________________________________________________
+P167: CHAPTER 6 | LESSON 6.7 | OFFLINE GUIDED LEARN
+P168: 6.7 - Uniform Distribution
+P169: Explanation
+P170: A uniform distribution is continuous and rectangular. Every equal-width interval inside [a,b] has the same probability because the density height is constant.
+P171: The height is f(x)=1/(b-a). The height itself is not a probability; probability is rectangle area = width×height.
+P172: For c<d inside [a,b], P(c<X<d)=(d-c)/(b-a). The mean is (a+b)/2 and the standard deviation is sqrt((b-a)^2/12).
+P173: Worked example - Tutorial 6 Q8: Uniform(0,10), P(5<X<7)
+P174: 1. Identify a=0, b=10.
+P175: 2. Total width is 10. Target interval width is 7-5=2.
+P176: 3. Probability=2/10=0.20.
+P177: 4. Equivalent area method: height=1/10=0.1, area=2×0.1=0.20.
+P178: Result: P(5<X<7)=0.20.
+P179: Verify: The interval uses 20% of the total horizontal width, so 0.20 is visually sensible.
+P180: Sources: 2026 Chapter 6 notes §§2.1-2.1.5 | Uniform probabilities worked sheet | Tutorial 6 + solutions Q8-Q9 | Chapter 6 lecturer transcript uniform explanation
+P181: WORKSPACE / RETRIEVAL NOTES
+P182: __________________________________________________________________________________________________
+P183: __________________________________________________________________________________________________
+P184: __________________________________________________________________________________________________
+P186: CHAPTER 6 | LESSON 6.8 | OFFLINE GUIDED LEARN
+P187: 6.8 - Exponential Distribution
+P188: Explanation
+P189: The exponential distribution models continuous waiting time between events. It is right-skewed and starts at 0.
+P190: λ is a rate per unit time or opportunity, not the waiting time itself. Mean waiting time is 1/λ and variance is 1/λ².
+P191: Use P(X≤x)=1-e^(-λx) for a left tail and P(X≥x)=e^(-λx) for a right tail. For between events subtract two cumulative left areas.
+P192: Poisson and exponential share the same rate context: Poisson counts how many events occur in a fixed interval; exponential measures the time until/between events.
+P193: Before calculating, λ and x must use the same time unit.
+P194: Worked example - Toll plaza: 50 cars/min, next car within 3 seconds
+P195: 1. Random object: waiting time, so use exponential.
+P196: 2. λ=50 per minute. Convert 3 seconds to 0.05 minute.
+P197: 3. P(X≤0.05)=1-e^(-50×0.05).
+P198: 4. =1-e^(-2.5)≈0.9179.
+P199: Result: Probability ≈0.9179.
+P200: Verify: With 50 arrivals per minute, a very short wait is quite likely, so a large probability makes sense.
+P201: Sources: 2026 Chapter 6 notes §§3.1-3.1.5 | Exponential probabilities worked sheet | Tutorial 6 + solutions Q10-Q13 | Chapter 6 lecturer transcript toll-plaza example
+P202: WORKSPACE / RETRIEVAL NOTES
+P203: __________________________________________________________________________________________________
+P204: __________________________________________________________________________________________________
+P205: __________________________________________________________________________________________________
+P207: CHAPTER 6 | LESSON 6.9 | OFFLINE GUIDED LEARN
+P208: 6.9 - Inverse Exponential
+P209: Explanation
+P210: Inverse exponential asks for time x rather than probability. Start from the exponential probability equation and solve for x using natural logarithms.
+P211: If P(X≤x)=α, then 1-e^(-λx)=α, so e^(-λx)=1-α and x=-ln(1-α)/λ.
+P212: If the question gives a right-tail probability q=P(X>x), it is even quicker: e^(-λx)=q, so x=-ln(q)/λ.
+P213: This is not NORM.INV. Exponential is asymmetric and uses ln, not z-scores.
+P214: Worked example - 80th percentile when λ=2 per week
+P215: 1. Set P(X<x)=0.80.
+P216: 2. 1-e^(-2x)=0.80, so e^(-2x)=0.20.
+P217: 3. Take ln: -2x=ln(0.20).
+P218: 4. x=-ln(0.20)/2≈0.8047 weeks.
+P219: Result: P80≈0.8047 weeks.
+P220: Verify: An 80th percentile is a positive waiting time. Substituting it back should give cumulative probability near 0.80.
+P221: Sources: Chapter 6 lecturer transcript inverse-exponential extension | Exponential probabilities worked sheet | 2026 Chapter 6 content architecture
+P222: WORKSPACE / RETRIEVAL NOTES
+P223: __________________________________________________________________________________________________
+P224: __________________________________________________________________________________________________
+P225: __________________________________________________________________________________________________
+P227: CHAPTER 6 | LESSON 6.10 | OFFLINE GUIDED LEARN
+P228: 6.10 - Normal Approximation to the Binomial
+P229: Explanation
+P230: The binomial distribution is discrete, but for sufficiently large expected success and failure counts its shape can be approximated by a normal curve.
+P231: Current Chapter 6 conditions are nπ>5 and n(1-π)>5. If either fails, do not use this approximation.
+P232: The approximating normal model has μ=nπ and σ=sqrt(nπ(1-π)).
+P233: Because the binomial lives on integer points while the normal curve is continuous, we use a ±0.5 continuity correction to preserve the area around each integer.
+P234: Exact x becomes x-0.5<Xa<x+0.5. X≤x becomes Xa<x+0.5. X≥x becomes Xa>x-0.5. Strict inequalities first need translation to the adjacent inclusive integer event.
+P235: Worked example - Tutorial 6 Q14: n=100, π=0.20, approximate P(X=25)
+P236: 1. Check: nπ=20>5 and n(1-π)=80>5.
+P237: 2. Approximate model: μ=20, σ=sqrt(16)=4.
+P238: 3. Continuity correction: P(X=25)≈P(24.5<Xa<25.5).
+P239: 4. zL=(24.5-20)/4=1.125≈1.13; zU=(25.5-20)/4=1.375≈1.38.
+P240: 5. Probability≈Φ(1.38)-Φ(1.13)=0.9162-0.8708=0.0454.
+P241: Result: P(X=25)≈0.0454.
+P242: Verify: Without the ±0.5 slice, a continuous model would assign zero probability to exactly 25.
+P243: Sources: 2026 Chapter 6 notes §§1.5, pp. 14-16 | Normal approximation handwritten example | Tutorial 6 + solutions Q14-Q17 | Chapter 6 lecturer transcript overbooking / continuity-correction explanation
+P244: WORKSPACE / RETRIEVAL NOTES
+P245: __________________________________________________________________________________________________
+P246: __________________________________________________________________________________________________
+P247: __________________________________________________________________________________________________
+P249: CHAPTER 7
+P250: Sampling Distributions
+P251: Offline tracker: [ ] 7.1  [ ] 7.2  [ ] 7.3  [ ] 7.4  [ ] 7.5  [ ] 7.6  [ ] 7.7  [ ] 7.8  [ ] 7.9  [ ] 7.10  [ ] 7.11  [ ] 7.12  [ ] 7.13
+P253: CHAPTER 7 | LESSON 7.1 | OFFLINE GUIDED LEARN
+P254: 7.1 - Population → Sample → Statistic → Sampling Distribution
+P255: Recognise it
+P256: The question asks what a sampling distribution is.
+P257: The question contrasts a population, one sample, one statistic and repeated possible statistics.
+P258: The wording asks why two random samples can produce different means or proportions.
+P259: Explanation
+P260: A population is the full collection of units. A sample is one subset drawn from it. A parameter such as μ, σ or π belongs to the population; a statistic such as X̄ or p is calculated from a sample.
+P261: Different random samples usually contain different observations, so the statistic changes from sample to sample. The sampling distribution describes that variability mathematically.
+P262: The Chapter 7 objective is not merely to calculate one sample statistic; it is to reason about the distribution of the statistic before the sample is observed.
+P263: Excel route - rehearse the syntax on paper
+P264: 1. Excel can calculate a realised sample statistic, but it does not decide what the random object is for you.
+P265: 2. Before typing a function, name the statistic whose repeated values form the sampling distribution.
+P266: Worked example - Chapter 7 GPA thought experiment
+P267: 1. Imagine repeatedly selecting 50 students from the same college.
+P268: 2. Each sample produces a possibly different sample mean GPA.
+P269: 3. Collect the possible sample means rather than the 50 raw GPAs from one sample.
+P270: 4. The distribution of those possible means is the sampling distribution of X̄.
+P271: Result: The random object is X̄, and the sampling distribution is the probability model for its possible values.
+P272: Verify: Do not call one realised set of 50 GPAs a sampling distribution.
+P273: Sources: Chapter 7 slides pp. 2-4 | Chapter 7 standalone manual: Start Here / mental model
+P274: WORKSPACE / RETRIEVAL NOTES
+P275: __________________________________________________________________________________________________
+P276: __________________________________________________________________________________________________
+P277: __________________________________________________________________________________________________
+P279: CHAPTER 7 | LESSON 7.2 | OFFLINE GUIDED LEARN
+P280: 7.2 - Exact Sampling Distributions & Unbiasedness
+P281: Recognise it
+P282: A tiny finite population is listed explicitly.
+P283: The task says "all possible samples" or asks you to construct the sampling distribution exactly.
+P284: The question asks why the sample mean is unbiased.
+P285: Explanation
+P286: The source builds a toy population 18,20,22,24 and lists every ordered sample of size 2 with replacement. Each possible sample has its own X̄.
+P287: An exact sampling distribution combines repeated statistic values with their probabilities. Its mean is the expected value of the statistic.
+P288: When E(X̄)=μ, X̄ is an unbiased estimator of μ. Unbiased does not mean every sample mean equals μ.
+P289: Excel route - rehearse the syntax on paper
+P290: 1. For a small enumeration, Excel can list sample combinations and use AVERAGE for each sample, but the key idea is the complete set of possible statistic values.
+P291: 2. For Tutorial 7 Q4, sampling is without replacement, so use combinations rather than duplicating ordered draws as if replacement were allowed.
+P292: Worked example - Source toy population 18,20,22,24
+P293: 1. Population mean μ=(18+20+22+24)/4=21.
+P294: 2. With replacement and n=2 there are 4²=16 ordered samples.
+P295: 3. Their sample means range from 18 to 24 and are no longer uniformly distributed.
+P296: 4. The mean of the 16 sample means is 21.
+P297: Result: μ_X̄=21=μ, so X̄ is unbiased for μ.
+P298: Verify: The sampling distribution can have a different shape and smaller spread than the population while keeping the same centre.
+P299: Sources: Chapter 7 slides pp. 5-10 | Tutorial 7 Q4 and Q10
+P300: WORKSPACE / RETRIEVAL NOTES
+P301: __________________________________________________________________________________________________
+P302: __________________________________________________________________________________________________
+P303: __________________________________________________________________________________________________
+P305: CHAPTER 7 | LESSON 7.3 | OFFLINE GUIDED LEARN
+P306: 7.3 - Standard Error & Why Larger n Narrows the Distribution
+P307: Recognise it
+P308: The question compares variability of sample means from different n.
+P309: The question asks for the standard error of X̄.
+P310: The question asks why increasing sample size makes estimates more stable.
+P311: Explanation
+P312: Different samples produce different X̄ values. The standard error measures the spread of those possible means.
+P313: For the ordinary sample-mean model (sampling with replacement, or without replacement from an effectively infinite population), σ_X̄=σ/√n. The square root matters: quadrupling n halves the standard error. If sampling is without replacement from a finite population, the FPC in Lesson 7.12 can reduce this spread further.
+P314: Increasing n does not shift the centre μ_X̄=μ. It narrows the distribution around the same target.
+P315: Excel route - rehearse the syntax on paper
+P316: 1. In Excel use =sigma/SQRT(n) when population σ is known.
+P317: 2. Do not use =sigma/n. SQRT(n) is the entire reason the gain from sample size has diminishing returns.
+P318: Worked example - Tutorial 7 Q4 comparison
+P319: 1. For the population 1,3,6,7,9,10, all without-replacement n=2 sample means have mean 6.
+P320: 2. Their exact sampling-distribution SD is 2.0000.
+P321: 3. For all without-replacement n=3 sample means, the centre is still 6.
+P322: 4. Their exact sampling-distribution SD is about 1.4142.
+P323: Result: The n=3 sampling distribution has less variability while retaining centre 6.
+P324: Verify: This exact Tutorial 7 Q4 enumeration is without replacement from N=6, so its SDs (2.0000 and 1.4142) already reflect finite-population reduction; they should not be mistaken for the ordinary σ/√n values. The key comparison is still that n=3 varies less than n=2.
+P325: Sources: Chapter 7 slides pp. 9-11 and 15 | Tutorial 7 Q4(c) and Q11
+P326: WORKSPACE / RETRIEVAL NOTES
+P327: __________________________________________________________________________________________________
+P328: __________________________________________________________________________________________________
+P329: __________________________________________________________________________________________________
+P331: CHAPTER 7 | LESSON 7.4 | OFFLINE GUIDED LEARN
+P332: 7.4 - One Observation X versus Sample Mean X̄
+P333: Recognise it
+P334: The wording says one person/item/time/mark versus the average of n observations.
+P335: A variance may be given and must first be converted to σ.
+P336: The task asks you to interpret a probability about X̄ in context.
+P337: Explanation
+P338: For one observation X from a normal population, use centre μ and spread σ.
+P339: For a sample mean X̄, use centre μ and spread σ/√n. This distinction is one of the most important Chapter 7 exam traps.
+P340: If variance is supplied, convert it to standard deviation before using either model: σ=√variance.
+P341: Excel route - rehearse the syntax on paper
+P342: 1. One normal observation: =NORM.DIST(x,mu,sigma,TRUE).
+P343: 2. Sample mean: =NORM.DIST(xbar,mu,sigma/SQRT(n),TRUE).
+P344: Worked example - Tutorial 7 Q2 - one mark versus class average
+P345: 1. Marks are normal with μ=78 and variance 36, so σ=6.
+P346: 2. Part (a) asks for one student mark below 75: z=(75-78)/6=-0.5, probability≈0.3085.
+P347: 3. Part (b) asks for the mean of n=50 students below 75: SE=6/√50≈0.8485.
+P348: 4. z=(75-78)/0.8485≈-3.5355, probability≈0.0002.
+P349: Result: The same boundary 75 has radically different probability because X and X̄ have different spreads.
+P350: Verify: The population did not change; the random object changed.
+P351: Sources: Chapter 7 slides pp. 11-13 | Tutorial 7 Q2 | Chapter 7 formula sheet
+P352: WORKSPACE / RETRIEVAL NOTES
+P353: __________________________________________________________________________________________________
+P354: __________________________________________________________________________________________________
+P355: __________________________________________________________________________________________________
+P357: CHAPTER 7 | LESSON 7.5 | OFFLINE GUIDED LEARN
+P358: 7.5 - Sample-Mean Probabilities with Known σ: Left, Between & Right
+P359: Recognise it
+P360: A normal population or justified normal sampling model is available.
+P361: The random object is X̄ and population σ is known.
+P362: The task asks below, between or above a stated sample-mean boundary.
+P363: Explanation
+P364: For a normal population, the sampling distribution of X̄ is exactly normal for every valid n, with centre μ and SE σ/√n.
+P365: Standardise the sample-mean boundary using the SE, not σ.
+P366: Excel cumulative functions return left area. "Above" therefore requires a complement unless you use an equivalent direct route.
+P367: Excel route - rehearse the syntax on paper
+P368: 1. Direct left: =NORM.DIST(xbar,mu,sigma/SQRT(n),TRUE).
+P369: 2. Right: =1-NORM.DIST(xbar,mu,sigma/SQRT(n),TRUE). Between: upper cumulative minus lower cumulative.
+P370: Worked example - Tutorial 7 Q1(a-c)
+P371: 1. μ=100, σ=10, n=25, so SE=10/5=2.
+P372: 2. (a) P(X̄<95): z=-2.5, probability≈0.0062.
+P373: 3. (b) P(95<X̄<97.5): zL=-2.5, zU=-1.25, probability≈0.0994.
+P374: 4. (c) P(X̄>102.2): z=1.1, probability≈0.1357.
+P375: Result: Left≈0.0062; between≈0.0994; right≈0.1357.
+P376: Verify: Every part uses the same centre and SE; only the region changes.
+P377: Sources: Chapter 7 slides pp. 12-18 | Tutorial 7 Q1(a-c)
+P378: WORKSPACE / RETRIEVAL NOTES
+P379: __________________________________________________________________________________________________
+P380: __________________________________________________________________________________________________
+P381: __________________________________________________________________________________________________
+P383: CHAPTER 7 | LESSON 7.6 | OFFLINE GUIDED LEARN
+P384: 7.6 - Inverse Sample-Mean Boundaries & Central Symmetric Limits
+P385: Recognise it
+P386: The probability is given but the sample-mean cutoff is unknown.
+P387: The wording says "there is a 65% chance X̄ is above what value?"
+P388: The task asks for limits containing a fixed central percentage of sample means.
+P389: Explanation
+P390: Inverse problems reverse the ordinary workflow: probability → z → original X̄ scale.
+P391: For P(X̄>x)=0.65, the area to the left of x is 0.35, so use z=Φ⁻¹(0.35), not Φ⁻¹(0.65).
+P392: For a central C interval, split α=1-C equally between the two tails and transform both z boundaries back with μ+z·SE.
+P393: Excel route - rehearse the syntax on paper
+P394: 1. Right-tail inverse boundary: =NORM.INV(left_area,mu,sigma/SQRT(n)).
+P395: 2. Central limits: =mu ± NORM.S.INV((1+C)/2)*sigma/SQRT(n).
+P396: Worked example - Tutorial 7 Q1(d)
+P397: 1. μ=100, σ=10, n=25, so SE=2.
+P398: 2. P(X̄>x)=0.65 means P(X̄≤x)=0.35.
+P399: 3. z=Φ⁻¹(0.35)≈-0.3853.
+P400: 4. x=100+(-0.3853)(2)≈99.2294.
+P401: Result: There is a 65% chance that X̄ is above approximately 99.2294.
+P402: Verify: Using 0.65 as the left area would put the boundary above μ and reverse the requested region.
+P403: Sources: Chapter 7 slides pp. 16-18 | Tutorial 7 Q1(d)
+P404: WORKSPACE / RETRIEVAL NOTES
+P405: __________________________________________________________________________________________________
+P406: __________________________________________________________________________________________________
+P407: __________________________________________________________________________________________________
+P409: CHAPTER 7 | LESSON 7.7 | OFFLINE GUIDED LEARN
+P410: 7.7 - Central Limit Theorem: What Becomes Normal & When
+P411: Recognise it
+P412: The population is not stated to be normal or is explicitly skewed/exponential.
+P413: The task asks about an average of many observations.
+P414: You must decide whether the sampling distribution of X̄ is approximately normal.
+P415: Explanation
+P416: The CLT concerns the sampling distribution of X̄. It does not transform the original population or individual observations into normal variables.
+P417: The course guideline says normal population → exact normal X̄ for any valid n; fairly symmetric populations may be adequate around n>15; most distributions around n>30. These are course rules of thumb, not magical theorem cutoffs.
+P418: Under the CLT, the sampling distribution remains centred at μ with SE σ/√n. Only the approximate shape changes toward normal.
+P419: Excel route - rehearse the syntax on paper
+P420: 1. Once the CLT justifies the normal sampling model, use =NORM.DIST(xbar,mu,sigma/SQRT(n),TRUE) for cumulative-left sample-mean probabilities.
+P421: 2. Do not use an exponential CDF on the sample mean merely because each individual observation is exponential.
+P422: Worked example - Chapter 7 restaurant waiting-time example
+P423: 1. Individual wait times have μ=8 min and σ=3 min; their population shape need not be normal.
+P424: 2. n=36, so the course CLT guideline supports an approximately normal X̄ distribution.
+P425: 3. SE=3/√36=0.5.
+P426: 4. P(7.8<X̄<8.2): zL=-0.4, zU=0.4.
+P427: 5. Φ(0.4)-Φ(-0.4)=0.6554-0.3446=0.3108.
+P428: Result: Approximately 0.3108 of samples of 36 have mean wait between 7.8 and 8.2 minutes.
+P429: Verify: The statement is about sample means, not individual waiting times.
+P430: Sources: Chapter 7 slides pp. 19-24 | Tutorial 7 Q3(b) | Chapter 7 standalone manual CLT section
+P431: WORKSPACE / RETRIEVAL NOTES
+P432: __________________________________________________________________________________________________
+P433: __________________________________________________________________________________________________
+P434: __________________________________________________________________________________________________
+P436: CHAPTER 7 | LESSON 7.8 | OFFLINE GUIDED LEARN
+P437: 7.8 - Sample Mean with σ Unknown: Student t
+P438: Recognise it
+P439: The random object is X̄.
+P440: Population σ is explicitly unknown while sample standard deviation s is supplied or computed.
+P441: The task asks for a probability and the current source directs you to Student t / T.DIST.
+P442: Explanation
+P443: The signed-off current Chapter 7 source map verifies a Student-t route in §2.6: replace unknown σ with sample s, standardise with T=(X̄-μ)/(s/√n), and use df=n-1.
+P444: The t distribution accounts for the extra uncertainty created by estimating σ with s.
+P445: This route is different from the known-σ Z model even if n is supplied. The method fork is driven by σ status, not by a reflexive "large n means Z" shortcut.
+P446: Excel route - rehearse the syntax on paper
+P447: 1. Compute tcalc from the sample mean and sample s.
+P448: 2. Use =T.DIST(tcalc,df,TRUE) for cumulative-left probability under the current §2.6 route; use appropriate complements/differences for other regions.
+P449: Worked example - 2026 A1S2 practice-test trap
+P450: 1. The practice test describes a normally distributed population but says population σ is unknown.
+P451: 2. n=25 and sample s=4, so df=24 and SE=4/√25=0.8.
+P452: 3. For 18.5<X̄<19.5 around μ=19, t limits are -0.625 and +0.625.
+P453: 4. The Student-t probability is approximately 0.4621.
+P454: 5. The Z route gives about 0.4680, which appears as a distractor.
+P455: Result: Use Student t; the correct practice-test option is approximately 0.4621, not the Z distractor 0.4680.
+P456: Verify: This is direct evidence that distribution selection matters in the A1S2 style.
+P457: Sources: Current signed-off Chapter 7 source map: SDS Chapter 7 NOTES.pdf §2.6 | 2026 A1S2 Practice Test Q8 | A1S2 2026 formula sheet inference rows
+P458: WORKSPACE / RETRIEVAL NOTES
+P459: __________________________________________________________________________________________________
+P460: __________________________________________________________________________________________________
+P461: __________________________________________________________________________________________________
+P463: CHAPTER 7 | LESSON 7.9 | OFFLINE GUIDED LEARN
+P464: 7.9 - Sample Proportion: p, π, Conditions & Standard Error
+P465: Recognise it
+P466: The data classify observations as success/failure or yes/no.
+P467: The question asks about a sample percentage/proportion.
+P468: Known π is supplied for a sampling probability, or observed p is used when an estimated SE is specifically requested.
+P469: Explanation
+P470: p=X/n is the sample proportion; π is the fixed population proportion. The sampling distribution of p is centred at π.
+P471: The Chapter 7 deck uses the approximate-normal conditions nπ≥5 and n(1-π)≥5; the current master applies the stricter current wording >5 where explicitly patched. Preserve the current system rule when practising in this master.
+P472: For a theoretical sampling probability with known π, SE=√[π(1-π)/n]. When an estimated SE is requested and π is unknown, use √[p(1-p)/n].
+P473: Excel route - rehearse the syntax on paper
+P474: 1. Sample p = successes/n.
+P475: 2. Theoretical SE: =SQRT(pi*(1-pi)/n). Estimated SE: =SQRT(p*(1-p)/n) only in the appropriate estimation context.
+P476: Worked example - Tutorial 7 Q5
+P477: 1. n=64 and successes X=48, so p=48/64=0.75.
+P478: 2. The population proportion is known: π=0.70.
+P479: 3. Theoretical SE=√[0.70(0.30)/64]≈0.05728.
+P480: 4. The sample p need not equal π; it varies from sample to sample.
+P481: Result: p=0.75 and theoretical SE≈0.0573.
+P482: Verify: Do not substitute p=.75 into the theoretical SE when the probability model gives π=.70.
+P483: Sources: Chapter 7 slides pp. 25-28 | Tutorial 7 Q5-Q6 | Current master proportion-condition patch
+P484: WORKSPACE / RETRIEVAL NOTES
+P485: __________________________________________________________________________________________________
+P486: __________________________________________________________________________________________________
+P487: __________________________________________________________________________________________________
+P489: CHAPTER 7 | LESSON 7.10 | OFFLINE GUIDED LEARN
+P490: 7.10 - Proportion Probabilities, Between Regions & Inverse Bounds
+P491: Recognise it
+P492: Known π and n are supplied and the question asks about a sample percentage.
+P493: The event is above/below/between p boundaries.
+P494: The probability is given and the task asks for symmetric limits around π.
+P495: Explanation
+P496: Once the approximation conditions pass, standardise p using z=(p-π)/SE with SE based on known π.
+P497: Between probabilities require two standardised boundaries and subtraction of cumulative areas.
+P498: For central C bounds, use z*=Φ⁻¹((1+C)/2) and π±z*SE. Increasing n reduces SE and therefore narrows the distribution/bounds.
+P499: Excel route - rehearse the syntax on paper
+P500: 1. Left p probability: =NORM.DIST(p_boundary,pi,SQRT(pi*(1-pi)/n),TRUE).
+P501: 2. Between = upper cumulative - lower cumulative; central bounds = pi ± NORM.S.INV((1+C)/2)*SE.
+P502: Worked example - Chapter 7 deck example
+P503: 1. π=0.40, n=200.
+P504: 2. SE=√[.4(.6)/200]≈0.03464.
+P505: 3. P(.40≤p≤.45): zL=0, zU≈1.44.
+P506: 4. Using the source's rounded z=1.44 and cumulative table gives 0.9251-0.5000=0.4251. Using full precision in Excel (z≈1.44338) gives ≈0.4255; the difference is rounding route, not a different model.
+P507: Result: Source table route: P(.40≤p≤.45)≈0.4251 after rounding z to 1.44. Full-precision Excel route: ≈0.4255.
+P508: Verify: The object is p, not the underlying binomial count X. In Excel keep full precision rather than forcing the table-rounded 0.4251.
+P509: Sources: Chapter 7 slides pp. 26-31 | Tutorial 7 Q7-Q9 | Chapter 7 formula sheet
+P510: WORKSPACE / RETRIEVAL NOTES
+P511: __________________________________________________________________________________________________
+P512: __________________________________________________________________________________________________
+P513: __________________________________________________________________________________________________
+P515: CHAPTER 7 | LESSON 7.11 | OFFLINE GUIDED LEARN
+P516: 7.11 - Difference Between Two Independent Sample Means
+P517: Recognise it
+P518: Two independent populations/groups are compared using sample averages.
+P519: Population means, population SDs and sample sizes are supplied.
+P520: The wording says group 1 exceeds group 2, or exceeds it by more than c.
+P521: Explanation
+P522: For the sourced known-σ independent case, the difference is centred at μ₁-μ₂. It is not automatically centred at zero.
+P523: Independent mean variances add: SE=√(σ₁²/n₁+σ₂²/n₂). Do not add the standard deviations directly.
+P524: Fix the order first. "Group 1 exceeds group 2" means X̄₁-X̄₂>0; "by more than 25" means X̄₁-X̄₂>25.
+P525: Excel route - rehearse the syntax on paper
+P526: 1. Compute SE with =SQRT(sigma1^2/n1 + sigma2^2/n2).
+P527: 2. For a boundary c, use =1-NORM.DIST(c,mu1-mu2,SE,TRUE) for P(X̄₁-X̄₂>c).
+P528: Worked example - Source MBA starting-salary example
+P529: 1. US: μ₁=620000, σ₁=145000, n₁=50; UCT: μ₂=600000, σ₂=183000, n₂=60.
+P530: 2. Centre μdiff=20000.
+P531: 3. SE=√(145000²/50+183000²/60)≈31283.3822.
+P532: 4. Event US sample mean exceeds UCT: X̄₁-X̄₂>0.
+P533: 5. z=(0-20000)/31283.3822≈-0.6393; right-tail≈0.7387.
+P534: Result: P(X̄US>X̄UCT)≈0.7387.
+P535: Verify: The centre is +20000 because the order is US-UCT.
+P536: Sources: Chapter 7 slides pp. 32-38 | Tutorial 7 Q12-Q13 | A1S2 formula sheet two-independent-means row
+P537: WORKSPACE / RETRIEVAL NOTES
+P538: __________________________________________________________________________________________________
+P539: __________________________________________________________________________________________________
+P540: __________________________________________________________________________________________________
+P542: CHAPTER 7 | LESSON 7.12 | OFFLINE GUIDED LEARN
+P543: 7.12 - Finite Population Correction: Without-Replacement Bridge
+P544: Recognise it
+P545: A finite population size N is supplied.
+P546: Sampling is explicitly without replacement.
+P547: The sampling fraction n/N exceeds 5% under the course rule.
+P548: Explanation
+P549: The Chapter 7 deck includes an online finite-population section: when sampling without replacement and n/N>0.05, multiply the usual SE by FPC=√[(N-n)/(N-1)].
+P550: FPC reduces the spread because sampling a substantial part of a finite population leaves less uncertainty. It does not move the centre.
+P551: The canonical master still marks C7.52-C7.58 PROVISIONAL as a scope safeguard. This Guided Learn lesson teaches the sourced bridge without silently promoting those mastery skills.
+P552: Excel route - rehearse the syntax on paper
+P553: 1. =SQRT((N-n)/(N-1)) computes the correction factor.
+P554: 2. Multiply the ordinary mean/proportion SE by that factor before standardising.
+P555: Worked example - Tutorial 7 Q14
+P556: 1. Population of Ping-Pong balls: μ=1.30, σ=0.04, N=200.
+P557: 2. n=16 without replacement, so n/N=0.08>0.05 and FPC applies.
+P558: 3. FPC=√(184/199)≈0.96157; SE=.04/4×FPC≈0.009616.
+P559: 4. P(1.31<X̄<1.33): zL≈1.03996, zU≈3.11989.
+P560: 5. Probability≈0.1483.
+P561: Result: P(1.31<X̄<1.33)≈0.1483 under the sourced FPC route.
+P562: Verify: Without FPC the spread would be slightly larger; the centre remains 1.30 either way.
+P563: Sources: Chapter 7 slides online finite-population section pp. 40-41 | Tutorial 7 Q14 | Chapter 8 finite-population source as downstream reinforcement
+P564: WORKSPACE / RETRIEVAL NOTES
+P565: __________________________________________________________________________________________________
+P566: __________________________________________________________________________________________________
+P567: __________________________________________________________________________________________________
+P569: CHAPTER 7 | LESSON 7.13 | OFFLINE GUIDED LEARN
+P570: 7.13 - Chapter 7 Synthesis: Object → Model → SE → Region → Excel
+P571: Recognise it
+P572: The question is deliberately unlabelled.
+P573: You must decide whether the object is X, X̄, p or X̄₁-X̄₂.
+P574: You must decide known σ versus unknown σ, CLT/normality, proportion conditions or independent-two-mean structure.
+P575: Explanation
+P576: Every Chapter 7 calculation becomes easier after you identify the random object. The object determines the centre and standard error.
+P577: For a sample mean, ask whether population σ is known. Known σ → normal/Z route. Unknown σ → Student t route in the current source. For p, check the approximation conditions. For two means, preserve group order and independence.
+P578: Then draw/translate the requested region, execute the Excel function if the A1S2 workflow calls for it, and interpret the result in terms of the statistic-not individual observations.
+P579: Excel route - rehearse the syntax on paper
+P580: 1. X̄ known σ: NORM.DIST / NORM.INV with σ/SQRT(n). X̄ unknown σ: T.DIST with tcalc and df.
+P581: 2. p: NORM.DIST with centre π and theoretical SE. Difference: NORM.DIST on the difference distribution.
+P582: Worked example - Four-way method fork
+P583: 1. One observation X → centre μ, spread σ.
+P584: 2. Sample mean X̄ with known σ → centre μ, SE σ/√n, Z/normal route.
+P585: 3. Sample mean X̄ with unknown σ and sample s → Student t, df=n-1.
+P586: 4. Sample proportion p → centre π, proportion SE and approximation conditions.
+P587: 5. Difference X̄₁-X̄₂ → centre μ₁-μ₂, combined-variance SE, preserved group order.
+P588: Result: The random object determines the model; Excel executes the selected route rather than selecting it for you.
+P589: Verify: If you cannot name the random object before calculating, return to Lesson 7.1/7.4.
+P590: Sources: Chapter 7 slides full chapter summary | Tutorial 7 Q1-Q14 | Current Student-t §2.6 source map | 2026 A1S2 practice-test execution evidence
+P591: WORKSPACE / RETRIEVAL NOTES
+P592: __________________________________________________________________________________________________
+P593: __________________________________________________________________________________________________
+P594: __________________________________________________________________________________________________
+P596: CHAPTER 8
+P597: Confidence Interval Estimation
+P598: Offline tracker: [ ] 8.1  [ ] 8.2  [ ] 8.3  [ ] 8.4  [ ] 8.5  [ ] 8.6  [ ] 8.7  [ ] 8.8  [ ] 8.9  [ ] 8.10  [ ] 8.11  [ ] 8.12  [ ] 8.13
+P600: CHAPTER 8 | LESSON 8.1 | OFFLINE GUIDED LEARN
+P601: 8.1 - Point Estimates, Interval Estimates & Good Estimators
+P602: Recognise it
+P603: The question asks what one sample statistic estimates.
+P604: The question contrasts a single estimate with a range.
+P605: The question asks which estimator is unbiased, consistent or relatively more efficient.
+P606: Explanation
+P607: A population parameter is an unknown population characteristic such as the mean μ or proportion π. A sample statistic such as X̄ or p is used to estimate it.
+P608: A point estimate is one number. A confidence interval adds information about precision by giving lower and upper confidence limits around a point estimate.
+P609: An unbiased estimator has expected value equal to the population parameter. A consistent estimator gets closer to the parameter as sample size increases. Among two unbiased estimators, the one with smaller variance is relatively more efficient.
+P610: Excel route - rehearse the syntax on paper
+P611: 1. No special Excel function is needed for these definitions. In workbook questions, identify the statistic you are calculating before building any formula.
+P612: 2. If raw values are supplied and the point estimate is a mean, AVERAGE(range) produces X̄; if the point estimate is a proportion, compute successes / n.
+P613: Worked example - Source estimation-process diagram
+P614: 1. The population mean μ is unknown.
+P615: 2. A random sample is drawn from the population.
+P616: 3. The sample mean X̄=50 is the point estimate of μ.
+P617: 4. An interval such as 40 to 60 adds a quantified range around the estimate.
+P618: Result: X̄ is the point estimator; the confidence interval is the interval estimate for μ.
+P619: Verify: Do not describe a confidence interval as an interval for individual observations.
+P620: Sources: Chapter 8 slides pp. 4-9, especially pp. 5-7 and p. 13 | Chapter 8 slide objectives/outline pp. 2-3
+P621: WORKSPACE / RETRIEVAL NOTES
+P622: __________________________________________________________________________________________________
+P623: __________________________________________________________________________________________________
+P624: __________________________________________________________________________________________________
+P626: CHAPTER 8 | LESSON 8.2 | OFFLINE GUIDED LEARN
+P627: 8.2 - Confidence Level, α, Margin of Error & Correct Interpretation
+P628: Recognise it
+P629: The question asks what "95% confidence" means.
+P630: The question asks for α or α/2 from a confidence level.
+P631: The question asks what widens or narrows an interval, or what the margin of error represents.
+P632: Explanation
+P633: The Chapter 8 source gives the general structure: point estimate ± (critical value)(standard error). The amount added and subtracted is the margin of error.
+P634: For a 95% confidence level, 1-α=0.95, so α=0.05 and α/2=0.025 in each tail for a two-sided interval.
+P635: The long-run interpretation is procedural: 95% of intervals constructed in this way would contain the unknown parameter. Once one particular interval has been calculated, the fixed parameter either lies in it or it does not.
+P636: Excel route - rehearse the syntax on paper
+P637: 1. Excel may calculate the critical value and standard error, but you must still identify the confidence coefficient, α and whether the interval is two-sided.
+P638: 2. For a 95% two-sided normal interval, the source uses zα/2=1.96.
+P639: Worked example - Cereal-fill confidence interpretation
+P640: 1. The source considers repeated samples of the same size.
+P641: 2. Each sample gives a different X̄ and therefore a different interval.
+P642: 3. Most intervals produced by the 95% procedure contain μ; some do not.
+P643: 4. In practice only one sample is observed, so we report that we are 95% confident that its interval contains μ.
+P644: Result: Confidence is a property of the repeated procedure used to construct the interval.
+P645: Verify: Never reinterpret a confidence interval as the range containing 95% of individual data values.
+P646: Sources: Chapter 8 slides pp. 8-21, especially pp. 14-20 | Tutorial 8 Q3 (confidence-interval interpretation)
+P647: WORKSPACE / RETRIEVAL NOTES
+P648: __________________________________________________________________________________________________
+P649: __________________________________________________________________________________________________
+P650: __________________________________________________________________________________________________
+P652: CHAPTER 8 | LESSON 8.3 | OFFLINE GUIDED LEARN
+P653: 8.3 - Confidence Interval for μ when Population σ is Known
+P654: Recognise it
+P655: The target parameter is the population mean μ.
+P656: The population standard deviation σ is explicitly known.
+P657: The population is normal, or the source rule permits a large sample when it is not normal.
+P658: Explanation
+P659: When σ is known, the source uses the standard normal critical value zα/2 and standard error σ/√n.
+P660: The source states the assumptions as: σ known; population normally distributed; if the population is not normal, use a large sample n>30.
+P661: Higher confidence uses a larger critical value and therefore a wider interval. Larger n reduces standard error and narrows the interval.
+P662: Excel route - rehearse the syntax on paper
+P663: 1. Build the standard error as =sigma/SQRT(n).
+P664: 2. For a two-sided confidence level stored as CL, obtain a positive critical value with =NORM.S.INV(1-(1-CL)/2) or use the equivalent source-style absolute value of NORM.S.INV((1-CL)/2).
+P665: 3. Lower = Xbar - z*SE; Upper = Xbar + z*SE.
+P666: Worked example - Tutorial 8 Q1: X̄=85, σ=8, n=64, 95% confidence
+P667: 1. Target: μ. Population σ is known, so select the Z interval.
+P668: 2. 95% confidence gives zα/2=1.96.
+P669: 3. SE=σ/√n=8/√64=1.
+P670: 4. Margin=1.96×1=1.96.
+P671: 5. Limits: 85-1.96=83.04 and 85+1.96=86.96.
+P672: Result: 95% CI: (83.04, 86.96).
+P673: Verify: The interval is centred at X̄=85 and is symmetric because the same margin is added and subtracted.
+P674: Sources: Chapter 8 slides pp. 17-24 | Tutorial 8 Q1, Q2 and Q4 | A1S2 2026 formula sheet: population mean, σ known inference row
+P675: WORKSPACE / RETRIEVAL NOTES
+P676: __________________________________________________________________________________________________
+P677: __________________________________________________________________________________________________
+P678: __________________________________________________________________________________________________
+P680: CHAPTER 8 | LESSON 8.4 | OFFLINE GUIDED LEARN
+P681: 8.4 - Student t Distribution, Degrees of Freedom & the Supplied t Table
+P682: Recognise it
+P683: Population σ is unknown and sample s is used instead.
+P684: A critical t value is requested from confidence level and n.
+P685: The question gives a t table and asks you to locate a row/column.
+P686: Explanation
+P687: Replacing unknown σ with sample s introduces extra uncertainty because s varies from sample to sample. The source therefore uses Student t.
+P688: Student t is a family of symmetric bell-shaped distributions with fatter tails than the standard normal. Its critical value depends on degrees of freedom, df=n-1.
+P689: The supplied table contains t values in the body. Choose the df row, then use the one-tail/two-tail probability heading that matches the confidence interval. As df grows, t approaches Z.
+P690: Excel route - rehearse the syntax on paper
+P691: 1. The Chapter 8 Excel example uses =T.INV.2T(1-confidence_level, df) to obtain the positive two-sided critical t value.
+P692: 2. For a 95% interval and n=100, df=99 and the source uses t≈1.9842.
+P693: Worked example - Tutorial 8 Q9(a): 95% confidence, n=10
+P694: 1. Compute df=n-1=9.
+P695: 2. 95% confidence gives α=.05 and α/2=.025.
+P696: 3. Go to df=9 in the supplied t table.
+P697: 4. Read the one-tail .025 / cumulative .975 column.
+P698: 5. The table gives t=2.262.
+P699: Result: t critical = 2.262.
+P700: Verify: The table body contains t values, not probabilities; the probability is selected from the heading.
+P701: Sources: Chapter 8 slides pp. 25-36, especially pp. 27-33 | Supplied t-table.pdf / SDS 188 CHAPTER 8 t-table.pdf | Tutorial 8 Q9
+P702: WORKSPACE / RETRIEVAL NOTES
+P703: __________________________________________________________________________________________________
+P704: __________________________________________________________________________________________________
+P705: __________________________________________________________________________________________________
+P707: CHAPTER 8 | LESSON 8.5 | OFFLINE GUIDED LEARN
+P708: 8.5 - Confidence Interval for μ when Population σ is Unknown
+P709: Recognise it
+P710: The target is μ.
+P711: Population σ is unknown; sample standard deviation s is supplied.
+P712: The source asks you to assume/check an approximately normal population for the t interval.
+P713: Explanation
+P714: Use the t interval X̄ ± tα/2(s/√n). The centre is still X̄, but the critical value comes from Student t with df=n-1.
+P715: The source says interpreting the interval requires an approximately normal population and suggests checking this with a normal probability plot or boxplot.
+P716: A confidence interval for μ estimates the population mean, not the range of individual observations. That is why an individual value may lie outside the CI without being unusual.
+P717: Excel route - rehearse the syntax on paper
+P718: 1. SE: =s/SQRT(n).
+P719: 2. df: =n-1.
+P720: 3. Critical t: =T.INV.2T(1-confidence_level,df).
+P721: 4. Half width = t*SE; lower = Xbar-halfwidth; upper = Xbar+halfwidth.
+P722: Worked example - Source travel-time example: n=100, X̄=110.27, s=28.95, 95% confidence
+P723: 1. σ is unknown, so use Student t.
+P724: 2. df=99; the source gives tα/2=1.9842.
+P725: 3. SE=28.95/√100=2.895.
+P726: 4. Margin=1.9842×2.895≈5.7443.
+P727: 5. Limits are approximately 104.53 and 116.01.
+P728: Result: 95% CI: 104.53 ≤ μ ≤ 116.01.
+P729: Verify: The interval is for μ. The source separately reminds you to assess approximate normality.
+P730: Sources: Chapter 8 slides pp. 27-36 | Tutorial 8 Q9-Q10 | Supplied t table | A1S2 2026 formula sheet: population mean, σ unknown inference row
+P731: WORKSPACE / RETRIEVAL NOTES
+P732: __________________________________________________________________________________________________
+P733: __________________________________________________________________________________________________
+P734: __________________________________________________________________________________________________
+P736: CHAPTER 8 | LESSON 8.6 | OFFLINE GUIDED LEARN
+P737: 8.6 - Confidence Interval for the Population Proportion π
+P738: Recognise it
+P739: The variable is binary/categorical and the target is a population proportion π.
+P740: You are given successes x and sample size n, or sample p and n.
+P741: The task is a confidence interval rather than a hypothesis test.
+P742: Explanation
+P743: Compute p=x/n. For interval estimation, the source estimates the standard error with √[p(1-p)/n].
+P744: The Chapter 8 slide states the large-sample condition as np>5 and n(1-p)>5.
+P745: The confidence interval is p ± zα/2√[p(1-p)/n]. Interpret the limits as plausible values for the population proportion π under the confidence procedure.
+P746: Excel route - rehearse the syntax on paper
+P747: 1. Sample proportion: =successes/n.
+P748: 2. Critical z: =NORM.S.INV(1-(1-confidence_level)/2).
+P749: 3. SE: =SQRT(p*(1-p)/n).
+P750: 4. Half width = z*SE; lower/upper = p ± half width.
+P751: Worked example - Source left-handed example: 25 of 100, 95% confidence
+P752: 1. p=25/100=.25.
+P753: 2. Check np=25>5 and n(1-p)=75>5.
+P754: 3. SE=√(.25×.75/100)=.0433.
+P755: 4. Margin=1.96×.0433≈.0849.
+P756: 5. Limits: .25-.0849=.1651 and .25+.0849=.3349.
+P757: Result: 95% CI for π: (0.1651, 0.3349).
+P758: Verify: The interval is for the population proportion, not for 95% of people.
+P759: Sources: Chapter 8 slides pp. 37-44 | Tutorial 8 Q8 | A1S2 Practice Test Q2 (proportion CI execution style)
+P760: WORKSPACE / RETRIEVAL NOTES
+P761: __________________________________________________________________________________________________
+P762: __________________________________________________________________________________________________
+P763: __________________________________________________________________________________________________
+P765: CHAPTER 8 | LESSON 8.7 | OFFLINE GUIDED LEARN
+P766: 8.7 - Required Sample Size for a Population Mean
+P767: Recognise it
+P768: The question asks "how large a sample" or "minimum required n".
+P769: The target is a population mean.
+P770: A margin of error e, confidence level and σ (or an estimate of σ) are supplied.
+P771: Explanation
+P772: The source defines margin of error e as the amount added and subtracted to the point estimate. Starting from e=zα/2σ/√n and solving for n gives n=z²σ²/e².
+P773: To determine n you need the confidence level, acceptable margin of error and σ. If σ is unknown, the source says use a conservative anticipated value or estimate σ from a pilot sample.
+P774: Required sample size is always rounded upward because rounding downward would fail to guarantee the requested precision.
+P775: Excel route - rehearse the syntax on paper
+P776: 1. Critical z from confidence level with NORM.S.INV.
+P777: 2. Calculated n can be built as =(z*sigma/e)^2.
+P778: 3. Required n: =ROUNDUP(calculated_n,0).
+P779: Worked example - Source download-time example: σ=25, e=5, 95% confidence
+P780: 1. 95% gives z=1.96.
+P781: 2. n=(1.96×25/5)².
+P782: 3. n=96.04.
+P783: 4. Round upward.
+P784: Result: Required n=97.
+P785: Verify: If you report 96, the requested maximum margin of error is no longer guaranteed.
+P786: Sources: Chapter 8 slides pp. 45-52 | Tutorial 8 Q5-Q6 | A1S2 2026 formula sheet sample-size formula for a mean
+P787: WORKSPACE / RETRIEVAL NOTES
+P788: __________________________________________________________________________________________________
+P789: __________________________________________________________________________________________________
+P790: __________________________________________________________________________________________________
+P792: CHAPTER 8 | LESSON 8.8 | OFFLINE GUIDED LEARN
+P793: 8.8 - Required Sample Size for a Population Proportion
+P794: Recognise it
+P795: The target is a population proportion.
+P796: The question asks for required/minimum n at a stated confidence and margin e.
+P797: A prior/pilot proportion may be supplied; if none is supplied, the course uses 0.5 conservatively.
+P798: Explanation
+P799: The source formula is n=z²π(1-π)/e². When π is unknown, a pilot estimate can be used.
+P800: If no prior estimate exists, the course uses π=.5 because .5(1-.5)=.25 is the largest possible Bernoulli variance term and therefore gives the conservative largest required sample size.
+P801: As with mean sample size, higher confidence or smaller margin of error requires a larger sample, and final n is rounded upward.
+P802: Excel route - rehearse the syntax on paper
+P803: 1. Use a pilot/prior proportion in the formula if the question supplies one.
+P804: 2. If none is supplied, enter 0.5.
+P805: 3. Required n: =ROUNDUP((z^2*p*(1-p))/e^2,0).
+P806: Worked example - A1S2 Practice Test Q5 style: 95% confidence, e=.06, no prior π
+P807: 1. No prior estimate is available, so use π=.5.
+P808: 2. 95% gives z=1.96.
+P809: 3. n=(1.96²×.5×.5)/.06².
+P810: 4. n≈266.7778.
+P811: 5. Round upward.
+P812: Result: Required n=267.
+P813: Verify: Do not round 266.7778 to the nearest whole number; required n uses upward rounding.
+P814: Sources: Chapter 8 slides pp. 53-57 | Tutorial 8 Q7-Q8 | A1S2 Practice Test Q5 | A1S2 2026 formula sheet sample-size formula for a proportion
+P815: WORKSPACE / RETRIEVAL NOTES
+P816: __________________________________________________________________________________________________
+P817: __________________________________________________________________________________________________
+P818: __________________________________________________________________________________________________
+P820: CHAPTER 8 | LESSON 8.9 | OFFLINE GUIDED LEARN
+P821: 8.9 - Finite Population Correction for Confidence Intervals
+P822: Recognise it
+P823: Sampling is without replacement from a finite population of size N.
+P824: The sampling fraction n/N must be checked.
+P825: The source uses the FPC when n/N>0.05; below 5% its practical effect is little or none.
+P826: Explanation
+P827: The finite-population source says use the correction factor when more than 5% of the population is sampled without replacement.
+P828: The factor √[(N-n)/(N-1)] multiplies the usual standard error. Because it is at most 1, it reduces the standard error and therefore narrows the confidence interval.
+P829: The same correction multiplies the mean standard error s/√n and the proportion standard error √[p(1-p)/n].
+P830: Excel route - rehearse the syntax on paper
+P831: 1. FPC: =SQRT((N-n)/(N-1)).
+P832: 2. Multiply the ordinary SE by the FPC before multiplying by the critical value.
+P833: 3. Do not apply the correction merely because N is given; first check sampling without replacement and n/N.
+P834: Worked example - Finite-population source Example 8.10: N=200, n=27, X̄=45.2222, s=23.1472, 95%
+P835: 1. Sampling is without replacement and n/N=27/200=.135>0.05, so FPC matters.
+P836: 2. df=26 and the source uses t=2.0555.
+P837: 3. FPC=√[(200-27)/(200-1)].
+P838: 4. Apply t×(s/√n)×FPC as the margin.
+P839: 5. The source obtains limits 36.6846 and 53.7598.
+P840: Result: 95% CI: (36.6846, 53.7598).
+P841: Verify: Because FPC<1, the interval is narrower than the corresponding no-FPC interval.
+P842: Sources: Chapter 8 slides pp. 59-63 | Dedicated finite-population extract §8.7 pp. 1-2 | Tutorial 8 Q11-Q12
+P843: WORKSPACE / RETRIEVAL NOTES
+P844: __________________________________________________________________________________________________
+P845: __________________________________________________________________________________________________
+P846: __________________________________________________________________________________________________
+P848: CHAPTER 8 | LESSON 8.10 | OFFLINE GUIDED LEARN
+P849: 8.10 - Finite-Population Sample Size Determination
+P850: Recognise it
+P851: The question asks for required sample size and gives finite N.
+P852: Sampling is without replacement.
+P853: You first use the ordinary mean/proportion sample-size formula to obtain n₀.
+P854: Explanation
+P855: The finite-population source tells you to calculate n₀ without FPC first, using the ordinary mean or proportion sample-size formula.
+P856: Then apply n=n₀N/[n₀+(N-1)]. The adjusted finite-population sample size is smaller than n₀ because sampling without replacement extracts more information from a finite population.
+P857: After the adjustment, round upward to the required whole sample size.
+P858: Excel route - rehearse the syntax on paper
+P859: 1. Calculate n0 first in its own cell.
+P860: 2. Finite adjustment: =(n0*N)/(n0+(N-1)).
+P861: 3. Final requirement: =ROUNDUP(adjusted_n,0).
+P862: Worked example - Source finite-population sample-size example: n₀=96.04, N=5000
+P863: 1. Start with the ordinary mean sample-size result n₀=96.04.
+P864: 2. Apply n=(96.04×5000)/(96.04+4999).
+P865: 3. Adjusted n≈94.24.
+P866: 4. Round upward.
+P867: Result: Required finite-population sample size = 95.
+P868: Verify: The adjustment reduces the sample requirement from 97 (unadjusted) to 95.
+P869: Sources: Chapter 8 slides p. 63 | Dedicated finite-population extract §8.7 pp. 2-3 | Tutorial 8 Q12 | A1S2 Practice Test Q6 | A1S2 2026 formula sheet finite-population sample-size formula
+P870: WORKSPACE / RETRIEVAL NOTES
+P871: __________________________________________________________________________________________________
+P872: __________________________________________________________________________________________________
+P873: __________________________________________________________________________________________________
+P875: CHAPTER 8 | LESSON 8.11 | OFFLINE GUIDED LEARN
+P876: 8.11 - Bootstrapping: Why, Resampling Logic & Percentile Confidence Limits
+P877: Recognise it
+P878: The population cannot reasonably be assumed normal.
+P879: You have an observed sample and can resample from it with replacement.
+P880: The task asks for a bootstrap confidence interval for a population mean.
+P881: Explanation
+P882: The supplied bootstrapping source says that when one cannot assume a normal population, bootstrap methods use repeated resampling with replacement from the initial sample and make no assumption about the underlying population distribution.
+P883: Select the original random sample without replacement from the population. Then each bootstrap resample selects n values with replacement from that observed sample, so values may repeat and others may be omitted.
+P884: Compute X̄ for each resample, repeat many times, order all resampled means, then cut off α/2 from each tail to obtain the lower and upper confidence limits.
+P885: Excel route - rehearse the syntax on paper
+P886: 1. Software is required because many resamples are used.
+P887: 2. Each resample mean can be calculated with AVERAGE(resample_range).
+P888: 3. After all means are calculated, order them or use SMALL/LARGE according to the course cutoff convention for that m and confidence level.
+P889: Worked example - Source 90% bootstrap example with 100 resample means
+P890: 1. The confidence level is 90%, so α=.10 and α/2=.05.
+P891: 2. There are 100 ordered resample means.
+P892: 3. .05×100=5, so the source uses the 5th smallest and 5th largest values.
+P893: 4. The 5th smallest is 36.6296 and the 5th largest is 51.5926.
+P894: Result: 90% bootstrap CI: (36.6296, 51.5926).
+P895: Verify: Do not use the minimum and maximum; the course removes α/2 from each tail.
+P896: Sources: Chapter 8 slides pp. 64-72 | Dedicated Bootstrapping §8.8 extract pp. 1-2 | A1S2 Practice Test Q1
+P897: WORKSPACE / RETRIEVAL NOTES
+P898: __________________________________________________________________________________________________
+P899: __________________________________________________________________________________________________
+P900: __________________________________________________________________________________________________
+P902: CHAPTER 8 | LESSON 8.12 | OFFLINE GUIDED LEARN
+P903: 8.12 - Bootstrap in Excel & the A1S2 Workbook Workflow
+P904: Recognise it
+P905: The EMSLearn question directs you to a named workbook sheet.
+P906: The original sample and an index/grid of resamples are already supplied.
+P907: You must calculate a statistic for each resample in Excel and then obtain the requested bootstrap limits.
+P908: Explanation
+P909: The 2026 practice test explicitly directs students to the Bootstrap worksheet of A1PTData.xlsx. It describes the original sample as drawn without replacement and an index of 250 resamples drawn from the original sample with replacement.
+P910: The course bootstrap source establishes the general method, but the supplied practice-test document does not state a unique 250-resample extraction-index rule. Therefore this lesson trains the supported workflow rather than inventing a specific index that is not stated in the supplied source.
+P911: Your execution sequence is: identify the original sample → build/read each with-replacement resample → calculate every resample mean → create/order the mean distribution → apply the course/in-question cutoff convention → enter the requested lower and upper limits in EMSLearn.
+P912: Excel route - rehearse the syntax on paper
+P913: 1. Use AVERAGE on each resample column/row to create the bootstrap mean for every resample.
+P914: 2. Use sorting or SMALL/LARGE when the required order-statistic positions are known from the course/in-question convention.
+P915: 3. The A1S2 practice-test answer-entry rule requires numerical answers to four decimals, with a full stop and no units/currency symbols.
+P916: Worked example - 2026 practice-test workflow (structure, not memorised answers)
+P917: 1. Open the named Bootstrap worksheet.
+P918: 2. Identify the original sample and the supplied with-replacement resample index/grid.
+P919: 3. Calculate one mean for every resample in Excel.
+P920: 4. Order the full set of resample means.
+P921: 5. Apply the confidence-tail cutoff convention supported by the course/question.
+P922: 6. Return to EMSLearn and enter the requested lower/upper values using the stated numerical format.
+P923: Result: The statistical object being ordered is the distribution of bootstrap sample means.
+P924: Verify: If you are sorting the raw original observations instead of the resample means, you are on the wrong object.
+P925: Sources: A1S2 2026 Practice Test Q1 and first-page answer-entry rules | Chapter 8 slides pp. 64-72 | Dedicated Bootstrapping §8.8 extract | Existing A1S2 Excel execution companion is a training analogue only, not an official source
+P926: WORKSPACE / RETRIEVAL NOTES
+P927: __________________________________________________________________________________________________
+P928: __________________________________________________________________________________________________
+P929: __________________________________________________________________________________________________
+P931: CHAPTER 8 | LESSON 8.13 | OFFLINE GUIDED LEARN
+P932: 8.13 - Responsible Confidence-Interval Reporting & Chapter Synthesis
+P933: Recognise it
+P934: The task asks you to report or interpret an estimate, not merely calculate two limits.
+P935: You need to state what belongs with a point estimate in a responsible report.
+P936: You need to choose among mean/proportion, known/unknown sigma, sample-size, finite-population and bootstrap routes.
+P937: Explanation
+P938: The Chapter 8 Ethical Issues slide says that when reporting a point estimate, a confidence interval reflecting sampling error should be included; the confidence level, sample size and an interpretation should also be reported.
+P939: A complete Chapter 8 solution therefore identifies the population parameter, gives the interval and confidence level, states n where relevant, and interprets the interval in context rather than reporting naked numbers.
+P940: For method selection, first identify the parameter and task. Mean CI: known population sigma gives Z; unknown sigma gives Student t. Proportion CI uses p and its estimated SE. Required-n questions use the corresponding sample-size formula and round up. Sampling without replacement from a finite population may require FPC. Non-normal settings may trigger the supplied bootstrap route.
+P941: Excel route - rehearse the syntax on paper
+P942: 1. Use Excel to execute the selected calculation, but do not let the worksheet replace method selection.
+P943: 2. Before submitting, verify the object, confidence level, rounding rule and whether the question asks for limits, margin, n or an interpretation.
+P944: 3. Say aloud: "A complete confidence-interval report gives the parameter in context, the interval, the confidence level, the sample size where relevant, and an interpretation. I choose the statistical route before I type an Excel formula."
+P945: Worked example - Complete report
+P946: 1. Suppose a 95% CI for a population mean is calculated as (83.04, 86.96) from n=64.
+P947: 2. Name the target: the population mean.
+P948: 3. State the confidence level: 95%.
+P949: 4. Include the sample size: n=64.
+P950: 5. Interpret in context: we are 95% confident that the population mean lies between 83.04 and 86.96 under this interval procedure.
+P951: Result: The calculation and the report are both complete.
+P952: Verify: Do not replace a contextual interpretation with naked numerical limits.
+P953: Sources: Chapter 8 slides p. 58 (Ethical Issues) | Chapter 8 summary p. 72 | Tutorial 8 interpretation/reporting questions
+P954: WORKSPACE / RETRIEVAL NOTES
+P955: __________________________________________________________________________________________________
+P956: __________________________________________________________________________________________________
+P957: __________________________________________________________________________________________________
+P959: OFFICIAL STUDENT-t TABLE
+P960: Use the exact supplied table when a paper/table critical value is required. In Excel, use the T.* functions shown in the relevant lessons.
+P963: CHAPTER 9
+P964: Hypothesis Testing - Slides 1-51 Only
+P965: Offline tracker: [ ] 9.1  [ ] 9.2  [ ] 9.3  [ ] 9.4  [ ] 9.5  [ ] 9.6  [ ] 9.7
+P966: STOP AFTER 9.7 FOR A1S2 CHAPTER 9 STUDY
+P968: CHAPTER 9 | LESSON 9.1 | OFFLINE GUIDED LEARN
+P969: 9.1 - Hypothesis Foundations
+P970: Explanation
+P971: A hypothesis is a claim about a population parameter such as the population mean μ or population proportion π. The sample statistic is evidence; it is not what H0 is written about.
+P972: H0 represents the claim/status quo to be validated and carries equality in the SDS188 treatment. H1 is mutually exclusive and challenges H0.
+P973: Testing begins by assuming H0 is true - the slides use the "innocent until proven guilty" analogy - and then asks whether the sample evidence is sufficiently inconsistent with that assumption.
+P974: The source explicitly warns that H0 is never accepted. Your statistical decision is "reject H0" or "do not reject H0".
+P975: Worked example - Turn a claim into hypotheses
+P976: 1. Claim: the population mean fill is 500 ml.
+P977: 2. Parameter is μ, not X̄.
+P978: 3. Write H0: μ=500.
+P979: 4. If the research question asks whether the mean differs, write H1: μ≠500.
+P980: 5. Begin analysis under the assumption H0 is true.
+P981: Result: H0: μ=500; H1: μ≠500.
+P982: Verify: Both statements concern μ and are mutually exclusive.
+P983: Sources: Official Chapter 9 deck pp. 4-10 | SDS Tutorial 9 Q1-3
+P984: WORKSPACE / RETRIEVAL NOTES
+P985: __________________________________________________________________________________________________
+P986: __________________________________________________________________________________________________
+P987: __________________________________________________________________________________________________
+P989: CHAPTER 9 | LESSON 9.2 | OFFLINE GUIDED LEARN
+P990: 9.2 - Decision Risk: α, β & Power
+P991: Explanation
+P992: Type I error means rejecting H0 when H0 is true. Its probability is α, the significance level.
+P993: Type II error means not rejecting H0 when H0 is false. Its probability is β. Power is 1-β: the probability of rejecting a false H0.
+P994: The confidence coefficient is 1-α. Type I and Type II errors cannot occur in the same test outcome because H0 cannot simultaneously be true and false.
+P995: For fixed n, reducing α makes rejection harder and β increases. Power rises when the true parameter is farther from the null value or n increases; larger variance makes detection harder and increases β.
+P996: Worked example - Why distance from μ0 changes power
+P997: 1. Suppose H0: μ=100.
+P998: 2. A true μ=90 is 10 units from the null.
+P999: 3. A true μ=75 is 25 units from the null.
+P1000: 4. The farther alternative creates more separation between the sampling distributions.
+P1001: 5. Therefore β is smaller and power larger at μ=75 than at μ=90.
+P1002: Result: Closer alternatives are harder to detect; farther alternatives have higher power.
+P1003: Verify: This is exactly the logic behind Tutorial 9 Q3.
+P1004: Sources: Official Chapter 9 deck: Type I/II error and power sections | SDS Tutorial 9 Q1-3, Q21-22
+P1005: WORKSPACE / RETRIEVAL NOTES
+P1006: __________________________________________________________________________________________________
+P1007: __________________________________________________________________________________________________
+P1008: __________________________________________________________________________________________________
+P1010: CHAPTER 9 | LESSON 9.3 | OFFLINE GUIDED LEARN
+P1011: 9.3 - Tails, α & Rejection Regions
+P1012: Explanation
+P1013: The direction is determined by H1, not by the sign of the sample result.
+P1014: H1: parameter≠value gives a two-tail test. H1: parameter<value gives a lower-tail test. H1: parameter>value gives an upper-tail test.
+P1015: For a two-tail test, divide α equally: α/2 in each tail. For a one-tail test, place the full α in the one rejection tail.
+P1016: Always sketch or state the rejection region before calculating the test statistic.
+P1017: Worked example - Tutorial 9 Q4 critical region
+P1018: 1. Two-tail test and α=.10.
+P1019: 2. Split α: .05 per tail.
+P1020: 3. The standard-normal cutoffs are approximately ±1.645.
+P1021: 4. Reject H0 if Z<-1.645 or Z>1.645.
+P1022: Result: Rejection region: Z<-1.645 or Z>1.645.
+P1023: Verify: The middle non-rejection area is 0.90.
+P1024: Sources: Official Chapter 9 deck: one-tail versus two-tail slides | SDS Tutorial 9 Q4-6
+P1025: WORKSPACE / RETRIEVAL NOTES
+P1026: __________________________________________________________________________________________________
+P1027: __________________________________________________________________________________________________
+P1028: __________________________________________________________________________________________________
+P1030: CHAPTER 9 | LESSON 9.4 | OFFLINE GUIDED LEARN
+P1031: 9.4 - Mean Test - σ Known: Z Critical-Value
+P1032: Explanation
+P1033: When the question tests a population mean μ and the population standard deviation σ is known, the Chapter 9 route is a Z test.
+P1034: Under H0, the sample mean is compared with μ0 using its standard error σ/√n. The test statistic is Z=(X̄-μ0)/(σ/√n).
+P1035: The critical value(s) come from α and the tail already chosen from H1. If Zcalc lands in the rejection region, reject H0; otherwise do not reject H0.
+P1036: Finish with a sentence about the population claim - not just "reject".
+P1037: Worked example - Tutorial 9 paint cans
+P1038: 1. H0: μ=3.75; H1: μ≠3.75; α=.01.
+P1039: 2. σ=.08, n=50, X̄=3.73.
+P1040: 3. SE=.08/√50≈.011314.
+P1041: 4. Z=(3.73-3.75)/.011314≈-1.768.
+P1042: 5. Two-tail α=.01 gives critical values about ±2.576.
+P1043: 6. -1.768 is not in either rejection tail.
+P1044: Result: Do not reject H0 at the 1% significance level.
+P1045: Verify: The test statistic is not extreme enough for the strict .01 two-tail rejection region.
+P1046: Sources: Official Chapter 9 deck: Z-test critical-value workflow | SDS Tutorial 9 Q10-11
+P1047: WORKSPACE / RETRIEVAL NOTES
+P1048: __________________________________________________________________________________________________
+P1049: __________________________________________________________________________________________________
+P1050: __________________________________________________________________________________________________
+P1052: CHAPTER 9 | LESSON 9.5 | OFFLINE GUIDED LEARN
+P1053: 9.5 - Z Test - p-Value + Excel
+P1054: Explanation
+P1055: The deck defines the p-value as the probability, assuming H0 is true, of obtaining a test statistic equal to or more extreme than the observed one.
+P1056: Decision rule: if p<α, reject H0; if p≥α, do not reject H0.
+P1057: Two-tail Z p-values use both tails. The source Excel formula is (1-NORM.S.DIST(ABS(Zcalc),TRUE))*2. A directed one-tail p-value uses only the tail specified by H1.
+P1058: A p-value is not the probability that H0 is true. It is calculated under the assumption that H0 is true.
+P1059: Worked example - Tutorial 9 Q7
+P1060: 1. Two-tail test with Z=2.00.
+P1061: 2. One upper tail beyond 2.00 is about .02275.
+P1062: 3. Two-tail p≈2(.02275)=.0455.
+P1063: 4. Compare .0455 with α=.05.
+P1064: 5. .0455<.05, so reject H0.
+P1065: Result: p≈.0455; reject H0 at α=.05.
+P1066: Verify: Two-tail means count equally extreme results in both directions.
+P1067: Sources: Official Chapter 9 deck: p-value definition and Excel Z workflow | SDS Tutorial 9 Q7-10
+P1068: WORKSPACE / RETRIEVAL NOTES
+P1069: __________________________________________________________________________________________________
+P1070: __________________________________________________________________________________________________
+P1071: __________________________________________________________________________________________________
+P1073: CHAPTER 9 | LESSON 9.6 | OFFLINE GUIDED LEARN
+P1074: 9.6 - Two-Tail Z Test ↔ Confidence Interval
+P1075: Explanation
+P1076: The Chapter 9 deck explicitly links a two-tail hypothesis test with the confidence interval built at confidence level 1-α.
+P1077: If the hypothesised μ0 lies outside that interval, the two-tail test rejects H0 at significance α. If μ0 lies inside the interval, the test does not reject H0.
+P1078: This is a cross-check of the same inferential evidence; it does not turn the hypothesis test into a Chapter 8 problem.
+P1079: Tutorial 9 Q10 deliberately asks you to compare the 1% two-tail test with a 99% confidence interval.
+P1080: Worked example - Paint-can cross-check
+P1081: 1. The 99% confidence interval is approximately 3.7009 to 3.7591 kg.
+P1082: 2. The null value μ0=3.75 kg lies inside the interval.
+P1083: 3. Therefore the equivalent two-tail α=.01 test does not reject H0.
+P1084: 4. This agrees with Z≈-1.768 being inside ±2.576.
+P1085: Result: The CI and critical-value test agree: do not reject H0.
+P1086: Verify: Same α/confidence pairing: 1-α=.99.
+P1087: Sources: Official Chapter 9 deck: hypothesis-test / confidence-interval connection | SDS Tutorial 9 Q10(c)-(d)
+P1088: WORKSPACE / RETRIEVAL NOTES
+P1089: __________________________________________________________________________________________________
+P1090: __________________________________________________________________________________________________
+P1091: __________________________________________________________________________________________________
+P1093: CHAPTER 9 | LESSON 9.7 | OFFLINE GUIDED LEARN
+P1094: 9.7 - Mean Test - σ Unknown: Student t
+P1095: Explanation
+P1096: If the population standard deviation σ is unknown and sample standard deviation s is supplied, the Chapter 9 mean-test route uses Student t.
+P1097: T=(X̄-μ0)/(s/√n) and df=n-1. The t distribution accounts for uncertainty from estimating σ with s.
+P1098: The source states the normal-population assumption and discusses checking normality; it also notes t can be used when the sample is not very small and the population is not very skewed.
+P1099: For two tails the deck uses T.DIST.2T(ABS(tcalc),df); for critical values it shows T.INV with the appropriate cumulative probability.
+P1100: Worked example - Tutorial 9 textbook-cost example
+P1101: 1. H0: μ=1500; H1: μ>1500; α=.10.
+P1102: 2. X̄=1577, s=216, n=25, so df=24.
+P1103: 3. SE=216/5=43.2.
+P1104: 4. T=(1577-1500)/43.2≈1.7824.
+P1105: 5. Upper-tail critical t at α=.10 and df=24 is about 1.318.
+P1106: 6. 1.7824>1.318, so reject H0. The one-tail p-value is about .0437.
+P1107: Result: There is evidence at α=.10 that the population mean textbook cost exceeds R1500.
+P1108: Verify: Unknown σ is why s and t appear.
+P1109: Sources: Official Chapter 9 deck: Student-t sections and Excel workflow | SDS Tutorial 9 Q12-14
+P1110: WORKSPACE / RETRIEVAL NOTES
+P1111: __________________________________________________________________________________________________
+P1112: __________________________________________________________________________________________________
+P1113: __________________________________________________________________________________________________
+P1115: CHAPTER 9 A1S2 STOP POINT
+P1117: CONSOLIDATED ANSWER KEY
+P1118: Use this only after you have answered the lesson checks and Your Turn items without support. Mark the error type, repair the nearest competing method, then retry later.
+P1119: Chapter 6 answers
+P1120: 6.1 - Knowledge Check: P(X=4)=0  |  An exact point has no width, so it contributes zero area.
+P1121: 6.1 - Your Turn: P(X≤8)  |  Because P(X=8)=0, adding that single point changes no area.
+P1122: 6.2 - Knowledge Check: 5  |  The notation gives variance σ²=25, so σ=√25=5.
+P1123: 6.2 - Your Turn: -2  |  z=(42-50)/4=-2. The negative sign makes sense because 42 is below the mean 50.
+P1124: 6.3 - Knowledge Check: 1-Φ(z)  |  The cumulative function gives left area; the right tail is its complement.
+P1125: 6.3 - Your Turn: 0.4522  |  Right tail = 1-0.5478=0.4522.
+P1126: 6.4 - Knowledge Check: 0.90  |  If 10% is above x, then 90% is below x.
+P1127: 6.4 - Your Turn: 86.16  |  Only 5% above means cumulative-left area 0.95. z≈1.645, so x=73+1.645(8)=86.16.
+P1128: 6.5 - Knowledge Check: Use several numerical and graphical indicators together  |  The course notes and transcript require an integrated conclusion from multiple indicators.
+P1129: 6.5 - Your Turn: Do not call it normal; the evidence conflicts  |  One matching centre measure cannot override clear graphical non-normality.
+P1130: 6.6 - Knowledge Check: j/(n+1)  |  That is the explicit current course workflow and the supplied Excel solution uses it.
+P1131: 6.6 - Your Turn: =NORM.S.INV(D3)  |  α is a cumulative probability, so you need the inverse standard-normal function.
+P1132: 6.7 - Knowledge Check: Density height  |  The probability requires area, so it also depends on interval width.
+P1133: 6.7 - Your Turn: 0.1  |  The target width is 1 out of a total width 10, so probability=1/10=0.10.
+P1134: 6.8 - Knowledge Check: Exponential  |  The random object is waiting time, which is continuous.
+P1135: 6.8 - Your Turn: 0.4512  |  Convert λ=12/hour to 0.2/minute. P(X<3)=1-e^(-0.2×3)=1-e^(-0.6)≈0.4512.
+P1136: 6.9 - Knowledge Check: -ln(1-α)/λ  |  It comes directly from solving 1-e^(-λx)=α for x.
+P1137: 6.9 - Your Turn: 0.1436  |  Right tail gives e^(-3x)=0.65. Thus x=-ln(0.65)/3≈0.1436.
+P1138: 6.10 - Knowledge Check: P(Xa>24.5)  |  The integer 25 owns the continuous slice from 24.5 to 25.5, so "25 or more" starts at 24.5.
+P1139: 6.10 - Your Turn: P(Xa<24.5)  |  X<25 means X≤24 in the discrete model, so the corrected boundary is 24.5.
+P1141: Chapter 7 answers
+P1142: 7.1 - Knowledge Check: The distribution of all possible sample means for samples of size 25  |  The source defines a sampling distribution as all possible values of a sample statistic for a fixed sample size.
+P1143: 7.1 - Your Turn: Sampling distribution of p  |  The repeated statistic is the sample proportion p.
+P1144: 7.2 - Knowledge Check: Unbiasedness  |  The source explicitly identifies X̄ as unbiased when its sampling-distribution mean equals μ.
+P1145: 7.2 - Your Turn: 6.0  |  The six values sum to 36, so μ=36/6=6. Exact enumeration confirms the possible sample means average to 6.
+P1146: 7.3 - Knowledge Check: It is halved  |  SE=σ/√n, so √4=2.
+P1147: 7.3 - Your Turn: 2.0  |  12/√36=12/6=2.
+P1148: 7.4 - Knowledge Check: 6/√50  |  Variance 36 means σ=6, and a class average is X̄.
+P1149: 7.4 - Your Turn: X̄ and σ/√36  |  The word average identifies X̄.
+P1150: 7.5 - Knowledge Check: 1-Φ(z)  |  Above is a right-tail event while the cumulative normal gives left area.
+P1151: 7.5 - Your Turn: 0.1356660609  |  SE=2, z=1.1, so 1-Φ(1.1)≈0.1357.
+P1152: 7.6 - Knowledge Check: 0.35  |  The areas must sum to 1.
+P1153: 7.6 - Your Turn: [362.12, 373.88]  |  SE=3; z*=1.96; 368±1.96(3)=368±5.88 → 362.12,373.88.
+P1154: 7.7 - Knowledge Check: The sampling distribution of X̄  |  That is the Chapter 7 source statement.
+P1155: 7.7 - Your Turn: 0.0339445774  |  μ=σ=9 sec for exponential; SE=9/√30≈1.6432; z≈1.8257; right-tail≈0.0339.
+P1156: 7.8 - Knowledge Check: Student t with df=24  |  The current Chapter 7 source patch explicitly verifies the Student-t route for unknown σ.
+P1157: 7.8 - Your Turn: 2.0  |  T=(54-50)/(10/√25)=4/2=2; df=24.
+P1158: 7.9 - Knowledge Check: 0.75  |  p=48/64=0.75; π=0.70 is the population parameter.
+P1159: 7.9 - Your Turn: [0.35, 0.0754155156]  |  p=14/40=.35; estimated SE=√(.35×.65/40)≈.0754.
+P1160: 7.10 - Knowledge Check: It narrows around the same centre π  |  SE is inversely proportional to √n while E(p)=π.
+P1161: 7.10 - Your Turn: 0.7887004527  |  SE=.04; z limits ±1.25; probability Φ(1.25)-Φ(-1.25)≈.7887.
+P1162: 7.11 - Knowledge Check: X̄₁-X̄₂>25  |  Preserve the declared order 1-2 and use the stated difference threshold.
+P1163: 7.11 - Your Turn: 0.1122470397  |  Centre=10; SE≈12.3491; z=(25-10)/12.3491≈1.2147; right-tail≈0.1122.
+P1164: 7.12 - Knowledge Check: Yes, because n/N=0.08>0.05  |  The Chapter 7 online section uses the >5% sampling-fraction trigger.
+P1165: 7.12 - Your Turn: 0.949157995752499  |  √(900/999)≈0.9492.
+P1166: 7.13 - Knowledge Check: X̄ → Student t  |  The object is a sample mean and σ status selects the current t route.
+P1167: 7.13 - Your Turn: Identify object → choose model/SE → translate region → execute in Excel → interpret  |  This sequence preserves statistical method selection while using Excel as the execution environment.
+P1169: Chapter 8 answers
+P1170: 8.1 - Knowledge Check: Estimator A  |  The Chapter 8 source defines the unbiased estimator with the smaller variance as relatively more efficient.
+P1171: 8.1 - Your Turn: The estimator tends to get closer to the parameter as n increases.  |  The Chapter 8 slides define consistency by the estimator-parameter difference becoming smaller as sample size increases.
+P1172: 8.2 - Knowledge Check: We are 95% confident using a procedure that captures the parameter in 95% of such intervals.  |  The source explicitly gives the long-run relative-frequency interpretation and says a specific interval either contains the parameter or does not.
+P1173: 8.2 - Your Turn: 0.01  |  1-α=0.98 gives α=0.02, so α/2=0.01 in each tail.
+P1174: 8.3 - Knowledge Check: Standard normal Z  |  The Chapter 8 known-σ interval uses zα/2.
+P1175: 8.3 - Your Turn: [114.696, 135.304]  |  99% uses zα/2=2.576. SE=24/√36=4. Margin=2.576×4=10.304. CI=(114.696,135.304).
+P1176: 8.4 - Knowledge Check: df=9 and one-tail 0.025  |  df=n-1=9, and 95% confidence gives α=.05, so α/2=.025 in each tail.
+P1177: 8.4 - Your Turn: 1.753  |  df=15. For 90% confidence, α=.10 so α/2=.05. At df=15 and one-tail .05, t=1.753.
+P1178: 8.5 - Knowledge Check: Because replacing σ with variable sample s adds uncertainty.  |  That is the explanation given on the Chapter 8 slides.
+P1179: 8.5 - Your Turn: [134.618, 147.982]  |  df=23 and 90% two-sided gives t≈1.714. SE=19.1/√24≈3.8988. Margin≈6.6820. CI≈(134.6180,147.9820).
+P1180: 8.6 - Knowledge Check: Sample proportion p  |  The Chapter 8 interval-estimation source estimates the standard error using sample p.
+P1181: 8.6 - Your Turn: [0.90165, 0.95725]  |  p=303/326≈0.929448. SE≈0.014183. Margin≈1.96×SE≈0.027798. CI≈(0.901650,0.957246).
+P1182: 8.7 - Knowledge Check: 97  |  The source explicitly says always round required sample size upward.
+P1183: 8.7 - Your Turn: 35  |  n=(1.96×15/5)²=34.5744, so round upward to n=35.
+P1184: 8.8 - Knowledge Check: Because p(1-p) is maximised at 0.5, giving the conservative largest n.  |  This is the conservative rule stated in the Chapter 8 material and confirmed in the 2026 practice-test style.
+P1185: 8.8 - Your Turn: 2377  |  n=(1.96²×.45×.55)/.02²=2376.99, so required n=2377.
+P1186: 8.9 - Knowledge Check: n/N=.02, so FPC has little or no practical effect.  |  The finite-population source uses 5% as the practical threshold.
+P1187: 8.9 - Your Turn: [67.6282, 82.3718]  |  n/N=.18>0.05. df=35, t≈2.0301. FPC=√(164/199)≈0.90781. Adjusted SE=(24/6)×FPC≈3.63124. Margin≈7.37182. CI≈(67.6282,82.3718).
+P1188: 8.10 - Knowledge Check: n=n₀N/[n₀+(N-1)]  |  This is Equation 8.14 in the supplied finite-population source and appears on the A1S2 formula sheet.
+P1189: 8.10 - Your Turn: 186  |  Use z=1.645. n₀=(1.645²×.30×.70)/.05²≈227.3061. Adjust: n=(227.3061×1000)/(227.3061+999)≈185.3584. Round up to 186.
+P1190: 8.11 - Knowledge Check: Select n values with replacement from the observed sample.  |  That with-replacement resampling step is the defining procedure in the supplied source.
+P1191: 8.11 - Your Turn: Yes, because resampling is with replacement.  |  The Chapter 8 source explicitly shows a resample where 73 appears twice even though it appeared once in the original sample.
+P1192: 8.12 - Knowledge Check: The resample mean X̄*  |  The Chapter 8 bootstrap algorithm says compute X̄ for each resample and construct the resampling distribution of those means.
+P1193: 8.12 - Your Turn: Calculate AVERAGE for each resample.  |  The source algorithm requires one X̄ from every resample before the resampling distribution can be ordered.
+P1195: Chapter 9 answers
+P1196: 9.1 - Knowledge Check: Do not reject H0  |  The Chapter 9 deck explicitly states that H0 is never accepted.
+P1197: 9.1 - Your Turn: H0: μ=110  |  H0 is written about the population parameter μ and includes equality.
+P1198: 9.2 - Knowledge Check: β increases  |  A stricter rejection region lowers Type I risk but raises Type II risk for a fixed design.
+P1199: 9.2 - Your Turn: Increase n  |  A larger n reduces the sampling spread, so a false H0 is easier to detect.
+P1200: 9.3 - Knowledge Check: Upper-tail  |  The alternative points to values greater than the null value.
+P1201: 9.3 - Your Turn: Entire α=.01 in the left tail  |  One-tail means no split; "less than" points left.
+P1202: 9.4 - Knowledge Check: Z test  |  The deck's technique-selection branch uses Z when population σ is known.
+P1203: 9.4 - Your Turn: 2.5  |  SE=120/6=20; Z=(550-500)/20=2.5.
+P1204: 9.5 - Knowledge Check: Reject H0  |  p<α.
+P1205: 9.5 - Your Turn: 0.0838  |  For a lower-tail test, p=Φ(-1.38)≈.0838; there is no doubling.
+P1206: 9.6 - Knowledge Check: Do not reject H0  |  The hypothesised value 50 lies inside the 95% interval.
+P1207: 9.6 - Your Turn: Reject H0  |  Exclusion of μ0 corresponds to the test statistic falling in a rejection tail.
+P1208: 9.7 - Knowledge Check: 24  |  df=n-1.
+P1209: 9.7 - Your Turn: -0.45399  |  T=(473.4615-500)/(210.7663/√13)≈-0.454.
+P1212: FINAL HIGH-RISK TRAPS - READ THE NIGHT BEFORE
+P1213: Name the random object first: X is not Xbar; Xbar uses a standard error.
+P1214: Population parameter versus sample statistic: mu vs Xbar; pi vs p; sigma vs s.
+P1215: Known population sigma -> Z. Unknown sigma + sample s -> Student t, df=n-1.
+P1216: Excel cumulative functions give left area. Convert right-tail wording before using an inverse/CDF.
+P1217: CLT changes the sampling distribution of Xbar, not the original population.
+P1218: For required sample size, ALWAYS ROUND UP.
+P1219: FPC: do not apply merely because N appears. Check finite population, without replacement, and the course sampling-fraction rule.
+P1220: Bootstrap resamples FROM THE OBSERVED SAMPLE, WITH replacement, and keeps resample size n.
+P1221: Confidence interval for a mean is about the population mean, not individual values.
+P1222: CI for a proportion uses observed sample p in the estimated SE.
+P1223: In a hypothesis test, H0/H1 are about the population parameter; equality is in H0 under the SDS188 convention.
+P1224: Tail comes from H1. Two-tail splits alpha/2; one-tail places alpha in the directed tail.
+P1225: Decision language: reject H0 or do not reject H0. Never say accept H0.
+P1226: Type I = reject a true H0. Type II = do not reject a false H0. Power = 1-beta.
+P1227: For Chapter 9 A1S2, STOP at Slide 51 / Lesson 9.7 in this pack.
+P1228: FRIDAY / SATURDAY CHECKLIST
+P1229: [ ] Chapter 8 AF prepared for before opening the live assessment.
+P1230: [ ] Chapter 8 AF submitted by Friday 28 Aug 17:30 and submission confirmed.
+P1231: [ ] A1S2 Practice Test completed by Friday 28 Aug 23:59.
+P1232: [ ] Chapter 6 revision AF used as a diagnostic; weak routes repaired.
+P1233: [ ] Chapter 7 revision AF used as a diagnostic; weak routes repaired.
+P1234: [ ] Chapter 9 Lessons 9.1-9.7 can be routed without labels.
+P1235: [ ] Formula sheet scanned once: know what it gives and what it does not.
+P1236: [ ] Excel syntax rehearsed from memory for the functions on the quick-reference page.
+P1237: [ ] At least one closed-book mixed retrieval block completed before Saturday.
+P1238: [ ] Assessment session/venue checked before leaving.
+P1240: SCRATCH / WORKING PAGE 1
+P1241: __________________________________________________________________________________________________
+P1242: __________________________________________________________________________________________________
+P1243: __________________________________________________________________________________________________
+P1244: __________________________________________________________________________________________________
+P1245: __________________________________________________________________________________________________
+P1246: __________________________________________________________________________________________________
+P1247: __________________________________________________________________________________________________
+P1248: __________________________________________________________________________________________________
+P1249: __________________________________________________________________________________________________
+P1250: __________________________________________________________________________________________________
+P1251: __________________________________________________________________________________________________
+P1252: __________________________________________________________________________________________________
+P1253: __________________________________________________________________________________________________
+P1254: __________________________________________________________________________________________________
+P1255: __________________________________________________________________________________________________
+P1256: __________________________________________________________________________________________________
+P1257: __________________________________________________________________________________________________
+P1258: __________________________________________________________________________________________________
+P1259: __________________________________________________________________________________________________
+P1260: __________________________________________________________________________________________________
+P1261: __________________________________________________________________________________________________
+P1262: __________________________________________________________________________________________________
+P1263: __________________________________________________________________________________________________
+P1264: __________________________________________________________________________________________________
+P1265: __________________________________________________________________________________________________
+P1266: __________________________________________________________________________________________________
+P1267: __________________________________________________________________________________________________
+P1268: __________________________________________________________________________________________________
+P1269: __________________________________________________________________________________________________
+P1270: __________________________________________________________________________________________________
+P1271: __________________________________________________________________________________________________
+P1272: __________________________________________________________________________________________________
+P1273: __________________________________________________________________________________________________
+P1274: __________________________________________________________________________________________________
+P1275: __________________________________________________________________________________________________
+P1277: SCRATCH / WORKING PAGE 2
+P1278: __________________________________________________________________________________________________
+P1279: __________________________________________________________________________________________________
+P1280: __________________________________________________________________________________________________
+P1281: __________________________________________________________________________________________________
+P1282: __________________________________________________________________________________________________
+P1283: __________________________________________________________________________________________________
+P1284: __________________________________________________________________________________________________
+P1285: __________________________________________________________________________________________________
+P1286: __________________________________________________________________________________________________
+P1287: __________________________________________________________________________________________________
+P1288: __________________________________________________________________________________________________
+P1289: __________________________________________________________________________________________________
+P1290: __________________________________________________________________________________________________
+P1291: __________________________________________________________________________________________________
+P1292: __________________________________________________________________________________________________
+P1293: __________________________________________________________________________________________________
+P1294: __________________________________________________________________________________________________
+P1295: __________________________________________________________________________________________________
+P1296: __________________________________________________________________________________________________
+P1297: __________________________________________________________________________________________________
+P1298: __________________________________________________________________________________________________
+P1299: __________________________________________________________________________________________________
+P1300: __________________________________________________________________________________________________
+P1301: __________________________________________________________________________________________________
+P1302: __________________________________________________________________________________________________
+P1303: __________________________________________________________________________________________________
+P1304: __________________________________________________________________________________________________
+P1305: __________________________________________________________________________________________________
+P1306: __________________________________________________________________________________________________
+P1307: __________________________________________________________________________________________________
+P1308: __________________________________________________________________________________________________
+P1309: __________________________________________________________________________________________________
+P1310: __________________________________________________________________________________________________
+P1311: __________________________________________________________________________________________________
+P1312: __________________________________________________________________________________________________
+P1314: SCRATCH / WORKING PAGE 3
+P1315: __________________________________________________________________________________________________
+P1316: __________________________________________________________________________________________________
+P1317: __________________________________________________________________________________________________
+P1318: __________________________________________________________________________________________________
+P1319: __________________________________________________________________________________________________
+P1320: __________________________________________________________________________________________________
+P1321: __________________________________________________________________________________________________
+P1322: __________________________________________________________________________________________________
+P1323: __________________________________________________________________________________________________
+P1324: __________________________________________________________________________________________________
+P1325: __________________________________________________________________________________________________
+P1326: __________________________________________________________________________________________________
+P1327: __________________________________________________________________________________________________
+P1328: __________________________________________________________________________________________________
+P1329: __________________________________________________________________________________________________
+P1330: __________________________________________________________________________________________________
+P1331: __________________________________________________________________________________________________
+P1332: __________________________________________________________________________________________________
+P1333: __________________________________________________________________________________________________
+P1334: __________________________________________________________________________________________________
+P1335: __________________________________________________________________________________________________
+P1336: __________________________________________________________________________________________________
+P1337: __________________________________________________________________________________________________
+P1338: __________________________________________________________________________________________________
+P1339: __________________________________________________________________________________________________
+P1340: __________________________________________________________________________________________________
+P1341: __________________________________________________________________________________________________
+P1342: __________________________________________________________________________________________________
+P1343: __________________________________________________________________________________________________
+P1344: __________________________________________________________________________________________________
+P1345: __________________________________________________________________________________________________
+P1346: __________________________________________________________________________________________________
+P1347: __________________________________________________________________________________________________
+P1348: __________________________________________________________________________________________________
+P1349: __________________________________________________________________________________________________
+P1351: SCRATCH / WORKING PAGE 4
+P1352: __________________________________________________________________________________________________
+P1353: __________________________________________________________________________________________________
+P1354: __________________________________________________________________________________________________
+P1355: __________________________________________________________________________________________________
+P1356: __________________________________________________________________________________________________
+P1357: __________________________________________________________________________________________________
+P1358: __________________________________________________________________________________________________
+P1359: __________________________________________________________________________________________________
+P1360: __________________________________________________________________________________________________
+P1361: __________________________________________________________________________________________________
+P1362: __________________________________________________________________________________________________
+P1363: __________________________________________________________________________________________________
+P1364: __________________________________________________________________________________________________
+P1365: __________________________________________________________________________________________________
+P1366: __________________________________________________________________________________________________
+P1367: __________________________________________________________________________________________________
+P1368: __________________________________________________________________________________________________
+P1369: __________________________________________________________________________________________________
+P1370: __________________________________________________________________________________________________
+P1371: __________________________________________________________________________________________________
+P1372: __________________________________________________________________________________________________
+P1373: __________________________________________________________________________________________________
+P1374: __________________________________________________________________________________________________
+P1375: __________________________________________________________________________________________________
+P1376: __________________________________________________________________________________________________
+P1377: __________________________________________________________________________________________________
+P1378: __________________________________________________________________________________________________
+P1379: __________________________________________________________________________________________________
+P1380: __________________________________________________________________________________________________
+P1381: __________________________________________________________________________________________________
+P1382: __________________________________________________________________________________________________
+P1383: __________________________________________________________________________________________________
+P1384: __________________________________________________________________________________________________
+P1385: __________________________________________________________________________________________________
+P1386: __________________________________________________________________________________________________
+
+===== TABLE 1 =====
+R1: PURPOSE
+A paper-first version of the signed-off SDS188 Master Learning System. Use it to learn, retrieve, practise, check answers and rehearse Excel procedures without needing to open the HTML.
+
+===== TABLE 2 =====
+R1: LATEST CHAPTER 9 RULE
+For A1S2, Chapter 9 is assessed only up to and including Slide 51. This pack therefore includes full Chapter 9 learning only through Lesson 9.7. Later detailed one-tail worked procedures, one-proportion hypothesis tests, later power calculations, planning/practical-significance and later ethics material are intentionally excluded from the exam-study body.
+
+===== TABLE 3 =====
+R1: Chapter | A1S2 scope in this pack | How to use it
+R2: 6 | Continuous distributions - full current chapter learning | Learn routes, then work the lesson checks/Your Turn items.
+R3: 7 | Sampling distributions - full current chapter learning | Prioritise X vs Xbar, SE, known sigma Z, unknown sigma t, CLT, p and two-mean routing.
+R4: 8 | Confidence intervals - C8.01-C8.68 core only | C8.69-C8.75 auditing/population-total material remains HOLD and is not treated as A1S2 core.
+R5: 9 | Slides 1-51 only - Lessons 9.1-9.7 | STOP after 9.7 for A1S2 Chapter 9 study. Basic Type I/II, alpha/beta/power meaning remains in scope; later detailed power calculations do not.
+
+===== TABLE 4 =====
+R1: ASSESSMENT RULE WARNING
+The Chapter 8 AF is a live unsupervised assessment with source/communication restrictions. Use this pack for preparation. Do not assume an AI-generated pack is an allowed source during the live AF. Follow the EMSLearn rules exactly. The actual A1S2 on 29 August is closed book.
+
+===== TABLE 5 =====
+R1: FAST RULE
+Do not reread whole chapters after a mistake. Repair the exact method choice or calculation step that failed.
+
+===== TABLE 6 =====
+R1: WHAT YOU STILL HAVE TO KNOW
+The sheet does not choose the random object, translate the event/tail, decide CI versus test, choose critical-value versus p-value method, determine t degrees of freedom, apply the bootstrap algorithm, or write the contextual conclusion. Those decisions are trained in the lesson pages that follow.
+
+===== TABLE 7 =====
+R1: Cue / object | Choose this route | Execution lock
+R2: Ch6 Normal X | One continuous normal observation X | Z=(X-mu)/sigma; match left/right/between/inverse region.
+R3: Ch6 Uniform | Constant density on [a,b] | Probability = interval length / total length.
+R4: Ch6 Exponential | Waiting time between Poisson events | Align rate/time units; EXPON.DIST for cumulative-left; complement for right tail.
+R5: Ch6 Binomial -> Normal | Binomial count with approximation conditions satisfied | Continuity-correct the count boundary by 0.5 before standardising.
+R6: Ch7 Xbar known sigma | Sample mean; population sigma known | SE=sigma/sqrt(n); Z/normal sampling route.
+R7: Ch7 Xbar unknown sigma | Sample mean; population sigma unknown; sample s | SE=s/sqrt(n); Student t; df=n-1.
+R8: Ch7 p | Sample proportion | Centre pi; proportion SE; check approximation conditions.
+R9: Ch7 two means | Difference of independent sample means | Freeze order 1-2; centre mu1-mu2; combine variances.
+R10: Ch8 mean CI known sigma | Estimate mu, population sigma known | Xbar +/- z* sigma/sqrt(n).
+R11: Ch8 mean CI unknown sigma | Estimate mu, sigma unknown | Xbar +/- t* s/sqrt(n), df=n-1.
+R12: Ch8 proportion CI | Estimate pi | p +/- z*sqrt[p(1-p)/n].
+R13: Ch8 required n | Plan sample size | Choose mean/proportion formula; always ROUND UP; finite N may need n0 adjustment.
+R14: Ch8 bootstrap | Parametric CI inappropriate / bootstrap requested | Observed sample -> resample WITH replacement, same n -> statistic -> repeat -> order -> cut tails.
+R15: Ch9 mean test known sigma | H0 about mu; sigma known | Set H0/H1 + tail; Z statistic; critical-value or p-value decision.
+R16: Ch9 mean test unknown sigma | H0 about mu; sigma unknown | Student t, df=n-1; normality support; critical/p-value route.
+
+===== TABLE 8 =====
+R1: Function | What it does / when to use it
+R2: =COUNT(range) | Count numeric observations; often used to obtain n from raw data.
+R3: =AVERAGE(range) | Calculate Xbar from raw data.
+R4: =STDEV.S(range) | Calculate sample s when population sigma is unknown.
+R5: =SQRT(value) | Square root; used throughout SE formulas.
+R6: =ROUNDUP(value,0) | Required sample size: always round upward.
+R7: =NORM.S.DIST(z,TRUE) | Standard normal cumulative-left probability Phi(z).
+R8: =NORM.S.INV(p) | Standard normal z boundary for cumulative-left probability p.
+R9: =NORM.DIST(x,mu,sd,TRUE) | Normal cumulative-left probability in original units.
+R10: =NORM.INV(p,mu,sd) | Normal boundary in original units.
+R11: =T.DIST(t,df,TRUE) | Student-t cumulative-left probability.
+R12: =T.DIST.2T(ABS(t),df) | Two-tail t p-value.
+R13: =T.INV(p,df) | Student-t boundary for a cumulative-left probability.
+R14: =T.INV.2T(alpha,df) | Positive two-tail t critical magnitude for total two-tail probability alpha.
+R15: =EXPON.DIST(x,lambda,TRUE) | Exponential cumulative-left probability P(X<=x); align units first.
+R16: =SMALL(range,k) / =LARGE(range,k) | Select ordered bootstrap statistics when the course/question gives the cutoff position.
+
+===== TABLE 9 =====
+R1: SCOPE
+Full current Chapter 6 learning layer.
+
+===== TABLE 10 =====
+R1: OBJECTIVE
+Distinguish discrete from continuous random variables and explain why probability for a continuous variable is area, not the height of the density curve.
+
+===== TABLE 11 =====
+R1: SAY ALOUD
+Discrete means countable points. Continuous means any measured value in a range. For continuous variables, probability is area under the density curve, so one exact point has probability zero.
+
+===== TABLE 12 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which statement is correct for a continuous random variable X?
+A. P(X=4)=0
+B. P(X=4)=f(4)
+C. P(X=4) must be positive
+
+===== TABLE 13 =====
+R1: YOUR TURN - work independently
+Which event has the same probability as P(X<8) when X is continuous?
+A. P(X≤8)
+B. P(X=8)
+C. P(X>8)
+
+===== TABLE 14 =====
+R1: EXIT CRITERION
+Move on when you can explain, without notes, why density height is not probability and why P(X=c)=0.
+
+===== TABLE 15 =====
+R1: OBJECTIVE
+Read normal notation, predict how μ and σ change the curve, recognise the standard normal distribution, and standardise X to Z.
+
+===== TABLE 16 =====
+R1: SAY ALOUD
+Mu sets the centre. Sigma sets the spread. Standardising subtracts the mean and divides by the standard deviation, so z tells me how many standard deviations the value is from the mean.
+
+===== TABLE 17 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If X~N(18,25), what standard deviation should you use?
+A. 5
+B. 25
+C. √18
+
+===== TABLE 18 =====
+R1: YOUR TURN - work independently
+If X~N(50,4²), what is z when x=42?
+Answer: ______________________________
+
+===== TABLE 19 =====
+R1: EXIT CRITERION
+Move on when you can look at N(μ,σ²), identify μ and σ correctly, predict the effect of changing each parameter, and standardise one value without help.
+
+===== TABLE 20 =====
+R1: OBJECTIVE
+Translate "below", "above" and "between" into the correct shaded region, standardise boundaries, and calculate the required normal area.
+
+===== TABLE 21 =====
+R1: SAY ALOUD
+Below is left. Above is one minus left. Between is upper left area minus lower left area. I draw the region first, then standardise, then calculate.
+
+===== TABLE 22 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which expression gives a right-tail standard-normal probability P(Z>z)?
+A. 1−Φ(z)
+B. Φ(z)
+C. Φ(z)−1
+
+===== TABLE 23 =====
+R1: YOUR TURN - work independently
+For the same X~N(18,5²), find P(X>18.6). Enter a decimal to 4 d.p.
+Answer: ______________________________
+
+===== TABLE 24 =====
+R1: EXIT CRITERION
+Move on when you can identify left/right/between before touching the calculator and can explain why the numerical answer matches the shaded region.
+
+===== TABLE 25 =====
+R1: OBJECTIVE
+Recognise when probability is known but the boundary is unknown, convert wording to cumulative-left area, find z, and transform back to X.
+
+===== TABLE 26 =====
+R1: SAY ALOUD
+Inverse normal means the area is known and the boundary is unknown. I convert everything to left area, find z, then use x equals mu plus z sigma.
+
+===== TABLE 27 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+The top 10% starts above x. What cumulative-left probability must go into the inverse function?
+A. 0.90
+B. 0.10
+C. 0.05
+
+===== TABLE 28 =====
+R1: YOUR TURN - work independently
+Tutorial-style: X~N(73,8²). Find the boundary exceeded by only 5% of values. Enter the boundary.
+Answer: ______________________________
+
+===== TABLE 29 =====
+R1: EXIT CRITERION
+Move on when you can translate percentile/top/bottom wording into a left cumulative probability and perform the back-transform without being prompted.
+
+===== TABLE 30 =====
+R1: OBJECTIVE
+Judge whether data are approximately normal by integrating descriptive, empirical-rule and graphical evidence instead of relying on one indicator.
+
+===== TABLE 31 =====
+R1: SAY ALOUD
+Normality is a collective judgement. I check centre and symmetry, empirical-rule proportions, and plots. No single check proves the model.
+
+===== TABLE 32 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which is the strongest conclusion method?
+A. Use several numerical and graphical indicators together
+B. Mean≈median proves normality
+C. A bell-shaped histogram alone proves normality
+
+===== TABLE 33 =====
+R1: YOUR TURN - work independently
+A dataset has mean≈median, but its histogram is strongly right-skewed. What is the best conclusion?
+A. Do not call it normal; the evidence conflicts
+B. It is normal because mean≈median
+C. Ignore the histogram
+
+===== TABLE 34 =====
+R1: EXIT CRITERION
+Move on when you can list at least three different normality checks and explain why the conclusion must use them collectively.
+
+===== TABLE 35 =====
+R1: OBJECTIVE
+Construct a normal probability plot correctly in Excel and combine it with descriptive/histogram evidence to reach a statistical conclusion.
+
+===== TABLE 36 =====
+R1: SAY ALOUD
+Sort X, number the rows j, calculate j over n plus one, turn each probability into Z with NORM.S.INV, plot Z horizontally and X vertically, then judge whether the points are roughly linear.
+
+===== TABLE 37 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which plotting position does the current Chapter 6 workflow use?
+A. j/(n+1)
+B. j/n
+C. (j−1)/n
+
+===== TABLE 38 =====
+R1: YOUR TURN - work independently
+After sorting X and creating j, what Excel formula should convert α in D3 to its theoretical z-value?
+A. =NORM.S.INV(D3)
+B. =NORM.S.DIST(D3,TRUE)
+C. =NORM.INV(D3,0,1)
+
+===== TABLE 39 =====
+R1: EXIT CRITERION
+Move on when you can reconstruct the six-step normal-probability-plot workflow from memory and explain what linearity means.
+
+===== TABLE 40 =====
+R1: OBJECTIVE
+Recognise a uniform model, identify bounds a and b, use rectangle area for probabilities, and calculate the mean and spread.
+
+===== TABLE 41 =====
+R1: SAY ALOUD
+Uniform means a rectangle from a to b. Height is one over b minus a, but probability is area. Interval probability is interval width divided by total width.
+
+===== TABLE 42 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For Uniform(a,b), what does 1/(b−a) represent?
+A. Density height
+B. Every interval probability
+C. The mean
+
+===== TABLE 43 =====
+R1: YOUR TURN - work independently
+For X~Uniform(0,10), find P(2<X<3).
+Answer: ______________________________
+
+===== TABLE 44 =====
+R1: EXIT CRITERION
+Move on when you can draw the rectangle, label a and b, explain why height is not probability, and solve an interval by area without memorising a special case.
+
+===== TABLE 45 =====
+R1: OBJECTIVE
+Recognise exponential waiting-time problems, interpret λ as a rate, align units, and solve left-, right- and between-probability questions.
+
+===== TABLE 46 =====
+R1: SAY ALOUD
+Poisson counts events. Exponential waits for the next event. Lambda is a rate, and lambda times time must use matching units.
+
+===== TABLE 47 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Calls arrive at 12 per hour. The question asks for time until the next call. Which model?
+A. Exponential
+B. Poisson
+C. Uniform
+
+===== TABLE 48 =====
+R1: YOUR TURN - work independently
+Calls arrive at 12 per hour. Find P(next call arrives within 3 minutes). Enter 4 d.p.
+Answer: ______________________________
+
+===== TABLE 49 =====
+R1: EXIT CRITERION
+Move on when you can distinguish Poisson count from exponential wait and catch a rate/time unit mismatch before substituting.
+
+===== TABLE 50 =====
+R1: OBJECTIVE
+Solve for an unknown waiting-time boundary when a cumulative or tail probability is given, and keep it conceptually separate from inverse normal.
+
+===== TABLE 51 =====
+R1: SAY ALOUD
+Inverse exponential means solve the exponential equation for time. Cumulative alpha gives x equals minus ln of one minus alpha over lambda.
+
+===== TABLE 52 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For cumulative probability α, which boundary formula is correct?
+A. −ln(1−α)/λ
+B. μ+zσ
+C. ln(α)λ
+
+===== TABLE 53 =====
+R1: YOUR TURN - work independently
+If X~Exp(λ=3) and P(X>x)=0.65, find x.
+Answer: ______________________________
+
+===== TABLE 54 =====
+R1: EXIT CRITERION
+Move on when you can derive the inverse formula from the probability equation and know immediately that inverse normal tools do not apply.
+
+===== TABLE 55 =====
+R1: OBJECTIVE
+Decide when the normal approximation is allowed, construct the approximate normal model, apply the correct continuity correction, and calculate the probability.
+
+===== TABLE 56 =====
+R1: SAY ALOUD
+First check n pi and n one minus pi are both greater than five. Then mean is n pi, SD is square root n pi one minus pi, continuity-correct the integer boundary by half, then standardise.
+
+===== TABLE 57 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which continuous event approximates P(X≥25)?
+A. P(Xa>24.5)
+B. P(Xa>25.5)
+C. P(Xa<24.5)
+
+===== TABLE 58 =====
+R1: YOUR TURN - work independently
+For n=100 and π=0.20, how should P(X<25) be continuity-corrected?
+A. P(Xa<24.5)
+B. P(Xa<25.5)
+C. P(Xa>24.5)
+
+===== TABLE 59 =====
+R1: EXIT CRITERION
+Move on when you can do the two >5 checks, construct μ and σ, and continuity-correct =, <, ≤, > and ≥ without a lookup table.
+
+===== TABLE 60 =====
+R1: SCOPE
+Full current Chapter 7 learning layer. The FPC bridge is retained with its source caveat.
+
+===== TABLE 61 =====
+R1: OBJECTIVE
+Build the core mental model: a sampling distribution is the probability distribution of a statistic over all possible random samples of a fixed size, not the raw observations in one sample.
+
+===== TABLE 62 =====
+R1: FORMULA / DECISION OBJECT
+Sampling distribution = distribution of all possible values of a sample statistic for a fixed n. Random-object question: X, X̄, p, or X̄₁-X̄₂?
+
+===== TABLE 63 =====
+R1: SAY ALOUD
+One sample gives me one statistic. A sampling distribution is the distribution of that statistic across all possible random samples of the same size.
+
+===== TABLE 64 =====
+R1: COMMON TRAP
+Do not confuse population distribution, one sample, one realised statistic and the sampling distribution of that statistic.
+
+===== TABLE 65 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which object is a sampling distribution?
+A. The distribution of all possible sample means for samples of size 25
+B. The 25 observations in one sample
+C. The population histogram itself
+
+===== TABLE 66 =====
+R1: YOUR TURN - work independently
+A poll repeatedly samples 100 voters and records the sample proportion supporting a candidate. What distribution is being built?
+A. Sampling distribution of p
+B. Population distribution of individual votes
+C. Sampling distribution of X̄
+
+===== TABLE 67 =====
+R1: EXIT CRITERION
+You can identify the population, sample, parameter, statistic and sampling distribution in a new scenario without looking.
+
+===== TABLE 68 =====
+R1: OBJECTIVE
+Construct an exact sampling distribution for a tiny population and use it to see why X̄ is an unbiased estimator of μ.
+
+===== TABLE 69 =====
+R1: FORMULA / DECISION OBJECT
+μ_X̄ = Σ X̄·P(X̄). Unbiasedness: E(X̄)=μ.
+
+===== TABLE 70 =====
+R1: SAY ALOUD
+Unbiased means the sampling distribution is centred at the true parameter. One sample mean can miss μ; the expected sample mean still equals μ.
+
+===== TABLE 71 =====
+R1: COMMON TRAP
+Do not interpret unbiasedness as "X̄ equals μ in every sample." It is a statement about the centre across possible samples.
+
+===== TABLE 72 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If E(X̄)=μ, what property has been demonstrated?
+A. Unbiasedness
+B. Zero sampling variation
+C. Normality
+
+===== TABLE 73 =====
+R1: YOUR TURN - work independently
+Tutorial 7 Q4 population: 1,3,6,7,9,10. What is the population mean and therefore the mean of the exact sampling distribution of X̄?
+Answer: ______________________________
+
+===== TABLE 74 =====
+R1: EXIT CRITERION
+You can enumerate a tiny-sample experiment, construct the statistic distribution and explain E(X̄)=μ.
+
+===== TABLE 75 =====
+R1: OBJECTIVE
+Treat standard error as the standard deviation of a statistic across possible samples and explain exactly how n changes it.
+
+===== TABLE 76 =====
+R1: FORMULA / DECISION OBJECT
+SE(X̄)=σ/√n. If n is multiplied by k, SE is divided by √k.
+
+===== TABLE 77 =====
+R1: SAY ALOUD
+Standard deviation describes individuals; standard error describes the statistic across samples. Larger n shrinks SE by the square-root rule, but the centre stays μ.
+
+===== TABLE 78 =====
+R1: COMMON TRAP
+Do not divide by n; divide by √n. And do not say larger n changes the population standard deviation σ. Also do not use the uncorrected σ/√n formula to reproduce Tutorial 7 Q4's finite without-replacement enumeration; that case belongs to the FPC bridge.
+
+===== TABLE 79 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If n is multiplied by 4 while σ stays fixed, what happens to SE(X̄)?
+A. It is halved
+B. It is quartered
+C. It is unchanged
+
+===== TABLE 80 =====
+R1: YOUR TURN - work independently
+Population σ=12 and n=36. What is SE(X̄)?
+Answer: ______________________________
+
+===== TABLE 81 =====
+R1: EXIT CRITERION
+You can distinguish SD from SE and predict the effect of any multiplicative change in n.
+
+===== TABLE 82 =====
+R1: OBJECTIVE
+Identify whether the probability is about one observation or an average before selecting the centre and spread.
+
+===== TABLE 83 =====
+R1: FORMULA / DECISION OBJECT
+One X: Z=(X-μ)/σ. Sample mean X̄: Z=(X̄-μ)/(σ/√n).
+
+===== TABLE 84 =====
+R1: SAY ALOUD
+I name the random object first. One observation uses sigma. An average uses sigma over square-root n.
+
+===== TABLE 85 =====
+R1: COMMON TRAP
+Do not use σ for a sample mean and do not use σ/√n for a single observation.
+
+===== TABLE 86 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Population variance is 36. A class of 50 students has an average mark below 75. Which spread belongs to the random object?
+A. 6/√50
+B. 36/√50
+C. 6
+
+===== TABLE 87 =====
+R1: YOUR TURN - work independently
+A question asks whether the average waiting time of 36 diners exceeds 9 minutes. Which object and spread?
+A. X̄ and σ/√36
+B. X and σ
+C. p and √[π(1−π)/n]
+
+===== TABLE 88 =====
+R1: EXIT CRITERION
+You can classify X versus X̄ before doing any arithmetic and interpret the result in terms of the correct object.
+
+===== TABLE 89 =====
+R1: OBJECTIVE
+Solve forward probabilities for X̄ when population σ is known, with the tail/region matching the words.
+
+===== TABLE 90 =====
+R1: FORMULA / DECISION OBJECT
+X̄ ~ N(μ,σ²/n), Z=(X̄-μ)/(σ/√n). Left=Φ(z); Between=Φ(zU)-Φ(zL); Right=1-Φ(z).
+
+===== TABLE 91 =====
+R1: SAY ALOUD
+Known sigma and a sample mean means normal Z. I draw the region, use sigma over square-root n, and make Excel's left-area output match the requested tail.
+
+===== TABLE 92 =====
+R1: COMMON TRAP
+Do not forget the right-tail complement and do not substitute σ=10 directly into the denominator when n=25.
+
+===== TABLE 93 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For X̄, “above 102.2” requires which final probability operation after standardising?
+A. 1−Φ(z)
+B. Φ(z)
+C. Φ(zU)−Φ(zL)
+
+===== TABLE 94 =====
+R1: YOUR TURN - work independently
+For μ=100, σ=10, n=25, what is P(X̄>102.2)?
+Answer: ______________________________
+
+===== TABLE 95 =====
+R1: EXIT CRITERION
+You can solve left, right and between X̄ probabilities and reconstruct the Excel route without prompts.
+
+===== TABLE 96 =====
+R1: OBJECTIVE
+Work backwards from a probability to the X̄ boundary and construct symmetric probability limits around μ.
+
+===== TABLE 97 =====
+R1: FORMULA / DECISION OBJECT
+Boundary = μ + z·σ/√n. Central limits: μ ± z*·σ/√n, where z*=Φ⁻¹((1+C)/2).
+
+===== TABLE 98 =====
+R1: SAY ALOUD
+Inverse means the probability comes first. I convert the requested area to left-cumulative probability, find z, then return to X-bar units.
+
+===== TABLE 99 =====
+R1: COMMON TRAP
+Do not use the requested right-tail probability directly as a cumulative-left probability.
+
+===== TABLE 100 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If P(X̄>x)=0.65, what cumulative-left area belongs to x?
+A. 0.35
+B. 0.65
+C. 0.975
+
+===== TABLE 101 =====
+R1: YOUR TURN - work independently
+Source central-limit example: μ=368, σ=15, n=25. Enter the symmetric limits containing 95% of sample means.
+
+===== TABLE 102 =====
+R1: EXIT CRITERION
+You can convert verbal inverse/central-area wording into the correct cumulative probabilities and X̄ boundaries.
+
+===== TABLE 103 =====
+R1: OBJECTIVE
+Use the CLT correctly for non-normal populations while preserving the sampling-distribution centre and SE.
+
+===== TABLE 104 =====
+R1: FORMULA / DECISION OBJECT
+For sufficiently large n: X̄ ≈ N(μ,σ²/n), even when the original population is not normal.
+
+===== TABLE 105 =====
+R1: SAY ALOUD
+The CLT makes the sampling distribution of the mean approximately normal. It does not make the population normal. The centre stays μ and the SE stays σ over square-root n.
+
+===== TABLE 106 =====
+R1: COMMON TRAP
+Do not say "n=30 makes the population normal." Also do not forget to convert the exponential rate to consistent time units before finding μ and σ.
+
+===== TABLE 107 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+What becomes approximately normal under the CLT?
+A. The sampling distribution of X̄
+B. The original population itself
+C. Every raw observation
+
+===== TABLE 108 =====
+R1: YOUR TURN - work independently
+Tutorial 7 Q3(b): interarrival times are exponential with rate 400/hour (mean 9 sec). For n=30, approximate P(X̄>12 sec).
+Answer: ______________________________
+
+===== TABLE 109 =====
+R1: EXIT CRITERION
+You can state exactly what the CLT changes, apply the course size guidance and execute a non-normal sample-mean probability.
+
+===== TABLE 110 =====
+R1: OBJECTIVE
+Use the current Chapter 7 method fork: known population σ → Z; unknown σ with sample s → Student t, df=n-1.
+
+===== TABLE 111 =====
+R1: FORMULA / DECISION OBJECT
+Unknown σ: T=(X̄-μ)/(s/√n), df=n-1. Current Excel cumulative-left route: =T.DIST(tcalc,df,TRUE).
+
+===== TABLE 112 =====
+R1: SAY ALOUD
+Sample mean plus unknown population sigma means Student t. I use s, divide by square-root n, use df n minus one, then make the t cumulative area match the requested region.
+
+===== TABLE 113 =====
+R1: COMMON TRAP
+Do not choose Z just because the sample is "large enough." First ask whether population σ is known.
+
+===== TABLE 114 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Population σ is unknown, sample s is supplied, n=25. Which route is source-aligned?
+A. Student t with df=24
+B. Z because n is bigger than 20
+C. Normal with denominator σ
+
+===== TABLE 115 =====
+R1: YOUR TURN - work independently
+X̄=54, μ=50, s=10, n=25. Calculate T.
+Answer: ______________________________
+
+===== TABLE 116 =====
+R1: EXIT CRITERION
+You can run the known-σ versus unknown-σ fork automatically, compute t and df, and reconstruct the Excel cumulative route.
+
+===== TABLE 117 =====
+R1: OBJECTIVE
+Build the sampling model for p, distinguish sample p from population π, check the approximation conditions, and choose theoretical versus estimated SE correctly.
+
+===== TABLE 118 =====
+R1: FORMULA / DECISION OBJECT
+p=X/n; μp=π; theoretical SE(p)=√[π(1-π)/n]. Estimated SE=√[p(1-p)/n] when estimation context requests it.
+
+===== TABLE 119 =====
+R1: SAY ALOUD
+p is my sample statistic and pi is my population parameter. Known pi drives the theoretical sampling SE; observed p is used only when I am estimating the SE.
+
+===== TABLE 120 =====
+R1: COMMON TRAP
+Do not confuse π with p, and do not switch between theoretical and estimated SE without reading what the task asks.
+
+===== TABLE 121 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+n=64, 48 successes, known population π=0.70. What is the sample proportion?
+A. 0.75
+B. 0.70
+C. 0.0573
+
+===== TABLE 122 =====
+R1: YOUR TURN - work independently
+Tutorial 7 Q6: 14 of 40 students answer yes. Enter p and the estimated SE requested by the question.
+
+===== TABLE 123 =====
+R1: EXIT CRITERION
+You can compute p, identify π, check the approximation rule and choose the correct SE form.
+
+===== TABLE 124 =====
+R1: OBJECTIVE
+Use the normal sampling model for p to solve forward probabilities, between regions and central inverse bounds, and explain how n changes precision.
+
+===== TABLE 125 =====
+R1: FORMULA / DECISION OBJECT
+Z=(p-π)/√[π(1-π)/n]. Central p bounds: π ± z*√[π(1-π)/n].
+
+===== TABLE 126 =====
+R1: SAY ALOUD
+For a sample proportion probability, I centre at pi, use the theoretical proportion SE, sketch the p region, and then standardise.
+
+===== TABLE 127 =====
+R1: COMMON TRAP
+Do not apply continuity correction to the p model used in this Chapter 7 sampling-distribution route; that belongs to the Chapter 6 binomial-count approximation problem.
+
+===== TABLE 128 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If n increases while π stays fixed, what happens to the sampling distribution of p?
+A. It narrows around the same centre π
+B. Its centre moves toward 0
+C. Its SE increases
+
+===== TABLE 129 =====
+R1: YOUR TURN - work independently
+Tutorial 7 Q8(a): π=0.20, n=100. Approximate P(0.15<p<0.25).
+Answer: ______________________________
+
+===== TABLE 130 =====
+R1: EXIT CRITERION
+You can solve forward and inverse p questions and explain the effect of larger n on the distribution.
+
+===== TABLE 131 =====
+R1: OBJECTIVE
+Treat X̄₁-X̄₂ as one random variable, preserve group order, combine variances correctly and translate comparison wording into a threshold.
+
+===== TABLE 132 =====
+R1: FORMULA / DECISION OBJECT
+μdiff=μ₁-μ₂; SEdiff=√(σ₁²/n₁+σ₂²/n₂); Z=[(X̄₁-X̄₂)-(μ₁-μ₂)]/SEdiff.
+
+===== TABLE 133 =====
+R1: SAY ALOUD
+I freeze the order one minus two, centre the difference at mu one minus mu two, add variances inside the square root, then translate the wording to a threshold.
+
+===== TABLE 134 =====
+R1: COMMON TRAP
+Do not reverse the groups because an observed mean is larger, and do not centre the difference at zero unless μ₁-μ₂ actually equals zero.
+
+===== TABLE 135 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+“Mean 1 exceeds mean 2 by more than 25” translates to which event?
+A. X̄₁−X̄₂>25
+B. X̄₂−X̄₁>25
+C. X̄₁+X̄₂>25
+
+===== TABLE 136 =====
+R1: YOUR TURN - work independently
+Tutorial 7 Q12(a): μ1=280,σ1=25, μ2=270,σ2=30, n1=n2=10. Find P(X̄1−X̄2>25).
+Answer: ______________________________
+
+===== TABLE 137 =====
+R1: EXIT CRITERION
+You can preserve order, build the difference model, translate thresholds and calculate a probability independently.
+
+===== TABLE 138 =====
+R1: OBJECTIVE
+Recognise when sampling without replacement from finite N changes the standard error, while preserving the current system's provisional scope flag for these Chapter 7 skills.
+
+===== TABLE 139 =====
+R1: FORMULA / DECISION OBJECT
+FPC=√[(N-n)/(N-1)]. Mean SE=σ/√n × FPC. Proportion SE=√[π(1-π)/n] × FPC.
+
+===== TABLE 140 =====
+R1: SAY ALOUD
+Finite population correction needs finite N, sampling without replacement and a meaningful sampling fraction. It narrows the SE; it does not change the centre.
+
+===== TABLE 141 =====
+R1: COMMON TRAP
+Do not use FPC with replacement, and do not let this teaching lesson silently convert the existing PROVISIONAL mastery status into ACTIVE evidence.
+
+===== TABLE 142 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+N=200, n=16, sampling without replacement. Under the source rule, apply FPC?
+A. Yes, because n/N=0.08>0.05
+B. No, because n<30
+C. No, FPC is only for proportions
+
+===== TABLE 143 =====
+R1: YOUR TURN - work independently
+For N=1000 and n=100 without replacement, enter the FPC √[(N−n)/(N−1)].
+Answer: ______________________________
+
+===== TABLE 144 =====
+R1: EXIT CRITERION
+You can identify the FPC trigger, calculate the corrected SE and explain what the correction changes.
+
+===== TABLE 145 =====
+R1: OBJECTIVE
+Select the correct Chapter 7 route before calculation and connect the chapter to the Excel-first A1S2 workflow.
+
+===== TABLE 146 =====
+R1: FORMULA / DECISION OBJECT
+Decision spine: Object → centre → SE → conditions/model → region → standardise → cumulative/inverse calculation → contextual interpretation.
+
+===== TABLE 147 =====
+R1: SAY ALOUD
+I do not start with a formula. I start by naming what is random, then I write its centre and standard error, check conditions, draw the region, and only then calculate.
+
+===== TABLE 148 =====
+R1: COMMON TRAP
+Do not let a familiar Excel function conceal a wrong random object or wrong distribution.
+
+===== TABLE 149 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+A question asks for the probability that a sample average exceeds a boundary, population σ is unknown and s is supplied. What is the route?
+A. X̄ → Student t
+B. X → normal with σ
+C. p → normal approximation
+
+===== TABLE 150 =====
+R1: YOUR TURN - work independently
+Which sequence is safest in an A1S2-style problem?
+A. Identify object → choose model/SE → translate region → execute in Excel → interpret
+B. Open Excel → try functions until one returns a number
+C. Use Z whenever n is large
+
+===== TABLE 151 =====
+R1: EXIT CRITERION
+You can route an unlabelled Chapter 7 problem correctly and execute it without lesson support.
+
+===== TABLE 152 =====
+R1: SCOPE
+C8.01-C8.68 core is included. C8.69-C8.75 auditing/population-total extension remains HOLD and is excluded from ordinary A1S2 study.
+
+===== TABLE 153 =====
+R1: OBJECTIVE
+Distinguish a population parameter from its sample estimator, distinguish point from interval estimation, and explain unbiasedness, consistency and relative efficiency in the terminology used by the Chapter 8 slides.
+
+===== TABLE 154 =====
+R1: FORMULA / DECISION OBJECT
+Population mean μ ← estimated by X̄; population proportion π ← estimated by p. Point estimate = one statistic; interval estimate = point estimate plus quantified uncertainty.
+
+===== TABLE 155 =====
+R1: SAY ALOUD
+The parameter belongs to the population; the estimator comes from the sample. A point estimate is one number. A confidence interval adds uncertainty. Unbiased means centred correctly, consistent means improving with larger n, and relative efficiency means smaller variance among unbiased estimators.
+
+===== TABLE 156 =====
+R1: COMMON TRAP
+Do not swap the population parameter with the sample statistic, and do not treat a confidence interval for a parameter as a range for individual observations.
+
+===== TABLE 157 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Two estimators are both unbiased for the same parameter. Estimator A has variance 4 and estimator B has variance 9. Which is relatively more efficient?
+A. Estimator A
+B. Estimator B
+C. They are equally efficient
+
+===== TABLE 158 =====
+R1: YOUR TURN - work independently
+Which statement matches consistency?
+A. The estimator tends to get closer to the parameter as n increases.
+B. The estimator is exactly equal to the parameter in every sample.
+C. The estimator must have variance zero.
+
+===== TABLE 159 =====
+R1: EXIT CRITERION
+You can name the parameter, its estimator, point versus interval estimation, and all three estimator characteristics without looking.
+
+===== TABLE 160 =====
+R1: OBJECTIVE
+Understand what a confidence interval says, connect confidence level to α and α/2, identify margin of error, and avoid the fixed-interval probability mistake.
+
+===== TABLE 161 =====
+R1: FORMULA / DECISION OBJECT
+Confidence interval = Point estimate ± Margin of error, where Margin of error = Critical value × Standard error.
+
+===== TABLE 162 =====
+R1: SAY ALOUD
+Confidence describes the long-run interval procedure, not a probability that the fixed parameter moves around. For 95%, alpha is 0.05 and each tail gets 0.025.
+
+===== TABLE 163 =====
+R1: COMMON TRAP
+Do not say there is a 95% probability that the fixed parameter lies in the one interval already computed, and do not say 95% of individuals lie inside the CI.
+
+===== TABLE 164 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+After a 95% confidence interval has been calculated, which statement is source-aligned?
+A. We are 95% confident using a procedure that captures the parameter in 95% of such intervals.
+B. There is a 95% probability that the fixed parameter now lies in this one interval.
+C. 95% of individual observations must lie inside the interval.
+
+===== TABLE 165 =====
+R1: YOUR TURN - work independently
+A two-sided confidence interval has confidence level 98%. What is α/2? Enter a decimal.
+Answer: ______________________________
+
+===== TABLE 166 =====
+R1: EXIT CRITERION
+You can move from confidence level → α → α/2 and can give the correct long-run interpretation aloud.
+
+===== TABLE 167 =====
+R1: OBJECTIVE
+Recognise the known-σ mean interval, check the source assumptions, calculate zα/2, standard error, margin of error and limits, then interpret the interval in context.
+
+===== TABLE 168 =====
+R1: FORMULA / DECISION OBJECT
+X̄ ± zα/2(σ/√n)
+
+===== TABLE 169 =====
+R1: SAY ALOUD
+Mean parameter, sigma known: use Z. Standard error is sigma over root n. Interval is X-bar plus or minus z alpha over two times that standard error.
+
+===== TABLE 170 =====
+R1: COMMON TRAP
+Do not use Student t merely because a sample is involved: when population sigma is explicitly known, the source route is Z. Also do not forget the square root of n in the standard error.
+
+===== TABLE 171 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+A question asks for a confidence interval for μ and explicitly gives population σ. Which critical distribution is used?
+A. Standard normal Z
+B. Student t
+C. Exponential
+
+===== TABLE 172 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q2: X̄=125, σ=24, n=36. Construct the 99% confidence interval for μ. Enter lower and upper limits.
+
+===== TABLE 173 =====
+R1: EXIT CRITERION
+You can recognise known σ instantly and calculate the complete interval from confidence level to interpretation without prompts.
+
+===== TABLE 174 =====
+R1: OBJECTIVE
+Explain why Student t replaces Z when σ is unknown, calculate df=n-1, understand the shape of the t family, and read the exact supplied t table correctly.
+
+===== TABLE 175 =====
+R1: FORMULA / DECISION OBJECT
+df = n-1; for a two-sided (1-α) confidence interval use the t critical value with upper-tail area α/2.
+
+===== TABLE 176 =====
+R1: SAY ALOUD
+Sigma unknown means I pay for the extra uncertainty with Student t. Degrees of freedom are n minus one. For a two-sided confidence interval I use alpha over two in each tail.
+
+===== TABLE 177 =====
+R1: COMMON TRAP
+Do not use df=n, and do not read a probability out of the body of the supplied t table. The body contains t values; choose the correct df row and tail-probability column.
+
+===== TABLE 178 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For n=10 and a 95% two-sided confidence interval, which row and tail area should you use in the supplied t table?
+A. df=9 and one-tail 0.025
+B. df=10 and one-tail 0.05
+C. df=9 and one-tail 0.05
+
+===== TABLE 179 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q9(e): 90% confidence and n=16. Find the positive t critical value from the supplied table.
+Answer: ______________________________
+
+===== TABLE 180 =====
+R1: EXIT CRITERION
+You can read the exact supplied t table without guessing a column and can explain why t approaches Z as df increases.
+
+===== TABLE 181 =====
+R1: OBJECTIVE
+Construct and interpret a mean confidence interval when σ is unknown using s, Student t and df=n-1, including the source-supported normality check and Excel route.
+
+===== TABLE 182 =====
+R1: FORMULA / DECISION OBJECT
+X̄ ± tα/2,df (s/√n), with df=n-1.
+
+===== TABLE 183 =====
+R1: SAY ALOUD
+Mean parameter, sigma unknown: use s and Student t with n minus one degrees of freedom. The interval estimates the population mean, not individual observations.
+
+===== TABLE 184 =====
+R1: COMMON TRAP
+Do not switch back to Z just because n looks large when population sigma is unknown in this Chapter 8 route; use sample s and Student t with df=n-1. The interval estimates mu, not an individual value.
+
+===== TABLE 185 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Why does the source switch from Z to t when σ is unknown?
+A. Because replacing σ with variable sample s adds uncertainty.
+B. Because t is used for every sample size regardless of σ.
+C. Because X̄ is no longer a mean.
+
+===== TABLE 186 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q10(a): n=24, X̄=141.3, s=19.1. Assuming normality, construct a 90% confidence interval for μ.
+
+===== TABLE 187 =====
+R1: EXIT CRITERION
+You can choose t from the wording, determine df, calculate the interval, and explain why the CI is about μ rather than one tyre or one observation.
+
+===== TABLE 188 =====
+R1: OBJECTIVE
+Use the sample proportion p to estimate π, check the source normal-approximation condition, calculate the estimated standard error and construct/interpret a z confidence interval.
+
+===== TABLE 189 =====
+R1: FORMULA / DECISION OBJECT
+p ± zα/2 √[p(1-p)/n]
+
+===== TABLE 190 =====
+R1: SAY ALOUD
+For a proportion interval, p estimates pi. I use p inside the estimated standard error, check np and n one-minus-p, then use the Z critical value.
+
+===== TABLE 191 =====
+R1: COMMON TRAP
+Do not use a null-hypothesis proportion inside a confidence-interval standard error. For the Chapter 8 proportion CI, use the observed sample p in the estimated SE.
+
+===== TABLE 192 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For a confidence interval for π, which quantity belongs inside the estimated standard error?
+A. Sample proportion p
+B. Null proportion π₀
+C. Population mean μ
+
+===== TABLE 193 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q8(a): 303 of 326 business people reported an interruption. Construct the 95% confidence interval for π.
+
+===== TABLE 194 =====
+R1: EXIT CRITERION
+You can compute p, verify the condition, build the interval and state the interpretation in terms of π.
+
+===== TABLE 195 =====
+R1: OBJECTIVE
+Determine the required sample size for estimating μ at a chosen confidence and margin of error, understand the role of σ, and always round the final requirement upward.
+
+===== TABLE 196 =====
+R1: FORMULA / DECISION OBJECT
+n = zα/2² σ² / e²; always round up.
+
+===== TABLE 197 =====
+R1: SAY ALOUD
+Sample size for a mean comes from the margin-of-error equation. Smaller error or higher confidence needs a larger n, and I always round the required n up.
+
+===== TABLE 198 =====
+R1: COMMON TRAP
+Never round a required sample size down or to the nearest integer. Round the final requirement upward. If sigma is unknown, use only the source-supported pilot/conservative estimate approach.
+
+===== TABLE 199 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+A sample-size formula gives n=96.04. What sample size is required?
+A. 97
+B. 96
+C. 96.04
+
+===== TABLE 200 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q5: σ=15, desired error ±5, 95% confidence. What required sample size should be used?
+Answer: ______________________________
+
+===== TABLE 201 =====
+R1: EXIT CRITERION
+You can derive/select the mean sample-size formula, explain each input and round up automatically.
+
+===== TABLE 202 =====
+R1: OBJECTIVE
+Determine required n for estimating π, decide whether to use a pilot/prior estimate or the conservative 0.5 value, and round upward.
+
+===== TABLE 203 =====
+R1: FORMULA / DECISION OBJECT
+n = zα/2² π(1-π) / e²; if no prior π is available, use 0.5; always round up.
+
+===== TABLE 204 =====
+R1: SAY ALOUD
+For proportion sample size I need confidence, margin and a value for pi. If no estimate exists, I use 0.5 because it is conservative, then I round n up.
+
+===== TABLE 205 =====
+R1: COMMON TRAP
+Use a supplied pilot/prior proportion when one is given; use 0.5 only when no estimate is available. Round the final required n upward.
+
+===== TABLE 206 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Why does the course use 0.5 when no prior proportion estimate is available?
+A. Because p(1−p) is maximised at 0.5, giving the conservative largest n.
+B. Because every population proportion equals 0.5.
+C. Because 0.5 removes the confidence level from the formula.
+
+===== TABLE 207 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q7(a): prior π=.45, e=.02, 95% confidence. What required n should be used?
+Answer: ______________________________
+
+===== TABLE 208 =====
+R1: EXIT CRITERION
+You can decide pilot π versus 0.5, calculate n and explain why upward rounding is mandatory.
+
+===== TABLE 209 =====
+R1: OBJECTIVE
+Recognise when sampling without replacement from finite N requires the course FPC rule, understand why the correction reduces standard error, and apply it to mean/proportion intervals.
+
+===== TABLE 210 =====
+R1: FORMULA / DECISION OBJECT
+FPC = √[(N-n)/(N-1)]. Mean CI: X̄ ± t(s/√n)FPC. Proportion CI: p ± z√[p(1-p)/n]FPC.
+
+===== TABLE 211 =====
+R1: SAY ALOUD
+Finite population means without replacement. I check n over N. If it is more than five percent, the FPC multiplies and reduces the usual standard error.
+
+===== TABLE 212 =====
+R1: COMMON TRAP
+Do not apply FPC merely because N appears in the question. The source requires sampling without replacement and uses n/N>0.05 as the practical trigger. Multiply the standard error by the FPC; do not add it.
+
+===== TABLE 213 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+N=1000 and n=20, sampled without replacement. According to the supplied source, what should you conclude about FPC?
+A. n/N=.02, so FPC has little or no practical effect.
+B. FPC is mandatory whenever N is finite.
+C. Use bootstrap instead of an interval.
+
+===== TABLE 214 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q11: X̄=75, s=24, n=36, N=200, sampled without replacement. Construct the 95% confidence interval for μ.
+
+===== TABLE 215 =====
+R1: EXIT CRITERION
+You can recognise the FPC trigger, write the factor from memory and explain why it narrows the interval.
+
+===== TABLE 216 =====
+R1: OBJECTIVE
+Compute the initial infinite/large-population sample size n₀, adjust it for finite N, and round the resulting required sample size upward.
+
+===== TABLE 217 =====
+R1: FORMULA / DECISION OBJECT
+n = n₀N / [n₀ + (N-1)], where n₀ is the unadjusted required sample size.
+
+===== TABLE 218 =====
+R1: SAY ALOUD
+For finite-population sample size I first calculate n-zero normally, then shrink it with n-zero N over n-zero plus N minus one, and round up.
+
+===== TABLE 219 =====
+R1: COMMON TRAP
+Keep n0 conceptually separate from the final finite-population n. Apply the finite adjustment to n0 and round the final adjusted requirement upward.
+
+===== TABLE 220 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which formula is the supplied finite-population sample-size adjustment?
+A. n=n₀N/[n₀+(N−1)]
+B. n=n₀/N
+C. n=N−n₀
+
+===== TABLE 221 =====
+R1: YOUR TURN - work independently
+Tutorial 8 Q12(b): N=1000, pilot p=.30, e=.05, 90% confidence. What finite-population required n should be used?
+Answer: ______________________________
+
+===== TABLE 222 =====
+R1: EXIT CRITERION
+You can distinguish n₀ from final n and perform the finite adjustment without mixing it into the original formula.
+
+===== TABLE 223 =====
+R1: OBJECTIVE
+Explain when bootstrapping is appropriate, distinguish the original sample from bootstrap resamples, preserve resample size n, build the resampling distribution and obtain confidence limits using the course ordered-array method.
+
+===== TABLE 224 =====
+R1: FORMULA / DECISION OBJECT
+Original sample → resample n values WITH replacement → compute X̄* → repeat m times → order X̄* values → take the course-specified α/2 tail cutoffs.
+
+===== TABLE 225 =====
+R1: SAY ALOUD
+Bootstrap resampling happens from the observed sample, with replacement, and every resample stays size n. I calculate the statistic for each resample, order those statistics and cut alpha over two from each tail.
+
+===== TABLE 226 =====
+R1: COMMON TRAP
+Bootstrap resampling is from the observed sample WITH replacement and keeps resample size n. Do not sort the original raw observations and call those the bootstrap confidence limits.
+
+===== TABLE 227 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which description is a bootstrap resample in the supplied Chapter 8 method?
+A. Select n values with replacement from the observed sample.
+B. Select n new values without replacement from the population.
+C. Generate n values from a fitted normal model.
+
+===== TABLE 228 =====
+R1: YOUR TURN - work independently
+An original sample contains a value only once. Can that value appear twice in one bootstrap resample?
+A. Yes, because resampling is with replacement.
+B. No, because a resample must preserve original frequencies exactly.
+C. Only if n is doubled.
+
+===== TABLE 229 =====
+R1: EXIT CRITERION
+You can narrate the seven source steps in order and explain why duplicates/omissions are normal in a bootstrap resample.
+
+===== TABLE 230 =====
+R1: OBJECTIVE
+Translate the Chapter 8 bootstrap algorithm into the workbook workflow demonstrated by the 2026 A1S2 practice test without memorising a particular dataset or inventing an unsupported cutoff convention.
+
+===== TABLE 231 =====
+R1: FORMULA / DECISION OBJECT
+Workbook execution = AVERAGE(each resample) → ordered bootstrap means → course-specified tail cutoffs. Keep the statistical method separate from the EMSLearn four-decimal answer-entry rule.
+
+===== TABLE 232 =====
+R1: SAY ALOUD
+In the exam workflow I use Excel to execute the resampling calculation, but I still need to understand why it is with replacement, why n stays fixed, what distribution I am building, and which ordered tail values the course asks for.
+
+===== TABLE 233 =====
+R1: COMMON TRAP
+Do not invent a 250-resample cutoff index that the supplied practice-test text never states. Execute the supported workbook workflow and use the course/question-specific cutoff convention actually provided.
+
+===== TABLE 234 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+What should you calculate for each bootstrap resample when the target is a confidence interval for the population mean?
+A. The resample mean X̄*
+B. Only the resample minimum
+C. A new population standard deviation σ
+
+===== TABLE 235 =====
+R1: YOUR TURN - work independently
+Which Excel step belongs immediately after you have generated/read all bootstrap resamples for a mean CI?
+A. Calculate AVERAGE for each resample.
+B. Calculate one grand average of every cell and stop.
+C. Replace repeated values so every resample is unique.
+
+===== TABLE 236 =====
+R1: EXIT CRITERION
+You can move between EMSLearn instructions and Excel without losing the statistical object, and you can state which parts are source-confirmed versus convention-dependent.
+
+===== TABLE 237 =====
+R1: OBJECTIVE
+Report a confidence interval in the complete form required by the Chapter 8 source and connect the whole chapter into one decision sequence.
+
+===== TABLE 238 =====
+R1: FORMULA / DECISION OBJECT
+Parameter -> task -> sigma/source conditions -> critical distribution / sample-size route -> finite/bootstrap branch -> calculate -> report interval + confidence level + n + contextual interpretation.
+
+===== TABLE 239 =====
+R1: SAY ALOUD
+A complete confidence-interval report gives the parameter in context, the interval, the confidence level, the sample size where relevant, and an interpretation. I choose the statistical route before I type an Excel formula.
+
+===== TABLE 240 =====
+R1: COMMON TRAP
+A correct pair of limits is not a complete statistical report when the question asks for interpretation or reporting.
+
+===== TABLE 241 =====
+R1: EXIT CRITERION
+You can choose the Chapter 8 method and produce a complete contextual report without relying on a formula label.
+
+===== TABLE 242 =====
+R1: SCOPE
+A1S2 SCOPE LOCK: only material through official Slide 51. This pack stops after Lesson 9.7.
+
+===== TABLE 243 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 244 =====
+R1: OBJECTIVE
+Build H0 and H1 around a population parameter, start from the H0 assumption, and use the source-approved decision language.
+
+===== TABLE 245 =====
+R1: SAY ALOUD
+My hypotheses are about a population parameter. I assume H0 is true, use the sample as evidence, and I either reject H0 or do not reject H0 - I never accept H0.
+
+===== TABLE 246 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+Which conclusion is valid source language?
+A. Do not reject H0
+B. Accept H0
+C. Prove H0 true
+
+===== TABLE 247 =====
+R1: YOUR TURN - work independently
+A company claims the population mean trip time is 110 minutes. Which H0 is correctly written?
+A. H0: μ=110
+B. H0: X̄=110
+C. H0: μ≠110
+
+===== TABLE 248 =====
+R1: EXIT CRITERION
+Move on when you can write H0/H1 from wording and automatically say "reject" or "do not reject," never "accept."
+
+===== TABLE 249 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 250 =====
+R1: OBJECTIVE
+Understand the two possible testing errors and predict how α, β, power, effect size, variance and n move together.
+
+===== TABLE 251 =====
+R1: SAY ALOUD
+Alpha is the chance I reject a true H0. Beta is the chance I fail to reject a false H0. Power is one minus beta. With fixed n, lowering alpha raises beta.
+
+===== TABLE 252 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+For fixed n, if α falls from .05 to .01, what happens to β?
+A. β increases
+B. β decreases
+C. β becomes α
+
+===== TABLE 253 =====
+R1: YOUR TURN - work independently
+Which change, all else fixed, increases power?
+A. Increase n
+B. Increase variance
+C. Move the true mean closer to μ0
+
+===== TABLE 254 =====
+R1: EXIT CRITERION
+Move on when you can draw the 2×2 truth/decision table from memory and predict the direction of β and power changes.
+
+===== TABLE 255 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 256 =====
+R1: OBJECTIVE
+Let H1 determine the rejection tail and place α correctly before looking up a critical value.
+
+===== TABLE 257 =====
+R1: SAY ALOUD
+Not equal means two tails. Less than means lower tail. Greater than means upper tail. Two tails split alpha; one tail gets all alpha.
+
+===== TABLE 258 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+H1: μ>500 means which test?
+A. Upper-tail
+B. Lower-tail
+C. Two-tail
+
+===== TABLE 259 =====
+R1: YOUR TURN - work independently
+For a lower-tail test at α=.01, where is the rejection region?
+A. Entire α=.01 in the left tail
+B. α/2 in both tails
+C. Entire α=.01 in the right tail
+
+===== TABLE 260 =====
+R1: EXIT CRITERION
+Move on when you can see H1 and immediately name the tail, allocate α and describe the rejection region.
+
+===== TABLE 261 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 262 =====
+R1: OBJECTIVE
+Recognise a known-σ one-sample mean test, compute Z, and make the critical-value decision.
+
+===== TABLE 263 =====
+R1: SAY ALOUD
+Mean plus known population sigma means Z. I use x-bar minus mu-zero over sigma divided by square root n, then compare with the rejection region set by H1 and alpha.
+
+===== TABLE 264 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+A mean is tested and σ is known. Which reference test does the source select?
+A. Z test
+B. Student t test
+C. Proportion Z test
+
+===== TABLE 265 =====
+R1: YOUR TURN - work independently
+ATM example: μ0=500, σ=120, n=36, X̄=550. What is Zcalc?
+Answer: ______________________________
+
+===== TABLE 266 =====
+R1: EXIT CRITERION
+Move on when you can identify known σ → Z and execute hypotheses → tail → SE → Z → critical comparison → contextual conclusion.
+
+===== TABLE 267 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 268 =====
+R1: OBJECTIVE
+Understand what the p-value means, calculate it for the correct tail, compare it with α, and reconstruct the deck's Excel route.
+
+===== TABLE 269 =====
+R1: SAY ALOUD
+The p-value is an extremeness probability under H0. If p is smaller than alpha I reject H0; otherwise I do not reject H0.
+
+===== TABLE 270 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+If p=.032 and α=.05, what is the decision?
+A. Reject H0
+B. Do not reject H0
+C. Accept H0
+
+===== TABLE 271 =====
+R1: YOUR TURN - work independently
+Lower-tail test with Z=−1.38. Enter the p-value to 4 d.p.
+Answer: ______________________________
+
+===== TABLE 272 =====
+R1: EXIT CRITERION
+Move on when you can explain the p-value in words, choose one-tail versus two-tail area, and reconstruct the source Excel formula without copying it.
+
+===== TABLE 273 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 274 =====
+R1: OBJECTIVE
+Use the source's equivalence between a two-tail Z test and the same-level confidence interval as a conceptual cross-check.
+
+===== TABLE 275 =====
+R1: SAY ALOUD
+For a two-tail Z test, the same-level confidence interval tells the same decision story: null value outside means reject; null value inside means do not reject.
+
+===== TABLE 276 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+A 95% CI for μ is (48,52) and H0:μ=50 in a two-tail α=.05 test. What should the test do?
+A. Do not reject H0
+B. Reject H0
+C. Accept H0
+
+===== TABLE 277 =====
+R1: YOUR TURN - work independently
+A same-level two-tail CI excludes μ0. What is the matching test decision?
+A. Reject H0
+B. Do not reject H0
+C. The two methods must disagree
+
+===== TABLE 278 =====
+R1: EXIT CRITERION
+Move on when you can predict the test decision just by locating μ0 relative to the same-level two-tail interval.
+
+===== TABLE 279 =====
+R1: CH9 SCOPE
+IN SCOPE: official Chapter 9 Slides 1-51. Later Chapter 9 sections are intentionally not printed in this exam-study pack.
+
+===== TABLE 280 =====
+R1: OBJECTIVE
+Switch correctly from Z to Student t when σ is unknown, use s and df=n-1, check the source assumptions, and choose the correct t tail/Excel function.
+
+===== TABLE 281 =====
+R1: SAY ALOUD
+Mean plus unknown population sigma means Student t. I use sample s, divide by square root n, and use degrees of freedom n minus one.
+
+===== TABLE 282 =====
+R1: KNOWLEDGE CHECK - answer before looking at the key
+n=25 and σ is unknown. What df is used?
+A. 24
+B. 25
+C. 26
+
+===== TABLE 283 =====
+R1: YOUR TURN - work independently
+Battery example: X̄≈473.4615, s≈210.7663, n=13, μ0=500. What is Tcalc?
+Answer: ______________________________
+
+===== TABLE 284 =====
+R1: EXIT CRITERION
+Move on when the phrase "σ unknown, s supplied" automatically triggers t, df=n-1 and the correct t-tail workflow.
+
+===== TABLE 285 =====
+R1: STOP HERE
+You have reached the A1S2 Chapter 9 cutoff. The lecturer announcement limits Chapter 9 to Slides 1-51. Do not spend scarce A1S2 revision time on the later detailed one-tail worked section, one-proportion tests, later power calculations, later planning/practical-significance or later ethics material unless the lecturer issues a newer clarification.
+
+===== TABLE 286 =====
+R1: WHAT MUST STILL BE AUTOMATIC
+H0/H1 -> tail -> sigma known? Z : t -> critical-value or p-value decision -> reject/do not reject H0 -> context. Also know Type I, Type II, alpha, beta and the basic meaning power=1-beta.

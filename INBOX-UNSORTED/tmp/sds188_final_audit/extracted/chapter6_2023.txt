@@ -1,0 +1,762 @@
+
+===== PAGE 1 =====
+The normal distribution 
+and other continuous 
+distributions
+Chapter 6
+
+===== PAGE 2 =====
+Objectives
+In this chapter, you learn:
+ To compute probabilities from the normal distribution.
+ How to use the normal distribution to solve business 
+problems.
+ To use the normal probability plot to determine whether 
+a data set is approximately normally distributed.
+ Compute probabilities from the uniform distribution.
+ Compute probabilities from the exponential distribution.
+===== PAGE 3 =====
+Continuous probability distributions
+ A continuous variable is a variable that can 
+assume any value on a continuum:
+ Thickness of an item.
+ Time required to complete a task.
+ Temperature of water.
+ Height of an item.
+ These can potentially take on any value 
+depending only on the ability to measure 
+precisely and accurately.
+===== PAGE 4 =====
+Continuous probability 
+distributions vary by shape
+• Symmetrical
+• Bell-shaped
+• Ranges from
+negative to
+positive infinity
+• Symmetrical
+• Also known as
+Rectangular
+Distribution
+• Every value between
+the smallest & largest
+is equally likely
+• Right skewed
+• Mean > Median
+• Ranges from
+zero to
+positive infinity
+===== PAGE 5 =====
+The normal distribution
+ Bell Shaped.
+ Symmetrical.
+ Mean = Median = Mode.
+ Location is determined by the 
+mean, .
+ Spread is determined by the 
+standard deviation, 
+.
+ The random variable has an 
+infinite theoretical range. That 
+is, 
+.
+Mean 
+= Median 
+= Mode
+X
+f(X)
+μ
+σ
+===== PAGE 6 =====
+The normal distribution shape
+X
+f(X)
+μ
+σ
+Changing μ shifts the 
+distribution left or right.
+Changing σ increases 
+or decreases the 
+spread.
+===== PAGE 7 =====
+By varying the parameters μ and σ, we 
+obtain different normal distributions
+ A and B have the same mean but different standard deviations.
+ A and C have the same standard deviation but different means.
+ B and C have different means and different standard deviations.
+
+===== PAGE 8 =====
+The normal distribution
+density function
+2μ)(X
+2
+1
+e
+2π
+1f(X)
+
+
+
+
+ 
+
+
+
+ The formula for the normal probability density function is:
+where e = the mathematical constant approximated by 2.7183
+π = the mathematical constant approximated by 3.1416
+μ = the population mean
+σ = the population standard deviation
+X = any value of the continuous variable
+===== PAGE 9 =====
+The standardised normal
+ Any normal distribution (with any mean and 
+standard deviation combination) can be 
+transformed into the standardised normal 
+distribution (Z).
+ To compute normal probabilities, one needs to 
+transform X units into Z units.
+ The standardised normal distribution (Z) has a 
+mean of 0 and a standard deviation of 1.
+===== PAGE 10 =====
+Translation to the standardised
+normal distribution
+ Translate from X to the standardised normal 
+(the “Z” distribution) by subtracting the mean
+of X and dividing by its standard deviation:
+σ
+μXZ 
+The Z distribution always has mean = 0 and 
+standard deviation = 1.
+===== PAGE 11 =====
+The standardised normal distribution
+ Also known as the “Z” distribution.
+ Mean is 0.
+ Standard Deviation is 1.
+Z
+f(Z)
+0
+1
+Values above the mean have positive Z-values.
+Values below the mean have negative Z-values.
+===== PAGE 12 =====
+The standardised normal 
+probability density function
+ The formula for the standardised normal 
+probability density function is:
+where e = the mathematical constant approximated by 2.7183
+π = the mathematical constant approximated by 3.1416
+Z = any value of the standardised normal distribution
+2(1/2)Z1f(Z) e
+2π
+
+===== PAGE 13 =====
+Example
+ If X is distributed normally with mean of 100 and 
+standard deviation of 50, the z value for X = 200
+is:
+ This means that  X = 200  is two standard 
+deviations above the mean of 100.
+===== PAGE 14 =====
+Comparing X and Z units
+Note that the shape of the distribution is the same, only the 
+scale has changed. We can express the problem in the 
+original units of X or in standardised units (Z).
+X ሺ𝜇 ൌ100, 𝜎ൌ 50ሻ
+Z ሺ𝜇 ൌ0, 𝜎ൌ 1ሻ
+===== PAGE 15 =====
+Calculate normal probabilities
+Probability is measured by the area under the 
+normal curve.
+Note: the probability of any individual value is zero. That is, P 𝑋ൌ𝑎 ൌ P 𝑋ൌ𝑏 ൌ 0.
+
+===== PAGE 16 =====
+f(X)
+Xμ
+Probability as area under the curve
+0.50.5
+The total area under the curve is 1, and the curve is 
+symmetric, so half is above the mean, half is below.
+1.0)XP( 
+0.5)XP(μ 0.5μ)XP( 
+===== PAGE 17 =====
+The cumulative standardised normal 
+table
+The cumulative standardised normal table gives 
+the probability less than a desired value of Z (i.e., 
+from negative infinity to Z).
+Example: 
+P(Z < 2) = 0.9772
+===== PAGE 18 =====
+The cumulative standardised normal 
+table (continue)
+The value within the 
+table gives the 
+probability from Z = 
+up to the desired Z 
+value.
+.9772
+2.0P(Z < 2) = 0.9772
+The row shows 
+the value of Z 
+to the first 
+decimal point.
+The column gives the value of 
+Z to the second decimal point.
+2.0
+...
+Z       0.00     0.01     0.02 …
+0.0
+0.1
+===== PAGE 19 =====
+General procedure for finding 
+normal probabilities
+ Draw the normal curve for the problem in
+terms of X.
+ Transform X-values to Z-values.
+ Use the cumulative standardised normal table.
+To calculate P(a < X < b)  when X is distributed 
+normally:
+===== PAGE 20 =====
+Calculating normal probabilities
+ Let X represent the time it takes (in seconds) 
+to download an image file from the internet.
+ Suppose X is normally distributed with a 
+mean of 18 seconds and a standard deviation 
+of 5 seconds. Calculate P(X < 18.6).
+18.6
+X
+18.0
+===== PAGE 21 =====
+ Let X represent the time it takes, in seconds to download an image 
+file from the internet.
+ Suppose X is normally distributed with a mean of 18 seconds and a 
+standard deviation of 5 seconds.  Calculate P(X < 18.6):
+Z0.120X18.618
+μ = 18
+σ = 5
+μ = 0
+σ = 1
+Calculate normal probabilities
+z ൌx െμ
+σ ൌ18.6 െ18.0
+5.0 ൌ0.12
+P(X < 18.6) P(Z < 0.12)
+===== PAGE 22 =====
+Z
+0.12
+Z .00 .01
+0.0 .5000 .5040 .5080
+.5398 .5438
+0.2 .5793 .5832 .5871
+0.3 .6179 .6217 .6255
+Solution: Calculate P(Z < 0.12)
+0.5478.02
+0.1 .5478
+Standardised normal probability 
+table (partial)
+0.00
+= P(Z < 0.12)
+P(X < 18.6)
+===== PAGE 23 =====
+Calculating normal upper tail probabilities
+ Suppose X is normally distributed with 
+mean 18 and standard deviation 5.  
+ Calculate P(X > 18.6).
+===== PAGE 24 =====
+ Calculate P(X > 18.6).
+Z
+0.12
+0
+Z
+0.12
+0.5478
+0
+1 1.0 - 0.5478 
+= 0.4522
+Calculate normal upper tail probabilities
+= 
+ଵ଼.଺ିଵ଼
+ହ
+===== PAGE 25 =====
+Calculating a normal probability 
+between two X values
+ Suppose X is normally distributed with mean 18 and 
+standard deviation 5. Calculate P(18 < X < 18.6).
+P(18 < X < 18.6)
+= P(0 < Z < 0.12)
+Z0.120
+X18.618
+Calculate Z-values:
+===== PAGE 26 =====
+Z
+0.12
+Solution: Calculate P(0 < Z < 0.12)
+0.0478
+0
+= P(0 < Z < 0.12)
+P(18 < X < 18.6)
+= P(Z < 0.12) – P(Z < 0)
+= 0.5478 - 0.5000 = 0.0478
+0.5000
+Z .00 .01
+0.0 .5000 .5040 .5080
+.5398 .5438
+0.2 .5793 .5832 .5871
+0.3 .6179 .6217 .6255
+.02
+0.1 .5478
+Standardised normal probability 
+table (partial)
+===== PAGE 27 =====
+ Suppose X is normally distributed with 
+mean 18 and standard deviation 5. 
+ Calculate P(17.4 < X < 18).
+X
+17.4
+18.0
+Probabilities in the lower tail 
+===== PAGE 28 =====
+Calculate P(17.4 < X < 18):
+Probabilities in the lower tail 
+X17.4 18.0
+0.0478
+0.4522
+Z-0.12 0
+The normal distribution is symmetric, so this probability is the 
+same as P(0 < Z < 0.12).
+P 17.4 ൏𝑋൏ 18.0 ൌP 𝑋൏ 18.0 െP 𝑋൏ 17.4
+ 
+ൌP 𝑍൏ 18 െ18
+5 െP 𝑍൏ 17.4 െ18.0
+5
+ 
+ൌP 𝑍൏ 0.00 െP 𝑍൏െ0.12
+ 
+ൌ0.5000 െ0.4522 ൌ0.0478
+===== PAGE 29 =====
+ Steps to find the X value for a known 
+probability:
+1.  Find the Z value for the known probability.
+2.  Convert to X units using the formula:
+Calculating the normal percentile:
+Given a normal probability, calculate the X value
+ZσμX 
+===== PAGE 30 =====
+X
+Z
+Example 1:
+ Let X represent the time it takes (in seconds) to 
+download an image file from the internet.
+ Suppose X is normally distributed with mean 18 and 
+standard deviation 5.
+ Find X such that 20% of download times are less than X.
+Finding the X value for a known probability
+଴
+===== PAGE 31 =====
+Find the Z value for 20% in the lower tail
+ 20% area in the lower 
+tail is consistent with a 
+Z value of -0.84.
+Standardised normal probability 
+table (partial)
+Z .03
+-0.9 .1762 .1736
+.2033
+-0.7 .2327 .2296
+.04
+-0.8 .2005
+.05
+.1711
+.1977
+.2266
+…
+…
+…
+…
+0.2
+X? 18.0
+Z-0.84 0
+1.  Find the Z value for the known probability
+Note: Use the closest probability value.
+===== PAGE 32 =====
+Z
+X
+2.  Convert to X units using the formula:
+Finding the X value
+So, 20% of the values from a distribution
+with mean 18 and standard deviation 5
+are less than 13.80.
+଴ ௢
+ 
+ 
+===== PAGE 33 =====
+Z
+X
+Finding the X value for a known probability
+Example 2:
+ Let X represent the time it takes (in seconds) to 
+download an image file from the internet.
+ Suppose X is normally distributed with mean 18 and 
+standard deviation 5.
+ Find X such that 5% of download times are less than X.
+଴
+===== PAGE 34 =====
+Find the Z value for 5% in the lower tail
+ 5% area in the lower tail is 
+consistent with a Z value:
+଴
+Standardised normal probability 
+table (partial)
+Z .03
+-1.7 .0418 .0409
+.0516
+-1.5 .0630 .0618
+.04
+-1.6
+.05
+.0401
+.0495
+.0606
+…
+…
+…
+…
+1.  Find the Z value for the known probability
+Note: When desired probability value is in 
+the middle, use average Z value.
+.0505
+===== PAGE 35 =====
+Z
+X
+2.  Convert to X units using the formula:
+Finding the X value
+So, 5% of the values from a distribution
+with mean 18 and standard deviation 5
+are less than 9.78.
+଴ ௢
+ 
+ 
+===== PAGE 36 =====
+Excel example for computing cumulative normal 
+probabilities
+X is normally distributed with mean of 7 and standard deviation of 2:
+
+===== PAGE 37 =====
+Evaluating data for normality
+ Not all continuous variables are normal.
+ It is important to evaluate how well the data set is 
+approximated by a normal distribution.
+ Normally distributed data should approximate the 
+theoretical normal distribution:
+ The normal distribution is bell shaped (symmetrical) where 
+the mean is equal to the median.
+ The empirical rule applies to the normal distribution.
+ Approximately 68.0% of the observations should lie within ሺ𝜇 േ 𝜎ሻ.
+ Approximately 95.0% of the observations should lie within ሺ𝜇 േ2𝜎ሻ.
+ Approximately 99.7% of the observations should lie within ሺ𝜇 േ3𝜎ሻ.
+===== PAGE 38 =====
+Evaluating data for normality
+Comparing data characteristics to theoretical properties:
+ Construct charts or graphs:
+ For small- or moderate-sized data sets, construct a stem-and-leaf 
+display or a boxplot to check for symmetry.
+ For large data sets, do the histogram or polygon and assess 
+closeness to bell-shape.
+ Evaluate normal probability plot:
+ Is the normal probability plot approximately linear (that is, a straight 
+line) with positive slope?
+ Compute descriptive summary measures
+ Do the mean, median and mode have similar values?
+===== PAGE 39 =====
+Constructing a normal probability plot
+ Arrange variable data (𝑋ൌ 𝑥ଵ, 𝑥ଶ,…, 𝑥௡ ) into ordered array, where 𝑛
+is the number of observations in 𝑋.
+ Create an index variable: 𝑗ൌ 1,2, … ,𝑛.
+ Generate probability values – 𝛼ଵ, 𝛼ଶ,…, 𝛼௡– such that 𝛼௝ൌ𝑗/ 𝑛൅ 1 .
+ Find corresponding standardised normal quantile values (Z values).
+ Plot the pairs of points with observed data values (X) on the vertical 
+axis and the standardised normal quantile values (Z) on the horizontal 
+axis.
+ Evaluate the plot for evidence of linearity.
+===== PAGE 40 =====
+Normal probability plot interpretation
+Left-skewed Right-skewedNormal
+Nonlinear plots indicate a deviation from normality.
+
+===== PAGE 41 =====
+X
+Z score
+A normal probability plot for data from a normal 
+distribution will be approximately linear.
+The normal probability plot interpretation
+Commuting Time (mins) Data
+Z ScoreProbability
+(𝜶)
+Index
+(j)X
+-1.53410.0625124.60
+-1.15030.1250227.43
+-0.88710.1875327.93
+-0.67450.2500428.08
+-0.48880.3125529.24
+-0.31860.3750630.49
+-0.15730.4375730.72
+0.00000.5000831.93
+0.15730.5625932.11
+0.31860.62501033.51
+0.48880.68751134.19
+0.67450.75001234.79
+0.88710.81251334.91
+1.15030.87501437.26
+1.53410.93751539.47
+===== PAGE 42 =====
+Z score
+Commuting Time 
+(mins)
+Evaluating normality:
+Normal probability plot
+Plot is close to a straight line and shows the distribution is approximately 
+normal. (A normal distribution appears as a straight line.)
+===== PAGE 43 =====
+Commuting time (mins)
+Evaluating normality:
+Box plot
+The box plot appears approximately symmetric. 
+(The normal distribution is symmetric.)
+===== PAGE 44 =====
+Evaluating normality:
+Comparing data characteristics
+Descriptive statistics for commuting time (mins) data
+===== PAGE 45 =====
+Evaluating normality:
+Comparing data characteristics
+• The mean time (31.78 mins) is approximately the same as the median time (31.93 mins).  (In a normal 
+distribution the mean and median are equal.)
+• 73.33% of the observations are within 1 standard deviation of the mean. (In a normal distribution this 
+percentage is ൎ68%.)
+• 100% of the observations are within 2 standard deviations of the mean.  (In a normal distribution this 
+percentage is ൎ95%.)
+• 100% of the observations are within 3 standard deviations of the mean. (In a normal distribution this 
+percentage is ൎ99.7%.)
+• The skewness statistic is ൎ0.15 and the kurtosis statistic is ൎെ0.33. These values are close to zero. (In 
+a normal distribution, each of these statistics equals zero.)
+• The difference between the median and minimum times (7.33 mins) is approximately the same as the 
+difference between the maximum and median times (7.54 mins). (In a normal distribution these 
+differences are equal.)
+• The difference between the median and first quartile (3.85 mins) is greater than the difference between 
+the third quartile and median (2.86 mins). (In a normal distribution these differences are equal.)
+• The difference between the first quartile and the minimum time (3.48 mins) is less than the difference 
+between the maximum time and the third quartile (4.68 mins). (In a normal distribution these differences 
+are equal.)
+Conclusion: Distribution of commuting time is approximately normal.
+===== PAGE 46 =====
+The uniform distribution
+ The uniform distribution is a probability 
+distribution that has equal probabilities
+for all possible outcomes of the random 
+variable.
+ Also called a rectangular distribution.
+===== PAGE 47 =====
+The continuous uniform distribution:
+where
+f(X) = value of the density function at any X value
+a = minimum value of X
+b = maximum value of X
+The uniform distribution
+otherwise   0  
+bXaifab
+1 
+f(X) =
+===== PAGE 48 =====
+Properties of the uniform distribution
+ The expected value (mean) of a uniform 
+distribution is:
+ The standard deviation is:
+ Cumulative uniform distribution:
+2
+baμ 
+12
+a)-(bσ
+2
+
+௧ି௔
+௕ି௔ for 
+===== PAGE 49 =====
+Uniform distribution example
+Example: Uniform probability distribution
+over the range 2 ≤ X ≤ 6:
+f(X) =           = 0.25   for  2 ≤ X ≤ 66 - 2
+1
+26
+0.25
+X
+f(X)
+42
+62
+2
+baμ 
+1547.112
+2)-(6
+12
+a)-(bσ
+22
+
+===== PAGE 50 =====
+Uniform distribution example
+Approach A
+Example: Let X be uniformly distributed over 
+range 2 ≤ X ≤ 6. Calculate P(3 ≤ X ≤ 5).
+P(3 ≤ X ≤ 5) = (Base)x(Height) = (2)(0.25) = 0.5
+26
+0.25
+X
+f(X)
+35 4
+===== PAGE 51 =====
+f(X)
+X
+Uniform distribution example
+Approach B
+Example: Let X be uniformly distributed over 
+range 2 ≤ X ≤ 6. Calculate P(3 ≤ X ≤ 5).
+===== PAGE 52 =====
+Normal approximation to binomial 
+distribution
+ When number of trials ( ) are large, doing calculations 
+using the binomial distribution may become tedious. In 
+such case, a normal approximation may be used. 
+ If is such that and are both greater than , 
+then Binomial may be approximated with a 
+Normal distribution.
+===== PAGE 53 =====
+Normal approximation to binomial 
+distribution (cont’d)
+Therefore, if Binomial and both 
+and are greater than 5, then
+Normal
+where is the probability of a success.
+===== PAGE 54 =====
+Approximate binomial estimation
+Continuity correction
+Binomial distribution
+• Only integer outcomes.
+•
+Normal distribution
+• Outcome within .
+•
+ Thus, it is important to use correction for continuity 
+adjustment to compute approximate binomial probabilities 
+with normal distribution.
+ Let ௔denote approximate:
+• ௔ .
+• ௔ .
+• ௔ .
+• ௔ .
+===== PAGE 55 =====
+Normal approximation to binomial 
+distribution (Example)
+A flight can accommodate 300 passengers for 
+a single trip. However, not all bookings are 
+usually taken up. Thus, an airline company 
+accept 350 bookings per flight hoping that not 
+more than 300 passengers show up for a 
+flight. If bookings are taken up independently 
+with a probability of 0.8, what is the probability 
+that more than 300 passengers show up for a 
+flight when 350 bookings have been made?
+===== PAGE 56 =====
+Normal approximation to binomial 
+distribution (Example)
+Let represent the number of passengers that 
+show up for a flight. Also, let ௔denote 
+approximate. Then,
+Binomial  and ௔ N
+===== PAGE 57 =====
+Standardised normal probability 
+table (partial)
+Approximate binomial estimation
+𝑧ൌ  𝑥௔െ𝑛 𝜋
+𝑛𝜋ሺ1 െ𝜋 ሻ
+ൌ 𝑥௔ െ280
+350 ∗ 0.80 ∗ 0.20
+P 𝑋൐ 300 ൌ1 െP 𝑋൑ 300
+ൎ1 െP 𝑋௔൏300.5
+ൌ1 െP 𝑍൏ 300.5 െ280
+56
+ൎ1 െP 𝑍൏ 2.74
+ൌ1 െ0.9969 ൌ0.0031
+Z .02 .03
+2.6 .9956 .9957 .9959
+.9967 .9968
+2.8 .9976 .9977 .9977
+2.9 .9982 .9983 .9984
+.04
+2.7 .9969
+===== PAGE 58 =====
+The exponential distribution
+ If events occur at random at an average rate 
+per unit time. The length of time between 
+events has an exponential distribution.
+ The exponential distribution is a continuous 
+probability distribution that is positively 
+skewed and ranges from zero to positive 
+infinity.
+===== PAGE 59 =====
+The exponential density function:
+where
+𝑋 = length of time between randomly occurring events
+𝑓ሺ𝑋ሻ= value of the density function at any 𝑋 value
+𝜆 = average rate of event occurrence
+𝑒 = Euler’s Constant ൎ2.7183
+The exponential distribution
+ିఒ௑
+===== PAGE 60 =====
+The exponential distribution
+
+===== PAGE 61 =====
+Properties of the exponential 
+distribution
+ The expected value (mean) of an exponential 
+distribution is:
+ The variance of an exponential distribution is:
+ଶ
+===== PAGE 62 =====
+Cumulative distribution of the
+exponential distribution
+ Probabilities may be computed for the 
+exponential distribution with the formula:
+ିఒ௧ for      
+where
+𝑋 = length of time between randomly occurring events
+𝜆 = average rate (expected value)
+𝑒 = mathematical constant approximately 2.7183
+ 𝑡 = specific time
+===== PAGE 63 =====
+Exponential distribution example
+ A computer breaks down, on average, twice per week. 
+What is the probability that the computer does not break 
+down in a three weeks.
+ Event of interest is the length of time between 
+breakdowns.
+ Unit of time used to express the rate of occurrence = 
+weekly.
+ Therefore, Exponential . Note =2. 
+===== PAGE 64 =====
+Exponential distribution example
+For calculation use
+ିఒ௧
+Thus, the probability that the computer will not break within 
+three weeks is
+ିଶൈଷ
+ି଺
+===== PAGE 65 =====
+Chapter summary
+In this chapter we discussed:
+ Computing probabilities from the normal distribution.
+ Using the normal distribution to solve business problems.
+ Using the normal probability plot to determine whether a 
+set of data is approximately normally distributed.
+ Compute probabilities from the uniform distribution.
+ Approximate binomial with normal distribution.
+ Compute probabilities from the exponential distribution.

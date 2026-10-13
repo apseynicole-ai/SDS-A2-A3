@@ -1,0 +1,263 @@
+[0:00]
+Okay. Good morning, everybody. It's good to see you all again. I hope you are feeling rested after the weekend. So we are...
+
+[0:55]
+We're getting there slowly but surely. We are almost done with chapter 13, and then we have just chapter 14 left. I don't think chapter 14 is too long, and then we start looking ahead and revising for a two. So before we just jump into the coefficient of determination, I want to give the overview of how everything fits in so far. So I'm gonna write down steps.
+
+[1:31]
+Now these are not the official steps. These are just... If I were to give a logical ordering to what is happening in the regression pipeline, this is the ordering that I would give it. So, generally, before you even start modeling anything, you would start with a scatter plot. So a scatter plot suggests a potential linear relationship between x and y, where x is your independent variable and y is your dependent variable.
+
+[2:35]
+Then step two would be we estimate the regression equation. Which one do we estimate? The one that looks like this. Y hat equal to b zero plus b one times x. And, specifically, what we're looking for is b zero and b one because x, you get from the data, and y hat, you just get after plugging everything else into the formula.
+
+[3:16]
+So you estimate this from the data. How do you estimate this? Using the least squares method. For you, that means either using the formulas or the calculator to get b zero and b one or just reading it off of the Excel output. But if we were to do it correctly...
+
+[3:45]
+Most of the time, we get software to do it. But if you did actually want to do it by hand, you have to minimize the error function. So the SSE function, you have to minimize that. You have to find b zero and b one which produce the minimum SSE. But we spoke about that.
+
+[4:01]
+We spoke about how that optimization is done, and we spoke about the fact that you don't have to do that. You can just use the results which get you the best estimates. Okay. And then we should also mention that this is the sample estimate, which is... It's done on a sample of data of the population model.
+
+[4:31]
+Remember, it's always a sample estimate of something in the population, and it's no different here when we have a regression function. So the population model looks like this. It's y equal to beta zero plus beta one times x. Notice I've taken away the y hat. It's not an estimate now.
+
+[4:56]
+That is the actual relationship between x and y if we were to assume a linear relationship. And then we also have an additional error term which is indicated with the symbol epsilon. So just a note, I've spoken about this before as well. We don't have to estimate epsilon, which is the error term. The model errors or I'm gonna say errors slash residuals can be found after the fact via e I equal to y I minus y hat I.
+
+[6:05]
+So that's for each of my y's. I can look at the predicted y, and e is equal to the difference between actual and predicted y. So this is actual y. This is predicted y. So we don't concern ourselves with estimating it because it will...
+
+[6:24]
+The error will be there regardless. Okay. So that's the big step. That's the estimation step. But...
+
+[6:38]
+And I think this is probably where most people would think you stop. You've you've done the part of calculating the regression line, but we have to double check ourselves in many ways. The first way we have to double check ourself... So this would be... If...
+
+[7:01]
+In in... The next thing... The next logical thing to do is we want to determine how well our model actually fits the data. So this is sometimes known as goodness of fit diagnostics. And I actually want to maybe draw it for you just to help you see.
+
+[8:17]
+So here's a regression line in both cases. This one I'm gonna call a good fit, And this one, I'm just gonna call a less good fit. It feels too harsh to call it a bad fit, but a good fit might be like this. And a bad... Oh, let me stop myself.
+
+[8:43]
+A less good fit might look like that. So the difference is that there is a larger variation of points from the actual regression line. So it spreads out more from the regression line. So there's two goodness of fit diagnostics that we look at. There's r squared, which we'll learn about, and then there's the standard error of the estimate also known as s y x.
+
+[9:23]
+So this good fit will have high r squared and low standard error of the estimate, and this less good fit will have low r squared and high standard error of the estimate, s y x. So let's look at what r squared actually is. It's also known as the coefficient of determination. Okay. I'd suggest you learn it as coefficient of determination and just know that those terms are interchangeable.
+
+[10:46]
+I think most likely the exam would say coefficient of determination. Okay. So do we remember this thing, measures of variation? We spoke about that last time. We said that there's...
+
+[11:11]
+Y has variance about its mean, but that that variance about its mean can now be broken into the part that can be explained by the regression model, that's the explained variance, and the part that cannot be accounted for by their regression model, that's the unexplained variance. And, ideally, you want high explained variance and low unexplained variance. And we spoke about that breakdown or decomposition and what that might, look like conceptually. And I showed you on the regression output how to get it, and it's in a section called ANOVA. That stands for analysis of variance.
+
+[11:52]
+So this ANOVA is how we get our r squared and our standard error of the estimate. So you can think of it as, these goodness of fit measures are a better way to interpret your ANOVA output. So it's kind of a more interpretable form. Just like we've learned that the standard deviation is a more interpretable variance because variance is squared. Taking the square root brings it back to the units of the data.
+
+[12:22]
+This is kind of similar. So r squared is calculated like this. You take the SSR from the ANOVA, and you divide it by the SST from the ANOVA. So that is explained variation divided by total variation. So it tells me how good my model is doing at explaining.
+
+[13:12]
+Because this is... Because SSR is already a portion of the total, the consequence is here that r squared will be bounded, and it will be specifically bounded between zero and one Closer to zero means lower r squared. Well, obviously. But it means the explained variation is low. So the model is not so good of a fit, or the model is not doing a good job at explaining why.
+
+[14:17]
+And closer to one is obviously the inverse where the model is doing a good job. So closer to one model is a good fit. Okay. So let's look at some different r squareds. K.
+
+[15:01]
+That would be your perfect scenario, your perfect linear relationship between x and y. A 100% of the variation here is being explained by the... The... Of the variation in y is being explained by the variation in x. You're not going to get this very often or at all.
+
+[15:20]
+It's generally going to look more like this. So, like I said, we are thinking about how spread out the values actually are at their maximum from the line. So my top graph, the... They're a little bit closer together, which means that would be a high r... Higher r squared, but not perfectly one r squared.
+
+[15:42]
+And the bottom graph, they're a little bit more spread out, that is probably a lower, somewhat lower r squared, but that's not a zero r squared. It's still... My model is still doing something to explain what's happening. And then if there is no relationship, you'd get something like that, zero r squared. So you can see there is...
+
+[16:05]
+X is not doing anything to explain or predict y. So they're... I mean, we should probab... We probably would have seen that ahead of time when we looked at our scatterplot, so we probably wouldn't have gone through with even fitting this model. And on your Excel output, remember, we have to learn this output very well.
+
+[16:30]
+It's called r square, and it's up there. And you take it, and you get it as a proportion, but you... For interpretation, you can times it by a 100. So I'll... You can report the r squared as its proportion value, but when it comes to interpreting, it's better to convert it to a percentage.
+
+[16:52]
+If I left this out, if we didn't have this, I would still expect you to be able to provide me with the r squared because we have our SSR here. This is our SSE, remember, and this is our SST. So we can take our SSR divided by our SST, and that gives us our r square. So that is something we love to do. We love to leave something out, but you still have enough available on the output to calculate your r square.
+
+[17:26]
+The interpretation is very important. Okay. So I'm gonna use the house price example. So you take your r squared and you multiply it by a 100 so that you get your percentage. So here it's 0.58082.
+
+[17:47]
+So 58 o 8% of the variation in y, and I know they say house prices, but just... I'll just put that in brackets, house prices, is explained by the variation in x, which is square feet. So just to... And if you switch those around, if you tell me that the variation in x is being explained by the variation in y, I will give you zero for that because we're not trying to explain x. We're trying to explain y.
+
+[18:40]
+To make this perfect, I would be really happy if you... I know it's not in the slides, but we look for this. You can say through the estimated linear model. That is great. That's full marks interpretation, probably around three marks.
+
+[19:13]
+So the question will often be like, give and explain the r squared. That's how you get your full marks. Okay. Then we get to the standard error of the estimate. So this...
+
+[19:53]
+Usually, you you calculate both the r squared and the standard error. And this is s y x. We specifically say s y x to avoid confusion with s x y, which is the sample covariance from semester one. So that's why we say s y x. This one is equal to the square root of the SSE divided by its degrees of freedom n minus two.
+
+[20:49]
+SSE is your error sum of squares. Remember, it looks at how much the predicted or how much the actual y values deviate from the predicted line. So where we actually find it in the output is it's... There's our r squared. Our standard error is two below that.
+
+[21:19]
+So it's the standard error over there. And I said with r squared converted to a percentage, it would be incorrect to convert this standard error to a percentage because it's not a value that's bounded between zero and one. It's not a proportion of something. It is a unit of deviation. So remember how with, with normal standard error, we take the square root so that it is actually, how much does one point on average deviate, and we take the square roots that it's in the units of the original data.
+
+[21:58]
+Well, it's a similar thing here. We take the square root so that it's in the units of y. So when you want to say, is this a large value or a small value, you look at what is the range of y. So in this case, it's 41.3032. What are the units of y in the house price example?
+
+[22:16]
+It was in thousands of dollars. So we can times it with a thousand to get it in the units of y. So that gives you about 41,000. That's my standard error of the estimate. How do we see if it's big or small?
+
+[22:30]
+We look at what's the range of y. What was the range of y? If we looked at our original house price data, which is all the way back here, the house prices tend to start... Or maybe a scatter plot is better. They tend to start here at about 200 k and they go up to about 400 k.
+
+[22:52]
+So is 40 k large relative to 200 k and 400 k? Not really. It's not really a significant portion of that. It's quite small compared to that. So in this case, we would say it's a relatively small standard error of the estimate.
+
+[23:07]
+We like to have a small standard error of the estimate because, remember, that corresponds to a model that it's... Is doing a good job. So r squared and standard error kind of go hand in hand. When you have high r squared, you generally have low standard error of the estimate, and you... When you have low r squared, you generally have high standard error of the estimate.
+
+[23:27]
+So it's all about do the points cluster closely around the line or do they spread out from the line? So here you can see the interpretation. So they say it's moderately small relative to house price. So I'll just make a note here. We always interpret size relative to y?
+
+[24:00]
+So is it large relative to y? Okay. Happy so far? Any questions? Okay.
+
+[24:21]
+Then I'll bring you back to my tips. So we've done step one, establish that there is an indication of a linear relationship. Step two, actually estimate the regression equation. Step three is determine if our model is doing a good job. Once we've done that, we have to do step four.
+
+[25:10]
+And this step form, I would say, is... Should be called something like check model assumptions for violations. So what are these model assumptions? They follow an acronym. The acronym is l I n e.
+
+[25:50]
+Very clever of us because it spells out line, and we're looking at regression lines. But we... Why it's important to check these assumptions? Because it affects whether our inference will be correct or not. We'll talk a bit more about inference because that is step five actually, but, before we go to inference, we have to check our assumptions.
+
+[26:38]
+So assumption one is linearity. This one we kind of have checked already because we we start with a scatter plot. But, basically, it's the assumption that the relationship between x and y is linear. And there's two ways to check this. I'll show you what it looks like.
+
+[27:10]
+So it's either... Let me just go back for a second. It's either plot x versus y or plot x versus residuals. So what is a residual? So residual, which is also known as e is just equal to actual y minus predicted y.
+
+[27:48]
+So for each point in your dataset, you can calculate its residual. And if you look at x versus y, it's gonna look something like that maybe if we have a nice linear relationship. But if we if we take the residual and we plot x versus the residual, all that it does is is it takes this line and it just straightens it. So now you're isolating... Sorry.
+
+[28:20]
+That's now not y. I'm incorrect. That's our residual, and that's our x. And it kind of changes it so that it's in this horizontal orientation. So it...
+
+[28:36]
+It's just like taking that and just moving it like that. So it's basic... It should be centered around zero, because, generally, you should have zero deviation between, y... Actual y and predicted y. So it should be centered around zero, and it will spread out with varying degrees from that center point zero.
+
+[29:03]
+So it's just sometimes an easier way, to see. So let me show you what that looks like here. So here we have, on this left hand side, it is definitely not... These two are indicative of a violation of linearity. And here we have, the assumption is actually met.
+
+[29:32]
+So the top graph is just x versus y, the bottom graph is x versus residual. So you can see how it's just taken that slanting line and just leveled it out. That's what you do when you, you take out the effect of the model and you're just looking at the difference between y actual and y predicted. So, hopefully, we can all see that this is highly nonlinear. It exhibits kind of a curve effect, and this curve effect is easier to see when we flatten it out.
+
+[30:04]
+We can very clearly see that the residuals follow a pattern. This means that a linear model is perhaps not the most appropriate to describe this relationship. We might need to take a higher order model, some kind of polynomial model, which will allow for a curve, or we might have to perform a transformation on our data to render the relationship linear. You're looking to see kind of an even spread, and we wanna see white noise in our residuals, which means there's no pattern to it. There's no structure.
+
+[30:39]
+Our model has taken care of the... All the structure that needed to be taken care of, and the rest is just kind of a random scattering of points around that middle line. So there's no structure left to model. That is what we want to see. Pretty easy to check the linearity assumption, and we actually usually do it before even starting this exercise.
+
+[31:02]
+But, maybe it's worth it to just check it again after fitting the model and check it with the actual regression line plotted through just to double check, but that's the first assumption that we check. The next one that we check is independence of errors. So that's the I, independence. But we like to add of errors just to be specific about what we're talking about. Okay.
+
+[31:37]
+So this is needed when data is collected over time. So most of the... So house prices, it's just at one point in time, give me house prices and their associated square feet or house sizes and their associated price. That's not over time. What is something that is over time?
+
+[32:11]
+So, for example, stock prices. So, usually, you take one stock and you see what's the movement. Is it up today, down tomorrow? Is it on the rise? Is it falling?
+
+[32:28]
+So there's a a pattern over time that we're looking at there. Or, weather measurements, we look at... Was it raining yesterday? That means there's a higher chance that it rains today. So those observations are not independent.
+
+[32:44]
+They are very much dependent. Generally, for this kind of, check, we only plot x versus residual. So we don't generally do x versus y here because we want to see after the modeling has been done, is there any shape left? So on the left, we have a violation of the independence assumption. We have two violations.
+
+[33:22]
+Here, we can see that there is still kind of a unique shape that the residuals are taking. It's kind of this structure where they keep increasing. So that means that we could use a previous residual to calculate the next residual. If I can see that... If I were to, for example, cut the data here and I I could fit a model to that part of the data, and my model would tell me to keep going like that.
+
+[33:56]
+That means there's structure in the residuals. The previous residual affects the next residual. They are not independent. Here, if I cut the data, I can see there's a cyclical pattern. So that cyclical pattern, if I were to fit a model to that, that cyclical pattern would be predicted for the data that the model didn't see, so it would just carry on with this cyclical pattern.
+
+[34:20]
+It's not white noise. There is structure there, which means that my model is perhaps inappropriate for this kind of data because even after fitting a model, there's still structure left in the residuals. So that means they're not independent and my inference will be affected. What I want to see, no pattern. I wanna see white noise.
+
+[34:40]
+So here, there's no broad structure. They're just randomly scattered in kind of an even distribution away from the center line. So that's what I like to see. That means it's independent. Now for, this...
+
+[34:53]
+Like I said, it's only necessary if your data was, measured over time. In the house price example, it's not measured over time. So the slides even say that. Since the house price data was not collected over time, we don't need to check for independence. They did check for linearity, and they checked for linearity using the 10 data points.
+
+[35:12]
+And I I I think I say this every year. I don't really... I really have to use my imagination, to check this plot because I imagine they're saying, okay. It doesn't it doesn't really fluctuate beyond those points. I think small dots is noisy.
+
+[35:31]
+It's hard to see the true pattern. Ideally, you want a lot of dots points because then they confirm the pattern that you're trying to show, which is that it's supposed to kind of just be this random scattering. But now I don't know if there's shape or... Because it's so few dots points, don't know if there's an actual shape or if it's just I'm interpolating some shape because of the lack of data points. So if if it were me, I'd I'd wanna see that instead of trying to make the decision off of 10 data points, but that's what you're supposed to see.
+
+[36:07]
+Okay. Then normality. So this is normality of errors. Okay. And it's...
+
+[36:25]
+Actually, it took me a long time to understand this assumption, the normality of errors. Because I originally thought that the dots are needed to be normal. Doesn't always have to be normal. It's just the errors that have to be normal. So if we look at our residuals, if I if I plot my residuals against x...
+
+[36:58]
+So there I have x, and there I have residuals. And you know that that will be... If this is the zero line, it should be kind of spread out from the zero line. K. So what we want to see is if I turn this and I just kind of paid attention...
+
+[37:31]
+If I squashed all of this into just one dimension, I'd want to be able to draw a normal distribution. So my residuals themselves should be distributed normally. What that means is close clustering around the center and a symmetrical dispersion from the center. Does that make sense? So this will mean that I can perform the inference that I want to perform.
+
+[38:01]
+So there's a few things we can do. We can do stem and leaf display, not common. We can do box plot, somewhat more common, histogram, very nice, or a normal probability plot. That last one, the normal probability plot, is the one that is done most often, and they show that, for the house price example. So with the normal probability plot, you take the residuals.
+
+[38:41]
+You take the residuals versus the theoretical zed values. Remember, zed values come from the normal distribution. And what you're trying to see is... Are the zed values in direct proportion to the residuals? So it doesn't have to be a straight line through the origin, but it does have to be a straight line.
+
+[39:03]
+So can you draw a straight line through the zed values plotted against the residuals? And if you can, then they are consistent with a normal distribution. So a a big violation from normality would be if these points kind of started to flare out from this supposed centerline. So that would be an immediate violation. Here, you're happy because you can...
+
+[39:30]
+You're not really concerned with this kind of small fluctuation. You're concerned with big fluctuations away from the centerline. If you can pretty much... If you imagine doing a regression and that regression would have a high r squared, then you're happy. So, in the case of the data itself, this house price data, that's what our probability plot looks like, and I am pretty happy with that because I can draw a straight line through it.
+
+[40:01]
+This fluctuation is minor, so the conclusion is the normality assumption here is appropriate. Okay. And remember, minor fluctuations are exaggerated in small datasets. So just keep in mind that if this were a bigger dataset, it would show that pattern much better with more certainty. Okay.
+
+[40:22]
+Then, there's the steps for making the normal probability plot. You've done this before. It just now puts it in the specific context of the residuals. I've not seen it often happen that you'd have to actually draw the normal probability plot in the exam. It's definitely not a long answer question.
+
+[40:44]
+I think what you'd most likely get is, maybe you'd be given a plot and say, is the assumption of normality met or not? You should still know the steps to finding a normal probability plot just in case. But, generally, with this section of the work, we want to see, do you know the assumptions and you... Can you tell if the assumptions are violated? Not can you perform all the steps to constructing a normal probability plot.
+
+[41:10]
+Okay. Then that last one is the assumption of equal variance. And here again, you can either plot x versus y or you can plot x versus residuals. So those are the two plots you can make. With constant or equal variance, on the left, you see a violation of that.
+
+[41:52]
+So first of all, we have x versus y. And if you were to imagine drawing a normal distribution... I'm actually gonna do it over here. So I I like to look at the residual plot because it flattens it out, so it allows me to see the pattern better. There's my distribution.
+
+[42:14]
+But then if I keep going along increasing x, what happens to this distribution is its variance increases. So the spread of the residuals from the centerline widens as we go. So that means y is getting more and more erratic as x is increasing. We don't like that. We like to be able to draw preferably the same normal distribution all along the data as x increases.
+
+[42:44]
+So the problem is that our inference assumes that the variance is constant, so this can be... This can affect our inference if it is not. So this is a violation of the assumption. So what you're looking for is that funnel shape. You're wanting...
+
+[42:59]
+If you see the data kind of start spreading out like this from the center line, that is a violation of the constant variance assumption. Okay. So those are all of our assumptions. And, again, they give the 10 data points, and we're supposed to say whether this is constant variance or not. They say constant variance assumption is appropriate.
+
+[43:28]
+For me, it's it's difficult to see that from the data, but I'm not seeing any obvious funnel shapes. And, theoretically, you should be able to cap it like that and it's white noise in between. So we'll take the slides word for it. Okay. And then I'm just going to introduce the last section.
+
+[43:51]
+We're not going to get into it in detail. But now we've done step one, two, three, four. Four was checking our assumptions. Now step five, continuing from previous, is inference. Okay.
+
+[44:38]
+So just keep in mind that your b one, which is the slope estimate... So let's actually put that there. So remember, for the slope estimate, b one is an estimate of beta one, where b one you obtain from the sample, and beta one is if you were to estimate it from the population. Anytime we try to use something from the sample to say something about the population that is statistical inference. For all of...
+
+[45:35]
+For our inference to be valid, we have to check the line assumptions, so l I n e, all those needed to hold. And just remember that our estimate will have a distribution. So this sample estimate will have its own distribution, and that just means that if on a different day, we took a different number of data points, it might vary slightly. So it has a... It exhibits variability, and we have to use that distribution for our statistical inference.
+
+[46:21]
+What are our... What is the kind of statistical inference that we can do? Inference includes hypothesis tests where we try to say something about the true true population parameter. So we make a claim, and we check if the claim can be verified, or we construct a confidence interval. That is where we propose an interval that is likely to contain...
+
+[46:56]
+Or I shouldn't say likely because that suggests probability, but we have confidence that it contains the true population proportion. So it's back full circle. We're still dealing with estimates of population parameters. And whenever we have those, we have to do, the correct inference on those estimates. So that will be the final topic of the chapter, the inference that we can do, and then we'll be done.

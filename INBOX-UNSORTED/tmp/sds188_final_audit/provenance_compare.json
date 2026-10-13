@@ -1,0 +1,327 @@
+{
+  "html": "/Users/nicole/Desktop/Stats And Data Science 188/00_FINAL_USE/SDS188_A1S2_2026_MasterLearningSystem_FINAL.html",
+  "docx": "/Users/nicole/Desktop/Stats And Data Science 188/SDS188_A1S2_2026_COMPLETE_OFFLINE_PRINT_PACK (1).docx",
+  "lesson_range_paragraphs": [
+    48,
+    1113
+  ],
+  "substantive_lesson_blocks": 554,
+  "exact_normalized_substring_matches": 303,
+  "unmatched_blocks": 251,
+  "matched_character_share": 0.6459631037433581,
+  "unmatched_examples": [
+    {
+      "index": 54,
+      "chars": 59,
+      "matched": false,
+      "text": "Worked example - Why < and ≤ give the same continuous probability"
+    },
+    {
+      "index": 59,
+      "chars": 89,
+      "matched": false,
+      "text": "Result: Including or excluding one boundary point does not change a continuous probability."
+    },
+    {
+      "index": 60,
+      "chars": 116,
+      "matched": false,
+      "text": "Verify: If your reasoning depends on a positive probability at exactly one continuous value, stop and repair that idea."
+    },
+    {
+      "index": 79,
+      "chars": 52,
+      "matched": false,
+      "text": "Result: x=200 is 2 standard deviations above the mean."
+    },
+    {
+      "index": 80,
+      "chars": 90,
+      "matched": false,
+      "text": "Verify: A value above μ must produce a positive z-score; below μ must produce a negative one."
+    },
+    {
+      "index": 93,
+      "chars": 54,
+      "matched": false,
+      "text": "Worked example - Official download-time example: P(X<18.6)"
+    },
+    {
+      "index": 94,
+      "chars": 47,
+      "matched": false,
+      "text": "1. Given X~N(18,5²). We want the area left of 18.6."
+    },
+    {
+      "index": 97,
+      "chars": 64,
+      "matched": false,
+      "text": "4. Interpret: about 54.78% of download times are below 18.6 seconds."
+    },
+    {
+      "index": 99,
+      "chars": 96,
+      "matched": false,
+      "text": "Verify: 18.6 is slightly above the mean, so a left-tail probability slightly above 0.5 is sensible."
+    },
+    {
+      "index": 112,
+      "chars": 41,
+      "matched": false,
+      "text": "Worked example - 20th percentile of N(18,5²)"
+    },
+    {
+      "index": 114,
+      "chars": 40,
+      "matched": false,
+      "text": "2. Inverse standard normal gives z≈-0.8416."
+    },
+    {
+      "index": 117,
+      "chars": 48,
+      "matched": false,
+      "text": "Result: The 20th percentile is about 13.8 seconds."
+    },
+    {
+      "index": 118,
+      "chars": 86,
+      "matched": false,
+      "text": "Verify: A 20th percentile must lie below the mean, so a negative z and x<18 are sensible."
+    },
+    {
+      "index": 132,
+      "chars": 51,
+      "matched": false,
+      "text": "Worked example - Small-sample empirical-rule evidence"
+    },
+    {
+      "index": 134,
+      "chars": 45,
+      "matched": false,
+      "text": "2. Observed within 1s: 73% versus theoretical 68%."
+    },
+    {
+      "index": 135,
+      "chars": 46,
+      "matched": false,
+      "text": "3. Observed within 2s: 100% versus theoretical 95%."
+    },
+    {
+      "index": 136,
+      "chars": 48,
+      "matched": false,
+      "text": "4. Observed within 3s: 100% versus theoretical 99.7%."
+    },
+    {
+      "index": 137,
+      "chars": 121,
+      "matched": false,
+      "text": "5. For a small sample, these are treated as reasonably close; combine this with symmetry and plot evidence before concluding."
+    },
+    {
+      "index": 138,
+      "chars": 89,
+      "matched": false,
+      "text": "Result: The example is classified as approximately normal based on the collective evidence."
+    },
+    {
+      "index": 139,
+      "chars": 105,
+      "matched": false,
+      "text": "Verify: Do not write \"normal because 73%≈68%\". Your conclusion should explicitly combine the available evidence."
+    },
+    {
+      "index": 152,
+      "chars": 52,
+      "matched": false,
+      "text": "Worked example - Supplied commuting-time workbook (n=15)"
+    },
+    {
+      "index": 155,
+      "chars": 60,
+      "matched": false,
+      "text": "3. The first ordered X is 24.6. Plot the point (Z,X)=(-1.5341,24.6)."
+    },
+    {
+      "index": 156,
+      "chars": 59,
+      "matched": false,
+      "text": "4. Repeat through j=15, ending at α=15/16=0.9375 and Z≈1.5341."
+    },
+    {
+      "index": 157,
+      "chars": 87,
+      "matched": false,
+      "text": "5. Use a scatterplot and assess whether the cloud follows an approximately straight line."
+    },
+    {
+      "index": 158,
+      "chars": 88,
+      "matched": false,
+      "text": "Result: The plot is a theoretical-quantile check: approximate linearity supports normality."
+    },
+    {
+      "index": 159,
+      "chars": 73,
+      "matched": false,
+      "text": "Verify: Axes matter: Z belongs on x, ordered X on y in the official workflow."
+    },
+    {
+      "index": 172,
+      "chars": 49,
+      "matched": false,
+      "text": "Worked example - Tutorial 6 Q8: Uniform(0,10), P(5<X<7)"
+    },
+    {
+      "index": 174,
+      "chars": 50,
+      "matched": false,
+      "text": "2. Total width is 10. Target interval width is 7-5=2."
+    },
+    {
+      "index": 176,
+      "chars": 56,
+      "matched": false,
+      "text": "4. Equivalent area method: height=1/10=0.1, area=2×0.1=0.20."
+    },
+    {
+      "index": 178,
+      "chars": 86,
+      "matched": false,
+      "text": "Verify: The interval uses 20% of the total horizontal width, so 0.20 is visually sensible."
+    },
+    {
+      "index": 193,
+      "chars": 63,
+      "matched": false,
+      "text": "Worked example - Toll plaza: 50 cars/min, next car within 3 seconds"
+    },
+    {
+      "index": 194,
+      "chars": 47,
+      "matched": false,
+      "text": "1. Random object: waiting time, so use exponential."
+    },
+    {
+      "index": 195,
+      "chars": 50,
+      "matched": false,
+      "text": "2. λ=50 per minute. Convert 3 seconds to 0.05 minute."
+    },
+    {
+      "index": 199,
+      "chars": 103,
+      "matched": false,
+      "text": "Verify: With 50 arrivals per minute, a very short wait is quite likely, so a large probability makes sense."
+    },
+    {
+      "index": 213,
+      "chars": 48,
+      "matched": false,
+      "text": "Worked example - 80th percentile when λ=2 per week"
+    },
+    {
+      "index": 219,
+      "chars": 118,
+      "matched": false,
+      "text": "Verify: An 80th percentile is a positive waiting time. Substituting it back should give cumulative probability near 0.80."
+    },
+    {
+      "index": 227,
+      "chars": 41,
+      "matched": false,
+      "text": "6.10 - Normal Approximation to the Binomial"
+    },
+    {
+      "index": 234,
+      "chars": 61,
+      "matched": false,
+      "text": "Worked example - Tutorial 6 Q14: n=100, π=0.20, approximate P(X=25)"
+    },
+    {
+      "index": 237,
+      "chars": 45,
+      "matched": false,
+      "text": "3. Continuity correction: P(X=25)≈P(24.5<Xa<25.5)."
+    },
+    {
+      "index": 238,
+      "chars": 49,
+      "matched": false,
+      "text": "4. zL=(24.5-20)/4=1.125≈1.13; zU=(25.5-20)/4=1.375≈1.38."
+    },
+    {
+      "index": 239,
+      "chars": 48,
+      "matched": false,
+      "text": "5. Probability≈Φ(1.38)-Φ(1.13)=0.9162-0.8708=0.0454."
+    },
+    {
+      "index": 241,
+      "chars": 91,
+      "matched": false,
+      "text": "Verify: Without the ±0.5 slice, a continuous model would assign zero probability to exactly 25."
+    },
+    {
+      "index": 250,
+      "chars": 71,
+      "matched": false,
+      "text": "Offline tracker: [ ] 7.1  [ ] 7.2  [ ] 7.3  [ ] 7.4  [ ] 7.5  [ ] 7.6  [ ] 7.7  [ ] 7.8  [ ] 7.9  [ ] 7.10  [ ] 7.11  [ ] 7.12  [ ] 7.13"
+    },
+    {
+      "index": 262,
+      "chars": 40,
+      "matched": false,
+      "text": "Excel route - rehearse the syntax on paper"
+    },
+    {
+      "index": 263,
+      "chars": 106,
+      "matched": false,
+      "text": "1. Excel can calculate a realised sample statistic, but it does not decide what the random object is for you."
+    },
+    {
+      "index": 264,
+      "chars": 98,
+      "matched": false,
+      "text": "2. Before typing a function, name the statistic whose repeated values form the sampling distribution."
+    },
+    {
+      "index": 266,
+      "chars": 64,
+      "matched": false,
+      "text": "1. Imagine repeatedly selecting 50 students from the same college."
+    },
+    {
+      "index": 267,
+      "chars": 59,
+      "matched": false,
+      "text": "2. Each sample produces a possibly different sample mean GPA."
+    },
+    {
+      "index": 268,
+      "chars": 79,
+      "matched": false,
+      "text": "3. Collect the possible sample means rather than the 50 raw GPAs from one sample."
+    },
+    {
+      "index": 269,
+      "chars": 76,
+      "matched": false,
+      "text": "4. The distribution of those possible means is the sampling distribution of X̄."
+    }
+  ],
+  "html_lesson_field_comparison": {
+    "included_lessons": {
+      "6": 10,
+      "7": 13,
+      "8": 13,
+      "9": 7
+    },
+    "substantive_source_fields": 1098,
+    "represented_in_docx": 1098,
+    "missing_from_docx": 0,
+    "represented_character_share": 1.0,
+    "missing_examples": []
+  }
+}

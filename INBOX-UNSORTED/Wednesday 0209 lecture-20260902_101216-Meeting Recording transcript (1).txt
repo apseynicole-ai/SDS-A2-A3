@@ -1,0 +1,188 @@
+[0:00]
+Okay. Good morning, everybody. Good to see you all again. So we are carrying on. Last time, we stopped just before the example for two population means, So we're going to take it from there.
+
+[1:15]
+So, again, just a reminder of where we are. We are looking at the first of the four types of two sample tests that we have to do in this chapter. So we're still at independent samples comparing population needs. Previous lecture, we just looked at the assumptions for the test. We looked at the forms that the test can take.
+
+[1:45]
+We looked at the pooled variance and how that impacts the calculation of the standard error and the test statistic. We also looked at a confidence interval, and now we are putting it all together. Alright. So we've got this example here comparing the sales of a product from two different in store locations, special upfront and in aisle, and we have the following monthly data. So, we have the data points.
+
+[2:18]
+It's very reasonable for you to be given these data points and asked to calculate the sample mean and the sample standard deviation for each group. So maybe just brush up on those from first semester. Usually, you're given the mean, but sometimes you'll have to calculate it. Sometimes you'll have to calculate the sample variance or standard deviation. In this case, it's easier to keep it at variance because the formula uses the variance.
+
+[2:50]
+But in any case, we have n one equal to 10, x bar one equal to two four six point four, and sample standard deviation or rather sample variance one one eight zero nine point eight two two two. Second group here, n two is 10, x bar two two zero two point three, and variance two one zero five eight point zero one one one. So notice that the sample sizes are the same. I just wanna emphasize again, this does not have to be the case. They are independent groups, so they don't have to have the same number of observations, bless you, in each one.
+
+[3:34]
+Okay. So the hypothesis that we are trying to work out here, it says, assuming both populations are approximately normally distributed with equal variances, is there a difference in mean sales? So our null hypothesis, mu one minus mu two, that is the difference in mean sales, would be zero. No difference. We start off assuming no difference, and we'll try and find evidence for a difference.
+
+[4:08]
+Then alternative mu one minus mu two not equal to zero, implying that there is a difference. It did not ask for any specific direction that the difference should take, so it didn't say, is there a positive difference? Is there a negative difference? It just says, is there a difference? And that's why we go with the two tailed test.
+
+[4:31]
+Then our test statistic calculation is step two, And we have to kind of split this up into two point one and two point two. And 2.1 would be finding the pooled variance. I emphasize that that comes first. Okay, and we learned that the pool variance is sb squared equal to n1 minuteus one times s1 squared which is variance one squared plus n two minus one times s two squared divided by n one plus n two minus two. Subbing everything in, N1 one is going to be nine times that sample variance of 1,809.8222 plus (n2-one) is also nine multiplied by ten fifty eight point zero one one one And then we divide by 10 plus 10 minuteus two, which would be 18.
+
+[5:57]
+This will give you one four three three point nine one six seven. We'll round to four decimal places. Generally, you should try and avoid this in an exam, but here, just for coherence with the slides, We are going to round four. And then 2.2, which is the actual calculation of the test statistic once we have the pooled variance. Is going to be the difference in sample means minus the difference in population means about divided by the standard error, which is the square root of s p squared times one over n one plus one over n two.
+
+[6:58]
+K. So notice this is not the denominator, but it forms a part of the denominator, which is why we needed to calculate it first. K. So the difference in sample means, we can get that from our data. So sample mean one is two four six point four.
+
+[7:21]
+Sample mean two is two zero two point three. Generally, the question will say which one they want to be x one and which one they want to be x two. So here they clearly labeled it for us. Then the difference in population mean... Well, remember that this comes back to what the null hypothesis is saying.
+
+[7:47]
+The null hypothesis is claiming there is no difference. So we will use that assumption of no difference. So hereby the difference in population means you will just sub in a zero. Basically, we'll have no effect on the numerator, but just to show you where it comes from, we can put that in there. And then we divide by one four three three nine one six seven times oneten plus oneten.
+
+[8:24]
+And that will give us 2.6041. So that is our t stat. And then step three would be the critical value. So very important to remember because this is now a t critical value, so it's dependent on degrees of freedom as well as alpha over two. The degrees of freedom for a two sample test...
+
+[9:24]
+I'm not saying two tail. I'm saying two sample, so where you have two groups. Is that. So it's not n minus one. We have to take into account both of our samples.
+
+[9:44]
+So this is what our degrees of freedom becomes. Basically, from each from each sample, you lose one degree of freedom because you have to estimate the mean first. So that is why the total degrees of freedom lost is two based on the total sample size of n one plus n two. Okay. So it's going to be t crit, which is equal to t dependent on n1 plus n2 minuteus two as well as alpha over two.
+
+[10:21]
+So that will be t depending on 18 degrees of freedom and alpha of 0.025. That will be... And we go to our calculator for that. K. So 18 goes in first, as our degrees of freedom.
+
+[10:52]
+Now remember, this is a probability to t value calculation, so we'll start with our degrees of freedom, and then we'll say shift inverse two, and then we'll provide our probability, and then we'll say equals. So 18 shift inverse two zero point zero two five equals. That is minus 2.1009, but I'll take it as plus minus since it's a two tailed test. Then we can come to our decision. So here are our two critical values.
+
+[11:50]
+So we've got minus 2.1 and plus 2.1. We've got zero in the middle and we had a tstat of 2.6041. That will end up somewhere to the right of our positive critical value, which would land it in the rejection region. So the decision since t stat of 2.6041 is greater than t crit of 2.1009, we reject the null hypothesis at alpha of 0.05. And then whenever we reject the null hypothesis, we have found sufficient evidence for the alternative, so there is sufficient evidence that the two groups are different.
+
+[14:24]
+And then the slides don't appear to have the p value approach, but I always show the p value approach as well because you could be asked either one in the exam. So let's just take it quickly from the p value approach. So reminder that the test statistic which we'll need is 2.6041. The p value this is a two tailed test so it's going to be two times the probability that t stat is less than minus 2.6041. Okay.
+
+[15:24]
+So this will be two times some probability. We'll get that from the calculator in a moment. Just showing you the steps here. It's a t value to a probability. So we are going to supply our degrees of freedom, then we're going to say shift straight to the t to p function, and then you'll put in your 2.6041.
+
+[15:50]
+Then remember to change the sign using plus minus because we want it as negative, and then you can say equals. And our degrees of freedom for this is the same as when we found the critical value. It's going to be n one plus n two minus two, so it will be 18. So we can start... We can say 18, and then we can say shift two, and then we can say 2.6041 and change the sign, and we can say equals.
+
+[16:29]
+That will be 0.008972. And then we can multiply that by two. And there's our final p value. And then the decision we can make, We can say p value of 0.01794 is less than alpha of 0.05, so we reject the null. And then I'm just going to say dot dot dot to imply that it's the same exact interpretation as we just had for the critical value approach.
+
+[17:36]
+The two approaches will never come to a different conclusion. If they do, then something has gone wrong in the calculations. And then, we can also emphasize that, the same approach or the same conclusion can be reached with the confidence interval. So this is how we would interpret the confidence interval or calculate and then interpret. So remember, even if I had not given you the formula for the confidence interval, which the slides did, I should be able to say give me a confidence interval, and you should be able to find it because it's just statistic plus minus critical value times standard error.
+
+[18:30]
+And statistic you get in the hypothesis test, critical value, you get in the hypothesis test, and standard error, you get in the hypothesis test. So none of the components we're going to use here are new. It's just a reuse of the same components for a different purpose. So here, it's the statistic that we observe, the difference in... The observed difference in sample means, plus minus the t value depending on degrees of freedom and alpha over two, and we multiply that with the standard error which is s p squared or square root of s p squared times one over n one plus one over n two.
+
+[19:17]
+So subbing everything in, we've got two four six point four minus two zero two point three plus minus. We just calculated our critical value as 2.1009, and we've got square root of one four three three point nine one six seven times one over 10 plus one over 10. So that will give us Okay. I just lost my calculation because I pressed the wrong button, so I'm gonna start over. Okay.
+
+[21:22]
+So it should be 35.57. I'm just going to take it to four decimal places, and then that should give you the following confidence interval. Okay. So there is the confidence interval, Slightly different from the slide's confidence interval. The problem is I rounded differently now than the slides rounded.
+
+[22:37]
+They rounded a different intermediate value than I did. But in an exam, again, I caution just round final answers. Don't round intermediate values because that's where problems start happening. We do have a certain tolerance, for wrong decimals, but best is to only round final answers. But the conclusion that we can reach...
+
+[23:03]
+So here is the lower bound. Here is the upper bound. The conclusion that we can reach... Remember that our null hypothesis is mu one minus mu two equals zero, and the alternative mu one minus mu two not equals zero. So the question that you ask yourself with the confidence interval, if you look at this null hypothesis value and you ask yourself, is it in the interval?
+
+[23:36]
+Okay. So we've got a positive value and we've got a positive value, which means that we never had to cross zero in this interval. So since, mu one minus mu two of zero is not in the interval, you would also come to the conclusion that you reject the null hypothesis at alpha equals 0.05, dot dot dot, meaning the other interpretation from the critical value approach also applies. Okay. Are there any questions about that?
+
+[24:37]
+Or does it make sense? Yes. Does not equal zero. Yeah. I can see how it looks like a 70, but it does not equal zero as the alternative hypothesis.
+
+[25:11]
+Okay. Right. So You'll see that in the slides, there are some Excel slides. We're not going to do those in class. I will show you how to do the Excel part in the TUTS, but I won't place as much emphasis on that from now on because now when we prepare, we prepare keeping in mind that a two is written, not on Excel.
+
+[25:54]
+So it would still be good if you knew how to do it in Excel. It's part of the outcome of this module, but I'll spend less time on the Excel. Then... K. We've...
+
+[26:09]
+We did briefly discuss this, but remember that we we kinda make the assumption that the two variances are equal between the two independent groups. There is a situation where the unknown variances are not equal. So now the two samples are no longer estimating the same thing. They are... You have to use each sample to estimate its own variance.
+
+[26:31]
+The way that you then have to combine the variance is different, and the steps of the t test is different. Luckily for you, this is not covered in the scope of this course. So you do not have to worry about that. I did the same thing with my research. If there's something very complicated that I do not wish to discuss in a paper or in my thesis, at the very end I just say, this and this and this is not in the scope of my study, and then I've covered myself, so I don't have to explain it any further.
+
+[27:09]
+So now we're going to quickly look at the the second case, which is related samples. I don't know how far we'll get or if we'll be able to do the example, but let's just start talking about it. At the very least, you'll then know kind of what it is before recess. And the reason I say before recess is because on Friday, I won't be speaking about chapter 10. I'll be speaking about the a one.
+
+[27:40]
+And remember, I'm not recording that one. So I'm speaking about it once, and then it's done. Okay. So Do you remember the distinction I made between independent groups and related samples? Spoke about it at the very beginning.
+
+[28:09]
+So remember that independent groups, if you're comparing two means, You might say I'm comparing average starting salary between UCT and Stellenbosch graduates. So I will take a sample from UCT, and I will take a sample from Stellenbosch. Here, n one does not necessarily have to equal n two, so the sample sizes don't necessarily have to be the same. They can be, but they don't have to be. The sampling is done independently.
+
+[29:44]
+So the two groups are sampled randomly and independently from each other. So what we did over here does not affect what we do over here. And the problem with this kind of setup or... Okay. Maybe I shouldn't call it a problem, but the characteristic of this kind of setup is that there's usually...
+
+[30:01]
+Because you've just taken two groups and you're observing something about them, there are many sources of variation. We're also not doing a person to person comparison with this kind of setup. We're doing an overall mean to overall mean comparison. Okay. That is what we have just concluded.
+
+[31:00]
+Those are the general characteristics of the type of test or the type of setup we've just concluded. Now we are moving over to related samples. And I'm... I specifically gave you a little summary of independent groups because I want you to see how it's now going to change when we come to related samples. So there are two types of ways we can do related samples generally.
+
+[31:41]
+The one is paired samples, and the other one is repeated measures. Okay. So in illustration, I like to always use the analogy of clinical trials because this type of design usually pops up in clinical trials. That does not mean that this is only a setup used in clinical trials. As you'll see in the example, they use a non medical example.
+
+[32:27]
+But it's just my preference to do it like this because it's often what is used in that setting. So it's a nice way to see how it happens. So, for example, you will have impaired samples a control group. So the control group will receive a placebo. Do you guys know what placebo is?
+
+[33:02]
+So it's... They'll get a little pill, but that pill will be basically a sugar pulse or just any other substance that's not supposed to have any effect on the body. And then you'll also have a treatment group. So the treatment group will actually receive treatment. So they have a group where they're given nothing, so that's the baseline, and then they have a group where they're given the actual treatment.
+
+[33:47]
+And we're going to compare, does treatment group end up looking different from baseline group? And it's important to have a baseline to start the comparison with. What they're going to try to do... Yes? So they...
+
+[34:09]
+It's it's basically a double blind study where... I think the person might be aware that if they're... If they know how clinical trials work, they might be aware that they're either gonna get the drug or the placebo, but they're not supposed to be told that they're... Which one they're getting. So it's double blind in the sense that the patient doesn't know whether they are getting treatment or placebo, and then the person administering the treatment doesn't know if they are giving the treatment or the placebo.
+
+[34:37]
+In reality, this often doesn't work that way. It's called breaking blind. So somehow the person will figure it out, but it's supposed to be as controlled as possible. So the idea here is to try and have similar pairs across groups. So, here we have treatment pair or treatment group and here we have control group.
+
+[35:15]
+So, you'll have person one in treatment, you'll have person one in control, you'll have person two in treatment, you'll have person two in control, and so on and so on. Here, n1 has to equal n2 because you have to have a matched pair each time. This is very important. Now you can't have the case where n one can possibly be different than n two. And you're going to try and make it so that this person and this person are similar so that there is fair grounds for comparison.
+
+[36:01]
+So one of the main aims with related samples is to try and reduce sources of variation so that the only source of variation is whether you're actually giving the treatment. And that is done so that nothing confounds the effects of the study. You can't have, the person in the treatment group, person number one in treatment, be someone who has very obvious health issues, and then person one in control group is a very healthy individual. That will confuse the study. So, ideally, they'd have twins or...
+
+[36:40]
+That doesn't always work out that way. So it has been done where they have a a set of twins, and one twin goes into treatment and one twin goes into control, and then it's very nice to see, the effects of the treatment, but that doesn't always happen. So at the very least, they try and have them be similar health profiles or age profiles or some similar set of demographics. Okay. So there are two distinct groups, but we try and pair them up as well as possible.
+
+[37:10]
+And each person will have a little friend. So person in treatment will have some related person in control, and we're going to be comparing what happens between those two people directly. Now with repeated measures, that's the other way you can do this. So the difference is it's one group, and you measure before treatment and after treatment. Okay.
+
+[37:49]
+So you'll have before, so here we'll have person one, two, and so on and so on. But we don't take a new person for after, we take that same person and we just look at what happened to them after the treatment and what was the result after the treatment on some timeline. This kind of study design has its own challenges. So some people will fail to show up for their follow-up measurement. Sometimes they're not studied in a hospital setting.
+
+[38:34]
+They might be asked to return for after measurement and some don't. This happens too. People die before they can be measured after. It does happen. So this kind of study also has its own problems.
+
+[38:50]
+So all sorts of measurement error comes in, and then you you have to discard that observation entirely. So paired samples has the challenge of how to match people. Repeated measures has the challenge of people might drop out of the study due to refusing to keep going or some sort of unfortunate circumstance. So what we'll do, how we actually treat these values statistically, is I'm going to now change it from treatment and control and before and after just to a generic x one and x two. So x one could be treatment, it could be before.
+
+[39:35]
+This is your x one group and this is your x two group. So that could be before. That could be... X one could be before. It could be treatment, or x two could be after or control.
+
+[39:49]
+Doesn't really matter. So you'll you'll have observation x one one, x one two, x one three, all the way up to x one n. Then for this group here, you'll have x two one, x two two, x two three, all the way down to x two one... I mean, x two n. You'll then create a new column, which is your differences.
+
+[40:26]
+So you will have difference one be equal to x one one minus x two one. So you take the difference across these. Difference two will be equal to x one two minus x two two, so you'll take the difference across these and so on and so on until you have indifferences. So here, you'll have your set of differences. And then you'll work out the mean of differences.
+
+[41:40]
+So the mean is just the simple arithmetic mean. So d with a bar on top to indicate that it's the mean equal to one over n summation from I equals one up to n of each d I difference. You'll work out the standard deviation of differences. So we call that s d, and that is the square root of one over n minus one times the summation from I equals one to n of each difference minus its mean squared. Okay.
+
+[42:37]
+So slightly different notation, but it's the same way to get an average and the same way to get a standard deviation as we are used to. And this comes to a t stat, which is used for the hypothesis test, which will have the sample mean observed... Of the observed differences minus the hypothesized differences divided by the standard deviation of the differences over the square root of n. This should look very familiar to you because it's literally your t test statistic from a one sample setting, which has just been given some slightly updated notation. So this is the sample mean of the differences.
+
+[43:43]
+This is the hypothesis mean, and this is the standard error. And what do you guys think the degrees of freedom are here? Yes. N minus one. Why?
+
+[44:11]
+Because it's only one group. We'd started with two groups, but then we combined them into one row or one column of differences. So now it is again back to... It's... It was a two sample setting, but it went to a one sample setting.
+
+[44:26]
+So very important. The degrees of freedom are now n minus one. K. So a big source of mistakes in chapter 10 work is in the first setting, the independent group setting, forgetting that the degrees of freedom have changed to n one plus n two minus two, and then coming to the second setting, the related sample setting, forgetting that the degrees of freedom revert back to what they were for chapter nine. Alright.
+
+[45:18]
+And then we definitely won't have time for the example, so we'll start that when we are fresh again. But you can have a look in the meantime at the form of the hypotheses. I will talk about it again, but if you'd like to look ahead at that. And then for those of your friends that have opted to not come to the classes, just remind them that the work goes on. So if they have missed these classes, it is...
+
+[45:54]
+The onus is on them to watch the videos because I am... I have to... Okay.

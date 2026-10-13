@@ -1,0 +1,42 @@
+SDS188 QUICK ANALYSIS — MAC INSTALL / ADD-IN SETUP
+
+WHAT YOU HAVE
+• SDS188_QUICK_ANALYSIS_C.xlsx
+  Macro-free fallback with the full manual control panels.
+• SDS188_QUICK_ANALYSIS_ADDIN.bas
+  VBA module for one-click analysis of the currently highlighted numeric range.
+
+FASTEST MAC SETUP
+1. Open Excel.
+2. Open a blank workbook and save it as an Excel Macro-Enabled Workbook (.xlsm).
+3. Open the VBA editor:
+   Tools > Macro > Visual Basic Editor
+   (or Developer > Visual Basic if the Developer tab is visible).
+4. In the VBA editor choose File > Import File...
+5. Select SDS188_QUICK_ANALYSIS_ADDIN.bas.
+6. Save the workbook.
+7. Return to Excel and highlight a numeric data range.
+8. Run:
+   Tools > Macro > Macros > SDSQuickAnalysis > Run.
+9. Optional: add SDSQuickAnalysis to the Quick Access Toolbar for one-click use.
+
+TURN IT INTO A TRUE EXCEL ADD-IN (.xlam)
+1. Import the .bas module into a macro-enabled workbook as above.
+2. File > Save As.
+3. Choose Excel Add-In (.xlam) as the file format.
+4. Save it.
+5. In Excel open Tools > Excel Add-ins (or the Add-ins section in Preferences).
+6. Browse to the .xlam and enable it.
+7. Add SDSQuickAnalysis to the Quick Access Toolbar if you want a permanent button.
+
+THE ONE-CLICK MACRO ASKS FOR
+• Confidence level.
+• Population sigma if known; blank means sample s + Student t.
+• Finite population N (optional).
+• Whether sampling was without replacement.
+• Hypothesised mean mu0 (optional).
+• Tail: TWO / LOWER / UPPER.
+
+IMPORTANT
+Only use macros, add-ins or pre-built workbooks if the assessment rules permit them.
+The .xlsx workbook is deliberately macro-free so you still have a safe study/practice fallback.

@@ -1,0 +1,458 @@
+
+===== PAGE 1 =====
+SU Corporate
+Horizontal with slogan
+Module Framework
+Statistics and Data Science 14223-188
+2026
+Contents
+1 Introduction 2
+1.1 The purpose of the module framework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.2 What are statistics and data science? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.3 Module aim . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.4 Module outcomes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.5 Language of instruction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+2 Administration 3
+2.1 Communication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+2.2 Module convenor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.3 Lecturer & additional information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.4 Groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.5 Lecture times . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+3 Resources 4
+3.1 Prescribed textbook . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+3.2 Additional resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+4 Learning methodology 5
+4.1 Method of instruction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+4.2 Practical sessions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+4.3 EMSLearn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+4.4 Linear Programming for B.Acc Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+4.5 Copyright . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+5 Assessment 6
+5.1 Main assessments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+5.2 Assessment Further (AF) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+5.3 Third assessment (A3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+5.4 Assessment opportunities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+5.5 Religious and cultural days . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+5.6 Calculation of marks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+5.7 Pass requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+5.8 Access to Assessment 3 (A3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+1
+===== PAGE 2 =====
+1 Introduction
+1.1 The purpose of the module framework
+This module framework contains important information regarding the content, assessment and administra-
+tion of the module. The module framework is a document that is regarded as an agreement between the
+lecturer and student that could be amended during the year . Please take note of any formal announcements
+on the learning platform EMSLearn in this regard.
+1.2 What are statistics and data science?
+As a result of the information explosion, decisions are becoming increasingly based on large volumes of
+data. Statistics is a way to get information from data. Statistics is concerned with the drawing of objective
+conclusions from investigations where outcomes are subject to uncertainty and variability. Internationally,
+Statistics is a compulsory service module in almost every study program leading towards a professional
+qualification. People in this field are appointed amongst others as statisticians, data-mining experts, data
+scientists, data engineers, and statistical analysts in the marketing, information, and management divisions
+of companies.
+Statistics is also helpful in predicting diseases, medical studies, genetic research, climate change research,
+political campaigns, insurance investigations, manufacturing consumer goods, performing quality testing
+and analysing the stock market. Statistics is the process of collecting, measuring, analysing, and communi-
+cating information to aid decision making within an organisation. Students trained in Statistics develop the
+ability for abstract reasoning, enabling them to make informed decisions based on statistical data.
+Data Science is the combination of Statistics, Computer Science, and domain knowledge to build data-driven
+products that help companies extract meaningful information from their data. Data scientists use data to
+build products for businesses that aid decision making. Statistics and Data Science 188 introduces the fun-
+damental concepts of data science, and present introductory statistical tools used in the data science pro-
+fession.
+1.3 Module aim
+Statistics and Data Science 188 is an introductory course in practical data description and data analysis. The
+objective of the module is to expose students to basic statistical concepts, exploratory data analysis, proba-
+bility theory, hypothesis testing and regression analysis. All these topics will be applied to datasets using the
+Excel computer software.
+1.4 Module outcomes
+After the successful completion of this module you will be able to:
+•Define, solve, analyse, and interpret a linear programming problem (online topic for B-Accounting -
+SAICA requirement).
+•Understand basic statistical concepts and definitions.
+2
+===== PAGE 3 =====
+•Define the fundamental concepts of data science and describe the data cycle.
+•Recognise and discuss ethical issues inherent to data science and statistics.
+•Effectively create graphical displays of statistical information in datasets.
+•Define the basic concepts of probability theory.
+•Contextually identify and analyse various probability and sampling distributions.
+•Demonstrate fundamental knowledge of statistical inference.
+•Statistically model the linear relationship between variables.
+•Report on the results obtained from statistical analyses.
+•Apply statistical methods to datasets using Excel.
+1.5 Language of instruction
+This course subscribes to the language option 7.1.4 as described in the Faculty’s language plan. In brief,
+lectures will be offered only in English. Support will be provided as required for Afrikaans-speaking students.
+Students are divided into groups based on their particular timetables.
+Slides, tutorials and assessments are made available in both English and Afrikaans.
+2 Administration
+2.1 Communication
+The Announcements on EMSLearn serve as a unilateral source of information between lecturers and stu-
+dents. Announcements are formal and binding. The onus is on students to stay up to date with these an-
+nouncements.
+We strongly encourage the use of theForum for General Useon EMSLearn as a primary platform to post
+any queries or concerns. This platform can become a very useful resource since there is a high likelihood
+that your query or concern is shared by other students. We also encourage students to assist one another
+by replying to posts directly. The staff involved on the course will also be keeping an eye on the forum and
+they will also take turns to respond.
+You can discuss personal concerns or make an appointment with your lecturer directly. Their email addresses
+are indicated below. Should theForum for General Useand/or the course email or queries raised with your
+lecturer not be sufficient, you can contact the course convenor , Ms Zoë-Mae Adams. Please do not contact
+the convenor before exhausting the other alternatives.
+Should all the above fail to address your concerns, an appeal can be directed to the chairman of the Depart-
+ment, Professor Justin Harvey at jharvey@sun.ac.za. The department telephone number is (021) 808 3244 and
+the physical address is: 2nd Floor – Entrance 5, Van der Sterr building.
+3
+===== PAGE 4 =====
+2.2 Module convenor
+Name Office E-mail address Group
+Ms Z Adams Van der Sterr 2003 zadams@sun.ac.za Group 3
+2.3 Lecturer & additional information
+Name Office E-mail address Group
+Dr MMC Lamont Van der Sterr 2022 mmcl@sun.ac.za 1st semester Group 1
+Mr H Sadiq Van der Sterr 2028 hassans@sun.ac.za 2nd semester Group 2
+Mr H Bakker Van der Sterr 2007 hbakker@sun.ac.za Group 5
+Ms K Stapelberg Van der Sterr 2009 kstapelberg@sun.ac.za Groups 4 and 6
+Mr C Hildebrand Van der Sterr 2009 24821950@sun.ac.za 1st semester Group 2, 2nd semester Group 1
+Please note: Appointments with lecturers need to be arranged directly with the lecturers through their email
+addresses.
+2.4 Groups
+At registration students will automatically be placed into their designated groups.
+Students are divided into groups for lectures and practical sessions and will mostly be allocated to different
+lecture and practical groups.
+Please note: a student may for example be allocated to group 2 for lectures and group 6 for their practical
+sessions.
+It is important that students remain in their allocated groups. Failure to do so can lead to overcrowding.
+2.5 Lecture times
+Consult MySun for details of your groups’ lecture and practical session times and venues. The attendance of
+all activities are compulsory.
+3 Resources
+3.1 Prescribed textbook
+Statistics for Managers Using Microsoft Excel, 9th Edition
+Authors: Levine, Stephan, Krehbiel, and Szabat.
+Printers: Pearson
+4
+===== PAGE 5 =====
+3.2 Additional resources
+•Computer software: Microsoft Excel
+The course makes extensive use of Microsoft Excel to demonstrate concepts related to statistics and
+data science. Students have access to computers with the required software during the practical lec-
+tures. Students are also allowed to make use of the computer rooms on campus to practice using
+Excel. Please note that Microsoft Office 365 (Word, Excel, PowerPoint) is freely available, and students
+can download it via MySUN.
+•Calculator (compulsory): HP 10bII+
+A document on how to use the calculator is available on EMSLearn. Note this calculator is also compul-
+sory for Theory of Interest 152 and has additional statistical methods that standard scientific calculators
+do not.
+4 Learning methodology
+4.1 Method of instruction
+Principles of adult learning, with an emphasis on blended learning, will be applied. You are invited to partic-
+ipate interactively in this module and ask questions whenever anything is unclear .
+There are three formal lecture periods and there is one practical session, consisting of two periods, every
+week for each group.
+Lectures will take place in lecture halls and will be used to explain the theory and applications of the differ-
+ent topics in Statistics and Data Science. The practical sessions will take place in a computer venue where
+lecturers will demonstrate the application of statistical concepts and the use of Excel.
+Students are strongly encouraged to attempt the tutorial questions on their own before being shown how to
+do them.
+4.2 Practical sessions
+Tutorials on every chapter will be made available for students to work on in their own time. The weekly
+practical sessions will be used by lecturers to illustrate the methods used in solving the tutorial problems.
+Attendance at all practical and lecture sessions are compulsory.
+Memoranda in both English and Afrikaans for the tutorials will be made available after the relevant practical
+sessions.
+It is important to attempt the problems yourself before the answers are discussed in the practical sessions.
+5
+===== PAGE 6 =====
+4.3 EMSLearn
+EMSLearn is an integral part of this module and should be consulted daily for announcements, resources,
+communication and learning activities. EMSLearn is the platform that is used to electronically link students
+and lecturers and where, for example, messages can be exchanged, questions can be asked and extra in-
+formation about courses can be obtained. As a registered student for Statistics and Data Science 188 you
+automatically have access to the module on EMSLearn. When you log in to EMSLearn, Statistics and Data
+Science 14223-188 will be one of the modules you can choose from.
+4.4 Linear Programming for B.Acc Students
+Students in B.Accounting are required to complete a course in Linear Programming. The online resource will
+be made available at the start of the midyear recess. During the first week of the third term B.Acc students
+are required to complete a quiz assessment on EMSLearn. These results will be passed on to the School of
+Accounting as part of the requirements of the South African Institute of Chartered Accountants and will be
+considered as part of the final mark calculations.
+Please note, only students registered in a B.Accounting are required to do this. For example, students in a
+B.Com Management Accounting or a B.Com with accounting subjects are not required to complete this.
+4.5 Copyright
+Stellenbosch University holds the copyright to all material in this module. Material which is made available
+through EMSLearn may be subject to certain licencing conditions. You may only use the material for your own
+private study and research at the University and not for any other purpose. Printed material is also only made
+available for class discussion, private study and research purposes. Further reproduction or distribution of
+such material is prohibited. Contravention of these rules will result in disciplinary action and may result in
+legal action.
+5 Assessment
+The Faculty’s Assessment Rules are available online atwww.su.ac.za/en/faculties/economy/current-students.
+Please watch the information video on your module’s EMSLearn page and make sure you read the section
+on Assessment in the module framework carefully. The faculty’s approach to assessment places the respon-
+sibility of learning with the student. Therefore, you must make use of all available assessment opportunities
+as far as possible and ensure you understand how assessment in the module works.
+5.1 Main assessments
+This course has two main assessments per semester . The first assessment in each semester (A1S1 and A1S2)
+will be a computer-based assessment primarily focused on testing the student’s competency in Excel. The
+second main assessment in a semester (A2S1 and A2S2) will be written. Further details will be made available
+during the semesters.
+6
+===== PAGE 7 =====
+5.2 Assessment Further (AF)
+The objective of the AF is to promote continuous learning throughout the module. It gives students the
+opportunity to regularly test their knowledge, and quickly identify areas that require more work.
+These take the form of regular online quizzes that students will have one week to complete. These assess-
+ments AFS1 after the first semester and AFS2 in the second will each contribute 5% to the final mark. For each
+semester , the lowest mark will be discounted in the calculations.
+Please refer to EMSLearn for the dates when each online assessment is available.
+Each AF quiz will be available for one week and will cover the content of a specific chapter . Students get one
+attempt during the week for which they have one hour to complete the assessment.
+Please note: B.Accounting students have an additional Linear Programming AF , which will form part of their
+AFS2 mark. Note, only the lowest non-Linear Programming mark will be dropped in the calculations.
+5.3 Third assessment (A3)
+For students who have missed a main assessment and students who have not achieved a pass mark at the
+end of the year , a final opportunity to pass is provided in the form of a second exam (A3). Details of access to
+the A3 are provided below.
+5.4 Assessment opportunities
+Assessment 1 Semester 1(A1S1)
+Thursday 23 April
+Details to be confirmed
+Weight: 0.10
+Assessment 2 Semester 1(A2S1)
+Monday 01 June 09h00
+Weight: 0.25
+Assessment Further Semester 1(AFS1)
+Weight: 0.05
+Assessment 1 Semester 2(A1S2)
+Saturday 29 August
+Details to be confirmed
+Weight: 0.25
+Assessment 2 Semester 2(A2S2)
+Friday 06 November 14h00
+Weight: 0.3
+Assessment Further Semester 2(AFS2)
+Weight: 0.05
+Assessment 3(A3)
+Tuesday 01 December 14h00
+Weight: 0.4
+7
+===== PAGE 8 =====
+5.5 Religious and cultural days
+In addition to public holidays, during which the University will be closed for business, no assessments will be
+scheduled on specific religious and cultural days that are noted in the SU Almanac. If any main assessment
+is scheduled on a religious or cultural day not included in the almanac, it is the student’s responsibility to
+request special arrangements. The following apply:
+•For A2S1, A2S2 and A3 the Assessment Office will make the necessary arrangements where possible.
+Contact the Assessment Office in the course of the last two class weeks of the semester .
+•For A1S1 and A1S2 the department/school will make the necessary arrangements if it is feasible in
+accordance with the arrangements usually made by the Assessment Office for A2S1, A2S2 and A3. If
+a student wants to request special arrangements, they must contact the lecturer at least two weeks
+beforeeachassessment opportunity.
+5.6 Calculation of marks
+[Please note that Example calculations in this section does not cover all possible scenarios]
+The calculation of your final mark (FM) is based on a weighted formula. The formulas are as follows:
+MY(Mid-Year)mark calculated after A2S1:
+M Y= ( wAFS1
+wsum
+)AFS1+ ( wA1S1
+wsum
+)A1S1+ ( wA2S1
+wsum
+)A2S1
+wherew sum is the sum of the weights for the assessments a student has completed.
+Note, the weight of the AFS1 will be included irrespective of whether a student wrote them.
+Students will receive a MY mark only if they wrote at least one of A1S1 and A2S1.
+MTD(Mark T o Date)calculated after A1S2 but before A2S2:
+M T D= ( wAFS1
+wMTD
+)AFS1+ ( wA1S1
+wMTD
+)A1S1+ ( wA2S1
+wMTD
+)A2S1+ ( wAFS2
+wMTD
+)AFS2+ ( wA1S2
+wMTD
+)A1S2
+wherew MTD is the sum of the weights for the assessments a student has completed.
+Note, the weight of the AFS1 and AFS2 will be included irrespective of whether a student wrote them.
+8
+===== PAGE 9 =====
+Example calculation 1 (completed all assessments):
+Marks obtained:
+•AFS1:60/100
+•A1S1:75/100
+•A2S1:40/100
+•AFS2:60/100
+•A1S2:55/100
+wMTD = 0.05 + 0.1 + 0.25 + 0.05 + 0.25 = 0.7
+M T D= ( 0.05
+0.7 )∗60 + ( 0.1
+0.7 )∗75 + ( 0.25
+0.7 )∗40 + ( 0.05
+0.7 )∗60 + ( 0.25
+0.7 )∗55
+= 4.29 + 10.71 + 14.29 + 4.29 + 19.64
+= 53.21
+Example calculation 2 (missed one assessment):
+Marks obtained:
+•AFS1:60/100
+•A1S1:75/100
+•A2S1:40/100
+•AFS2:60/100
+•A1S2: missed
+wMTD = 0.05 + 0.1 + 0.25 + 0.05 + 0 = 0.45
+M T D= ( 0.05
+0.45 )∗60 + ( 0.1
+0.45 )∗75 + ( 0.25
+0.45 )∗40 + ( 0.05
+0.45 )∗60 + ( 0
+0.45 )∗0
+= 6.67 + 16.67 + 22.22 + 6.67 + 0
+= 52.22
+9
+===== PAGE 10 =====
+Example calculation 3 (missed two assessments):
+Marks obtained:
+•AFS1:60/100
+•A1S1: missed
+•A2S1:40/100
+•AFS2:60/100
+•A1S2: missed
+wMTD = 0.05 + 0 + 0.25 + 0.05 + 0 = 0.35
+M T D= ( 0.05
+0.35 )∗60 + ( 0.1
+0.35 )∗0 + ( 0.25
+0.35 )∗40 + ( 0.05
+0.35 )∗60 + ( 0.25
+0.35 )∗0
+= 8.57 + 0 + 28.57 + 8.57 + 0
+= 45.71
+FM1(First Final Mark)calculated after A2S2:
+F M1 = ( wMTD
+wsum
+)MTD+ ( wA2S2
+wsum
+)A2S2
+wherew sum =w MTD +w A2S2.
+FM1 is assigned only if you wrote at least two of the following three assessments, namely A1S1, A2S1, A1S2,
+in addition to having written A2S2.
+Example calculation 4 (completed all assessments):
+Marks obtained:
+•AFS1:60/100
+•A1S1:75/100
+•A2S1:40/100
+•AFS2:60/100
+•A1S2:55/100
+•A2S2:65/100
+wsum = 0.7 + 0.3 = 1
+M T D= 53.21
+F M1 = ( 0.7
+1 )∗53.21 + ( 0.3
+1 )∗65
+= 37.25 + 19.50
+= 56.75
+10
+===== PAGE 11 =====
+Example calculation 5 (missed one assessment):
+Marks obtained:
+•AFS1:60/100
+•A1S1:75/100
+•A2S1:40/100
+•AFS2:60/100
+•A1S2: missed
+•A2S2:65/100
+wsum = 0.45 + 0.3 = 0.75→1
+M T D= 52.22
+F M1 = ( 0.45
+1 )∗52.22 + ( 0.3
+1 )∗65
+= 23.50 + 19.50
+= 43
+If a student missed for example A1S1 and A1S2, and still completed A2S2, the FM1 is not assigned.
+If a student missed the A2S2, they must complete the A3. (Refer to 5.7 Pass requirements)
+FM2(Second Final Mark)calculated after A3:
+F M2 = ( wMTD
+wsum
+)MTD+ ( wA2S2
+wsum
+)A2S2+ ( wA3
+wsum
+)A3
+wherew sum =w MTD +w A2S2 +w A3 if you wrote A2S2 and A3, orw sum =w MTD +w A3 if you wrote A3 and not
+A2S2.
+FM2 is assigned only if you wrote at least three main assessments of which at least one must be A2S2 or A3.
+11
+===== PAGE 12 =====
+Example calculation 6 (completed all assessments):
+Marks obtained:
+•AFS1:50/100
+•A1S1:25/100
+•A2S1:40/100
+•AFS2:50/100
+•A1S2:55/100
+•A2S2:47/100
+•A3:66/100
+wsum = 0.7 + 0.3 + 0.4 = 1.4
+M T D= 44.64
+F M1 = 45.35
+F M2 = ( 0.7
+1.4 )∗44.64 + ( 0.3
+1.4 )∗47 + ( 0.4
+1.4 )∗66
+= 22.32 + 10.07 + 18.86
+= 51.25
+Example calculation 7 (missed the A2S2):
+Marks obtained:
+•AFS1:50/100
+•A1S1:25/100
+•A2S1:40/100
+•AFS2:50/100
+•A1S2:55/100
+•A2S2: missed
+•A3:66/100
+wsum = 0.7 + 0 + 0.4 = 1.1
+M T D= 44.64
+F M2 = ( 0.7
+1.1 )∗44.64 + ( 0
+1.1 )∗0 + ( 0.4
+1.1 )∗66
+= 28.41 + 0 + 24.00
+= 52.41
+12
+===== PAGE 13 =====
+When calculating the MY mark, MTD or a FM using the formulas please note the following:
+•w sum is the total weight of all the assessment opportunities you completed. Even if you missed main
+assessment opportunities the total weight will at least be 1.
+•For all missed main assessment opportunities. (A1S1, A2S1, A1S2, A2S2 and A3), the weight of the rele-
+vant assessment will be reduced to zero in the mark calculation formula (howeverw sum will never be
+less than 1).
+•Your FM for the module is the highest of FM1 or FM2.
+5.7 Pass requirements
+AvalidFM ofat least 50is required to pass the module. Please take note in the calculation of final marks of
+the requirement that thesum of weights needing to be at least one. This implies a penalty for missed main
+assessments.
+T o obtain avalid final markyou must:
+•Complete at least one of A2S2 or A3
+•Complete at least three main assessment opportunities
+If you do not obtain avalidfinal mark, you will fail the module.
+5.8 Access to Assessment 3 (A3)
+Note that it is not necessary to submit medical certificates or any other documents for missed assessment
+opportunities.
+You have access to A3 if either of the following applies:
+•If you completed all the main assessment opportunities other than A3 (A1S1, A2S1, A1S2, A2S2) but have
+not obtained a FM of 50 or more, you have access to A3 in order to improve your FM to 50.
+•You missed one or two main assessment opportunities (A1S1, A2S1, A1S2, A2S2) for whatever reason. In
+this case, a FM of 50 or more can still be obtained if you make use of A3.
+No further assessment opportunities will take place after A3.
+If you passed the module after A2S2 and you have access to A3 (because you missed a main assessment)
+you must inform the Registrar’s Office through the relevant procedure on SUNStudent of your intention to
+use the A3 assessment opportunity. This notification must be submitted by no later than 48 hours after the
+final marks after A2S2 have been released.
+Take note:If you are a final-year student and make use of A3, graduation will only be possible in March/April
+of the next academic year .
+13

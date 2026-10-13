@@ -1,0 +1,60 @@
+SDS188 A1S2 2026 - FINAL_FROZEN PRESENTATION-ONLY GREYSCALE REBASE AUDIT
+Date: 2026-08-25
+
+SOURCE OF TRUTH
+SDS188_A1S2_2026_FINAL_FROZEN.docx
+Bytes: 803,441
+SHA-256: e25c10b3699dc3b33cfa48ce9ffe5157bfd45b17992505d35681c44675b6e2f4
+
+OUTPUT DOCX
+SDS188_A1S2_2026_FINAL_FROZEN_PRESENTATION_ONLY_GREYSCALE.docx
+Bytes: 674,761
+SHA-256: d2e3079ef2348741829e89e1dd82a4e4b2a09cb70009b5baf823906009007ad6
+
+OUTPUT PDF
+SDS188_A1S2_2026_FINAL_FROZEN_PRESENTATION_ONLY_GREYSCALE.pdf
+Bytes: 1,163,384
+SHA-256: 082b132e3cbe78d3ec2c0c4b09cf852ee4eccfe863c4634a5d6f67469c0a830f
+Pages: 61
+Page size: A4
+
+ZERO-SUBSTANTIVE-TEXT GATE
+PASS.
+- Source document.xml w:t nodes: 3,474
+- Output document.xml w:t nodes: 3,474
+- Source visible document-text characters: 155,525
+- Output visible document-text characters: 155,525
+- Exact source/output document-text SHA-256: 694796dbd1915c579cb488617338abb86c4e08f7ffefc165395d3cf56f25e1e5
+- Package-wide visible Word XML text (document + header + footer) is also byte-for-byte text-identical.
+- Package-wide visible-text SHA-256: c1465fb63c8dee5954bda766eaafdd955b9f2960be6f65110a5ff9846874d060
+- No learning wording, formulas, examples, questions, answers, sources, scope statements, or practice-test bridge text was edited.
+
+PRESENTATION REBASE METHOD
+- Prior presentation-only greyscale DOCX used as the visual donor.
+- 2,161 source paragraphs matched to the donor and received the same presentation formatting.
+- 1,910 matched with identical run sequences for maximum formatting fidelity.
+- 32 later FINAL_FROZEN paragraphs absent from the older donor were retained verbatim and styled with the same black/white/grey visual grammar.
+- 114 structurally matching tables received donor table presentation formatting.
+- Embedded raster media were converted to greyscale.
+- Fonts/hierarchy follow the prior presentation-only fork (Arial-based compact print hierarchy; Courier New where donor formatting used it).
+
+PAGINATION-ONLY CLEANUP
+- 58 empty hard-page-break carrier paragraphs were converted into page-break-before formatting.
+- Workspace-rule paragraphs were compacted as presentation-only line objects to avoid orphan pages.
+- 3 empty paragraphs immediately before page-break-before chapter/lesson starts were removed; they contained no visible text.
+- These changes affect pagination only, not substantive text.
+
+FINAL RENDER / PRINT QA
+PASS.
+- DOCX rendered successfully to PDF and 61 page PNGs.
+- Unintended blank / near-blank pages: 0.
+- Edge/clipping flags: 0.
+- Pages containing non-greyscale rendered pixels: 0.
+- Central symmetric normal-interval patch is present on page 10.
+- Skewness/kurtosis SDS188 course rule is present on page 11.
+- Bounded official Practice Test Q4 numerical-power bridge is present on page 54.
+- Final Chapter 8/9 transition was visually rechecked after orphan-page repair.
+
+STATUS
+PASS - FINAL_FROZEN CONTENT PRESERVED; PRESENTATION-ONLY GREYSCALE REBASE COMPLETE.
+The original FINAL_FROZEN DOCX remains the substantive authority. The new DOCX/PDF are presentation-only study/print derivatives of those exact learning bytes.

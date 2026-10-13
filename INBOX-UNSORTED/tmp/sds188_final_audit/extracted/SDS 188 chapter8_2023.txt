@@ -1,0 +1,397 @@
+
+===== PAGE 1 =====
+Confidence Interval Estimation
+Chapter 8
+
+===== PAGE 2 =====
+ObjectivesIn this chapter, you learn:nTo construct and interpret confidence interval estimates for the mean and the proportion.nTo determine the sample size necessary to develop a confidence interval for the mean or proportion.nTo apply finite population correction to population means and proportions.nTo apply bootstrapping to determine confidence intervals for non-normal distributions.
+===== PAGE 3 =====
+Chapter OutlinenConfidence Intervals for the Population Mean, μ:nwhen Population Standard Deviation σis Known.nwhen Population Standard Deviation σis Unknown.nConfidence Interval for the Population Proportion, π.nDetermining the Required Sample Size.nUse of Finite Population Correction and Bootstrapping
+===== PAGE 4 =====
+Point and Interval EstimatesnA point estimateis a single number. nA confidence intervalprovides additional information about the precision of the estimate.
+Point EstimateLower Confidence Limit UpperConfidence LimitWidth of confidence interval
+DCOVA
+===== PAGE 5 =====
+We can estimate a Population Parameter …
+Point Estimates
+with a SampleStatistic(a Point Estimate)MeanProportionpπXμ
+DCOVA
+===== PAGE 6 =====
+Characteristics of estimatorsUNBIASEDNESSnAnunbiasedestimatorofapopulationparameterisanestimatorwithanexpectedvalueequaltotheparameter.CONSISTENCYnAnunbiasedestimatorisconsistentifthedifferencebetweentheestimatorandtheparameterbecomessmallerasthesamplesizeincreases.
+Copyright reserved6
+===== PAGE 7 =====
+Characteristics of estimatorsRELATIVEEFFICIENCYnIftherearetwounbiasedestimatorsofaparameter,theonewiththesmallervarianceissaidtoberelativelymoreefficient.
+Copyright reserved7
+===== PAGE 8 =====
+Confidence IntervalsnHow much uncertainty is associated with a point estimate of a population parameter?nAn interval estimateprovides more information about a population characteristic than does a point estimate.nSuch interval estimates are calledconfidence intervals.
+DCOVA
+===== PAGE 9 =====
+Confidence Interval EstimatenAn interval gives a rangeof values:nTakes into consideration variation in sample statistics from sample to sample.nBased on observations from 1 sample.nGives information about closeness to unknown population parameters.nStated in terms of level of confidence:ne.g. 95% confident, 99% confident.nCan never be 100% confident.
+DCOVA
+===== PAGE 10 =====
+Confidence Interval ExampleCereal fill examplenPopulation has µ = 368 and σ= 15.nIf you take a sample of size n = 25 you know:n368 ±1.96 * 15 /  25  = (362.12, 373.88) contains 95% of the sample means of sample size 25.n95% of the intervals formed in this manner will contain µ.nWhen you don’t know µ, you use X to estimate µ.nIf X = 362.3 the interval is 362.3 ±1.96 * 15 /  25   = (356.42, 368.18).nSince 356.42 ≤ 368 ≤ 368.18 the interval based on this sample makes a correct statement about µ.
+But what about the intervals from other possible samples of size 25?
+DCOVA
+===== PAGE 11 =====
+Confidence Interval Example(continued)
+Sample #XLowerLimitUpperLimitContainµ?1362.30356.42368.18Yes2369.50363.62375.38Yes3360.00354.12365.88No4362.12356.24368.00Yes5373.88368.00379.76Yes
+DCOVA
+===== PAGE 12 =====
+Confidence Interval ExamplenIn practice you only take one sample of size n.nIn practice you do not know µ so you do not know if the interval actually contains µ.nHowever, you do know that 95% of the intervals formed in this manner will contain µ.nThus, based on the one sample you actually selected, you can be 95% confident your interval will contain µ (this is a 95% confidence interval).
+(continued)
+Note:  95% confidence is based on the fact that we used Z = 1.96.
+DCOVA
+===== PAGE 13 =====
+Estimation Process
+(mean, μ, is unknown)PopulationRandom SampleMean   X = 50
+Sample
+We can be 95% confident that μis between 40 & 60.
+DCOVA
+===== PAGE 14 =====
+General FormulanThe general formula for all confidence intervals is:Point Estimate ±(Critical Value)(Standard Error)where:•Point Estimateis the sample statistic estimating the population     parameter of interest.•Critical Valueis a table value based on the sampling distribution of the point estimate and the desired confidence level.•Standard Erroris the standard deviation of the point estimate.
+DCOVA
+===== PAGE 15 =====
+Confidence LevelnConfidence the interval will contain the unknown population parameter.nA percentage (less than 100%).
+DCOVA
+===== PAGE 16 =====
+Confidence Level, (1-a)nSuppose confidence level = 95%.   nAlso written (1 -a) = 0.95, (so a= 0.05).nA relative frequency interpretation:n95% of all the confidence intervals that can be constructed will contain the unknown true parameter.nA specific interval either will contain or will not contain the true parameter:nNo probability involved in a specific interval.
+(continued)DCOVA
+===== PAGE 17 =====
+Confidence Intervals
+Population Mean
+σUnknown
+ConfidenceIntervals
+PopulationProportion
+σKnown
+DCOVA
+===== PAGE 18 =====
+Confidence Interval for μ(σKnown) nAssumptions:nPopulation standard deviation σis known.nPopulation is normally distributed.nIf population is not normal, use large sample (n > 30).nConfidence interval estimate:
+where            is the point estimateZα/2is the normal distribution critical value for a probability of a/2 in each tailis the standard error
+n
+σ
+/2
+ZX
+α
+±
+Xnσ/
+DCOVA
+===== PAGE 19 =====
+Finding the Critical Value, Zα/2
+nConsider a 95% confidence interval:
+Zα/2= -1.96Zα/2= 1.96
+0.05   so 0.951==-αα
+0.025
+2
+=
+α
+0.025
+2
+=
+α
+Point EstimateLower Confidence Limit UpperConfidence Limit
+Z units:X units:Point Estimate0
+1.96/2Z ±=α
+DCOVA
+===== PAGE 20 =====
+Common Levels of ConfidencenCommonly used confidence levels are 90%, 95%, and 99%.Confidence LevelConfidence Coefficient,Zα/2value1.2821.6451.9602.3262.5763.0903.291
+0.800.900.950.980.990.9980.999
+80%90%95%98%99%99.8%99.9%
+a-1DCOVA
+===== PAGE 21 =====
+μμx
+=
+Intervals and Level of Confidence
+Confidence Intervals
+Intervals extend from
+to    (1-a)100%of intervals constructed contain μ; (a)100%do not.
+Sampling Distribution of the Mean
+n
+σ
+2/αZX -
+n
+σ
+2/αZX +
+xx1x2
+/2a/2aa-1DCOVA
+===== PAGE 22 =====
+ExamplenA sample of 11 circuits from a large normal population has a mean resistance of 2.20 ohms.  We know from past testing that the population standard deviation, σis 0.35 ohms.  nDetermine a 95% confidence interval for the true mean resistance of the population.
+DCOVA
+===== PAGE 23 =====
+2.4068 1.9932
+0.2068  2.20
+)11(0.35/ 1.96  2.20
+n
+σ
+/2 ZX
+££
+±=
+±=
+±
+μ
+α
+ExamplenA sample of 11 circuits from a large normal population has a mean resistance of 2.20 ohms.  We know from past testing that the population standard deviation is 0.35 ohms.nSolution:
+(continued)DCOVA
+===== PAGE 24 =====
+InterpretationnWe are 95% confident that the true mean resistance is between 1.9932 and 2.4068 ohms.nAlthough the true mean may or may not be in this interval, 95% of intervals formed in this mannerwill contain the true mean.
+DCOVA
+===== PAGE 25 =====
+Confidence Intervals
+Population Mean
+σUnknown
+ConfidenceIntervals
+PopulationProportion
+σKnown
+DCOVA
+===== PAGE 26 =====
+Do You Ever Truly Know σ?nProbably not!nIn virtually all real world business situations, σis not known.nIf there is a situation where σis known then µ is also known (since to calculate σyou need to know µ.)nIf you truly know µ there would be no need to gather a sample to estimate it.
+===== PAGE 27 =====
+nIf the population standard deviation σis unknown, we can substitute the sample standard deviation, S.nThis introduces extra uncertainty, since  S is variable from sample to sample.nSo we use the t distributioninstead of the normal distribution.
+Confidence Interval for μ(σUnknown) DCOVA
+===== PAGE 28 =====
+nAssumptions:nPopulation standard deviation is unknown.nPopulation is normally distributed.nUse Student’s t  Distribution.nConfidence Interval Estimate:(where tα/2is the critical value of the t distribution with n -1 degrees of freedom and an area of α/2 in each tail.) 
+Confidence Interval for μ(σUnknown) 
+/2SXtna±
+(continued)DCOVA
+===== PAGE 29 =====
+nThe t is a family of distributions.nThe tα/2value depends on degrees of freedom (df).nNumber of observations that are free to vary after sample mean has been calculated.df = n -1
+Student’s t DistributionDCOVA
+===== PAGE 30 =====
+Idea:Number of observations that are free to varyafter sample mean has been calculated.Example:Suppose the mean of 3 numbers is 8.0.Let X1= 7Let X2= 8What isX3?If the mean of these three values is 8.0, then X3must be 9(i.e., X3is not free to vary)
+Degrees of Freedom (df)
+Here, n = 3, so degrees of freedom  = n –1 = 3 –1 = 2.(2 values can be any numbers, but the third is not free to vary for a given mean.)
+DCOVA
+===== PAGE 31 =====
+Student’s t Distribution
+t0
+t  (df = 5)t  (df = 13)t-distributions are bell-shaped and symmetric, but have ‘fatter’ tails than the normal
+Standard Normal(t with df= ∞)
+Note:  t       Z  as  n  increasesDCOVA
+===== PAGE 32 =====
+Student’s t Table (Table E.3)Upper Tail Areadf.10.05.02513.0786.31412.70621.88631.6382.3533.182
+t02.920The body of the table contains t values, not probabilities
+Let: n = 3     df = n-1 = 2 a= 0.10a/2 = 0.05
+a/2 = 0.05
+DCOVA
+4.3032.920
+===== PAGE 33 =====
+Selected t distribution valuesWith comparison to the Z-valueConfidence       t                 t                t              ZLevel       (10 d.f.)(20 d.f.)(30 d.f.)  (∞ d.f.)0.80    1.372         1.325         1.310       1.280.90             1.812         1.725         1.697       1.6450.95             2.228         2.086         2.042       1.960.99             3.169         2.845         2.750       2.58Note:  t       Z  as  n  increases
+DCOVA
+===== PAGE 34 =====
+A random sample of size n = 100 of travel times has a mean and standard deviation of X = 110.27 and S = 28.95.  Calculate a 95% confidence interval for μ.nd.f.= n –1 = 99,  soThe confidence interval is 
+Example of t distribution confidence interval
+/2 0.025t t 1.9842a==/2S 28.95X t 110.27 (1.9842)n 100a±= ±104.53 ≤ μ≤ 116.01
+DCOVA
+===== PAGE 35 =====
+Example of Excel Confidence Interval Output For Travel Time SampleDCOVA
+
+===== PAGE 36 =====
+Example of t distribution confidence intervalnInterpreting this interval requires the assumption that the population you are sampling from is approximately a normal distribution.nThis condition can be checked by creating a:nNormal probability plot or anBoxplot.
+(continued)DCOVA
+===== PAGE 37 =====
+Confidence Intervals
+Population Mean
+σUnknown
+ConfidenceIntervals
+PopulationProportion
+σKnown
+DCOVA
+===== PAGE 38 =====
+Confidence Intervals for the Population Proportion, πnAn interval estimate for the population proportion ( π) can be calculated by adding an allowance for uncertainty to the sample proportion (p).
+DCOVA
+===== PAGE 39 =====
+Confidence Intervals for the Population Proportion, πnRecall that the distribution of the sample proportion is approximately normal if the sample size is large, with standard deviation:
+nWe will estimate this with sample data:
+(continued)
+n
+p)p(1 -
+n
+)(1
+σ p
+pp -
+=
+DCOVA
+===== PAGE 40 =====
+Confidence IntervalnUpper and lower confidence limits for the population proportion are calculated with the formula:
+nwhere nZα/2is the standard normal value for the level of confidence desirednp     is the sample proportionnn     is the sample size.nNote:  must have np > 5 and n(1-p) > 5.
+n
+p)p(1
+/2
+Zp
+-
+±
+α
+DCOVA
+===== PAGE 41 =====
+ExamplenA random sample of 100 people shows that 25 are left-handed. nCalculate a 95% confidence interval for the population proportion of left-handers.
+DCOVA
+===== PAGE 42 =====
+ExamplenA random sample of 100 people shows that 25 are left-handed. Calculate a 95% confidence interval for the population proportion of left-handers.
+ /1000.25(0.75)1.9625/100
+p)/np(1/2Zp
+±=
+-± α
+0.3349   0.1651 
+3)1.96(0.0430.25 
+££=
+±=
+p
+(continued)DCOVA
+===== PAGE 43 =====
+InterpretationnWe are 95% confident that the population percentage of left-handers is between 16.51% and 33.49%.  nAlthough the interval from 0.1651 to 0.3349  may or may not contain the population proportion, 95% of intervals formed from samples of size 100 in this manner will contain the population proportion.
+DCOVA
+===== PAGE 44 =====
+Example of Excel Confidence Interval for π DCOVA
+
+===== PAGE 45 =====
+Determining Sample Size
+For the Mean
+DeterminingSample SizeFor theProportion
+DCOVA
+===== PAGE 46 =====
+Error of EstimationnThe error of estimation is defined as the difference between an estimator and a parameter.nWe aim to find the sample size required for a maximum error of estimation, namely the margin of error (e)with a specified level of confidence (1 -a).nThe margin of error is also called sampling error:nthe amount of imprecision in the estimate of the population parameter.nthe amount added and subtracted to the point estimate to calculate the confidence interval.
+DCOVA
+===== PAGE 47 =====
+Determining Sample Size
+For the Mean
+DeterminingSample Size
+n
+σ
+2/α
+ZX ±
+n
+σ
+2/α
+Ze =
+Sampling error (margin of error)
+DCOVA
+===== PAGE 48 =====
+Determining Sample Size
+For the Mean
+DeterminingSample Size
+n
+σ
+2/α
+Ze =
+(continued)
+2
+22
+2/
+e
+Z
+n
+sa
+=
+Now solve for n to get
+DCOVA
+===== PAGE 49 =====
+Determining Sample SizenTo determine the required sample size for the mean, you must know:nThe desired level of confidence (1 -a), which determines the critical value, Zα/2.nThe acceptable margin of error (sampling error), e.nThe standard deviation, σ.
+(continued)DCOVA
+===== PAGE 50 =====
+Required Sample Size ExampleThe population of download times for a particular video file has a standard deviation of s= 25 seconds. If a random sample is taken, what sample size is needed to estimate µ within ±5 seconds with 95% confidence?  
+(Always round up)
+22 2 222Zσ (1.96) (25)n 96.04e5== =So the required sample size is n = 97
+DCOVA
+===== PAGE 51 =====
+Example Using Excel For Calculating Sample Size For The Mean Video Download TimeDCOVA
+
+===== PAGE 52 =====
+If σis unknownnIf unknown, σcan be estimated when using the required sample size formula.nUse a value for σthat is expected to be at least as large as the true σ.nSelect a pilot sample and estimate σwith the sample standard deviation, S.
+DCOVA
+===== PAGE 53 =====
+Determining Sample SizeDeterminingSample Size
+For theProportion
+2
+2
+/2
+e
+)(1Z
+n
+ππ -
+=
+a
+Now solve for  n  to getn
+)(1
+Ze
+ππ -
+=
+(continued)DCOVA
+===== PAGE 54 =====
+Determining Sample SizenTo determine the required sample size for the proportion, you must know:nThe desired level of confidence (1 -a), which determines the critical value, Zα./2.nThe acceptable sampling error, e.nThe true proportion of events of interest, π.nπcan be estimated with a pilot sample if necessary (or conservatively use 0.5 as an estimate of π.)
+(continued)DCOVA
+===== PAGE 55 =====
+Required Sample Size ExampleHow large a sample would be necessary to estimate the true proportion of sales invoices containing errors in a large population within ±7%,with 95% confidence?(Assume a pilot sample yields  p = 0.15.)
+DCOVA
+===== PAGE 56 =====
+Required Sample Size ExampleSolution:For 95% confidence, use Zα/2= 1.96e = 0.07p = 0.15, so use this to estimate π.
+So use  n = 100
+99.96
+(0.03)
+0.15)(0.15)(1(1.96)
+e
+)π(1πZ
+n
+2
+2
+2
+2
+2/
+=
+-
+=
+-
+=
+a
+(continued)DCOVA
+===== PAGE 57 =====
+Example Excel Output For Calculating Sample Size For A ProportionDCOVA
+
+===== PAGE 58 =====
+Ethical IssuesnA confidence interval estimate (reflecting sampling error) should always be included when reporting a point estimate. nThe level of confidence should always be reported. nThe sample size should be reported.nAn interpretation of the confidence interval estimate should also be provided.
+===== PAGE 59 =====
+Section 8.7:Interval and Sample Size Estimation for Finite Populations
+Online Topic
+
+===== PAGE 60 =====
+ObjectivesIn this topic, you learn:nWhen to use a finite population correction factor in calculating a confidence interval for either µ or π.nHow to use a finite population correction factor in calculating a confidence interval for either µ or π.nHow to use a finite population correction factor in calculating a sample size for a confidence interval for either µ or π.
+===== PAGE 61 =====
+Use A fpc When Sampling More Than 5% Of The Population (n/N > 0.05)DCOVAConfidence Interval For µ with a fpc/21SN nXtNna-±-Confidence Interval For πwith a fpc
+1)1(2/---±NnNnppzpa
+A fpc simplyreduces thestandard errorof either thesample mean orthe sample proportion
+===== PAGE 62 =====
+Confidence Interval for µ with an fpcDCOVA10s 50,X 100,n 1000,N Suppose====
+)88.51 ,12.48(  88.15011000100100010010984.1501 :for  CI 95%2/
+=±=--±=--±NnNnstXaµ
+===== PAGE 63 =====
+Determining Sample Size with a fpcnCalculate the sample size (n0) without a fpc:nFor µ:                            . nFor π:                            .nApply the fpc utilizing the following formula to arrive at the final sample size (n).nn = n0N / (n0+ (N-1)).
+DCOVA
+22/202Zneas=2/202(1 )Zneap- p=
+===== PAGE 64 =====
+Section 8.8:Bootstrapping
+Online Topic
+
+===== PAGE 65 =====
+ObjectivesIn this topic we discuss:nThe concept of bootstrapping.nWhen bootstrapping might be appropriate to use.nHow to use bootstrapping to calculate a confidence interval for a population mean.
+===== PAGE 66 =====
+Bootstrapping Is A Method To Use When Population Is Not NormalTo estimate a population mean using bootstrapping, you would:1.Select a random sample of size n without replacement from a population of size N.2.Resample the initial sample by selecting n values with replacement from the initial sample.3.Compute X from this resample.4.Repeat steps 2 & 3 m different times.5.Construct the resampling distribution of X.6.Construct an ordered array of the entire set of resampled X’s.7.In this ordered array find the value that cuts off the smallest α/2(100%) and the value that cuts off the largest α/2(100%).  These values provide the lower and upper limits of the bootstrap confidence interval estimate of μ.
+DCOVA
+===== PAGE 67 =====
+Bootstrapping Requires The Use of SoftwarenTypically a very large number (thousands) of resamples are used.nSoftware is needed to:nAutomate the resampling process.nCalculate the appropriate sample statistic.nCreate the ordered array.nFind the lower and upper confidence limits.
+DCOVA
+===== PAGE 68 =====
+Bootstrapping Example: Processing Time of Life Insurance ApplicationsDCOVA
+73 19 16 64 28 28 31 90 60 56 31 56 22 18 45 48 17 17 17 91 92 63 50 51 69 16 17Sample of 27 taken without replacement from population
+From boxplot conclude population is not normal so the standard confidence interval calculation is not appropriate.Use bootstrapping to calculate a confidence interval for μ.
+
+===== PAGE 69 =====
+Comparing the original sample to the first resample with replacementDCOVA
+73 19 16 64 28 28 31 90 60 56 31 56 22 18 45 48 17 17 17 91 92 63 50 51 69 16 17Sample of 27 taken without replacement from population
+The initial bootstrap resample omits some values (18, 45, 50, 63, and 91) that appear in the initial sample above.  Note that the value of 73 appears twice even though it appears only once in the initial sample.16 16 16 17 17 17 17 17 19 22 28 31 31 51 56 56 60 60 64 64 64 64 69 73 73 90 92
+===== PAGE 70 =====
+The Ordered Array of Sample Means for 100 ResamplesDCOVA31.592633.925935.407436.518536.629636.963037.037037.074137.148137.370437.925938.111138.148138.222238.296338.740738.814838.851938.888939.000039.185239.333339.370439.666740.148140.518540.629640.925940.963041.259341.296341.703741.888942.074142.111142.185242.851943.074143.185243.370443.444443.703743.814843.851943.851943.925943.963044.148144.407444.555644.777845.000045.444445.518545.555645.666745.740745.851945.963045.963046.000046.111146.296346.296346.333346.333346.481546.666746.740746.963047.074147.222247.296347.370447.481547.481547.555647.666747.851948.518548.888949.000049.222249.444449.481549.481549.629649.629649.740750.296350.407450.592650.925951.407451.481551.592651.925952.370453.407454.3333
+Fifth Smallest
+Fifth Largest
+===== PAGE 71 =====
+Finding a 90% Bootstrap CI for The Population MeannTo find the 90% CI for 100 resamples we need to find the 0.05(100) = 5thsmallest and the 5thlargest values.nFrom the table the 5thsmallest value is 36.6296 and the 5thlargest value is 51.5926.nThe 90% bootstrap CI is (36.6296, 51.5926).
+DCOVA
+===== PAGE 72 =====
+Chapter SummaryIn this chapter we discussed:nThe construction and interpretation of confidence interval estimates for the mean and the proportion.nThe determination of the sample size necessary to develop a confidence interval for the mean and the proportion.nFinite population correction for confidence intervals.nBootstrapping.

@@ -1,0 +1,326 @@
+
+===== PAGE 1 =====
+CHAPTER 7 - Sampling Distributions
+SDS188
+2026
+1 Introduction
+We use the sample statistic to estimate population parameters.
+How do we estimate the unknown population parameters?
+Calculate the sample statistic
+BUT
+The statistic is calculated for that specific sample and does not give any information about the other
+samples selected from the population. A solution for this is the development of a sampling distribution.
+¯x Sample x: x1, x2, ..., xn
+For the sample, one can calculate the ¯x, but this only provides information about the one randomly
+1
+===== PAGE 2 =====
+selected sample (with or without replacement). The same sample will result in the same mean, which
+is likely not close to the population parameter (Slide 6). What about the other possible samples from
+the population?
+¯x
+¯x
+¯x
+¯x
+¯x
+¯x
+¯x
+¯x
+¯x
+¯x ¯x
+¯x¯x
+Each sample has its own sample mean.
+X:
+Sample 1 = x1, x2, ..., xn − →¯x
+Sample 2 = x1, x2, ..., xn − →¯x
+...
+Sample ... = x1, x2, ..., xn − →¯x
+The means of each sample can be seen as a data set, ¯x1, ¯x2, ...
+The population or access to the population is not always available. How do we get the means of the
+other samples?
+SOLUTION − →sampling distributions
+Sampling distributions allow us to use one statistic to estimate the parameter . The sampling
+distribution is the distribution of the calculated measures of all of the possible samples from
+the population.
+2
+===== PAGE 3 =====
+1.1 Standard error
+As with any distribution, the sampling distribution is described by an expected value and a variance.
+We see that the different samples result in different means.
+How do we measure the variation among the means ?
+The usual measure of variation that we would have used, is the standard deviation. For the sampling
+distribution, we use the standard error.
+Suppose that the samples are selected from an infinite population with or without replacement, the
+standard error of the mean is calculated as:
+σ ¯X = σ√n
+The standard error is influenced by the sample size (n)
+n ↑, σ ¯X ↓
+n ↓, σ ¯X ↑
+THUS for the estimator ¯X, E( ¯X) = µ ¯X = µ, V ar( ¯X) = σ2¯X = σ2
+n
+2 Sampling distribution of the sample mean
+Parameter:
+µ
+3
+===== PAGE 4 =====
+2.1 Assumptions
+• The population X ∼ N (µ, σ2)
+• σ is known
+2.2 The distribution of the sample mean
+¯X ∼ N (µ, σ2
+n )
+The parameters of the normally distributed X can be used to develop a sampling distribution.
+• E( ¯X) = E(X) = µ
+• V ar( ¯X) = σ2
+n
+*Here are some short proofs if this is ever asked :
+E( ¯X) = E( 1
+n
+∑
+X)
+= 1
+n
+∑
+E(X)
+= 1
+n
+∑
+µ
+= 1
+n (nµ)
+= nµ
+n
+= µ
+4
+===== PAGE 5 =====
+V ar( ¯X) = V ar( 1
+n
+∑
+X)
+= 1
+n2
+∑
+V ar(X)
+= 1
+n2
+∑
+σ2
+= 1
+n2 (nσ2)
+= σ2
+n
+2.3 Z-values
+Since ¯X is normally distributed, we can also use Z-values to calculate the sampling distribution of ¯X.
+Z = X − µ
+σ − →Z =
+¯X − µ
+σ√n
+2.4 Probabilities
+Typical questions for this chapter requires the calculation of probabilities.
+Steps:
+1. P ( ¯X < ¯x) (Can draw the curve like in Ch 6)
+2. Transform ¯x into Z − →P (Z < z )
+3. Calculate the probability by means of the Z-table, HP calculator or Excel
+HP calculator: z − →
+Excel: =NORM.S.DIST( z,TRUE) OR =NORM.DIST( ¯x,µ, σ√n ,TRUE)
+5
+===== PAGE 6 =====
+2.5 Interval that contains a percentage of sample means
+Between which values do 95% of the sample means lie?
+Given: %, µ, σ, n, and the assumption that X ∼ N (µ, σ2)
+Lower limit ¯XL = µ + (Z × σ√n )
+Upper limit ¯XU = µ + (Z × σ√n )
+The Z-values being referred to here depend on the percentage and whether it is the lower or upper
+limit. This can be determined by means of the Z-table, HP calculator or Excel.
+HP calculator: P (Z < z ) − →
+Excel: =NORM.S.INV( P (Z < z ))
+If we are interested in 95% of the observations:
+For ¯XL: The corresponding Z-value for 0.05
+2 = 0.025
+The Z-value for 0.025 is z α
+2
+= −1.96
+¯XL = µ + (−1.96 × σ√n )
+For ¯XU : The corresponding Z-value for 1 − 0.05
+2 = 0.975
+The Z-value for 0.975 is z1− α
+2
+= 1.96
+¯XU = µ + (1.96 × σ√n )
+95% of the sample means lie between ¯XL and ¯XU
+If we are interested in 90% of the observations:
+For ¯XL: The corresponding Z-value for 0.1
+2 = 0.05
+6
+===== PAGE 7 =====
+The Z-value for 0.05 is z α
+2
+= −1.645
+¯XL = µ + (−1.645 × σ√n )
+For ¯XU : The corresponding Z-value for 1 − 0.1
+2 = 0.95
+The Z-value for 0.95 is z1− α
+2
+= 1.645
+¯XU = µ + (1.645 × σ√n )
+90% of the sample means lie between ¯XL and ¯XU
+2.6 What if sigma is unknown?
+¯X ∼ tn−1
+T =
+¯X − µ
+s√n
+Calculation of probabilities ( P (t < t calc)):
+HP calculator: df − →
+ − →tcalc
+Excel: =T .DIST(tcalc,df,TRUE)
+7
+===== PAGE 8 =====
+3 Sampling distribution van sample proportion
+Parameter:
+π
+3.1 Assumptions
+• The population X ∼ binomial(n, π)
+• n × π > 5 en n × (1 − π) > 5
+3.2 The distribution of the sample proportion
+p ∼ N (π, π × (1 − π)
+n )
+The parameters of the normally distributed p can be used to develop the sampling distribution.
+• E(p) = π
+• V ar(p) =
+√
+π×(1−π)
+n
+3.3 Z-values
+Since p is normally distributed, one can also calculate Z-values for the sampling distribution.
+Z = p − π√
+π×(1−π)
+n
+8
+===== PAGE 9 =====
+3.4 Probabilities
+Typical questions for this chapter requires the calculation of probabilities.
+Steps:
+1. P (p < p )
+2. Transform p into Z − →P (Z < z )
+3. Calculate probability by means of Z-table, HP calculator or Excel
+HP calculator: z − →
+Excel: =NORM.S.DIST( z,TRUE) OR =NORM.DIST( ¯x,µ, σ√n ,TRUE)
+4 Sampling distribution of difference between sample means
+Parameter:
+µ1 − µ2
+4.1 Assumptions
+• The populations X1 ∼ N (µ1, σ2
+1) and X2 ∼ N (µ2, σ2
+2)
+• σ1 and σ2 are known
+4.2 The distribution of the difference between sample means
+¯X1 − ¯X2 ∼ N (µ1 − µ2, σ2
+1
+n1
++ σ2
+2
+n2
+)
+9
+===== PAGE 10 =====
+Properties:
+• E( ¯X1 − ¯X2) = µ1 − µ2
+• V ar( ¯X1 − ¯X2) = σ2
+1
+n1
++ σ2
+2
+n2
+4.3 Z-values
+Since ¯X1 − ¯X2 is normally distributed, one can also use Z-values to calculate the sampling distribution.
+Z =
+¯X1 − ¯X2 − (µ1 − µ2)√
+σ2
+1
+n1
++ σ2
+2
+n2
+4.4 Probabilities
+Typical questions for this chapter requires the calculation of probabilities.
+Steps:
+1. P ( ¯X1 − ¯X2 < ¯x1 − ¯x2)
+2. Transform ¯x1 − ¯x2 into Z − →P (Z < z )
+3. Calculate probability by means of Z-table, HP calculator or Excel
+HP calculator: z − →
+Excel: =NORM.S.DIST( z,TRUE) OR =NORM.DIST( ¯x,µ, σ√n ,TRUE)
+10
+===== PAGE 11 =====
+How do we know which value to use for ¯x1 − ¯x2?
+What is the probability that
+the mean of group 1 is
+more/larger than the mean of
+group 2
+¯X1 > ¯X2 ¯X1 − ¯X2 > 0
+use the value
+of 0
+What is the probability that
+the mean of group 1 id
+less/smaller than the mean of
+group 2
+¯X1 < ¯X2 ¯X1 − ¯X2 < 0
+use the value
+of 0
+What is the probability that the
+mean of group 1 is equal to
+the mean of group 2
+¯X1 = ¯X2 ¯X1 − ¯X2 = 0
+use the value
+of 0
+What is the probability that
+the difference between the
+means of group 1 and group
+2 is more/larger than c
+¯X1 > ( ¯X2 + c) ¯X1 − ¯X2 > c
+use the value
+of c
+What is the probability that
+the difference between the
+means of group 1 and group
+2 us less/smaller than c
+¯X1 < ( ¯X2 + c) ¯X1 − ¯X2 < c
+use the value
+of c
+11
+===== PAGE 12 =====
+5 Questions
+5.1 Question 1
+The average time to complete a task is 727 milliseconds for Grade 3 students and 532 milliseconds for
+Grade 5 students. The variances for the groups are 12 000 and 10 000 respectively. These times are
+normally distributed. A random sample of 12 Grade 3 students and 14 Grade 5 students are selected.
+1. What is the expected difference in mean times between Grade 3 and Grade 5 students?
+2. What is the standard error of the difference in mean times between Grade 3 and Grade 5 stu-
+dents?
+3. What is the probability that the mean time of Grade 3 students exceeds the mean time of Grade
+5 students with 150 milliseconds or more?
+5.2 Question 2
+Why does the sampling distribution of the mean follow a normal distribution for a large enough sample
+size, even though the population may not be normally distributed?
+Choose the correct answer:
+(a) As the sample size becomes large enough for a distribution (that does not have any outliers),
+the sampling distribution of the mean is normally distributed.
+(b) As the sample size gets large enough, the sampling distribution of the mean is approximately
+normally distributed.
+(c) The sampling distribution of the mean is normally distributed for all sample sizes.
+12
+===== PAGE 13 =====
+(d) As long as the distribution is approximately normally distributed, the sampling distribution of the
+mean is normally distributed for any sample size.
+5.3 Question 3
+An orange juice producer buys oranges from a large orange grove that has one variety of orange.
+The amount of juice squeezed from these oranges is approximately normally distributed, with a mean
+of 120 ml and a standard deviation of 7 ml. Given a sample of 36 oranges.
+1. What is the probability that the sample mean amount of juice will be at least 128 ml?
+2. The probability is 74% that the sample mean amount of juice will be contained between which
+two values symmetrically distributed around the population mean. Calculate these values.
+5.4 Question 4
+A study in Country A reported that 36% of companies have three or more female board directors. The
+following sample consists of 100 respondents.
+1. What is the probability that the sample has between 31% and 40% of companies that have three
+or more female board directors?
+2. Why can the normal distribution be used to approximate the distribution of this statistic?
+13

@@ -1,0 +1,339 @@
+
+===== PAGE 1 =====
+1 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+DEPARTEMENT STATISTIEK EN AKTUARIËLE WETENSKAP 
+DEPARTMENT OF STATISTICS AND ACTUARIAL SCIENCE 
+ 
+STATISTIEK EN DATAWETENSKAP 188 
+STATISTICS AND DATA SCIENCE 188 
+ 
+TUTORIAAL 9 / TUTORIAL 9 
+ 
+1. Waarom is dit moontlik om die nulhipoteses te verwerp wanneer dit eintlik waar is? 
+/ Why is it possible to reject the null hypothesis when in fact it is true? 
+ 
+2. Vir ’n gegewe steekproefgrootte, indien 
+  verminder word van 0.05 na 0.01, wat sal 
+met 
+  gebeur? 
+/ For a given sample size, if 
+  is reduced from 0.05 to 0.01, what will happen to 
+ ? 
+ 
+3. Vir 
+100:0 =H , 
+100:1 H  en ’n steekproefgrootte 
+n , waarom is 
+  groter indien 
+
+ se werklike waarde 90 is eerder as 75?  
+/ For 
+100:0 =H , 
+100:1 H , and a sample size n, why is 
+  larger if the actual value 
+of µ is 90 rather than 75? 
+ 
+4. Indien jy ’n 0.10 betekenispeil in ’n (tweekantige) hipotesetoets gebruik, wat sal jou 
+beslissingsreël wees om die nulhipotese te verwerp dat die populasiegemiddeld 500 
+is indien u die Z-toets gebruik? 
+/ If you use a 0.10 level of significance in a (two -tail) hypothesis test, what is your 
+decision rule for rejecting a null hypothesis that the population mean is 500 if you use 
+the Z-test? 
+ 
+5. Wat is die boonste kritiekewaarde van die Z -toetsstatistiek by die 0.01 eenkantige 
+betekenispeil? Wat is jou besluit indien die berekende waarde van die Z -
+toetsstatistiek 2.39 is? 
+/ What is the upper tail critical value of the one-sided Z-test statistic at the 0.01 level of 
+significance? What is your statistical decision if the computed value of the Z-test statistic 
+is 2.39? 
+ 
+6. Wat is die onderste kritiekewaarde van die Z -toetsstatistiek by die 0.01 
+betekenispeil? Wat is u besluit indien die berekende waarde van die Z-toetsstatistiek  
+-1.15 is? 
+/ What is the lower -tail critical value of the Z -test statistic at the 0.01 level of 
+significance? What is your statistical decision if the computed value of the Z-test statistic 
+is -1.15? 
+===== PAGE 2 =====
+2 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+7. Veronderstel dat in ’n tweekantige hipotesetoets jy die waarde van die toetsstatistiek 
+Z bereken as 2.00. Wat is die p-waarde? Wat sou jou besluit indien jy die nulhipotese 
+by die 0.05 betekenispeil toets? 
+/ Suppose that in a two-tail hypothesis test you compute the value of the test statistic Z 
+as 2.00. What is the p-value? What is your decision if you test the null hypothesis at the 
+0.05 level of significance? 
+ 
+8. Gestel dat in ’n tweekantige hipotesetoets jy die waarde van die Z -toetsstatistiek as 
+−1.38 bereken. Wat is die p-waarde? Wat is jou besluit indien jy die nulhipotese by 
+die 0.01 betekenispeil toets? 
+/ Suppose that in a two-tail hypothesis test you compute the value of the test statistic Z 
+as −1.38. What is the p-value? What is your decision if you test the null hypothesis at the 
+0.01 level of significance? 
+ 
+9. Gestel dat in ’n eenkantige hipotesetoets waar H0 slegs in die onderste stert verwerp 
+word, jy die waarde van die Z -toetsstatistiek as -1.38 bereken. Wat is die p-waarde? 
+Wat is jou besluit indien jy die nulhipotese by die 0.01 betekenispeil getoets het? 
+/ Suppose that in  a one-tail hypothesis test where you reject H 0 only in the lower tail, 
+you compute the value of the Z-test statistic as -1.38. What is the p-value? What is your 
+decision if you tested the null hypothesis at the 0.01 level of significance? 
+ 
+10. Die bestuurder van ’n verfvoorraadwinkel wil bepaal of die gemiddelde hoeveelheid 
+verf in 3.7 5 kg blikke werklik 3.75 kg is. Jy weet vanuit die vervaardiger se 
+spesifikasies dat die populasie standaardafwyking van die hoeveelheid verf 0.08 kg is. 
+Jy kies ’n ewekansige steekproef van 50 blikke, en die gemiddelde hoeveelheid verf 
+per 3.75 kg blik is 3.73 kg. 
+/ The manager of a paint supply store wants to determine whether the mean amount of 
+paint contained in 3.75 kg cans is actually 3.75 kg. You know from the manufacturer’s 
+specifications that the population standard deviation of the amount of paint is 0.08 kg. 
+You select a random sample of 50 cans, and the mean amount of paint per 3.75 kg can 
+is 3.73 kg. 
+(a) Is daar getuienis dat die gemiddelde hoeveelheid verskil van 3.75 kg? (Gebruik die 
+kritiekewaarde benadering en 
+01.0= ) 
+/ Is there evidence that the mean amount is different from 3.75 kg? (Use the critical 
+value approach and 
+01.0= ) 
+(b) Bereken die p-waarde en interpreteer die betekenis. 
+/ Compute the p-value and interpret its meaning. 
+(c) Stel ’n 99% vertrouensinterval van die populasie gemiddelde hoeveelheid verf op. 
+/ Construct a 99% confidence interval of the population mean amount of paint. 
+(d) Vergelyk die resultate van (a) en (c). Watter gevolgtrekkings kan u maak? 
+/ Compare the results of (a) and (c). What conclusions do you reach? 
+===== PAGE 3 =====
+3 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+11. OTM’s moet met genoeg kontant voorsien word. Indien te veel kontant egter onnodig 
+in OTM’s gehou word, gee die bank die geleentheid prys om die geld te belê en rente 
+te verdien. Gestel dat by ’n spesifieke tak die populasie gemiddelde bedrag wat getrek 
+word per transaksie R500 is, met ’n populasie standaardafwyking van R120. 
+/ ATMs must be stocked with enough cash. But if too much cash is unnecessarily kept in 
+the ATMs, the bank is forgoing the opportunity of investing the money and earning 
+interest. Suppose that at a particular branch the population mean amount of money 
+withdrawn from ATMs per customer transaction is R 500 with a population standard 
+deviation of R120. 
+(a) Indien ’n ewekansige steekproef van 36 kliënte aandui dat die gemiddelde bedrag 
+wat onttrek word R550 is, is daar getuienis om te glo dat die populasie gemiddelde 
+onttrekkings nie R500 is nie, maar meer as R500? (Gebruik ’n 0.05 betekenispeil 
+en die kritiekewaarde benadering). 
+/ If a random sample of 36 customer transactions indicates that the sample mean 
+amount withdrawn is R550, is there evidence to believe that th e population mean 
+withdrawal amount is no longer R 500, but more than R 500? (Use a 0.05 level of 
+significance and the critical value approach.) 
+(b) Bereken die p-waarde en interpreteer die betekenis. 
+/ Compute the p-value and interpret its meaning. 
+ 
+12. Die toelatingsregistrateur van ’n universiteit moet ouers van voornemende studente 
+van inligting voorsien rakende handboekkoste gedurende ’n tipiese semester. Hy 
+selekteer ’n ewekansige steekproef van 25 studente en teken hulle handboekkoste 
+aan vir die semester. Hy bereken die steekproefgemiddelde as R1577 en die 
+steekproef standaardafwyki ng as R216. Aanvaar dat die populasie koste van 
+handboeke per semester normaal verdeel is. 
+/ The registrar of admissions at a university must advise parents of prospective students 
+about the cost of textbooks during a typical semester. He selected a random  sample of 
+25 students and recorded their textbook expenses for the semester. He then computed 
+the sample mean cost as R 1577 and the sample standard deviation as R 216. Assume 
+that the population cost of textbooks during a typical semester follows a normal 
+distribution. 
+(a) Gebruik die 0.10 betekenispeil en bepaal of daar getuienis is dat die populasie 
+gemiddelde groter is as R1500. Gebruik die kritiekewaarde benadering. 
+/ Using the 0.10 level of significance, is there evidence that the population mean 
+is above R1500? Use the critical value approach. 
+(b) Bereken die p-waarde (a). / Compute the p-value for (a). 
+ 
+13. ’n Vervaardiger van flitsbatterye neem ’n steekproef van 13 batterye uit ’n dag se 
+produksie en gebruik hulle aaneenlopend totdat hulle pap is. Aanvaar dat die leeftye 
+normaal verdeel is. Die leeftye van die batterye (in ure) is:  
+/ A manufacturer of flashlight batteries takes a sample of 13 batteries from a day’s 
+production and uses them continuously until they are flat. Assume that the life times of 
+the batteries are normally distributed. The life times of the batteries (in hours) are: 
+  
+342 426 317 545 264 451 1049 631 512 266 492 562 298 
+ 
+===== PAGE 4 =====
+4 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+By die 0.05 betekenispeil, is daar getuienis dat die gemiddelde leeftyd van die  
+batterye minder is as 500 uur is? 
+/ At the 0.05 level of significance, is there evidence that the mean life of the batteries is 
+less than 500 hours? 
+(a) Gebruik die kritiekewaarde benadering om die hipotesetoets te doen. 
+/ Use the critical value approach to perform this hypothesis test. 
+(b) Herhaal die hipotesetoets deur gebruik te maak van die p-waarde benadering. 
+/Repeat the hypothesis test using the p-value approach. 
+14.  Die volgende data verteenwoordig die inhoud van gaskoeldrank in ’n steekproef van 
+50 agtereenvolgende 2 -liter bottels. Die resultate, wat horisontaal gelys word in 
+dieselfde volgorde as waarin die bottels gevul is, is: 
+/ The following data represent the amount of soft drink filled in a sample of 50 
+consecutive 2-liter bottles. The results, listed horizontally in the order of being filled, are: 
+ 
+2.109 2.086 2.066 2.075 2.065 2.057 2.052 2.044 2.036 2.038 
+2.031 2.029 2.025 2.029 2.023 2.020 2.015 2.014 2.013 2.014 
+2.012 2.012 2.012 2.010 2.005 2.003 1.999 1.996 1.997 1.992 
+1.994 1.986 1.984 1.981 1.973 1.975 1.971 1.969 1.966 1.967 
+1.963 1.957 1.951 1.951 1.947 1.941 1.941 1.938 1.908 1.894. 
+ 
+By die 0.05 betekenispeil, is daar getuienis dat die gemiddelde gaskoeldrank -inhoud 
+verskillend is van 2 liter? 
+/ At the 0.05 level of significance, is there evidence that the mean amount of soft drink 
+filled is different from 2 liters?  
+(a) Gebruik die kritiekewaarde benadering om die hipotesetoets te doen. 
+/ Use the critical value approach to perform this hypothesis test. 
+(b) Herhaal die hipotesetoets deur gebruik te maak van die p-waarde benadering. 
+/Repeat the hypothesis test using the p-value approach. 
+ 
+15. Indien n = 200 en x = 50, stel ’n 95% vertrouensinterval vir die populasieproporsie 
+op. 
+/ If n = 200 and x = 50, construct a 95% confidence interval estimate of the population 
+proportion.  
+ 
+16. Om die probleem van die gebruik van selfone tydens bestuur te bestudeer (“Drivers 
+Using Cell Phones Have Problems”, USA Today , May 16, 2001, 1A), is ’n opname 
+gemaak van bestuurders wat selfone gebruik. In die opname het 46% van die 
+respondente rapporteer dat hul al moes uitdraai, en 10% het aangedui dat hul iemand 
+ken wat in ’n ongeluk betrokke was terwyl hul besig was met ’n gesprek op hul selfone. 
+Gestel die opname was gebaseer op 500 respondente. 
+/ To study the problem of using cell phones while driving ( “Drivers Using Cell Phones 
+Have Problems”, USA Today, May 16, 2001, 1A), a survey of drivers who use cell phones 
+was conducted. In the survey, 46% of the respondents reported having to swerve and 
+10% knew someone who was involved in an accident while talking on a cell phone. 
+Suppose the survey was based on 500 respondents. 
+===== PAGE 5 =====
+5 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+(a)  Stel ’n 95% vertrouensinterval op vir die proporsie van alle motorbestuurd ers 
+wat moes uitdraai.  
+/ Construct a 95% confidence interval for the proportion of all drivers who have had 
+to swerve. 
+(b) Stel ’n 99% vertrouensinterval op vir die proporsie van alle motorbestuurders wat 
+iemand ken wat in ’n ongeluk betrokke was terwyl hul b esig was met ’n gesprek 
+op hul selfone. 
+/ Construct a 99% confidence interval for the proportion of all drivers who know 
+someone who had been involved in an accident while talking on a cell phone. 
+ 
+17. Indien daar in ’n ewekansige steekproef van 400 items 88 defektief is, wat is die 
+steekproefproporsie defektiewe items? Indien die nulhipotese is dat 20% van die 
+items in die populasie defektief is, wat is die waarde van die Z-toetsstatistiek? 
+/ If, in a random sample of 400 items, 88 are defective, what is the sample proportion of 
+defective items ? If the null hypothesis is that 20% of the items in the population are 
+defective, what is the value of the Z-test statistic? 
+ 
+18. ’n Joernaal-artikel impliseer dat meer as die helfte van alle Suid-Afrikaners sal verkies 
+om eerder R100 te ontvang as ’n dag verlof by die werk. Hierdie stelling is gebaseer 
+op ’n steekproef waarin 593 uit 1040 respondente aangedui het dat hulle eerder die 
+R100 sal verkies. 
+/ A journal paper implies that more than half of all South Africans would  prefer being 
+given R100 rather than a day off from work. This statement is based on a survey in which 
+593 of 1040 respondents indicated that they would rather have the R100. 
+(a) By die 0.05 betekenispeil, is daar getuienis, gebaseer op die steekproefdata, dat  
+meer as die helfte van alle Suid-Afrikaners eerder R100 sal wil hê as ’n dag verlof 
+by die werk? Gebruik die kritiekewaarde benadering om die hipotesetoets te doen. 
+/ At the 0.05 level of significance, is there evidence, based on the survey data, that 
+more than half of all South Africans would rather have R 100 than a day off from 
+work? Use the critical value approach to perform this hypothesis test. 
+(b) Bereken die p-waarde en interpreteer die betekenis. 
+/ Compute the p-value and interpret its meaning. 
+19. ʼn Ouditeur ondersoek die werksopdragte by ʼn motorhandelaar om vas te stel of daar 
+enige afwykings is van die standaard werksprosedure. Rekords toon aan dat die 
+aantal  of werksopdragte  vir die jaar 11054 was. ʼn Ewekansige steekproef van 750 
+werksopdragte is geoudit en 87 het onreëlmatighede bevat. Beraam met 95% 
+vertroue die totale aantal werksopdragte wat onreëlmatighede bevat. 
+/ An auditor reviews the work orders at a car dealership to determine whether there 
+were any deviations from the standard operating procedure. Records indicate that the 
+number of work orders for the year totaled 11054. A random sample of 750 work orders 
+was audited and 87 were found to have some irregularities. Estimate with 95% 
+confidence the total number of work orders with irregularities. 
+===== PAGE 6 =====
+6 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+20. Meeste banke maak gebruik van kredietgradering om lenings toe te staan. ʼn Bank wil 
+vasstel of bestuurders wat die kredietgradering omseil tot verliese gelei het. Die 
+rekenmeester neem ʼn ewekansige steekproef van 85 van die 1864 lenings wat 
+toegeken is nadat die bestuurder die kredietgradering omseil het. Die aantal lenings 
+wat nie terugbetaal is n ie, is vyf. Bereken die 90% vertrouensinterval van die totale 
+aantal lenings wat toegestaan is deur die kredietgradering te omseil wat nie 
+terugbetaal is nie. 
+/ Most banks use credit scoring to make decisions about loan requests. A bank wants to 
+determine whether managers that override the credit scorecard has led to losses. The 
+accountant took a random sample of 85 of the 1864 loans that were granted after the 
+manager overrode the credit scorecard. The number of loans that resulted in a default 
+was five. Calculate the 90% confidence interval of the total number of loans granted by 
+overriding the scorecard that resulted in default. 
+ 
+21. ’n Muntstukgedrewe gaskoeldrankmasjien is ontwerp om minstens 200 ml koeldrank 
+per koppie met ’n standaardafwyking van 5.71 ml te skink. Jy stel belang om ’n 
+bewering te toets dat die masjien minder skink as die veronderstelde hoeveelheid. 
+Indien jy ’n ewekansige steekproef van 16 koppies selekteer en bereid is om ’n 
+05.0=
+ risiko vir ’n Tipe I fout te neem, bereken die onderskeidingsvermoë van die 
+toets, en die waarskynlikheid van ’n Tipe II fout (
+ ) indien die populasiegemiddelde 
+hoeveelheid geskink werklik: 
+/ A coin-operated softdrink machine is designed to dispense at least 200 ml of beverage 
+per cup with a standard deviation of 5.71 ml. You are interested in validating a claim 
+that the machine dispenses less than the designed amount. If you select a random sample 
+of 16 cups and you are willing to hav e an 
+05.0=  risk of committing a Type I error, 
+compute the power of the test and the probability of a Type II error (
+ ) if the population 
+mean amount dispensed is actually: 
+(a) 197 ml per koppie is. / 197 ml per cup. 
+(b) 194 ml per koppie is. / 194 ml per cup. 
+ 
+Indien jy bereid is om ’n 
+01.0=  risiko vir ’n Tipe I fout te aanvaar, bereken die 
+onderskeidingsvermoë van die toets en die waarskynlikheid van ’n Tipe II fout (
+ ) 
+indien die populasiegemiddelde hoeveelheid wat vrygestel word in werklikheid: 
+/ If you are willing to have an 
+01.0=  risk of committing a Type I error, compute the 
+power of the test and the probability of a Type II error (
+ ) if the population mean 
+amount dispensed is actually: 
+(c) 197 ml per koppie is. / 197 ml per cup. 
+(d) 194 ml per koppie is. / 194 ml per cup. 
+(e) Vergelyk die resultate in (a) en (b) met die resultate in (c) and (d). Watter 
+gevolgtrekkings kan jy maak? 
+/ Compare the results in (a) and (b) with (c) and (d). What conclusions can you 
+reach? 
+ 
+===== PAGE 7 =====
+7 
+Levine, D. M., Stephan, D. F. & Szabat K. A.. (2021). Statistics for Managers Using 
+Microsoft Excel. 9th edition, Pearson. 
+Kopiereg voorbehou / Copyright reserved 
+22. ’n Motorbandvervaardiger produseer hoë -werkverrigting bande met ’n gemiddelde 
+leeftyd van ten minste 25 000 km wanneer die vervaardigingsproses in -kontrole is. 
+Uit vorige ervaring is die standaardafwyking van die bande se leeftyd 3 500 km.  Die 
+bestuurder stop die vervaardigingsproses indien daar bewyse is dat die gemiddelde 
+leeftyd minder as 25 000 km is. Indien jy ’n ewekansige steekproef van 100 
+motorbande (wat aan destruktiewe toetsing onderwerp sal word) selekteer en bereid 
+is om ’n 
+05.0=  risiko vir ’n Tipe I fout te neem, bereken die onderskeidingsvermoë 
+van die toets en die waarskynlikheid om ’n Tipe II fout (
+ ) te begaan indien die 
+populasiegemiddelde leeftyd van die bande in werklikheid: 
+/ A tyre manufacturer produces high performance tyres that have a mean life of at least 
+25 000  km when the production process is in -control. Based on past experience, the 
+standard deviation of the tyres is 3 500  km. The operations manager stops the 
+production process if there is evidence that the mean life is below 25 000 km. If you select 
+a random sample of 100 tyres (to be subjected to destructive testing) and you are willing 
+to have an α = 0.05 risk of committing a Type I error, compute the power of the test and 
+the probability of  a Type II error (
+ ) if the population mean life time of the tyres is 
+actually: 
+(a) 24 000 km is. / 24 000 km. 
+(b) 24 900 km is. / 24 900 km. 
+ 
